@@ -1,4 +1,4 @@
-+++
+w+++
 title = "Sections and Pages"
 weight = 20
 +++

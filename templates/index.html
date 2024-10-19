@@ -28,6 +28,7 @@
             });
     </script>
 {% endif -%}
+
 <main>
     {# Create variable to allow appending index.html at end of links if set in config #}
     {% if not config.extra.easydocs_uglyurls or config.mode == "serve" or config.mode == "Serve" -%}
@@ -74,7 +75,9 @@
                     <ul class="subtree">
                         {% for page in subsection.pages -%}
                             <li {% if current_path == page.path %}class="active"{% endif %}>
-                                <a href="{{ page.permalink | safe }}{{ _ugly_url }}">{{ page.title }}</a>
+                                {% set name = page.title %}
+
+                                <a href="{{ page.permalink | safe }}{{ _ugly_url }}">{{ name }}</a>
                             </li>
 
                             {% if page.toc -%}

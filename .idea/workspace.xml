@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbfe60d9-34c8-42fa-ae2e-ddd34263131a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-old/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/alkaloids/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/glossary/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/glossary/fosfat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/glossary/gaba.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/glossary/nukleotid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/glossary/receptor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/neurotoxins/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/neurotoxins/ibotenic-acid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/adp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/amp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/atp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/camp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/cdp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/cmp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/ctp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/gdp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/gmp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/gtp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/tdp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/tmp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/ttp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/ump.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/nucleotids/utp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/shrooms/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/shrooms/amanita-muscaria.cs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/partials/_related_articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/linking.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/linking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/multilingual.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/multilingual.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/page.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/sass.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/sass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/search.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/section.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/section.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/shortcodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/shortcodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/syntax-highlighting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/syntax-highlighting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/table-of-contents.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/table-of-contents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/content/taxonomies.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/content/taxonomies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/github-pages.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/github-pages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/gitlab-pages.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/gitlab-pages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/netlify.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/netlify.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/deployment/vercel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/deployment/vercel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/cli-usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/cli-usage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/configuration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/directory-structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/directory-structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/getting-started/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/getting-started/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/404.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/archive.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/archive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/feeds/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/feeds/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/feeds/rss_feed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/feeds/rss_feed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/pages-sections.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/pages-sections.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/pagination.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/pagination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/robots.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/robots.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/sitemap.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/sitemap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/templates/taxonomies.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/templates/taxonomies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/themes/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/creating-a-theme.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/themes/creating-a-theme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/extending-a-theme.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/themes/extending-a-theme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/installing-and-using-themes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/themes/installing-and-using-themes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content-old/themes/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/anchor-link.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/anchor-link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme.toml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2nDfgIdIrqL74I2AvA5A62aMBiD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tomas.korcak/dev/psychonautic/content/nucleotids&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/nucleotids" />
+      <recent name="$PROJECT_DIR$/content/neurotoxins" />
+      <recent name="$PROJECT_DIR$/content/alkaloids" />
+      <recent name="$PROJECT_DIR$/content/shrooms" />
+      <recent name="$PROJECT_DIR$/content/glossary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/nucleotids" />
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/content/shrooms/amanita" />
+      <recent name="$PROJECT_DIR$/content/shrooms" />
+      <recent name="$PROJECT_DIR$/tmp" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbfe60d9-34c8-42fa-ae2e-ddd34263131a" name="Changes" comment="" />
+      <created>1728512676247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728512676247</updated>
+    </task>
+    <servers />
+  </component>
+</project>

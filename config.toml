@@ -1,5 +1,5 @@
 base_url = "https://easydocs.codeandmedia.com"
-title = "Docs"
+title = "Psychonautics"
 compile_sass = true
 build_search_index = true
 
@@ -9,7 +9,7 @@ highlight_theme = "base16-ocean-light"
 
 [extra]
 logo = "https://easydocs.codeandmedia.com/logo.svg"
-release = "https://api.github.com/repos/getzola/zola/releases/latest"
+#release = "https://api.github.com/repos/getzola/zola/releases/latest"
 favicon = "https://www.getzola.org/favicon.ico"
 easydocs_logo_always_clickable = false
 
@@ -22,4 +22,11 @@ easydocs_uglyurls = false
 
 # Minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5.
 # Can be used for example to always show headings on each page by setting it to 1.
-easydocs_heading_threshold = 5
+easydocs_heading_threshold = 2
+
+languages = [
+    {code = "cs", feed = true},
+    {code = "cs", search = true},
+]
+
+sort_by = "title"
