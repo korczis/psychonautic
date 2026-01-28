@@ -1,0 +1,27 @@
+{
+  "project": {
+    "name": "psychonautic",
+    "type": "zola-static-site",
+    "language": "cs",
+    "version": "1.0.0"
+  },
+  "claude": {
+    "model": "claude-opus-4-5-20251101",
+    "contextWindow": "extended",
+    "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+  },
+  "workflow": {
+    "stackBasedConversation": true,
+    "sessionContextPath": ".claude/session-context/",
+    "autoSaveInterval": 1800
+  },
+  "doctrine": {
+    "noMercyNoDoubts": true,
+    "strictQuality": true
+  },
+  "build": {
+    "command": "zola build",
+    "serve": "zola serve",
+    "outputDir": "public/"
+  }
+}

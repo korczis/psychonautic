@@ -1,3 +1,24 @@
+# Build output
 /public
-README.md
-LICENSE
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Session context (keep README)
+.claude/session-context/*.md
+!.claude/session-context/README.md
+
+# Local environment overrides
+.envrc.local
+
+# Temporary files
+*.tmp
+*.bak
