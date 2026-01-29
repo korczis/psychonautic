@@ -65,6 +65,8 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 | [Psilocin](/alkaloids/psilocin/) | 6-15 | 10-25 mg | 4-6 h |
 | [DMT](/alkaloids/dmt/) | 75-130 | 15-60 mg | 15 min (inh.) |
 | [Psilocybin](/alkaloids/psilocybin/) | (prodrug) | 15-30 mg | 4-6 h |
+| [Meskalin](/alkaloids/mescaline/) | 5000+ | 200-400 mg | 8-12 h |
+| [Muscimol](/alkaloids/muscimol/) | N/A (GABA) | 5-15 mg | 6-8 h |
 
 ---
 
@@ -72,7 +74,7 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 
 | Kategorie | Mechanismus | Příklady |
 |-----------|-------------|----------|
-| **Psychedelika** | 5-HT2A agonismus | [Psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/) |
+| **Psychedelika** | 5-HT2A agonismus | [Psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/), [Meskalin](/alkaloids/mescaline/) |
 | **Disociativa** | NMDA antagonismus | Ketamin, PCP |
 | **Deliriantia** | Anticholinergní | Skopolamin, Atropin |
 | **GABAergní** | GABA-A agonismus | [Muscimol](/alkaloids/muscimol/), Alkohol |
@@ -90,6 +92,8 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 - [Psilocybin](/alkaloids/psilocybin/) - Fosforylovaný prodrug
 - [DMT](/alkaloids/dmt/) - "Spirit Molecule"
 - [LSD](/alkaloids/lsd/) - Nejpotentnější psychedelikum
+- [Meskalin](/alkaloids/mescaline/) - Kaktusový alkaloid
+- [Muscimol](/alkaloids/muscimol/) - GABAergní z [Amanita](/shrooms/amanita-muscaria/)
 
 ---
 
