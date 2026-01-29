@@ -1,25 +1,106 @@
 +++
-title = "index"
+title = "Psychonautics"
 insert_anchor_links = "right"
 sort_by = "title"
 +++
 
-## An easy way to create a document library for your project
+# Psychonautics - Průvodce psychoaktivními látkami
 
-Demo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)
+Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie**, **farmakologie** a **neurochemických mechanismů**.
 
-This theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. 
+---
 
-### Step-by-step
+## Rychlá navigace
 
-As you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). 
+### 🧬 [Alkaloids](/alkaloids/)
+Psychoaktivní alkaloidy a jejich struktury
+- **[Psilocybin](/alkaloids/psilocybin/)** - O-fosforyl-4-hydroxy-DMT
+- **[Muscimol](/alkaloids/muscimol/)** - GABA-A agonista z muchomůrky červené
 
-1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = "right"` to each index. `theme.toml`, screenshot and readme may be deleted too. 
-2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).
-3. In sass/_variables.scss you may change font, color or backgound if you want. 
-4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.
+### 🍄 [Psilocybes](/psilocybes/)
+Lysohlávky obsahující psilocybin a psilocin
+- **[P. cubensis](/psilocybes/cubensis/)** - Kubánská lysohlávka (kultivovaná)
+- **[P. semilanceata](/psilocybes/semilanceata/)** - Lysohlávka kopinatá (Liberty Cap)
 
-Enjoy your docs!
+### ☠️ [Neurotoxiny](/neurotoxins/)
+Toxické látky působící na nervový systém
+- **[Ibotenic acid](/neurotoxins/ibotenic-acid/)** - Neurotoxický prekurzor muscimolu
 
-* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_
-* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_
+### 🧪 [Nucleotidy](/nucleotids/)
+Energetické a signální nukleotidy
+- **[ATP](/nucleotids/atp/)** - Adenosintrifosfát (univerzální energie)
+- **[cAMP](/nucleotids/camp/)** - Cyklický adenosinmonofosfát (druhý posel)
+
+### 📖 [Glosář](/glossary/)
+Definice biochemických pojmů
+- **[Receptor](/glossary/receptor/)** - Proteinové vazebné místo
+- **[GABA](/glossary/gaba/)** - Inhibiční neurotransmitter
+
+---
+
+## Základní koncepty
+
+### Psychoaktivita
+**Psychoaktivní látka** je chemická sloučenina, která při působení na centrální nervový systém **mění vědomí**, **vnímání** nebo **náladu**.
+
+### Mechanismy působení
+1. **Receptorové agonisty** - napodobují endogenní ligandy
+2. **Antagonisty** - blokují přirozené signály
+3. **Inhibitory enzymů** - mění metabolismus neurotransmitterů
+4. **Transportní inhibitory** - blokují zpětné vychytávání
+
+### Klasifikace podle účinku
+| Kategorie | Mechanismus | Příklady |
+|-----------|-------------|----------|
+| **Psychedelika** | 5-HT2A agonismus | [Psilocybin](/alkaloids/psilocybin/), LSD |
+| **Disociativa** | NMDA antagonismus | Ketamin, PCP |
+| **Deliriantia** | Anticholinergní | Skopolamin, Atropin |
+| **Stimulancia** | Dopamin/Noradrenalin | Amfetamin, Kofein |
+| **Depresiva** | GABA potenciace | Alkohol, Benzodiazepiny |
+
+---
+
+## Nejčastěji prohlížené
+
+### Psilocybinové houby
+- **[Psilocybe cubensis](/psilocybes/cubensis/)** - Golden Teacher, B+, Penis Envy
+- **[Psilocybe semilanceata](/psilocybes/semilanceata/)** - Nejvyšší obsah psilocybinu (0,98%)
+
+### Klíčové alkaloidy
+- **[Psilocybin](/alkaloids/psilocybin/)** - Prodrug s fosforylovou skupinou
+- **[Muscimol](/alkaloids/muscimol/)** - GABA-A agonista z Amanita muscaria
+
+### Energetické systémy
+- **[ATP](/nucleotids/atp/)** - Základní energetická měna buňky
+- **[cAMP](/nucleotids/camp/)** - Druhý posel v signálních kaskádách
+
+---
+
+## Bezpečnost a legalita
+
+⚠️ **Upozornění**: Většina psychoaktivních látek je v České republice zakázána **Nařízením vlády č. 463/2013 Sb.**
+
+### Harm Reduction principy
+1. **Set** - Psychický stav uživatele
+2. **Setting** - Prostředí a kontext
+3. **Substance** - Identifikace a dávka látky
+4. **Sitter** - Přítomnost střízlivé osoby
+
+---
+
+## O projektu
+
+Psychonautics je **open-source** česká encyklopedie zaměřená na **vědecky podložené informace** o psychoaktivních látkách. Všechny údaje jsou ověřovány podle peer-reviewed publikací.
+
+### Přispění
+- **GitHub**: [korczis/psychonautic](https://github.com/korczis/psychonautic)
+- **GitLab**: [korczis/psychonautic](https://gitlab.com/korczis/psychonautic)
+
+### Technologie
+- **Engine**: [Zola](https://getzola.org) (Rust)
+- **Theme**: EasyDocs
+- **Deploy**: GitHub Actions → GitHub Pages
+
+---
+
+*Vytvořeno s využitím AI-asistované tvorby obsahu* | *Aktualizováno: 2026-01-29*
