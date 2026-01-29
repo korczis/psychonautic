@@ -33,3 +33,4 @@ pages:
   environment:
     name: production
     url: https://korczis.gitlab.io/psychonautic
+
