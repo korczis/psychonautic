@@ -8,13 +8,13 @@ template = "section.html"
 
 # Psychonautics - Průvodce psychoaktivními látkami
 
-Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie**, **farmakologie** a **neurochemických mechanismů**. Aktuálně **34 stránek** vědecky podložených informací.
+Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie**, **farmakologie** a **neurochemických mechanismů**. Aktuálně **35 stránek** vědecky podložených informací.
 
 ---
 
 ## Hlavní sekce
 
-### 🧬 [Alkaloidy](/alkaloids/) (6 látek)
+### 🧬 [Alkaloidy](/alkaloids/) (8 látek)
 
 Psychoaktivní alkaloidy a jejich struktury
 
@@ -26,6 +26,7 @@ Psychoaktivní alkaloidy a jejich struktury
 | [LSD](/alkaloids/lsd/) | Ergolin | 5-HT2A/D2 agonista |
 | [Baeocystin](/alkaloids/baeocystin/) | Tryptamin | 5-HT2A agonista |
 | [Muscimol](/alkaloids/muscimol/) | Isoxazol | GABA-A agonista |
+| [Meskalin](/alkaloids/mescaline/) | Fenethylamin | 5-HT2A agonista |
 
 ### 🍄 [Houby](/shrooms/) (8 druhů)
 
@@ -113,8 +114,8 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 
 | Statistika | Hodnota |
 |------------|---------|
-| Stránek | 34 |
-| Alkaloidů | 6 |
+| Stránek | 35 |
+| Alkaloidů | 8 |
 | Druhů hub | 8 |
 | Sekcí | 6 |
 
