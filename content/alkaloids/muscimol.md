@@ -1,5 +1,7 @@
 +++
 title = "Muscimol"
+description = "GABA-A agonista z muchomůrky červené"
+weight = 3
 +++
 
 ## Muscimol

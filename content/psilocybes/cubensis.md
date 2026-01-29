@@ -81,9 +81,9 @@ Viz také: [Metabolismus psilocybinu](/alkaloids/psilocybin/#metabolismus)
 
 ## Podobné druhy
 
-- [Psilocybe subcubensis](/psilocybes/subcubensis/) - Menší, subtropický
-- [Psilocybe tampanensis](/psilocybes/tampanensis/) - Tvoří sklerotia
-- [Panaeolus cyanescens](/panaeolus/cyanescens/) - Vyšší potence
+- Psilocybe subcubensis - Menší, subtropický
+- Psilocybe tampanensis - Tvoří sklerotia
+- Panaeolus cyanescens - Vyšší potence
 
 ## Reference
 

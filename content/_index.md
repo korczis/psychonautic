@@ -93,8 +93,8 @@ Definice biochemických pojmů
 Psychonautics je **open-source** česká encyklopedie zaměřená na **vědecky podložené informace** o psychoaktivních látkách. Všechny údaje jsou ověřovány podle peer-reviewed publikací.
 
 ### Přispění
-- **GitHub**: [korczis/psychonautic](https://github.com/korczis/psychonautic)
-- **GitLab**: [korczis/psychonautic](https://gitlab.com/korczis/psychonautic)
+- **GitHub**: korczis/psychonautic
+- **GitLab**: korczis/psychonautic
 
 ### Technologie
 - **Engine**: [Zola](https://getzola.org) (Rust)

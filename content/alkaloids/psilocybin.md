@@ -1,7 +1,7 @@
 +++
 title = "Psilocybin"
 description = "O-fosforyl-4-hydroxy-DMT - psychoaktivní alkaloid z hub rodu Psilocybe"
-weight = 2
+weight = 1
 +++
 
 # Psilocybin - O-fosforyl-4-hydroxy-DMT
@@ -93,7 +93,7 @@ Psilocybin
 | Druh | Psilocybin (% sušiny) |
 |------|---------------------|
 | [P. semilanceata](/psilocybes/semilanceata/) | 0,98% (nejvyšší) |
-| [P. azurescens](/psilocybes/azurescens/) | 0,40% |
+| P. azurescens | 0,40% |
 | [P. cubensis](/psilocybes/cubensis/) | 0,14-0,42% |
 | P. cyanescens | 0,39% |
 | P. baeocystis | 0,85% |
@@ -183,7 +183,7 @@ Psilocin → [UGT] → Psilocin-glukuronid
 Viz také:
 - [Psilocin](/alkaloids/psilocin/) - aktivní metabolit
 - [Psilocybes](/psilocybes/) - výskyt v houbách
-- [5-HT2A receptor](/receptors/5ht2a/) - cílový receptor
-- [Serotonin](/neurotransmitters/serotonin/) - endogenní ligand
+- 5-HT2A receptor - cílový receptor
+- Serotonin - endogenní ligand
 
-← Zpět na [Alkaloids](/alkaloids/) | Další: [Psilocin](/alkaloids/psilocin/) →
+← Zpět na [Alkaloidy](/alkaloids/) | Další: [Psilocin](/alkaloids/psilocin/) →

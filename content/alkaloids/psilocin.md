@@ -1,7 +1,7 @@
 +++
 title = "Psilocin"
 description = "4-hydroxy-DMT - aktivní metabolit psilocybinu, přímý serotoninový agonista"
-weight = 3
+weight = 2
 +++
 
 # Psilocin - 4-hydroxy-N,N-dimethyltryptamin
@@ -170,7 +170,7 @@ Renální eliminace (80%)
 
 | Druh | Psilocin (% sušiny) |
 |------|---------------------|
-| [P. azurescens](/psilocybes/azurescens/) | 0,38% |
+| P. azurescens | 0,38% |
 | P. bohemica | 0,11% |
 | [P. cubensis](/psilocybes/cubensis/) | 0,01-0,17% |
 | [P. semilanceata](/psilocybes/semilanceata/) | 0,02% |
@@ -280,7 +280,7 @@ Psilocin + p-dimethylaminobenzaldehyd → Fialové zbarvení
 Viz také:
 - [Psilocybin](/alkaloids/psilocybin/) - stabilní prodrug
 - [Psilocybes](/psilocybes/) - houby s obsahem psilocinu
-- [5-HT2A receptor](/receptors/5ht2a/) - primární cíl
-- [Baeocystin](/alkaloids/baeocystin/) - příbuzný alkaloid
+- 5-HT2A receptor - primární cíl
+- Baeocystin - příbuzný alkaloid
 
-← Zpět na [Alkaloids](/alkaloids/) | Další: [Baeocystin](/alkaloids/baeocystin/) →
+← Zpět na [Alkaloidy](/alkaloids/) | Další: [Muscimol](/alkaloids/muscimol/) →

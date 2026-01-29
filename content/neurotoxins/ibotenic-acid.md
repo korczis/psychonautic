@@ -1,5 +1,7 @@
 +++
 title = "Kyselina ibotenová"
+description = "Neurotoxický prekurzor muscimolu z Amanita"
+weight = 1
 +++
 
 ## Kyselina ibotenová

@@ -125,4 +125,4 @@ Viz také: [Psilocybe bohemica](/psilocybes/bohemica/) - další český druh
 
 ---
 
-← Zpět na [Psilocybes](/psilocybes/) | Další: [Psilocybe cyanescens](/psilocybes/cyanescens/) →
+← Zpět na [Psilocybes](/psilocybes/) | [P. cubensis](/psilocybes/cubensis/) →

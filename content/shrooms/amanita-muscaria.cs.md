@@ -1,5 +1,7 @@
 +++
 title = "Amanita Muscaria"
+description = "Muchomůrka červená - tradiční psychoaktivní houba"
+weight = 1
 insert_anchor_links = "right"
 +++
 
