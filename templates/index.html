@@ -73,6 +73,25 @@
                            for="{{ subsection.title | slugify }}">{{ subsection.title }}</label>
 
                     <ul class="subtree">
+                        {# First show nested subsections (e.g., Psilocybes under Houby) #}
+                        {% for nested_p in subsection.subsections -%}
+                            {% set nested_subsection = get_section(path=nested_p) -%}
+                            <li>
+                                <input class="tree-toggle" type="checkbox" id="{{ nested_subsection.title | slugify }}"
+                                       {% if current_path is starting_with(nested_subsection.path) %}checked{% endif %}/>
+                                <label class="tree-toggle-label-nested"
+                                       for="{{ nested_subsection.title | slugify }}">{{ nested_subsection.title }}</label>
+                                <ul class="subtree-nested">
+                                    {% for nested_page in nested_subsection.pages -%}
+                                        <li {% if current_path == nested_page.path %}class="active"{% endif %}>
+                                            <a href="{{ nested_page.permalink | safe }}{{ _ugly_url }}">{{ nested_page.title }}</a>
+                                        </li>
+                                    {% endfor -%}
+                                </ul>
+                            </li>
+                        {% endfor -%}
+
+                        {# Then show direct pages #}
                         {% for page in subsection.pages -%}
                             <li {% if current_path == page.path %}class="active"{% endif %}>
                                 {% set name = page.title %}

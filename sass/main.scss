@@ -283,6 +283,72 @@ main {
   font-weight: bold;
 }
 
+// Nested subsection styles (e.g., Psilocybes under Houby)
+.tree-toggle-label-nested {
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.95em;
+}
+
+.tree-toggle-label-nested::before {
+  display: inline-block;
+  content: "\E970";
+  font-family: 'FabricMDL2Icons';
+  font-size: 0.7rem;
+  transform: rotate(0deg);
+  transform-origin: 50% 50% 0px;
+  transition: transform 0.1s linear 0s;
+  margin-right: 2px;
+}
+
+.tree-toggle:checked + .tree-toggle-label-nested::before {
+  content: "\E970";
+  font-family: 'FabricMDL2Icons';
+  font-size: 0.7rem;
+  transform: rotate(90deg);
+  transform-origin: 50% 50% 0px;
+  transition: transform 0.1s linear 0s;
+  margin-right: 2px;
+}
+
+.tree-toggle:checked + .tree-toggle-label-nested {
+  font-weight: bold;
+}
+
+.subtree-nested {
+  overflow: hidden;
+  margin: calc(#{$baseline} / 8) 0 calc(#{$baseline} / 8) $baseline;
+  transition: overflow 0.2s ease-in-out;
+  padding: 0;
+}
+
+.tree-toggle + .tree-toggle-label-nested + .subtree-nested {
+  animation-name: slideOut;
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+}
+
+.tree-toggle:checked + .tree-toggle-label-nested + .subtree-nested {
+  animation-name: slideIn;
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+}
+
+.subtree-nested li {
+  list-style-type: none;
+  margin-left: calc(#{$baseline} / 2);
+
+  a {
+    color: $color;
+  }
+
+  &::before {
+    content: "\E7C3";
+    font-family: 'FabricMDL2Icons';
+    font-size: 0.7rem;
+  }
+}
+
 
 article {
  width: calc(100% - (#{$baseline} * 4 + 20rem));
