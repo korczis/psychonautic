@@ -1,6 +1,6 @@
 +++
 title = "Psychonautics"
-description = "Komplexní česká encyklopedie psychoaktivních látek"
+description = "Komplexní česká encyklopedie psychoaktivních látek, jejich neurochemie a farmakologie"
 insert_anchor_links = "right"
 sort_by = "weight"
 template = "section.html"
@@ -8,27 +8,27 @@ template = "section.html"
 
 # Psychonautics - Průvodce psychoaktivními látkami
 
-Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie**, **farmakologie** a **neurochemických mechanismů**. Aktuálně **35 stránek** vědecky podložených informací.
+Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie**, **farmakologie** a **neurochemických mechanismů**. Aktuálně **40+ stránek** vědecky podložených informací v akademické kvalitě.
 
 ---
 
 ## Hlavní sekce
 
-### 🧬 [Alkaloidy](/alkaloids/) (8 látek)
+### [Alkaloidy](/alkaloids/) (8 látek)
 
 Psychoaktivní alkaloidy a jejich struktury
 
 | Alkaloid | Typ | Mechanismus |
 |----------|-----|-------------|
-| [Psilocybin](/alkaloids/psilocybin/) | Tryptamin | 5-HT2A agonista |
-| [Psilocin](/alkaloids/psilocin/) | Tryptamin | 5-HT2A agonista |
-| [DMT](/alkaloids/dmt/) | Tryptamin | 5-HT2A agonista |
-| [LSD](/alkaloids/lsd/) | Ergolin | 5-HT2A/D2 agonista |
-| [Baeocystin](/alkaloids/baeocystin/) | Tryptamin | 5-HT2A agonista |
-| [Muscimol](/alkaloids/muscimol/) | Isoxazol | GABA-A agonista |
-| [Meskalin](/alkaloids/mescaline/) | Fenethylamin | 5-HT2A agonista |
+| [Psilocybin](/alkaloids/psilocybin/) | Tryptamin | [5-HT2A](/receptors/5-ht2a/) agonista |
+| [Psilocin](/alkaloids/psilocin/) | Tryptamin | [5-HT2A](/receptors/5-ht2a/) agonista |
+| [DMT](/alkaloids/dmt/) | Tryptamin | [5-HT2A](/receptors/5-ht2a/) agonista |
+| [LSD](/alkaloids/lsd/) | Ergolin | [5-HT2A](/receptors/5-ht2a/)/D2 agonista |
+| [Baeocystin](/alkaloids/baeocystin/) | Tryptamin | [5-HT2A](/receptors/5-ht2a/) agonista |
+| [Muscimol](/alkaloids/muscimol/) | Isoxazol | [GABA-A](/receptors/gaba-a/) agonista |
+| [Meskalin](/alkaloids/mescaline/) | Fenethylamin | [5-HT2A](/receptors/5-ht2a/) agonista |
 
-### 🍄 [Houby](/shrooms/) (8 druhů)
+### [Houby](/shrooms/) (8 druhů)
 
 Psychoaktivní houby - Psilocybe, Amanita
 
@@ -43,15 +43,46 @@ Psychoaktivní houby - Psilocybe, Amanita
 | [P. tampanensis](/shrooms/psilocybes/tampanensis/) | 0,41% | Florida |
 | [Amanita muscaria](/shrooms/amanita-muscaria/) | N/A | Svět |
 
-### ☠️ [Neurotoxiny](/neurotoxins/)
+### [Receptory](/receptors/) (NOVÉ)
 
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - NMDA agonista, prekurzor muscimolu
+Neurotransmiterové receptory a jejich farmakologie
 
-### 🧪 [Nukleotidy](/nucleotids/)
+| Receptor | Typ | Funkce | Ligandy |
+|----------|-----|--------|---------|
+| [5-HT2A](/receptors/5-ht2a/) | GPCR | Halucinace | Psychedelika |
+| [GABA-A](/receptors/gaba-a/) | Ionotropní | Inhibice | [Muscimol](/alkaloids/muscimol/), BZ |
+| [NMDA](/receptors/nmda/) | Ionotropní | Plasticita | Ketamin, [K. ibotenová](/neurotoxins/ibotenic-acid/) |
+
+### [Mozek](/brain/) (NOVÉ)
+
+Neuroanatomie a mozkové oblasti
+
+| Oblast | Funkce | Vliv psychedelik |
+|--------|--------|------------------|
+| Prefrontální kortex | Exekutivní funkce | Změněná kognice |
+| Vizuální kortex | Zrak | Halucinace |
+| Claustrum | Integrace vědomí | Ego dissolution |
+| Default Mode Network | Self-reference | Suprese |
+
+### [Neurální okruhy](/circuits/) (NOVÉ)
+
+Funkční mozkové sítě
+
+| Okruh | Funkce | Psychedelický efekt |
+|-------|--------|---------------------|
+| DMN | Self-reference, rumináce | Dezintegrace |
+| Salience Network | Detekce důležitosti | Zvýšená aktivita |
+| Serotoninergní | Nálada, percepce | Modulace |
+
+### [Neurotoxiny](/neurotoxins/)
+
+- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - [NMDA](/receptors/nmda/) agonista, prekurzor muscimolu
+
+### [Nukleotidy](/nucleotids/)
 
 Energetické a signální molekuly: [ATP](/nucleotids/atp/), [cAMP](/nucleotids/camp/), [GTP](/nucleotids/gtp/)...
 
-### 📖 [Glosář](/glossary/)
+### [Glosář](/glossary/)
 
 Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosfát](/glossary/fosfat/)...
 
@@ -66,40 +97,51 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 | [DMT](/alkaloids/dmt/) | 75-130 | 15-60 mg | 15 min (inh.) |
 | [Psilocybin](/alkaloids/psilocybin/) | (prodrug) | 15-30 mg | 4-6 h |
 | [Meskalin](/alkaloids/mescaline/) | 5000+ | 200-400 mg | 8-12 h |
-| [Muscimol](/alkaloids/muscimol/) | N/A (GABA) | 5-15 mg | 6-8 h |
+| [Muscimol](/alkaloids/muscimol/) | N/A ([GABA](/glossary/gaba/)) | 5-15 mg | 6-8 h |
 
 ---
 
 ## Klasifikace psychoaktivních látek
 
-| Kategorie | Mechanismus | Příklady |
-|-----------|-------------|----------|
-| **Psychedelika** | 5-HT2A agonismus | [Psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/), [Meskalin](/alkaloids/mescaline/) |
-| **Disociativa** | NMDA antagonismus | Ketamin, PCP |
-| **Deliriantia** | Anticholinergní | Skopolamin, Atropin |
-| **GABAergní** | GABA-A agonismus | [Muscimol](/alkaloids/muscimol/), Alkohol |
+| Kategorie | Receptor | Příklady |
+|-----------|----------|----------|
+| **Psychedelika** | [5-HT2A](/receptors/5-ht2a/) | [Psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/), [Meskalin](/alkaloids/mescaline/) |
+| **Disociativa** | [NMDA](/receptors/nmda/) antagonismus | Ketamin, PCP |
+| **Deliriantia** | mAChR antagonismus | Skopolamin, Atropin |
+| **GABAergní** | [GABA-A](/receptors/gaba-a/) | [Muscimol](/alkaloids/muscimol/), Alkohol |
 
 ---
 
-## Nejčastěji prohlížené
+## Mechanismy účinku
 
-### Psilocybinové houby
-- [Psilocybe cubensis](/shrooms/psilocybes/cubensis/) - Golden Teacher, B+, Penis Envy
-- [Psilocybe semilanceata](/shrooms/psilocybes/semilanceata/) - Liberty Cap (0,98% psilocybin)
-- [Psilocybe bohemica](/shrooms/psilocybes/bohemica/) - Česká lysohlávka
+### Psychedelika a mozek
 
-### Klíčové alkaloidy
-- [Psilocybin](/alkaloids/psilocybin/) - Fosforylovaný prodrug
-- [DMT](/alkaloids/dmt/) - "Spirit Molecule"
-- [LSD](/alkaloids/lsd/) - Nejpotentnější psychedelikum
-- [Meskalin](/alkaloids/mescaline/) - Kaktusový alkaloid
-- [Muscimol](/alkaloids/muscimol/) - GABAergní z [Amanita](/shrooms/amanita-muscaria/)
+```
+Psychedelikum
+      │
+      ↓
+┌─────────────────────────────────────┐
+│  5-HT2A receptor (kortex)           │
+│         ↓                           │
+│  Gq signalizace → Ca²⁺ → PKC        │
+│         ↓                           │
+│  Změněná neuronální aktivita        │
+│         ↓                           │
+│  ┌───────────────────────────────┐  │
+│  │ DMN suprese (ego dissolution) │  │
+│  │ Vizuální kortex ↑ (halucinace)│  │
+│  │ Entropie ↑ (flexibilita)      │  │
+│  └───────────────────────────────┘  │
+│         ↓                           │
+│  ZMĚNĚNÝ STAV VĚDOMÍ                │
+└─────────────────────────────────────┘
+```
 
 ---
 
 ## Bezpečnost a legalita
 
-⚠️ **Upozornění**: Většina psychoaktivních látek je v České republice zakázána **Nařízením vlády č. 463/2013 Sb.**
+**Upozornění**: Většina psychoaktivních látek je v České republice zakázána **Nařízením vlády č. 463/2013 Sb.**
 
 ### Harm Reduction (4S)
 
@@ -118,17 +160,19 @@ Definice pojmů: [Receptor](/glossary/receptor/), [GABA](/glossary/gaba/), [Fosf
 
 | Statistika | Hodnota |
 |------------|---------|
-| Stránek | 35 |
+| Stránek | 40+ |
 | Alkaloidů | 8 |
 | Druhů hub | 8 |
-| Sekcí | 6 |
+| Receptorů | 3+ |
+| Sekcí | 9 |
 
 ### Technologie
 
 - **Engine**: [Zola](https://getzola.org) (Rust)
+- **UI**: Flowbite + Alpine.js
 - **Deploy**: GitHub Pages
 - **Zdroj**: [GitHub](https://github.com/korczis/psychonautic)
 
 ---
 
-*Vytvořeno s využitím AI-asistované tvorby obsahu* | *Aktualizováno: 2026-01-29*
+*Vytvořeno s využitím AI-asistované tvorby obsahu* | *Aktualizováno: 2026-01-30*
