@@ -1,61 +1,347 @@
 +++
 title = "Muscimol"
-description = "GABA-A agonista z muchomůrky červené"
-weight = 3
+description = "Isoxazolový alkaloid z muchomůrky červené - silný GABA-A agonista s disociativními účinky"
+weight = 5
 +++
 
-## Muscimol
+# Muscimol - Isoxazolový alkaloid
 
-Muscimol (také známý jako agarin nebo pantherin) je jednou z hlavních
-psychoaktivních látek obsažených v muchomůrce červené (Amanita muscaria)
-a v příbuzných druzích hub. Muscimol je silný a selektivní orthosterický
-agonista GABAA receptoru a vykazuje sedativně-hypnotické, depresivní
-a halucinogenní psychoaktivní účinky. Tato bezbarvá nebo bílá pevná látka
-je klasifikována jako isoxazol.
+**Muscimol** (také známý jako agarin nebo pantherin) je hlavní psychoaktivní alkaloid z [Amanita muscaria](/shrooms/amanita-muscaria/) (muchomůrky červené). Na rozdíl od klasických psychedelik ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) nepůsobí na serotoninové receptory, ale je silným agonistou **GABA-A** receptorů.
 
-## Absorpce a distribuce
+---
 
-Muscimol je po požití rychle absorbován v trávicím traktu,
-kde se snadno dostává do krevního oběhu. Díky své malé molekulární hmotnosti a 
-lipofilní povaze může proniknout přes hematoencefalickou bariéru a dosáhnout
-mozku, kde působí na centrální nervový systém. Rozsah absorpce a distribuce z
-ávisí na několika faktorech, včetně dávky, individuální biologické variability a 
-fyzikálních podmínek přípravy houby. Jakmile je muscimol v krvi, rychle se 
-rozprostře po různých tkáních a orgánech, přičemž jeho hlavní cíl je mozek, 
-kde interaguje s receptory GABA-A.
+## Chemická struktura
 
-## Působení na nervový systém
+### Základní parametry
 
-Muscimol je silným agonistou GABA-A (kyselina gama-aminomáselná) 
-receptorů, které jsou hlavními inhibičními neurotransmiterovými receptory v mozku. 
-Aktivace těchto receptorů vede k hyperpolarizaci neuronálních membrán, což 
-snižuje jejich excitabilitu a vede k inhibici neuronálních přenosů. Tento 
-mechanismus má za následek celkový sedativní a tlumivý účinek, který uživatelé 
-pociťují jako uvolnění, zklidnění, euforii a někdy i halucinace. GABA-A receptory 
-se podílejí na regulaci úzkosti, svalové relaxaci a spánkových procesech, což v
-ysvětluje, proč muscimol často navozuje pocit hluboké relaxace a dokonce spirituálních 
-nebo transcendentních stavů.
+| Vlastnost | Hodnota |
+|-----------|---------|
+| **Chemický název** | 5-(aminomethyl)-3-hydroxyisoxazol |
+| **Alternativní názvy** | Agarin, Pantherin |
+| **Molekulární vzorec** | C₄H₆N₂O₂ |
+| **Molekulární hmotnost** | 114,10 g/mol |
+| **CAS číslo** | 2763-96-4 |
 
-Muscimol má také vliv na vnímání času, prostoru a sebepojetí, což je důvod, 
-p roč bývá spojen s neobvyklými stavy vědomí. Tento psychoaktivní účinek je 
-přitom mnohem silnější než u jeho prekurzoru, kyseliny ibotenové, a přináší 
-méně toxické vedlejší účinky. Nadměrná aktivace GABA-A receptorů však může 
-vést k příznakům, jako jsou letargie, svalová slabost, a v některých p
-řípadech i k silné dezorientaci.
+### Strukturní klasifikace
 
-Muscimol je většinou vylučován v nezměněné formě močí, což znamená, že jeho 
-metabolismus v těle není tak aktivní jako u jiných psychoaktivních látek. 
-Toto také umožňuje recyklaci muscimolu prostřednictvím tradiční praxe, kdy 
-uživatelé mohou konzumovat moč pro opětovné získání psychoaktivních účinků b
-ez nutnosti znovu jíst houby. Tento jev je pozorován hlavně u kultur, které 
-užívají Amanita muscaria jako součást rituálů.
+| Kategorie | Zařazení |
+|-----------|----------|
+| **Třída** | Isoxazoly |
+| **Podtřída** | Aminoisoxazoly |
+| **Funkční skupiny** | Hydroxyl, amino |
+| **Původ** | Přírodní (Amanita) |
 
-## Délka účinku
+### Biosyntéza
 
-Účinky muscimolu obvykle trvají 6 až 8 hodin, ale mohou se 
-lišit v závislosti na individuálních faktorech, jako je dávkování, tělesná 
-hmotnost, metabolismus a tolerance uživatele. Způsob přípravy houby také 
-ovlivňuje sílu a trvání účinků. Například, pokud je houba sušená nebo
-tepelně upravená, může tento proces ovlivnit množství muscimolu, které 
-je v těle dostupné. Obecně platí, že vyšší dávky vedou k silnějším 
-halucinogenním zážitkům, zatímco nižší dávky mají mírné relaxační účinky.
+```
+Kyselina glutamová
+         ↓ [Enzymatická cyklizace]
+Kyselina ibotenová (neurotoxin)
+         ↓ [Dekarboxylace - sušení/teplo]
+Muscimol (aktivní forma)
+```
+
+**Důležité**: [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) je prekurzor muscimolu a neurotoxin. Správná příprava (sušení) převede většinu kyseliny ibotenové na muscimol.
+
+---
+
+## Historie
+
+### Etnobotanické použití
+
+| Kultura | Region | Využití |
+|---------|--------|---------|
+| **Sibiřští šamani** | Sibiř | Rituální/divinační |
+| **Korjakové, Čukčové** | Kamčatka | Šamanismus |
+| **Laponci (Sámové)** | Skandinávie | Možné rituální |
+| **Vikingové** | Skandinávie | "Berserkové" (spekulace) |
+
+### Recyklace moči
+
+Unikátní praxe sibiřských kmenů:
+- Muscimol se vylučuje převážně **nezměněný** močí
+- Šaman požil houbu → moč pil učedník → opakovaně
+- Až **4-5 cyklů** se zachovanými účinky
+- Méně vedlejších účinků v každém cyklu
+
+### Moderní výzkum
+
+| Rok | Událost |
+|-----|---------|
+| **1964** | Izolace muscimolu (Eugster, Takemoto) |
+| **1970s** | Objasnění mechanismu (GABA-A) |
+| **2000s** | Výzkum neuroprotekce |
+| **2020s** | Zájem o mikrodávkování |
+
+---
+
+## Farmakologie
+
+### Receptorový profil
+
+| Receptor | Ki (nM) | Účinek |
+|----------|---------|--------|
+| **GABA-A** | 4-10 | **Agonista** (hlavní) |
+| GABA-B | Nízká | Minimální |
+| Glycinové | Nízká | Minimální |
+
+### Srovnání s jinými GABAergiky
+
+| Látka | Mechanismus | Typ účinku |
+|-------|-------------|------------|
+| **Muscimol** | GABA-A agonista (přímo) | Sedace, disociace |
+| Alkohol | GABA-A modulátor | Sedace, euforie |
+| Benzodiazepiny | GABA-A modulátor (PAM) | Anxiolýza, sedace |
+| GHB | GABA-B agonista + GHB receptor | Euforie, sedace |
+
+### Mechanismus účinku
+
+```
+Muscimol
+    ↓
+GABA-A receptor (α, β, γ podjednotky)
+    ↓
+Otevření Cl⁻ kanálu
+    ↓
+Hyperpolarizace neuronu
+    ↓
+Inhibice neuronální aktivity
+    ↓
+Sedace, svalová relaxace, disociace
+```
+
+### Rozdíl od klasických psychedelik
+
+| Aspekt | Muscimol (GABA-A) | Psilocybin (5-HT2A) |
+|--------|-------------------|---------------------|
+| Mechanismus | Inhibiční | Excitační |
+| Vizuální efekty | Méně výrazné | Výrazné |
+| Sedace | **Silná** | Minimální |
+| Svalová relaxace | **Výrazná** | Minimální |
+| "Headspace" | Oneirický, snový | Introspektivní |
+| Nebezpečí | Záměna s toxickou kyselinou ibotenovou | Minimální toxicita |
+
+---
+
+## Farmakokinetika
+
+| Parametr | Hodnota |
+|----------|---------|
+| **Biologická dostupnost (p.o.)** | ~70-80% |
+| **Tmax** | 2-3 hodiny |
+| **T½** | 4-5 hodin |
+| **Trvání účinků** | 6-8 hodin |
+| **Metabolismus** | Minimální (vylučován nezměněný) |
+| **Eliminace** | Moč (~80% nezměněné) |
+
+### Absorpce a distribuce
+
+- Rychlá absorpce v GI traktu
+- Prochází hematoencefalickou bariérou
+- Nízká vazba na plazmatické proteiny
+- Minimální metabolismus → vysoká biologická dostupnost
+
+---
+
+## Přírodní zdroje
+
+### Amanita druhy
+
+| Druh | České jméno | Muscimol obsah |
+|------|-------------|----------------|
+| [**A. muscaria**](/shrooms/amanita-muscaria/) | Muchomůrka červená | 0,03-0,18% (sušená) |
+| **A. pantherina** | Muchomůrka tygrovaná | 0,12-0,25% (silnější!) |
+| **A. regalis** | Muchomůrka královská | Podobná A. muscaria |
+| **A. gemmata** | Muchomůrka slámová | Nízký obsah |
+
+### Příprava (konverze kyseliny ibotenové)
+
+| Metoda | Popis | Efektivita |
+|--------|-------|------------|
+| **Sušení** | 80-90°C, několik hodin | ~70% konverze |
+| **Fermentace** | Tradiční metoda | Variabilní |
+| **Citronová extrakce** | pH 2,5, voda | ~85% konverze |
+| **Čerstvé** | Bez přípravy | Většina kyselina ibotenová (TOXICKÁ) |
+
+**⚠️ VAROVÁNÍ**: Čerstvé houby obsahují převážně **kyselinu ibotenovou**, která je **neurotoxická**!
+
+---
+
+## Dávkování
+
+### Muscimol (čistý)
+
+| Intenzita | Dávka | Popis |
+|-----------|-------|-------|
+| Mikrodávka | 0,5-2 mg | Sub-perceptuální |
+| Práh | 3-5 mg | Mírná relaxace |
+| Mírná | 5-10 mg | Sedace, mírná disociace |
+| Střední | 10-15 mg | Silná sedace, oneirické stavy |
+| Silná | 15-20 mg | Intenzivní disociace |
+| Heroická | 20+ mg | Hluboká disociace, riziko |
+
+### Amanita muscaria (sušená)
+
+| Intenzita | Dávka | Poznámka |
+|-----------|-------|----------|
+| Mikrodávka | 0,5-1 g | Sub-perceptuální |
+| Mírná | 1-5 g | Relaxace |
+| Střední | 5-10 g | Disociace, snové stavy |
+| Silná | 10-15 g | Intenzivní, **rizikové** |
+
+**Poznámka**: Obsah muscimolu v houbách je extrémně **variabilní** (0,03-0,25%). Dávkování sušených hub je proto velmi **nepřesné a rizikové**.
+
+---
+
+## Fenomenologie
+
+### Fáze účinku
+
+| Fáze | Čas | Charakteristika |
+|------|-----|-----------------|
+| **Nástup** | 30-90 min | Tělesné pocity, relaxace |
+| **Come-up** | 1-2 h | Narůstající sedace |
+| **Peak** | 2-4 h | Maximum účinků |
+| **Plateau** | 4-6 h | Stabilní intenzita |
+| **Come-down** | 6-8 h | Postupné odeznívání |
+| **Afterglow** | 8-24 h | Únava, nebo osvěžení |
+
+### Účinky
+
+#### Pozitivní
+- Hluboká **relaxace**
+- **Svalová relaxace**
+- Pocit **klidu**
+- Oneirické (snové) stavy
+- Introspekce
+- Spirituální zážitky
+- Lucidní sny (po odeznění)
+
+#### Neutrální
+- **Sedace** (někdy nežádoucí)
+- Změny vnímání času
+- Synestezie (vzácně)
+- Pocit "oddělení" od těla
+- Změny propriocepce
+
+#### Negativní
+- **Ataxie** (porucha koordinace)
+- **Nauzea** (zejména s kyselinou ibotenovou)
+- Závratě
+- Dezorientace
+- Amnézie
+- Svalové záškuby
+- Zvracení
+
+### Vizuální efekty
+
+Na rozdíl od tryptaminů, muscimol způsobuje **méně výrazné** vizuální efekty:
+- Mírné změny barev
+- "Makropsie" (objekty vypadají větší)
+- "Mikropsie" (objekty vypadají menší)
+- Snové obrazy při zavřených očích
+
+---
+
+## Bezpečnost
+
+### Toxicita
+
+| Parametr | Hodnota |
+|----------|---------|
+| **LD50 (myš, i.p.)** | 3,8 mg/kg |
+| **LD50 (člověk, odhad)** | ~50-100 mg (velmi hrubý odhad) |
+| **Terapeutický index** | Nízký (nebezpečné!) |
+
+### Rizika
+
+| Riziko | Závažnost | Prevence |
+|--------|-----------|----------|
+| **Kyselina ibotenová** | VYSOKÁ | Správná příprava (sušení) |
+| **Záměna s jedovatými druhy** | SMRTELNÁ | A. phalloides vypadá jinak |
+| **Variabilní obsah** | VYSOKÁ | Nemožné přesně dávkovat |
+| **Ataxie, pády** | Střední | Bezpečné prostředí, sitter |
+| **Kombinace s alkoholem** | VYSOKÁ | NIKDY nekombinovat |
+
+### Kontraindikace
+
+| Absolutní | Relativní |
+|-----------|-----------|
+| Epilepsie | Úzkostné poruchy |
+| Myasthenia gravis | Deprese |
+| Respirační onemocnění | Užívání sedativ |
+| Těhotenství | Jaterní onemocnění |
+| Kombinace s alkoholem/benzodiazepiny | Srdeční onemocnění |
+
+### Interakce
+
+| Látka | Interakce | Závažnost |
+|-------|-----------|-----------|
+| **Alkohol** | Synergická sedace | **NEBEZPEČNÁ** |
+| **Benzodiazepiny** | Synergická sedace | **NEBEZPEČNÁ** |
+| **Opioidy** | Respirační deprese | **SMRTELNÁ** |
+| **GHB** | Synergická sedace | **NEBEZPEČNÁ** |
+| Antihistaminika | Zvýšená sedace | Střední |
+
+---
+
+## Právní status
+
+### Mezinárodní
+
+| Jurisdikce | Status |
+|------------|--------|
+| **OSN** | Nezařazeno (není Schedule) |
+| **USA** | Nezařazeno federálně (Louisiana zakázala) |
+| **Kanada** | Legální |
+| **UK** | Legální |
+| **Austrálie** | Schedule 9 (zakázáno) |
+| **Rumunsko** | Zakázáno |
+
+### Česká republika
+
+- **Muscimol**: Není na seznamu zakázaných látek
+- **Amanita muscaria**: **Legální** (prodej, držení, sběr)
+- **Status**: Volně dostupné v přírodě, prodej jako "dekorace" nebo "výzkum"
+
+**Poznámka**: Právní status se může změnit. Vždy ověřte aktuální legislativu.
+
+---
+
+## Výzkum a terapeutický potenciál
+
+### Současný výzkum
+
+| Oblast | Zaměření |
+|--------|----------|
+| **Neuroprotekce** | Ochrana před excitotoxicitou |
+| **Spánkové poruchy** | Indukce hlubokého spánku |
+| **Epilepsie** | Antikonvulzivní účinky |
+| **Analgezie** | Potenciál pro bolest |
+
+### Mikrodávkování Amanita
+
+Rostoucí zájem o mikrodávkování sušených Amanita:
+- **Typická dávka**: 0,5-1 g sušených hub/den
+- **Reportované benefity**: Zlepšení spánku, redukce úzkosti
+- **Evidence**: Převážně anekdotická
+- **Rizika**: Variabilita obsahu, nedostatek standardizace
+
+---
+
+## Reference
+
+1. Michelot, D. & Melendez-Howell, L. (2003). *Amanita muscaria: chemistry, biology, toxicology, and ethnomycology*. Mycological Research.
+2. Eugster, C.H. (1969). *Isolation, structure and synthesis of central-active compounds from Amanita muscaria*. Fortschr Chem Org Naturst.
+3. Chilton, W.S. (1978). *Chemistry and mode of action of mushroom toxins*. Academic Press.
+4. Faulstich, H. (1980). *Mushroom poisoning*. Toxicon.
+
+---
+
+Viz také:
+- [Amanita muscaria](/shrooms/amanita-muscaria/) - Přírodní zdroj
+- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - Prekurzor/neurotoxin
+- [Psilocybin](/alkaloids/psilocybin/) - Jiný typ psychoaktivní houby
+- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
+
+← Zpět na [Alkaloidy](/alkaloids/) | [Amanita muscaria](/shrooms/amanita-muscaria/) →
