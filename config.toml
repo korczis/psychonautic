@@ -1,4 +1,4 @@
-base_url = "https://korczis.gitlab.io/psychonautic"
+base_url = "https://korczis.github.io/psychonautic"
 title = "Psychonautics"
 compile_sass = true
 build_search_index = true
