@@ -6,7 +6,7 @@ weight = 1
 
 # Psilocybin - O-fosforyl-4-hydroxy-DMT
 
-**Psilocybin** je psychoaktivní alkaloid nalézaný v [houbách rodu Psilocybe](/psilocybes/) a dalších rodech. Jedná se o **prodrug** [psilocinu](/alkaloids/psilocin/), který po defosforylaci působí jako serotoninový agonista.
+**Psilocybin** je psychoaktivní alkaloid nalézaný v [houbách rodu Psilocybe](/shrooms/psilocybes/) a dalších rodech. Jedná se o **prodrug** [psilocinu](/alkaloids/psilocin/), který po defosforylaci působí jako serotoninový agonista.
 
 ## Chemická struktura
 
@@ -92,9 +92,9 @@ Psilocybin
 
 | Druh | Psilocybin (% sušiny) |
 |------|---------------------|
-| [P. semilanceata](/psilocybes/semilanceata/) | 0,98% (nejvyšší) |
+| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,98% (nejvyšší) |
 | P. azurescens | 0,40% |
-| [P. cubensis](/psilocybes/cubensis/) | 0,14-0,42% |
+| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,14-0,42% |
 | P. cyanescens | 0,39% |
 | P. baeocystis | 0,85% |
 
@@ -182,7 +182,7 @@ Psilocin → [UGT] → Psilocin-glukuronid
 
 Viz také:
 - [Psilocin](/alkaloids/psilocin/) - aktivní metabolit
-- [Psilocybes](/psilocybes/) - výskyt v houbách
+- [Psilocybes](/shrooms/psilocybes/) - výskyt v houbách
 - 5-HT2A receptor - cílový receptor
 - Serotonin - endogenní ligand
 

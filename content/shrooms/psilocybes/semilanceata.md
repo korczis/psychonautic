@@ -6,7 +6,7 @@ weight = 2
 
 # Psilocybe semilanceata - Lysohlávka kopinatá
 
-**Psilocybe semilanceata**, známá jako **Liberty Cap** nebo **lysohlávka kopinatá**, je nejrozšířenější [psilocybinovou houbou](/psilocybes/) v Evropě a jednou z nejpotentnějších.
+**Psilocybe semilanceata**, známá jako **Liberty Cap** nebo **lysohlávka kopinatá**, je nejrozšířenější [psilocybinovou houbou](/shrooms/psilocybes/) v Evropě a jednou z nejpotentnějších.
 
 ## Taxonomie
 
@@ -17,7 +17,7 @@ weight = 2
 | Třída | Agaricomycetes |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/psilocybes/) |
+| Rod | [Psilocybe](/shrooms/psilocybes/) |
 | Druh | P. semilanceata |
 
 ## Etymologie
@@ -83,7 +83,7 @@ P. semilanceata se v ČR vyskytuje především v:
 - Vlhkých pastvinách
 - Loukách s kyselou půdou
 
-Viz také: [Psilocybe bohemica](/psilocybes/bohemica/) - další český druh
+Viz také: [Psilocybe bohemica](/shrooms/psilocybes/bohemica/) - další český druh
 
 ## Podobné druhy (záměna)
 
@@ -125,4 +125,4 @@ Viz také: [Psilocybe bohemica](/psilocybes/bohemica/) - další český druh
 
 ---
 
-← Zpět na [Psilocybes](/psilocybes/) | [P. cubensis](/psilocybes/cubensis/) →
+← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. cubensis](/shrooms/psilocybes/cubensis/) →

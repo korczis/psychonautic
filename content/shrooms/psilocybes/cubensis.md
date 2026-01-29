@@ -6,7 +6,7 @@ weight = 1
 
 # Psilocybe cubensis - Kubánská lysohlávka
 
-**Psilocybe cubensis** je nejznámější a nejčastěji kultivovaný druh [psilocybinových hub](/psilocybes/). Pochází z tropických a subtropických oblastí.
+**Psilocybe cubensis** je nejznámější a nejčastěji kultivovaný druh [psilocybinových hub](/shrooms/psilocybes/). Pochází z tropických a subtropických oblastí.
 
 ## Taxonomie
 
@@ -17,7 +17,7 @@ weight = 1
 | Třída | Agaricomycetes |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/psilocybes/) |
+| Rod | [Psilocybe](/shrooms/psilocybes/) |
 | Druh | P. cubensis |
 
 ## Morfologie
@@ -93,4 +93,4 @@ Viz také: [Metabolismus psilocybinu](/alkaloids/psilocybin/#metabolismus)
 
 ---
 
-← Zpět na [Psilocybes](/psilocybes/)
+← Zpět na [Psilocybes](/shrooms/psilocybes/)

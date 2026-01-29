@@ -14,8 +14,8 @@ Psilocybes (lysohlávky) jsou rodem hub obsahujících psychoaktivní tryptaminy
 
 | Druh | České jméno | Potence |
 |------|-------------|---------|
-| [P. cubensis](/psilocybes/cubensis/) | Kubánská lysohlávka | Střední |
-| [P. semilanceata](/psilocybes/semilanceata/) | Lysohlávka kopinatá | Vysoká |
+| [P. cubensis](/shrooms/psilocybes/cubensis/) | Kubánská lysohlávka | Střední |
+| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Lysohlávka kopinatá | Vysoká |
 
 ## Aktivní látky
 

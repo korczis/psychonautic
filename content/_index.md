@@ -17,10 +17,11 @@ Psychoaktivní alkaloidy a jejich struktury
 - **[Psilocybin](/alkaloids/psilocybin/)** - O-fosforyl-4-hydroxy-DMT
 - **[Muscimol](/alkaloids/muscimol/)** - GABA-A agonista z muchomůrky červené
 
-### 🍄 [Psilocybes](/psilocybes/)
-Lysohlávky obsahující psilocybin a psilocin
-- **[P. cubensis](/psilocybes/cubensis/)** - Kubánská lysohlávka (kultivovaná)
-- **[P. semilanceata](/psilocybes/semilanceata/)** - Lysohlávka kopinatá (Liberty Cap)
+### 🍄 [Houby](/shrooms/)
+Psychoaktivní houby - Psilocybe, Amanita a další
+- **[P. cubensis](/shrooms/psilocybes/cubensis/)** - Kubánská lysohlávka (kultivovaná)
+- **[P. semilanceata](/shrooms/psilocybes/semilanceata/)** - Lysohlávka kopinatá (Liberty Cap)
+- **[P. bohemica](/shrooms/psilocybes/bohemica/)** - Lysohlávka česká (nejvyšší ČR potence)
 
 ### ☠️ [Neurotoxiny](/neurotoxins/)
 Toxické látky působící na nervový systém
@@ -63,8 +64,8 @@ Definice biochemických pojmů
 ## Nejčastěji prohlížené
 
 ### Psilocybinové houby
-- **[Psilocybe cubensis](/psilocybes/cubensis/)** - Golden Teacher, B+, Penis Envy
-- **[Psilocybe semilanceata](/psilocybes/semilanceata/)** - Nejvyšší obsah psilocybinu (0,98%)
+- **[Psilocybe cubensis](/shrooms/psilocybes/cubensis/)** - Golden Teacher, B+, Penis Envy
+- **[Psilocybe semilanceata](/shrooms/psilocybes/semilanceata/)** - Nejvyšší obsah psilocybinu (0,98%)
 
 ### Klíčové alkaloidy
 - **[Psilocybin](/alkaloids/psilocybin/)** - Prodrug s fosforylovou skupinou

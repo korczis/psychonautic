@@ -6,7 +6,7 @@ weight = 4
 
 # Psilocybe cyanescens - Lysohlávka modravá
 
-**Psilocybe cyanescens**, známá jako **Wavy Cap** (vlnitá čepička), je vysoce potentní druh [psilocybinových hub](/psilocybes/) s charakteristickým zvlněným okrajem klobouku.
+**Psilocybe cyanescens**, známá jako **Wavy Cap** (vlnitá čepička), je vysoce potentní druh [psilocybinových hub](/shrooms/psilocybes/) s charakteristickým zvlněným okrajem klobouku.
 
 ## Taxonomie
 
@@ -17,7 +17,7 @@ weight = 4
 | Třída | Agaricomycetes |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/psilocybes/) |
+| Rod | [Psilocybe](/shrooms/psilocybes/) |
 | Druh | P. cyanescens |
 
 ## Etymologie
@@ -57,7 +57,7 @@ weight = 4
 | [Psilocin](/alkaloids/psilocin/) | 0,14-0,30% |
 | Baeocystin | 0,02-0,03% |
 
-**Celková potence**: ~0,85% (vyšší než [P. cubensis](/psilocybes/cubensis/))
+**Celková potence**: ~0,85% (vyšší než [P. cubensis](/shrooms/psilocybes/cubensis/))
 
 ## Biotop
 
@@ -124,7 +124,7 @@ Druh se šíří s:
 
 ### Wood Lover's Paralysis
 
-Podobně jako [P. azurescens](/psilocybes/azurescens/), i P. cyanescens může způsobit:
+Podobně jako [P. azurescens](/shrooms/psilocybes/azurescens/), i P. cyanescens může způsobit:
 - Dočasnou svalovou slabost
 - Necitlivost končetin
 - Trvání: 1-6 hodin
@@ -133,7 +133,7 @@ Podobně jako [P. azurescens](/psilocybes/azurescens/), i P. cyanescens může z
 
 | Druh | Odlišení |
 |------|----------|
-| [P. azurescens](/psilocybes/azurescens/) | Větší, výrazný hrbek |
+| [P. azurescens](/shrooms/psilocybes/azurescens/) | Větší, výrazný hrbek |
 | P. allenii | Menší, městské prostředí |
 | P. subaeruginosa | Austrálie, subtilnější |
 | Hypholoma fasciculare | **JEDOVATÁ** - žluté lupeny, hořká |
@@ -164,4 +164,4 @@ Podobně jako [P. azurescens](/psilocybes/azurescens/), i P. cyanescens může z
 
 ---
 
-← Zpět na [Psilocybes](/psilocybes/) | [P. azurescens](/psilocybes/azurescens/) | [P. semilanceata](/psilocybes/semilanceata/) →
+← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. azurescens](/shrooms/psilocybes/azurescens/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) →

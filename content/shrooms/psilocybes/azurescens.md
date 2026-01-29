@@ -6,7 +6,7 @@ weight = 3
 
 # Psilocybe azurescens - Lysohlávka azurová
 
-**Psilocybe azurescens** je považována za **nejpotentnější** známý druh [psilocybinových hub](/psilocybes/). Byla popsána Paulem Stametsem v roce 1996.
+**Psilocybe azurescens** je považována za **nejpotentnější** známý druh [psilocybinových hub](/shrooms/psilocybes/). Byla popsána Paulem Stametsem v roce 1996.
 
 ## Taxonomie
 
@@ -17,7 +17,7 @@ weight = 3
 | Třída | Agaricomycetes |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/psilocybes/) |
+| Rod | [Psilocybe](/shrooms/psilocybes/) |
 | Druh | P. azurescens |
 
 ## Etymologie
@@ -62,8 +62,8 @@ weight = 3
 |------|-----------------|
 | **P. azurescens** | **2,51%** (nejvyšší) |
 | P. bohemica | 1,34% |
-| [P. semilanceata](/psilocybes/semilanceata/) | 1,36% |
-| [P. cubensis](/psilocybes/cubensis/) | 0,63% |
+| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 1,36% |
+| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,63% |
 
 ## Biotop
 
@@ -108,7 +108,7 @@ P. azurescens je **obtížně kultivovatelná** v interiéru:
 | Silná | 1,5-2 g |
 | Heroická | 2+ g |
 
-**VAROVÁNÍ**: Dávky jsou výrazně nižší než u [P. cubensis](/psilocybes/cubensis/)!
+**VAROVÁNÍ**: Dávky jsou výrazně nižší než u [P. cubensis](/shrooms/psilocybes/cubensis/)!
 
 ### Speciální účinky
 
@@ -143,4 +143,4 @@ Viz [Psilocybin - právní status](/alkaloids/psilocybin/#právní-status)
 
 ---
 
-← Zpět na [Psilocybes](/psilocybes/) | [P. cubensis](/psilocybes/cubensis/) | [P. semilanceata](/psilocybes/semilanceata/) →
+← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. cubensis](/shrooms/psilocybes/cubensis/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) →

@@ -172,8 +172,8 @@ Renální eliminace (80%)
 |------|---------------------|
 | P. azurescens | 0,38% |
 | P. bohemica | 0,11% |
-| [P. cubensis](/psilocybes/cubensis/) | 0,01-0,17% |
-| [P. semilanceata](/psilocybes/semilanceata/) | 0,02% |
+| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,01-0,17% |
+| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,02% |
 | P. cyanescens | 0,30% |
 
 **Poznámka**: Většina hub obsahuje více [psilocybinu](/alkaloids/psilocybin/) než psilocinu kvůli nestabilitě psilocinu.
@@ -279,7 +279,7 @@ Psilocin + p-dimethylaminobenzaldehyd → Fialové zbarvení
 
 Viz také:
 - [Psilocybin](/alkaloids/psilocybin/) - stabilní prodrug
-- [Psilocybes](/psilocybes/) - houby s obsahem psilocinu
+- [Psilocybes](/shrooms/psilocybes/) - houby s obsahem psilocinu
 - 5-HT2A receptor - primární cíl
 - Baeocystin - příbuzný alkaloid
 
