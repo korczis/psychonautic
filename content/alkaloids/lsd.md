@@ -1,406 +1,1031 @@
 +++
 title = "LSD"
-description = "Diethylamid kyseliny lysergové - Hofmannovo 'problémové dítě', nejpotentnější psychedelikum"
+description = "Diethylamid kyseliny lysergove - Hofmannovo 'problemove dite', nejpotentnejsi psychedelikum"
 weight = 6
 +++
 
-# LSD - Diethylamid kyseliny lysergové
+# LSD - Diethylamid kyseliny lysergove
 
-**LSD** (LSD-25, Lysergic acid diethylamide) je semisyntetické psychedelikum a jedno z **nejpotentnějších** známých psychoaktivních látek. Bylo syntetizováno Albertem Hofmannem v roce 1938 a jeho psychoaktivní účinky byly náhodně objeveny v roce 1943.
+**LSD** (LSD-25, Lysergic acid diethylamide) je semisynteticke psychedelikum a jedno z **nejpotentnejsich** znamych psychoaktivnich latek. Bylo syntetizovano Albertem Hofmannem v roce 1938 a jeho psychoaktivni ucinky byly nahodne objeveny v roce 1943. LSD zustava zlatym standardem psychedelickeho vyzkumu a klinickych studii.
 
-## Chemická struktura
+---
 
-### Základní parametry
+## Chemicka struktura
+
+### Zakladni parametry
 
 | Vlastnost | Hodnota |
 |-----------|---------|
-| **Chemický název** | (6aR,9R)-N,N-diethyl-7-methyl-4,6,6a,7,8,9-hexahydroindolo[4,3-fg]quinoline-9-carboxamide |
-| **Alternativní názvy** | LSD-25, Acid, Kyselina, Trips, Lucy |
-| **Molekulární vzorec** | C₂₀H₂₅N₃O |
-| **Molekulární hmotnost** | 323,43 g/mol |
-| **CAS číslo** | 50-37-3 |
+| **Chemicky nazev** | (6aR,9R)-N,N-diethyl-7-methyl-4,6,6a,7,8,9-hexahydroindolo[4,3-fg]quinoline-9-carboxamide |
+| **Alternativni nazvy** | LSD-25, Acid, Kyselina, Trips, Lucy, Blotter |
+| **Molekularni vzorec** | C20H25N3O |
+| **Molekularni hmotnost** | 323,43 g/mol |
+| **CAS cislo** | 50-37-3 |
+| **PubChem CID** | 5761 |
+| **DrugBank ID** | DB04829 |
 
-### Strukturní klasifikace
+### Strukturni klasifikace
 
-| Kategorie | Zařazení |
+| Kategorie | Zarazeni |
 |-----------|----------|
-| **Třída** | Ergoliny (námelové alkaloidy) |
-| **Podtřída** | Lysergamidy |
-| **Jádro** | Tetracyklický indol |
-| **Stereochemie** | (6aR,9R) - aktivní izomer |
+| **Trida** | Ergoliny (namelove alkaloidy) |
+| **Podtrida** | Lysergamidy |
+| **Jadro** | Tetracyklicky indol |
+| **Stereochemie** | (6aR,9R) - aktivni izomer |
+| **Chiralita** | 2 chiralni centra |
 
-### Strukturní vztahy
+### Molekularni struktura (ASCII)
 
 ```
-Kyselina lysergová (LSA)
-         ↓ [Diethylamin + kondenzace]
+                    O
+                    ||
+            H3C-CH2-N-CH2-CH3
+                    |
+                    C=O
+                    |
+              [9]---C---H
+             /           \
+           [8]            [10]
+            |     N-CH3    |
+           [7]----[6a]----[4]
+            |       |       |
+           [6]     [5]     [3]
+            \       |      /
+             \     [4a]   /
+              \     |    /
+               [11]-[11a]
+                 \   |
+                  \ /
+                  [2]
+                   |
+                  N-H
+                   |
+                  [1]
+                   |
+                  [12]
+
+Tetracyklicke indolove jadro:
+- Kruh A: Benzenovy (aromaticky)
+- Kruh B: Pyrolovy (indolovy)
+- Kruh C: Cyklohexenovy
+- Kruh D: Piperidinovy
+```
+
+### Strukturni vztahy s prekurzory
+
+```
+Kyselina lysergova (LSA)
+         | [Diethylamin + kondenzacni cinidlo]
+         | [POCl3 nebo CDI]
+         v
 LSD (diethylamid)
 
-Ergotamin (námel)
-         ↓ [Hydrolýza]
-Kyselina lysergová
-         ↓
+Ergotamin (namel)
+         | [Alkalicka hydrolza]
+         v
+Kyselina lysergova
+         | [Amidace]
+         v
 LSD
 ```
 
-### Izomery
+### Stereochemie a izomery
 
-| Izomer | Aktivita |
-|--------|----------|
-| **(+)-LSD** (d-LSD) | **Plně aktivní** |
-| (-)-LSD (l-LSD) | Neaktivní |
-| iso-LSD | Neaktivní (tepelná degradace) |
+| Izomer | Konfigurace | Aktivita | Poznamka |
+|--------|-------------|----------|----------|
+| **(+)-LSD** (d-LSD) | (6aR,9R) | **Plne aktivni** | Prirodni konfigurace |
+| (-)-LSD (l-LSD) | (6aS,9S) | Neaktivni | Enantiomer |
+| iso-LSD | (6aR,9S) | Neaktivni | Epimer na C-9 |
+| d-iso-LSD | (6aS,9R) | Neaktivni | Epimer |
 
-## Historie
+**Epimerizace**: LSD se za zvysenych teplot nebo v pritomnosti bazi konvertuje na neaktivni iso-LSD:
+
+```
+LSD (aktivni) <---> iso-LSD (neaktivni)
+     [teplo, baze, svetlo]
+
+Rovnovazna konstanta: ~1:1 pri prolongovanem zahrivani
+```
+
+---
+
+## Historicky kontext
+
+### Predhistorie: Namelovy alkaloid
+
+| Obdobi | Udalost |
+|--------|---------|
+| **Stredovek** | Ergotismus ("Ohen sv. Antonina") - otravy namelem |
+| **1918** | Arthur Stoll izoluje ergotamin |
+| **1935** | Sandoz zacina systematicky vyzkum namelu |
 
 ### Chronologie objevu
 
-| Rok | Událost |
-|-----|---------|
-| **1938** | Hofmann syntetizuje LSD-25 (25. derivát) |
-| **1943** | Náhodný objev účinků ("Bicycle Day" - 19. dubna) |
-| **1947** | Sandoz uvádí Delysid® na trh |
-| **1950s** | Psychiatrický výzkum, CIA projekt MKUltra |
-| **1960s** | Timothy Leary, counterculture |
-| **1966** | Zákaz v USA |
-| **1971** | UN Convention - Schedule I |
-| **2000s+** | Renesance výzkumu |
+| Rok | Udalost | Vyznam |
+|-----|---------|--------|
+| **1938** | Hofmann syntetizuje LSD-25 (25. derivat kyseliny lysergove) | Hledal respiracni stimulant |
+| **1943** | Nahodny objev ucinku (19. dubna - "Bicycle Day") | Prvni psychedelicky trip |
+| **1947** | Sandoz uvadi Delysid na trh | Psychiatricky nastroj |
+| **1950s** | Psychiatricky vyzkum v cele Evrope a USA | 1000+ publikaci |
+| **1953-1973** | CIA projekt MKUltra | Tajny vyzkum kontroly mysli |
+| **1960s** | Timothy Leary, Harvard Psilocybin Project | Counterculture |
+| **1962** | Kongres USA omezuje vyzkum | Reakce na zvysene uzivani |
+| **1966** | Zakaz v Kalifornii a nasledne v cele USA | Kriminalizace |
+| **1970** | Controlled Substances Act - Schedule I | Federalni zakaz |
+| **1971** | UN Convention on Psychotropic Substances | Mezinarodni zakaz |
+| **2000s+** | Renesance vyzkumu (MAPS, Beckley, Imperial College) | Nova era |
+| **2008** | Albert Hofmann umira (102 let) | Konec jedne ery |
 
 ### Bicycle Day - 19. duben 1943
 
-Albert Hofmann, Sandoz Laboratories, Basilej:
+Detailni rekonstrukce prvniho plne vedomeho LSD tripu:
 
-| Čas | Událost |
-|-----|---------|
-| 16:20 | Požití 250 μg LSD (úmyslně) |
-| 17:00 | První účinky, odjezd domů na kole |
-| 17:30 | Intenzivní účinky během jízdy |
-| 18:00+ | Plně rozvinutý trip doma |
-| Večer | Odeznění, pocit znovuzrození |
+**Misto**: Sandoz Laboratories, Basilej, Svycarsko
 
-> *"Všechno v mém zorném poli se vlnilo a bylo zkresleno jako v zakřiveném zrcadle..."*
-> — Albert Hofmann
+| Cas | Udalost | Hofmannovy poznamky |
+|-----|---------|---------------------|
+| **14:00** | Hypoteticka prvni expozice (16. dubna) | Kontakt s kuzi |
+| **16:20** | Poziti 250 ug LSD (umyslne) | "Minimalni efektivni davka" |
+| **17:00** | Prvni ucinky | Zrakove potize, neklid |
+| **17:10** | Pozada laborantku o doprovod domu | Jizda na kole |
+| **17:30** | Intenzivni ucinky behem jizdy | Zda se, ze se nehybe |
+| **18:00** | Doma - peak zacina | Soused zda se carodejnice |
+| **18:30** | Lekar prijizdi | TF merne zvysena, zornice rozsirene |
+| **20:00** | Kaleidoskopicke obrazy | "Fantasticke obrazy" |
+| **22:00** | Postupne odeznivani | Uzasne barvy |
+| **Dalsi den** | Pocit znovuzrozeni | "Svet zářil" |
 
-### Hofmannovo "Problémové dítě"
+> *"Vsechno v mem zornem poli se vlnilo a bylo zkresleno jako v zakrivenem zrcadle. Mel jsem pocit, ze se nemuzu pohnout z mista, ackoliv muj asistent mi pozdeji rekl, ze jsme jeli docela rychle..."*
+> -- Albert Hofmann, LSD: My Problem Child (1979)
 
-Hofmann nazval LSD svým "problem child" (problémové dítě):
-- Objev s enormním potenciálem
-- Zneužití v 60. letech
-- Prohibice zastavila výzkum
-- Naděje na rehabilitaci
+### Hofmannovo "Problemove dite"
 
-## Fyzikálně-chemické vlastnosti
+Hofmann nazval LSD svym "problem child" z techto duvodu:
 
-| Vlastnost | Hodnota |
-|-----------|---------|
-| **Teplota tání** | 82,5°C |
-| **Barva** | Bílá (čistá), žlutá (degradovaná) |
-| **Rozpustnost** | Rozpustný ve vodě, ethanolu |
-| **Stabilita** | Citlivý na: světlo, teplo, kyslík, chlor |
-| **UV absorpce** | 254 nm, 310 nm |
-| **Fluorescence** | Modrá pod UV (365 nm) |
+| Aspekt | Pozitivni | Negativni |
+|--------|-----------|-----------|
+| **Vedecky** | Nastroj pro vyzkum vedomi | Zneuziti pro experimenty bez souhlasu |
+| **Terapeuticky** | Potencial pro lecbu | Prohibice zastavila vyzkum |
+| **Kulturni** | Vyznamny vliv na umeni | Asociace s drogovou kulturou |
+| **Osobni** | Jeho nejdulezitejsi objev | Zneuzivani mladezi |
 
-### Degradace
+### CIA a projekt MKUltra (1953-1973)
+
+**Utajeny program**: CIA zkoumala LSD jako mozny nastroj pro:
+
+| Cil | Metoda | Vysledek |
+|-----|--------|----------|
+| **Kontrola mysli** | Podavani bez souhlasu | Neuspesne |
+| **Vyslech** | "Truth serum" | Nespolehilive |
+| **Destabilizace** | Podavani nepratelem | Eticke skandaly |
+| **Sebe-experiment** | Agenti CIA | Nekteri zemreli |
+
+**Frank Olson** (1953): Vedec armady USA, dostal LSD bez vedomi, zemrel vypadnutim z okna - dodnes kontroverzni.
+
+**Unikleno v roce 1975**: Senatorska komise (Church Committee) odhalila program.
+
+### Counterculture 1960s
+
+| Postava | Role | Vyznam |
+|---------|------|--------|
+| **Timothy Leary** | Harvard profesor | "Turn on, tune in, drop out" |
+| **Richard Alpert** (Ram Dass) | Harvard kolega | "Be Here Now" |
+| **Ken Kesey** | Autor, Merry Pranksters | "Acid Tests" |
+| **Owsley Stanley** | Podzemni chemik | ~1 milion davek |
+| **Aldous Huxley** | Autor | "The Doors of Perception" |
+
+**Summer of Love (1967)**: San Francisco, Haight-Ashbury - epicentrum psychedelicke revoluce.
+
+---
+
+## Pokrocila chemie
+
+### Synteticke drahy
+
+#### Totalni synteza (historicka)
 
 ```
-LSD → [Světlo, teplo, O₂] → iso-LSD (neaktivní)
-LSD → [Chlor, oxidanty] → Lumi-LSD (neaktivní)
+Woodward-Kornfeld synteza (1954):
+Tryptofan → [vicekrokova synteza] → Kyselina lysergova → LSD
+
+Moderne pristupy:
+1. Synteza z tryptofanu (8-15 kroku)
+2. Semisynteza z ergotaminu (4-6 kroku)
+3. Biosynteza v modifikovanych kvasinkach (experimentalni)
 ```
 
-**Skladování**: Temno, chlad, sucho, inertní atmosféra.
+#### Semisynteza z ergotaminu (nejbeznejsi)
 
-## Farmakologie
+```
+Ergotamin (namelovy alkaloid)
+         |
+         | [1. Alkalicka hydrolza: NaOH, H2O, zahrivani]
+         v
+Kyselina lysergova (LSA)
+         |
+         | [2. Aktivace karboxylu: POCl3 nebo CDI]
+         v
+Lysergyl chlorid / Lysergyl imidazolid
+         |
+         | [3. Amidace: Diethylamin]
+         v
+LSD (surovy)
+         |
+         | [4. Purifikace: Chromatografie, krystalizace]
+         v
+LSD (cisty)
+```
 
-### Receptorový profil
+#### Klicove reakcni podminky
 
-| Receptor | Ki (nM) | Účinek |
-|----------|---------|--------|
-| **5-HT2A** | 1-2 | Agonista (hlavní psychoaktivní) |
-| **5-HT2C** | 5-10 | Agonista |
-| **5-HT1A** | 2-10 | Parciální agonista |
-| **5-HT2B** | 5 | Agonista |
-| **D1** | 20-100 | Agonista |
-| **D2** | 10-50 | Agonista |
-| **D3** | 5-20 | Agonista |
-| **α1** | 10-50 | Agonista |
-| **α2** | 50-200 | Agonista |
+| Krok | Podminky | Vytezeky |
+|------|----------|---------|
+| Hydrolza | 10% NaOH, 100C, 1-2h | 70-85% |
+| Aktivace | POCl3, CH2Cl2, 0C | 80-90% |
+| Amidace | Et2NH, THF, -20C | 60-80% |
+| Celkovy | - | 30-50% |
 
-### Srovnání afinity k 5-HT2A
+### Analyticke metody pro identifikaci
 
-| Látka | Ki (nM) | Relativní potence |
-|-------|---------|-------------------|
-| **LSD** | 1-2 | Nejvyšší |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | Vysoká |
-| [DMT](/alkaloids/dmt/) | 75-130 | Střední |
-| Meskalin | 5000+ | Nízká |
+| Metoda | Ucel | Sensitivita |
+|--------|------|-------------|
+| **UV-Vis spektroskopie** | Identifikace | ug/mL |
+| **Fluorescence** | Detekce | ng/mL |
+| **HPLC** | Separace, kvantifikace | ng/mL |
+| **LC-MS/MS** | Potvrzeni, metabolity | pg/mL |
+| **GC-MS** | Alternativa | ng/mL |
+| **NMR** | Strukturni analyza | mg |
 
-### Mechanismus účinku
+### Analogy a derivaty (lysergamidy)
+
+| Sloucenina | Struktura | Potence vs LSD | Trvani |
+|------------|-----------|----------------|--------|
+| **LSD** | N,N-diethyl | 100% (reference) | 8-12 h |
+| **1P-LSD** | 1-propionyl | ~100% | 8-12 h |
+| **1cP-LSD** | 1-cyclopropionyl | ~100% | 8-12 h |
+| **ALD-52** | 1-acetyl (1A-LSD) | ~100% | 8-12 h |
+| **ETH-LAD** | 6-ethyl-6-nor | ~150% | 6-10 h |
+| **AL-LAD** | 6-allyl-6-nor | ~80% | 6-8 h |
+| **PRO-LAD** | 6-propyl-6-nor | ~50% | 6-8 h |
+| **LSZ** | lysergic acid 2,4-dimethylazetidide | ~80% | 6-8 h |
+| **LSA** | lysergic acid amide | ~10% | 4-8 h |
+| **LSH** | lysergic acid hydroxyethylamide | ~50%? | 4-6 h |
+
+### Prodrugs
+
+**1P-LSD** a **ALD-52** jsou pravdepodobne prodrugs:
+
+```
+1P-LSD (1-propionyl-LSD)
+         |
+         | [Esterazy v plazmě/jatrech]
+         | [Hydrolza propionylove skupiny]
+         v
+LSD (aktivni forma)
+
+Dukazy:
+- In vitro: Konverze v lidskem seru
+- In vivo: Detekovano LSD v moci po poziti 1P-LSD
+- Subjektivni: Neodlisitelne ucinky
+```
+
+---
+
+## Detailni farmakologie
+
+### Receptorovy profil (Ki hodnoty)
+
+| Receptor | Ki (nM) | Ucinek | Funkce |
+|----------|---------|--------|--------|
+| **[5-HT2A](/receptors/5-ht2a/)** | 1-2 | Agonista | **Hlavni psychoaktivni** |
+| **5-HT2C** | 5-10 | Agonista | Modulace |
+| **5-HT1A** | 2-10 | Parcialni agonista | Anxiolyza |
+| **5-HT2B** | 5 | Agonista | (Kardiotoxicita pri chronickem) |
+| **5-HT5A** | 10-20 | Agonista | Neznama |
+| **5-HT6** | 2-5 | Agonista | Kognice |
+| **5-HT7** | 5-10 | Agonista | Circadianní rytmy |
+| **D1** | 20-100 | Parcialni agonista | Euforie |
+| **D2** | 10-50 | Parcialni agonista | Euforie, motorika |
+| **D3** | 5-20 | Agonista | Odměna |
+| **D4** | 50-200 | Agonista | Pozornost |
+| **alfa-1A** | 10-50 | Agonista | Vazokonstrikce |
+| **alfa-2A** | 50-200 | Parcialni agonista | Sedace |
+| **TAAR1** | 50-100 | Agonista | Neuromodulace |
+
+### Srovnani afinity k 5-HT2A
+
+| Latka | Ki (nM) | Relativni potence | Terapeuticka davka |
+|-------|---------|-------------------|-------------------|
+| **LSD** | 1-2 | Nejvyssi | 50-200 ug |
+| [Psilocin](/alkaloids/psilocin/) | 6-15 | Vysoka | 10-30 mg |
+| [DMT](/alkaloids/dmt/) | 75-130 | Stredni | 20-60 mg |
+| [Meskalin](/alkaloids/mescaline/) | 5000+ | Nizka | 200-400 mg |
+| 5-MeO-DMT | 50-100 | Vysoka | 5-15 mg |
+| 2C-B | 100-200 | Stredni | 15-25 mg |
+
+### Mechanismus ucinku na molekularni urovni
 
 ```
 LSD
-  ↓
+  |
+  v
 5-HT2A receptor (vrstva V kortexu)
-  ↓
-Gq/11 → PLC → IP₃ + DAG
-  ↓
-β-arrestin → internalizace receptoru
-  ↓
-Prolongovaná signalizace (vysvětluje dlouhé trvání)
+  |
+  +---> Gq/11 --> PLC --> IP3 + DAG
+  |                         |
+  |                         +--> Ca2+ z ER
+  |                         |
+  |                         +--> PKC aktivace
+  |                         |
+  |                         +--> ERK1/2 fosforylace
+  |                         |
+  |                         +--> CREB --> Genova exprese
+  |                         |
+  |                         +--> BDNF, Arc, c-Fos
+  |
+  +---> beta-arrestin 2 --> Internalizace receptoru
+                            |
+                            +--> Prolongovana signalizace
+                            |
+                            +--> Vysvetluje dlouhe trvani
 ```
 
-### "Lid" hypotéza
+### Funkcionalni selektivita (Biased agonismus)
 
-LSD se "zamkne" v receptoru:
-- Receptor se zavře nad molekulou
-- Pomalá disociace (minuty vs. sekundy)
-- Vysvětluje dlouhé trvání účinků
+| Ligand | Gq/11 signalizace | beta-arrestin | Head-Twitch Response |
+|--------|-------------------|---------------|---------------------|
+| **Serotonin** | +++ | +++ | - |
+| **LSD** | +++ | + | +++ |
+| **Psilocin** | ++ | ++ | ++ |
+| **DOI** | +++ | ++ | +++ |
+| **Lisurid** | + | ++ | - (ne-halucinogen) |
 
-## Farmakokinetika
+**Dulezite**: LSD preferuje Gq signalizaci nad beta-arrestinem = silna halucinogenni aktivita.
 
-| Parametr | Hodnota |
-|----------|---------|
-| **Biologická dostupnost (p.o.)** | ~70% |
-| **Tmax** | 1,5-2,5 hodiny |
-| **T½** | 3-5 hodin |
-| **Trvání účinků** | 8-12 hodin |
-| **Metabolismus** | Hepatální (CYP3A4) |
-| **Metabolity** | 2-oxo-3-hydroxy-LSD (O-H-LSD) |
-| **Eliminace** | Moč (~1% nezměněné) |
+### "Lid" hypoteza (Receptor trapping)
 
-### Proč tak dlouhé účinky?
+Krystalograficka studie Wacker et al. (2017) odhalila:
 
-1. **Receptor trapping** - LSD se váže "pevně"
-2. **Pomalá disociace** - Minuty vs. sekundy
-3. **β-arrestin signalizace** - Pokračuje po internalizaci
-4. **Aktivní metabolity** - Možná přispívají
+```
+Normalni ligand (serotonin):
++----------------------------------+
+| Receptor                         |
+|   [Vazebne misto]                |
+|       |                          |
+|   Serotonin vstoupi              |
+|       |                          |
+|   Rychla disociace (~ms)         |
++----------------------------------+
 
-## Dávkování
+LSD:
++----------------------------------+
+| Receptor                         |
+|   [Vazebne misto]   <-- "Lid"    |
+|       |             (extracell.  |
+|   LSD vstoupi       smycka)      |
+|       |                          |
+|   EL2 smycka se zavira           |
+|       |                          |
+|   LSD "uvezněno"                 |
+|       |                          |
+|   Pomala disociace (~min)        |
++----------------------------------+
 
-| Intenzita | Dávka (μg) | Popis |
-|-----------|------------|-------|
-| Mikrodávka | 5-20 | Sub-perceptuální, kognitivní benefity |
-| Práh | 20-50 | Mírné účinky, enhanced senses |
-| Mírná | 50-100 | Standardní trip |
-| Střední | 100-200 | Silný trip |
-| Silná | 200-300 | Intenzivní, ego dissolution možné |
-| Heroická | 300+ | Extrémní, nedoporučeno |
+EL2 = Extracelularni smycka 2
+Klicove aminokyseliny: Leu229, Ile230
+```
 
-### Formy a nosiče
+**Dusledky**:
+- Prodlouzeny rezidencni cas v receptoru
+- Vysvetluje 8-12 hodin trvani ucinku
+- Vysvetluje vysokou potenci
 
-| Forma | Popis |
-|-------|-------|
-| **Blotter** | Papír napuštěný LSD (nejčastější) |
-| **Gel tabs** | Želatinové čtverečky |
-| **Liquid** | Roztok (kapání na cukr, papír) |
-| **Microdots** | Malé tablety |
+---
 
-### Tolerance
+## Neurobiologie
 
-| Den | Relativní účinek |
-|-----|------------------|
-| 1 | 100% |
-| 2 | ~50% |
-| 3 | ~30% |
-| 4+ | Rychlý návrat |
-| 7-14 | Plný reset |
+### Ovlivnene mozkove site
 
-**Křížová tolerance**: S [psilocybinem](/alkaloids/psilocybin/), [DMT](/alkaloids/dmt/), meskalinem.
+| Sit | Normalni funkce | Ucinek LSD |
+|-----|-----------------|------------|
+| **[DMN](/circuits/)** (Default Mode Network) | Self-reference, rumináce | Silna suprese |
+| **SN** (Salience Network) | Detekce vyznamnosti | Zvysena aktivita |
+| **VN** (Visual Network) | Zrakove zpracovani | Hyperaktivita |
+| **CEN** (Central Executive) | Kognitivni kontrola | Modulace |
+
+### Zmeny v konektivite mozku
+
+```
+NORMALNI STAV:
++-------------+     +-------------+
+|    DMN      |<-X->|     CEN     |
+| (self-ref)  |     | (task-focus)|
++-------------+     +-------------+
+     |                    |
+     |   Antikorelace     |
+     +--------X-----------+
+
+POD VLIVEM LSD:
++-------------+     +-------------+
+|    DMN      |<--->|     CEN     |
+|  (snizena)  |     |  (zmenena)  |
++-------------+     +-------------+
+     |                    |
+     |  Zvysena globalni  |
+     |  integrace         |
+     +--------------------+
+     |                    |
+     v                    v
++-----------------------------+
+| Zvysena entropie mozku      |
+| = Flexibilnejsi stavy       |
+| = Kreativita, insight       |
++-----------------------------+
+```
+
+### Neuroimaging studie
+
+**Carhart-Harris et al. (2016)** - Beckley/Imperial Research Programme:
+
+| Metoda | Nalez | Interpretace |
+|--------|-------|--------------|
+| **fMRI** | Snizena DMN integrita | Ego dissolution |
+| **MEG** | Snizena alfa-oscilace | Zmena stavu vedomi |
+| **fMRI** | Zvysena globalni konektivita | "Rozpad hranic" |
+| **ASL** | Zvyseny krevni prutok ve vizualnim kortexu | Vizualni efekty |
+
+### Entropic Brain Hypothesis
+
+```
+ENTROPIE MOZKOVE AKTIVITY
+
+Nizka entropie                    Vysoka entropie
+(rigidni, prediktabilni)          (flexibilni, variabilni)
+        |                                |
+        v                                v
++------------------+             +------------------+
+|  - Deprese       |             |  - Psychedelicky |
+|  - OCD           |             |    stav          |
+|  - Zavislosti    |   LSD       |  - Kreativita    |
+|  - Rigidni       | =========>  |  - Flexibilita   |
+|    mysleni       |             |  - Insight       |
++------------------+             +------------------+
+        |                                |
+        +--------------+-----------------+
+                       |
+                       v
+              OPTIMALNI ENTROPIE
+              (normalni vedomi)
+
+Terapeuticky potencial:
+Docasne zvyseni entropie --> Reset rigidnich vzorcu
+```
+
+### REBUS model
+
+**REBUS** (Relaxed Beliefs Under Psychedelics):
+
+```
+NORMALNI HIERARCHICKE ZPRACOVANI:
++------------------------+
+| Top-down predikce      | <-- Silne priory (ocekavani)
+| ====================== |
+| |||||||||||||||||||||  |
++------------------------+
+         |
+         v
++------------------------+
+| Bottom-up signaly      | <-- Potlacene
+| ---------------------- |
+| ___________________    |
++------------------------+
+
+POD LSD:
++------------------------+
+| Top-down predikce      | <-- Oslabene priory
+| ---------------------- |
+|                        |
++------------------------+
+         |
+         v
++------------------------+
+| Bottom-up signaly      | <-- Zesilene
+| ====================== |
+| |||||||||||||||||||||||| |
++------------------------+
+
+Dusledky:
+- Perceptualni distorze
+- Nove asociace
+- "Videt veci jinak"
+- Terapeuticky insight
+```
+
+---
+
+## Klinicky vyzkum
+
+### Historicky vyzkum (1950-1970)
+
+| Instituce | Obdobi | Zamereni | Vysledky |
+|-----------|--------|----------|----------|
+| Sandoz | 1947-1966 | Psychiatricky vyzkum | Delysid jako nastroj |
+| Saskatchewan | 1950s | Alkoholismus | 40-50% abstinence |
+| Spring Grove | 1960s | Terminalni uzkost | Snizeni uzkosti |
+| Harvard | 1960-1963 | Mysticke zazitky | Leary, Alpert |
+
+### Moderni klinicke studie
+
+| Instituce | Rok | Indikace | Vysledky |
+|-----------|-----|----------|----------|
+| **MAPS** | 2014-nyni | Uzkost u terminalnich pacientu | Signifikantni snizeni |
+| **Imperial College** | 2016-nyni | Rezistentni deprese | Slibne vysledky |
+| **University of Basel** | 2014 | Uzkost | Pozitivni efekty |
+| **Beckley Foundation** | 2016 | Neuroimaging | Mechanismy |
+| **MindMed** | 2021-nyni | GAD, alkoholismus | Faze II/III |
+
+### Soucasne indikace ve vyzkumu
+
+| Indikace | Faze | Status | Klicova studie |
+|----------|------|--------|----------------|
+| **Uzkost (terminalni)** | II | Pozitivni | Gasser et al. 2014 |
+| **Rezistentni deprese** | II | Pokracuje | MindMed 2023 |
+| **Alkoholismus** | II | Slibne | Bogenschutz (komparator) |
+| **Klastrove bolesti hlavy** | Pilot | Anekdoticky | - |
+| **OCD** | I | Zkoumano | - |
+
+### Mikrodavkovani
+
+| Aspekt | Fadiman protokol | Stamets protokol |
+|--------|------------------|------------------|
+| **Davka** | 10-20 ug | 5-10 ug |
+| **Frekvence** | 1x za 3 dny | 4 dny on, 3 off |
+| **Trvani** | 4-8 tydnu | 4 tydnu |
+| **Pauza** | 2-4 tydny | 2-4 tydny |
+
+**Reportovane benefity** (anekdoticke):
+- Zvysena kreativita
+- Lepsí nalada
+- Zvyseny focus
+- Snizena uzkost
+
+**Vedecky status**: Omezene kontrolovane studie, zatim nepreukazane v randomizovanych trialech.
+
+---
 
 ## Fenomenologie
 
-### Fáze tripu
+### Faze tripu
 
-| Fáze | Čas | Charakteristika |
-|------|-----|-----------------|
-| **Come-up** | 0-2 h | Nástup, úzkost, vzrušení |
-| **Peak** | 2-5 h | Maximum účinků |
-| **Plateau** | 5-8 h | Stabilní intenzita |
-| **Come-down** | 8-12 h | Postupné odeznívání |
-| **Afterglow** | 12-24 h | Reziduální účinky |
+| Faze | Cas | Charakteristika | Subjektivni |
+|------|-----|-----------------|-------------|
+| **Absorpce** | 0-0,5 h | Latence | Ocekavani |
+| **Come-up** | 0,5-2 h | Nastup | Uzkost, vzruseni, telesne pocity |
+| **Peak** | 2-5 h | Maximum ucinku | Plne rozvinute efekty |
+| **Plateau** | 5-8 h | Stabilni intenzita | Udrzeni stavu |
+| **Come-down** | 8-12 h | Postupne odezniváni | Integrace, unava |
+| **Afterglow** | 12-24 h | Rezidualni ucinky | Zvysena vnimavost |
 
-### Vizuální efekty
+### Vizualni efekty - detailni taxonomie
 
-| Typ | Popis |
-|-----|-------|
-| **Drifting** | Povrchy se "hýbou" |
-| **Breathing** | Objekty "dýchají" |
-| **Tracers** | Stopy za pohybujícími se objekty |
-| **Geometrie** | Fraktály, vzory, mandaly |
-| **Synestézie** | Vidění zvuků, slyšení barev |
-| **Halucinace** | Při vyšších dávkách |
+| Uroven | Typ | Popis |
+|--------|-----|-------|
+| **1** | Zvysena ostrost | Zvetralena hloubka, zivejsi barvy |
+| **2** | Drifting | Povrchy se "hybi", vlneni |
+| **3** | Breathing | Objekty "dychaji", pulsuj |
+| **4** | Morphing | Tvary se meni |
+| **5** | Tracers | Stopy za pohybujicimi se objekty |
+| **6** | After-images | Obrazy pretrvavaji |
+| **7** | Geometrie (otevrene oci) | Vzory na objektech |
+| **8** | Geometrie (zavrene oci) | Fraktaly, mandaly, kaleidoskopy |
+| **9** | Syntézie | Videni zvuku, slyseni barev |
+| **10** | Halucinace | Komplexni obrazy, entity |
+| **11** | Prulom | Kompletni zmena reality |
 
-### Kognitivní efekty
+### Kognitivni efekty
 
-- **Zrychlené myšlení** - Myšlenkový racing
-- **Konceptuální myšlení** - Abstraktní úvahy
-- **Kreativita** - Nové spojení myšlenek
-- **Introspekce** - Sebeanalýza
-- **Ego dissolution** - Rozpuštění hranic já
-- **Mystické zážitky** - Jednota, transcendence
+| Efekt | Popis | Frekvence |
+|-------|-------|-----------|
+| **Zrychlene mysleni** | Myslenkovy racing | Velmi caste |
+| **Konceptualni mysleni** | Abstraktni uvahy | Caste |
+| **Kreativita** | Nove spojeni myslenek | Caste |
+| **Introspekce** | Sebeanalyza | Caste |
+| **Ego dissolution** | Rozpusteni hranic ja | Pri vyssich davkach |
+| **Mysticke zazitky** | Jednota, transcendence | Pri vyssich davkach |
+| **Casova distorze** | Minuty jako hodiny | Velmi caste |
+| **Deja vu** | Pocit opakování | Obcas |
+| **Thought loops** | Opakujici se myslenkove vzorce | Obcas |
 
-### Tělesné efekty
+### Telesne efekty
 
-| Efekt | Typ |
-|-------|-----|
-| Mydriáza | Rozšířené zornice |
-| Tachykardie | Mírné zvýšení TF |
-| Hypertenze | Mírné zvýšení TK |
-| Tremor | Jemný třes |
-| Piloerekce | Husí kůže |
-| Hyperthermie | Mírné zvýšení teploty |
-| Nausea | Možná při nástupu |
+| Efekt | Typ | Klinicky vyznam |
+|-------|-----|-----------------|
+| Mydriaza | Rozsirene zornice | Diagnosticky znak |
+| Tachykardie | Mirne zvyseni TF (+10-20) | Bezvyznamne |
+| Hypertenze | Mirne zvyseni TK (+10-20 mmHg) | Bezvyznamne |
+| Tremor | Jemny tres | Bezvyznamne |
+| Piloerekce | Husi kuze | Bezvyznamne |
+| Hyperthermie | Mirne zvyseni teploty | Monitor |
+| Nausea | Mozna pri nastupu | Prechodne |
+| Kovovy "body load" | Telesny diskomfort | Individualni |
+
+---
+
+## Davkovani
+
+### Davky a ucinky
+
+| Intenzita | Davka (ug) | Popis | Riziko |
+|-----------|------------|-------|--------|
+| **Mikrodavka** | 5-20 | Sub-perceptualni | Minimalni |
+| **Prah** | 20-50 | Mirne ucinky | Nizke |
+| **Mirna** | 50-100 | Standardni trip | Stredni |
+| **Stredni** | 100-200 | Silny trip | Stredni-vyssi |
+| **Silna** | 200-300 | Intenzivni, ego dissolution | Vyssi |
+| **Heroicka** | 300-500 | Extremni | Vysoke |
+| **Megadavka** | 500+ | Thumb print (Grateful Dead) | Velmi vysoke |
+
+### Formy a nosice
+
+| Forma | Popis | Davkovani |
+|-------|-------|-----------|
+| **Blotter** | Papir napusteny LSD | Nejcastejsi, 50-200 ug/tab |
+| **Gel tabs** | Zelatinove ctverecky | Presnejsi davkovani |
+| **Liquid** | Roztok (etanol/voda) | Kapani na cukr, papir |
+| **Microdots** | Male tablety | Historicky |
+| **Window pane** | Tenke zelatiny | Vyssi davky |
+
+### Tolerance
+
+| Den od posledni davky | Relativni ucinek |
+|-----------------------|------------------|
+| 1 | 100% |
+| 2 | ~50% |
+| 3 | ~30% |
+| 4 | ~20% |
+| 5-6 | ~10-15% |
+| 7-14 | Plny reset |
+
+**Krizova tolerance**: S [psilocybinem](/alkaloids/psilocybin/), [DMT](/alkaloids/dmt/), meskalinem a dalsimi 5-HT2A agonisty.
+
+```
+LSD tolerance --> Snizena odpoved na psilocybin
+Psilocybin tolerance --> Snizena odpoved na LSD
+DMT tolerance --> Slabsi (rychla obnova)
+```
+
+---
+
+## Farmakokinetika
+
+### Zakladni parametry
+
+| Parametr | Hodnota | Poznamka |
+|----------|---------|----------|
+| **Biologicka dostupnost (p.o.)** | ~70% | Dobra absorpce |
+| **Tmax** | 1,5-2,5 hodiny | Peak plasmaticke koncentrace |
+| **T1/2** | 3-5 hodin | Biologicky polocas |
+| **Trvani ucinku** | 8-12 hodin | Delsi nez T1/2! |
+| **Distribuční objem** | 0,2 L/kg | Stredni |
+| **Vazba na proteiny** | ~80% | Albumin |
+| **Metabolismus** | Hepatalni (CYP3A4, CYP2D6) | |
+| **Hlavni metabolity** | 2-oxo-3-hydroxy-LSD (O-H-LSD) | Neaktivni |
+| **Eliminace** | Moc (~1% nezmenene) | |
+
+### Proc tak dlouhe ucinky?
+
+```
+Plazmaticka koncentrace LSD:
+     ^
+     |     Peak
+     |      /\
+     |     /  \
+     |    /    \
+     |   /      \____
+     |  /            \_____
+     | /                   \_______ T1/2 = 3-5h
+     |/___________________________|______>
+     0    2    4    6    8   10   12  (hodiny)
+
+Subjektivni ucinky:
+     ^
+     |          Peak
+     |         _____
+     |        /     \
+     |       /       \
+     |      /         \
+     |     /           \____
+     |    /                 \_______ 8-12h trvani
+     |___/____________________________|_____>
+     0    2    4    6    8   10   12  (hodiny)
+
+ROZPOR: Ucinky trvaji dele nez pritomnost v plazme!
+
+Vysvetleni:
+1. Receptor trapping ("lid" mechanismus)
+2. Prolongovana intracelularni signalizace
+3. Downstream neuroplasticke zmeny
+4. Beta-arrestin signalizace po internalizaci
+```
+
+### Metabolismus
+
+```
+LSD
+  |
+  +---> [CYP3A4] ---> 2-oxo-LSD (hlavni)
+  |
+  +---> [CYP3A4] ---> 2-oxo-3-hydroxy-LSD (O-H-LSD)
+  |
+  +---> [CYP2D6] ---> N-demethyl-LSD
+  |
+  +---> [CYP2C9] ---> Dalsí hydroxy metabolity
+  |
+  +---> Nezmenene v moci (~1%)
+
+Vsechny metabolity jsou NEAKTIVNI.
+```
+
+---
 
 ## Set a Setting
 
 ### Set (Mindset)
 
-| Faktor | Doporučení |
-|--------|------------|
-| **Nálada** | Pozitivní, stabilní |
-| **Očekávání** | Realistická, otevřená |
-| **Úmysl** | Jasný záměr |
-| **Připravenost** | Bez stresu, úkolů |
+| Faktor | Doporuceni | Vysvetleni |
+|--------|------------|------------|
+| **Nalada** | Pozitivni, stabilni | "Jaky jsi, takovy trip" |
+| **Ocekavani** | Realisticka, otevrena | Nesnazt se kontrolovat |
+| **Umysl** | Jasny zamer | Terapie vs. rekreace |
+| **Pripravenost** | Bez stresu, ukolu | Volny den minimalne |
+| **Fyzicky stav** | Odpocinuty, zdrava strava | Nekurit, nepít alkohol |
+| **Zkusenost** | Zacit s nizsi davkou | Postupna titrace |
 
-### Setting (Prostředí)
+### Setting (Prostredi)
 
-| Faktor | Doporučení |
-|--------|------------|
-| **Místo** | Bezpečné, známé |
-| **Lidé** | Důvěryhodní, nebo solo |
-| **Sitter** | Doporučen pro začátečníky |
-| **Hudba** | Připravený playlist |
-| **Příroda** | Ideální setting |
+| Faktor | Doporuceni | Vysvetleni |
+|--------|------------|------------|
+| **Misto** | Bezpecne, zname | Domov, priroda |
+| **Lide** | Duveryhodní, nebo solo | Zadni cizi lide |
+| **Sitter** | Doporucen pro zacatecniky | Strizlivy pruvodce |
+| **Hudba** | Pripraveny playlist | Bez textu, ambient, klasika |
+| **Teplota** | Prijemna | Prikryvky k dispozici |
+| **Svetlo** | Regulovatelne | Svicky, tlumene svetlo |
+| **Voda** | Dostatek | Hydratace |
 
-## Terapeutické využití
+### Harm reduction doporuceni
 
-### Historické (1950s-1960s)
-
-| Indikace | Výsledky |
-|----------|----------|
-| Alkoholismus | Slibné (Bill Wilson, AA) |
-| Deprese | Pozitivní |
-| Úzkost (terminální) | Pozitivní |
-| Kreativita | Zkoumáno |
-
-### Současný výzkum
-
-| Instituce | Zaměření |
-|-----------|----------|
-| **MAPS** | PTSD, úzkost |
-| **Imperial College** | Deprese, neuroimaging |
-| **Johns Hopkins** | Mystické zážitky |
-| **Beckley Foundation** | Neurověda |
-
-### Mikrodávkování
-
-| Aspekt | Protokol |
-|--------|----------|
-| **Dávka** | 5-20 μg |
-| **Frekvence** | 1× za 3-4 dny |
-| **Trvání** | 4-8 týdnů |
-| **Reportované benefity** | Kreativita, nálada, focus |
-| **Evidence** | Převážně anekdotická |
-
-## Bezpečnost
-
-### Toxicita
-
-| Parametr | Hodnota |
-|----------|---------|
-| **LD50 (člověk)** | Neznámá (žádná potvrzená smrt z předávkování) |
-| **LD50 (králík)** | ~0,3 mg/kg i.v. |
-| **Bezpečnostní poměr** | >1000 |
-| **Fyziologická toxicita** | Extrémně nízká |
-
-### Psychologická rizika
-
-| Riziko | Prevence |
-|--------|----------|
-| **Bad trip** | Set & setting, nízká dávka, sitter |
-| **HPPD** | Vzácné, vyhýbat se u predisponovaných |
-| **Psychóza** | Kontraindikace u rizikových |
-| **Flashbacky** | Většinou benigní |
-
-### Kontraindikace
-
-| Absolutní | Relativní |
-|-----------|-----------|
-| Schizofrenie | Úzkostné poruchy |
-| Psychóza v anamnéze | Těžká deprese |
-| Bipolární I | Srdeční onemocnění |
-| | SSRI (snížený účinek) |
-
-### Serotonin syndrom
-
-LSD **nezpůsobuje** serotonin syndrom samo o sobě (není MAOI ani uvolňovač serotoninu).
-
-## Detekce
-
-### Analytické metody
-
-| Metoda | LOD | Okno detekce |
-|--------|-----|--------------|
-| **Urine (EMIT)** | 0,5 ng/mL | 1-3 dny |
-| **Urine (LC-MS)** | 0,01 ng/mL | 3-5 dní |
-| **Krev** | 0,001 ng/mL | 6-12 hodin |
-| **Vlasy** | 1 pg/mg | Měsíce |
-
-### Ehrlichův test
-
-```
-LSD + p-DMAB → Purpurové/fialové zbarvení
-```
-
-Pozitivní pro indoly obecně (ne specifický).
-
-## Právní status
-
-### Mezinárodní
-
-| Jurisdikce | Status |
-|------------|--------|
-| **OSN** | Schedule I (1971) |
-| **USA** | Schedule I |
-| **EU** | Zakázáno všude |
-| **Švýcarsko** | Povoleno pro výzkum |
-
-### Česká republika
-
-- **Nařízení vlády č. 463/2013 Sb.**
-- **Tabulka č. 1** - zakázané látky
-- LSD explicitně uvedeno
-- **Trest**: Až 1-5 let (držení), 2-10 let (distribuce)
-
-## Analogy a deriváty
-
-### Lysergamidy
-
-| Sloučenina | Potence | Trvání |
-|------------|---------|--------|
-| **LSD** | Referenční | 8-12 h |
-| 1P-LSD | ~100% | 8-12 h |
-| ALD-52 | ~100% | 8-12 h |
-| ETH-LAD | ~150% | 6-10 h |
-| AL-LAD | ~80% | 6-8 h |
-| LSZ | ~80% | 6-8 h |
-
-### Prodrugs
-
-**1P-LSD** a **ALD-52** jsou pravděpodobně prodrugs LSD (metabolizují se na LSD in vivo).
-
-## Reference
-
-1. Hofmann, A. (1980). *LSD: My Problem Child*
-2. Passie, T. et al. (2008). *The pharmacology of lysergic acid diethylamide: a review*. CNS Neuroscience & Therapeutics
-3. Nichols, D.E. (2016). *Psychedelics*. Pharmacological Reviews
-4. Carhart-Harris, R. et al. (2016). *Neural correlates of the LSD experience*. PNAS
-5. Wacker, D. et al. (2017). *Crystal structure of an LSD-bound human serotonin receptor*. Cell
+1. **Testuj latku** (Ehrlich, Hofmann reagenty)
+2. **Zacni s nizsi davkou** (25-50 ug pro prvni zkusenost)
+3. **Mel sitttera** (strizliva duveryhodna osoba)
+4. **Bezpecny prostor** (zadne ostriny, zadne riziko padu)
+5. **Volny nasledujici den** (integrace)
+6. **Benzodiazepiny jako "kill switch"** (diazepam ukoncuje trip)
+7. **Zadny alkohol, cannabis** (komplikuje zkusenost)
+8. **Zadna jizda** (min. 24 hodin)
 
 ---
 
-Viz také:
-- [Psilocybin](/alkaloids/psilocybin/) - příbuzný tryptamin
-- [DMT](/alkaloids/dmt/) - Spirit Molecule
-- [Muscimol](/alkaloids/muscimol/) - odlišný mechanismus
+## Bezpecnostni profil
 
-← Zpět na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/) →
+### Fyziologicka toxicita
+
+| Parametr | Hodnota | Kontext |
+|----------|---------|---------|
+| **LD50 (clovek)** | Neznama | Zadna potvrzena smrt z predavkovani samotnym LSD |
+| **LD50 (kralik)** | ~0,3 mg/kg i.v. | ~30 000x aktivni davka |
+| **LD50 (potkan)** | 16 mg/kg i.v. | ~160 000x aktivni davka |
+| **Bezpecnostni pomer** | >1000 | Jeden z nejbezpecnejsich |
+| **Letalni dávka (odhad)** | >10 mg? | Teoreticky, nikdy nedosazeno |
+| **Neurotoxicita** | ZADNA | Narozdil od MDMA |
+| **Kardiotoxicita** | Minimalni | Akutni tachykardie, hypertenze |
+
+**Srovnani smrtelných dávek**:
+```
+LSD:      >10 000 ug (teoreticky)
+Heroin:   ~200 mg
+Kokain:   ~1 g
+Alkohol:  ~300 g
+Kofein:   ~10 g
+```
+
+### Psychologicka rizika
+
+| Riziko | Frekvence | Prevence |
+|--------|-----------|----------|
+| **Bad trip** | ~10-20% | Set & setting, nizka davka, sitter |
+| **HPPD** | <1% | Vyhybat se u predisponovanych |
+| **Psychoza** | <0,1% | Kontraindikace u rizikovych |
+| **Flashbacky** | 5-10% | Vetsinou benigni |
+| **Deperzonalizace** | Vzacne | Integrace, terapie |
+| **Prolongovana uzkost** | Vzacne | Integrace, terapie |
+
+### HPPD (Hallucinogen Persisting Perception Disorder)
+
+```
+Typy:
+1. HPPD Type 1: Flashbacky (kratke, epizodicky)
+2. HPPD Type 2: Kontinualni poruchy vnimani
+
+Symptomy:
+- Visual snow (snih pred ocima)
+- Halos kolem svetel
+- Tracery
+- After-images
+- Floatery
+
+Rizikove faktory:
+- Opakované vysoké dávky
+- Kombinace s cannabisem
+- Predispozice (uzkostne poruchy)
+- Mlady vek zacatku
+
+Lecba:
+- Casto spontanni ustup
+- Benzodiazepiny
+- Clonazepam
+- Lamotrigine
+```
+
+### Kontraindikace
+
+| Absolutni | Relativni |
+|-----------|-----------|
+| Schizofrenie | Uzkostne poruchy |
+| Psychoza v anamneze | Tezka deprese |
+| Bipolarni porucha I | Srdecni onemocneni |
+| Psychoza u pribuznych 1. rade | Epilepsie |
+| | SSRI (snizeny ucinek) |
+| | Lithium (nebezpecne!) |
+| | Tramadol (snizeny prah zauchvatu) |
+
+**Lithium + LSD**: Vysoké riziko zauchvatu - ABSOLUTNI kontraindikace!
+
+### Serotonin syndrom
+
+LSD **nezpusobuje** serotonin syndrom samo o sobe:
+- Neni MAOI
+- Neni uvolnovac serotoninu
+- Neni inhibitor zpetneho vychytu
+
+**Ale**: Kombinace s MAOI (ayahuasca + LSD) nebo vysokymi davkami serotoninergik moze byt rizikova.
+
+---
+
+## Detekce
+
+### Analyticke metody
+
+| Metoda | LOD | Okno detekce | Pouziti |
+|--------|-----|--------------|---------|
+| **Urine (EMIT)** | 0,5 ng/mL | 1-3 dny | Screening |
+| **Urine (LC-MS)** | 0,01 ng/mL | 3-5 dni | Konfirmace |
+| **Krev** | 0,001 ng/mL | 6-12 hodin | Akutni |
+| **Vlasy** | 1 pg/mg | Mesice | Retrospektivni |
+| **Sliny** | 1 ng/mL | 1-2 dny | Field testing |
+
+### Ehrlichuv test (field test)
+
+```
+LSD + p-DMAB --> Purpurove/fialove zbarveni
+                 (Ehrlichuv reagent)
+
+Pozitivni pro indoly obecne:
+- LSD: Purpurova
+- Psilocybin: Purpurova
+- DMT: Purpurova
+- 25I-NBOMe: ZADNA reakce (!)
+
+Poznamka: Test neni specificky, pouze indikuje pritomnost indolu.
+```
+
+### Hofmannuv test (doplnek k Ehrlichovi)
+
+```
+LSD + Hofmann reagent --> Modra
+DMT + Hofmann reagent --> Zluta/oranzova
+Psilocybin + Hofmann reagent --> Modro-zelena
+
+Kombinace Ehrlich + Hofmann = lepsi rozliseni.
+```
+
+---
+
+## Pravni status
+
+### Mezinarodni
+
+| Jurisdikce | Status | Poznamka |
+|------------|--------|----------|
+| **OSN** | Schedule I (1971) | Zadne uznavane lekarske vyuziti |
+| **USA** | Schedule I | Nejprisnejsi kategorie |
+| **EU** | Zakazano vsude | Ruzne implementace |
+| **Svycarsko** | Povoleno pro vyzkum | Specialni povoleni |
+| **Portugalsko** | Dekriminalizovano | Osobni mnozstvi |
+| **Nizozemsko** | Zakazano | 1P-LSD bylo kratce legalni |
+
+### Ceska republika
+
+| Aspekt | Pravni uprava |
+|--------|---------------|
+| **Legislativa** | Narizeni vlady c. 463/2013 Sb. |
+| **Zarazeni** | Tabulka c. 1 - zakazane latky |
+| **Specifikace** | LSD explicitne uvedeno |
+| **Tresty - drzeni** | Az 1-5 let |
+| **Tresty - distribuce** | 2-10 let |
+| **Vyroba** | 2-10 let |
+
+### Vyzkumne vyjimky
+
+| Zeme | Typ vyjimky | Prislusny organ |
+|------|-------------|-----------------|
+| Svycarsko | Klinicky vyzkum | BAG |
+| USA | Schedule I research | DEA |
+| UK | Schedule 1 research | Home Office |
+| Cesko | Vyjimka MZ | Ministerstvo zdravotnictvi |
+
+---
+
+## Terapeuticke vyuziti
+
+### Mechanismy terapeutickeho efektu
+
+```
+1. Neuroplasticita
+   LSD --> 5-HT2A --> BDNF uvolneni --> Synaptogenze
+
+2. DMN reset
+   LSD --> Snizena DMN aktivita --> Preruseni ruminace
+
+3. Emocionalni prulom
+   LSD --> Snizena amygdala reaktivita --> Zpracovani traumatu
+
+4. Mysticky zazitek
+   LSD --> Ego dissolution --> Existencialni insight
+
+5. Psychodelicka psychoterapie
+   LSD + terapie --> Zrychleny terapeuticky proces
+```
+
+### Historicke indikace (1950-1970)
+
+| Indikace | Vysledky | Klicova studie |
+|----------|----------|----------------|
+| Alkoholismus | 40-50% abstinence | Saskatchewan, Hoffer |
+| Deprese | Pozitivni | Ruzne |
+| Uzkost (terminalni) | Pozitivni | Spring Grove |
+| Kreativita | Zkoumano | Harman et al. |
+| Autismus | Nepreukazne | - |
+
+### Soucasne studie (2010+)
+
+| Instituce | Indikace | Faze | Vysledky |
+|-----------|----------|------|----------|
+| MAPS | Uzkost u terminalnich | II | Signifikantni snizeni |
+| MindMed | GAD | II/III | Pokracuje |
+| University of Basel | Uzkost | II | Pozitivni |
+| Imperial College | Deprese (psilocybin comparator) | - | Srovnavaci data |
+
+---
+
+## Reference
+
+### Primární literatura
+
+1. Hofmann, A. (1979). *LSD: My Problem Child*. McGraw-Hill.
+2. Passie, T. et al. (2008). *The pharmacology of lysergic acid diethylamide: a review*. CNS Neuroscience & Therapeutics, 14(4), 295-314.
+3. Nichols, D.E. (2016). *Psychedelics*. Pharmacological Reviews, 68(2), 264-355.
+4. Carhart-Harris, R. et al. (2016). *Neural correlates of the LSD experience revealed by multimodal neuroimaging*. PNAS, 113(17), 4853-4858.
+5. Wacker, D. et al. (2017). *Crystal structure of an LSD-bound human serotonin receptor*. Cell, 168(3), 377-389.
+6. Liechti, M.E. (2017). *Modern clinical research on LSD*. Neuropsychopharmacology, 42(11), 2114-2127.
+7. Preller, K.H. et al. (2018). *The fabric of meaning and subjective effects in LSD-induced states depend on serotonin 2A receptor activation*. Current Biology, 28(3), 451-457.
+8. Holze, F. et al. (2021). *Acute dose-dependent effects of lysergic acid diethylamide in a double-blind placebo-controlled study in healthy subjects*. Neuropsychopharmacology, 46(3), 537-544.
+
+### Historicke prameny
+
+9. Stoll, W.A. (1947). *Lysergsäure-diäthylamid, ein Phantastikum aus der Mutterkorngruppe*. Schweizer Archiv für Neurologie und Psychiatrie, 60, 279-323.
+10. Lee, M.A. & Shlain, B. (1985). *Acid Dreams: The Complete Social History of LSD*. Grove Press.
+11. Stevens, J. (1987). *Storming Heaven: LSD and the American Dream*. Grove Press.
+
+### Meta-analyzy
+
+12. Fuentes, J.J. et al. (2020). *Therapeutic use of LSD in psychiatry: A systematic review of randomized-controlled clinical trials*. Frontiers in Psychiatry, 10, 943.
+13. Krebs, T.S. & Johansen, P. (2012). *Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials*. Journal of Psychopharmacology, 26(7), 994-1002.
+
+---
+
+Viz take:
+- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil LSD
+- [Neuralni okruhy](/circuits/) - DMN a dalsí site
+- [Psilocybin](/alkaloids/psilocybin/) - Pribuzny tryptamin
+- [DMT](/alkaloids/dmt/) - Spirit Molecule
+- [Meskalin](/alkaloids/mescaline/) - Fenetylaminove psychedelikum
+- [Muscimol](/alkaloids/muscimol/) - Odlisny mechanismus (GABAergni)
+
+---
+
+*Tato stranka slouzi pouze pro edukacni a harm reduction ucely. LSD je v Ceske republice nezakonna latka. Vsechny informace jsou zalozeny na vedecke literature.*
+
+---
+
+<- Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/) ->
