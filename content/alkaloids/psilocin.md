@@ -6,7 +6,7 @@ weight = 2
 
 # Psilocin - 4-hydroxy-N,N-dimethyltryptamin
 
-**Psilocin** (4-HO-DMT) je psychoaktivni alkaloid a **aktivni metabolit** [psilocybinu](/alkaloids/psilocybin/). Na rozdil od psilocybinu pusobi **primo** na serotoninove receptory bez nutnosti metabolicke aktivace. Predstavuje konecny efektor zodpovedny za veskerou psychoaktivitu hub obsahujicich psilocybin.
+**Psilocin** (4-HO-DMT) je psychoaktivni alkaloid a **aktivni metabolit** [psilocybinu](@/alkaloids/psilocybin.md). Na rozdil od psilocybinu pusobi **primo** na serotoninove receptory bez nutnosti metabolicke aktivace. Predstavuje konecny efektor zodpovedny za veskerou psychoaktivitu hub obsahujicich psilocybin.
 
 Tato sloucenina je strukturne velmi blizka endogennimi neurotransmiteru serotoninu (5-HT) a vyznacuje se vysokou afinitou k 5-HT2A receptorum, coz zprostredkovava jeji psychedelicke ucinky.
 
@@ -31,7 +31,7 @@ Tato sloucenina je strukturne velmi blizka endogennimi neurotransmiteru serotoni
 
 ### Strukturni klasifikace
 
-- **Skupina**: [Tryptaminy](/alkaloids/)
+- **Skupina**: [Tryptaminy](@/alkaloids/_index.md)
 - **Podskupina**: 4-substituovane tryptaminy (4-HO serie)
 - **Strukturni zaklad**: Indolovy kruh
 - **Charakteristicky rys**: Hydroxylova skupina na pozici C-4
@@ -67,10 +67,10 @@ Ethylaminova skupina: -CH2-CH2-N(CH3)2
 | Sloucenina | Struktura | Pozice OH | N-substituce | Aktivita |
 |------------|-----------|-----------|--------------|----------|
 | **Psilocin** | 4-HO-DMT | C-4 | N,N-dimethyl | Primo aktivni |
-| [Psilocybin](/alkaloids/psilocybin/) | 4-PO-DMT | C-4 (fosforyl) | N,N-dimethyl | Prodrug |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 4-PO-DMT | C-4 (fosforyl) | N,N-dimethyl | Prodrug |
 | DMT | N,N-DMT | Zadna | N,N-dimethyl | Primo aktivni |
 | Serotonin | 5-HT | C-5 | NH2 | Endogenni |
-| [Baeocystin](/alkaloids/baeocystin/) | 4-PO-NMT | C-4 (fosforyl) | N-methyl | Slabe aktivni |
+| [Baeocystin](@/alkaloids/baeocystin.md) | 4-PO-NMT | C-4 (fosforyl) | N-methyl | Slabe aktivni |
 | Bufotenin | 5-HO-DMT | C-5 | N,N-dimethyl | Aktivni (slaba) |
 | 4-AcO-DMT | 4-AcO-DMT | C-4 (acetyl) | N,N-dimethyl | Prodrug |
 
@@ -352,7 +352,7 @@ Psilocin (aktivni) + Fosfat (Pi)
 
 ### Srovnani psilocybin vs psilocin
 
-| Vlastnost | Psilocin | [Psilocybin](/alkaloids/psilocybin/) |
+| Vlastnost | Psilocin | [Psilocybin](@/alkaloids/psilocybin.md) |
 |-----------|----------|------------|
 | **Farmakologická aktivita** | Primo aktivni | Prodrug (neaktivni) |
 | **Stabilita** | Nestabilni (oxidace) | Stabilni |
@@ -821,8 +821,8 @@ Pri kombinaci s MAOi nebo jinými serotonergiky muze nastat:
 | P. cyanescens | 0,30-0,36% | 0,85% | 0,35-0,42 |
 | P. baeocystis | 0,59% | 0,85% | 0,69 |
 | P. bohemica | 0,11% | 0,93% | 0,12 |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,01-0,17% | 0,14-0,42% | 0,07-0,40 |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,02% | 0,98% | 0,02 |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0,01-0,17% | 0,14-0,42% | 0,07-0,40 |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0,02% | 0,98% | 0,02 |
 | P. tampanensis | 0,32% | 0,68% | 0,47 |
 | P. mexicana | 0,15% | 0,25% | 0,60 |
 | Panaeolus cyanescens | 0,30% | 0,85% | 0,35 |
@@ -1093,16 +1093,16 @@ Fialový/purpurový produkt (indolovy adukt)
 
 ## Viz take
 
-- [Psilocybin](/alkaloids/psilocybin/) - stabilní prodrug
-- [Baeocystin](/alkaloids/baeocystin/) - príbuzný alkaloid
-- [DMT](/alkaloids/dmt/) - strukturne príbuzný tryptamin
-- [LSD](/alkaloids/lsd/) - funkcne podobné psychedelikum
-- [Psilocybes](/shrooms/psilocybes/) - houby s obsahem psilocinu
-- [5-HT2A receptor](/receptors/5-ht2a/) - primarni cil
-- [5-HT1A receptor](/receptors/5-ht1a/) - sekundarní cíl
-- [Mozek](/brain/) - neuralni substraty
-- [Serotonin](/neurotransmitters/serotonin/) - endogenni ligand
+- [Psilocybin](@/alkaloids/psilocybin.md) - stabilní prodrug
+- [Baeocystin](@/alkaloids/baeocystin.md) - príbuzný alkaloid
+- [DMT](@/alkaloids/dmt.md) - strukturne príbuzný tryptamin
+- [LSD](@/alkaloids/lsd.md) - funkcne podobné psychedelikum
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - houby s obsahem psilocinu
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - primarni cil
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - sekundarní cíl
+- [Mozek](@/brain/_index.md) - neuralni substraty
+- [Serotonin](@/neurotransmitters/serotonin.md) - endogenni ligand
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | Dalsi: [Muscimol](/alkaloids/muscimol/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | Dalsi: [Muscimol](@/alkaloids/muscimol.md)

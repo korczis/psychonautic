@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # NMDA receptor - Brána synaptické plasticity
 
-**NMDA receptor** (N-methyl-D-aspartát receptor) je ionotropní **glutamátový receptor** klíčový pro **synaptickou plasticitu**, učení a paměť. Je cílem disociativních látek (ketamin, PCP) a prekurzorem excitotoxického poškození při nadměrné aktivaci ([kyselina ibotenová](/neurotoxins/ibotenic-acid/)).
+**NMDA receptor** (N-methyl-D-aspartát receptor) je ionotropní **glutamátový receptor** klíčový pro **synaptickou plasticitu**, učení a paměť. Je cílem disociativních látek (ketamin, PCP) a prekurzorem excitotoxického poškození při nadměrné aktivaci ([kyselina ibotenová](@/neurotoxins/ibotenic-acid.md)).
 
 ---
 
@@ -127,7 +127,7 @@ NMDA aktivace
 | Látka | Efekt | Zdroj |
 |-------|-------|-------|
 | **Glutamát** | Endogenní agonista | Fyziologický |
-| [**Kyselina ibotenová**](/neurotoxins/ibotenic-acid/) | Potentní agonista | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| [**Kyselina ibotenová**](@/neurotoxins/ibotenic-acid.md) | Potentní agonista | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | **NMDA** | Syntetický agonista | Výzkum |
 | **Kyselina kainová** | Kainátový > NMDA | Mořské řasy |
 
@@ -182,7 +182,7 @@ Ketamin → NMDA blokáda
 ### Mechanismus poškození
 
 ```
-Nadměrná NMDA aktivace (ischémie, trauma, [ibotenová k.](/neurotoxins/ibotenic-acid/))
+Nadměrná NMDA aktivace (ischémie, trauma, [ibotenová k.](@/neurotoxins/ibotenic-acid.md))
                     │
                     ↓
            Masivní Ca²⁺ influx
@@ -245,9 +245,81 @@ Nadměrná NMDA aktivace (ischémie, trauma, [ibotenová k.](/neurotoxins/iboten
 
 ---
 
-Viz také:
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - NMDA agonista
-- [AMPA receptor](/receptors/ampa/) - Rychlý glutamátový receptor
-- [Glutamát](/glossary/glutamate/) - Hlavní excitační neurotransmiter
+## Detailni modulacni mechanismy
 
-← Zpět na [Receptory](/receptors/)
+NMDA receptor ma **6+ odlisnych modulacnich mist** -- viz sekce [Mechanismy ucinku](@/mechanisms/_index.md):
+
+### Modulacni mista a jejich farmakologie
+
+```
+NMDA RECEPTOR - MODULACNI MISTA
+
+                  Glutamatove misto (GluN2)
+                         |
+    Glycinove misto -----+------ Polyaminove misto
+    (GluN1)              |       (GluN2B extracel.)
+                         |
+    ┌────────────────────┴────────────────────┐
+    |            IONOVY KANAL                  |
+    |    Mg2+ site ----- PCP/ketamin site     |
+    |                    (kanalovy por)        |
+    └────────────────────┬────────────────────┘
+                         |
+    Zn2+ misto ----------+------ Redox misto
+    (GluN2A extracel.)          (Cys residua)
+```
+
+| Misto | Typ modulace | Farmakologicky priklad | Terapeuticke vyuziti |
+|-------|-------------|------------------------|---------------------|
+| **Glutamatove** | Agonismus | NMDA, kys. ibotenova | Vyzkum |
+| **Glycinove** | Ko-agonismus | D-serin, D-cykloserin | Schizofrenie (adjuv.) |
+| **Kanalove** | Blokada | Ketamin, memantine | Deprese, Alzheimer |
+| **Mg2+** | Napetova zavislost | Mg2+ suplementace | Neuroprotekce |
+| **Polyaminove** | Potenciace/blokada | Ifenprodil (GluN2B) | Bolest, deprese |
+| **Zn2+** | Inhibice | Endogenni Zn2+ | Synaptická modulace |
+| **Redox** | Modulace | Oxidanty/reduktanty | Neurodegenerace |
+
+### Antidepresivni mechanismus ketaminu -- signalni kaskada
+
+```
+KETAMIN -> NMDA BLOKADA (interneurony)
+    |
+    v
+Paradoxni glutamatovy burst (dezinhibice)
+    |
+    v
+AMPA receptor aktivace (postsynapticka)
+    |
+    +---> BDNF uvolneni z dendritickych vezikulu
+    |          |
+    v          v
+VDCC Ca2+   TrkB autofosforylace
+    |          |
+    v          v
+CaMKII     PI3K/Akt -> mTORC1
+    |          |
+    v          v
+CREB      Translace: PSD-95, GluA1, synaptofyzin
+    |          |
+    v          v
+Genova    SYNAPTOGENEZE (6-24 h)
+exprese        |
+               v
+         ANTIDEPRESIVNI UCINEK (24-72 h)
+```
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- mTOR konvergence, BDNF-TrkB
+Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NMDA modulacni mista, GluN2B selektivita
+
+---
+
+Viz take:
+- [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - NMDA agonista
+- [AMPA receptor](@/receptors/ampa.md) - Rychly glutamatovy receptor
+- [Glutamat](@/glossary/glutamate.md) - Hlavni excitacni neurotransmiter
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni mechanismy
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - NMDA modulacni mista
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - NMDA -> mTOR -> synaptogeneze
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika kanalovych blokatoru
+
+<- Zpet na [Receptory](@/receptors/_index.md)

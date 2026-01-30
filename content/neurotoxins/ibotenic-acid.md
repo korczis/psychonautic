@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Kyselina ibotenová - Neurotoxin
 
-**Kyselina ibotenová** (Ibotenic acid) je neurotoxická aminokyselina přirozeně se vyskytující v houbách rodu Amanita. Je prekurzorem psychoaktivního [muscimolu](/alkaloids/muscimol/) a působí jako **NMDA agonista**, což způsobuje excitotoxicitu a poškození neuronů.
+**Kyselina ibotenová** (Ibotenic acid) je neurotoxická aminokyselina přirozeně se vyskytující v houbách rodu Amanita. Je prekurzorem psychoaktivního [muscimolu](@/alkaloids/muscimol.md) a působí jako **NMDA agonista**, což způsobuje excitotoxicitu a poškození neuronů.
 
 ---
 
@@ -54,7 +54,7 @@ Kyselina ibotenová je strukturálně podobná **glutamátu** - hlavnímu excita
 
 | Druh | Obsah | Poznámka |
 |------|-------|----------|
-| [**Amanita muscaria**](/shrooms/amanita-muscaria/) | 0,03-0,10% | Čerstvá houba |
+| [**Amanita muscaria**](@/shrooms/amanita-muscaria.md) | 0,03-0,10% | Čerstvá houba |
 | **Amanita pantherina** | 0,05-0,15% | Silnější |
 | **Amanita cothurnata** | Variabilní | Severní Amerika |
 | **Amanita gemmata** | Nízký | Vzácně |
@@ -211,7 +211,7 @@ Kyselina ibotenová se používá v neurovědách pro **selektivní lézování*
 
 ## Srovnání: Kyselina ibotenová vs Muscimol
 
-| Vlastnost | Kyselina ibotenová | [Muscimol](/alkaloids/muscimol/) |
+| Vlastnost | Kyselina ibotenová | [Muscimol](@/alkaloids/muscimol.md) |
 |-----------|-------------------|----------|
 | **Mechanismus** | NMDA agonista | GABA-A agonista |
 | **Typ účinku** | Excitační | Inhibiční |
@@ -276,9 +276,9 @@ Kyselina ibotenová se používá v neurovědách pro **selektivní lézování*
 ---
 
 Viz také:
-- [Muscimol](/alkaloids/muscimol/) - Dekarboxylační produkt
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Přírodní zdroj
-- [Neurotoxiny](/neurotoxins/) - Přehled neurotoxinů
-- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
+- [Muscimol](@/alkaloids/muscimol.md) - Dekarboxylační produkt
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Přírodní zdroj
+- [Neurotoxiny](@/neurotoxins/_index.md) - Přehled neurotoxinů
+- [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
 
-← Zpět na [Neurotoxiny](/neurotoxins/) | [Muscimol](/alkaloids/muscimol/) →
+← Zpět na [Neurotoxiny](@/neurotoxins/_index.md) | [Muscimol](@/alkaloids/muscimol.md) →

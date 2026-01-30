@@ -5,4 +5,4 @@ redirect_to = "/substances/pcp/"
 weight = 99
 +++
 
-Tato stranka byla presunuta. Viz [Fencyklidin (PCP)](/substances/pcp/).
+Tato stranka byla presunuta. Viz [Fencyklidin (PCP)](@/substances/pcp.md).

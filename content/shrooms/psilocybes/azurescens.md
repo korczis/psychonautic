@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Psilocybe azurescens - Lysohlávka azurová
 
-**Psilocybe azurescens** Stamets & Gartz (1995) je **nejpotentnější** známý druh [psilocybinových hub](/shrooms/psilocybes/) s rekordním obsahem alkaloidů dosahujícím **2,51%** sušiny. Tato lignikolní (dřevomilná) houba byla oficiálně popsána Paulem Stametsem a Jochenem Gartzem v roce 1995 na základě populací nalezených na pacifickém pobřeží severozápadních USA.
+**Psilocybe azurescens** Stamets & Gartz (1995) je **nejpotentnější** známý druh [psilocybinových hub](@/shrooms/psilocybes/_index.md) s rekordním obsahem alkaloidů dosahujícím **2,51%** sušiny. Tato lignikolní (dřevomilná) houba byla oficiálně popsána Paulem Stametsem a Jochenem Gartzem v roce 1995 na základě populací nalezených na pacifickém pobřeží severozápadních USA.
 
 ---
 
@@ -23,7 +23,7 @@ insert_anchor_links = "right"
 | **Třída** | Agaricomycetes |
 | **Řád** | Agaricales |
 | **Čeleď** | Hymenogastraceae (dříve Strophariaceae) |
-| **Rod** | [Psilocybe](/shrooms/psilocybes/) |
+| **Rod** | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | **Druh** | P. azurescens Stamets & Gartz 1995 |
 
 ### Sekce a fylogenetické postavení
@@ -169,9 +169,9 @@ Barva výtrusového prachu je kritický determinační znak:
 
 | Alkaloid | Koncentrace (% sušiny) | Absolutní množství/g |
 |----------|------------------------|----------------------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | **1,78%** | 17,8 mg/g |
-| [**Psilocin**](/alkaloids/psilocin/) | **0,38%** | 3,8 mg/g |
-| [**Baeocystin**](/alkaloids/baeocystin/) | **0,35%** | 3,5 mg/g |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | **1,78%** | 17,8 mg/g |
+| [**Psilocin**](@/alkaloids/psilocin.md) | **0,38%** | 3,8 mg/g |
+| [**Baeocystin**](@/alkaloids/baeocystin.md) | **0,35%** | 3,5 mg/g |
 | Norbaeocystin | stopy | < 0,1 mg/g |
 | Aeruginascin | stopy (některé populace) | < 0,1 mg/g |
 | **CELKEM** | **2,51%** | **25,1 mg/g** |
@@ -182,11 +182,11 @@ Barva výtrusového prachu je kritický determinační znak:
 |------|------------|----------|------------|--------|-----------|
 | **P. azurescens** | **1,78%** | **0,38%** | **0,35%** | **2,51%** | **100%** |
 | P. bohemica | 1,34% | trace | trace | 1,34% | 53% |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,98% | 0,02% | 0,36% | 1,36% | 54% |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | 0,85% | 0,36% | 0,03% | 1,24% | 49% |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0,98% | 0,02% | 0,36% | 1,36% | 54% |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | 0,85% | 0,36% | 0,03% | 1,24% | 49% |
 | P. baeocystis | 0,85% | 0,59% | 0,10% | 1,54% | 61% |
 | P. subaeruginosa | 0,67% | 0,32% | trace | 1,00% | 40% |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,63% | 0,06% | 0,02% | 0,71% | 28% |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0,63% | 0,06% | 0,02% | 0,71% | 28% |
 | P. mexicana | 0,25% | 0,15% | trace | 0,40% | 16% |
 
 ### Vizuální srovnání potence
@@ -704,7 +704,7 @@ VŽDY OVĚŘTE: Purpurově hnědý výtrus + silné modření!
 | **Distribuce** | 2-10 let |
 | **Spory** | Šedá zóna (neobsahují psilocybin) |
 
-Viz [Psilocybin - právní status](/alkaloids/psilocybin/#právní-status) pro detaily.
+Viz [Psilocybin - pravni ramec](@/alkaloids/psilocybin.md#pravni-ramec) pro detaily.
 
 ---
 
@@ -784,14 +784,14 @@ Viz [Psilocybin - právní status](/alkaloids/psilocybin/#právní-status) pro d
 ---
 
 Viz také:
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavní aktivní látka
-- [Psilocin](/alkaloids/psilocin/) - Aktivní metabolit
-- [Baeocystin](/alkaloids/baeocystin/) - Minor alkaloid
-- [P. cyanescens](/shrooms/psilocybes/cyanescens/) - Příbuzný druh
-- [P. semilanceata](/shrooms/psilocybes/semilanceata/) - Evropský potentní druh
-- [P. cubensis](/shrooms/psilocybes/cubensis/) - Nejběžnější kultivovaný druh
-- [Psilocybes](/shrooms/psilocybes/) - Přehled rodu
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor alkaloid
+- [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) - Příbuzný druh
+- [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) - Evropský potentní druh
+- [P. cubensis](@/shrooms/psilocybes/cubensis.md) - Nejběžnější kultivovaný druh
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Přehled rodu
 
 ---
 
-<- Zpet na [Psilocybes](/shrooms/psilocybes/) | [P. cyanescens](/shrooms/psilocybes/cyanescens/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) ->
+<- Zpet na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) ->

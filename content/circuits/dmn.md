@@ -12,7 +12,7 @@ souvisejici_latky = ["psilocybin", "LSD", "DMT", "ayahuasca", "ketamin"]
 
 # Default Mode Network (DMN) - Sit klidu
 
-**Default Mode Network** (DMN, "sit klidu" nebo "vychozi rezim mozku") je soubor vzajemne propojenych mozkovych oblasti, ktere vykazuji zvysenou aktivitu behem **introspekce, self-referencniho mysleni a denni sneni**. Psychoaktivni latky, predevsim [psychedelika](/glossary/psychedelikum/), dramaticky moduluji aktivitu DMN, coz koreluje se subjektivnimi zazitky jako **ego dissolution** a **mysticke stavy**.
+**Default Mode Network** (DMN, "sit klidu" nebo "vychozi rezim mozku") je soubor vzajemne propojenych mozkovych oblasti, ktere vykazuji zvysenou aktivitu behem **introspekce, self-referencniho mysleni a denni sneni**. Psychoaktivni latky, predevsim [psychedelika](@/glossary/psychedelikum.md), dramaticky moduluji aktivitu DMN, coz koreluje se subjektivnimi zazitky jako **ego dissolution** a **mysticke stavy**.
 
 ---
 
@@ -722,25 +722,25 @@ PCu = Precuneus
 ## Viz take
 
 ### Mozkove site a okruhy
-- [Neuralni okruhy](/circuits/) - Prehled mozkovych siti
-- [Mozek](/brain/) - Anatomie mozkovych struktur
+- [Neuralni okruhy](@/circuits/_index.md) - Prehled mozkovych siti
+- [Mozek](@/brain/_index.md) - Anatomie mozkovych struktur
 
 ### Receptory a signalizace
-- [5-HT2A receptor](/receptors/5-ht2a/) - Hlavni cil psychedelik
-- [NMDA receptor](/receptors/nmda/) - Ketaminu relevant
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibicni kontrola
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Hlavni cil psychedelik
+- [NMDA receptor](@/receptors/nmda.md) - Ketaminu relevant
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibicni kontrola
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - DMN-modulujici psychedelikum
-- [LSD](/alkaloids/lsd/) - Potentni DMN disruptor
-- [DMT](/alkaloids/dmt/) - Intenzivni ego dissolution
-- [Psychedelikum](/glossary/psychedelikum/) - Prehled
+- [Psilocybin](@/alkaloids/psilocybin.md) - DMN-modulujici psychedelikum
+- [LSD](@/alkaloids/lsd.md) - Potentni DMN disruptor
+- [DMT](@/alkaloids/dmt.md) - Intenzivni ego dissolution
+- [Psychedelikum](@/glossary/psychedelikum.md) - Prehled
 
 ### Neurobiologie
-- [Neuroplasticita](/glossary/neuroplasticita/) - Strukturalni zmeny
-- [Uceni](/glossary/uceni/) - Kognitivni procesy
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Strukturalni zmeny
+- [Uceni](@/glossary/uceni.md) - Kognitivni procesy
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
 
 ---
 
-<- Zpet na [Neuralni okruhy](/circuits/)
+<- Zpet na [Neuralni okruhy](@/circuits/_index.md)

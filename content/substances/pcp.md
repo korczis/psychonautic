@@ -11,7 +11,7 @@ zdroje = ["Synteticke"]
 
 # Fencyklidin - Disociativni anestetikum
 
-**Fencyklidin** (PCP, "Angel Dust") je synteticky **arylcyklohexylamin** puvodne vyvinuty jako intravenn anestetikum. Je prototypickym [NMDA receptorovym](/receptors/nmda/) antagonistou s komplexnim multi-receptorovym profilem. Klinicky opusten kvuli vyznamne dysforii a emergencnim reakcim, ale zostava dulezitou slouceninou pro vyzkum glutamatergni dysfunkce u schizofrenie. Prekurzor modernich disociativ vcetne [ketaminu](/alkaloids/ketamin/).
+**Fencyklidin** (PCP, "Angel Dust") je synteticky **arylcyklohexylamin** puvodne vyvinuty jako intravenn anestetikum. Je prototypickym [NMDA receptorovym](@/receptors/nmda.md) antagonistou s komplexnim multi-receptorovym profilem. Klinicky opusten kvuli vyznamne dysforii a emergencnim reakcim, ale zostava dulezitou slouceninou pro vyzkum glutamatergni dysfunkce u schizofrenie. Prekurzor modernich disociativ vcetne [ketaminu](@/alkaloids/ketamin.md).
 
 ---
 
@@ -164,8 +164,8 @@ Dnes: Vyzkumny nastroj
 
 | Receptor | Ki (nM) | Ucinek | Funkce |
 |----------|---------|--------|--------|
-| **[NMDA (PCP site)](/receptors/nmda/)** | 50-100 | Antagonista | Hlavni disociativni |
-| **[Sigma-1](/receptors/sigma-1/)** | 100-200 | Agonista | Modulace |
+| **[NMDA (PCP site)](@/receptors/nmda.md)** | 50-100 | Antagonista | Hlavni disociativni |
+| **[Sigma-1](@/receptors/sigma-1.md)** | 100-200 | Agonista | Modulace |
 | **Sigma-2** | 100-200 | Agonista | Neurotoxicita? |
 | **D2** | 250-1000 | Slaba inhibice reuptake | Psychotomimetika |
 | **SERT** | 2,234 | Slaba inhibice | Mirna |
@@ -664,21 +664,21 @@ Klinická implikace:
 ## Křížové odkazy
 
 ### Souvisejici látky
-- [Ketamin](/alkaloids/ketamin/) - Derivát PCP
-- [Esketamin](/substances/esketamine/) - S-enantiomer ketaminu
-- [MXE](/substances/mxe/) - Designer disociativ
-- [DXM](/substances/dxm/) - Jiný NMDA antagonista
+- [Ketamin](@/alkaloids/ketamin.md) - Derivát PCP
+- [Esketamin](@/substances/esketamine.md) - S-enantiomer ketaminu
+- [MXE](@/substances/mxe.md) - Designer disociativ
+- [DXM](@/substances/dxm.md) - Jiný NMDA antagonista
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Primární cíl
-- [Sigma-1 receptor](/receptors/sigma-1/) - Sekundární cíl
-- [Dopamin](/glossary/dopamin/) - Psychotomimetický efekt
+- [NMDA receptor](@/receptors/nmda.md) - Primární cíl
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Sekundární cíl
+- [Dopamin](@/glossary/dopamin.md) - Psychotomimetický efekt
 
 ### Souvisejici témata
-- [Schizofrenie](/conditions/schizophrenia/) - NMDA model
-- [Glutamát](/glossary/glutamate/) - Neurotransmiter
-- [Disociativa](/classes/dissociatives/) - Farmakologická třída
+- [Schizofrenie](@/conditions/schizophrenia.md) - NMDA model
+- [Glutamát](@/glossary/glutamate.md) - Neurotransmiter
+- [Disociativa](@/classes/dissociatives.md) - Farmakologická třída
 
 ---
 
-Zpět na [Substance](/substances/) | [Ketamin](/alkaloids/ketamin/) | [NMDA receptor](/receptors/nmda/)
+Zpět na [Substance](@/substances/_index.md) | [Ketamin](@/alkaloids/ketamin.md) | [NMDA receptor](@/receptors/nmda.md)

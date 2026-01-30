@@ -12,7 +12,7 @@ receptory = ["GABA-A", "NMDA"]
 
 # Amanita pantherina - Muchomurka tygrovana
 
-**Amanita pantherina** (muchomurka tygrovana, pardali muchomurka) je psychoaktivni houba blizce pribuzna [Amanita muscaria](/shrooms/amanita-muscaria/), ale s **vyssi potenci** a **vyssim rizikem**. Obsahuje stejne aktivni latky - [muscimol](/alkaloids/muscimol/) a [kyselinu ibotenovou](/neurotoxins/ibotenic-acid/) - ale v **2-4x vyssich koncentracich**. Proto je povazovana za nebezpecnejsi a vyzaduje zvysenou opatrnost.
+**Amanita pantherina** (muchomurka tygrovana, pardali muchomurka) je psychoaktivni houba blizce pribuzna [Amanita muscaria](@/shrooms/amanita-muscaria.md), ale s **vyssi potenci** a **vyssim rizikem**. Obsahuje stejne aktivni latky - [muscimol](@/alkaloids/muscimol.md) a [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md) - ale v **2-4x vyssich koncentracich**. Proto je povazovana za nebezpecnejsi a vyzaduje zvysenou opatrnost.
 
 ---
 
@@ -24,7 +24,7 @@ receptory = ["GABA-A", "NMDA"]
 | **Ceske nazvy** | Muchomurka tygrovana, Pardali muchomurka |
 | **Celed** | Amanitaceae |
 | **Rod** | Amanita (Muchomurky) |
-| **Aktivni latky** | [Muscimol](/alkaloids/muscimol/), [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) |
+| **Aktivni latky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergni (disociativni/deliriantni) |
 | **Relativni potence** | 2-4x silnejsi nez A. muscaria |
 
@@ -127,8 +127,8 @@ receptory = ["GABA-A", "NMDA"]
 
 | Latka | Obsah (susena) | Srovnani s A. muscaria |
 |-------|----------------|------------------------|
-| [**Kyselina ibotenova**](/neurotoxins/ibotenic-acid/) | 0,1-0,25% | **2-3x vyssi** |
-| [**Muscimol**](/alkaloids/muscimol/) | 0,05-0,20% | **2-4x vyssi** |
+| [**Kyselina ibotenova**](@/neurotoxins/ibotenic-acid.md) | 0,1-0,25% | **2-3x vyssi** |
+| [**Muscimol**](@/alkaloids/muscimol.md) | 0,05-0,20% | **2-4x vyssi** |
 | Muscazon | Trace | Podobny |
 
 ### Celkovy alkaloidovy obsah
@@ -166,7 +166,7 @@ receptory = ["GABA-A", "NMDA"]
 
 ### Tradicni pouziti
 
-Na rozdil od [A. muscaria](/shrooms/amanita-muscaria/), **A. pantherina** nema tak bohate zdokumentovanou historii tradicniho pouziti:
+Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nema tak bohate zdokumentovanou historii tradicniho pouziti:
 
 | Aspekt | Popis |
 |--------|-------|
@@ -526,23 +526,23 @@ Pri predavkovani nebo podezreni na intoxikaci:
 ## Viz take
 
 ### Aktivni latky
-- [Muscimol](/alkaloids/muscimol/) - Hlavni psychoaktivni latka
-- [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) - Neurotoxicky prekurzor
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
+- [Muscimol](@/alkaloids/muscimol.md) - Hlavni psychoaktivni latka
+- [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - Neurotoxicky prekurzor
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
 
 ### Receptory
-- [GABA-A receptor](/receptors/gaba-a/) - Cil muscimolu
-- [NMDA receptor](/receptors/nmda/) - Cil kyseliny ibotenove
-- [Glutamat](/glossary/glutamat/) - Excitacni neurotransmiter
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil muscimolu
+- [NMDA receptor](@/receptors/nmda.md) - Cil kyseliny ibotenove
+- [Glutamat](@/glossary/glutamat.md) - Excitacni neurotransmiter
 
 ### Pribuzne druhy
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Muchomurka cervena
-- [Amanita regalis](/shrooms/amanita-regalis/) - Muchomurka kralovska
-- [Houby](/shrooms/) - Prehled psychoaktivnich hub
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Muchomurka cervena
+- [Amanita regalis](@/shrooms/amanita-regalis.md) - Muchomurka kralovska
+- [Houby](@/shrooms/_index.md) - Prehled psychoaktivnich hub
 
 ### Dalsi zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Alternativni psychoaktivni houby
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Alternativni psychoaktivni houby
 
 ---
 
-<- Zpet na [Houby](/shrooms/) | [Amanita muscaria](/shrooms/amanita-muscaria/) ->
+<- Zpet na [Houby](@/shrooms/_index.md) | [Amanita muscaria](@/shrooms/amanita-muscaria.md) ->

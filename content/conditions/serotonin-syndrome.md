@@ -366,14 +366,14 @@ KROK 4: INTENZIVNI PECE (tezky)
 ## Viz take
 
 ### Souvisejici temata
-- [Biosynteza serotoninu](/biosynthesis/serotonin/) - Jak vzniká serotonin
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
-- [MDMA](/alkaloids/mdma/) - Vysoké riziko SS
+- [Biosynteza serotoninu](@/biosynthesis/serotonin.md) - Jak vzniká serotonin
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
+- [MDMA](@/alkaloids/mdma.md) - Vysoké riziko SS
 
 ### Prevence
-- [5-HTP](/supplements/5-htp/) - Rizikovy suplement
-- [DXM](/substances/dxm/) - OTC riziko
+- [5-HTP](@/supplements/5-htp.md) - Rizikovy suplement
+- [DXM](@/substances/dxm.md) - OTC riziko
 
 ---
 
-<- Zpet na [Stavy a poruchy](/conditions/)
+<- Zpet na [Stavy a poruchy](@/conditions/_index.md)

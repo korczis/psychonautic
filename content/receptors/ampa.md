@@ -486,9 +486,9 @@ TARP (Transmembrane AMPA Receptor Regulatory Proteins)
 ---
 
 Viz také:
-- [NMDA receptor](/receptors/nmda/) - Partner pro synaptickou plasticitu
-- [mGluR](/receptors/mglur/) - Metabotropní glutamátové receptory
-- [Glutamát](/glossary/glutamate/) - Hlavní excitační neurotransmiter
-- [Glosář](/glossary/) - Definice pojmů
+- [NMDA receptor](@/receptors/nmda.md) - Partner pro synaptickou plasticitu
+- [mGluR](@/receptors/mglur.md) - Metabotropní glutamátové receptory
+- [Glutamát](@/glossary/glutamate.md) - Hlavní excitační neurotransmiter
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [mGluR](/receptors/mglur/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [mGluR](@/receptors/mglur.md) ->

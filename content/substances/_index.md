@@ -14,14 +14,14 @@ Tato sekce obsahuje informace o **syntetickych** a **semisyntetickych** psychoak
 
 ## Disociativa
 
-Latky pusobici primarne jako antagoniste [NMDA receptoru](/receptors/nmda/):
+Latky pusobici primarne jako antagoniste [NMDA receptoru](@/receptors/nmda.md):
 
 | Latka | Typ | Hlavni mechanismus |
 |-------|-----|-------------------|
-| [DXM](/substances/dxm/) | OTC antitusikum | NMDA antagonista, SERT inhibitor |
-| [Esketamin](/substances/esketamine/) | FDA schvalene antidepresivum | NMDA antagonista |
-| [MXE](/substances/mxe/) | Designer disociativ | NMDA antagonista, SERT inhibitor |
-| [PCP](/substances/pcp/) | Historicke anestetikum | Potentni NMDA antagonista |
+| [DXM](@/substances/dxm.md) | OTC antitusikum | NMDA antagonista, SERT inhibitor |
+| [Esketamin](@/substances/esketamine.md) | FDA schvalene antidepresivum | NMDA antagonista |
+| [MXE](@/substances/mxe.md) | Designer disociativ | NMDA antagonista, SERT inhibitor |
+| [PCP](@/substances/pcp.md) | Historicke anestetikum | Potentni NMDA antagonista |
 
 ---
 
@@ -101,8 +101,8 @@ Ketamin: 2-3 h
 ---
 
 Viz take:
-- [NMDA receptor](/receptors/nmda/) - Hlavni cil disociativ
-- [Ketamin](/alkaloids/ketamin/) - Arylcyklohexylamin
-- [Sigma-1 receptor](/receptors/sigma-1/) - Sekundarni cil
+- [NMDA receptor](@/receptors/nmda.md) - Hlavni cil disociativ
+- [Ketamin](@/alkaloids/ketamin.md) - Arylcyklohexylamin
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Sekundarni cil
 
-<- Zpet na [Hlavni stranku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)

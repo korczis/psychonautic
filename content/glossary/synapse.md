@@ -11,7 +11,7 @@ tags = ["synapse", "neurotransmise", "neuroplasticita", "LTP", "LTD", "synaptick
 
 # Synapse - Molekularni brana neuronalni komunikace
 
-**Synapse** (z reckeho *synapsis* - spojeni) je specializovana struktura umoznujici prenos signalu mezi dvema neurony nebo mezi neuronem a efektorovou bunkou (sval, zlaza). Synapse jsou fundamentalnimi jednotkami neuronalni komunikace a klicovymi cili psychoaktivnich latek vcetne [psychedelik](/alkaloids/), [GABAergickych latek](/glossary/gaba/) a disociativ.
+**Synapse** (z reckeho *synapsis* - spojeni) je specializovana struktura umoznujici prenos signalu mezi dvema neurony nebo mezi neuronem a efektorovou bunkou (sval, zlaza). Synapse jsou fundamentalnimi jednotkami neuronalni komunikace a klicovymi cili psychoaktivnich latek vcetne [psychedelik](@/alkaloids/_index.md), [GABAergickych latek](@/glossary/gaba.md) a disociativ.
 
 ---
 
@@ -352,7 +352,7 @@ Postsynapticka hustota je elektronove densa oblast na postsynapticke membrane ob
     8. VAZBA NA RECEPTOR
     ====================
 
-    Neurotransmiter + [Receptor](/glossary/receptor/)
+    Neurotransmiter + [Receptor](@/glossary/receptor.md)
     Konformacni zmena receptoru
                     |
                     v
@@ -460,7 +460,7 @@ Neurotransmitery jsou uvolnovany v diskretnich jednotkach nazyvanych kvanta.
 | **SERT** | Serotonin | SSRI (fluoxetin) |
 | **DAT** | Dopamin | Kokain, amfetamin |
 | **NET** | Noradrenalin | Tricyklika, atomoxetin |
-| **GAT-1,2,3** | [GABA](/glossary/gaba/) | Tiagabin |
+| **GAT-1,2,3** | [GABA](@/glossary/gaba.md) | Tiagabin |
 | **EAAT1-5** | Glutamat | - |
 | **GlyT1,2** | Glycin | Bitopertin |
 | **ChT** | Cholin (pro ACh) | Hemicholinium |
@@ -715,7 +715,7 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
     POSTSYNAPTICKY:
     ===============
 
-    6. [Receptory](/glossary/receptor/)
+    6. [Receptory](@/glossary/receptor.md)
        [Agonisté, antagonisté, modulatory]
 
     7. Reuptake transportery
@@ -734,7 +734,7 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 | **MAO inhibice** | Selegilin, Moclobemid | Deprese, Parkinson |
 | **SERT inhibice** | Fluoxetin | Deprese, úzkost |
 | **DAT inhibice** | Methylfenidat | ADHD |
-| **Receptor agonismus** | [Muscimol](/alkaloids/muscimol/) | - (vyzkum) |
+| **Receptor agonismus** | [Muscimol](@/alkaloids/muscimol.md) | - (vyzkum) |
 | **Receptor antagonismus** | Ketanserin | - (vyzkum) |
 | **PAM** | Benzodiazepiny | Úzkost, nespavost |
 
@@ -742,11 +742,11 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 
 | Latka | Primarni synapticky cil | Mechanismus |
 |-------|-------------------------|-------------|
-| [**LSD**](/alkaloids/lsd/) | [5-HT2A receptor](/receptors/5-ht2a/) | Parcialni agonista |
-| [**Psilocybin**](/alkaloids/psilocybin/) | [5-HT2A receptor](/receptors/5-ht2a/) | Agonista (via psilocin) |
-| [**DMT**](/alkaloids/dmt/) | [5-HT2A](/receptors/5-ht2a/), sigma-1 | Agonista |
-| [**Muscimol**](/alkaloids/muscimol/) | [GABA-A receptor](/receptors/gaba-a/) | Primy agonista |
-| **Ketamin** | [NMDA receptor](/receptors/nmda/) | Kanalovy blokator |
+| [**LSD**](@/alkaloids/lsd.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) | Parcialni agonista |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) | Agonista (via psilocin) |
+| [**DMT**](@/alkaloids/dmt.md) | [5-HT2A](@/receptors/5-ht2a.md), sigma-1 | Agonista |
+| [**Muscimol**](@/alkaloids/muscimol.md) | [GABA-A receptor](@/receptors/gaba-a.md) | Primy agonista |
+| **Ketamin** | [NMDA receptor](@/receptors/nmda.md) | Kanalovy blokator |
 | **MDMA** | SERT, DAT, NET | Reverzi transporteru |
 | **Kokain** | DAT, SERT, NET | Blokáda reuptake |
 
@@ -822,26 +822,26 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 ## Viz take
 
 ### Zakladni pojmy
-- [Receptor](/glossary/receptor/) - Molekularni brána bunecne komunikace
-- [GABA](/glossary/gaba/) - Hlavni inhibicni neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Stavebni jednotky signalnich molekul
-- [Fosfat](/glossary/fosfat/) - Klicovy pro signalni transdukci
+- [Receptor](@/glossary/receptor.md) - Molekularni brána bunecne komunikace
+- [GABA](@/glossary/gaba.md) - Hlavni inhibicni neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Stavebni jednotky signalnich molekul
+- [Fosfat](@/glossary/fosfat.md) - Klicovy pro signalni transdukci
 
 ### Specificke receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil klasickych psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Hlavni inhibicni receptor, cil muscimolu
-- [NMDA receptor](/receptors/nmda/) - Klicovy pro plasticitu, cil disociativ
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil klasickych psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Hlavni inhibicni receptor, cil muscimolu
+- [NMDA receptor](@/receptors/nmda.md) - Klicovy pro plasticitu, cil disociativ
 
 ### Psychoaktivni latky
-- [LSD](/alkaloids/lsd/) - 5-HT2A agonista s vysokou afinitou
-- [Psilocybin](/alkaloids/psilocybin/) - Houbove psychedelikum
-- [DMT](/alkaloids/dmt/) - Endogenni psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - Primy GABA-A agonista
+- [LSD](@/alkaloids/lsd.md) - 5-HT2A agonista s vysokou afinitou
+- [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - Primy GABA-A agonista
 
 ### Zdroje psychoaktivnich latek
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)

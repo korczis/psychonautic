@@ -297,7 +297,7 @@ Dukazy:
 
 | Receptor | Ki (nM) | Ucinek | Funkce |
 |----------|---------|--------|--------|
-| **[5-HT2A](/receptors/5-ht2a/)** | 1-2 | Agonista | **Hlavni psychoaktivni** |
+| **[5-HT2A](@/receptors/5-ht2a.md)** | 1-2 | Agonista | **Hlavni psychoaktivni** |
 | **5-HT2C** | 5-10 | Agonista | Modulace |
 | **5-HT1A** | 2-10 | Parcialni agonista | Anxiolyza |
 | **5-HT2B** | 5 | Agonista | (Kardiotoxicita pri chronickem) |
@@ -317,9 +317,9 @@ Dukazy:
 | Latka | Ki (nM) | Relativni potence | Terapeuticka davka |
 |-------|---------|-------------------|-------------------|
 | **LSD** | 1-2 | Nejvyssi | 50-200 ug |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | Vysoka | 10-30 mg |
-| [DMT](/alkaloids/dmt/) | 75-130 | Stredni | 20-60 mg |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ | Nizka | 200-400 mg |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | Vysoka | 10-30 mg |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | Stredni | 20-60 mg |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ | Nizka | 200-400 mg |
 | 5-MeO-DMT | 50-100 | Vysoka | 5-15 mg |
 | 2C-B | 100-200 | Stredni | 15-25 mg |
 
@@ -408,7 +408,7 @@ Klicove aminokyseliny: Leu229, Ile230
 
 | Sit | Normalni funkce | Ucinek LSD |
 |-----|-----------------|------------|
-| **[DMN](/circuits/)** (Default Mode Network) | Self-reference, rumináce | Silna suprese |
+| **[DMN](@/circuits/_index.md)** (Default Mode Network) | Self-reference, rumináce | Silna suprese |
 | **SN** (Salience Network) | Detekce vyznamnosti | Zvysena aktivita |
 | **VN** (Visual Network) | Zrakove zpracovani | Hyperaktivita |
 | **CEN** (Central Executive) | Kognitivni kontrola | Modulace |
@@ -666,7 +666,7 @@ Dusledky:
 | 5-6 | ~10-15% |
 | 7-14 | Plny reset |
 
-**Krizova tolerance**: S [psilocybinem](/alkaloids/psilocybin/), [DMT](/alkaloids/dmt/), meskalinem a dalsimi 5-HT2A agonisty.
+**Krizova tolerance**: S [psilocybinem](@/alkaloids/psilocybin.md), [DMT](@/alkaloids/dmt.md), meskalinem a dalsimi 5-HT2A agonisty.
 
 ```
 LSD tolerance --> Snizena odpoved na psilocybin
@@ -1014,13 +1014,79 @@ Kombinace Ehrlich + Hofmann = lepsi rozliseni.
 
 ---
 
+## Detailni mechanismy ucinku
+
+Pro hlubsi studium viz [Mechanismy ucinku](@/mechanisms/_index.md):
+
+### Unikatni receptorova kinetika LSD
+
+LSD vykazuje **anomalni vazebnou kinetiku** zpusobenou "lid" mechanismem (Wacker et al. 2017):
+
+| Parametr | LSD | Serotonin | Psilocin |
+|----------|-----|-----------|----------|
+| **Ki (5-HT2A)** | 1-2 nM | 100-300 nM | 6-20 nM |
+| **kon** | ~10^7 M^-1 s^-1 | ~10^7 | ~10^6 |
+| **koff** | ~10^-4 s^-1 | ~10^-1 | ~10^-2 |
+| **Rezidencni cas** | >1000 s (~17 min) | ~10 s | ~100 s |
+| **DeltaG** | -53 kJ/mol | -37 kJ/mol | -44 kJ/mol |
+
+Strukturni zaklad: Extracellularni smycka 2 (EL2, aminokyseliny Leu229 a Ile230) se zavira nad LSD jako "vicko", branici disociaci molekuly z vazebneho mista.
+
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md)
+
+### Biased agonismus a signalni profil
+
+LSD je **prototypicky biased agonista** na 5-HT2A s vyraznou preferenci pro Gq/11 drahu nad beta-arrestinem:
+
+```
+BIAS PROFIL LSD vs SEROTONIN
+
+                  Gq/11    beta-arrestin   Bias faktor
+                  ------   -------------   -----------
+Serotonin          1.0        1.0           1.0 (reference)
+LSD                0.95       0.15          6.3 (Gq-biased)
+Psilocin           0.65       0.55          1.2 (vyvazeny)
+DOI                0.90       0.45          2.0 (mirne Gq)
+Lisurid            0.10       0.70          0.14 (arr-biased, ne-halucinogenni)
+```
+
+Toto vysvetluje silnou halucinogenni aktivitu LSD pri relativne slabe desenzitizaci.
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md)
+
+### PK-PD diskonexe a hystereze
+
+LSD vykazuje vyraznou **PK-PD diskonekci** -- ucinky trvaji 8-12 hodin, zatimco T1/2 je pouze 3-5 hodin:
+
+```
+CAS (h):    0    2    4    6    8   10   12
+PLAZMA:    ░░  ████  ███  ██   █   ░    ░
+UCINEK:    ░░  ████  ████ ████ ███ ██   █
+
+Mechanismy prolongovaneho ucinku:
+1. Receptor trapping (EL2 lid) -> pomala koff
+2. Intracelularni signalizace pokracuje po disociaci
+3. Beta-arrestin endosomalni signalizace
+4. Downstream neuroplasticke zmeny (BDNF, Arc)
+```
+
+Farmakogeneticke faktory: CYP3A4 a CYP2D6 polymorfismy ovlivnuji metabolismus LSD. CYP2D6 poor metabolizers mohou zazit prodlouzene ucinky.
+
+Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) | [Alostericka modulace](@/mechanisms/allosteric-modulation.md)
+
+---
+
 Viz take:
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil LSD
-- [Neuralni okruhy](/circuits/) - DMN a dalsí site
-- [Psilocybin](/alkaloids/psilocybin/) - Pribuzny tryptamin
-- [DMT](/alkaloids/dmt/) - Spirit Molecule
-- [Meskalin](/alkaloids/mescaline/) - Fenetylaminove psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - Odlisny mechanismus (GABAergni)
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil LSD
+- [Neuralni okruhy](@/circuits/_index.md) - DMN a dalsi site
+- [Psilocybin](@/alkaloids/psilocybin.md) - Pribuzny tryptamin
+- [DMT](@/alkaloids/dmt.md) - Spirit Molecule
+- [Meskalin](@/alkaloids/mescaline.md) - Fenetylaminove psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - Odlisny mechanismus (GABAergni)
+- [Mechanismy ucinku](@/mechanisms/_index.md) - molekularni mechanismy
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika, lid mechanismus
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - biased agonismus
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - PK-PD diskonexe, farmakogenetika
 
 ---
 
@@ -1028,4 +1094,4 @@ Viz take:
 
 ---
 
-<- Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/) ->
+<- Zpet na [Alkaloidy](@/alkaloids/_index.md) | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md) ->

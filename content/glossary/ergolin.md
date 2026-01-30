@@ -10,7 +10,7 @@ tags = ["ergolin", "lsd", "lsa", "ergot", "namel", "claviceps", "ipomoea", "tetr
 
 # Ergolin - Tetracyklicke jadro psychedelik
 
-**Ergolin** (ergoline) je tetracyklicky organicky skelet, ktery tvofi zaklad sirke skupiny biologicky aktivnich alkaloidu. Tato struktura je spolecnym jmenovatelem pro prirodni **namelove alkaloidy** (Claviceps purpurea), **semenove alkaloidy** (Ipomoea, Argyreia) a synteticke derivaty vcetne [LSD](/alkaloids/lsd/) - nejpotentnejsiho znameho psychedelika.
+**Ergolin** (ergoline) je tetracyklicky organicky skelet, ktery tvofi zaklad sirke skupiny biologicky aktivnich alkaloidu. Tato struktura je spolecnym jmenovatelem pro prirodni **namelove alkaloidy** (Claviceps purpurea), **semenove alkaloidy** (Ipomoea, Argyreia) a synteticke derivaty vcetne [LSD](@/alkaloids/lsd.md) - nejpotentnejsiho znameho psychedelika.
 
 ---
 
@@ -109,7 +109,7 @@ Tryptofan (aminokyselina)
          |
          | [Semisyntetická derivatizace]
          v
-    [LSD](/alkaloids/lsd/)
+    [LSD](@/alkaloids/lsd.md)
 ```
 
 ---
@@ -276,7 +276,7 @@ Rozdil od LSD: -COOH misto -CON(C2H5)2
 
 ### LSD (Diethylamid kyseliny lysergove)
 
-Viz podrobny clanek: [LSD](/alkaloids/lsd/)
+Viz podrobny clanek: [LSD](@/alkaloids/lsd.md)
 
 | Vlastnost | Hodnota |
 |-----------|---------|
@@ -711,23 +711,23 @@ Nevyhody:
 
 ### Specificke alkaloidy
 
-- [LSD](/alkaloids/lsd/) - Nejpotentnejsi ergolinove psychedelikum
-- [Psilocybin](/alkaloids/psilocybin/) - Tryptaminove psychedelikum (odlisna struktura)
-- [DMT](/alkaloids/dmt/) - Jednoduchy tryptamin
+- [LSD](@/alkaloids/lsd.md) - Nejpotentnejsi ergolinove psychedelikum
+- [Psilocybin](@/alkaloids/psilocybin.md) - Tryptaminove psychedelikum (odlisna struktura)
+- [DMT](@/alkaloids/dmt.md) - Jednoduchy tryptamin
 
 ### Receptory
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil psychedelik
-- [Receptor](/glossary/receptor/) - Obecny pojem
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [Receptor](@/glossary/receptor.md) - Obecny pojem
 
 ### Neuroveda
 
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Signalni molekuly
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Signalni molekuly
 
 ### Zdroje
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Alternativni zdroj psychedelik
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Alternativni zdroj psychedelik
 
 ---
 
@@ -735,4 +735,4 @@ Nevyhody:
 
 ---
 
-<- Zpet na [Glosar](/glossary/) | [LSD](/alkaloids/lsd/) | [Receptor](/glossary/receptor/) ->
+<- Zpet na [Glosar](@/glossary/_index.md) | [LSD](@/alkaloids/lsd.md) | [Receptor](@/glossary/receptor.md) ->

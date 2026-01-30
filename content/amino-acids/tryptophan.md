@@ -10,7 +10,7 @@ tags = ["tryptofan", "serotonin", "melatonin", "5-HTP", "esencialni", "biosyntez
 
 # L-Tryptofan - Esenciální aminokyselina
 
-**L-Tryptofan** (Trp, W) je jedna z devíti **esenciálních aminokyselin**, která musí být přijímána potravou, protoze lidský organismus ji nedokáže syntetizovat. Je prekurzorem klíčových neuroaktivních molekul: **[serotoninu](/glossary/serotonin/)** (5-HT), **melatoninu**, a **kynureninů**. Hraje zásadní roli v neurochemii psychedelik, protože biosyntéza [psilocybinu](/alkaloids/psilocybin/), [DMT](/alkaloids/dmt/) a dalších tryptaminových alkaloidů vychází z tryptofanu.
+**L-Tryptofan** (Trp, W) je jedna z devíti **esenciálních aminokyselin**, která musí být přijímána potravou, protoze lidský organismus ji nedokáže syntetizovat. Je prekurzorem klíčových neuroaktivních molekul: **[serotoninu](@/glossary/serotonin.md)** (5-HT), **melatoninu**, a **kynureninů**. Hraje zásadní roli v neurochemii psychedelik, protože biosyntéza [psilocybinu](@/alkaloids/psilocybin.md), [DMT](@/alkaloids/dmt.md) a dalších tryptaminových alkaloidů vychází z tryptofanu.
 
 ---
 
@@ -330,7 +330,7 @@ TRYPTAMIN
            - PsiM (N-methylace)
            → Psilocybin
 
-VIZ: [Biosyntéza psilocybinu](/biosynthesis/psilocybin/)
+VIZ: [Biosyntéza psilocybinu](@/biosynthesis/psilocybin.md)
 ```
 
 ### Strukturní vztahy
@@ -523,23 +523,23 @@ Trvání: dny až týdny
 ## Křížové odkazy
 
 ### Souvisejici molekuly
-- [Serotonin](/glossary/serotonin/) - Produkt serotoninové dráhy
-- [Melatonin](/molecules/melatonin/) - Produkt z serotoninu
-- [5-HTP](/supplements/5-htp/) - Mezistupeň biosyntézy
+- [Serotonin](@/glossary/serotonin.md) - Produkt serotoninové dráhy
+- [Melatonin](@/molecules/melatonin.md) - Produkt z serotoninu
+- [5-HTP](@/supplements/5-htp.md) - Mezistupeň biosyntézy
 
 ### Souvisejici alkaloidy
-- [Psilocybin](/alkaloids/psilocybin/) - Derivát tryptofanu
-- [DMT](/alkaloids/dmt/) - N,N-dimethyltryptamin
-- [Tryptamin](/glossary/tryptamin/) - Dekarboxylovaný tryptofan
+- [Psilocybin](@/alkaloids/psilocybin.md) - Derivát tryptofanu
+- [DMT](@/alkaloids/dmt.md) - N,N-dimethyltryptamin
+- [Tryptamin](@/glossary/tryptamin.md) - Dekarboxylovaný tryptofan
 
 ### Biosyntézy
-- [Biosyntéza psilocybinu](/biosynthesis/psilocybin/) - Enzymatická dráha
-- [Biosyntéza serotoninu](/biosynthesis/serotonin/) - Serotoninová dráha
+- [Biosyntéza psilocybinu](@/biosynthesis/psilocybin.md) - Enzymatická dráha
+- [Biosyntéza serotoninu](@/biosynthesis/serotonin.md) - Serotoninová dráha
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cíl tryptaminů
-- [5-HT1A receptor](/receptors/5-ht1a/) - Anxiolytický receptor
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cíl tryptaminů
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytický receptor
 
 ---
 
-<- Zpět na [Aminokyseliny](/amino-acids/) | [Serotonin](/glossary/serotonin/) ->
+<- Zpět na [Aminokyseliny](@/amino-acids/_index.md) | [Serotonin](@/glossary/serotonin.md) ->

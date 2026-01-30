@@ -13,7 +13,7 @@ tags = ["zavislost", "reward", "dopamin", "ibogain", "psilocybin", "neuroplastic
 
 **Zavislost** (substance use disorder, SUD) je chronicke, recidivujici onemocneni mozku charakterizovane kompulzivnim vyhladevanim a uzíváním latky navzdory negativním dusledkum. Postihuje odhadem 35 milionů lidí celosvětově a predstavuje jednu z nejvyznamnejsich pricin morbidity a mortality.
 
-Posledni dekada prinesla renesanci zajmu o **psychedelika jako lecbu zavislosti** - [psilocybin](/alkaloids/psilocybin/), [ibogain](/alkaloids/ibogaine/) a [ketamin](/alkaloids/ketamin/) vykazuji slibne vysledky v klinickych studiích.
+Posledni dekada prinesla renesanci zajmu o **psychedelika jako lecbu zavislosti** - [psilocybin](@/alkaloids/psilocybin.md), [ibogain](@/alkaloids/ibogaine.md) a [ketamin](@/alkaloids/ketamin.md) vykazuji slibne vysledky v klinickych studiích.
 
 ---
 
@@ -297,7 +297,7 @@ INTERPRETACE:
 | **Bezpecnost** | **Stredni** (kardialni riziko) |
 | **Status** | Legalni kliniky (Mexiko, Kostarika) |
 
-Viz: [Ibogain](/alkaloids/ibogaine/)
+Viz: [Ibogain](@/alkaloids/ibogaine.md)
 
 ### Ketamin pro zavislost
 
@@ -310,7 +310,7 @@ Viz: [Ibogain](/alkaloids/ibogaine/)
 | **Bezpecnost** | Vysoka (monitorovane) |
 | **Status** | Off-label klinicke pouziti |
 
-Viz: [Ketamin](/alkaloids/ketamin/)
+Viz: [Ketamin](@/alkaloids/ketamin.md)
 
 ---
 
@@ -400,17 +400,17 @@ FAZE 4: FOLLOW-UP (měsíce)
 ## Viz take
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - Klinicke studie pro zavislost
-- [Ibogain](/alkaloids/ibogaine/) - Lecba opioidni zavislosti
-- [Ketamin](/alkaloids/ketamin/) - Rychle pusobici intervence
+- [Psilocybin](@/alkaloids/psilocybin.md) - Klinicke studie pro zavislost
+- [Ibogain](@/alkaloids/ibogaine.md) - Lecba opioidni zavislosti
+- [Ketamin](@/alkaloids/ketamin.md) - Rychle pusobici intervence
 
 ### Mechanismy
-- [BDNF](/molecules/bdnf/) - Neuroplasticita
-- [Dopamin](/glossary/dopamin/) - Reward system
+- [BDNF](@/molecules/bdnf.md) - Neuroplasticita
+- [Dopamin](@/glossary/dopamin.md) - Reward system
 
 ### Souvisejici stavy
-- [Deprese](/conditions/depression/) - Casty komorbidni stav
+- [Deprese](@/conditions/depression.md) - Casty komorbidni stav
 
 ---
 
-<- Zpet na [Stavy a poruchy](/conditions/)
+<- Zpet na [Stavy a poruchy](@/conditions/_index.md)

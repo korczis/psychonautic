@@ -6,7 +6,7 @@ weight = 1
 
 # Ayahuasca - Svaty napoj Amazonie
 
-**Ayahuasca** (z kecuastiny *aya* = duse, *waska* = liana) je tradicni psychoaktivni napoj puvudem z Amazonskeho deštneho pralesa. Pripravuje se kombinaci dvou rostlin - liany **Banisteriopsis caapi** obsahujici [MAO inhibitory](/pharmacology/maoi/) a listu **Psychotria viridis** obsahujicich [DMT](/alkaloids/dmt/). Tato synergicka kombinace umoznuje oralni aktivitu DMT a poskytuje 4-6 hodinovy intenzivni psychedelicky zazitek.
+**Ayahuasca** (z kecuastiny *aya* = duse, *waska* = liana) je tradicni psychoaktivni napoj puvudem z Amazonskeho deštneho pralesa. Pripravuje se kombinaci dvou rostlin - liany **Banisteriopsis caapi** obsahujici [MAO inhibitory](@/pharmacology/maoi.md) a listu **Psychotria viridis** obsahujicich [DMT](@/alkaloids/dmt.md). Tato synergicka kombinace umoznuje oralni aktivitu DMT a poskytuje 4-6 hodinovy intenzivni psychedelicky zazitek.
 
 ---
 
@@ -62,7 +62,7 @@ weight = 1
 | **Celed** | Rubiaceae |
 | **Oblast** | Tropicka Jizni Amerika |
 | **Pouzivana cast** | Listy |
-| **Aktivni slozky** | [DMT](/alkaloids/dmt/) |
+| **Aktivni slozky** | [DMT](@/alkaloids/dmt.md) |
 | **Funkce v ayahuasce** | Psychoaktivni slozka |
 
 #### Alkaloidy v P. viridis
@@ -426,13 +426,13 @@ POSTUP:
 ## Krizove odkazy
 
 ### Aktivni slozky
-- [DMT](/alkaloids/dmt/) - primarni psychoaktivni alkaloid
-- [MAOI](/pharmacology/maoi/) - mechanismus aktivace
+- [DMT](@/alkaloids/dmt.md) - primarni psychoaktivni alkaloid
+- [MAOI](@/pharmacology/maoi.md) - mechanismus aktivace
 
 ### Souvisejici temata
-- [Harm Reduction](/harm-reduction/) - bezpečnost
-- [Set and Setting](/glossary/set-and-setting/) - priprava
-- [5-HT2A](/receptors/5-ht2a/) - cilovy receptor
+- [Harm Reduction](@/harm-reduction/_index.md) - bezpečnost
+- [Set and Setting](@/glossary/set-and-setting.md) - priprava
+- [5-HT2A](@/receptors/5-ht2a.md) - cilovy receptor
 
 ### Podobne pripravky
 - Pharmahuasca (synteticka verze)
@@ -441,4 +441,4 @@ POSTUP:
 
 ---
 
-Zpet na [Pripravky](/preparations/) | [DMT](/alkaloids/dmt/) | [MAOI](/pharmacology/maoi/)
+Zpet na [Pripravky](@/preparations/_index.md) | [DMT](@/alkaloids/dmt.md) | [MAOI](@/pharmacology/maoi.md)

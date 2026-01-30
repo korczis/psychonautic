@@ -13,7 +13,7 @@ tags = ["deprese", "TRD", "MDD", "psychedelika", "ketamin", "psilocybin", "neuro
 
 **Deprese** (major depressive disorder, MDD) je zavazna psychiatricka porucha postihujici stamiliony lidi celosvetove. Predstavuje vedouci pricinu disability globalne a je spojena s vyraznym utrpenim, snizenou kvalitou zivota a zvysenou mortalitou.
 
-Posledni dve dekady prinesly revolucni zmeny v chapani deprese - od monoaminove hypotezy k neuroplasticke teorii - a s tim i nove terapeuticke moznosti: [ketamin](/alkaloids/ketamin/), [psilocybin](/alkaloids/psilocybin/) a dalsi psychedelika.
+Posledni dve dekady prinesly revolucni zmeny v chapani deprese - od monoaminove hypotezy k neuroplasticke teorii - a s tim i nove terapeuticke moznosti: [ketamin](@/alkaloids/ketamin.md), [psilocybin](@/alkaloids/psilocybin.md) a dalsi psychedelika.
 
 ---
 
@@ -121,7 +121,7 @@ HISTORICKY VYVOJ HYPOTEZ DEPRESE
 
 | Neurotransmiter | Zmena u deprese | Dukaz |
 |-----------------|-----------------|-------|
-| **[Serotonin](/glossary/serotonin/)** | Snizena funkce | Tryptofanová deplece, SSRI ucinek |
+| **[Serotonin](@/glossary/serotonin.md)** | Snizena funkce | Tryptofanová deplece, SSRI ucinek |
 | **Noradrenalin** | Snizena funkce | SNRI ucinek, LC dysfunkce |
 | **Dopamin** | Snizena funkce | Anhedonie, odpoved na buproprion |
 
@@ -160,10 +160,10 @@ NEUROPLASTICKA HYPOTEZA
 
 | Oblast | Zmena | Mechanismus |
 |--------|-------|-------------|
-| **[Hippocampus](/brain/hippocampus/)** | Atrofie (8-10%) | Snizena neurogeneze, BDNF |
-| **[Prefrontalni kortex](/brain/prefrontal-cortex/)** | Snizena aktivita | Dendriticka retrakce |
-| **[Amygdala](/brain/amygdala/)** | Hyperaktivita | Zvysena reaktivita na negativni podnety |
-| **[DMN](/circuits/dmn/)** | Hyperkonektivita | Ruminace, self-focus |
+| **[Hippocampus](@/brain/hippocampus.md)** | Atrofie (8-10%) | Snizena neurogeneze, BDNF |
+| **[Prefrontalni kortex](@/brain/prefrontal-cortex.md)** | Snizena aktivita | Dendriticka retrakce |
+| **[Amygdala](@/brain/amygdala.md)** | Hyperaktivita | Zvysena reaktivita na negativni podnety |
+| **[DMN](@/circuits/dmn.md)** | Hyperkonektivita | Ruminace, self-focus |
 | **HPA osa** | Hyperaktivita | Chronicky zvyseny kortizol |
 
 ### Glutamátergni dysregulace
@@ -351,7 +351,7 @@ Mediace: Parcialni
 | **Transcendence** | Casoprostorová transcendence |
 | **Ineffability** | Nepopsatelnost zazitku |
 
-Viz detailne: [Mysticke zkusenosti](/phenomenology/mystical-experiences/)
+Viz detailne: [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md)
 
 ---
 
@@ -463,30 +463,30 @@ FAZE 3: INTEGRACE (2-4 sezeni)
 ## Viz take
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavni psychedelikum ve vyzkumu deprese
-- [Ketamin](/alkaloids/ketamin/) - Rychle pusobici antidepresivum
-- [LSD](/alkaloids/lsd/) - Dalsi psychedelikum s potencialem
-- [DMT](/alkaloids/dmt/) - Kratce pusobici psychedelikum
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavni psychedelikum ve vyzkumu deprese
+- [Ketamin](@/alkaloids/ketamin.md) - Rychle pusobici antidepresivum
+- [LSD](@/alkaloids/lsd.md) - Dalsi psychedelikum s potencialem
+- [DMT](@/alkaloids/dmt.md) - Kratce pusobici psychedelikum
 
 ### Molekuly a mechanismy
-- [BDNF](/molecules/bdnf/) - Klicovy mediator neuroplasticity
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter cíleny antidepresivy
-- [Neuroplasticita](/glossary/neuroplasticita/) - Zakladni mechanismus
+- [BDNF](@/molecules/bdnf.md) - Klicovy mediator neuroplasticity
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter cíleny antidepresivy
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Zakladni mechanismus
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil psychedelik
-- [NMDA receptor](/receptors/nmda/) - Cil ketaminu
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [NMDA receptor](@/receptors/nmda.md) - Cil ketaminu
 
 ### Mozkove oblasti
-- [Hippocampus](/brain/hippocampus/) - Atrofie u deprese
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Exekutivní dysfunkce
-- [Amygdala](/brain/amygdala/) - Emocionalni dysregulace
-- [DMN](/circuits/dmn/) - Hyperkonektivita, ruminace
+- [Hippocampus](@/brain/hippocampus.md) - Atrofie u deprese
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Exekutivní dysfunkce
+- [Amygdala](@/brain/amygdala.md) - Emocionalni dysregulace
+- [DMN](@/circuits/dmn.md) - Hyperkonektivita, ruminace
 
 ### Fenomenologie
-- [Mysticke zkusenosti](/phenomenology/mystical-experiences/) - Prediktor terapeutické odpovedi
-- [Set and setting](/glossary/set-and-setting/) - Optimalizace terapie
+- [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md) - Prediktor terapeutické odpovedi
+- [Set and setting](@/glossary/set-and-setting.md) - Optimalizace terapie
 
 ---
 
-<- Zpet na [Stavy a poruchy](/conditions/)
+<- Zpet na [Stavy a poruchy](@/conditions/_index.md)

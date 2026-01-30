@@ -271,10 +271,10 @@ Konstitutivní aktivita (bez ligandu)
 
 | Látka | 5-HT2C aktivita | Modulace účinku |
 |-------|-----------------|-----------------|
-| [**LSD**](/alkaloids/lsd/) | Agonista | Částečně přes 5-HT2C |
-| [**Psilocin**](/alkaloids/psilocin/) | Agonista | Modulace psychedelického zážitku |
-| [**DMT**](/alkaloids/dmt/) | Agonista | Sekundární cíl |
-| [**Meskalin**](/alkaloids/mescaline/) | Slabý agonista | Minimální přínos |
+| [**LSD**](@/alkaloids/lsd.md) | Agonista | Částečně přes 5-HT2C |
+| [**Psilocin**](@/alkaloids/psilocin.md) | Agonista | Modulace psychedelického zážitku |
+| [**DMT**](@/alkaloids/dmt.md) | Agonista | Sekundární cíl |
+| [**Meskalin**](@/alkaloids/mescaline.md) | Slabý agonista | Minimální přínos |
 
 ---
 
@@ -495,11 +495,11 @@ HTR2C na chromozomu X
 ---
 
 Viz také:
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární psychedelický cíl
-- [5-HT2B receptor](/receptors/5-ht2b/) - Kardiovaskulární riziko
-- [5-HT1A receptor](/receptors/5-ht1a/) - Anxiolytický receptor
-- [D2 receptor](/receptors/d2/) - Dopaminová regulace
-- [Psilocybin](/alkaloids/psilocybin/) - 5-HT2C agonista
-- [Glosář](/glossary/) - Definice pojmů
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární psychedelický cíl
+- [5-HT2B receptor](@/receptors/5-ht2b.md) - Kardiovaskulární riziko
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytický receptor
+- [D2 receptor](@/receptors/d2.md) - Dopaminová regulace
+- [Psilocybin](@/alkaloids/psilocybin.md) - 5-HT2C agonista
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [GABA-B receptor](/receptors/gaba-b/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [GABA-B receptor](@/receptors/gaba-b.md) ->

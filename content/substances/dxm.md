@@ -11,7 +11,7 @@ zdroje = ["Synteticke", "OTC"]
 
 # Dextromethorfan - Disociativni antitusikum
 
-**Dextromethorfan** (DXM) je synteticky derivat morfinu pouzivany primarne jako **antitusikum** (proti kasli). Pri vyssich davkach vykazuje vyrazne **disociativni** a psychedelicke ucinky prostrednictvim antagonismu [NMDA receptoru](/receptors/nmda/) a agonismu [sigma-1 receptoru](/receptors/sigma-1/). Je znamy svym unikatnim systemem "plateau" - ctyrech kvalitativne odlisnych urovni intoxikace.
+**Dextromethorfan** (DXM) je synteticky derivat morfinu pouzivany primarne jako **antitusikum** (proti kasli). Pri vyssich davkach vykazuje vyrazne **disociativni** a psychedelicke ucinky prostrednictvim antagonismu [NMDA receptoru](@/receptors/nmda.md) a agonismu [sigma-1 receptoru](@/receptors/sigma-1.md). Je znamy svym unikatnim systemem "plateau" - ctyrech kvalitativne odlisnych urovni intoxikace.
 
 ---
 
@@ -114,8 +114,8 @@ Termin odvozeny od znacky Robitussin:
 
 | Receptor | Ki (nM) | Ucinek | Funkce |
 |----------|---------|--------|--------|
-| **[NMDA](/receptors/nmda/)** | ~2,000-8,000 | Antagonista | Disociace, antideprese |
-| **[Sigma-1](/receptors/sigma-1/)** | 100-200 | Agonista | Neuroprotekce, modulace |
+| **[NMDA](@/receptors/nmda.md)** | ~2,000-8,000 | Antagonista | Disociace, antideprese |
+| **[Sigma-1](@/receptors/sigma-1.md)** | 100-200 | Agonista | Neuroprotekce, modulace |
 | **SERT** | 23-40 | Inhibitor | Serotoninergni efekt |
 | **NET** | >10,000 | Slaba inhibice | Minimalni |
 | **nACh (alpha-3-beta-4)** | ~700 | Antagonista | Antitusivni |
@@ -496,20 +496,20 @@ Nebezpecna praktiká ekstrahovani DXM z pripravku obsahujicich dalsi latky:
 ## Krizove odkazy
 
 ### Souvisejici latky
-- [Ketamin](/alkaloids/ketamin/) - Jiny NMDA antagonista
-- [PCP](/substances/pcp/) - Strukturne a farmakologicky pribuzny
-- [MXE](/substances/mxe/) - Designer disociativ
+- [Ketamin](@/alkaloids/ketamin.md) - Jiny NMDA antagonista
+- [PCP](@/substances/pcp.md) - Strukturne a farmakologicky pribuzny
+- [MXE](@/substances/mxe.md) - Designer disociativ
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Primarni disociativni cil
-- [Sigma-1 receptor](/receptors/sigma-1/) - Neuroprotektivni cil
-- [AMPA receptor](/receptors/ampa/) - Neprime ucinky
+- [NMDA receptor](@/receptors/nmda.md) - Primarni disociativni cil
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Neuroprotektivni cil
+- [AMPA receptor](@/receptors/ampa.md) - Neprime ucinky
 
 ### Souvisejici temata
-- [Serotonin](/glossary/serotonin/) - Serotoninergni aktivita DXM
-- [Deprese](/conditions/depression/) - Terapeuticka indikace
-- [Disociativa](/classes/dissociatives/) - Farmakologicka trida
+- [Serotonin](@/glossary/serotonin.md) - Serotoninergni aktivita DXM
+- [Deprese](@/conditions/depression.md) - Terapeuticka indikace
+- [Disociativa](@/classes/dissociatives.md) - Farmakologicka trida
 
 ---
 
-Zpet na [Substance](/substances/) | [Ketamin](/alkaloids/ketamin/) | [NMDA receptor](/receptors/nmda/)
+Zpet na [Substance](@/substances/_index.md) | [Ketamin](@/alkaloids/ketamin.md) | [NMDA receptor](@/receptors/nmda.md)

@@ -12,7 +12,7 @@ souvisejici_latky = ["ketamin", "PCP", "ibotenova-kyselina", "NMDA"]
 
 # Glutamat - Hlavni excitacni neurotransmiter
 
-**Glutamat** (L-glutamova kyselina, L-Glu) je **hlavni excitacni neurotransmiter** v centralnim nervovem systemu savcu. Zprostredkovava priblizne **80-90% vsech excitacnich synapsi** v mozku a hraje klicovou roli v synaptické plasticitě, uceni, pameti a neurologickém vývoji. Je cílem disociativních látek (ketamin, PCP) a prekurzorem inhibicního neurotransmiteru [GABA](/glossary/gaba/).
+**Glutamat** (L-glutamova kyselina, L-Glu) je **hlavni excitacni neurotransmiter** v centralnim nervovem systemu savcu. Zprostredkovava priblizne **80-90% vsech excitacnich synapsi** v mozku a hraje klicovou roli v synaptické plasticitě, uceni, pameti a neurologickém vývoji. Je cílem disociativních látek (ketamin, PCP) a prekurzorem inhibicního neurotransmiteru [GABA](@/glossary/gaba.md).
 
 ---
 
@@ -26,7 +26,7 @@ souvisejici_latky = ["ketamin", "PCP", "ibotenova-kyselina", "NMDA"]
 | **CAS cislo** | 56-86-0 |
 | **Funkce** | Excitacni neurotransmiter |
 | **Prekurzor** | Glutamin, alfa-ketoglutarat |
-| **Metabolit** | [GABA](/glossary/gaba/), glutamin |
+| **Metabolit** | [GABA](@/glossary/gaba.md), glutamin |
 
 ---
 
@@ -92,7 +92,7 @@ souvisejici_latky = ["ketamin", "PCP", "ibotenova-kyselina", "NMDA"]
 |-------|--------|------------|
 | **Glutamináza** | Glutamin → Glutamat | Mitochondrie neuronu |
 | **Glutamin syntetáza** | Glutamat → Glutamin | Astrocyty (výhradně) |
-| **GAD65/67** | Glutamat → [GABA](/glossary/gaba/) | GABAergní neurony |
+| **GAD65/67** | Glutamat → [GABA](@/glossary/gaba.md) | GABAergní neurony |
 | **Aminotransferázy** | Reverzibilní konverze | Mitochondrie |
 | **Glutamat dehydrogenáza** | Oxidativní deaminace | Mitochondrie |
 
@@ -178,14 +178,14 @@ souvisejici_latky = ["ketamin", "PCP", "ibotenova-kyselina", "NMDA"]
 
 | Typ | Podtypy | Mechanismus | Funkce |
 |-----|---------|-------------|--------|
-| **Ionotropní** | [NMDA](/receptors/nmda/), AMPA, Kainátový | Iontový kanál | Rychlá excitace |
+| **Ionotropní** | [NMDA](@/receptors/nmda.md), AMPA, Kainátový | Iontový kanál | Rychlá excitace |
 | **Metabotropní** | mGluR1-8 | G-protein | Modulace |
 
 ---
 
 ## Ionotropni receptory
 
-### [NMDA receptor](/receptors/nmda/)
+### [NMDA receptor](@/receptors/nmda.md)
 
 | Vlastnost | Hodnota |
 |-----------|---------|
@@ -225,7 +225,7 @@ NMDA receptor = "AND gate" (koincidentni detektor)
 
 | Misto | Ligandy | Ucel |
 |-------|---------|------|
-| **Glutamátové** | Glutamát, NMDA, [Ibotenová k.](/neurotoxins/ibotenic-acid/) | Agonisté |
+| **Glutamátové** | Glutamát, NMDA, [Ibotenová k.](@/neurotoxins/ibotenic-acid.md) | Agonisté |
 | **Glycinové** | Glycin, D-serin | Ko-agonisté |
 | **Kanálové** | Ketamin, PCP, MK-801, Memantine | Antagonisté |
 | **Polyaminové** | Spermin, Ifenprodil (GluN2B) | Modulátory |
@@ -456,7 +456,7 @@ SEKVENCE:
 ```
                 EXCITOTOXICKÁ KASKÁDA
 
-    Ischémie / Trauma / [Ibotenová k.](/neurotoxins/ibotenic-acid/)
+    Ischémie / Trauma / [Ibotenová k.](@/neurotoxins/ibotenic-acid.md)
                     │
                     ↓
         ┌──────────────────────┐
@@ -598,24 +598,24 @@ Cytoskelet Membrány   DNA       Cytochrom c
         └──────────────────────┘
 ```
 
-### [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) - NMDA agonista
+### [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - NMDA agonista
 
 | Vlastnost | Hodnota |
 |-----------|---------|
-| **Zdroj** | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| **Zdroj** | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | **Afinita** | Ki ~ 200 nM (NMDA) |
 | **Účinek** | Excitotoxicita → neuronální smrt |
-| **Metabolit** | [Muscimol](/alkaloids/muscimol/) (GABAergní) |
+| **Metabolit** | [Muscimol](@/alkaloids/muscimol.md) (GABAergní) |
 | **Využití** | Experimentální léze mozku |
 
 ---
 
 ## Srovnani: Glutamat vs GABA
 
-| Vlastnost | Glutamat | [GABA](/glossary/gaba/) |
+| Vlastnost | Glutamat | [GABA](@/glossary/gaba.md) |
 |-----------|----------|------|
 | **Funkce** | Excitační | Inhibiční |
-| **Ionotropní receptory** | [NMDA](/receptors/nmda/), AMPA, Kainátový | [GABA-A](/receptors/gaba-a/) |
+| **Ionotropní receptory** | [NMDA](@/receptors/nmda.md), AMPA, Kainátový | [GABA-A](@/receptors/gaba-a.md) |
 | **Metabotropní receptory** | mGluR1-8 | GABA-B |
 | **Iony (ionotropní)** | Na⁺, Ca²⁺ (influx) | Cl⁻ (influx) |
 | **Účinek na membránu** | Depolarizace | Hyperpolarizace |
@@ -718,24 +718,24 @@ Cytoskelet Membrány   DNA       Cytochrom c
 ## Viz take
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Klíčový ionotropní glutamátový receptor
-- [GABA-A receptor](/receptors/gaba-a/) - Hlavní inhibiční receptor
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cíl psychedelik
-- [Receptor - přehled](/glossary/receptor/) - Obecný pojem
+- [NMDA receptor](@/receptors/nmda.md) - Klíčový ionotropní glutamátový receptor
+- [GABA-A receptor](@/receptors/gaba-a.md) - Hlavní inhibiční receptor
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cíl psychedelik
+- [Receptor - přehled](@/glossary/receptor.md) - Obecný pojem
 
 ### Neurotransmitery
-- [GABA](/glossary/gaba/) - Hlavní inhibiční neurotransmiter (metabolit glutamátu)
-- [Nukleotid](/glossary/nukleotid/) - Stavební jednotky signálních molekul
-- [Fosfát](/glossary/fosfat/) - Klíčový pro signální transdukci
+- [GABA](@/glossary/gaba.md) - Hlavní inhibiční neurotransmiter (metabolit glutamátu)
+- [Nukleotid](@/glossary/nukleotid.md) - Stavební jednotky signálních molekul
+- [Fosfát](@/glossary/fosfat.md) - Klíčový pro signální transdukci
 
 ### Psychoaktivni latky
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - NMDA agonista, excitotoxin
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista (metabolit ibotenové k.)
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj ibotenové kyseliny a muscimolu
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - NMDA agonista, excitotoxin
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista (metabolit ibotenové k.)
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj ibotenové kyseliny a muscimolu
 
 ### Dalsi pojmy
-- [Receptor](/glossary/receptor/) - Kompletní průvodce receptorovou biologií
+- [Receptor](@/glossary/receptor.md) - Kompletní průvodce receptorovou biologií
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)

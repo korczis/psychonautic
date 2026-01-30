@@ -11,7 +11,7 @@ tags = ["mysticka zkusenost", "ego disoluce", "oceanic boundlessness", "MEQ30", 
 
 # Mysticke zkusenosti - Fenomenologie a terapeuticky vyznam
 
-**Mysticka zkusenost** (mystical experience) predstavuje specificky stav zmenenêho vedomi charakterizovany pocity **jednoty**, **transcendence**, **noeticity** a hlubokého **vyznamu**. V kontextu psychedelicke terapie jsou tyto zazitky konzistentne spojovany s lepsimi terapeutickymi vysledky u [deprese](/conditions/depression/), zavislosti a existenciální úzkosti.
+**Mysticka zkusenost** (mystical experience) predstavuje specificky stav zmenenêho vedomi charakterizovany pocity **jednoty**, **transcendence**, **noeticity** a hlubokého **vyznamu**. V kontextu psychedelicke terapie jsou tyto zazitky konzistentne spojovany s lepsimi terapeutickymi vysledky u [deprese](@/conditions/depression.md), zavislosti a existenciální úzkosti.
 
 Historicky popisovane v nabozenských a spiritualnich tradicich vsech kultur, dnes jsou tyto stavy predmetem rigorozního vedeckeho vyzkumu s vyuzitim standardizovanych mericich nastroju jako **MEQ30** (Mystical Experience Questionnaire).
 
@@ -177,16 +177,16 @@ Charakteristiky:
 | Ego-boundaries jasne | Ego disoluce |
 | Autobiograficke narativi | Ztrata životního příběhu |
 
-Viz detailne: [DMN](/circuits/dmn/)
+Viz detailne: [DMN](@/circuits/dmn.md)
 
 ### Klicove mozkove oblasti
 
 | Oblast | Role v mystice |
 |--------|----------------|
-| **[Claustrum](/brain/claustrum/)** | "Conductor" - integrace vedomi |
+| **[Claustrum](@/brain/claustrum.md)** | "Conductor" - integrace vedomi |
 | **Posteriori cingulate cortex (PCC)** | Self-reference, DMN hub |
 | **Medial prefrontal cortex (mPFC)** | Self-processing |
-| **[Thalamus](/brain/thalamus/)** | Gating of perception |
+| **[Thalamus](@/brain/thalamus.md)** | Gating of perception |
 | **Insular cortex** | Interoception, self |
 
 ---
@@ -230,7 +230,7 @@ Meta-analyticka data: r = 0.4-0.6
 | **Emotional breakthrough** | Zpracovani potlacených emoci | Mediace analyzy |
 | **Meaning-making** | Novy smysl a ucel | Koreláce s wellbeing |
 | **Connectedness** | Pocit propojení s ostatními | Skaly mezilidské blízkosti |
-| **Neuroplastické změny** | Strukturální mozkové zmeny | fMRI, [BDNF](/molecules/bdnf/) |
+| **Neuroplastické změny** | Strukturální mozkové zmeny | fMRI, [BDNF](@/molecules/bdnf.md) |
 | **Cognitive flexibility** | Snížená rigidita myšlení | Kognitivní testy |
 
 ---
@@ -423,28 +423,28 @@ PO SEZENÍ:
 ## Viz také
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Nejzkoumanejsi psychedelikum
-- [LSD](/alkaloids/lsd/) - Klasicke psychedelikum
-- [DMT](/alkaloids/dmt/) - "Spirit molecule"
-- [5-MeO-DMT](/alkaloids/5-meo-dmt/) - "God molecule"
+- [Psilocybin](@/alkaloids/psilocybin.md) - Nejzkoumanejsi psychedelikum
+- [LSD](@/alkaloids/lsd.md) - Klasicke psychedelikum
+- [DMT](@/alkaloids/dmt.md) - "Spirit molecule"
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - "God molecule"
 
 ### Receptory a neurotransmitery
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
 
 ### Neurální sítě a struktury
-- [DMN](/circuits/dmn/) - Default mode network
-- [Claustrum](/brain/claustrum/) - Integrace vědomí
-- [Thalamus](/brain/thalamus/) - Gating
+- [DMN](@/circuits/dmn.md) - Default mode network
+- [Claustrum](@/brain/claustrum.md) - Integrace vědomí
+- [Thalamus](@/brain/thalamus.md) - Gating
 
 ### Molekuly a mechanismy
-- [BDNF](/molecules/bdnf/) - Neuroplasticita
-- [Neuroplasticita](/glossary/neuroplasticita/) - Strukturalni zmeny
+- [BDNF](@/molecules/bdnf.md) - Neuroplasticita
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Strukturalni zmeny
 
 ### Terapeutické aplikace
-- [Deprese](/conditions/depression/) - Hlavni indikace
-- [Set and setting](/glossary/set-and-setting/) - Optimalizace
+- [Deprese](@/conditions/depression.md) - Hlavni indikace
+- [Set and setting](@/glossary/set-and-setting.md) - Optimalizace
 
 ---
 
-<- Zpět na [Fenomenologie](/phenomenology/)
+<- Zpět na [Fenomenologie](@/phenomenology/_index.md)

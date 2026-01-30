@@ -11,7 +11,7 @@ zdroje = ["Zivocisne", "Rostlinne"]
 
 # Bufotenin - 5-Hydroxy-DMT
 
-**Bufotenin** (5-HO-DMT, 5-hydroxy-N,N-dimethyltryptamin) je psychoaktivni indolovy alkaloid prirodne se vyskytujici v koznim sekretu ropuch rodu *Bufo* a v semenech jihoamerickych stromu *Anadenanthera peregrina* (yopo) a *Anadenanthera colubrina* (cebil). Jedna se o strukturni analog [DMT](/alkaloids/dmt/) s hydroxylovou skupinou v pozici 5 indoloveho jadra.
+**Bufotenin** (5-HO-DMT, 5-hydroxy-N,N-dimethyltryptamin) je psychoaktivni indolovy alkaloid prirodne se vyskytujici v koznim sekretu ropuch rodu *Bufo* a v semenech jihoamerickych stromu *Anadenanthera peregrina* (yopo) a *Anadenanthera colubrina* (cebil). Jedna se o strukturni analog [DMT](@/alkaloids/dmt.md) s hydroxylovou skupinou v pozici 5 indoloveho jadra.
 
 ---
 
@@ -46,11 +46,11 @@ zdroje = ["Zivocisne", "Rostlinne"]
 | Sloucenina | Pozice 4 | Pozice 5 | N-substituce | Aktivita |
 |------------|----------|----------|--------------|----------|
 | **Bufotenin** | H | OH | N(CH3)2 | Slaba-stredni |
-| [DMT](/alkaloids/dmt/) | H | H | N(CH3)2 | Silna |
+| [DMT](@/alkaloids/dmt.md) | H | H | N(CH3)2 | Silna |
 | 5-MeO-DMT | H | OCH3 | N(CH3)2 | Velmi silna |
-| [Psilocin](/alkaloids/psilocin/) | OH | H | N(CH3)2 | Silna |
+| [Psilocin](@/alkaloids/psilocin.md) | OH | H | N(CH3)2 | Silna |
 | Serotonin | H | OH | NH2 | Endogenni NT |
-| [Psilocybin](/alkaloids/psilocybin/) | OPO3H2 | H | N(CH3)2 | Prodrug |
+| [Psilocybin](@/alkaloids/psilocybin.md) | OPO3H2 | H | N(CH3)2 | Prodrug |
 
 ### Strukturni diagram
 
@@ -236,9 +236,9 @@ Psychoaktivita bufoteninu byla dlouho sporná:
 
 | Receptor | Ki (nM) | Ucinek | Funkce |
 |----------|---------|--------|--------|
-| **[5-HT2A](/receptors/5-ht2a/)** | 47-100 | Agonista | Psychoaktivni |
-| **[5-HT2C](/receptors/5-ht2c/)** | 100-200 | Parcialni agonista | Modulace |
-| **[5-HT1A](/receptors/5-ht1a/)** | 200-500 | Parcialni agonista | Anxiolyticke |
+| **[5-HT2A](@/receptors/5-ht2a.md)** | 47-100 | Agonista | Psychoaktivni |
+| **[5-HT2C](@/receptors/5-ht2c.md)** | 100-200 | Parcialni agonista | Modulace |
+| **[5-HT1A](@/receptors/5-ht1a.md)** | 200-500 | Parcialni agonista | Anxiolyticke |
 | **5-HT2B** | 300-500 | Agonista | Kardiovaskularni |
 | **SERT** | ~1000 | Slaby inhibitor | Reuptake |
 | **Sigma-1** | >10000 | Minimalni | - |
@@ -247,11 +247,11 @@ Psychoaktivita bufoteninu byla dlouho sporná:
 
 | Sloucenina | 5-HT2A Ki | Relativni potence |
 |------------|-----------|-------------------|
-| [LSD](/alkaloids/lsd/) | 3-6 nM | 100x |
-| [Psilocin](/alkaloids/psilocin/) | 15-25 nM | 10x |
+| [LSD](@/alkaloids/lsd.md) | 3-6 nM | 100x |
+| [Psilocin](@/alkaloids/psilocin.md) | 15-25 nM | 10x |
 | **Bufotenin** | 47-100 nM | 2-4x |
-| [DMT](/alkaloids/dmt/) | 75-130 nM | 1-2x |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ nM | 0,05x |
+| [DMT](@/alkaloids/dmt.md) | 75-130 nM | 1-2x |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ nM | 0,05x |
 
 ### Problem hematoencefalicke bariery (HEB)
 
@@ -641,22 +641,22 @@ Na rozdil od psilocybinu a DMT, bufotenin ma **minimalni terapeuticky vyzkum**:
 ## Krizove odkazy
 
 ### Souvisejici alkaloidy
-- [DMT](/alkaloids/dmt/) - Strukturni analog
-- [Psilocin](/alkaloids/psilocin/) - 4-hydroxy analog
-- [Psilocybin](/alkaloids/psilocybin/) - Fosforolovany tryptamin
-- [LSD](/alkaloids/lsd/) - Ergoliny
-- [5-MeO-DMT](/alkaloids/5-meo-dmt/) - 5-methoxy analog
+- [DMT](@/alkaloids/dmt.md) - Strukturni analog
+- [Psilocin](@/alkaloids/psilocin.md) - 4-hydroxy analog
+- [Psilocybin](@/alkaloids/psilocybin.md) - Fosforolovany tryptamin
+- [LSD](@/alkaloids/lsd.md) - Ergoliny
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - 5-methoxy analog
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - Primarni psychedelicky cil
-- [5-HT2C](/receptors/5-ht2c/) - Modulacni receptor
-- [5-HT1A](/receptors/5-ht1a/) - Anxiolyticky receptor
+- [5-HT2A](@/receptors/5-ht2a.md) - Primarni psychedelicky cil
+- [5-HT2C](@/receptors/5-ht2c.md) - Modulacni receptor
+- [5-HT1A](@/receptors/5-ht1a.md) - Anxiolyticky receptor
 
 ### Souvisejici temata
-- [Ayahuasca](/preparations/ayahuasca/) - Tradicni pripravek
-- [Tryptaminy](/alkaloids/) - Chemicka trida
-- [Serotonin](/neurotransmitters/serotonin/) - Endogenni ligand
+- [Ayahuasca](@/preparations/ayahuasca.md) - Tradicni pripravek
+- [Tryptaminy](@/alkaloids/_index.md) - Chemicka trida
+- [Serotonin](@/neurotransmitters/serotonin.md) - Endogenni ligand
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md)

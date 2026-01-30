@@ -11,9 +11,9 @@ tags = ["neuroplasticita", "synapse", "BDNF", "LTP", "LTD", "psychedelika", "moz
 
 # Neuroplasticita - Dynamicka reorganizace mozku
 
-**Neuroplasticita** (take **neuronalni plasticita** nebo **mozková plasticita**) je fundamentalni vlastnost nervoveho systemu, ktera umoznuje mozku menit svoji strukturu a funkci v reakci na zkusenosti, uceni, zraneni nebo farmakologicke intervence. Tato schopnost je zakladem [uceni](/glossary/uceni/), pameti a adaptace na mene se prostredi.
+**Neuroplasticita** (take **neuronalni plasticita** nebo **mozková plasticita**) je fundamentalni vlastnost nervoveho systemu, ktera umoznuje mozku menit svoji strukturu a funkci v reakci na zkusenosti, uceni, zraneni nebo farmakologicke intervence. Tato schopnost je zakladem [uceni](@/glossary/uceni.md), pameti a adaptace na mene se prostredi.
 
-Neuroplasticita hraje klicovou roli v terapeutickych ucincich [psychedelik](/alkaloids/), jako jsou [psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/) a [DMT](/alkaloids/dmt/), ktere vyrazne stimuluji neuroplasticke procesy prostrednictvim aktivace [5-HT2A receptoru](/receptors/5-ht2a/).
+Neuroplasticita hraje klicovou roli v terapeutickych ucincich [psychedelik](@/alkaloids/_index.md), jako jsou [psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md) a [DMT](@/alkaloids/dmt.md), ktere vyrazne stimuluji neuroplasticke procesy prostrednictvim aktivace [5-HT2A receptoru](@/receptors/5-ht2a.md).
 
 ---
 
@@ -89,7 +89,7 @@ Zmeny v sile synaptického prenosu mezi neurony.
 | **Definice** | Trvale zesíleni synaptického prenosu po opakované stimulaci |
 | **Mechanismus** | Inzerce AMPA receptoru, zvyseni vodivosti |
 | **Faze** | E-LTP (ranná, minuty) a L-LTP (pozdní, hodiny-dny) |
-| **Klicove receptory** | [NMDA receptor](/receptors/nmda/) - "detektor koincidence" |
+| **Klicove receptory** | [NMDA receptor](@/receptors/nmda.md) - "detektor koincidence" |
 | **Nutne podminky** | Simultanni presynaptická a postsynaptická aktivace |
 | **Vyznam** | Zaklad uceni a formovani pameti |
 
@@ -324,7 +324,7 @@ Tvorba novych neuronu v dospelem mozku.
 | Faktor | Vliv na BDNF | Mechanismus |
 |--------|--------------|-------------|
 | **Fyzické cvičení** | ↑↑↑ | Metabolická aktivace, VEGF |
-| **Psychedelika** | ↑↑↑ | [5-HT2A](/receptors/5-ht2a/) → CREB aktivace |
+| **Psychedelika** | ↑↑↑ | [5-HT2A](@/receptors/5-ht2a.md) → CREB aktivace |
 | **Ketamin** | ↑↑ | mTOR aktivace |
 | **Antidepresiva (SSRI)** | ↑ | Chronická 5-HT elevace |
 | **Učení** | ↑ | Synaptická aktivita |
@@ -396,9 +396,9 @@ Psychoplastogeny jsou látky schopné indukovat rapidní neuroplasticitu, zejmé
 
 | Látka | 5-HT2A afinita | Plasticita | Halucinace |
 |-------|----------------|------------|------------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | Vysoká | +++ | Ano |
-| [**LSD**](/alkaloids/lsd/) | Velmi vysoká | +++ | Ano |
-| [**DMT**](/alkaloids/dmt/) | Střední | +++ | Ano |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | Vysoká | +++ | Ano |
+| [**LSD**](@/alkaloids/lsd.md) | Velmi vysoká | +++ | Ano |
+| [**DMT**](@/alkaloids/dmt.md) | Střední | +++ | Ano |
 | **Ketamin** | Žádná | ++ | Částečně |
 | **Tabernantolog** | N/A | ++ | Ne |
 | **ISRIB** | Žádná | + | Ne |
@@ -458,7 +458,7 @@ Psychoplastogeny jsou látky schopné indukovat rapidní neuroplasticitu, zejmé
 | BDNF elevace | Postupná | Rychlá | Velmi rychlá |
 | Synaptogeneze | Pomalá | Rychlá | Velmi rychlá |
 | Trvání efektu | Vyžaduje denní dávky | 1-2 týdny | Týdny-měsíce |
-| Mechanismus | Serotoninová elevace | [NMDA](/receptors/nmda/) blokáda → AMPA | [5-HT2A](/receptors/5-ht2a/) agonismus |
+| Mechanismus | Serotoninová elevace | [NMDA](@/receptors/nmda.md) blokáda → AMPA | [5-HT2A](@/receptors/5-ht2a.md) agonismus |
 
 ---
 
@@ -525,7 +525,7 @@ Některé intervence mohou "znovuotevřít" kritická období:
 
 | Intervence | Mechanismus | Experimentální důkazy |
 |------------|-------------|------------------------|
-| **Psychedelika** | [5-HT2A](/receptors/5-ht2a/) aktivace, PNN degradace | Obnovení okulární dominance u dospělých myší |
+| **Psychedelika** | [5-HT2A](@/receptors/5-ht2a.md) aktivace, PNN degradace | Obnovení okulární dominance u dospělých myší |
 | **Valproát** | HDAC inhibice | Absolutní sluch u dospělých |
 | **Chondroitináza** | PNN degradace | Obnovení plasticity zraku |
 | **Temná deprivace** | Resetování vizuálního kortexu | Obnovení amblyopie u koček |
@@ -584,7 +584,7 @@ Některé intervence mohou "znovuotevřít" kritická období:
 | Konsolidace strachu | LTP v amygdale | Prevence (beta-blokátory) |
 | Extinkce | Nové inhibiční synapse | Expoziční terapie |
 | Rekonsolidace | Destabilizace paměti | Propranolol + reaktivace |
-| Psychedeliky asist. terapie | Zvýšená plasticita | [Psilocybin](/alkaloids/psilocybin/) + terapie |
+| Psychedeliky asist. terapie | Zvýšená plasticita | [Psilocybin](@/alkaloids/psilocybin.md) + terapie |
 
 ### Závislosti
 
@@ -779,28 +779,28 @@ Některé intervence mohou "znovuotevřít" kritická období:
 ## Viz také
 
 ### Receptory a signalizace
-- [5-HT2A receptor](/receptors/5-ht2a/) - Hlavní cíl psychedelik, klíčový pro indukci plasticity
-- [NMDA receptor](/receptors/nmda/) - "Detektor koincidence" pro LTP
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibiční kontrola plasticity
-- [Receptor](/glossary/receptor/) - Obecný přehled
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Hlavní cíl psychedelik, klíčový pro indukci plasticity
+- [NMDA receptor](@/receptors/nmda.md) - "Detektor koincidence" pro LTP
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibiční kontrola plasticity
+- [Receptor](@/glossary/receptor.md) - Obecný přehled
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Psychoplastogen s terapeutickým potenciálem
-- [LSD](/alkaloids/lsd/) - Potentní induktor neuroplasticity
-- [DMT](/alkaloids/dmt/) - Endogenní psychoplastogen
-- [Ketamin](/alkaloids/ketamin/) - Rychle působící antidepresivum
+- [Psilocybin](@/alkaloids/psilocybin.md) - Psychoplastogen s terapeutickým potenciálem
+- [LSD](@/alkaloids/lsd.md) - Potentní induktor neuroplasticity
+- [DMT](@/alkaloids/dmt.md) - Endogenní psychoplastogen
+- [Ketamin](@/alkaloids/ketamin.md) - Rychle působící antidepresivum
 
 ### Neurotransmitery
-- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Stavební jednotky signálních molekul
+- [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Stavební jednotky signálních molekul
 
 ### Mozkové struktury
-- [Mozek](/brain/) - Přehled neuroanatomie
-- [Hippocampus](/brain/hippocampus/) - Centrum paměti a neurogeneze
+- [Mozek](@/brain/_index.md) - Přehled neuroanatomie
+- [Hippocampus](@/brain/hippocampus.md) - Centrum paměti a neurogeneze
 
 ### Houbové zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Přírodní zdroje psilocybinu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Přírodní zdroje psilocybinu
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)

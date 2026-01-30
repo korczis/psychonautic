@@ -11,7 +11,7 @@ tags = ["bolest", "nocicepce", "ketamin", "analgezie", "chronicka-bolest", "NMDA
 
 # Bolest - Neurobiologie a psychedelicka analgezie
 
-**Bolest** je komplexni senzoricky a emocni zazitek spojeny s aktualni nebo potencialni tkankove poškození. Chronicka bolest postihuje odhadem 20% dospelé populace a predstavuje jednu z nejcastejsich pricin disability. [Ketamin](/alkaloids/ketamin/) a psychedelika predstavuji nove terapeuticke moznosti, zejmena pro bolest refrakterní na konvencni lecbu.
+**Bolest** je komplexni senzoricky a emocni zazitek spojeny s aktualni nebo potencialni tkankove poškození. Chronicka bolest postihuje odhadem 20% dospelé populace a predstavuje jednu z nejcastejsich pricin disability. [Ketamin](@/alkaloids/ketamin.md) a psychedelika predstavuji nove terapeuticke moznosti, zejmena pro bolest refrakterní na konvencni lecbu.
 
 ---
 
@@ -321,7 +321,7 @@ inhibice      modulace
          v
 ANALGEZIE
 
-Viz: [Endorfiny](/molecules/endorphins/)
+Viz: [Endorfiny](@/molecules/endorphins.md)
 ```
 
 ### Psychedelika a endogenní opioidy
@@ -400,17 +400,17 @@ Viz: [Endorfiny](/molecules/endorphins/)
 ## Viz take
 
 ### Psychoaktivni latky
-- [Ketamin](/alkaloids/ketamin/) - NMDA antagonista, analgezie
-- [Ibogain](/alkaloids/ibogaine/) - Kappa opioidni aktivita
-- [Salvinorin A](/alkaloids/salvinorin/) - Kappa agonista
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA antagonista, analgezie
+- [Ibogain](@/alkaloids/ibogaine.md) - Kappa opioidni aktivita
+- [Salvinorin A](@/alkaloids/salvinorin.md) - Kappa agonista
 
 ### Mechanismy
-- [Endorfiny](/molecules/endorphins/) - Endogenní analgezie
-- [NMDA receptor](/receptors/nmda/) - Centrální senzitizace
+- [Endorfiny](@/molecules/endorphins.md) - Endogenní analgezie
+- [NMDA receptor](@/receptors/nmda.md) - Centrální senzitizace
 
 ### Souvisejici stavy
-- [Deprese](/conditions/depression/) - Komorbidita s chronickou bolestí
+- [Deprese](@/conditions/depression.md) - Komorbidita s chronickou bolestí
 
 ---
 
-<- Zpet na [Stavy a poruchy](/conditions/)
+<- Zpet na [Stavy a poruchy](@/conditions/_index.md)

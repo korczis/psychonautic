@@ -21,8 +21,8 @@ Latky, ktere se v tele premenuji na neurotransmitery:
 
 | Suplement | Cil | Neurotransmiter |
 |-----------|-----|-----------------|
-| [5-HTP](/supplements/5-htp/) | Serotonin | [Serotonin](/glossary/serotonin/) |
-| L-tryptofan | Serotonin | [Serotonin](/glossary/serotonin/) |
+| [5-HTP](@/supplements/5-htp.md) | Serotonin | [Serotonin](@/glossary/serotonin.md) |
+| L-tryptofan | Serotonin | [Serotonin](@/glossary/serotonin.md) |
 | L-tyrosin | Dopamin/NA | Dopamin, Noradrenalin |
 | L-DOPA | Dopamin | Dopamin |
 
@@ -41,7 +41,7 @@ Latky, ktere se v tele premenuji na neurotransmitery:
 
 | Suplement | Popis | Relevance |
 |-----------|-------|-----------|
-| [5-HTP](/supplements/5-htp/) | Prekurzor serotoninu | Serotoninergni systemy |
+| [5-HTP](@/supplements/5-htp.md) | Prekurzor serotoninu | Serotoninergni systemy |
 
 ---
 
@@ -59,10 +59,10 @@ Vzdy konzultujte s lekarem pred kombinaci suplementu s jakoukoliv medikaci.
 
 ## Viz take
 
-- [Biosynteza serotoninu](/biosynthesis/serotonin/) - Jak vznika serotonin
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
-- [Serotoninovy syndrom](/conditions/serotonin-syndrome/) - Rizikovy stav
+- [Biosynteza serotoninu](@/biosynthesis/serotonin.md) - Jak vznika serotonin
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
+- [Serotoninovy syndrom](@/conditions/serotonin-syndrome.md) - Rizikovy stav
 
 ---
 
-<- Zpet na [Hlavni stranka](/)
+<- Zpet na [Hlavni stranka](@/_index.md)

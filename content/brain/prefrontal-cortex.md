@@ -13,7 +13,7 @@ categories = ["neuroanatomie", "neuroveda", "psychedelika"]
 
 **Prefrontalni kortex** (PFC) je nejprednejsi cast frontalnich laloku mozku, ktera je zodpovedna za **exekutivni funkce**, **rozhodovani**, **planovani**, **pracovni pamet** a **socialni chovani**. Predstavuje evolucne nejnovejsi a u cloveka nejvice rozvinutou cast mozku.
 
-PFC je kritickym cilem psychedelickych latek, kde aktivace [5-HT2A receptoru](/receptors/5-ht2a/) na pyramidovych neuronech vede ke zmenam kognice, vnimani a mysleni.
+PFC je kritickym cilem psychedelickych latek, kde aktivace [5-HT2A receptoru](@/receptors/5-ht2a.md) na pyramidovych neuronech vede ke zmenam kognice, vnimani a mysleni.
 
 ---
 
@@ -210,7 +210,7 @@ ROZHODOVACI PROCES V PFC
 
 ### Mechanismus ucinku
 
-Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) aktivuji [5-HT2A receptory](/receptors/5-ht2a/) na pyramidovych neuronech vrstvy V:
+Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) aktivuji [5-HT2A receptory](@/receptors/5-ht2a.md) na pyramidovych neuronech vrstvy V:
 
 | Efekt | Mechanismus | Dusledek |
 |-------|-------------|----------|
@@ -305,7 +305,7 @@ PSYCHEDELICKY STAV (5-HT2A aktivace v PFC):
 
 | Receptor | Exprese v PFC | Funkce |
 |----------|---------------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Velmi vysoka (vrstva V) | **Psychedelicky ucinek** |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Velmi vysoka (vrstva V) | **Psychedelicky ucinek** |
 | **5-HT1A** | Vysoka | Anxiolýza, modulace |
 | **5-HT2C** | Stredni | Regulace nalady |
 | **5-HT6** | Stredni | Kognice |
@@ -351,11 +351,11 @@ Vysoky: Perseverace, rigidita
 | Zdroj | Funkce |
 |-------|--------|
 | **Thalamus (MD)** | Senzoricky relay |
-| **[Hippocampus](/brain/hippocampus/)** | Pamet, kontext |
-| **[Amygdala](/brain/amygdala/)** | Emoční informace |
+| **[Hippocampus](@/brain/hippocampus.md)** | Pamet, kontext |
+| **[Amygdala](@/brain/amygdala.md)** | Emoční informace |
 | **VTA** | Dopaminova modulace |
-| **[Raphe nuclei](/brain/raphe-nuclei/)** | Serotoninova modulace |
-| **[Locus coeruleus](/brain/locus-coeruleus/)** | Noradrenalinova modulace |
+| **[Raphe nuclei](@/brain/raphe-nuclei.md)** | Serotoninova modulace |
+| **[Locus coeruleus](@/brain/locus-coeruleus.md)** | Noradrenalinova modulace |
 
 ### Hlavni eferentni spoje
 
@@ -507,28 +507,94 @@ PFC dokoncuje vyvoj kolem 25 let.
 
 ---
 
-## Viz take
+## Funkcni okruhy a signalni integrace
 
-### Mozkové oblasti
-- [Hippocampus](/brain/hippocampus/) - Pamet, kontext
-- [Amygdala](/brain/amygdala/) - Emoce, strach
-- [Thalamus](/brain/thalamus/) - Senzoricky relay
-- [Claustrum](/brain/claustrum/) - Integrace vědomí
-- [Vizualni kortex](/brain/visual-cortex/) - Percepce
+PFC je klicovym mistem konvergence signalnich kaskad psychoaktivnich latek -- viz [Mechanismy ucinku](@/mechanisms/_index.md):
 
-### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Hlavni cil psychedelik
-- [NMDA receptor](/receptors/nmda/) - Plasticita
+### 5-HT2A signalizace v PFC (vrstva V)
 
-### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Modulace
-- [Dopamin](/glossary/dopamin/) - Pracovni pamet
+```
+SIGNALNI INTEGRACE V PYRAMIDOVYCH NEURONECH PFC
 
-### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Zmena kognice
-- [LSD](/alkaloids/lsd/) - REBUS efekt
-- [DMT](/alkaloids/dmt/) - Mystické zkusenosti
+                  5-HT2A (apikalni dendrity, vrstva I/V)
+                        |
+                        v
+               Gq/11 -> PLCbeta -> Ca2+/PKC
+                        |
+                        v
+               ERK1/2 -> CREB -> genova exprese
+                        |
+          +-------------+-------------+
+          |             |             |
+          v             v             v
+       BDNF          Arc          Homer1a
+       |             |             |
+       v             v             v
+    Dendriticka   Synaptická    mGluR
+    arboryzace    plasticita    modulace
+          |             |             |
+          +-------------+-------------+
+                        |
+                        v
+            NEUROPLASTICITA V PFC
+            (24 h - tydny)
+```
+
+### Casove okno neuroplasticity v PFC
+
+| Cas po expozici | Proces v PFC | Klinicky korelat |
+|----------------|-------------|------------------|
+| **0-2 h** | Akutni 5-HT2A signalizace, Ca2+ tranzienty | Psychedelicky stav |
+| **2-6 h** | IEG indukce (c-Fos, Arc, EGR1) | Doznivani ucinku |
+| **6-24 h** | BDNF protein elevace | "Afterglow" |
+| **1-3 dny** | Dendriticky rust, nove trny | Terapeuticke okno |
+| **1-4 tydny** | Konsolidace synaptickych zmen | Trvaly ucinek |
+| **1-3 mesice** | Stabilni zmeny konektivity (fMRI) | Dlouhodoby benefit |
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- casovy prubeh, BDNF-TrkB, mTOR
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) -- 5-HT2A distribuce, receptor occupancy
+
+### Terapeuticky cil: DMN reset pres PFC
+
+| Terapeuticky cil | Mechanismus v PFC | Latka | Indikace |
+|------------------|-------------------|-------|----------|
+| DMN dezintegrace | 5-HT2A na mPFC pyramidach | [Psilocybin](@/alkaloids/psilocybin.md) | Deprese, ruminace |
+| Kognitivni flexibilita | Entropie PFC okruhu | [LSD](@/alkaloids/lsd.md) | OCD, zavislosti |
+| PFC neuroplasticita | mTOR, BDNF v DLPFC | Ketamin | Rez. deprese |
+| Emocni regulace | PFC-amygdala konektivita | [Psilocybin](@/alkaloids/psilocybin.md) | PTSD |
+
+Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) -- terapeuticky davkovani, receptor occupancy
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Vizualni kortex](/brain/visual-cortex/) ->
+## Viz take
+
+### Mozkove oblasti
+- [Hippocampus](@/brain/hippocampus.md) - Pamet, kontext
+- [Amygdala](@/brain/amygdala.md) - Emoce, strach
+- [Thalamus](@/brain/thalamus.md) - Senzoricky relay
+- [Claustrum](@/brain/claustrum.md) - Integrace vedomi
+- [Vizualni kortex](@/brain/visual-cortex.md) - Percepce
+
+### Receptory
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Hlavni cil psychedelik
+- [NMDA receptor](@/receptors/nmda.md) - Plasticita
+
+### Neurotransmitery
+- [Serotonin](@/glossary/serotonin.md) - Modulace
+- [Dopamin](@/glossary/dopamin.md) - Pracovni pamet
+
+### Psychoaktivni latky
+- [Psilocybin](@/alkaloids/psilocybin.md) - Zmena kognice
+- [LSD](@/alkaloids/lsd.md) - REBUS efekt
+- [DMT](@/alkaloids/dmt.md) - Mysticke zkusenosti
+
+### Mechanismy ucinku
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni prehled
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - Gq kaskada v PFC
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - 5-HT2A kinetika
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - terapeuticke davkovani
+
+---
+
+<- Zpet na [Mozek](@/brain/_index.md) | [Vizualni kortex](@/brain/visual-cortex.md) ->

@@ -1,0 +1,18 @@
+{# Mermaid diagram shortcode for Psychonautic theme.
+   Usage in markdown:
+
+   {{ mermaid(title="Diagram Title") }}
+   graph TD
+       A --> B
+   {{ end }}
+
+   Parameters:
+   - title (optional): Caption displayed below the diagram
+   - direction (optional): Override default graph direction (TD, LR, BT, RL)
+#}
+<div class="mermaid-source" {% if title %}data-title="{{ title }}"{% endif %}>
+{{ body }}
+</div>
+{% if title %}
+<figcaption class="mermaid-caption">{{ title }}</figcaption>
+{% endif %}

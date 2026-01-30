@@ -11,7 +11,7 @@ tags = ["5-HTP", "serotonin", "prekurzor", "deprese", "spanek", "interakce", "se
 
 # 5-HTP - Prekurzor serotoninu
 
-**5-Hydroxytryptofan** (5-HTP, oxitriptan) je prirodni aminokyselina a metabolicky intermediat v [biosynteze serotoninu](/biosynthesis/serotonin/). Jako suplement se pouziva pro podporu nalady, spanku a regulace chuti k jidlu. Na rozdil od L-tryptofanu, 5-HTP **obchazi rate-limiting krok** (TPH) a konvertuje se primo na serotonin.
+**5-Hydroxytryptofan** (5-HTP, oxitriptan) je prirodni aminokyselina a metabolicky intermediat v [biosynteze serotoninu](@/biosynthesis/serotonin.md). Jako suplement se pouziva pro podporu nalady, spanku a regulace chuti k jidlu. Na rozdil od L-tryptofanu, 5-HTP **obchazi rate-limiting krok** (TPH) a konvertuje se primo na serotonin.
 
 ---
 
@@ -146,7 +146,7 @@ RESENI:
 |--------|--------|----------|
 | **Eosinofilia-myalgia syndrom (EMS)** | Historicky | Kontaminace L-tryptofanu 1989 |
 | **Kardiovaskularni** | Teoreticke | Periferni serotonin → fibróza chlopni? |
-| **[Serotoninový syndrom](/conditions/serotonin-syndrome/)** | Pri kombinacích | Viz níze |
+| **[Serotoninový syndrom](@/conditions/serotonin-syndrome.md)** | Pri kombinacích | Viz níze |
 
 ---
 
@@ -325,16 +325,16 @@ VAROVANI:
 ## Viz take
 
 ### Biosynteza
-- [Biosynteza serotoninu](/biosynthesis/serotonin/) - 5-HTP v kontextu
-- [L-Tryptofan](/amino-acids/tryptophan/) - Prekurzor 5-HTP
+- [Biosynteza serotoninu](@/biosynthesis/serotonin.md) - 5-HTP v kontextu
+- [L-Tryptofan](@/amino-acids/tryptophan.md) - Prekurzor 5-HTP
 
 ### Bezpecnost
-- [Serotoninovy syndrom](/conditions/serotonin-syndrome/) - Kriticke riziko
+- [Serotoninovy syndrom](@/conditions/serotonin-syndrome.md) - Kriticke riziko
 
 ### Souvisejici latky
-- [MDMA](/alkaloids/mdma/) - Harm reduction kontext
-- [Serotonin](/glossary/serotonin/) - Cilovy neurotransmiter
+- [MDMA](@/alkaloids/mdma.md) - Harm reduction kontext
+- [Serotonin](@/glossary/serotonin.md) - Cilovy neurotransmiter
 
 ---
 
-<- Zpet na [Suplementy](/supplements/)
+<- Zpet na [Suplementy](@/supplements/_index.md)

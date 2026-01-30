@@ -6,7 +6,7 @@ weight = 6
 
 # Psilocybe mexicana - Teonanacatl
 
-**Psilocybe mexicana** je historicky nejvýznamnější [psilocybinová houba](/shrooms/psilocybes/) a jeden z nejdůležitějších druhů v celé historii etnomykologie. Aztékové ji nazývali **Teonanacatl** ("božské maso" nebo "tělo bohů") a používali ji v náboženských rituálech po tisíce let. Z této houby Albert Hofmann v roce 1958 poprvé izoloval [psilocybin](/alkaloids/psilocybin/) a [psilocin](/alkaloids/psilocin/), čímž zahájil moderní vědecký výzkum psychedelických látek.
+**Psilocybe mexicana** je historicky nejvýznamnější [psilocybinová houba](@/shrooms/psilocybes/_index.md) a jeden z nejdůležitějších druhů v celé historii etnomykologie. Aztékové ji nazývali **Teonanacatl** ("božské maso" nebo "tělo bohů") a používali ji v náboženských rituálech po tisíce let. Z této houby Albert Hofmann v roce 1958 poprvé izoloval [psilocybin](@/alkaloids/psilocybin.md) a [psilocin](@/alkaloids/psilocin.md), čímž zahájil moderní vědecký výzkum psychedelických látek.
 
 P. mexicana představuje most mezi dávnou tradicí domorodých národů Mezoameriky a moderní psychedelickou vědou. Její význam přesahuje pouhou botaniku - je to kulturní artefakt, vědecký milník a symbol tisícileté spirituální praxe.
 
@@ -25,7 +25,7 @@ P. mexicana představuje most mezi dávnou tradicí domorodých národů Mezoame
 | Podtřída | Agaricomycetidae |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/shrooms/psilocybes/) |
+| Rod | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | Druh | P. mexicana |
 | Binomické jméno | *Psilocybe mexicana* Heim |
 
@@ -358,8 +358,8 @@ Pleurocystidia jsou nepřítomná nebo vzácná.
 
 | Alkaloid | Koncentrace (sušina) | Poznámka |
 |----------|----------------------|----------|
-| [Psilocybin](/alkaloids/psilocybin/) | 0,3-0,7% | Hlavní aktivní látka |
-| [Psilocin](/alkaloids/psilocin/) | 0,02-0,1% | Méně stabilní |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 0,3-0,7% | Hlavní aktivní látka |
+| [Psilocin](@/alkaloids/psilocin.md) | 0,02-0,1% | Méně stabilní |
 | Baeocystin | stopy až 0,05% | Vedlejší alkaloid |
 | Norbaeocystin | stopy | Minoritní |
 
@@ -422,8 +422,8 @@ Sklerotia ("magic truffles") mají v některých zemích odlišný právní stat
 
 | Alkaloid | Koncentrace | Struktura |
 |----------|-------------|-----------|
-| [Psilocybin](/alkaloids/psilocybin/) | 0,25-0,35% | 4-fosforyloxyindolalkylamin |
-| [Psilocin](/alkaloids/psilocin/) | 0,01-0,05% | 4-hydroxyindolalkylamin |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 0,25-0,35% | 4-fosforyloxyindolalkylamin |
+| [Psilocin](@/alkaloids/psilocin.md) | 0,01-0,05% | 4-hydroxyindolalkylamin |
 | Baeocystin | stopy | 4-fosforyloxy-N-methyltryptamin |
 | Norbaeocystin | stopy | 4-fosforyloxytryptamin |
 
@@ -447,10 +447,10 @@ Psilocybin
 
 | Druh | Psilocybin | Psilocin | Celkem | Index |
 |------|------------|----------|--------|-------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | 1,78% | 0,38% | 2,16% | 6,2x |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,98% | 0,02% | 1,00% | 2,9x |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | 0,85% | 0,36% | 1,21% | 3,5x |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,63% | 0,60% | 1,23% | 3,5x |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | 1,78% | 0,38% | 2,16% | 6,2x |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0,98% | 0,02% | 1,00% | 2,9x |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | 0,85% | 0,36% | 1,21% | 3,5x |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0,63% | 0,60% | 1,23% | 3,5x |
 | **P. mexicana** | 0,35% | 0,03% | 0,38% | 1,0x |
 | P. tampanensis | 0,31% | 0,02% | 0,33% | 0,9x |
 
@@ -739,7 +739,7 @@ Od roku 2000 probíhá "psychedelická renesance" ve vědě:
 
 | Druh | Hlavní rozdíly | Výskyt |
 |------|----------------|--------|
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Výrazná papila, Evropa | Pastviny |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Výrazná papila, Evropa | Pastviny |
 | P. caerulescens | Silnější modření | Mexiko |
 | P. zapotecorum | Větší plodnice | Mexiko |
 | P. hoogshagenii | Menší spory | Mexiko |
@@ -909,4 +909,4 @@ Její příběh je připomínkou nutnosti etického přístupu k tradičním zna
 
 ---
 
-← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. cubensis](/shrooms/psilocybes/cubensis/) | [P. tampanensis](/shrooms/psilocybes/tampanensis/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) →
+← Zpět na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. cubensis](@/shrooms/psilocybes/cubensis.md) | [P. tampanensis](@/shrooms/psilocybes/tampanensis.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) →

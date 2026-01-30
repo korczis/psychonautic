@@ -13,7 +13,7 @@ tags = ["psychedelika", "halucinogeny", "5-HT2A", "serotonin", "tryptaminy", "fe
 
 **Psychedelika** (z reckeho *psyche* = duse, *delein* = zjevovat, manifestovat) jsou tridou psychoaktivnich latek, ktere vyvolavaji **zmenene stavy vedomi** charakterizovane zmenami vnimani, mysleni a emoci. Termin zavedl britsky psychiatr **Humphry Osmond** v roce 1957 v korespondenci s Aldousem Huxleym.
 
-Psychedelika pusobi primarne jako agoniste [5-HT2A receptoru](/receptors/5-ht2a/) a predstavuji jednu z nejintenzivneji zkoumanycch skupin latek v modernni neurovede a psychiatrii.
+Psychedelika pusobi primarne jako agoniste [5-HT2A receptoru](@/receptors/5-ht2a.md) a predstavuji jednu z nejintenzivneji zkoumanycch skupin latek v modernni neurovede a psychiatrii.
 
 ---
 
@@ -94,10 +94,10 @@ R4 = substituent na indolovem kruhu (OH, OPO3, OCH3)
 
 | Alkaloid | Struktura | Primarni zdroj | Dokumentace |
 |----------|-----------|----------------|-------------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | 4-PO-DMT (prodrug) | [Psilocybe houby](/shrooms/psilocybes/) | Kompletni |
-| [**Psilocin**](/alkaloids/psilocin/) | 4-HO-DMT | [Psilocybe houby](/shrooms/psilocybes/) | Kompletni |
-| [**DMT**](/alkaloids/dmt/) | N,N-DMT | Ayahuasca, endogenni | Kompletni |
-| [**Baeocystin**](/alkaloids/baeocystin/) | 4-PO-NMT | [Psilocybe houby](/shrooms/psilocybes/) | Kompletni |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 4-PO-DMT (prodrug) | [Psilocybe houby](@/shrooms/psilocybes/_index.md) | Kompletni |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 4-HO-DMT | [Psilocybe houby](@/shrooms/psilocybes/_index.md) | Kompletni |
+| [**DMT**](@/alkaloids/dmt.md) | N,N-DMT | Ayahuasca, endogenni | Kompletni |
+| [**Baeocystin**](@/alkaloids/baeocystin.md) | 4-PO-NMT | [Psilocybe houby](@/shrooms/psilocybes/_index.md) | Kompletni |
 | **5-MeO-DMT** | 5-methoxy-DMT | Bufo alvarius | - |
 | **Bufotenin** | 5-HO-DMT | Anadenanthera | - |
 
@@ -129,7 +129,7 @@ R3, R4, R5 = substituenty na benzenovem kruhu (methoxy, halogeny)
 
 | Latka | Struktura | Zdroj | Dokumentace |
 |-------|-----------|-------|-------------|
-| [**Meskalin**](/alkaloids/mescaline/) | 3,4,5-trimethoxy-PEA | Peyotl, San Pedro | Kompletni |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 3,4,5-trimethoxy-PEA | Peyotl, San Pedro | Kompletni |
 | **2C-B** | 4-bromo-2,5-dimethoxy-PEA | Synteticky | - |
 | **2C-E** | 4-ethyl-2,5-dimethoxy-PEA | Synteticky | - |
 | **DOM** | 2,5-dimethoxy-4-methyl-amfetamin | Synteticky | - |
@@ -167,7 +167,7 @@ ERGOLINOVY SCAFFOLD:
 
 | Latka | Typ | Zdroj | Dokumentace |
 |-------|-----|-------|-------------|
-| [**LSD**](/alkaloids/lsd/) | Diethylamid | Semisynteticky | Kompletni |
+| [**LSD**](@/alkaloids/lsd.md) | Diethylamid | Semisynteticky | Kompletni |
 | **1P-LSD** | 1-propionyl-LSD | Synteticky (prodrug) | - |
 | **ALD-52** | 1-acetyl-LSD | Synteticky (prodrug) | - |
 | **LSA** | Amid kyseliny lysergove | Convolvulaceae | - |
@@ -190,7 +190,7 @@ ERGOLINOVY SCAFFOLD:
 
 ### Primarni cil: 5-HT2A receptor
 
-Vsechna klasicka psychedelika pusobi jako agoniste [5-HT2A receptoru](/receptors/5-ht2a/):
+Vsechna klasicka psychedelika pusobi jako agoniste [5-HT2A receptoru](@/receptors/5-ht2a.md):
 
 ```
 PSYCHEDELIKUM
@@ -223,10 +223,10 @@ NEUROPLASTICITA
 
 | Latka | 5-HT2A Ki (nM) | 5-HT2C Ki | 5-HT1A Ki | D2 Ki |
 |-------|----------------|-----------|-----------|-------|
-| [LSD](/alkaloids/lsd/) | **1-2** | 5-10 | 2-10 | 10-50 |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | 30-100 | 50-200 | >1000 |
-| [DMT](/alkaloids/dmt/) | 75-130 | 360 | >1000 | >10000 |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ | 2000+ | >10000 | >10000 |
+| [LSD](@/alkaloids/lsd.md) | **1-2** | 5-10 | 2-10 | 10-50 |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | 30-100 | 50-200 | >1000 |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | 360 | >1000 | >10000 |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ | 2000+ | >10000 | >10000 |
 
 **Poznamka**: Ki = inhibicni konstanta. Nizsi hodnota = vyssi afinita.
 
@@ -237,8 +237,8 @@ Ruzna psychedelika aktivuji ruzne signalni drahy:
 | Ligand | Gq/11 signalizace | beta-arrestin | Head-Twitch Response |
 |--------|-------------------|---------------|---------------------|
 | Serotonin | +++ | +++ | - |
-| [LSD](/alkaloids/lsd/) | +++ | + | +++ |
-| [Psilocin](/alkaloids/psilocin/) | ++ | ++ | ++ |
+| [LSD](@/alkaloids/lsd.md) | +++ | + | +++ |
+| [Psilocin](@/alkaloids/psilocin.md) | ++ | ++ | ++ |
 | DOI | +++ | ++ | +++ |
 | Lisurid | + | ++ | - (bez halucinaci) |
 
@@ -276,10 +276,10 @@ Vysvetluje 8-12 hodin trvani ucinku
 
 | Latka | Trida | Potence | Trvani |
 |-------|-------|---------|--------|
-| [LSD](/alkaloids/lsd/) | Ergolin | Velmi vysoka | 8-12 h |
-| [Psilocybin](/alkaloids/psilocybin/) | Tryptamin | Stredni | 4-6 h |
-| [DMT](/alkaloids/dmt/) | Tryptamin | Stredni | 15-60 min |
-| [Meskalin](/alkaloids/mescaline/) | Fenethylamin | Nizka | 8-12 h |
+| [LSD](@/alkaloids/lsd.md) | Ergolin | Velmi vysoka | 8-12 h |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Tryptamin | Stredni | 4-6 h |
+| [DMT](@/alkaloids/dmt.md) | Tryptamin | Stredni | 15-60 min |
+| [Meskalin](@/alkaloids/mescaline.md) | Fenethylamin | Nizka | 8-12 h |
 
 **Charakteristiky**:
 - 5-HT2A primarne
@@ -295,10 +295,10 @@ Latky s psychedelickymi efekty, ale odlisnym primarnim mechanismem:
 
 | Latka | Primarni receptor | Typ | Dokumentace |
 |-------|-------------------|-----|-------------|
-| [Muscimol](/alkaloids/muscimol/) | [GABA-A](/receptors/gaba-a/) | Deliriant/Disociativ | [Muscimol](/alkaloids/muscimol/) |
+| [Muscimol](@/alkaloids/muscimol.md) | [GABA-A](@/receptors/gaba-a.md) | Deliriant/Disociativ | [Muscimol](@/alkaloids/muscimol.md) |
 | Ibogain | Kappa-opioid, NMDA | Oneirogen | - |
 | Salvinorin A | Kappa-opioid | Disociativ | - |
-| Ketamin | [NMDA](/receptors/nmda/) | Disociativ | - |
+| Ketamin | [NMDA](@/receptors/nmda.md) | Disociativ | - |
 | MDMA | SERT, NET, DAT | Entaktogen | - |
 
 ### Srovnani klasickych a atypickych
@@ -572,10 +572,10 @@ Docasne zvyseni entropie --> Reset rigidnich vzorcu
 
 | Latka | LD50 (mg/kg)* | Bezpecnostni pomer | Letalni davka clovek |
 |-------|---------------|-------------------|---------------------|
-| [LSD](/alkaloids/lsd/) | 0.3 (i.v., kralik) | >1000 | Teoreticky >10 mg |
-| [Psilocybin](/alkaloids/psilocybin/) | 280 (i.v., mys) | >1000 | Teoreticky >17 g |
-| [DMT](/alkaloids/dmt/) | >50 | >100 | Neznama |
-| [Meskalin](/alkaloids/mescaline/) | 212 (i.p., mys) | >10 | Neznama |
+| [LSD](@/alkaloids/lsd.md) | 0.3 (i.v., kralik) | >1000 | Teoreticky >10 mg |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 280 (i.v., mys) | >1000 | Teoreticky >17 g |
+| [DMT](@/alkaloids/dmt.md) | >50 | >100 | Neznama |
+| [Meskalin](@/alkaloids/mescaline.md) | 212 (i.p., mys) | >10 | Neznama |
 
 *LD50 hodnoty z zvirecich studii
 
@@ -717,36 +717,36 @@ Docasne zvyseni entropie --> Reset rigidnich vzorcu
 
 ### Alkaloidy (psychedelika)
 
-- [Psilocybin](/alkaloids/psilocybin/) - Houbove psychedelikum
-- [Psilocin](/alkaloids/psilocin/) - Aktivni metabolit psilocybinu
-- [LSD](/alkaloids/lsd/) - Nejpotentnejsi psychedelikum
-- [DMT](/alkaloids/dmt/) - "Spirit Molecule"
-- [Meskalin](/alkaloids/mescaline/) - Kaktusove psychedelikum
-- [Baeocystin](/alkaloids/baeocystin/) - Minor houbovy alkaloid
+- [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivni metabolit psilocybinu
+- [LSD](@/alkaloids/lsd.md) - Nejpotentnejsi psychedelikum
+- [DMT](@/alkaloids/dmt.md) - "Spirit Molecule"
+- [Meskalin](@/alkaloids/mescaline.md) - Kaktusove psychedelikum
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor houbovy alkaloid
 
 ### Houby
 
-- [Psilocybes](/shrooms/psilocybes/) - Psychedelicke houby
-- [Psilocybe cubensis](/shrooms/psilocybes/cubensis/) - Nejbeznejsi druh
-- [Psilocybe semilanceata](/shrooms/psilocybes/semilanceata/) - Evropsky druh
-- [Psilocybe bohemica](/shrooms/psilocybes/bohemica/) - Cesky druh
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Psychedelicke houby
+- [Psilocybe cubensis](@/shrooms/psilocybes/cubensis.md) - Nejbeznejsi druh
+- [Psilocybe semilanceata](@/shrooms/psilocybes/semilanceata.md) - Evropsky druh
+- [Psilocybe bohemica](@/shrooms/psilocybes/bohemica.md) - Cesky druh
 
 ### Receptory
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Cil atypickych psychedelik
-- [NMDA receptor](/receptors/nmda/) - Cil disociativ
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil atypickych psychedelik
+- [NMDA receptor](@/receptors/nmda.md) - Cil disociativ
 
 ### Ostatni
 
-- [Alkaloidy](/alkaloids/) - Prehled vsech alkaloidu
-- [Glosar](/glossary/) - Definice pojmu
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
-- [Receptor](/glossary/receptor/) - Obecny pojem
+- [Alkaloidy](@/alkaloids/_index.md) - Prehled vsech alkaloidu
+- [Glosar](@/glossary/_index.md) - Definice pojmu
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
+- [Receptor](@/glossary/receptor.md) - Obecny pojem
 
 ---
 
-<- Zpet na [Glosar](/glossary/) | [GABA](/glossary/gaba/) | [Receptor](/glossary/receptor/) ->
+<- Zpet na [Glosar](@/glossary/_index.md) | [GABA](@/glossary/gaba.md) | [Receptor](@/glossary/receptor.md) ->
 
 ---
 

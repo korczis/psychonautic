@@ -14,4 +14,4 @@ Sekce venujici se neurobiologickym zakladum psychedelickych ucinku, neuroplastic
 
 ## Temata
 
-- [Neuroplasticita](/glossary/neuroplasticita/) - Schopnost mozku menit svoji strukturu
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Schopnost mozku menit svoji strukturu

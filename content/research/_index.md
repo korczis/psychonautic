@@ -415,21 +415,21 @@ INTEGRACE
 ## Krizove odkazy
 
 ### Latky pod vyzkumem
-- [Psilocybin](/alkaloids/psilocybin/) - houby
-- [LSD](/alkaloids/lsd/) - lysergamid
-- [MDMA](/alkaloids/mdma/) - entaktogen
-- [DMT](/alkaloids/dmt/) - tryptamin
-- [Ketamin](/alkaloids/ketamin/) - disociativ
+- [Psilocybin](@/alkaloids/psilocybin.md) - houby
+- [LSD](@/alkaloids/lsd.md) - lysergamid
+- [MDMA](@/alkaloids/mdma.md) - entaktogen
+- [DMT](@/alkaloids/dmt.md) - tryptamin
+- [Ketamin](@/alkaloids/ketamin.md) - disociativ
 
 ### Mechanismy
-- [5-HT2A](/receptors/5-ht2a/) - primarni receptor
-- [Neuroplasticita](/glossary/neuroplasticita/) - strukturni zmeny
-- [Serotonin](/glossary/serotonin/) - neurotransmiter
+- [5-HT2A](@/receptors/5-ht2a.md) - primarni receptor
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - strukturni zmeny
+- [Serotonin](@/glossary/serotonin.md) - neurotransmiter
 
 ### Bezpecnost
-- [Harm Reduction](/harm-reduction/) - snizovani rizik
-- [Set and Setting](/glossary/set-and-setting/) - priprava
+- [Harm Reduction](@/harm-reduction/_index.md) - snizovani rizik
+- [Set and Setting](@/glossary/set-and-setting.md) - priprava
 
 ---
 
-Zpet na [Uvodni stranka](/) | [Harm Reduction](/harm-reduction/) | [Alkaloidy](/alkaloids/)
+Zpet na [Uvodni stranka](@/_index.md) | [Harm Reduction](@/harm-reduction/_index.md) | [Alkaloidy](@/alkaloids/_index.md)

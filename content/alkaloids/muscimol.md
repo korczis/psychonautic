@@ -6,7 +6,7 @@ weight = 5
 
 # Muscimol - Isoxazolový alkaloid
 
-**Muscimol** (také známý jako agarin nebo pantherin) je hlavní psychoaktivní alkaloid z [Amanita muscaria](/shrooms/amanita-muscaria/) (muchomůrky červené). Na rozdíl od klasických psychedelik ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) nepůsobí na serotoninové receptory, ale je silným agonistou **GABA-A** receptorů.
+**Muscimol** (také známý jako agarin nebo pantherin) je hlavní psychoaktivní alkaloid z [Amanita muscaria](@/shrooms/amanita-muscaria.md) (muchomůrky červené). Na rozdíl od klasických psychedelik ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) nepůsobí na serotoninové receptory, ale je silným agonistou **GABA-A** receptorů.
 
 ---
 
@@ -41,7 +41,7 @@ Kyselina ibotenová (neurotoxin)
 Muscimol (aktivní forma)
 ```
 
-**Důležité**: [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) je prekurzor muscimolu a neurotoxin. Správná příprava (sušení) převede většinu kyseliny ibotenové na muscimol.
+**Důležité**: [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) je prekurzor muscimolu a neurotoxin. Správná příprava (sušení) převede většinu kyseliny ibotenové na muscimol.
 
 ---
 
@@ -149,7 +149,7 @@ Sedace, svalová relaxace, disociace
 
 | Druh | České jméno | Muscimol obsah |
 |------|-------------|----------------|
-| [**A. muscaria**](/shrooms/amanita-muscaria/) | Muchomůrka červená | 0,03-0,18% (sušená) |
+| [**A. muscaria**](@/shrooms/amanita-muscaria.md) | Muchomůrka červená | 0,03-0,18% (sušená) |
 | **A. pantherina** | Muchomůrka tygrovaná | 0,12-0,25% (silnější!) |
 | **A. regalis** | Muchomůrka královská | Podobná A. muscaria |
 | **A. gemmata** | Muchomůrka slámová | Nízký obsah |
@@ -339,9 +339,9 @@ Rostoucí zájem o mikrodávkování sušených Amanita:
 ---
 
 Viz také:
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Přírodní zdroj
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - Prekurzor/neurotoxin
-- [Psilocybin](/alkaloids/psilocybin/) - Jiný typ psychoaktivní houby
-- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Přírodní zdroj
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Prekurzor/neurotoxin
+- [Psilocybin](@/alkaloids/psilocybin.md) - Jiný typ psychoaktivní houby
+- [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
 
-← Zpět na [Alkaloidy](/alkaloids/) | [Amanita muscaria](/shrooms/amanita-muscaria/) →
+← Zpět na [Alkaloidy](@/alkaloids/_index.md) | [Amanita muscaria](@/shrooms/amanita-muscaria.md) →

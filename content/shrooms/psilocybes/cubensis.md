@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Psilocybe cubensis - Kubánská lysohlávka
 
-**Psilocybe cubensis** (Earle) Singer je nejznámější a nejčastěji kultivovaný druh [psilocybinových hub](/shrooms/psilocybes/). Tato tropická koprofylní houba obsahuje psychoaktivní tryptaminy [psilocybin](/alkaloids/psilocybin/) a [psilocin](/alkaloids/psilocin/), které působí jako agonisté serotoninových receptorů v mozku.
+**Psilocybe cubensis** (Earle) Singer je nejznámější a nejčastěji kultivovaný druh [psilocybinových hub](@/shrooms/psilocybes/_index.md). Tato tropická koprofylní houba obsahuje psychoaktivní tryptaminy [psilocybin](@/alkaloids/psilocybin.md) a [psilocin](@/alkaloids/psilocin.md), které působí jako agonisté serotoninových receptorů v mozku.
 
 ---
 
@@ -23,7 +23,7 @@ insert_anchor_links = "right"
 | **Třída** | Agaricomycetes |
 | **Řád** | Agaricales |
 | **Čeleď** | Hymenogastraceae (dříve Strophariaceae) |
-| **Rod** | [Psilocybe](/shrooms/psilocybes/) |
+| **Rod** | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | **Druh** | P. cubensis (Earle) Singer 1948 |
 
 ### Synonyma
@@ -108,9 +108,9 @@ insert_anchor_links = "right"
 
 | Alkaloid | Koncentrace (% sušiny) | Poznámka |
 |----------|------------------------|----------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | 0,14-0,42% (průměr 0,25%) | Hlavní alkaloid |
-| [**Psilocin**](/alkaloids/psilocin/) | 0,01-0,17% (průměr 0,05%) | Aktivní forma |
-| [**Baeocystin**](/alkaloids/baeocystin/) | 0,01-0,05% | Minor alkaloid |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 0,14-0,42% (průměr 0,25%) | Hlavní alkaloid |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 0,01-0,17% (průměr 0,05%) | Aktivní forma |
+| [**Baeocystin**](@/alkaloids/baeocystin.md) | 0,01-0,05% | Minor alkaloid |
 | **Norbaeocystin** | Stopy | Prekurzor |
 | **Aeruginascin** | Stopy (některé kmeny) | Modulátor |
 
@@ -532,9 +532,9 @@ Při průměrné potenci 0,63%:
 ---
 
 Viz také:
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavní aktivní látka
-- [Psilocin](/alkaloids/psilocin/) - Aktivní metabolit
-- [Baeocystin](/alkaloids/baeocystin/) - Minor alkaloid
-- [Psilocybes](/shrooms/psilocybes/) - Přehled rodu
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor alkaloid
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Přehled rodu
 
-← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) →
+← Zpět na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) →

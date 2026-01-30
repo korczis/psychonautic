@@ -10,7 +10,7 @@ tags = ["serotonin", "TPH", "AADC", "tryptofan", "5-HTP", "5-HT", "neurotransmit
 
 # Biosynteza serotoninu - Od tryptofanu k neurotransmiteru
 
-**Serotonin** (5-hydroxytryptamin, 5-HT) je jeden z nejdulezitejsich neurotransmiteru v lidskem tele. Jeho biosynteza z esencialni aminokyseliny [L-tryptofanu](/amino-acids/tryptophan/) zahrnuje dva klicove enzymaticke kroky: hydroxylaci (TPH) a dekarboxylaci (AADC). Tato draha je farmakologicky velmi dulezita - je cilem antidepresiv a je modulovana psychedeliky.
+**Serotonin** (5-hydroxytryptamin, 5-HT) je jeden z nejdulezitejsich neurotransmiteru v lidskem tele. Jeho biosynteza z esencialni aminokyseliny [L-tryptofanu](@/amino-acids/tryptophan.md) zahrnuje dva klicove enzymaticke kroky: hydroxylaci (TPH) a dekarboxylaci (AADC). Tato draha je farmakologicky velmi dulezita - je cilem antidepresiv a je modulovana psychedeliky.
 
 ---
 
@@ -167,7 +167,7 @@ AADC je **nespecificky enzym** - katalyzuje dekarboxylaci mnoha aromatickych ami
 |----------|---------|-------|
 | **5-HTP** | Serotonin | Serotoninergni |
 | **L-DOPA** | Dopamin | Dopaminergni |
-| **L-Tryptofan** | Tryptamin | [DMT biosynteza](/biosynthesis/dmt/) |
+| **L-Tryptofan** | Tryptamin | [DMT biosynteza](@/biosynthesis/dmt.md) |
 | **L-Tyrosin** | Tyramin | Stopove aminy |
 | **L-Histidin** | Histamin | Histaminergni |
 
@@ -298,7 +298,7 @@ N-ACETYLSEROTONIN
       v
 MELATONIN
 
-Viz: [Melatonin](/molecules/melatonin/)
+Viz: [Melatonin](@/molecules/melatonin.md)
 ```
 
 ---
@@ -310,7 +310,7 @@ Viz: [Melatonin](/molecules/melatonin/)
 | Uroven | Intervence | Priklad |
 |--------|------------|---------|
 | **Tryptofan** | Suplementace | L-Tryptofan |
-| **5-HTP** | Suplementace | [5-HTP](/supplements/5-htp/) |
+| **5-HTP** | Suplementace | [5-HTP](@/supplements/5-htp.md) |
 | **Serotonin** | Nelze podat (BBB) | - |
 | **Degradace** | MAOi | Fenelzin |
 | **Reuptake** | SSRI | Fluoxetin |
@@ -330,7 +330,7 @@ Rizika:
 - Potencial pro serotonin syndrom s jinymi serotonergiky
 - Periferní produkce serotoninu (kardiovaskulární?)
 
-Viz: [5-HTP](/supplements/5-htp/)
+Viz: [5-HTP](@/supplements/5-htp.md)
 ```
 
 ### Psychedelika a serotoninova synteza
@@ -339,8 +339,8 @@ Psychedelika primarne **nepusobi na syntézu** serotoninu, ale na serotoninove r
 
 | Latka | Mechanismus | Vliv na syntézu |
 |-------|-------------|-----------------|
-| **[Psilocybin](/alkaloids/psilocybin/)** | 5-HT2A agonismus | Neprimy (downregulace) |
-| **[LSD](/alkaloids/lsd/)** | 5-HT2A agonismus | Neprimy |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | 5-HT2A agonismus | Neprimy (downregulace) |
+| **[LSD](@/alkaloids/lsd.md)** | 5-HT2A agonismus | Neprimy |
 | **MDMA** | SERT reversal, uvolneni 5-HT | Deplece, pak zvysena |
 | **Ayahuasca** | MAOi + DMT | Snizena degradace |
 
@@ -361,7 +361,7 @@ Psychedelika primarne **nepusobi na syntézu** serotoninu, ale na serotoninove r
 
 | Stav | Pricina | Symptomy |
 |------|---------|----------|
-| **[Serotoninovy syndrom](/conditions/serotonin-syndrome/)** | Kombinace serotonergik | Hyperthermie, agitace |
+| **[Serotoninovy syndrom](@/conditions/serotonin-syndrome.md)** | Kombinace serotonergik | Hyperthermie, agitace |
 | **Karcinoidní syndrom** | 5-HT produkujici tumor | Flush, prujem |
 
 ### Tryptofanová deplece
@@ -412,25 +412,25 @@ Transientni depresivni symptomy
 ## Krizove odkazy
 
 ### Produkty drahy
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
-- [Melatonin](/molecules/melatonin/) - Derivat serotoninu
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
+- [Melatonin](@/molecules/melatonin.md) - Derivat serotoninu
 
 ### Prekurzory a suplementy
-- [L-Tryptofan](/amino-acids/tryptophan/) - Vychozi aminokyselina
-- [5-HTP](/supplements/5-htp/) - Intermediat, suplement
+- [L-Tryptofan](@/amino-acids/tryptophan.md) - Vychozi aminokyselina
+- [5-HTP](@/supplements/5-htp.md) - Intermediat, suplement
 
 ### Souvisejici drahy
-- [Biosynteza DMT](/biosynthesis/dmt/) - Alternativni tryptaminova draha
-- [Biosynteza psilocybinu](/biosynthesis/psilocybin/) - Houbova draha
+- [Biosynteza DMT](@/biosynthesis/dmt.md) - Alternativni tryptaminova draha
+- [Biosynteza psilocybinu](@/biosynthesis/psilocybin.md) - Houbova draha
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelicky cil
-- [5-HT1A receptor](/receptors/5-ht1a/) - Anxiolyticky
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolyticky
 
 ### Patologie
-- [Deprese](/conditions/depression/) - Serotoninergni dysfunkce
-- [Serotoninovy syndrom](/conditions/serotonin-syndrome/) - Toxicita
+- [Deprese](@/conditions/depression.md) - Serotoninergni dysfunkce
+- [Serotoninovy syndrom](@/conditions/serotonin-syndrome.md) - Toxicita
 
 ---
 
-<- Zpet na [Biosyntézy](/biosynthesis/) | [Serotonin](/glossary/serotonin/) ->
+<- Zpet na [Biosyntézy](@/biosynthesis/_index.md) | [Serotonin](@/glossary/serotonin.md) ->

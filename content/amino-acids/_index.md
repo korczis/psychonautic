@@ -16,7 +16,7 @@ insert_anchor_links = "right"
 
 | Aminokyselina | Produkty | Vyznam |
 |---------------|----------|--------|
-| [L-Tryptofan](/amino-acids/tryptophan/) | Serotonin, Melatonin, Psilocybin, DMT | Prekurzor tryptaminu |
+| [L-Tryptofan](@/amino-acids/tryptophan.md) | Serotonin, Melatonin, Psilocybin, DMT | Prekurzor tryptaminu |
 | L-Fenylalanin | Tyrosin, Dopamin, Noradrenalin | Katecholaminy |
 | L-Tyrosin | Dopamin, Noradrenalin, Adrenalin | Katecholaminy |
 | L-Histidin | Histamin | Imunita, zánět |
@@ -38,7 +38,7 @@ L-TRYPTOFAN
      +---> TRYPTAMINOVÁ DRÁHA
            Tryptofan → Tryptamin → DMT / Psilocybin
 
-VIZ: [L-Tryptofan](/amino-acids/tryptophan/)
+VIZ: [L-Tryptofan](@/amino-acids/tryptophan.md)
 ```
 
 ---
@@ -49,10 +49,10 @@ VIZ: [L-Tryptofan](/amino-acids/tryptophan/)
 
 | Alkaloid | Biosynteticka draha | Organismus |
 |----------|---------------------|------------|
-| [Serotonin](/glossary/serotonin/) | TPH → AADC | Savci |
-| [DMT](/alkaloids/dmt/) | AADC → INMT | Rostliny, savci? |
-| [Psilocybin](/alkaloids/psilocybin/) | PsiD → PsiH → PsiK → PsiM | Houby |
-| [Bufotenin](/alkaloids/bufotenin/) | AADC → INMT | Ropuchy |
+| [Serotonin](@/glossary/serotonin.md) | TPH → AADC | Savci |
+| [DMT](@/alkaloids/dmt.md) | AADC → INMT | Rostliny, savci? |
+| [Psilocybin](@/alkaloids/psilocybin.md) | PsiD → PsiH → PsiK → PsiM | Houby |
+| [Bufotenin](@/alkaloids/bufotenin.md) | AADC → INMT | Ropuchy |
 
 ### Biosynteza psilocybinu
 
@@ -74,7 +74,7 @@ Baeocystin
      v
 Psilocybin
 
-VIZ: [Biosynteza psilocybinu](/biosynthesis/psilocybin/)
+VIZ: [Biosynteza psilocybinu](@/biosynthesis/psilocybin.md)
 ```
 
 ---
@@ -117,8 +117,8 @@ VIZ: [Biosynteza psilocybinu](/biosynthesis/psilocybin/)
 ---
 
 Viz take:
-- [Serotonin](/glossary/serotonin/) - Produkt tryptofanu
-- [Biosynteza psilocybinu](/biosynthesis/psilocybin/) - Enzymaticka draha
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cil tryptaminu
+- [Serotonin](@/glossary/serotonin.md) - Produkt tryptofanu
+- [Biosynteza psilocybinu](@/biosynthesis/psilocybin.md) - Enzymaticka draha
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cil tryptaminu
 
-<- Zpet na [Hlavni stranku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)

@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # GABA - Kyselina gama-aminomáselná
 
-**GABA** (γ-aminobutyric acid, kyselina gama-aminomáselná) je **hlavní inhibiční neurotransmiter** v centrálním nervovém systému savců. Hraje klíčovou roli v regulaci neuronální excitability a je cílem mnoha psychoaktivních látek včetně [muscimolu](/alkaloids/muscimol/).
+**GABA** (γ-aminobutyric acid, kyselina gama-aminomáselná) je **hlavní inhibiční neurotransmiter** v centrálním nervovém systému savců. Hraje klíčovou roli v regulaci neuronální excitability a je cílem mnoha psychoaktivních látek včetně [muscimolu](@/alkaloids/muscimol.md).
 
 ---
 
@@ -63,7 +63,7 @@ Sukcinát semialdehyd → Citrátový cyklus
 
 | Místo | Ligandy | Účinek |
 |-------|---------|--------|
-| **GABA místo** | GABA, [Muscimol](/alkaloids/muscimol/) | Agonismus |
+| **GABA místo** | GABA, [Muscimol](@/alkaloids/muscimol.md) | Agonismus |
 | Benzodiazepinové | Diazepam, Alprazolam | Pozitivní modulace |
 | Barbiturátové | Fenobarbital | Pozitivní modulace |
 | Neurosteroidové | Alopregnanolone | Pozitivní modulace |
@@ -149,7 +149,7 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 | Látka | Receptor | Zdroj |
 |-------|----------|-------|
 | **GABA** | GABA-A, GABA-B | Endogenní |
-| [**Muscimol**](/alkaloids/muscimol/) | GABA-A | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| [**Muscimol**](@/alkaloids/muscimol.md) | GABA-A | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | **Baclofen** | GABA-B | Syntetický |
 | **GHB** | GABA-B, GHB receptor | Syntetický/endogenní |
 
@@ -189,12 +189,12 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 
 ## Spojení s psychoaktivními látkami
 
-### [Muscimol](/alkaloids/muscimol/) (Amanita muscaria)
+### [Muscimol](@/alkaloids/muscimol.md) (Amanita muscaria)
 
 - **Typ**: Přímý GABA-A agonista
 - **Účinek**: Silná sedace, disociace, halucinace
 - **Vazba**: Vyšší afinita než GABA
-- **Zdroj**: [Amanita muscaria](/shrooms/amanita-muscaria/)
+- **Zdroj**: [Amanita muscaria](@/shrooms/amanita-muscaria.md)
 
 ### Alkohol (Ethanol)
 
@@ -219,9 +219,9 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 ---
 
 Viz také:
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - Prekurzor muscimolu
-- [Receptor](/glossary/receptor/) - Obecný pojem
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Prekurzor muscimolu
+- [Receptor](@/glossary/receptor.md) - Obecný pojem
 
-← Zpět na [Glosář](/glossary/)
+← Zpět na [Glosář](@/glossary/_index.md)

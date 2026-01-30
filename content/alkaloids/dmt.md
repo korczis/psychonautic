@@ -31,8 +31,8 @@ weight = 5
 |------------|-----------|----------|---------------------|
 | **DMT** | N,N-DMT | Primo aktivni | 1.0x |
 | **5-MeO-DMT** | 5-methoxy-DMT | Silnejsi | 4-6x |
-| [Psilocin](/alkaloids/psilocin/) | 4-HO-DMT | Primo aktivni | 0.8x |
-| [Psilocybin](/alkaloids/psilocybin/) | 4-PO-DMT | Prodrug | 0.7x |
+| [Psilocin](@/alkaloids/psilocin.md) | 4-HO-DMT | Primo aktivni | 0.8x |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 4-PO-DMT | Prodrug | 0.7x |
 | **Bufotenin** | 5-HO-DMT | Slabsi | 0.3x |
 | **DET** | N,N-Diethyltryptamin | Aktivni | 0.5x |
 | **DPT** | N,N-Dipropyltryptamin | Aktivni | 0.6x |
@@ -140,7 +140,7 @@ N,N-Dimethyltryptamin (DMT)
 
 #### 1. Sigma-1 receptorovy agonista
 
-DMT je potvrdenym agonistou [Sigma-1 receptoru](/receptors/sigma-1/):
+DMT je potvrdenym agonistou [Sigma-1 receptoru](@/receptors/sigma-1.md):
 
 | Funkce Sigma-1 | Dulezitost pro DMT |
 |----------------|-------------------|
@@ -195,9 +195,9 @@ Rick Strassman teoretizoval, ze DMT muze byt uvolnovano:
 
 | Receptor | Ki (nM) | Ucinek | Relevance |
 |----------|---------|--------|-----------|
-| [**5-HT2A**](/receptors/5-ht2a/) | 75-130 | Plny agonista | Hlavni psychoaktivni |
-| [**5-HT2C**](/receptors/5-ht2c/) | 360 | Parcialni agonista | Modulace |
-| [**Sigma-1**](/receptors/sigma-1/) | 14,750 | Agonista | Neuroprotekce |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | 75-130 | Plny agonista | Hlavni psychoaktivni |
+| [**5-HT2C**](@/receptors/5-ht2c.md) | 360 | Parcialni agonista | Modulace |
+| [**Sigma-1**](@/receptors/sigma-1.md) | 14,750 | Agonista | Neuroprotekce |
 | **TAAR1** | ~5,000 | Agonista | Modulace DA/5-HT |
 
 #### Sekundarni cile
@@ -946,26 +946,97 @@ Imperial College vyviji "DMTx" protokol:
 
 ---
 
-## Krizove odkazy
+## Detailni mechanismy ucinku
 
-### Souvisejici alkaloidy
-- [Psilocybin](/alkaloids/psilocybin/) - 4-fosforolovany analog
-- [Psilocin](/alkaloids/psilocin/) - 4-hydroxylovany analog
-- [Baeocystin](/alkaloids/baeocystin/) - demetylovany psilocybin
-- [Bufotenin](/alkaloids/bufotenin/) - 5-hydroxy-DMT
+Pro hlubsi studium viz [Mechanismy ucinku](@/mechanisms/_index.md):
 
-### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - primarni psychedelicky cil
-- [5-HT2C](/receptors/5-ht2c/) - modulacni receptor
-- [Sigma-1](/receptors/sigma-1/) - neuroprotektivni funkce
-- [TAAR1](/receptors/taar1/) - trace amine receptor
+### Dualni receptorovy mechanismus DMT
 
-### Souvisejici temata
-- [Ayahuasca](/preparations/ayahuasca/) - tradicni pripravek
-- [MAOI](/pharmacology/maoi/) - inhibitory monoaminoxidazy
-- [Neuroplasticita](/neuroscience/neuroplasticity/) - strukturalni zmeny
-- [Mysticke zazitky](/phenomenology/mystical-experiences/) - fenomenologie
+DMT je unikatni svou aktivitou na dvou odlisnych receptorovych systemech:
+
+```
+DMT DUALNI MECHANISMUS
+======================
+
+DRAHA 1: 5-HT2A (PSYCHEDELICKA)         DRAHA 2: SIGMA-1 (NEUROPROTEKTIVNI)
+Ki = 75-130 nM                           Ki = 14,750 nM
+|                                        |
+v                                        v
+Gq/11 -> PLCbeta                         Chaperon aktivace na ER
+|                                        |
+v                                        v
+IP3/DAG -> Ca2+ -> PKC                   IP3R modulace, BiP disociace
+|                                        |
+v                                        v
+ERK1/2 -> CREB -> BDNF                  Ca2+ homeostaze, stresova odpoved
+|                                        |
+v                                        v
+HALUCINACE, NEUROPLASTICITA             NEUROPROTEKCE, IMUNOMODULACE
+```
+
+| Parametr | 5-HT2A draha | Sigma-1 draha |
+|----------|-------------|---------------|
+| **Afinita** | Vysoka (75-130 nM) | Nizka (14,750 nM) |
+| **Casovy onset** | Sekundy | Minuty-hodiny |
+| **Hlavni efekt** | Psychedelicky zazitek | Bunecna protekce |
+| **Terapeuticky potencial** | Deprese, PTSD | Ischemia, neurodegenerace |
+| **Endogenni relevance** | Stresova odpoved | Tonicka neuroprotekce |
+
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) | [Signalni transdukce](@/mechanisms/signal-transduction.md)
+
+### MAO-zavislá farmakokinetika
+
+DMT ma **unikatni PK profil** definovany MAO-A metabolismem:
+
+```
+BEZ MAOI (inhalacne/IV):     S MAOI (ayahuasca):
+Tmax = 2-5 min               Tmax = 90-120 min
+T1/2 = ~5 min                T1/2 = ~2 h
+Trvani = 15-30 min           Trvani = 4-6 h
+
+MAO-A Km = 13.7 uM
+MAO-A Vmax = 2.3 nmol/min/mg
+
+DMT bez MAOI:                DMT + harmin (MAOI):
+    ^                             ^
+    |/\                           |    ___
+    |  \                          |   /   \
+    |   \                         |  /     \
+    |    \_                       | /       \___
+    +-------->                    +------------>
+    0  15  30 min                 0   2   4   6 h
+```
+
+Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [Psilocybin](/alkaloids/psilocybin/) | [Muscimol](/alkaloids/muscimol/)
+## Krizove odkazy
+
+### Souvisejici alkaloidy
+- [Psilocybin](@/alkaloids/psilocybin.md) - 4-fosforolovany analog
+- [Psilocin](@/alkaloids/psilocin.md) - 4-hydroxylovany analog
+- [Baeocystin](@/alkaloids/baeocystin.md) - demetylovany psilocybin
+- [Bufotenin](@/alkaloids/bufotenin.md) - 5-hydroxy-DMT
+
+### Receptory
+- [5-HT2A](@/receptors/5-ht2a.md) - primarni psychedelicky cil
+- [5-HT2C](@/receptors/5-ht2c.md) - modulacni receptor
+- [Sigma-1](@/receptors/sigma-1.md) - neuroprotektivni funkce
+- [TAAR1](@/receptors/taar1.md) - trace amine receptor
+
+### Mechanismy
+- [Mechanismy ucinku](@/mechanisms/_index.md) - prehled mechanismu
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - 5-HT2A a Sigma-1 drahy
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - MAO-zavisla farmakokinetika
+
+### Souvisejici temata
+- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni pripravek
+- [MAOI](@/pharmacology/maoi.md) - inhibitory monoaminoxidazy
+- [Neuroplasticita](@/neuroscience/neuroplasticity.md) - strukturalni zmeny
+- [Mysticke zazitky](@/phenomenology/mystical-experiences.md) - fenomenologie
+
+---
+
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) | [Muscimol](@/alkaloids/muscimol.md)

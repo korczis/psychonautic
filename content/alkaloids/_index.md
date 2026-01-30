@@ -305,13 +305,13 @@ LSD (diethylamid)
 
 | Alkaloid | 5-HT2A | 5-HT2C | 5-HT1A | D2 | GABA-A | Sigma-1 |
 |----------|--------|--------|--------|-----|--------|---------|
-| [LSD](/alkaloids/lsd/) | **1-2** | 5-10 | 2-10 | 10-50 | - | - |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | 30-100 | 50-200 | >1000 | - | - |
-| [DMT](/alkaloids/dmt/) | 75-130 | 360 | >1000 | - | - | 14750 |
-| [Psilocybin](/alkaloids/psilocybin/) | N/A* | N/A* | N/A* | - | - | - |
-| [Baeocystin](/alkaloids/baeocystin/) | ~50-100** | - | - | - | - | - |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ | 2000+ | - | - | - | - |
-| [Muscimol](/alkaloids/muscimol/) | - | - | - | - | **5-10** | - |
+| [LSD](@/alkaloids/lsd.md) | **1-2** | 5-10 | 2-10 | 10-50 | - | - |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | 30-100 | 50-200 | >1000 | - | - |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | 360 | >1000 | - | - | 14750 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | N/A* | N/A* | N/A* | - | - | - |
+| [Baeocystin](@/alkaloids/baeocystin.md) | ~50-100** | - | - | - | - | - |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ | 2000+ | - | - | - | - |
+| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | - | **5-10** | - |
 
 *Psilocybin je prodrug, defosforyluje se na psilocin
 **Odhadnuto, limitovana data
@@ -331,14 +331,14 @@ Ki (nM)    Afinita         Klinicka relevance
 
 | Alkaloid | Prah (mg) | Stredni (mg) | Silna (mg) | Jednotka |
 |----------|-----------|--------------|------------|----------|
-| [LSD](/alkaloids/lsd/) | 0.025 | 0.100 | 0.200 | mg (mikrogramy) |
-| [Psilocybin](/alkaloids/psilocybin/) | 5 | 20 | 35 | mg |
-| [Psilocin](/alkaloids/psilocin/) | 4 | 15 | 25 | mg |
-| [DMT](/alkaloids/dmt/) (inh.) | 10 | 30 | 50 | mg |
-| [DMT](/alkaloids/dmt/) (oral+MAOI) | 30 | 75 | 150 | mg |
-| [Baeocystin](/alkaloids/baeocystin/) | 10 | 30 | 50 | mg (odhad) |
-| [Meskalin](/alkaloids/mescaline/) | 100 | 300 | 500 | mg |
-| [Muscimol](/alkaloids/muscimol/) | 3 | 10 | 20 | mg |
+| [LSD](@/alkaloids/lsd.md) | 0.025 | 0.100 | 0.200 | mg (mikrogramy) |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 5 | 20 | 35 | mg |
+| [Psilocin](@/alkaloids/psilocin.md) | 4 | 15 | 25 | mg |
+| [DMT](@/alkaloids/dmt.md) (inh.) | 10 | 30 | 50 | mg |
+| [DMT](@/alkaloids/dmt.md) (oral+MAOI) | 30 | 75 | 150 | mg |
+| [Baeocystin](@/alkaloids/baeocystin.md) | 10 | 30 | 50 | mg (odhad) |
+| [Meskalin](@/alkaloids/mescaline.md) | 100 | 300 | 500 | mg |
+| [Muscimol](@/alkaloids/muscimol.md) | 3 | 10 | 20 | mg |
 
 ### Relativni potence (LSD = 1)
 
@@ -362,39 +362,39 @@ Muscimol    |====                                        | 0.010*
 
 | Alkaloid | Vzorec | Mw (g/mol) | Trida | Zdroj |
 |----------|--------|------------|-------|-------|
-| [Psilocybin](/alkaloids/psilocybin/) | C12H17N2O4P | 284.25 | Tryptamin | [Psilocybe](/shrooms/psilocybes/) |
-| [Psilocin](/alkaloids/psilocin/) | C12H16N2O | 204.27 | Tryptamin | [Psilocybe](/shrooms/psilocybes/) |
-| [Baeocystin](/alkaloids/baeocystin/) | C11H15N2O4P | 270.22 | Tryptamin | [Psilocybe](/shrooms/psilocybes/) |
-| [DMT](/alkaloids/dmt/) | C12H16N2 | 188.27 | Tryptamin | Psychotria, Mimosa |
-| [LSD](/alkaloids/lsd/) | C20H25N3O | 323.43 | Ergolin | Semisynteticke |
-| [Meskalin](/alkaloids/mescaline/) | C11H17NO3 | 211.26 | Fenethylamin | Peyote, San Pedro |
-| [Muscimol](/alkaloids/muscimol/) | C4H6N2O2 | 114.10 | Isoxazol | [Amanita muscaria](/shrooms/amanita-muscaria/) |
-| Kyselina ibotenova | C5H6N2O4 | 158.11 | Isoxazol | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| [Psilocybin](@/alkaloids/psilocybin.md) | C12H17N2O4P | 284.25 | Tryptamin | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [Psilocin](@/alkaloids/psilocin.md) | C12H16N2O | 204.27 | Tryptamin | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [Baeocystin](@/alkaloids/baeocystin.md) | C11H15N2O4P | 270.22 | Tryptamin | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [DMT](@/alkaloids/dmt.md) | C12H16N2 | 188.27 | Tryptamin | Psychotria, Mimosa |
+| [LSD](@/alkaloids/lsd.md) | C20H25N3O | 323.43 | Ergolin | Semisynteticke |
+| [Meskalin](@/alkaloids/mescaline.md) | C11H17NO3 | 211.26 | Fenethylamin | Peyote, San Pedro |
+| [Muscimol](@/alkaloids/muscimol.md) | C4H6N2O2 | 114.10 | Isoxazol | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
+| Kyselina ibotenova | C5H6N2O4 | 158.11 | Isoxazol | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 
 ### Farmakokineticke parametry
 
 | Alkaloid | Biodost. (%) | Tmax (h) | T1/2 (h) | Trvani (h) | Metabolismus |
 |----------|-------------|----------|----------|------------|--------------|
-| [Psilocybin](/alkaloids/psilocybin/) | ~50 | 1-1.5 | 2-3 | 4-6 | Defosforylace |
-| [Psilocin](/alkaloids/psilocin/) | ~50 | 0.5-1 | 2-3 | 4-6 | Glukuronidace |
-| [Baeocystin](/alkaloids/baeocystin/) | ? | ? | ? | 4-6 | Defosforylace? |
-| [DMT](/alkaloids/dmt/) (inh.) | ~100 | 0.03 | 0.25 | 0.25-0.5 | MAO-A |
-| [DMT](/alkaloids/dmt/) (oral+MAOI) | ~50 | 1-2 | 1-2 | 4-6 | Inhibovany |
-| [LSD](/alkaloids/lsd/) | ~70 | 1.5-2.5 | 3-5 | 8-12 | CYP3A4 |
-| [Meskalin](/alkaloids/mescaline/) | ~100 | 2-3 | 6 | 8-12 | Hepatalni |
-| [Muscimol](/alkaloids/muscimol/) | ~50 | 1-2 | 2-3 | 5-8 | Minimalni |
+| [Psilocybin](@/alkaloids/psilocybin.md) | ~50 | 1-1.5 | 2-3 | 4-6 | Defosforylace |
+| [Psilocin](@/alkaloids/psilocin.md) | ~50 | 0.5-1 | 2-3 | 4-6 | Glukuronidace |
+| [Baeocystin](@/alkaloids/baeocystin.md) | ? | ? | ? | 4-6 | Defosforylace? |
+| [DMT](@/alkaloids/dmt.md) (inh.) | ~100 | 0.03 | 0.25 | 0.25-0.5 | MAO-A |
+| [DMT](@/alkaloids/dmt.md) (oral+MAOI) | ~50 | 1-2 | 1-2 | 4-6 | Inhibovany |
+| [LSD](@/alkaloids/lsd.md) | ~70 | 1.5-2.5 | 3-5 | 8-12 | CYP3A4 |
+| [Meskalin](@/alkaloids/mescaline.md) | ~100 | 2-3 | 6 | 8-12 | Hepatalni |
+| [Muscimol](@/alkaloids/muscimol.md) | ~50 | 1-2 | 2-3 | 5-8 | Minimalni |
 
 ### Bezpecnostni profily
 
 | Alkaloid | Fyziol. toxicita | Psych. riziko | Zavislost | LD50 (mg/kg)* |
 |----------|-----------------|---------------|-----------|---------------|
-| [Psilocybin](/alkaloids/psilocybin/) | Velmi nizka | Stredni | Zadny | 280 (i.v., mys) |
-| [Psilocin](/alkaloids/psilocin/) | Velmi nizka | Stredni | Zadny | ~280 |
-| [Baeocystin](/alkaloids/baeocystin/) | Velmi nizka | Nizka | Zadny | ? |
-| [DMT](/alkaloids/dmt/) | Velmi nizka | Stredni | Velmi nizky | >50 |
-| [LSD](/alkaloids/lsd/) | Velmi nizka | Stredni | Zadny | 0.3 (i.v., kralik) |
-| [Meskalin](/alkaloids/mescaline/) | Nizka | Stredni | Zadny | 212 (i.p., mys) |
-| [Muscimol](/alkaloids/muscimol/) | **Stredni** | Stredni | Velmi nizky | 3.8 (i.p., mys) |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Velmi nizka | Stredni | Zadny | 280 (i.v., mys) |
+| [Psilocin](@/alkaloids/psilocin.md) | Velmi nizka | Stredni | Zadny | ~280 |
+| [Baeocystin](@/alkaloids/baeocystin.md) | Velmi nizka | Nizka | Zadny | ? |
+| [DMT](@/alkaloids/dmt.md) | Velmi nizka | Stredni | Velmi nizky | >50 |
+| [LSD](@/alkaloids/lsd.md) | Velmi nizka | Stredni | Zadny | 0.3 (i.v., kralik) |
+| [Meskalin](@/alkaloids/mescaline.md) | Nizka | Stredni | Zadny | 212 (i.p., mys) |
+| [Muscimol](@/alkaloids/muscimol.md) | **Stredni** | Stredni | Velmi nizky | 3.8 (i.p., mys) |
 
 *LD50 hodnoty jsou z zvirecich studii a nelze je primo extrapolovat na lidi
 
@@ -534,13 +534,13 @@ LSD
 
 | Alkaloid | Umluva | Schedule | Rok zarazeni |
 |----------|--------|----------|--------------|
-| [LSD](/alkaloids/lsd/) | Psychotropni latky 1971 | I | 1971 |
-| [Psilocybin](/alkaloids/psilocybin/) | Psychotropni latky 1971 | I | 1971 |
-| [Psilocin](/alkaloids/psilocin/) | Psychotropni latky 1971 | I | 1971 |
-| [DMT](/alkaloids/dmt/) | Psychotropni latky 1971 | I | 1971 |
-| [Meskalin](/alkaloids/mescaline/) | Psychotropni latky 1971 | I | 1971 |
-| [Muscimol](/alkaloids/muscimol/) | Neplanovano | - | - |
-| [Baeocystin](/alkaloids/baeocystin/) | Neplanovano* | - | - |
+| [LSD](@/alkaloids/lsd.md) | Psychotropni latky 1971 | I | 1971 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Psychotropni latky 1971 | I | 1971 |
+| [Psilocin](@/alkaloids/psilocin.md) | Psychotropni latky 1971 | I | 1971 |
+| [DMT](@/alkaloids/dmt.md) | Psychotropni latky 1971 | I | 1971 |
+| [Meskalin](@/alkaloids/mescaline.md) | Psychotropni latky 1971 | I | 1971 |
+| [Muscimol](@/alkaloids/muscimol.md) | Neplanovano | - | - |
+| [Baeocystin](@/alkaloids/baeocystin.md) | Neplanovano* | - | - |
 
 *Muze byt kontrolovano jako analog psilocybinu v nekterych jurisdikcich
 
@@ -548,13 +548,13 @@ LSD
 
 | Alkaloid | Status | Pravni predpis |
 |----------|--------|----------------|
-| [LSD](/alkaloids/lsd/) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [Psilocybin](/alkaloids/psilocybin/) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [Psilocin](/alkaloids/psilocin/) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [DMT](/alkaloids/dmt/) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [Meskalin](/alkaloids/mescaline/) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [Muscimol](/alkaloids/muscimol/) | Nekontrolovano | - |
-| [Baeocystin](/alkaloids/baeocystin/) | Sede zona* | - |
+| [LSD](@/alkaloids/lsd.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
+| [Psilocybin](@/alkaloids/psilocybin.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
+| [Psilocin](@/alkaloids/psilocin.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
+| [DMT](@/alkaloids/dmt.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
+| [Meskalin](@/alkaloids/mescaline.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
+| [Muscimol](@/alkaloids/muscimol.md) | Nekontrolovano | - |
+| [Baeocystin](@/alkaloids/baeocystin.md) | Sede zona* | - |
 
 *Pravne nejasne, muze spadat pod analogovy zakon
 
@@ -599,10 +599,10 @@ Odvozeny od aminokyseliny tryptofanu, pusobi primarne na serotoninove receptory 
 
 | Alkaloid | Popis | Receptor | Potence | Zdroj |
 |----------|-------|----------|---------|-------|
-| [Psilocybin](/alkaloids/psilocybin/) | Fosforylovany prodrug | 5-HT2A | Stredni | [Psilocybe](/shrooms/psilocybes/) |
-| [Psilocin](/alkaloids/psilocin/) | Aktivni metabolit psilocybinu | 5-HT2A | Stredni | [Psilocybe](/shrooms/psilocybes/) |
-| [Baeocystin](/alkaloids/baeocystin/) | Minor alkaloid, demetyl-psilocybin | 5-HT2A | Nizka | [Psilocybe](/shrooms/psilocybes/) |
-| [DMT](/alkaloids/dmt/) | "Spirit Molecule", endogenni | 5-HT2A | Vysoka | Ayahuasca, Psychotria |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Fosforylovany prodrug | 5-HT2A | Stredni | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [Psilocin](@/alkaloids/psilocin.md) | Aktivni metabolit psilocybinu | 5-HT2A | Stredni | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [Baeocystin](@/alkaloids/baeocystin.md) | Minor alkaloid, demetyl-psilocybin | 5-HT2A | Nizka | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [DMT](@/alkaloids/dmt.md) | "Spirit Molecule", endogenni | 5-HT2A | Vysoka | Ayahuasca, Psychotria |
 
 ### Ergoliny (Namelove alkaloidy)
 
@@ -610,7 +610,7 @@ Komplexni tetracyklicka struktura odvozena od kyseliny lysergove. Nejpotentnejsi
 
 | Alkaloid | Popis | Receptor | Potence |
 |----------|-------|----------|---------|
-| [LSD](/alkaloids/lsd/) | Hofmannovo "problemove dite" | 5-HT2A, D2 | **Nejvyssi** |
+| [LSD](@/alkaloids/lsd.md) | Hofmannovo "problemove dite" | 5-HT2A, D2 | **Nejvyssi** |
 
 ### Fenethylaminy
 
@@ -618,7 +618,7 @@ Odvozeny od fenethylaminu, strukturne podobne dopaminu a noradrenalinu.
 
 | Alkaloid | Popis | Receptor | Potence | Zdroj |
 |----------|-------|----------|---------|-------|
-| [Meskalin](/alkaloids/mescaline/) | Klasicke psychedelikum | 5-HT2A | Nizka | Peyote, San Pedro |
+| [Meskalin](@/alkaloids/mescaline.md) | Klasicke psychedelikum | 5-HT2A | Nizka | Peyote, San Pedro |
 
 ### GABAergni alkaloidy (Isoxazoly)
 
@@ -626,7 +626,7 @@ Pusobi na GABA receptory (inhibicni neurotransmise). Odlisny mechanismus od klas
 
 | Alkaloid | Popis | Receptor | Zdroj |
 |----------|-------|----------|-------|
-| [Muscimol](/alkaloids/muscimol/) | Disociativni, sedativni | GABA-A | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| [Muscimol](@/alkaloids/muscimol.md) | Disociativni, sedativni | GABA-A | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 
 ---
 
@@ -636,17 +636,17 @@ Pusobi na GABA receptory (inhibicni neurotransmise). Odlisny mechanismus od klas
 
 Zpusobuji vizualni halucinace, zmeny vnimani, mysticke zazitky.
 
-- [Psilocybin](/alkaloids/psilocybin/) + [Psilocin](/alkaloids/psilocin/) - Houby
-- [DMT](/alkaloids/dmt/) - "Spirit Molecule"
-- [LSD](/alkaloids/lsd/) - Nejpotentnejsi
-- [Meskalin](/alkaloids/mescaline/) - Kaktusy
-- [Baeocystin](/alkaloids/baeocystin/) - Minor houbovy alkaloid
+- [Psilocybin](@/alkaloids/psilocybin.md) + [Psilocin](@/alkaloids/psilocin.md) - Houby
+- [DMT](@/alkaloids/dmt.md) - "Spirit Molecule"
+- [LSD](@/alkaloids/lsd.md) - Nejpotentnejsi
+- [Meskalin](@/alkaloids/mescaline.md) - Kaktusy
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor houbovy alkaloid
 
 ### GABAergni - Disociativa/Deliriantia
 
 Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych psychedelik.**
 
-- [Muscimol](/alkaloids/muscimol/) - [Amanita muscaria](/shrooms/amanita-muscaria/)
+- [Muscimol](@/alkaloids/muscimol.md) - [Amanita muscaria](@/shrooms/amanita-muscaria.md)
 
 ---
 
@@ -654,12 +654,12 @@ Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych p
 
 | Alkaloid | Ki (nM) | Aktivni davka | Trvani |
 |----------|---------|---------------|--------|
-| [LSD](/alkaloids/lsd/) | **1-2** | 50-200 **ug** | 8-12 h |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | 10-25 **mg** | 4-6 h |
-| [DMT](/alkaloids/dmt/) | 75-130 | 15-60 **mg** | 15 min (inh.) |
-| [Psilocybin](/alkaloids/psilocybin/) | N/A (prodrug) | 15-30 **mg** | 4-6 h |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ | 200-400 **mg** | 8-12 h |
-| [Muscimol](/alkaloids/muscimol/) | N/A (GABA-A) | 5-15 **mg** | 6-8 h |
+| [LSD](@/alkaloids/lsd.md) | **1-2** | 50-200 **ug** | 8-12 h |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | 10-25 **mg** | 4-6 h |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | 15-60 **mg** | 15 min (inh.) |
+| [Psilocybin](@/alkaloids/psilocybin.md) | N/A (prodrug) | 15-30 **mg** | 4-6 h |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ | 200-400 **mg** | 8-12 h |
+| [Muscimol](@/alkaloids/muscimol.md) | N/A (GABA-A) | 5-15 **mg** | 6-8 h |
 
 **Poznamka**: Ki = inhibicni konstanta. Nizsi hodnota = vyssi afinita k receptoru.
 
@@ -669,13 +669,13 @@ Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych p
 
 | Alkaloid | Fyziologicka toxicita | Psychologicke riziko | Zavislostni potencial |
 |----------|----------------------|---------------------|----------------------|
-| [Psilocybin](/alkaloids/psilocybin/) | Extremne nizka | Stredni (bad trip) | Zadny |
-| [LSD](/alkaloids/lsd/) | Extremne nizka | Stredni (bad trip, HPPD) | Zadny |
-| [DMT](/alkaloids/dmt/) | Velmi nizka | Nizka | Zadny |
-| [Meskalin](/alkaloids/mescaline/) | Nizka | Stredni | Zadny |
-| [Muscimol](/alkaloids/muscimol/) | **Stredni** | Stredni | Velmi nizky |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Extremne nizka | Stredni (bad trip) | Zadny |
+| [LSD](@/alkaloids/lsd.md) | Extremne nizka | Stredni (bad trip, HPPD) | Zadny |
+| [DMT](@/alkaloids/dmt.md) | Velmi nizka | Nizka | Zadny |
+| [Meskalin](@/alkaloids/mescaline.md) | Nizka | Stredni | Zadny |
+| [Muscimol](@/alkaloids/muscimol.md) | **Stredni** | Stredni | Velmi nizky |
 
-**Poznamka**: [Muscimol](/alkaloids/muscimol/) ma vyssi fyziologicke riziko kvuli variabilnimu obsahu v houbach a potencialnimu znecisteni [kyselinou ibotenovou](/neurotoxins/ibotenic-acid/).
+**Poznamka**: [Muscimol](@/alkaloids/muscimol.md) ma vyssi fyziologicke riziko kvuli variabilnimu obsahu v houbach a potencialnimu znecisteni [kyselinou ibotenovou](@/neurotoxins/ibotenic-acid.md).
 
 ---
 
@@ -727,11 +727,16 @@ Zadna krizova tolerance: Muscimol (jiny mechanismus)
 
 ## Souvisejici sekce
 
-- [Houby](/shrooms/) - Prirodni zdroje alkaloidu
-- [Psilocybes](/shrooms/psilocybes/) - Houby obsahujici psilocybin
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
-- [Neurotoxiny](/neurotoxins/) - Toxicke latky (kyselina ibotenova)
-- [Glosar](/glossary/) - Definice pojmu
+- [Houby](@/shrooms/_index.md) - Prirodni zdroje alkaloidu
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Houby obsahujici psilocybin
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
+- [Neurotoxiny](@/neurotoxins/_index.md) - Toxicke latky (kyselina ibotenova)
+- [Glosar](@/glossary/_index.md) - Definice pojmu
+- [Mechanismy ucinku](@/mechanisms/_index.md) - Molekularni mechanismy vsech alkaloidu
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - Ki hodnoty, vazebna kinetika, SAR
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - Gq, beta-arrestin, mTOR drahy
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - Modulace receptoru
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - ADME, doza-odpoved, farmakogenetika
 
 ---
 

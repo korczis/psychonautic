@@ -13,7 +13,7 @@ categories = ["neuroanatomie", "neuroveda", "psychedelika"]
 
 **Vizualni kortex** (zrakova kura) je oblast okcipitalniho laloku zodpovedna za **zpracovani zrakovych informaci**. Je organizovan hierarchicky od primarniho vizualniho kortexu (V1), ktery zpracovava zakladni rysy, az po vyssi oblasti analyzujici slozite vzory, objekty a tvare.
 
-Vizualni kortex je klicovym mistem pusobeni psychedelik, kde aktivace [5-HT2A receptoru](/receptors/5-ht2a/) vede ke vzniku charakteristickych **vizualnich halucinaci** - geometrickych vzoru, barevnych zmem a komplexnich vizualnich fenomenu.
+Vizualni kortex je klicovym mistem pusobeni psychedelik, kde aktivace [5-HT2A receptoru](@/receptors/5-ht2a.md) vede ke vzniku charakteristickych **vizualnich halucinaci** - geometrickych vzoru, barevnych zmem a komplexnich vizualnich fenomenu.
 
 ---
 
@@ -27,7 +27,7 @@ Vizualni kortex je klicovym mistem pusobeni psychedelik, kde aktivace [5-HT2A re
 | **Strana** | Bilateralni |
 | **Brodmannovy arey** | 17 (V1), 18 (V2), 19 (V3, V4, V5) |
 | **Podil kortexu** | ~20% neokortexu |
-| **Vstup** | LGN ([thalamus](/brain/thalamus/)) |
+| **Vstup** | LGN ([thalamus](@/brain/thalamus.md)) |
 
 ### Retinotopicka organizace
 
@@ -105,7 +105,7 @@ Retina → LGN → V1 → V2 → V4 → IT → PFC
 | **IV** | LGN (hlavni) | Vstupni vrstva |
 | **IVc-alpha** | Magnocelularni | Pohyb, kontrast |
 | **IVc-beta** | Parvocelularni | Barva, detail |
-| **V** | Vystup | [5-HT2A](/receptors/5-ht2a/) exprese |
+| **V** | Vystup | [5-HT2A](@/receptors/5-ht2a.md) exprese |
 | **VI** | Feedback | LGN, TRN |
 
 ### Funkcni architektura
@@ -149,7 +149,7 @@ BLOB/INTERBLOB:
 
 ### Mechanismus halucinaci
 
-Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) aktivuji [5-HT2A receptory](/receptors/5-ht2a/) ve vizualnim kortexu:
+Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) aktivuji [5-HT2A receptory](@/receptors/5-ht2a.md) ve vizualnim kortexu:
 
 | Efekt | Mechanismus | Fenomen |
 |-------|-------------|---------|
@@ -370,9 +370,9 @@ REBUS model: Relaxed Beliefs Under Psychedelics
 
 | Receptor | Exprese | Funkce |
 |----------|---------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Velmi vysoka | Psychedelicky ucinek |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Velmi vysoka | Psychedelicky ucinek |
 | **5-HT1A** | Stredni | Modulace |
-| [**GABA-A**](/receptors/gaba-a/) | Vysoka | Inhibice, gain control |
+| [**GABA-A**](@/receptors/gaba-a.md) | Vysoka | Inhibice, gain control |
 | **Glutamat (AMPA/NMDA)** | Vysoka | Excitace, plasticita |
 | **nAChR** | Stredni | Pozornost |
 
@@ -461,25 +461,25 @@ Vizualni halucinace u lidi se ztratou zraku:
 ## Viz take
 
 ### Mozkové oblasti
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Top-down kontrola
-- [Thalamus](/brain/thalamus/) - LGN relay
-- [Claustrum](/brain/claustrum/) - Vizualni integrace
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Top-down kontrola
+- [Thalamus](@/brain/thalamus.md) - LGN relay
+- [Claustrum](@/brain/claustrum.md) - Vizualni integrace
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Halucinogeni cil
-- [GABA-A receptor](/receptors/gaba-a/) - Vizualni inhibice
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Halucinogeni cil
+- [GABA-A receptor](@/receptors/gaba-a.md) - Vizualni inhibice
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Modulace percepce
-- [GABA](/glossary/gaba/) - Inhibice
-- [Glutamát](/glossary/glutamat/) - Vizualni transmise
+- [Serotonin](@/glossary/serotonin.md) - Modulace percepce
+- [GABA](@/glossary/gaba.md) - Inhibice
+- [Glutamát](@/glossary/glutamat.md) - Vizualni transmise
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Vizualni halucinace
-- [LSD](/alkaloids/lsd/) - Intenzivni vizualni efekty
-- [DMT](/alkaloids/dmt/) - Komplexni vizualni svety
-- [Meskalin](/alkaloids/mescaline/) - Barevne halucinace
+- [Psilocybin](@/alkaloids/psilocybin.md) - Vizualni halucinace
+- [LSD](@/alkaloids/lsd.md) - Intenzivni vizualni efekty
+- [DMT](@/alkaloids/dmt.md) - Komplexni vizualni svety
+- [Meskalin](@/alkaloids/mescaline.md) - Barevne halucinace
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Prefrontalni kortex](/brain/prefrontal-cortex/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Prefrontalni kortex](@/brain/prefrontal-cortex.md) ->

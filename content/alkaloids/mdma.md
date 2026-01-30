@@ -169,7 +169,7 @@ Empatie, euforie, otevreneost
 
 ### Srovnani s klasickymi psychedeliky
 
-| Parametr | MDMA | [LSD](/alkaloids/lsd/) | [Psilocybin](/alkaloids/psilocybin/) |
+| Parametr | MDMA | [LSD](@/alkaloids/lsd.md) | [Psilocybin](@/alkaloids/psilocybin.md) |
 |----------|------|-----|------------|
 | **Primarni mechanismus** | 5-HT uvolneni | 5-HT2A agonismus | 5-HT2A agonismus |
 | **Vizualni halucinace** | Mirne/zadne | Silne | Silne |
@@ -460,19 +460,19 @@ MDMA vykazuje **autoinhibici CYP2D6**, coz vede k nelineairni kinetice:
 ## Krizove odkazy
 
 ### Souvisejici temata
-- [Harm Reduction](/harm-reduction/) - zasady bezpecneho uzivani
-- [MAOI](/pharmacology/maoi/) - nebezpecne interakce
-- [Serotonin](/glossary/serotonin/) - klicovy neurotransmiter
+- [Harm Reduction](@/harm-reduction/_index.md) - zasady bezpecneho uzivani
+- [MAOI](@/pharmacology/maoi.md) - nebezpecne interakce
+- [Serotonin](@/glossary/serotonin.md) - klicovy neurotransmiter
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - sekundarni cil
-- [5-HT1A](/receptors/5-ht1a/) - modulacni receptor
+- [5-HT2A](@/receptors/5-ht2a.md) - sekundarni cil
+- [5-HT1A](@/receptors/5-ht1a.md) - modulacni receptor
 
 ### Srovnani
-- [LSD](/alkaloids/lsd/) - klasicke psychedelikum
-- [Psilocybin](/alkaloids/psilocybin/) - tryptaminove psychedelikum
-- [Meskalin](/alkaloids/mescaline/) - fenethylaminove psychedelikum
+- [LSD](@/alkaloids/lsd.md) - klasicke psychedelikum
+- [Psilocybin](@/alkaloids/psilocybin.md) - tryptaminove psychedelikum
+- [Meskalin](@/alkaloids/mescaline.md) - fenethylaminove psychedelikum
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [Harm Reduction](/harm-reduction/) | [Vyzkum](/research/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Harm Reduction](@/harm-reduction/_index.md) | [Vyzkum](@/research/_index.md)

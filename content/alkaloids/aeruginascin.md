@@ -6,7 +6,7 @@ weight = 12
 
 # Aeruginascin - Kvarternalni tryptamin
 
-**Aeruginascin** je unikatni **kvarternalni tryptaminovy alkaloid** objeveny v nekterych druzich rodu Psilocybe a Inocybe. Strukturne predstavuje **trimethylamoniovy analog** [psilocybinu](/alkaloids/psilocybin/) a pravdepodobne hraje roli v **entourage effectu** psychedelickych hub.
+**Aeruginascin** je unikatni **kvarternalni tryptaminovy alkaloid** objeveny v nekterych druzich rodu Psilocybe a Inocybe. Strukturne predstavuje **trimethylamoniovy analog** [psilocybinu](@/alkaloids/psilocybin.md) a pravdepodobne hraje roli v **entourage effectu** psychedelickych hub.
 
 ---
 
@@ -29,9 +29,9 @@ weight = 12
 | Sloucenina | N-substituenty | Naboj | Aktivita |
 |------------|----------------|-------|----------|
 | **Aeruginascin** | N+(CH3)3 | +1 | Neznama (modulacni?) |
-| [Psilocybin](/alkaloids/psilocybin/) | N(CH3)2 | 0 | Prodrug psilocinu |
-| [Baeocystin](/alkaloids/baeocystin/) | NHCH3 | 0 | Slabsi nez psilocybin |
-| [Norbaeocystin](/alkaloids/norbaeocystin/) | NH2 | 0 | Nejslabsi |
+| [Psilocybin](@/alkaloids/psilocybin.md) | N(CH3)2 | 0 | Prodrug psilocinu |
+| [Baeocystin](@/alkaloids/baeocystin.md) | NHCH3 | 0 | Slabsi nez psilocybin |
+| [Norbaeocystin](@/alkaloids/norbaeocystin.md) | NH2 | 0 | Nejslabsi |
 
 ### Strukturni diagram
 
@@ -314,8 +314,8 @@ AERUGINASCIN (hypoteticka draha)
 
 | Druh | Psilocybin | Psilocin | Baeocystin | Aeruginascin |
 |------|------------|----------|------------|--------------|
-| **[P. cubensis](/shrooms/psilocybes/cubensis/)** | 0.2-1.0% | 0.01-0.1% | 0.01-0.05% | Stopy |
-| **[P. semilanceata](/shrooms/psilocybes/semilanceata/)** | 0.8-1.2% | 0.01-0.02% | 0.01-0.1% | Stopy |
+| **[P. cubensis](@/shrooms/psilocybes/cubensis.md)** | 0.2-1.0% | 0.01-0.1% | 0.01-0.05% | Stopy |
+| **[P. semilanceata](@/shrooms/psilocybes/semilanceata.md)** | 0.8-1.2% | 0.01-0.02% | 0.01-0.1% | Stopy |
 | **P. cyanescens** | 0.5-1.0% | 0.3-0.5% | 0.01-0.05% | 0.01-0.05% |
 | **I. aeruginascens** | 0.5-1.2% | 0.01-0.1% | 0.1-0.2% | **0.15-0.4%** |
 
@@ -358,20 +358,20 @@ Primarni amin   Sekundarni    Terciarni       KVARTERNALNI
 ## Krizove odkazy
 
 ### Souvisejici alkaloidy
-- [Psilocybin](/alkaloids/psilocybin/) - hlavni psychoaktivni alkaloid
-- [Baeocystin](/alkaloids/baeocystin/) - demetyl-psilocybin
-- [Norbaeocystin](/alkaloids/norbaeocystin/) - didemetyl-psilocybin
-- [Psilocin](/alkaloids/psilocin/) - aktivni metabolit
+- [Psilocybin](@/alkaloids/psilocybin.md) - hlavni psychoaktivni alkaloid
+- [Baeocystin](@/alkaloids/baeocystin.md) - demetyl-psilocybin
+- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - didemetyl-psilocybin
+- [Psilocin](@/alkaloids/psilocin.md) - aktivni metabolit
 
 ### Houby
-- [Psilocybe](/shrooms/psilocybes/) - rod psychedelickych hub
-- [P. cubensis](/shrooms/psilocybes/cubensis/) - nejcasteji kultivovany druh
-- [P. cyanescens](/shrooms/psilocybes/cyanescens/) - vysoce potentni druh
+- [Psilocybe](@/shrooms/psilocybes/_index.md) - rod psychedelickych hub
+- [P. cubensis](@/shrooms/psilocybes/cubensis.md) - nejcasteji kultivovany druh
+- [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) - vysoce potentni druh
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - primarni psychedelicky receptor
-- [5-HT1A](/receptors/5-ht1a/) - anxiolyticky receptor
+- [5-HT2A](@/receptors/5-ht2a.md) - primarni psychedelicky receptor
+- [5-HT1A](@/receptors/5-ht1a.md) - anxiolyticky receptor
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [Psilocybin](/alkaloids/psilocybin/) | [Baeocystin](/alkaloids/baeocystin/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) | [Baeocystin](@/alkaloids/baeocystin.md)

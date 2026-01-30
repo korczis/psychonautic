@@ -14,4 +14,4 @@ Sekce venujici se subjektivnim zazitum psychedelik, jejich strukture, mereni a t
 
 ## Temata
 
-- [Mysticke zkusenosti](/phenomenology/mystical-experiences/) - Ego disoluce, oceanicka bezhranicnost, MEQ30
+- [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md) - Ego disoluce, oceanicka bezhranicnost, MEQ30

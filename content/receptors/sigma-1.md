@@ -262,7 +262,7 @@ S1R-BiP dynamika
 
 | Látka | Ki (nM) | Zdroj | Použití |
 |-------|---------|-------|---------|
-| [**DMT**](/alkaloids/dmt/) | 14-50 | Endogenní/rostliny | Psychedelikum |
+| [**DMT**](@/alkaloids/dmt.md) | 14-50 | Endogenní/rostliny | Psychedelikum |
 | **PRE-084** | 2-5 | Syntetický | Výzkum, neuroprotekce |
 | **(+)-Pentazocin** | 5-10 | Syntetický | Výzkum |
 | **Fluvoxamin** | 36 | SSRI | Antidepresivum |
@@ -502,10 +502,10 @@ S1R v bolesti
 ---
 
 Viz také:
-- [Sigma-2 receptor](/receptors/sigma-2/) - Sesterský receptor
-- [DMT](/alkaloids/dmt/) - Endogenní S1R agonista
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelický partner
-- [NMDA receptor](/receptors/nmda/) - S1R modulovaný
-- [Glosář](/glossary/) - Definice pojmů
+- [Sigma-2 receptor](@/receptors/sigma-2.md) - Sesterský receptor
+- [DMT](@/alkaloids/dmt.md) - Endogenní S1R agonista
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelický partner
+- [NMDA receptor](@/receptors/nmda.md) - S1R modulovaný
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [Sigma-2 receptor](/receptors/sigma-2/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [Sigma-2 receptor](@/receptors/sigma-2.md) ->

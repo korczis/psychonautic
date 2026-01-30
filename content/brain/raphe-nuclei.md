@@ -67,8 +67,8 @@ RAPHE NUCLEI - SAGITALNI POHLED
 
 | Jadro | Zkratka | Lokalizace | Hlavni projekce |
 |-------|---------|------------|-----------------|
-| **Dorsální raphe** | DR | Mesencefalon | Kortex, striatum, [amygdala](/brain/amygdala/) |
-| **Mediální raphe** | MR | Mesencefalon | [Hippocampus](/brain/hippocampus/), septum |
+| **Dorsální raphe** | DR | Mesencefalon | Kortex, striatum, [amygdala](@/brain/amygdala.md) |
+| **Mediální raphe** | MR | Mesencefalon | [Hippocampus](@/brain/hippocampus.md), septum |
 | **Raphe magnus** | NRM | Pons | Micha (bolest) |
 | **Raphe obscurus** | NRO | Medulla | Mozeček, micha |
 | **Raphe pallidus** | NRP | Medulla | Micha, autonomni |
@@ -136,7 +136,7 @@ DORSÁLNÍ RAPHE - PROJEKCE
 
 | Cíl | Funkce |
 |-----|--------|
-| **[Hippocampus](/brain/hippocampus/)** | Pamet, theta rytmus |
+| **[Hippocampus](@/brain/hippocampus.md)** | Pamet, theta rytmus |
 | **Mediální septum** | Cholinergní modulace |
 | **Interpeduncular nucleus** | Habénulární okruhy |
 | **Entorhinal cortex** | Prostorová navigace |
@@ -262,7 +262,7 @@ Týden 4-6:
 
 ### Efekty psychedelik na raphe
 
-Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) ovlivnuji raphe nuclei:
+Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) ovlivnuji raphe nuclei:
 
 | Efekt | Mechanismus | Dusledek |
 |-------|-------------|----------|
@@ -406,8 +406,8 @@ Mechanismus:
 
 | Zdroj | Neurotransmiter | Efekt |
 |-------|-----------------|-------|
-| **[Prefrontální kortex](/brain/prefrontal-cortex/)** | Glutamát | Excitace |
-| **[Locus coeruleus](/brain/locus-coeruleus/)** | Noradrenalin | Modulace |
+| **[Prefrontální kortex](@/brain/prefrontal-cortex.md)** | Glutamát | Excitace |
+| **[Locus coeruleus](@/brain/locus-coeruleus.md)** | Noradrenalin | Modulace |
 | **Hypothalamus (LH)** | Orexin | Arousal |
 | **Habénula** | Glutamát | Inhibice |
 | **PAG** | Různé | Bolest, obrana |
@@ -468,9 +468,9 @@ Mechanismus:
 
 | Latka | Efekt na DR |
 |-------|-------------|
-| **[LSD](/alkaloids/lsd/)** | Snizeny firing via 5-HT1A |
-| **[Psilocybin](/alkaloids/psilocybin/)** | Snizeny firing |
-| **[DMT](/alkaloids/dmt/)** | Kratka inhibice |
+| **[LSD](@/alkaloids/lsd.md)** | Snizeny firing via 5-HT1A |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | Snizeny firing |
+| **[DMT](@/alkaloids/dmt.md)** | Kratka inhibice |
 
 ---
 
@@ -499,24 +499,24 @@ Mechanismus:
 ## Viz take
 
 ### Mozkové oblasti
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - DR projekce
-- [Hippocampus](/brain/hippocampus/) - MR projekce
-- [Amygdala](/brain/amygdala/) - Emocni modulace
-- [Locus coeruleus](/brain/locus-coeruleus/) - Vzajemna regulace
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - DR projekce
+- [Hippocampus](@/brain/hippocampus.md) - MR projekce
+- [Amygdala](@/brain/amygdala.md) - Emocni modulace
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Vzajemna regulace
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelicky cil
-- [5-HT1A receptor](/receptors/5-ht1a/) - Autoreceptor
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Autoreceptor
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Hlavni produkt raphe
-- [GABA](/glossary/gaba/) - Interneurony
+- [Serotonin](@/glossary/serotonin.md) - Hlavni produkt raphe
+- [GABA](@/glossary/gaba.md) - Interneurony
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Snizuje DR firing
-- [LSD](/alkaloids/lsd/) - 5-HT1A aktivace
-- [DMT](/alkaloids/dmt/) - Endogenni serotoninovy analog
+- [Psilocybin](@/alkaloids/psilocybin.md) - Snizuje DR firing
+- [LSD](@/alkaloids/lsd.md) - 5-HT1A aktivace
+- [DMT](@/alkaloids/dmt.md) - Endogenni serotoninovy analog
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Locus coeruleus](/brain/locus-coeruleus/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Locus coeruleus](@/brain/locus-coeruleus.md) ->

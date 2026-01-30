@@ -12,7 +12,7 @@ tags = ["set", "setting", "mindset", "prostredi", "Timothy-Leary", "psychedelick
 
 **Set and Setting** je fundamentalni koncept v psychedelicke vede a terapii, ktery popisuje dva klicove faktory ovlivnujici charakter a vysledek psychedelicke zkusenosti: **set** (vnitrni nasteveni, mindset) a **setting** (vnejsi prostredi). Tento koncept, popularizovany Timothy Learym v 60. letech, se stal zakladnim kamenem modernich klinickych protokolu a harm reduction praktik.
 
-Pochopeni a optimalizace set and setting je nezbytne pro maximalizaci terapeutickeho potencialu [psychedelik](/alkaloids/) a minimalizaci rizika nezadoucich ucinku.
+Pochopeni a optimalizace set and setting je nezbytne pro maximalizaci terapeutickeho potencialu [psychedelik](@/alkaloids/_index.md) a minimalizaci rizika nezadoucich ucinku.
 
 ---
 
@@ -20,7 +20,7 @@ Pochopeni a optimalizace set and setting je nezbytne pro maximalizaci terapeutic
 
 ### Timothy Leary a Harvard Psilocybin Project
 
-Koncept set and setting formuloval **Timothy Leary** (1920-1996) behem Harvard Psilocybin Project (1960-1962), kde studoval ucinky [psilocybinu](/alkaloids/psilocybin/) na lidske vedomi.
+Koncept set and setting formuloval **Timothy Leary** (1920-1996) behem Harvard Psilocybin Project (1960-1962), kde studoval ucinky [psilocybinu](@/alkaloids/psilocybin.md) na lidske vedomi.
 
 | Datum | Udalost | Vyznam |
 |-------|---------|--------|
@@ -364,7 +364,7 @@ ZKUSENOST  ZKUSENOST   ZKUSENOST RIZIKOVA
 
 ### Johns Hopkins protocol
 
-Standardni protocol pro klinicke studie s [psilocybinem](/alkaloids/psilocybin/):
+Standardni protocol pro klinicke studie s [psilocybinem](@/alkaloids/psilocybin.md):
 
 | Fáze | Trvání | Aktivity |
 |------|--------|----------|
@@ -537,7 +537,7 @@ Protocol pro MDMA-asistovanou psychoterapii PTSD:
 
 Set and setting moduluji zakladni psychedelicky stav:
 
-- Aktivace [5-HT2A receptoru](/receptors/5-ht2a/)
+- Aktivace [5-HT2A receptoru](@/receptors/5-ht2a.md)
 - Dezintegrace Default Mode Network
 - Zvysena entropie mozku
 - Neuroplasticita
@@ -609,31 +609,31 @@ Optimalni set and setting zvysuji pravdepodobnost:
 
 ### Psychoaktivni latky
 
-- [Psilocybin](/alkaloids/psilocybin/) - Nejlepe prostudovane psychedelikum v klinickych studich
-- [LSD](/alkaloids/lsd/) - Dalsi klasicke psychedelikum
-- [DMT](/alkaloids/dmt/) - Kratce pusobici psychedelikum
-- [Meskalin](/alkaloids/mescaline/) - Tradicni kaktusove psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - GABAergni deliriant
+- [Psilocybin](@/alkaloids/psilocybin.md) - Nejlepe prostudovane psychedelikum v klinickych studich
+- [LSD](@/alkaloids/lsd.md) - Dalsi klasicke psychedelikum
+- [DMT](@/alkaloids/dmt.md) - Kratce pusobici psychedelikum
+- [Meskalin](@/alkaloids/mescaline.md) - Tradicni kaktusove psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - GABAergni deliriant
 
 ### Receptory a mechanismy
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil klasickych psychedelik
-- [Receptor](/glossary/receptor/) - Zaklad farmakologie
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil klasickych psychedelik
+- [Receptor](@/glossary/receptor.md) - Zaklad farmakologie
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
 
 ### Zdroje
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Prirodni zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Odlisny typ psychedelika
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Prirodni zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Odlisny typ psychedelika
 
 ### Mozek a vedomi
 
-- [Mozek](/brain/) - Neuralni substraty zkusenosti
-- [Okruhy](/circuits/) - Neuronalni site
+- [Mozek](@/brain/_index.md) - Neuralni substraty zkusenosti
+- [Okruhy](@/circuits/_index.md) - Neuronalni site
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)
 
 ---
 

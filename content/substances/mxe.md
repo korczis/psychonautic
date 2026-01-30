@@ -11,7 +11,7 @@ zdroje = ["Synteticke", "Designer droga"]
 
 # Methoxetamin - Designer disociativ
 
-**Methoxetamin** (MXE, 3-MeO-2-Oxo-PCE, "Mexxy") je synteticky **arylcyklohexylamin** vyvinuty jako "legalni" alternativa [ketaminu](/alkaloids/ketamin/). Kombinuje antagonismus [NMDA receptoru](/receptors/nmda/) s inhibici zpetneho vychytavani [serotoninu](/glossary/serotonin/), coz mu dava unikatni farmakologicky profil. Znamy pro prodlouzene trvani ucinku (3-5 hodin vs 1-2 h ketamin) a vyrazne "M-hole" zkusenosti.
+**Methoxetamin** (MXE, 3-MeO-2-Oxo-PCE, "Mexxy") je synteticky **arylcyklohexylamin** vyvinuty jako "legalni" alternativa [ketaminu](@/alkaloids/ketamin.md). Kombinuje antagonismus [NMDA receptoru](@/receptors/nmda.md) s inhibici zpetneho vychytavani [serotoninu](@/glossary/serotonin.md), coz mu dava unikatni farmakologicky profil. Znamy pro prodlouzene trvani ucinku (3-5 hodin vs 1-2 h ketamin) a vyrazne "M-hole" zkusenosti.
 
 **VAROVANI**: MXE je neregistrovana latka s omezenymi bezpecnostnimi daty. Toxikologicky profil neni plne znamy.
 
@@ -169,13 +169,13 @@ VLNA DESIGNER DISOCIATIV (2010-2015)
 
 | Receptor | Ki (nM) | Ucinek | Srovnani s ketaminem |
 |----------|---------|--------|---------------------|
-| **[NMDA](/receptors/nmda/) (PCP site)** | ~300-500 | Antagonista | Podobna nebo vyssi |
+| **[NMDA](@/receptors/nmda.md) (PCP site)** | ~300-500 | Antagonista | Podobna nebo vyssi |
 | **SERT** | ~500-1000 | Inhibitor | Vyrazne vyssi |
 | **NET** | ~5000 | Slaba inhibice | Podobna |
 | **DAT** | >10000 | Minimalni | Podobny |
 | **Opioidni (mu)** | ~10000 | Slaby agonista | Podobny |
 | **Opioidni (kappa)** | ~10000 | Slaby agonista | Podobny |
-| **[Sigma-1](/receptors/sigma-1/)** | ~2000 | Agonista | Podobna |
+| **[Sigma-1](@/receptors/sigma-1.md)** | ~2000 | Agonista | Podobna |
 | **D2** | >10000 | Minimalni | Podobny |
 
 ### Klicove farmakologicke rozdily od ketaminu
@@ -533,19 +533,19 @@ Ojedinele case reports:
 ## Krizove odkazy
 
 ### Souvisejici latky
-- [Ketamin](/alkaloids/ketamin/) - Strukturne pribuzny
-- [Esketamin](/substances/esketamine/) - Enantiomer ketaminu
-- [PCP](/substances/pcp/) - Arylcyklohexylamin
-- [DXM](/substances/dxm/) - Jiny NMDA antagonista
+- [Ketamin](@/alkaloids/ketamin.md) - Strukturne pribuzny
+- [Esketamin](@/substances/esketamine.md) - Enantiomer ketaminu
+- [PCP](@/substances/pcp.md) - Arylcyklohexylamin
+- [DXM](@/substances/dxm.md) - Jiny NMDA antagonista
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Primarni cil
-- [Sigma-1 receptor](/receptors/sigma-1/) - Sekundarni cil
-- [Serotonin](/glossary/serotonin/) - SERT inhibice
+- [NMDA receptor](@/receptors/nmda.md) - Primarni cil
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Sekundarni cil
+- [Serotonin](@/glossary/serotonin.md) - SERT inhibice
 
 ### Bezpecnost
-- [Serotonin syndrom](/conditions/serotonin-syndrome/) - Kriticke riziko
-- [Harm reduction](/harm-reduction/) - Bezpecnejsi uzivani
+- [Serotonin syndrom](@/conditions/serotonin-syndrome.md) - Kriticke riziko
+- [Harm reduction](@/harm-reduction/_index.md) - Bezpecnejsi uzivani
 
 ---
 
@@ -553,4 +553,4 @@ Ojedinele case reports:
 
 ---
 
-Zpet na [Substance](/substances/) | [Ketamin](/alkaloids/ketamin/) | [NMDA receptor](/receptors/nmda/)
+Zpet na [Substance](@/substances/_index.md) | [Ketamin](@/alkaloids/ketamin.md) | [NMDA receptor](@/receptors/nmda.md)

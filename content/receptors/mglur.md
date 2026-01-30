@@ -517,10 +517,10 @@ mGluR-LTD (hippocampus)
 ---
 
 Viz také:
-- [AMPA receptor](/receptors/ampa/) - Rychlá glutamátová transmise
-- [NMDA receptor](/receptors/nmda/) - Plasticita a paměť
-- [5-HT2A receptor](/receptors/5-ht2a/) - mGluR2 heterokomplex
-- [Glutamát](/glossary/glutamate/) - Hlavní excitační neurotransmiter
-- [Glosář](/glossary/) - Definice pojmů
+- [AMPA receptor](@/receptors/ampa.md) - Rychlá glutamátová transmise
+- [NMDA receptor](@/receptors/nmda.md) - Plasticita a paměť
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - mGluR2 heterokomplex
+- [Glutamát](@/glossary/glutamate.md) - Hlavní excitační neurotransmiter
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [D1 receptor](/receptors/d1/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [D1 receptor](@/receptors/d1.md) ->

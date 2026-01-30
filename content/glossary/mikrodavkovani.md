@@ -11,7 +11,7 @@ tags = ["mikrodavkovani", "LSD", "psilocybin", "protokoly", "Fadiman", "Stamets"
 
 # Mikrodavkovani - Subperceptualni davky psychedelik
 
-**Mikrodavkovani** (anglicky *microdosing*) je praxe opakovaného uzivani velmi nizkych, **subperceptualnich** davek psychedelickych latek, predevsim [LSD](/alkaloids/lsd/) a [psilocybinu](/alkaloids/psilocybin/). Typicka mikrodavka predstavuje priblizne 1/10 az 1/20 plne psychoaktivni davky a nemela by vyvolavat zadne zjevne psychedelicke ucinky jako halucinace nebo zmeny vedomi.
+**Mikrodavkovani** (anglicky *microdosing*) je praxe opakovaného uzivani velmi nizkych, **subperceptualnich** davek psychedelickych latek, predevsim [LSD](@/alkaloids/lsd.md) a [psilocybinu](@/alkaloids/psilocybin.md). Typicka mikrodavka predstavuje priblizne 1/10 az 1/20 plne psychoaktivni davky a nemela by vyvolavat zadne zjevne psychedelicke ucinky jako halucinace nebo zmeny vedomi.
 
 Tato praxe ziskala popularitu predevsim od roku 2011 diky knize *The Psychedelic Explorer's Guide* od Dr. Jamese Fadimana a nasledne se rozsirila v Silicon Valley jako nastroj pro zvyseni kreativity a produktivity.
 
@@ -73,7 +73,7 @@ Zadny ucinek        Mikrodavka         Prah          Plna davka
 
 ## Latky pouzivane pro mikrodavkovani
 
-### [LSD](/alkaloids/lsd/) (Diethylamid kyseliny lysergove)
+### [LSD](@/alkaloids/lsd.md) (Diethylamid kyseliny lysergove)
 
 | Parametr | Hodnota |
 |----------|---------|
@@ -94,7 +94,7 @@ Zadny ucinek        Mikrodavka         Prah          Plna davka
 - Obtizna verifikace kvality
 - Potencialni kontaminace
 
-### [Psilocybin](/alkaloids/psilocybin/) (z hub rodu Psilocybe)
+### [Psilocybin](@/alkaloids/psilocybin.md) (z hub rodu Psilocybe)
 
 | Parametr | Hodnota |
 |----------|---------|
@@ -730,17 +730,17 @@ Zdroj: Synteza z RCT studii a meta-analyz
 ## Viz take
 
 ### Psychoaktivni latky
-- [LSD](/alkaloids/lsd/) - Hlavni latka pro mikrodavkovani
-- [Psilocybin](/alkaloids/psilocybin/) - Alternativni latka pro mikrodavkovani
-- [Psilocin](/alkaloids/psilocin/) - Aktivni metabolit psilocybinu
-- [DMT](/alkaloids/dmt/) - Pribuzne psychedelikum
+- [LSD](@/alkaloids/lsd.md) - Hlavni latka pro mikrodavkovani
+- [Psilocybin](@/alkaloids/psilocybin.md) - Alternativni latka pro mikrodavkovani
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivni metabolit psilocybinu
+- [DMT](@/alkaloids/dmt.md) - Pribuzne psychedelikum
 
 ### Mechanismy
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cilovy receptor psychedelik
-- [Receptor](/glossary/receptor/) - Obecny pojem
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cilovy receptor psychedelik
+- [Receptor](@/glossary/receptor.md) - Obecny pojem
 
 ### Zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
 
 ---
 
@@ -748,4 +748,4 @@ Zdroj: Synteza z RCT studii a meta-analyz
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)

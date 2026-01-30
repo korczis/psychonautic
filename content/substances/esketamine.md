@@ -11,7 +11,7 @@ zdroje = ["Synteticke", "Registrovany lek"]
 
 # Esketamin - S-ketamin (Spravato)
 
-**Esketamin** je (S)-enantiomer [ketaminu](/alkaloids/ketamin/), schvaleny FDA v roce 2019 jako prvni glutamatergni antidepresivum pro **rezistentni depresi** (TRD) a nasledne pro **akutni suicidalitu** u MDD. Prodavan pod obchodnim nazvem **Spravato** jako intranazalni sprej, predstavuje paradigmaticke prulom v lecbe deprese s rychlym nastupem ucinku (hodiny vs tydny u SSRI).
+**Esketamin** je (S)-enantiomer [ketaminu](@/alkaloids/ketamin.md), schvaleny FDA v roce 2019 jako prvni glutamatergni antidepresivum pro **rezistentni depresi** (TRD) a nasledne pro **akutni suicidalitu** u MDD. Prodavan pod obchodnim nazvem **Spravato** jako intranazalni sprej, predstavuje paradigmaticke prulom v lecbe deprese s rychlym nastupem ucinku (hodiny vs tydny u SSRI).
 
 ---
 
@@ -134,10 +134,10 @@ HISTORIE KETAMINU V PSYCHIATRII
 
 | Receptor | Ki (nM) | Ucinek | Relativní k racematu |
 |----------|---------|--------|---------------------|
-| **[NMDA (GluN2B)](/receptors/nmda/)** | 300-500 | Antagonista | 3-4x vyssi |
+| **[NMDA (GluN2B)](@/receptors/nmda.md)** | 300-500 | Antagonista | 3-4x vyssi |
 | **Opioidni (mu)** | ~25,000 | Slaby agonista | Podobny |
 | **Opioidni (kappa)** | ~25,000 | Slaby agonista | Podobny |
-| **[Sigma-1](/receptors/sigma-1/)** | ~100,000 | Slaby agonista | Podobny |
+| **[Sigma-1](@/receptors/sigma-1.md)** | ~100,000 | Slaby agonista | Podobny |
 | **D2** | ~5,000 | Slaba inhibice | Podobny |
 | **HCN1** | ~8,000 | Inhibice | Podobny |
 
@@ -586,20 +586,20 @@ Akutní vedlejší účinky      Lepší tolerance?
 ## Křížové odkazy
 
 ### Souvisejici látky
-- [Ketamin](/alkaloids/ketamin/) - Racemát
-- [DXM](/substances/dxm/) - Jiný NMDA antagonista
-- [MXE](/substances/mxe/) - Designer disociativ
+- [Ketamin](@/alkaloids/ketamin.md) - Racemát
+- [DXM](@/substances/dxm.md) - Jiný NMDA antagonista
+- [MXE](@/substances/mxe.md) - Designer disociativ
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Primární cíl
-- [AMPA receptor](/receptors/ampa/) - Downstream efekt
-- [Sigma-1 receptor](/receptors/sigma-1/) - Sekundární cíl
+- [NMDA receptor](@/receptors/nmda.md) - Primární cíl
+- [AMPA receptor](@/receptors/ampa.md) - Downstream efekt
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Sekundární cíl
 
 ### Souvisejici témata
-- [Serotonin](/glossary/serotonin/) - Srovnání s serotonergními AD
-- [Neuroplasticita](/glossary/neuroplasticita/) - Mechanismus účinku
-- [BDNF](/molecules/bdnf/) - Klíčový mediátor
+- [Serotonin](@/glossary/serotonin.md) - Srovnání s serotonergními AD
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Mechanismus účinku
+- [BDNF](@/molecules/bdnf.md) - Klíčový mediátor
 
 ---
 
-Zpět na [Substance](/substances/) | [Ketamin](/alkaloids/ketamin/) | [NMDA receptor](/receptors/nmda/)
+Zpět na [Substance](@/substances/_index.md) | [Ketamin](@/alkaloids/ketamin.md) | [NMDA receptor](@/receptors/nmda.md)

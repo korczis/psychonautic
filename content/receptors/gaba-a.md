@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # GABA-A receptor - Strážce neuronální inhibice
 
-**GABA-A receptor** je **ligandem řízený iontový kanál** propustný pro chloridové ionty (Cl⁻). Je **hlavním inhibičním receptorem** v centrálním nervovém systému savců a cílem mnoha farmakologicky významných látek včetně [muscimolu](/alkaloids/muscimol/), benzodiazepinů, barbiturátů a alkoholu.
+**GABA-A receptor** je **ligandem řízený iontový kanál** propustný pro chloridové ionty (Cl⁻). Je **hlavním inhibičním receptorem** v centrálním nervovém systému savců a cílem mnoha farmakologicky významných látek včetně [muscimolu](@/alkaloids/muscimol.md), benzodiazepinů, barbiturátů a alkoholu.
 
 ---
 
@@ -130,7 +130,7 @@ Uzavřený stav          Otevřený stav
 
 | Místo | Lokalizace | Ligandy | Efekt |
 |-------|------------|---------|-------|
-| **GABA (orthosterické)** | α/β interface | GABA, [Muscimol](/alkaloids/muscimol/), Gaboxadol | Otevření kanálu |
+| **GABA (orthosterické)** | α/β interface | GABA, [Muscimol](@/alkaloids/muscimol.md), Gaboxadol | Otevření kanálu |
 | **Benzodiazepinové** | α/γ interface | Diazepam, Alprazolam | Potenciace GABA |
 | **Barbiturátové** | β TM doména | Fenobarbital | Prodloužené otevření |
 | **Neurosteroidové** | α/β TM | Alopregnanolone | Potenciace |
@@ -146,7 +146,7 @@ Uzavřený stav          Otevřený stav
 | Látka | Ki (nM) | Eficacia | Zdroj |
 |-------|---------|----------|-------|
 | **GABA** | 20-100 | Plná | Endogenní |
-| [**Muscimol**](/alkaloids/muscimol/) | 5-10 | Plná | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| [**Muscimol**](@/alkaloids/muscimol.md) | 5-10 | Plná | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | **Gaboxadol (THIP)** | 100 | Plná (δ-selektivní) | Syntetický |
 | **Isoguvacin** | 50 | Parciální | Syntetický |
 
@@ -364,9 +364,9 @@ Chronická expozice GABA-A agonistům/modulátorům
 
 ### Srovnání
 
-| Vlastnost | GABA | [Muscimol](/alkaloids/muscimol/) |
+| Vlastnost | GABA | [Muscimol](@/alkaloids/muscimol.md) |
 |-----------|------|----------|
-| Původ | Endogenní | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| Původ | Endogenní | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | Afinita | Ki ~50 nM | Ki ~5 nM (10x vyšší) |
 | Selektivita | Neselektivní | Preferuje některé subtypy |
 | BBB prostupnost | Nízká | Vysoká |
@@ -384,10 +384,65 @@ Chronická expozice GABA-A agonistům/modulátorům
 
 ---
 
-Viz také:
-- [GABA](/glossary/gaba/) - Hlavní inhibiční neurotransmiter
-- [Muscimol](/alkaloids/muscimol/) - Přímý GABA-A agonista
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
-- [GABA-B receptor](/receptors/gaba-b/) - Metabotropní GABA receptor
+## Detailni alostericka modulace a kinetika
 
-← Zpět na [Receptory](/receptors/) | [5-HT2A receptor](/receptors/5-ht2a/) →
+GABA-A receptor je **paradigmatickym modelem alostericke modulace** -- viz sekce [Mechanismy ucinku](@/mechanisms/_index.md):
+
+### Ionotropni kineticke parametry
+
+| Parametr | GABA | [Muscimol](@/alkaloids/muscimol.md) | Jednotka |
+|----------|------|----------|----------|
+| **EC50** | 10-30 | 3-10 | uM |
+| **Cas otevreni** | 1-3 | 3-8 | ms |
+| **Cas deaktivace** | 20-50 | 50-150 | ms |
+| **Desenzitizace** | 100-500 | 200-800 | ms |
+| **Vodivost kanalu** | 25-30 | 25-30 | pS |
+| **Selektivita Cl/Na** | >10:1 | >10:1 | - |
+
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) -- vazebna kinetika ionotropnich receptoru
+
+### Mechanismus alostericke modulace
+
+```
+SROVNANI ORTOSTERICKE A ALOSTERICKE MODULACE
+
+MUSCIMOL (ortostericke misto, alpha/beta interface):
+    Muscimol -> GABA site -> Primy kanal opening
+    Efekt: 100% aktivace BEZ GABA
+    Bezpecnost: Nizka (predavkovani mozne)
+
+BENZODIAZEPINY (alostericke misto, alpha/gamma interface):
+    BZ -> BZ site -> Zvysena frekvence otevreni
+    Efekt: Max. +200% GABA (vyzaduje GABA)
+    Bezpecnost: Vysoka (ceiling efekt)
+
+BARBITURÁTY (TM domena, beta podjednotka):
+    Barbiturát -> TM site -> Prodlouzena doba otevreni
+    Efekt: Muze otevrit kanal i bez GABA (vysoke davky)
+    Bezpecnost: Nizka (respiracni deprese)
+```
+
+### Subtypova selektivita a terapeuticky design
+
+| Subtyp | alpha podjednotka | Funkce | Idealní ligand |
+|--------|-------------------|--------|----------------|
+| **Anxiolyticke** | alpha2, alpha3 | Limbicka inhibice | alpha2/3-selektivni PAM |
+| **Sedativni** | alpha1 | Kortikalni inhibice | alpha1-selektivni (zolpidem) |
+| **Kognitivni** | alpha5 | Hippocampalni | alpha5-NAM (pro-kognitivni) |
+| **Motoricke** | alpha6 | Cerebellum | Neselektivni |
+
+Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- PAM/NAM, MWC model, subtypova selektivita, terapeuticky potencial
+
+---
+
+Viz take:
+- [GABA](@/glossary/gaba.md) - Hlavni inhibicni neurotransmiter
+- [Muscimol](@/alkaloids/muscimol.md) - Primy GABA-A agonista
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
+- [GABA-B receptor](@/receptors/gaba-b.md) - Metabotropni GABA receptor
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni mechanismy
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - GABA-A jako model
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - ionotropni kinetika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - ionotropni signalizace
+
+<- Zpet na [Receptory](@/receptors/_index.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) ->

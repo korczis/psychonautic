@@ -527,8 +527,8 @@ PARKINSONOVA CHOROBA (nedostatek DA):
 | **Heroin/Opioidy** | MOR --> VTA disinhibice | 200-300% | Velmi vysoký |
 | **Cannabis** | CB1 --> VTA modulace | 150-200% | Střední |
 | **MDMA** | SERT, DAT, NET reverze | 200-300% | Střední |
-| [**LSD**](/alkaloids/lsd/) | D2 parciální agonista | Mírné | Minimální |
-| [**Psilocybin**](/alkaloids/psilocybin/) | Nepřímý přes 5-HT2A | Mírné | Minimální |
+| [**LSD**](@/alkaloids/lsd.md) | D2 parciální agonista | Mírné | Minimální |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | Nepřímý přes 5-HT2A | Mírné | Minimální |
 
 ### Mechanismy působení stimulantů
 
@@ -573,10 +573,10 @@ AMFETAMIN:
 
 | Látka | Primární cíl | Dopaminergní účinky | Klinický význam |
 |-------|--------------|---------------------|-----------------|
-| [**LSD**](/alkaloids/lsd/) | [5-HT2A](/receptors/5-ht2a/) | D1, D2 parciální agonista (Ki ~10-50 nM) | Přispívá k euforii |
-| [**Psilocin**](/alkaloids/psilocin/) | [5-HT2A](/receptors/5-ht2a/) | Minimální přímý DA účinek | - |
-| [**DMT**](/alkaloids/dmt/) | [5-HT2A](/receptors/5-ht2a/) | Sigma-1 > DA | - |
-| [**Meskalin**](/alkaloids/mescaline/) | [5-HT2A](/receptors/5-ht2a/) | D1, D2 slabá aktivita | - |
+| [**LSD**](@/alkaloids/lsd.md) | [5-HT2A](@/receptors/5-ht2a.md) | D1, D2 parciální agonista (Ki ~10-50 nM) | Přispívá k euforii |
+| [**Psilocin**](@/alkaloids/psilocin.md) | [5-HT2A](@/receptors/5-ht2a.md) | Minimální přímý DA účinek | - |
+| [**DMT**](@/alkaloids/dmt.md) | [5-HT2A](@/receptors/5-ht2a.md) | Sigma-1 > DA | - |
+| [**Meskalin**](@/alkaloids/mescaline.md) | [5-HT2A](@/receptors/5-ht2a.md) | D1, D2 slabá aktivita | - |
 
 **Poznámka**: Na rozdíl od stimulantů, klasická psychedelika nevyvolávají výrazné zvýšení DA v NAcc, což vysvětluje jejich nízký závislostní potenciál.
 
@@ -863,26 +863,26 @@ Příčiny hyperprolaktinémie:
 ## Viz také
 
 ### Neurotransmitery a receptory
-- [GABA](/glossary/gaba/) - Hlavní inhibiční neurotransmiter
-- [Receptor](/glossary/receptor/) - Obecný přehled receptorové biologie
-- [5-HT2A receptor](/receptors/5-ht2a/) - Serotoninový receptor, cíl psychedelik
+- [GABA](@/glossary/gaba.md) - Hlavní inhibiční neurotransmiter
+- [Receptor](@/glossary/receptor.md) - Obecný přehled receptorové biologie
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Serotoninový receptor, cíl psychedelik
 
 ### Psychoaktivní látky
-- [LSD](/alkaloids/lsd/) - D2 parciální agonista s halucinogenními účinky
-- [Psilocybin](/alkaloids/psilocybin/) - Nepřímé dopaminergní účinky
-- [DMT](/alkaloids/dmt/) - Minimální přímé DA účinky
+- [LSD](@/alkaloids/lsd.md) - D2 parciální agonista s halucinogenními účinky
+- [Psilocybin](@/alkaloids/psilocybin.md) - Nepřímé dopaminergní účinky
+- [DMT](@/alkaloids/dmt.md) - Minimální přímé DA účinky
 
 ### Mozkové struktury a okruhy
-- [Neurální okruhy](/circuits/) - Reward circuits a DMN
-- [Mozek](/brain/) - Neuroanatomie
+- [Neurální okruhy](@/circuits/_index.md) - Reward circuits a DMN
+- [Mozek](@/brain/_index.md) - Neuroanatomie
 
 ### Související pojmy
-- [Nukleotid](/glossary/nukleotid/) - cAMP jako sekundární messenger
-- [Fosfát](/glossary/fosfat/) - Fosforylace v signálních drahách
+- [Nukleotid](@/glossary/nukleotid.md) - cAMP jako sekundární messenger
+- [Fosfát](@/glossary/fosfat.md) - Fosforylace v signálních drahách
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)
 
 ---
 

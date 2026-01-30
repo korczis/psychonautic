@@ -49,19 +49,19 @@ Psychoaktivní houby patří do několika taxonomických čeledí:
 
 Rod **Psilocybe** je nejpočetnější a nejvýznamnější skupinou psychoaktivních hub. Obsahuje přibližně **180+ druhů**, z nichž většina obsahuje psilocybin a psilocin.
 
-#### [Psilocybes](/shrooms/psilocybes/) (Lysohlávky)
+#### [Psilocybes](@/shrooms/psilocybes/_index.md) (Lysohlávky)
 
-Houby obsahující [psilocybin](/alkaloids/psilocybin/) a [psilocin](/alkaloids/psilocin/).
+Houby obsahující [psilocybin](@/alkaloids/psilocybin.md) a [psilocin](@/alkaloids/psilocin.md).
 
 | Druh | České jméno | Potence | Habitat |
 |------|-------------|---------|---------|
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | Kubánská lysohlávka | Střední | Tropické, subtropické |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Lysohlávka kopinatá | Vysoká | Evropské louky |
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | Lysohlávka azurová | Nejvyšší | Pacifické pobřeží USA |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | Lysohlávka modravá | Vysoká | Temperátní lesy |
-| [P. bohemica](/shrooms/psilocybes/bohemica/) | Lysohlávka česká | Vysoká | Střední Evropa |
-| [P. mexicana](/shrooms/psilocybes/mexicana/) | Lysohlávka mexická | Střední | Střední Amerika |
-| [P. tampanensis](/shrooms/psilocybes/tampanensis/) | Lysohlávka Tampská | Střední | Florida, subtropy |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | Kubánská lysohlávka | Střední | Tropické, subtropické |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Lysohlávka kopinatá | Vysoká | Evropské louky |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | Lysohlávka azurová | Nejvyšší | Pacifické pobřeží USA |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | Lysohlávka modravá | Vysoká | Temperátní lesy |
+| [P. bohemica](@/shrooms/psilocybes/bohemica.md) | Lysohlávka česká | Vysoká | Střední Evropa |
+| [P. mexicana](@/shrooms/psilocybes/mexicana.md) | Lysohlávka mexická | Střední | Střední Amerika |
+| [P. tampanensis](@/shrooms/psilocybes/tampanensis.md) | Lysohlávka Tampská | Střední | Florida, subtropy |
 
 #### Charakteristické znaky Psilocybe
 
@@ -76,13 +76,13 @@ Rod **Amanita** obsahuje houby s odlišným mechanismem účinku. Aktivní látk
 
 #### Amanita (Muchomůrky)
 
-Houby obsahující [muscimol](/alkaloids/muscimol/) a kyselinu ibotenovou.
+Houby obsahující [muscimol](@/alkaloids/muscimol.md) a kyselinu ibotenovou.
 
 | Druh | České jméno | Aktivní látka | Potence |
 |------|-------------|---------------|---------|
-| [A. muscaria](/shrooms/amanita-muscaria/) | Muchomůrka červená | [Muscimol](/alkaloids/muscimol/) | Střední |
-| [A. pantherina](/shrooms/amanita-pantherina/) | Muchomůrka tygrovaná | Muscimol | Vysoká |
-| [A. regalis](/shrooms/amanita-regalis/) | Muchomůrka královská | Muscimol | Střední-vysoká |
+| [A. muscaria](@/shrooms/amanita-muscaria.md) | Muchomůrka červená | [Muscimol](@/alkaloids/muscimol.md) | Střední |
+| [A. pantherina](@/shrooms/amanita-pantherina.md) | Muchomůrka tygrovaná | Muscimol | Vysoká |
+| [A. regalis](@/shrooms/amanita-regalis.md) | Muchomůrka královská | Muscimol | Střední-vysoká |
 
 #### Charakteristické znaky Amanita
 
@@ -134,9 +134,9 @@ Většina psychoaktivních hub obsahuje indolové alkaloidy odvozené od aminoky
 
 | Alkaloid | Chemický vzorec | Mechanismus | Potence |
 |----------|-----------------|-------------|---------|
-| [Psilocybin](/alkaloids/psilocybin/) | C12H17N2O4P | Prodrug psilocinu | Referenční |
-| [Psilocin](/alkaloids/psilocin/) | C12H16N2O | 5-HT2A agonista | 1.4x psilocybin |
-| [Baeocystin](/alkaloids/baeocystin/) | C11H15N2O4P | 5-HT agonista | 0.5-1x psilocybin |
+| [Psilocybin](@/alkaloids/psilocybin.md) | C12H17N2O4P | Prodrug psilocinu | Referenční |
+| [Psilocin](@/alkaloids/psilocin.md) | C12H16N2O | 5-HT2A agonista | 1.4x psilocybin |
+| [Baeocystin](@/alkaloids/baeocystin.md) | C11H15N2O4P | 5-HT agonista | 0.5-1x psilocybin |
 | Norbaeocystin | C10H13N2O4P | 5-HT agonista | Neznámá |
 | Aeruginascin | C13H20N2O4P | Modulátor | Synergický |
 
@@ -164,7 +164,7 @@ Muchomůrky obsahují odlišnou skupinu aktivních látek.
 
 | Alkaloid | Mechanismus | Účinky |
 |----------|-------------|--------|
-| [Muscimol](/alkaloids/muscimol/) | GABA-A agonista | Sedativní, halucinogenní |
+| [Muscimol](@/alkaloids/muscimol.md) | GABA-A agonista | Sedativní, halucinogenní |
 | Kyselina ibotenová | NMDA agonista | Stimulační, neurotoxická |
 | Muscazon | Neznámý | Minimální aktivita |
 
@@ -536,8 +536,8 @@ Kultivace psychoaktivních hub je ve většině zemí nelegální. Následujíc�
 
 ## Související sekce
 
-- [Alkaloidy](/alkaloids/) - Chemie aktivních látek
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavní aktivní látka lysohlávek
-- [Muscimol](/alkaloids/muscimol/) - Aktivní látka muchomůrek
-- [Bezpečnost](/harm-reduction/) - Harm reduction průvodce
-- [Výzkum](/research/) - Aktuální vědecké studie
+- [Alkaloidy](@/alkaloids/_index.md) - Chemie aktivních látek
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka lysohlávek
+- [Muscimol](@/alkaloids/muscimol.md) - Aktivní látka muchomůrek
+- [Bezpečnost](@/harm-reduction/_index.md) - Harm reduction průvodce
+- [Výzkum](@/research/_index.md) - Aktuální vědecké studie

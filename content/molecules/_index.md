@@ -14,4 +14,4 @@ Sekce venujici se klicovym molekulam podílejicim se na ucincich psychedelik a n
 
 ## Neurotrofni faktory
 
-- [BDNF](/molecules/bdnf/) - Brain-Derived Neurotrophic Factor
+- [BDNF](@/molecules/bdnf.md) - Brain-Derived Neurotrophic Factor

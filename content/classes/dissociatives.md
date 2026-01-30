@@ -11,9 +11,9 @@ tags = ["disociativa", "NMDA", "ketamin", "PCP", "DXM", "MXE", "arylcyklohexylam
 
 # Disociativa - NMDA antagoniste a jejich farmakologie
 
-**Disociativa** (dissociatives) jsou tridou psychoaktivnich latek charakterizovanou indukcí **disociativnich stavu** - senzorické a kognitivni odpojeni od reality, tela a identity. Primarne pusobi jako antagoniste [NMDA receptoru](/receptors/nmda/), i kdyz mnohe maji komplexni receptorovy profil.
+**Disociativa** (dissociatives) jsou tridou psychoaktivnich latek charakterizovanou indukcí **disociativnich stavu** - senzorické a kognitivni odpojeni od reality, tela a identity. Primarne pusobi jako antagoniste [NMDA receptoru](@/receptors/nmda.md), i kdyz mnohe maji komplexni receptorovy profil.
 
-Mezi nejznamejsi disociativa patri [ketamin](/alkaloids/ketamin/), fencyklidin (PCP), dextromethorfan (DXM) a methoxetamin (MXE). V poslednich letech ziskala trida znacnou pozornost diky prukopnickym studiim ukazujicim rychly antidepresivni ucinek ketaminu u [rezistentni deprese](/conditions/depression/).
+Mezi nejznamejsi disociativa patri [ketamin](@/alkaloids/ketamin.md), fencyklidin (PCP), dextromethorfan (DXM) a methoxetamin (MXE). V poslednich letech ziskala trida znacnou pozornost diky prukopnickym studiim ukazujicim rychly antidepresivni ucinek ketaminu u [rezistentni deprese](@/conditions/depression.md).
 
 ---
 
@@ -58,7 +58,7 @@ DISOCIATIVA - CHEMICKE TRIDY
 
 | Latka | Ki NMDA (nM) | Dalsi cile | Trvani | Legal status (CR) |
 |-------|--------------|------------|--------|-------------------|
-| **[Ketamin](/alkaloids/ketamin/)** | 500-3000 | Opioidni, Sigma | 1-2 h | Navykova latka |
+| **[Ketamin](@/alkaloids/ketamin.md)** | 500-3000 | Opioidni, Sigma | 1-2 h | Navykova latka |
 | **PCP** | 50-100 | D2, Sigma, SERT | 4-8 h | Zakazana |
 | **DXM** | 2000-8000 | SERT, Sigma, Opioidni | 4-8 h | OTC (kašel) |
 | **MXE** | ~500 | SERT, Opioidni | 2-4 h | Zakazana |
@@ -160,7 +160,7 @@ Intenzivni disociativni stav pri vyssich davkach ketaminu:
 
 | Aspekt | Disociativa | Klasicka psychedelika |
 |--------|-------------|----------------------|
-| **Primární receptor** | [NMDA](/receptors/nmda/) | [5-HT2A](/receptors/5-ht2a/) |
+| **Primární receptor** | [NMDA](@/receptors/nmda.md) | [5-HT2A](@/receptors/5-ht2a.md) |
 | **Telesnost** | Anestetická, odpojení | Zesílení, zmenene |
 | **Vizualy** | Geometricke, abstraktni | Organicke, komplexni |
 | **Entity** | Vzacne | Castejsi |
@@ -174,7 +174,7 @@ Intenzivni disociativni stav pri vyssich davkach ketaminu:
 
 ### Ketamin
 
-**Komplexni profil viz:** [Ketamin](/alkaloids/ketamin/)
+**Komplexni profil viz:** [Ketamin](@/alkaloids/ketamin.md)
 
 | Parametr | Hodnota |
 |----------|---------|
@@ -454,27 +454,27 @@ Progrese → Kontrakce mechýře → Chirurgie
 ## Viz take
 
 ### Jednotlive latky
-- [Ketamin](/alkaloids/ketamin/) - Hlavni terapeuticke disociativum
-- [DXM](/alkaloids/dxm/) - OTC disociativum
-- [PCP](/alkaloids/pcp/) - Historicke disociativum
+- [Ketamin](@/alkaloids/ketamin.md) - Hlavni terapeuticke disociativum
+- [DXM](@/alkaloids/dxm.md) - OTC disociativum
+- [PCP](@/alkaloids/pcp.md) - Historicke disociativum
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Primární cíl
-- [AMPA receptor](/receptors/ampa/) - Sekundární efekty
-- [Sigma-1 receptor](/receptors/sigma-1/) - Neuromodulace
+- [NMDA receptor](@/receptors/nmda.md) - Primární cíl
+- [AMPA receptor](@/receptors/ampa.md) - Sekundární efekty
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Neuromodulace
 
 ### Srovnani
-- [Psychedelika](/glossary/psychedelikum/) - Odlisná třída
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cíl psychedelik
+- [Psychedelika](@/glossary/psychedelikum.md) - Odlisná třída
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cíl psychedelik
 
 ### Terapeuticke aplikace
-- [Deprese](/conditions/depression/) - Hlavní indikace ketaminu
-- [BDNF](/molecules/bdnf/) - Mechanismus antidepresivního ucinku
-- [Neuroplasticita](/glossary/neuroplasticita/) - Synaptogeneze
+- [Deprese](@/conditions/depression.md) - Hlavní indikace ketaminu
+- [BDNF](@/molecules/bdnf.md) - Mechanismus antidepresivního ucinku
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Synaptogeneze
 
 ### Fenomenologie
-- [Mysticke zkusenosti](/phenomenology/mystical-experiences/) - Srovnani s psychedeliky
+- [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md) - Srovnani s psychedeliky
 
 ---
 
-<- Zpět na [Farmakologické třídy](/classes/)
+<- Zpět na [Farmakologické třídy](@/classes/_index.md)

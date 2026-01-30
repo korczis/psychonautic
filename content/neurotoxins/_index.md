@@ -498,7 +498,7 @@ Mnoho neurotoxinů podléhá přísné regulaci:
 
 | Neurotoxin | Zdroj | Mechanismus | Toxicita |
 |------------|-------|-------------|----------|
-| [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) | Amanita | NMDA agonista | Střední |
+| [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) | Amanita | NMDA agonista | Střední |
 | Tetrodotoxin | Čtverzubec | Nav blokátor | Velmi vysoká |
 | Botulotoxin | C. botulinum | SNARE štěpení | Extrémní |
 | Bungarotoxin | Krait | nAChR antagonista | Vysoká |

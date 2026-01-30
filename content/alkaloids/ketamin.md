@@ -540,26 +540,26 @@ Pri chronickem (rekreacnim) pouziti:
 ## Krizove odkazy
 
 ### Souvisejici latky
-- [PCP](/substances/pcp/) - Strukturne pribuzny
-- [MXE](/substances/mxe/) - Derivat
-- [Dextromethorfan](/substances/dxm/) - Jiny NMDA antagonista
+- [PCP](@/substances/pcp.md) - Strukturne pribuzny
+- [MXE](@/substances/mxe.md) - Derivat
+- [Dextromethorfan](@/substances/dxm.md) - Jiny NMDA antagonista
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Hlavni cil
-- [AMPA receptor](/receptors/ampa/) - Sekundarni efekt
-- [Opioidni receptory](/receptors/opioid/) - Vedlejsi aktivita
+- [NMDA receptor](@/receptors/nmda.md) - Hlavni cil
+- [AMPA receptor](@/receptors/ampa.md) - Sekundarni efekt
+- [Opioidni receptory](@/receptors/opioid.md) - Vedlejsi aktivita
 
 ### Souvisejici temata
-- [Deprese](/conditions/depression/) - Terapeuticka indikace
-- [Disociativa](/classes/dissociatives/) - Farmakologicka trida
-- [Neuroplasticita](/neuroscience/neuroplasticity/) - Mechanismus ucinku
-- [BDNF](/molecules/bdnf/) - Klicovy mediator
+- [Deprese](@/conditions/depression.md) - Terapeuticka indikace
+- [Disociativa](@/classes/dissociatives.md) - Farmakologicka trida
+- [Neuroplasticita](@/neuroscience/neuroplasticity.md) - Mechanismus ucinku
+- [BDNF](@/molecules/bdnf.md) - Klicovy mediator
 
 ### Srovnani
-- [Psilocybin](/alkaloids/psilocybin/) - Jiny rychle pusobici antidepresivum
-- [DMT](/alkaloids/dmt/) - Tryptaminove psychedelikum
-- [Esketamin](/substances/esketamine/) - (S)-enantiomer
+- [Psilocybin](@/alkaloids/psilocybin.md) - Jiny rychle pusobici antidepresivum
+- [DMT](@/alkaloids/dmt.md) - Tryptaminove psychedelikum
+- [Esketamin](@/substances/esketamine.md) - (S)-enantiomer
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md)

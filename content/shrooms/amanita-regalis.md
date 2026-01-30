@@ -12,7 +12,7 @@ receptory = ["GABA-A", "NMDA"]
 
 # Amanita regalis - Muchomurka kralovska
 
-**Amanita regalis** (muchomurka kralovska, "Royal Fly Agaric") je vzacna severoevropska psychoaktivni houba, casto povazovana za samostatny druh nebo za varietu/poddruh [Amanita muscaria](/shrooms/amanita-muscaria/). Vyznacuje se charakteristickym **hnede-zlutym az zlato-hnedym kloboukem** a vyskytem predevsim ve **skandinavskych boreal Pralesech**. Obsahuje stejne aktivni latky - [muscimol](/alkaloids/muscimol/) a [kyselinu ibotenovou](/neurotoxins/ibotenic-acid/) - jako jeji cervena pribuzna.
+**Amanita regalis** (muchomurka kralovska, "Royal Fly Agaric") je vzacna severoevropska psychoaktivni houba, casto povazovana za samostatny druh nebo za varietu/poddruh [Amanita muscaria](@/shrooms/amanita-muscaria.md). Vyznacuje se charakteristickym **hnede-zlutym az zlato-hnedym kloboukem** a vyskytem predevsim ve **skandinavskych boreal Pralesech**. Obsahuje stejne aktivni latky - [muscimol](@/alkaloids/muscimol.md) a [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md) - jako jeji cervena pribuzna.
 
 ---
 
@@ -25,7 +25,7 @@ receptory = ["GABA-A", "NMDA"]
 | **Ceske nazvy** | Muchomurka kralovska, Kralovska muchotrávka |
 | **Celed** | Amanitaceae |
 | **Rod** | Amanita (Muchomurky) |
-| **Aktivni latky** | [Muscimol](/alkaloids/muscimol/), [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) |
+| **Aktivni latky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergni (disociativni/deliriantni) |
 | **Taxonomicky status** | Sporny (druh vs varieta) |
 
@@ -172,8 +172,8 @@ receptory = ["GABA-A", "NMDA"]
 
 | Latka | Obsah (susena) | Srovnani s A. muscaria |
 |-------|----------------|------------------------|
-| [**Kyselina ibotenova**](/neurotoxins/ibotenic-acid/) | 0,03-0,1% | Podobny |
-| [**Muscimol**](/alkaloids/muscimol/) | 0,03-0,2% | Podobny |
+| [**Kyselina ibotenova**](@/neurotoxins/ibotenic-acid.md) | 0,03-0,1% | Podobny |
+| [**Muscimol**](@/alkaloids/muscimol.md) | 0,03-0,2% | Podobny |
 | Muscazon | Trace | Podobny |
 
 ### Chemicke srovnani
@@ -319,7 +319,7 @@ receptory = ["GABA-A", "NMDA"]
 
 ### Mechanismus ucinku
 
-Stejny jako u [Amanita muscaria](/shrooms/amanita-muscaria/):
+Stejny jako u [Amanita muscaria](@/shrooms/amanita-muscaria.md):
 
 ```
     FARMAKOLOGIE A. REGALIS
@@ -388,7 +388,7 @@ Stejny jako u [Amanita muscaria](/shrooms/amanita-muscaria/):
 
 ### Typicke ucinky
 
-Podobne jako u [A. muscaria](/shrooms/amanita-muscaria/):
+Podobne jako u [A. muscaria](@/shrooms/amanita-muscaria.md):
 
 #### Pozitivni
 - Hluboka relaxace
@@ -498,23 +498,23 @@ Stejny postup jako u A. muscaria:
 ## Viz take
 
 ### Aktivni latky
-- [Muscimol](/alkaloids/muscimol/) - Hlavni psychoaktivni latka
-- [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) - Neurotoxicky prekurzor
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
+- [Muscimol](@/alkaloids/muscimol.md) - Hlavni psychoaktivni latka
+- [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - Neurotoxicky prekurzor
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
 
 ### Receptory
-- [GABA-A receptor](/receptors/gaba-a/) - Cil muscimolu
-- [NMDA receptor](/receptors/nmda/) - Cil kyseliny ibotenove
-- [Glutamat](/glossary/glutamat/) - Excitacni neurotransmiter
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil muscimolu
+- [NMDA receptor](@/receptors/nmda.md) - Cil kyseliny ibotenove
+- [Glutamat](@/glossary/glutamat.md) - Excitacni neurotransmiter
 
 ### Pribuzne druhy
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Muchomurka cervena
-- [Amanita pantherina](/shrooms/amanita-pantherina/) - Muchomurka tygrovana
-- [Houby](/shrooms/) - Prehled psychoaktivnich hub
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Muchomurka cervena
+- [Amanita pantherina](@/shrooms/amanita-pantherina.md) - Muchomurka tygrovana
+- [Houby](@/shrooms/_index.md) - Prehled psychoaktivnich hub
 
 ### Dalsi zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Alternativni psychoaktivni houby
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Alternativni psychoaktivni houby
 
 ---
 
-<- Zpet na [Houby](/shrooms/) | [Amanita muscaria](/shrooms/amanita-muscaria/) ->
+<- Zpet na [Houby](@/shrooms/_index.md) | [Amanita muscaria](@/shrooms/amanita-muscaria.md) ->

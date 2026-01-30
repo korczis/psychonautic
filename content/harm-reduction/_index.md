@@ -427,19 +427,19 @@ MDMA: Castecna (rozdilny mechanismus)
 ## Krizove odkazy
 
 ### Souvisejici temata
-- [Set and Setting](/glossary/set-and-setting/) - detailní popis
-- [MAOI](/pharmacology/maoi/) - interakce
-- [Serotonin](/glossary/serotonin/) - neurotransmiter
+- [Set and Setting](@/glossary/set-and-setting.md) - detailní popis
+- [MAOI](@/pharmacology/maoi.md) - interakce
+- [Serotonin](@/glossary/serotonin.md) - neurotransmiter
 
 ### Latky
-- [LSD](/alkaloids/lsd/) - lysergamid
-- [Psilocybin](/alkaloids/psilocybin/) - houbový alkaloid
-- [DMT](/alkaloids/dmt/) - tryptamin
-- [MDMA](/alkaloids/mdma/) - entaktogen
+- [LSD](@/alkaloids/lsd.md) - lysergamid
+- [Psilocybin](@/alkaloids/psilocybin.md) - houbový alkaloid
+- [DMT](@/alkaloids/dmt.md) - tryptamin
+- [MDMA](@/alkaloids/mdma.md) - entaktogen
 
 ### Pripravky
-- [Ayahuasca](/preparations/ayahuasca/) - tradicni napoj
+- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni napoj
 
 ---
 
-Zpet na [Uvodni stranka](/) | [Alkaloidy](/alkaloids/) | [Vyzkum](/research/)
+Zpet na [Uvodni stranka](@/_index.md) | [Alkaloidy](@/alkaloids/_index.md) | [Vyzkum](@/research/_index.md)

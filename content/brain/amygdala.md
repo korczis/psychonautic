@@ -227,7 +227,7 @@ POZOR: Extinkce neni vymazani - original pamet zustava,
 
 ### Efekty psychedelik na amygdalu
 
-Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) meni aktivitu amygdaly:
+Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) meni aktivitu amygdaly:
 
 | Efekt | Nalez | Studie |
 |-------|-------|--------|
@@ -287,7 +287,7 @@ Terapeuticky vyznam:
 
 | Receptor | Exprese | Lokalizace | Funkce |
 |----------|---------|------------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Stredni | BLA, CeA | Psychedelicky ucinek |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Stredni | BLA, CeA | Psychedelicky ucinek |
 | **5-HT1A** | Vysoka | BLA | Anxiolyticky efekt |
 | **5-HT2C** | Stredni | CeA | Modulace uzkosti |
 
@@ -295,7 +295,7 @@ Terapeuticky vyznam:
 
 | Receptor | Funkce v amygdale |
 |----------|-------------------|
-| [**GABA-A**](/receptors/gaba-a/) | Inhibice, anxiolytický ucinek BZD |
+| [**GABA-A**](@/receptors/gaba-a.md) | Inhibice, anxiolytický ucinek BZD |
 | **Glutamat (NMDA)** | LTP, strachove uceni |
 | **CB1** | Extinkce, stresová odpoved |
 | **CRF-R1** | Stresova reakce |
@@ -333,8 +333,8 @@ Psychedelika (5-HT2A agonismus):
 |-------|---------------|
 | **Senzoricke thalamusy** | Rychla, hrubaá senzorická |
 | **Senzorické kortexy** | Zpracovaná, detailni |
-| **[Hippocampus](/brain/hippocampus/)** | Kontextuální informace |
-| **[mPFC](/brain/prefrontal-cortex/)** | Top-down regulace |
+| **[Hippocampus](@/brain/hippocampus.md)** | Kontextuální informace |
+| **[mPFC](@/brain/prefrontal-cortex.md)** | Top-down regulace |
 | **Insula** | Interocepce |
 | **PAG** | Bolest, obrana |
 
@@ -344,7 +344,7 @@ Psychedelika (5-HT2A agonismus):
 |-----|--------|
 | **Hypothalamus** | HPA osa, autonomní |
 | **PAG** | Freezing, obrana |
-| **[Locus coeruleus](/brain/locus-coeruleus/)** | Noradrenergni arousal |
+| **[Locus coeruleus](@/brain/locus-coeruleus.md)** | Noradrenergni arousal |
 | **Nucleus basalis** | Cholinergni modulace |
 | **Striatum** | Motivované chovani |
 | **Kortex** | Emocni informace |
@@ -469,7 +469,7 @@ amygdalni reaktivitu v dospelosti.
 | **SSRI** | 5-HT reuptake | Adaptivní zmeny |
 | **Propranolol** | Beta-blokator | Oslabeni rekonsolidace |
 | **D-cykloserin** | NMDA ko-agonista | Posileni extinkce |
-| **Psychedelika** | [5-HT2A](/receptors/5-ht2a/) | Modulace reaktivity |
+| **Psychedelika** | [5-HT2A](@/receptors/5-ht2a.md) | Modulace reaktivity |
 
 ### Psychoterapie
 
@@ -507,24 +507,24 @@ amygdalni reaktivitu v dospelosti.
 ## Viz take
 
 ### Mozkové oblasti
-- [Hippocampus](/brain/hippocampus/) - Pamet, kontext
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Regulace emoci
-- [Thalamus](/brain/thalamus/) - Senzoricky vstup
-- [Locus coeruleus](/brain/locus-coeruleus/) - Arousal
+- [Hippocampus](@/brain/hippocampus.md) - Pamet, kontext
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Regulace emoci
+- [Thalamus](@/brain/thalamus.md) - Senzoricky vstup
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Arousal
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelický cíl
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibice, BZD
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelický cíl
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibice, BZD
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Emocni regulace
-- [GABA](/glossary/gaba/) - Inhibice
+- [Serotonin](@/glossary/serotonin.md) - Emocni regulace
+- [GABA](@/glossary/gaba.md) - Inhibice
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Snizuje amygdalární reaktivitu
-- [LSD](/alkaloids/lsd/) - Modulace strachu
-- [DMT](/alkaloids/dmt/) - Emoční zpracování
+- [Psilocybin](@/alkaloids/psilocybin.md) - Snizuje amygdalární reaktivitu
+- [LSD](@/alkaloids/lsd.md) - Modulace strachu
+- [DMT](@/alkaloids/dmt.md) - Emoční zpracování
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Hippocampus](/brain/hippocampus/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Hippocampus](@/brain/hippocampus.md) ->

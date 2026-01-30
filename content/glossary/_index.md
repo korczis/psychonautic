@@ -43,7 +43,7 @@ Pojmy tykajici se bunecnych receptoru a signalnich drah.
 
 | Pojem | Definice | Souvisejici obsah |
 |-------|----------|-------------------|
-| [Receptor](/glossary/receptor/) | Proteinova struktura vazici ligandy | [Receptory](/receptors/), [5-HT2A](/receptors/5-ht2a/) |
+| [Receptor](@/glossary/receptor.md) | Proteinova struktura vazici ligandy | [Receptory](@/receptors/_index.md), [5-HT2A](@/receptors/5-ht2a.md) |
 | Agonista | Latka aktivujici receptor | Psilocin, muscimol |
 | Antagonista | Latka blokujici receptor | Ketanserin |
 | Alostericka modulace | Zmena aktivity vazebneho mista | Benzodiazepiny |
@@ -74,9 +74,9 @@ Endogenni signalni molekuly nervoveho systemu.
 
 | Pojem | Definice | Souvisejici obsah |
 |-------|----------|-------------------|
-| [GABA](/glossary/gaba/) | Hlavni inhibicni neurotransmiter | [GABA-A](/receptors/gaba-a/), [Muscimol](/alkaloids/muscimol/) |
-| Serotonin (5-HT) | Modulacni neurotransmiter | [5-HT2A](/receptors/5-ht2a/), psychedelika |
-| Glutamat | Hlavni excitacni neurotransmiter | [NMDA](/receptors/nmda/), plasticita |
+| [GABA](@/glossary/gaba.md) | Hlavni inhibicni neurotransmiter | [GABA-A](@/receptors/gaba-a.md), [Muscimol](@/alkaloids/muscimol.md) |
+| Serotonin (5-HT) | Modulacni neurotransmiter | [5-HT2A](@/receptors/5-ht2a.md), psychedelika |
+| Glutamat | Hlavni excitacni neurotransmiter | [NMDA](@/receptors/nmda.md), plasticita |
 | Dopamin | Neurotransmiter odmeny | D2 receptory, LSD |
 | Acetylcholin | Neurotransmiter motoriky a kognice | Muskarinove receptory |
 
@@ -103,8 +103,8 @@ Zakladni chemicke a biochemicke terminy.
 
 | Pojem | Definice | Souvisejici obsah |
 |-------|----------|-------------------|
-| [Fosfat](/glossary/fosfat/) | Funkcni skupina PO4 | ATP, fosforylace |
-| [Nukleotid](/glossary/nukleotid/) | Stavebni jednotka DNA/RNA | [Nukleotidy](/nucleotids/), cAMP |
+| [Fosfat](@/glossary/fosfat.md) | Funkcni skupina PO4 | ATP, fosforylace |
+| [Nukleotid](@/glossary/nukleotid.md) | Stavebni jednotka DNA/RNA | [Nukleotidy](@/nucleotids/_index.md), cAMP |
 | Aminokyselina | Stavebni jednotka proteinu | Tryptofan (prekurzor) |
 | Enzym | Biologicky katalyzator | MAO, CYP450 |
 | Koenzym | Pomocna molekula enzymu | NAD+, PLP (B6) |
@@ -227,9 +227,9 @@ NAZEV POJMU
 
 | Uroven | Postup | Cil |
 |--------|--------|-----|
-| **Zacinajici** | Zacnete s [Receptor](/glossary/receptor/) a [GABA](/glossary/gaba/) | Pochopit zakladni signalizaci |
-| **Pokrocily** | Prostudujte [Fosfat](/glossary/fosfat/) a [Nukleotid](/glossary/nukleotid/) | Pochopit energeticky metabolismus |
-| **Expert** | Kombinujte s [Receptory](/receptors/) a [Alkaloidy](/alkaloids/) | Integrovane znalosti |
+| **Zacinajici** | Zacnete s [Receptor](@/glossary/receptor.md) a [GABA](@/glossary/gaba.md) | Pochopit zakladni signalizaci |
+| **Pokrocily** | Prostudujte [Fosfat](@/glossary/fosfat.md) a [Nukleotid](@/glossary/nukleotid.md) | Pochopit energeticky metabolismus |
+| **Expert** | Kombinujte s [Receptory](@/receptors/_index.md) a [Alkaloidy](@/alkaloids/_index.md) | Integrovane znalosti |
 
 ---
 
@@ -239,21 +239,21 @@ NAZEV POJMU
 
 | Sekce | Relevantni pojmy | Odkaz |
 |-------|------------------|-------|
-| **Alkaloidy** | Tryptamin, indol, fenethylamin, SAR | [Alkaloidy](/alkaloids/) |
-| **Receptory** | Receptor, agonista, GPCR, ionotropni | [Receptory](/receptors/) |
-| **Houby** | Biosynteza, metabolity, potence | [Houby](/shrooms/) |
-| **Nukleotidy** | Nukleotid, fosfat, ATP, cAMP | [Nukleotidy](/nucleotids/) |
-| **Neurotoxiny** | NMDA, excitotoxicita, neurodegenerace | [Neurotoxiny](/neurotoxins/) |
-| **Mozek** | Neurotransmiter, kortex, synapse | [Mozek](/brain/) |
-| **Okruhy** | DMN, signalizace, plasticita | [Okruhy](/circuits/) |
+| **Alkaloidy** | Tryptamin, indol, fenethylamin, SAR | [Alkaloidy](@/alkaloids/_index.md) |
+| **Receptory** | Receptor, agonista, GPCR, ionotropni | [Receptory](@/receptors/_index.md) |
+| **Houby** | Biosynteza, metabolity, potence | [Houby](@/shrooms/_index.md) |
+| **Nukleotidy** | Nukleotid, fosfat, ATP, cAMP | [Nukleotidy](@/nucleotids/_index.md) |
+| **Neurotoxiny** | NMDA, excitotoxicita, neurodegenerace | [Neurotoxiny](@/neurotoxins/_index.md) |
+| **Mozek** | Neurotransmiter, kortex, synapse | [Mozek](@/brain/_index.md) |
+| **Okruhy** | DMN, signalizace, plasticita | [Okruhy](@/circuits/_index.md) |
 
 ### Receptorove krizove reference
 
 | Glosarovy pojem | Souvisejici receptor | Psychoaktivni latka |
 |-----------------|---------------------|---------------------|
-| [GABA](/glossary/gaba/) | [GABA-A](/receptors/gaba-a/) | [Muscimol](/alkaloids/muscimol/) |
-| Serotonin | [5-HT2A](/receptors/5-ht2a/) | [LSD](/alkaloids/lsd/), [Psilocin](/alkaloids/psilocin/) |
-| Glutamat | [NMDA](/receptors/nmda/) | [Kys. ibotenova](/neurotoxins/ibotenic-acid/) |
+| [GABA](@/glossary/gaba.md) | [GABA-A](@/receptors/gaba-a.md) | [Muscimol](@/alkaloids/muscimol.md) |
+| Serotonin | [5-HT2A](@/receptors/5-ht2a.md) | [LSD](@/alkaloids/lsd.md), [Psilocin](@/alkaloids/psilocin.md) |
+| Glutamat | [NMDA](@/receptors/nmda.md) | [Kys. ibotenova](@/neurotoxins/ibotenic-acid.md) |
 
 ---
 
@@ -360,10 +360,10 @@ Abecedni seznam vsech definovanych pojmu v glosari:
 
 | Pojem | Definice | Kategorie |
 |-------|----------|-----------|
-| [Fosfat](/glossary/fosfat/) | Chemicka skupina PO4, klicova pro energeticky metabolismus | Biochemie |
-| [GABA](/glossary/gaba/) | Hlavni inhibicni neurotransmiter CNS | Neurotransmiter |
-| [Nukleotid](/glossary/nukleotid/) | Stavebni jednotka nukleovych kyselin a energetickych molekul | Biochemie |
-| [Receptor](/glossary/receptor/) | Proteinova struktura rozeznávajici a vazici specificke molekuly | Molekularni biologie |
+| [Fosfat](@/glossary/fosfat.md) | Chemicka skupina PO4, klicova pro energeticky metabolismus | Biochemie |
+| [GABA](@/glossary/gaba.md) | Hlavni inhibicni neurotransmiter CNS | Neurotransmiter |
+| [Nukleotid](@/glossary/nukleotid.md) | Stavebni jednotka nukleovych kyselin a energetickych molekul | Biochemie |
+| [Receptor](@/glossary/receptor.md) | Proteinova struktura rozeznávajici a vazici specificke molekuly | Molekularni biologie |
 
 ---
 
@@ -405,26 +405,26 @@ Kazde heslo splnuje nasledujici kriteria:
 
 ### Hlavni sekce encyklopedie
 
-- [Alkaloidy](/alkaloids/) - Psychoaktivni alkaloidy a jejich chemie
-- [Receptory](/receptors/) - Neurotransmiterove receptory
-- [Houby](/shrooms/) - Psychoaktivni houby
-- [Nukleotidy](/nucleotids/) - Energeticke a signalni molekuly
-- [Neurotoxiny](/neurotoxins/) - Neurotoxicke latky
-- [Mozek](/brain/) - Neuroanatomie
-- [Okruhy](/circuits/) - Neuronalni site
+- [Alkaloidy](@/alkaloids/_index.md) - Psychoaktivni alkaloidy a jejich chemie
+- [Receptory](@/receptors/_index.md) - Neurotransmiterove receptory
+- [Houby](@/shrooms/_index.md) - Psychoaktivni houby
+- [Nukleotidy](@/nucleotids/_index.md) - Energeticke a signalni molekuly
+- [Neurotoxiny](@/neurotoxins/_index.md) - Neurotoxicke latky
+- [Mozek](@/brain/_index.md) - Neuroanatomie
+- [Okruhy](@/circuits/_index.md) - Neuronalni site
 
 ### Specificke stranky
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil klasickych psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Cil GABAergních latek
-- [NMDA receptor](/receptors/nmda/) - Cil disociativ a excitotoxicka signalizace
-- [LSD](/alkaloids/lsd/) - Nejpotentnejsi psychedelikum
-- [Psilocybin](/alkaloids/psilocybin/) - Houbove psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista z Amanita muscaria
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil klasickych psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil GABAergních latek
+- [NMDA receptor](@/receptors/nmda.md) - Cil disociativ a excitotoxicka signalizace
+- [LSD](@/alkaloids/lsd.md) - Nejpotentnejsi psychedelikum
+- [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista z Amanita muscaria
 
 ---
 
-<- Zpet na [Hlavni stranku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)
 
 ---
 

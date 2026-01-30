@@ -140,9 +140,9 @@ Kniha inspirovala:
 
 | Látka | Ki (nM) | Relativní potence |
 |-------|---------|-------------------|
-| [LSD](/alkaloids/lsd/) | 1-2 | **Nejvyšší** |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | Vysoká |
-| [DMT](/alkaloids/dmt/) | 75-130 | Střední |
+| [LSD](@/alkaloids/lsd.md) | 1-2 | **Nejvyšší** |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | Vysoká |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | Střední |
 | **Meskalin** | 5000-6000 | **Nízká** |
 
 **Poznámka**: Meskalin má nejnižší afinitu k 5-HT2A ze všech klasických psychedelik, což vysvětluje vysoké dávky potřebné pro účinek.
@@ -246,7 +246,7 @@ Renální eliminace
 
 ### Srovnání s tryptaminy
 
-| Aspekt | Meskalin | [LSD](/alkaloids/lsd/)/[Psilocybin](/alkaloids/psilocybin/) |
+| Aspekt | Meskalin | [LSD](@/alkaloids/lsd.md)/[Psilocybin](@/alkaloids/psilocybin.md) |
 |--------|----------|---------------------------------------------|
 | **Nástup** | Pomalý (2 h) | Rychlý (30-60 min) |
 | **Trvání** | 8-12 h | 4-12 h |
@@ -435,9 +435,9 @@ Meskalin
 ---
 
 Viz také:
-- [LSD](/alkaloids/lsd/) - ergolinové psychedelikum
-- [Psilocybin](/alkaloids/psilocybin/) - tryptaminové psychedelikum
-- [DMT](/alkaloids/dmt/) - "Spirit Molecule"
-- [Muscimol](/alkaloids/muscimol/) - GABAergní psychoaktivum
+- [LSD](@/alkaloids/lsd.md) - ergolinové psychedelikum
+- [Psilocybin](@/alkaloids/psilocybin.md) - tryptaminové psychedelikum
+- [DMT](@/alkaloids/dmt.md) - "Spirit Molecule"
+- [Muscimol](@/alkaloids/muscimol.md) - GABAergní psychoaktivum
 
-← Zpět na [Alkaloidy](/alkaloids/) | [LSD](/alkaloids/lsd/) | [DMT](/alkaloids/dmt/) →
+← Zpět na [Alkaloidy](@/alkaloids/_index.md) | [LSD](@/alkaloids/lsd.md) | [DMT](@/alkaloids/dmt.md) →

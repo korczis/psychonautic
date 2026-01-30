@@ -113,13 +113,13 @@ N   C--N                   N   C--N
 
 | Nukleotid | Baze | Funkce v CNS |
 |-----------|------|--------------|
-| [ATP](/nucleotids/atp/) | Adenin | Energeticka mena, neurotransmiter |
-| [ADP](/nucleotids/adp/) | Adenin | Substat fosforylace, signalizace |
-| [AMP](/nucleotids/amp/) | Adenin | Signalni molekula, prekurzor adenosinu |
-| [cAMP](/nucleotids/camp/) | Adenin | Druhy posel, genova exprese |
-| [GTP](/nucleotids/gtp/) | Guanin | G-proteinova signalizace |
-| [GDP](/nucleotids/gdp/) | Guanin | G-proteinovy cyklus |
-| [GMP](/nucleotids/gmp/) | Guanin | Metabolit, prekurzor cGMP |
+| [ATP](@/nucleotids/atp.md) | Adenin | Energeticka mena, neurotransmiter |
+| [ADP](@/nucleotids/adp.md) | Adenin | Substat fosforylace, signalizace |
+| [AMP](@/nucleotids/amp.md) | Adenin | Signalni molekula, prekurzor adenosinu |
+| [cAMP](@/nucleotids/camp.md) | Adenin | Druhy posel, genova exprese |
+| [GTP](@/nucleotids/gtp.md) | Guanin | G-proteinova signalizace |
+| [GDP](@/nucleotids/gdp.md) | Guanin | G-proteinovy cyklus |
+| [GMP](@/nucleotids/gmp.md) | Guanin | Metabolit, prekurzor cGMP |
 
 #### Pyrimidiny (jednokruhove baze)
 
@@ -165,14 +165,14 @@ URACIL (2,4-dioxopyrimidin):     THYMIN (5-methyl-uracil):
 
 | Nukleotid | Baze | Funkce v CNS |
 |-----------|------|--------------|
-| [CTP](/nucleotids/ctp/) | Cytosin | Synteza fosfolipidu |
-| [CDP](/nucleotids/cdp/) | Cytosin | Lipidovy metabolismus |
-| [CMP](/nucleotids/cmp/) | Cytosin | Metabolit |
-| [UTP](/nucleotids/utp/) | Uracil | RNA synteza, signalizace |
-| [UMP](/nucleotids/ump/) | Uracil | Metabolit |
-| [TTP](/nucleotids/ttp/) | Thymin | DNA synteza |
-| [TDP](/nucleotids/tdp/) | Thymin | Kofaktor enzymu |
-| [TMP](/nucleotids/tmp/) | Thymin | Metabolit |
+| [CTP](@/nucleotids/ctp.md) | Cytosin | Synteza fosfolipidu |
+| [CDP](@/nucleotids/cdp.md) | Cytosin | Lipidovy metabolismus |
+| [CMP](@/nucleotids/cmp.md) | Cytosin | Metabolit |
+| [UTP](@/nucleotids/utp.md) | Uracil | RNA synteza, signalizace |
+| [UMP](@/nucleotids/ump.md) | Uracil | Metabolit |
+| [TTP](@/nucleotids/ttp.md) | Thymin | DNA synteza |
+| [TDP](@/nucleotids/tdp.md) | Thymin | Kofaktor enzymu |
+| [TMP](@/nucleotids/tmp.md) | Thymin | Metabolit |
 
 ### Srovnavaci tabulka vlastnosti
 
@@ -325,7 +325,7 @@ EXTRACELULARNI         MEMBRANA          INTRACELULARNI
 
 ### cAMP (cyklicky adenosinmonofosfat)
 
-[cAMP](/nucleotids/camp/) je nejlepe prostudovany druhy posel v nervovem systemu:
+[cAMP](@/nucleotids/camp.md) je nejlepe prostudovany druhy posel v nervovem systemu:
 
 ```
 SYNTEZA A DEGRADACE cAMP
@@ -781,41 +781,41 @@ Nukleotidove systemy predstavuji zajimavy cil pro:
 
 | Nukleotid | Funkce | Signalni role |
 |-----------|--------|---------------|
-| [ATP](/nucleotids/atp/) | Energeticka mena, neurotransmiter | P2X/P2Y aktivace |
-| [ADP](/nucleotids/adp/) | Substat pro fosforylaci | P2Y1/P2Y12 signalizace |
-| [AMP](/nucleotids/amp/) | Signalni molekula | AMPK aktivace |
-| [cAMP](/nucleotids/camp/) | Druhy posel | PKA/CREB/Epac |
+| [ATP](@/nucleotids/atp.md) | Energeticka mena, neurotransmiter | P2X/P2Y aktivace |
+| [ADP](@/nucleotids/adp.md) | Substat pro fosforylaci | P2Y1/P2Y12 signalizace |
+| [AMP](@/nucleotids/amp.md) | Signalni molekula | AMPK aktivace |
+| [cAMP](@/nucleotids/camp.md) | Druhy posel | PKA/CREB/Epac |
 
 ### Guanosinove nukleotidy
 
 | Nukleotid | Funkce | Signalni role |
 |-----------|--------|---------------|
-| [GTP](/nucleotids/gtp/) | G-proteinova signalizace | Molekularni prepinac |
-| [GDP](/nucleotids/gdp/) | G-proteinovy cyklus | Inaktivni stav G-proteinu |
-| [GMP](/nucleotids/gmp/) | Metabolit | Prekurzor cGMP |
+| [GTP](@/nucleotids/gtp.md) | G-proteinova signalizace | Molekularni prepinac |
+| [GDP](@/nucleotids/gdp.md) | G-proteinovy cyklus | Inaktivni stav G-proteinu |
+| [GMP](@/nucleotids/gmp.md) | Metabolit | Prekurzor cGMP |
 
 ### Cytidinove nukleotidy
 
 | Nukleotid | Funkce |
 |-----------|--------|
-| [CTP](/nucleotids/ctp/) | Synteza fosfolipidu |
-| [CDP](/nucleotids/cdp/) | Lipidovy metabolismus |
-| [CMP](/nucleotids/cmp/) | Metabolit |
+| [CTP](@/nucleotids/ctp.md) | Synteza fosfolipidu |
+| [CDP](@/nucleotids/cdp.md) | Lipidovy metabolismus |
+| [CMP](@/nucleotids/cmp.md) | Metabolit |
 
 ### Uridinove nukleotidy
 
 | Nukleotid | Funkce |
 |-----------|--------|
-| [UTP](/nucleotids/utp/) | RNA synteza, P2Y signalizace |
-| [UMP](/nucleotids/ump/) | Metabolit |
+| [UTP](@/nucleotids/utp.md) | RNA synteza, P2Y signalizace |
+| [UMP](@/nucleotids/ump.md) | Metabolit |
 
 ### Thymidinové nukleotidy
 
 | Nukleotid | Funkce |
 |-----------|--------|
-| [TTP](/nucleotids/ttp/) | DNA synteza |
-| [TDP](/nucleotids/tdp/) | Kofaktor enzymu |
-| [TMP](/nucleotids/tmp/) | Metabolit |
+| [TTP](@/nucleotids/ttp.md) | DNA synteza |
+| [TDP](@/nucleotids/tdp.md) | Kofaktor enzymu |
+| [TMP](@/nucleotids/tmp.md) | Metabolit |
 
 ---
 
@@ -882,10 +882,10 @@ Nukleotidove systemy predstavuji zajimavy cil pro:
 
 ## Souvisejici sekce
 
-- [Receptory](/receptors/) - Neurotransmiterove receptory
-- [Alkaloidy](/alkaloids/) - Psychoaktivni alkaloidy
-- [Glosar](/glossary/) - Definice pojmu
-- [Mozek](/brain/) - Neuroanatomie
+- [Receptory](@/receptors/_index.md) - Neurotransmiterove receptory
+- [Alkaloidy](@/alkaloids/_index.md) - Psychoaktivni alkaloidy
+- [Glosar](@/glossary/_index.md) - Definice pojmu
+- [Mozek](@/brain/_index.md) - Neuroanatomie
 
 ---
 

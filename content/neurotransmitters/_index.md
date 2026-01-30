@@ -14,7 +14,7 @@ Sekce venujici se neurotransmiterum - chemickym poslum nervove soustavy a jejich
 
 ## Hlavni neurotransmitery
 
-- [Serotonin](/glossary/serotonin/) - 5-hydroxytryptamin, klicovy pro psychedelika
-- [GABA](/glossary/gaba/) - Hlavni inhibicni neurotransmiter
-- [Glutamat](/glossary/glutamate/) - Hlavni excitacni neurotransmiter
-- [Dopamin](/glossary/dopamin/) - Neurotransmiter odmeny
+- [Serotonin](@/glossary/serotonin.md) - 5-hydroxytryptamin, klicovy pro psychedelika
+- [GABA](@/glossary/gaba.md) - Hlavni inhibicni neurotransmiter
+- [Glutamat](@/glossary/glutamate.md) - Hlavni excitacni neurotransmiter
+- [Dopamin](@/glossary/dopamin.md) - Neurotransmiter odmeny

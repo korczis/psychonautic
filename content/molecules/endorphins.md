@@ -332,18 +332,18 @@ EVIDENCE:
 ## Viz take
 
 ### Receptory
-- [Opioidni receptory](/receptors/opioid/) - Mu, Delta, Kappa
-- [Sigma-1 receptor](/receptors/sigma-1/) - Neprime interakce
+- [Opioidni receptory](@/receptors/opioid.md) - Mu, Delta, Kappa
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Neprime interakce
 
 ### Souvisejici latky
-- [Ibogain](/alkaloids/ibogaine/) - Kappa aktivita
-- [Salvinorin A](/alkaloids/salvinorin/) - Silny kappa agonista
-- [Ketamin](/alkaloids/ketamin/) - Slaba opioidni aktivita
+- [Ibogain](@/alkaloids/ibogaine.md) - Kappa aktivita
+- [Salvinorin A](@/alkaloids/salvinorin.md) - Silny kappa agonista
+- [Ketamin](@/alkaloids/ketamin.md) - Slaba opioidni aktivita
 
 ### Stavy
-- [Bolest](/conditions/pain/) - Analgeticka funkce
-- [Zavislost](/conditions/addiction/) - Reward system
+- [Bolest](@/conditions/pain.md) - Analgeticka funkce
+- [Zavislost](@/conditions/addiction.md) - Reward system
 
 ---
 
-<- Zpet na [Molekuly](/molecules/)
+<- Zpet na [Molekuly](@/molecules/_index.md)

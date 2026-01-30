@@ -375,13 +375,13 @@ Salvinorin A se pouziva jako:
 ## Krizove odkazy
 
 ### Souvisejici temata
-- [Kappa opioidni receptor](/receptors/opioid/) - Molekularni cil
-- [Disociativa](/classes/dissociatives/) - Fenomenologicka trida
-- [DMT](/alkaloids/dmt/) - Srovnani s tryptaminy
+- [Kappa opioidni receptor](@/receptors/opioid.md) - Molekularni cil
+- [Disociativa](@/classes/dissociatives.md) - Fenomenologicka trida
+- [DMT](@/alkaloids/dmt.md) - Srovnani s tryptaminy
 
 ### Mechanismy
-- [Endorfiny](/molecules/endorphins/) - Endogenni opioidni system
+- [Endorfiny](@/molecules/endorphins.md) - Endogenni opioidni system
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Opioidni receptory](/receptors/opioid/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [DMT](@/alkaloids/dmt.md) | [Opioidni receptory](@/receptors/opioid.md)

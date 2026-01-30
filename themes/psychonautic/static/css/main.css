@@ -780,3 +780,819 @@ a:hover {
 .dark ::-webkit-scrollbar-thumb:hover {
     background: var(--color-gray-500);
 }
+
+/* ==================== Mermaid Diagrams ==================== */
+
+/* Diagram container */
+.mermaid-diagram {
+    position: relative;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.mermaid-diagram:hover {
+    border-color: var(--color-primary-400);
+}
+
+/* Render area */
+.mermaid-diagram__render {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mermaid-diagram__render svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Controls bar */
+.mermaid-diagram__controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-color);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.mermaid-diagram:hover .mermaid-diagram__controls {
+    opacity: 1;
+}
+
+.mermaid-diagram__export,
+.mermaid-diagram__fullscreen {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.mermaid-diagram__export:hover,
+.mermaid-diagram__fullscreen:hover {
+    color: var(--color-primary-700);
+    background: var(--color-primary-50);
+    border-color: var(--color-primary-300);
+}
+
+.dark .mermaid-diagram__export:hover,
+.dark .mermaid-diagram__fullscreen:hover {
+    color: var(--color-primary-400);
+    background: rgba(34, 197, 94, 0.1);
+    border-color: var(--color-primary-700);
+}
+
+.mermaid-diagram__export svg,
+.mermaid-diagram__fullscreen svg {
+    flex-shrink: 0;
+}
+
+/* Fullscreen mode */
+.mermaid-diagram--fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 2rem;
+}
+
+.mermaid-diagram--fullscreen .mermaid-diagram__render {
+    flex: 1;
+    align-items: center;
+}
+
+.mermaid-diagram--fullscreen .mermaid-diagram__controls {
+    opacity: 1;
+    flex-shrink: 0;
+}
+
+/* Error state */
+.mermaid-diagram--error {
+    border-color: #ef4444;
+}
+
+.mermaid-diagram__error {
+    padding: 1rem;
+}
+
+.mermaid-diagram__error-header {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #ef4444;
+    margin-bottom: 0.75rem;
+}
+
+.mermaid-diagram__error-code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.8125rem;
+    padding: 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--text-secondary);
+}
+
+.mermaid-diagram__error-message {
+    font-size: 0.75rem;
+    color: #ef4444;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Caption */
+.mermaid-caption {
+    display: block;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-top: -0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .mermaid-diagram {
+        padding: 1rem;
+        margin: 1rem -0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .mermaid-diagram__render {
+        min-height: 80px;
+    }
+
+    .mermaid-diagram__controls {
+        opacity: 1;
+    }
+}
+
+/* Loading state (before Mermaid renders) */
+.mermaid-source {
+    display: none;
+}
+
+/* Print styles for diagrams */
+@media print {
+    .mermaid-diagram {
+        break-inside: avoid;
+        border: 1px solid #d1d5db;
+        box-shadow: none;
+    }
+
+    .mermaid-diagram__controls {
+        display: none;
+    }
+
+    .mermaid-diagram--fullscreen {
+        position: static;
+    }
+}
+
+/* ==================== Sortable Table Styles ==================== */
+
+/* Table container */
+.sortable-table-container {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* Table header */
+.table-title {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Controls bar styling */
+.table-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+}
+
+/* Search input improvements */
+.table-controls input[type="search"] {
+    min-width: 250px;
+}
+
+/* Control buttons */
+.table-controls button {
+    transition: all 0.2s ease-in-out;
+}
+
+.table-controls button:hover {
+    transform: translateY(-1px);
+}
+
+/* Table wrapper improvements */
+.table-wrapper {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dark .table-wrapper {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced table styling */
+.sortable-table-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Table header enhancements */
+.sortable-table-container thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--color-primary-200);
+}
+
+.dark .sortable-table-container thead th {
+    border-bottom-color: var(--color-primary-800);
+}
+
+/* Sortable column indicators */
+.sortable-table-container thead th.cursor-pointer:hover {
+    background-color: var(--color-primary-50);
+}
+
+.dark .sortable-table-container thead th.cursor-pointer:hover {
+    background-color: var(--color-primary-900);
+}
+
+/* Table row enhancements */
+.sortable-table-container tbody tr {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sortable-table-container tbody tr:nth-child(even) {
+    background-color: var(--color-gray-50);
+}
+
+.dark .sortable-table-container tbody tr:nth-child(even) {
+    background-color: rgba(55, 65, 81, 0.3);
+}
+
+/* Cell styling */
+.sortable-table-container td {
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+}
+
+/* Badge and code styling improvements */
+.sortable-table-container code {
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .table-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .table-controls > div {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .table-controls input[type="search"] {
+        min-width: 100%;
+    }
+
+    .sortable-table-container thead th,
+    .sortable-table-container tbody td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .sortable-table-container {
+        margin: 1rem -1rem;
+    }
+
+    .table-wrapper {
+        border-radius: 0;
+        margin: 0 -1rem;
+    }
+
+    .sortable-table-container thead th,
+    .sortable-table-container tbody td {
+        padding: 0.375rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Table loading state */
+.table-loading {
+    position: relative;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.table-loading::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.dark .table-loading::after {
+    background: rgba(15, 23, 42, 0.7);
+}
+
+/* Pagination enhancements */
+.sortable-table-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.sortable-table-container nav button {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--border-color);
+    min-width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sortable-table-container nav button:not(:disabled):hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter and export dropdown improvements */
+.table-controls .relative > div {
+    min-width: 200px;
+}
+
+/* No results state styling */
+.sortable-table-container .text-center.py-8 {
+    padding: 3rem 1rem;
+    background: var(--bg-primary);
+    border: 2px dashed var(--border-color);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+/* Column visibility indicators */
+.sortable-table-container th.hidden,
+.sortable-table-container td.hidden {
+    display: none;
+}
+
+/* Sort direction indicators */
+.sortable-table-container .text-primary-600 {
+    color: var(--color-primary-600);
+}
+
+.dark .sortable-table-container .text-primary-600 {
+    color: var(--color-primary-400);
+}
+
+/* ==================== FLOWBITE INTEGRATION & ADVANCED TABLES ==================== */
+
+/* Flowbite table base styles with theme integration */
+.flowbite-table {
+    width: 100%;
+    font-size: 0.875rem;
+    text-align: left;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+}
+
+.flowbite-table thead {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.flowbite-table thead th {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.flowbite-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.15s ease;
+}
+
+.flowbite-table tbody tr:hover {
+    background-color: var(--bg-secondary);
+}
+
+.flowbite-table tbody td {
+    padding: 1rem 1.5rem;
+    color: var(--text-primary);
+}
+
+/* Advanced table variants */
+.table-striped tbody tr:nth-child(even) {
+    background-color: var(--bg-tertiary);
+}
+
+.table-bordered {
+    border: 1px solid var(--border-color);
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid var(--border-color);
+}
+
+.table-compact thead th,
+.table-compact tbody td {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+/* Table actions and controls */
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.table-search {
+    position: relative;
+}
+
+.table-search input {
+    display: block;
+    width: 16rem;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.table-search input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
+    border-color: var(--color-primary-500);
+}
+
+.table-search-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    color: var(--text-tertiary);
+}
+
+/* Sortable table headers */
+.table-sortable th {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.table-sortable th:hover {
+    background-color: var(--bg-tertiary);
+}
+
+.table-sortable th.sort-asc::after,
+.table-sortable th.sort-desc::after {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    content: '';
+    width: 0;
+    height: 0;
+    transform: translateY(-50%);
+}
+
+.table-sortable th.sort-asc::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--text-secondary);
+}
+
+.table-sortable th.sort-desc::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid var(--text-secondary);
+}
+
+/* Pagination controls */
+.table-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.table-pagination-info {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.table-pagination-controls {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.table-pagination-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s, color 0.2s;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.table-pagination-btn:hover:not(.disabled) {
+    background-color: var(--color-primary-500);
+    color: white;
+}
+
+.table-pagination-btn.active {
+    background-color: var(--color-primary-600);
+    color: white;
+}
+
+.table-pagination-btn.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Table filters */
+.table-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.table-filter-btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s, color 0.2s;
+    background-color: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.table-filter-btn:hover {
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-700);
+}
+
+.table-filter-btn.active {
+    background-color: var(--color-primary-500);
+    color: white;
+}
+
+/* Dark mode specific overrides for Flowbite */
+.dark .table-filter-btn:hover {
+    background-color: var(--color-primary-800);
+    color: var(--color-primary-300);
+}
+
+/* Table status badges */
+.table-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.table-badge.status-active {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.table-badge.status-inactive {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.table-badge.status-error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Dark mode badge overrides */
+.dark .table-badge.status-active {
+    background-color: #14532d;
+    color: #86efac;
+}
+
+.dark .table-badge.status-inactive {
+    background-color: #451a03;
+    color: #fbbf24;
+}
+
+.dark .table-badge.status-error {
+    background-color: #7f1d1d;
+    color: #fca5a5;
+}
+
+/* Interactive table features */
+.table-row-selectable {
+    cursor: pointer;
+}
+
+.table-row-selected {
+    background-color: var(--color-primary-50) !important;
+}
+
+.dark .table-row-selected {
+    background-color: var(--color-primary-900) !important;
+}
+
+/* Dark mode adjustments for tables */
+.dark .table-container {
+    scrollbar-color: var(--color-gray-600) var(--color-gray-800);
+}
+
+.dark .table-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.dark .table-container::-webkit-scrollbar-track {
+    background: var(--color-gray-800);
+}
+
+.dark .table-container::-webkit-scrollbar-thumb {
+    background: var(--color-gray-600);
+    border-radius: 4px;
+}
+
+.dark .table-container::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gray-500);
+}
+
+/* No results state */
+.table-no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+}
+
+/* Export button styling */
+.table-export-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.table-export-button:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--color-primary-600);
+}
+
+.dark .table-export-button {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.dark .table-export-button:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--color-primary-400);
+}
+
+/* Responsive table adjustments */
+@media (max-width: 768px) {
+    .table-search input {
+        width: 100%;
+    }
+
+    .table-header {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: stretch;
+    }
+
+    .table-pagination {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .flowbite-table thead th,
+    .flowbite-table tbody td {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+    }
+
+    /* Enhanced mobile table scrolling */
+    .table-container {
+        max-width: 100vw;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-container table {
+        min-width: 600px;
+    }
+}
+
+/* Touch-friendly interactive elements */
+@media (hover: none) and (pointer: coarse) {
+    /* Mobile/tablet - make buttons larger */
+    .table-sort-button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    /* Better touch targets for search */
+    .table-search input {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        font-size: 1rem;
+    }
+
+    /* Better filter dropdowns on touch devices */
+    .table-filter select {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        font-size: 1rem;
+    }
+}
+
+/* Table accessibility improvements */
+.table-sort-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3b82f6, 0 0 0 4px white;
+}

@@ -6,7 +6,7 @@ weight = 1
 
 # Psilocybin - O-fosforyl-4-hydroxy-DMT
 
-**Psilocybin** je psychoaktivni alkaloid nalezajici se v [houbach rodu Psilocybe](/shrooms/psilocybes/) a dalsich rodech. Jedna se o **prodrug** [psilocinu](/alkaloids/psilocin/), ktery po defosforylaci pusobi jako serotoninovy agonista na [5-HT2A receptorech](/receptors/5-ht2a/).
+**Psilocybin** je psychoaktivni alkaloid nalezajici se v [houbach rodu Psilocybe](@/shrooms/psilocybes/_index.md) a dalsich rodech. Jedna se o **prodrug** [psilocinu](@/alkaloids/psilocin.md), ktery po defosforylaci pusobi jako serotoninovy agonista na [5-HT2A receptorech](@/receptors/5-ht2a.md).
 
 Tato latka predstavuje jednu z nejintenzivneji zkoumanycch psychedelickych sloucenin v modernich klinickych studii, s prukopnickymi vysledky v lecbe rezistentni deprese, PTSD a zavislosti.
 
@@ -29,7 +29,7 @@ Tato latka predstavuje jednu z nejintenzivneji zkoumanycch psychedelickych slouc
 
 ### Strukturni klasifikace
 
-- **Skupina**: [Tryptaminy](/alkaloids/)
+- **Skupina**: [Tryptaminy](@/alkaloids/_index.md)
 - **Podskupina**: 4-substituovane tryptaminy
 - **Biosynteza**: Z tryptofanu pres 4-hydroxytryptofan
 - **Strukturni motiv**: Indolovy kruh s fosforylovou skupinou
@@ -163,10 +163,10 @@ Psilocybin -> [Alkalicka fosfataza] -> Psilocin -> 5-HT2A receptor
 
 | Receptor | Ki (nM) | Ucinek | Funkce |
 |----------|---------|--------|--------|
-| **[5-HT2A](/receptors/5-ht2a/)** | 6-20 | Silny agonista | Hlavni psychoaktivni ucinek |
+| **[5-HT2A](@/receptors/5-ht2a.md)** | 6-20 | Silny agonista | Hlavni psychoaktivni ucinek |
 | **5-HT2B** | 4-10 | Agonista | Kardiovaskularni (chronicka expozice) |
 | **5-HT2C** | 40-100 | Castecny agonista | Modulace nalady, anxieta |
-| **[5-HT1A](/receptors/5-ht1a/)** | 190-600 | Castecny agonista | Anxiolyticky efekt |
+| **[5-HT1A](@/receptors/5-ht1a.md)** | 190-600 | Castecny agonista | Anxiolyticky efekt |
 | **5-HT1B** | >1000 | Slaba afinita | Minimalni |
 | **5-HT1D** | >1000 | Slaba afinita | Minimalni |
 | **5-HT6** | 57 | Agonista | Kognitivni modulace |
@@ -279,7 +279,7 @@ Psilocin -> [UGT1A9] -> Psilocin-N-glukuronid (minoritni)
 
 Psilocybin/psilocin indukuji expresi neurotrofinů:
 
-| Faktor | Zmena | Casový pruběh | Oblast [mozku](/brain/) |
+| Faktor | Zmena | Casový pruběh | Oblast [mozku](@/brain/_index.md) |
 |--------|-------|---------------|-------------------------|
 | **BDNF** | +200-400% | 24-72 h | Prefrontalni kortex, hippocampus |
 | **NGF** | +50-100% | 12-48 h | Kortex |
@@ -505,9 +505,9 @@ Studie na zvírecích modelech a lidských neuronech in vitro ukazuji:
 
 | Druh | Psilocybin (% susiny) | Psilocin (% susiny) | Celkovy obsah |
 |------|----------------------|---------------------|---------------|
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0.98% | 0.02% | 1.00% |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0.98% | 0.02% | 1.00% |
 | P. azurescens | 1.78% | 0.38% | 2.16% |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0.14-0.42% | 0.01-0.02% | 0.15-0.44% |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0.14-0.42% | 0.01-0.02% | 0.15-0.44% |
 | P. cyanescens | 0.85% | 0.36% | 1.21% |
 | P. baeocystis | 0.85% | 0.59% | 1.44% |
 | P. tampanensis | 0.68% | 0.32% | 1.00% |
@@ -724,19 +724,96 @@ Psilocybin
 
 ---
 
-## Viz take
+## Detailni mechanismy ucinku
 
-- [Psilocin](/alkaloids/psilocin/) - aktivni metabolit
-- [Baeocystin](/alkaloids/baeocystin/) - pribuzný alkaloid
-- [Norbaeocystin](/alkaloids/norbaeocystin/) - prekurzor
-- [Psilocybes](/shrooms/psilocybes/) - výskyt v houbách
-- [5-HT2A receptor](/receptors/5-ht2a/) - cilovy receptor
-- [5-HT1A receptor](/receptors/5-ht1a/) - sekundarni cil
-- [Mozek](/brain/) - neuralni substraty
-- [Serotonin](/neurotransmitters/serotonin/) - endogenni ligand
-- [DMT](/alkaloids/dmt/) - strukturne pribuzny alkaloid
-- [LSD](/alkaloids/lsd/) - funkcne podobne psychedelikum
+Pro hlubsi studium molekularnich mechanismu ucinku psilocybinu viz sekce [Mechanismy ucinku](@/mechanisms/_index.md):
+
+### Receptorova kinetika a vazba
+
+Psilocin (aktivni metabolit) se vaze na [5-HT2A receptor](@/receptors/5-ht2a.md) s Ki = 6-20 nM. Kineticke parametry vazby:
+
+| Parametr | Hodnota | Srovnani s LSD |
+|----------|---------|----------------|
+| **Ki (5-HT2A)** | 6-20 nM | LSD: 1-2 nM |
+| **kon** | ~10^6 M^-1 s^-1 | Stredni |
+| **koff** | ~10^-2 s^-1 | Rychlejsi nez LSD |
+| **Rezidencni cas** | ~100 s | LSD: >1000 s (lid) |
+| **Receptor occupancy (30 mg)** | ~60-75% | PET data (Madsen 2019) |
+
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md)
+
+### Signalni kaskada
+
+```
+Psilocin + 5-HT2A
+        |
+        v
+    Gq/11 aktivace (50-200 ms)
+        |
+        v
+    PLCbeta -> IP3 + DAG
+        |           |
+        v           v
+    Ca2+ z ER    PKC -> ERK1/2
+        |               |
+        v               v
+    CaMKII          CREB fosforylace (15-60 min)
+        |               |
+        v               v
+    Genova exprese: BDNF (+200-400%), Arc, c-Fos, EGR1
+        |
+        v
+    mTOR -> Dendriticky rust, synaptogeneze (24-72 h)
+```
+
+Bias faktor: Psilocin vykazuje vyvazenou signalizaci Gq vs beta-arrestin (na rozdil od LSD, ktere preferuje Gq).
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md)
+
+### Farmakokinetiko-farmakodynamicke vztahy
+
+```
+PSILOCYBIN PK-PD PROFIL
+
+Plazma (psilocin)              Ucinek (VAS)
+    ^                              ^
+    |   Tmax=1-1.5h               |    Peak
+    |    /\                       |   _____
+    |   /  \                      |  /     \
+    |  /    \__                   | /       \___
+    | /        \___               |/            \___
+    |/             \___           +                 \___
+    +----+----+----+---->         +----+----+----+----+-->
+    0    2    4    6    h         0    2    4    6    h
+
+ED50: 15-20 mg (Emax model)
+Hillovy koeficient: 1.5-2.0
+Terapeuticky index: >100
+```
+
+Hystereze: Psilocybin vykazuje minimalni PK-PD hysterezi diky rychle konverzi na psilocin (ALP defosforylace, t1/2 konverze = 15-30 min).
+
+Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | Dalsi: [Psilocin](/alkaloids/psilocin/)
+## Viz take
+
+- [Psilocin](@/alkaloids/psilocin.md) - aktivni metabolit
+- [Baeocystin](@/alkaloids/baeocystin.md) - pribuzny alkaloid
+- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - prekurzor
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - vyskyt v houbach
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - cilovy receptor
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - sekundarni cil
+- [Mozek](@/brain/_index.md) - neuralni substraty
+- [Serotonin](@/neurotransmitters/serotonin.md) - endogenni ligand
+- [DMT](@/alkaloids/dmt.md) - strukturne pribuzny alkaloid
+- [LSD](@/alkaloids/lsd.md) - funkcne podobne psychedelikum
+- [Mechanismy ucinku](@/mechanisms/_index.md) - molekularni mechanismy
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - signalni kaskady
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - farmakokinetika a farmakodynamika
+
+---
+
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | Dalsi: [Psilocin](@/alkaloids/psilocin.md)

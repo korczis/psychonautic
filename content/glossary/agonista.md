@@ -11,7 +11,7 @@ tags = ["agonista", "receptor", "farmakologie", "afinita", "eficacia", "dose-res
 
 # Agonista - Aktivator receptorove odpovedi
 
-**Agonista** je latka (ligand), ktera se vaze na [receptor](/glossary/receptor/) a **aktivuje jej**, cimz spousti biologickou odpoved. Na rozdil od antagonistu, kteri pouze blokuji vazebne misto, agoniste vyvolavaji konformacni zmenu receptoru vedouci k signalni transdukci. Agoniste jsou zakladem ucinkuĺ vetsiny psychoaktivnich latek vcetne [psychedelik](/alkaloids/), [GABAergních latek](/glossary/gaba/) a opioidnich analgetik.
+**Agonista** je latka (ligand), ktera se vaze na [receptor](@/glossary/receptor.md) a **aktivuje jej**, cimz spousti biologickou odpoved. Na rozdil od antagonistu, kteri pouze blokuji vazebne misto, agoniste vyvolavaji konformacni zmenu receptoru vedouci k signalni transdukci. Agoniste jsou zakladem ucinkuĺ vetsiny psychoaktivnich latek vcetne [psychedelik](@/alkaloids/_index.md), [GABAergních latek](@/glossary/gaba.md) a opioidnich analgetik.
 
 ---
 
@@ -76,8 +76,8 @@ Odpoved
 
 | Typ | Vnitrni aktivita (α) | Maximalní odpoved | Priklady |
 |-----|---------------------|-------------------|----------|
-| **Plny agonista** | α = 1.0 | 100% Emax | Serotonin, [muscimol](/alkaloids/muscimol/), morfin |
-| **Parcialni agonista** | 0 < α < 1.0 | Submaximalní | [Psilocin](/alkaloids/psilocin/), buprenorfin, aripiprazol |
+| **Plny agonista** | α = 1.0 | 100% Emax | Serotonin, [muscimol](@/alkaloids/muscimol.md), morfin |
+| **Parcialni agonista** | 0 < α < 1.0 | Submaximalní | [Psilocin](@/alkaloids/psilocin.md), buprenorfin, aripiprazol |
 | **Inverzni agonista** | α < 0 | Negativni (pod bazal) | Flumazenil, pimavanserin, DMCM |
 | **Superagonista** | α > 1.0 | > endogenni ligand | Nektera synteticka psychedelika |
 
@@ -132,15 +132,15 @@ PRIKLADY PLNYCH AGONISTU:
 
 ### Priklady u psychoaktivnich latek
 
-#### [Muscimol](/alkaloids/muscimol/) - Plny GABA-A agonista
+#### [Muscimol](@/alkaloids/muscimol.md) - Plny GABA-A agonista
 
 | Parametr | Hodnota |
 |----------|---------|
-| **Receptor** | [GABA-A](/receptors/gaba-a/) |
+| **Receptor** | [GABA-A](@/receptors/gaba-a.md) |
 | **Vnitrni aktivita** | α ≈ 1.0 |
 | **Efekt** | Maximalni Cl⁻ influx, hyperpolarizace |
 | **Klinicky projev** | Silna sedace, delirium, halucinace |
-| **Zdroj** | [Amanita muscaria](/shrooms/amanita-muscaria/) |
+| **Zdroj** | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 
 ---
 
@@ -211,14 +211,14 @@ Odpoved
 
 | Latka | Receptor | α | Klinické pouziti |
 |-------|----------|---|------------------|
-| [**Psilocin**](/alkaloids/psilocin/) | [5-HT2A](/receptors/5-ht2a/) | 0.4-0.6 | Psychedelicka terapie |
-| [**LSD**](/alkaloids/lsd/) | [5-HT2A](/receptors/5-ht2a/) | 0.7-0.9 | (výzkum, psychoterapie) |
+| [**Psilocin**](@/alkaloids/psilocin.md) | [5-HT2A](@/receptors/5-ht2a.md) | 0.4-0.6 | Psychedelicka terapie |
+| [**LSD**](@/alkaloids/lsd.md) | [5-HT2A](@/receptors/5-ht2a.md) | 0.7-0.9 | (výzkum, psychoterapie) |
 | **Buprenorfin** | mu-opioidni | 0.4-0.6 | Substitucni lecba opioidni zavislosti |
 | **Aripiprazol** | D2 | 0.3 | Schizofrenie (stabilizace dopaminu) |
 | **Buspiron** | 5-HT1A | 0.6 | Anxiolytikum |
 | **Vareniclin** | α4β2 nAChR | 0.4 | Odvykani koureni |
 
-#### [Psilocin](/alkaloids/psilocin/) jako parcialni agonista
+#### [Psilocin](@/alkaloids/psilocin.md) jako parcialni agonista
 
 ```
 PSILOCIN NA 5-HT2A RECEPTORU
@@ -300,7 +300,7 @@ Aktivita
 | Latka | Receptor | Ucinek | Pouziti |
 |-------|----------|--------|---------|
 | **Flumazenil** | GABA-A (BZ site) | Snizuje bazalni potenciaci | Antidotum benzodiazepinu |
-| **Pimavanserin** | [5-HT2A](/receptors/5-ht2a/) | Snizuje bazalni signalizaci | Parkinsonske psychozy |
+| **Pimavanserin** | [5-HT2A](@/receptors/5-ht2a.md) | Snizuje bazalni signalizaci | Parkinsonske psychozy |
 | **DMCM** | GABA-A | Silny inverzni agonista | Vyzkum (konvulzivní!) |
 | **Rimonabant** | CB1 | Snizuje kanabinoidni tonus | (stazeno - psychiatricke NÚ) |
 
@@ -564,17 +564,17 @@ ZÁVER: LSD a psilocin jsou "Gq-biased" agonisté → halucinogenní
 
 | Latka | Receptor | Typ agonismu | Ucinek |
 |-------|----------|--------------|--------|
-| [**LSD**](/alkaloids/lsd/) | [5-HT2A](/receptors/5-ht2a/), 5-HT1A, D2 | Parcialni-plny | Psychedelicky |
-| [**Psilocin**](/alkaloids/psilocin/) | [5-HT2A](/receptors/5-ht2a/), 5-HT1A | Parcialni | Psychedelicky |
-| [**DMT**](/alkaloids/dmt/) | [5-HT2A](/receptors/5-ht2a/), sigma-1 | Parcialni | Psychedelicky |
-| [**Meskalin**](/alkaloids/mescaline/) | [5-HT2A](/receptors/5-ht2a/) | Parciální | Psychedelicky |
+| [**LSD**](@/alkaloids/lsd.md) | [5-HT2A](@/receptors/5-ht2a.md), 5-HT1A, D2 | Parcialni-plny | Psychedelicky |
+| [**Psilocin**](@/alkaloids/psilocin.md) | [5-HT2A](@/receptors/5-ht2a.md), 5-HT1A | Parcialni | Psychedelicky |
+| [**DMT**](@/alkaloids/dmt.md) | [5-HT2A](@/receptors/5-ht2a.md), sigma-1 | Parcialni | Psychedelicky |
+| [**Meskalin**](@/alkaloids/mescaline.md) | [5-HT2A](@/receptors/5-ht2a.md) | Parciální | Psychedelicky |
 | **MDMA** | 5-HT uvolnení | (nepřímy) | Entaktogenní |
 
 ### GABAergni system
 
 | Latka | Receptor | Typ agonismu | Ucinek |
 |-------|----------|--------------|--------|
-| [**Muscimol**](/alkaloids/muscimol/) | [GABA-A](/receptors/gaba-a/) | Plny | Sedace, delirium |
+| [**Muscimol**](@/alkaloids/muscimol.md) | [GABA-A](@/receptors/gaba-a.md) | Plny | Sedace, delirium |
 | **GABA** | GABA-A, GABA-B | Plny (endogenni) | Inhibice |
 | **Baclofen** | GABA-B | Plny | Myorelaxace |
 | **GHB** | GABA-B, GHB-R | Plny | Sedace, euforie |
@@ -583,8 +583,8 @@ ZÁVER: LSD a psilocin jsou "Gq-biased" agonisté → halucinogenní
 
 | Latka | Receptor | Typ agonismu | Ucinek |
 |-------|----------|--------------|--------|
-| **Glutamat** | [NMDA](/receptors/nmda/), AMPA | Plny (endogenni) | Excitace |
-| [**Kys. ibotenova**](/neurotoxins/ibotenic-acid/) | NMDA, mGluR | Agonista | Excitotoxicita |
+| **Glutamat** | [NMDA](@/receptors/nmda.md), AMPA | Plny (endogenni) | Excitace |
+| [**Kys. ibotenova**](@/neurotoxins/ibotenic-acid.md) | NMDA, mGluR | Agonista | Excitotoxicita |
 
 ### Opioidni system
 
@@ -668,25 +668,25 @@ Inverzní:   Pimavanserin (5-HT2A), DMCM (GABA-A), Rimonabant (CB1)
 ## Viz take
 
 ### Zakladni pojmy
-- [Receptor](/glossary/receptor/) - Molekularni brána bunecne komunikace
-- [GABA](/glossary/gaba/) - Hlavni inhibicni neurotransmiter
+- [Receptor](@/glossary/receptor.md) - Molekularni brána bunecne komunikace
+- [GABA](@/glossary/gaba.md) - Hlavni inhibicni neurotransmiter
 
 ### Specificke receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil klasickych psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Cil GABAergních latek (muscimol)
-- [NMDA receptor](/receptors/nmda/) - Glutamatergni receptor
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil klasickych psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil GABAergních latek (muscimol)
+- [NMDA receptor](@/receptors/nmda.md) - Glutamatergni receptor
 
 ### Psychoaktivni latky (agoniste)
-- [LSD](/alkaloids/lsd/) - Potentni 5-HT2A parcialni agonista
-- [Psilocybin](/alkaloids/psilocybin/) / [Psilocin](/alkaloids/psilocin/) - Tryptaminova psychedelika
-- [DMT](/alkaloids/dmt/) - Endogenni psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - Plny GABA-A agonista
-- [Meskalin](/alkaloids/mescaline/) - Fenethylaminovy 5-HT2A agonista
+- [LSD](@/alkaloids/lsd.md) - Potentni 5-HT2A parcialni agonista
+- [Psilocybin](@/alkaloids/psilocybin.md) / [Psilocin](@/alkaloids/psilocin.md) - Tryptaminova psychedelika
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - Plny GABA-A agonista
+- [Meskalin](@/alkaloids/mescaline.md) - Fenethylaminovy 5-HT2A agonista
 
 ### Zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)

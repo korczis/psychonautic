@@ -384,18 +384,18 @@ KETAMIN, PCP (NMDA blokada):
 ## Viz take
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - Kontraindikovan u psychozy
-- [LSD](/alkaloids/lsd/) - Kontraindikovan u psychozy
-- [Ketamin](/alkaloids/ketamin/) - NMDA antagonista
+- [Psilocybin](@/alkaloids/psilocybin.md) - Kontraindikovan u psychozy
+- [LSD](@/alkaloids/lsd.md) - Kontraindikovan u psychozy
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA antagonista
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cil psychedelik
-- [NMDA receptor](/receptors/nmda/) - Glutamatova hypoteza
-- [D2 receptor](/receptors/dopamine/) - Cil antipsychotik
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cil psychedelik
+- [NMDA receptor](@/receptors/nmda.md) - Glutamatova hypoteza
+- [D2 receptor](@/receptors/dopamine.md) - Cil antipsychotik
 
 ### Souvisejici stavy
-- [Deprese](/conditions/depression/) - Indikace pro psychedelika (na rozdil od schizofrenie)
+- [Deprese](@/conditions/depression.md) - Indikace pro psychedelika (na rozdil od schizofrenie)
 
 ---
 
-<- Zpet na [Stavy a poruchy](/conditions/)
+<- Zpet na [Stavy a poruchy](@/conditions/_index.md)

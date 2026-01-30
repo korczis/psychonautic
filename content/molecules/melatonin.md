@@ -11,7 +11,7 @@ tags = ["melatonin", "cirkadianní", "spánek", "pinealní", "serotonin", "DMT",
 
 # Melatonin - Hormon noci a cirkadiannich rytmu
 
-**Melatonin** (N-acetyl-5-methoxytryptamin) je hormon produkovaný primarne **pinealní zlazou** (šišinkou) v reakci na tmu. Reguluje cirkadianní rytmy, spanek a má antioxidacni vlastnosti. Melatonin je strukturne pribuzny [serotoninu](/glossary/serotonin/) a [DMT](/alkaloids/dmt/) - vsechny tri latky jsou derivaty tryptofanu.
+**Melatonin** (N-acetyl-5-methoxytryptamin) je hormon produkovaný primarne **pinealní zlazou** (šišinkou) v reakci na tmu. Reguluje cirkadianní rytmy, spanek a má antioxidacni vlastnosti. Melatonin je strukturne pribuzny [serotoninu](@/glossary/serotonin.md) a [DMT](@/alkaloids/dmt.md) - vsechny tri latky jsou derivaty tryptofanu.
 
 ---
 
@@ -92,7 +92,7 @@ N-ACETYLSEROTONIN
      v
 MELATONIN
 
-Viz: [Biosynteza serotoninu](/biosynthesis/serotonin/)
+Viz: [Biosynteza serotoninu](@/biosynthesis/serotonin.md)
 ```
 
 ### Regulace syntézy
@@ -188,7 +188,7 @@ Svetlo      Tma         Svetlo
 
 ### Pinealní zlaza a DMT
 
-Rick Strassman popularizoval hypotézu, ze pinealní zlaza produkuje [DMT](/alkaloids/dmt/):
+Rick Strassman popularizoval hypotézu, ze pinealní zlaza produkuje [DMT](@/alkaloids/dmt.md):
 
 ```
 STRASSMANOVA HYPOTEZA
@@ -330,16 +330,16 @@ Anekdotalne je melatonin spojovan se zivymi/lucidnimi sny:
 ## Viz take
 
 ### Biosynteza
-- [Biosynteza serotoninu](/biosynthesis/serotonin/) - Prekurzorova draha
-- [Biosynteza DMT](/biosynthesis/dmt/) - Alternativni draha
+- [Biosynteza serotoninu](@/biosynthesis/serotonin.md) - Prekurzorova draha
+- [Biosynteza DMT](@/biosynthesis/dmt.md) - Alternativni draha
 
 ### Molekuly
-- [Serotonin](/glossary/serotonin/) - Prekurzor melatoninu
-- [DMT](/alkaloids/dmt/) - Strukturne pribuzny
+- [Serotonin](@/glossary/serotonin.md) - Prekurzor melatoninu
+- [DMT](@/alkaloids/dmt.md) - Strukturne pribuzny
 
 ### Anatomie
 - Pinealní zlaza - Misto produkce
 
 ---
 
-<- Zpet na [Molekuly](/molecules/)
+<- Zpet na [Molekuly](@/molecules/_index.md)

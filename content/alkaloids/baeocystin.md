@@ -6,7 +6,7 @@ weight = 4
 
 # Baeocystin - N-monometyl-psilocybin
 
-**Baeocystin** je psychoaktivní alkaloid strukturne pribuzny [psilocybinu](/alkaloids/psilocybin/). Jedna se o **demetylovaný analog** - obsahuje pouze jednu metylovou skupinu na dusíku místo dvou. Vyskytuje se jako minor alkaloid v [psilocybinových houbách](/shrooms/psilocybes/).
+**Baeocystin** je psychoaktivní alkaloid strukturne pribuzny [psilocybinu](@/alkaloids/psilocybin.md). Jedna se o **demetylovaný analog** - obsahuje pouze jednu metylovou skupinu na dusíku místo dvou. Vyskytuje se jako minor alkaloid v [psilocybinových houbách](@/shrooms/psilocybes/_index.md).
 
 ## Historie objevu
 
@@ -137,9 +137,9 @@ Nazev **baeocystin** je odvozen od druhu *Psilocybe baeocystis*, ve kterem byl p
 | Sloučenina | N-substituce | Molekulární hmotnost | Náboj |
 |------------|--------------|---------------------|-------|
 | **Baeocystin** | N-CH₃ (mono) | 270,22 g/mol | 0 |
-| [Psilocybin](/alkaloids/psilocybin/) | N-(CH₃)₂ (di) | 284,25 g/mol | 0 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | N-(CH₃)₂ (di) | 284,25 g/mol | 0 |
 | Norbaeocystin | N-H (žádná) | 256,19 g/mol | 0 |
-| [Psilocin](/alkaloids/psilocin/) | N-(CH₃)₂ (di) | 204,27 g/mol | 0 |
+| [Psilocin](@/alkaloids/psilocin.md) | N-(CH₃)₂ (di) | 204,27 g/mol | 0 |
 | Norpsilocin | N-CH₃ (mono) | 190,24 g/mol | 0 |
 | Aeruginascin | N-(CH₃)₃⁺ (tri) | 298,27 g/mol | +1 |
 
@@ -360,14 +360,14 @@ Nemecky mykolog **Jochen Gartz** provedl jednu z mala kontrolovanych studii:
 
 | Druh | Baeocystin (% sušiny) | Psilocybin (% sušiny) | Poměr Bae:Psi |
 |------|----------------------|----------------------|---------------|
-| [*P. semilanceata*](/shrooms/psilocybes/semilanceata/) | **0,36%** | 0,98% | 1:2,7 |
-| [*P. azurescens*](/shrooms/psilocybes/azurescens/) | 0,35% | 1,78% | 1:5,1 |
+| [*P. semilanceata*](@/shrooms/psilocybes/semilanceata.md) | **0,36%** | 0,98% | 1:2,7 |
+| [*P. azurescens*](@/shrooms/psilocybes/azurescens.md) | 0,35% | 1,78% | 1:5,1 |
 | *P. baeocystis* | 0,25% | 0,85% | 1:3,4 |
-| [*P. cyanescens*](/shrooms/psilocybes/cyanescens/) | 0,02-0,03% | 0,85% | 1:28-42 |
-| [*P. cubensis*](/shrooms/psilocybes/cubensis/) | 0,01-0,05% | 0,14-0,42% | 1:8-40 |
-| [*P. bohemica*](/shrooms/psilocybes/bohemica/) | 0,08% | 0,11% | 1:1,4 |
+| [*P. cyanescens*](@/shrooms/psilocybes/cyanescens.md) | 0,02-0,03% | 0,85% | 1:28-42 |
+| [*P. cubensis*](@/shrooms/psilocybes/cubensis.md) | 0,01-0,05% | 0,14-0,42% | 1:8-40 |
+| [*P. bohemica*](@/shrooms/psilocybes/bohemica.md) | 0,08% | 0,11% | 1:1,4 |
 | *P. stuntzii* | 0,04% | 0,36% | 1:9 |
-| [*P. mexicana*](/shrooms/psilocybes/mexicana/) | stopy | 0,25% | < 1:25 |
+| [*P. mexicana*](@/shrooms/psilocybes/mexicana.md) | stopy | 0,25% | < 1:25 |
 | *P. tampanensis* | 0,01% | 0,68% | 1:68 |
 | *Panaeolus cyanescens* | stopy | 0,70% | < 1:70 |
 
@@ -748,9 +748,9 @@ Vyšší obsah baeocystinu může indikovat:
 ---
 
 Viz také:
-- [Psilocybin](/alkaloids/psilocybin/) - hlavní alkaloid
-- [Psilocin](/alkaloids/psilocin/) - aktivní metabolit
-- [Psilocybes](/shrooms/psilocybes/) - houby s obsahem baeocystinu
-- [Muscimol](/alkaloids/muscimol/) - jiný typ alkaloidu
+- [Psilocybin](@/alkaloids/psilocybin.md) - hlavní alkaloid
+- [Psilocin](@/alkaloids/psilocin.md) - aktivní metabolit
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - houby s obsahem baeocystinu
+- [Muscimol](@/alkaloids/muscimol.md) - jiný typ alkaloidu
 
-<- Zpet na [Alkaloidy](/alkaloids/) | [Psilocybin](/alkaloids/psilocybin/) | [Psilocin](/alkaloids/psilocin/) ->
+<- Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) | [Psilocin](@/alkaloids/psilocin.md) ->

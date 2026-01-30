@@ -6,7 +6,7 @@ weight = 6
 
 # 5-MeO-DMT - 5-Methoxy-N,N-dimethyltryptamin
 
-**5-MeO-DMT** je extremne potentni psychedelicky tryptamin, casto oznacovany jako **"God Molecule"** (Molekula Boha). Na rozdil od [DMT](/alkaloids/dmt/), ktere produkuje bohatou vizualni fenomenologii, 5-MeO-DMT indukuje prevazne **nedualistni, transcendentni zazitky** charakterizovane uplnou ego disoluci a pocitem sjednoceni s vesmirem.
+**5-MeO-DMT** je extremne potentni [psychedelicky](@/glossary/psychedelikum.md) [tryptamin](@/glossary/tryptamin.md), casto oznacovany jako **"God Molecule"** (Molekula Boha). Na rozdil od [DMT](@/alkaloids/dmt.md), ktere produkuje bohatou vizualni fenomenologii, 5-MeO-DMT indukuje prevazne **nedualistni, transcendentni zazitky** charakterizovane uplnou ego disoluci a pocitem sjednoceni s vesmirem.
 
 ---
 
@@ -30,9 +30,9 @@ weight = 6
 | Sloucenina | Pozice 4 | Pozice 5 | N-substituenty | Relativni potence |
 |------------|----------|----------|----------------|-------------------|
 | **5-MeO-DMT** | H | OCH3 | N(CH3)2 | **4-6x** |
-| [DMT](/alkaloids/dmt/) | H | H | N(CH3)2 | 1x (reference) |
-| [Psilocin](/alkaloids/psilocin/) | OH | H | N(CH3)2 | 0.8x |
-| [Bufotenin](/alkaloids/bufotenin/) | H | OH | N(CH3)2 | 0.3x |
+| [DMT](@/alkaloids/dmt.md) | H | H | N(CH3)2 | 1x (reference) |
+| [Psilocin](@/alkaloids/psilocin.md) | OH | H | N(CH3)2 | 0.8x |
+| [Bufotenin](@/alkaloids/bufotenin.md) | H | OH | N(CH3)2 | 0.3x |
 | **5-MeO-MiPT** | H | OCH3 | N(CH3)(iPr) | 0.5x |
 
 ### Strukturni diagram
@@ -83,7 +83,7 @@ weight = 6
 | **Oblast vyskytu** | Sonorska poust (Arizona, Mexiko) |
 | **Zdroj sekretu** | Parotidni zlavy |
 | **Obsah 5-MeO-DMT** | 10-15% suche hmotnosti |
-| **Dalsi alkaloidy** | [Bufotenin](/alkaloids/bufotenin/) (5-HO-DMT), bufotoxiny |
+| **Dalsi alkaloidy** | [Bufotenin](@/alkaloids/bufotenin.md) (5-HO-DMT), bufotoxiny |
 | **Ochrana** | Regulovano v Arizona |
 
 #### Slozeni sekretu Bufo alvarius
@@ -113,26 +113,26 @@ weight = 6
 | Druh | Obsah (%) | Poznamka |
 |------|-----------|----------|
 | **Psilocybe subaeruginosa** | Stopy | Australie |
-| **Psilocybe azurescens** | Stopy | USA (PNW) |
+| [**Psilocybe azurescens**](@/shrooms/psilocybes/azurescens.md) | Stopy | USA (PNW) |
 
 ---
 
 ## Farmakologie
 
-### Receptorovy profil
+### [Receptorovy](@/glossary/receptor.md) profil
 
-| Receptor | Ki (nM) | Ucinek | Vyznam |
+| [Receptor](@/glossary/receptor.md) | Ki (nM) | Ucinek | Vyznam |
 |----------|---------|--------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | 3-10 | Plny agonista | **Primarni psychoaktivni** |
-| [**5-HT1A**](/receptors/5-ht1a/) | 5-30 | Plny agonista | **Anxiolyticke, sjednocujici** |
-| [**5-HT2C**](/receptors/5-ht2c/) | 50-200 | Agonista | Modulace |
-| **5-HT2B** | 100-400 | Agonista | Kardiovaskularni |
-| [**Sigma-1**](/receptors/sigma-1/) | 2,000+ | Slaba afinita | Minimalni |
-| **TAAR1** | 5,000+ | Agonista | Modulace |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | 3-10 | Plny [agonista](@/glossary/agonista.md) | **Primarni psychoaktivni** |
+| [**5-HT1A**](@/receptors/5-ht1a.md) | 5-30 | Plny [agonista](@/glossary/agonista.md) | **Anxiolyticke, sjednocujici** |
+| [**5-HT2C**](@/receptors/5-ht2c.md) | 50-200 | [Agonista](@/glossary/agonista.md) | Modulace |
+| [**5-HT2B**](@/receptors/5-ht2b.md) | 100-400 | [Agonista](@/glossary/agonista.md) | Kardiovaskularni |
+| [**Sigma-1**](@/receptors/sigma-1.md) | 2,000+ | Slaba afinita | Minimalni |
+| [**TAAR1**](@/receptors/taar1.md) | 5,000+ | [Agonista](@/glossary/agonista.md) | Modulace |
 
 ### Srovnani s DMT
 
-| Parametr | 5-MeO-DMT | [DMT](/alkaloids/dmt/) |
+| Parametr | 5-MeO-DMT | [DMT](@/alkaloids/dmt.md) |
 |----------|-----------|------------------------|
 | **5-HT2A Ki** | 3-10 nM | 75-130 nM |
 | **5-HT1A Ki** | 5-30 nM | 1000+ nM |
@@ -180,9 +180,9 @@ weight = 6
     Anxiolyticke, sjednocujici ucinky
 ```
 
-### Dual 5-HT2A/5-HT1A aktivace
+### Dual [5-HT2A](@/receptors/5-ht2a.md)/[5-HT1A](@/receptors/5-ht1a.md) aktivace
 
-Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru:
+Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou [receptoru](@/glossary/receptor.md):
 
 | Receptor | Ucinek | Fenomenologicky prispevek |
 |----------|--------|--------------------------|
@@ -191,7 +191,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 
 ---
 
-## Farmakokinetika
+## [Farmakokinetika](@/glossary/farmakokinetika.md)
 
 ### Srovnani cest podani
 
@@ -208,7 +208,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 ```
 5-MeO-DMT
     |
-    +--[MAO-A]--> 5-Methoxyindolacetaldehyd
+    +--[[MAO](@/glossary/mao.md)-A]--> 5-Methoxyindolacetaldehyd
     |                    |
     |                    v [ALDH]
     |             5-Methoxyindoloctova kyselina
@@ -280,7 +280,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 
 ### Srovnani fenomenologie
 
-| Aspekt | 5-MeO-DMT | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/) |
+| Aspekt | 5-MeO-DMT | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md) |
 |--------|-----------|---------|------------|
 | **Vizualy** | Minimalni (bily plamen) | Velmi bohaté | Bohaté |
 | **Entity** | Vzacne (5-10%) | Caste (50%+) | Stredne caste |
@@ -291,7 +291,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 
 ### Mysticke zazitky (MEQ skore)
 
-| Dimenze | 5-MeO-DMT | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/) |
+| Dimenze | 5-MeO-DMT | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md) |
 |---------|-----------|---------|------------|
 | **Jednota** | **95%** | 85% | 75% |
 | **Transcendence casu** | **95%** | 90% | 70% |
@@ -307,7 +307,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 
 | Studie | Indikace | N | Vysledek |
 |--------|----------|---|----------|
-| **Davis et al. 2020** | Deprese, uzkost | 362 (retrospektivni) | 80% zlepseni |
+| **Davis et al. 2020** | [Deprese](@/conditions/depression.md), uzkost | 362 (retrospektivni) | 80% zlepseni |
 | **Uthaug et al. 2019** | Wellbeing | 42 | Zvysena spokojenost |
 | **Psyche et al. 2023** | TRD | Faze I | Pokracuje |
 
@@ -318,7 +318,7 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 | **Ego disoluce** | Narušeni rigidních vzorcu mysleni |
 | **Mysticky zazitek** | Koreluje s trvalymi zmenami |
 | **5-HT1A aktivace** | Anxiolyticke ucinky |
-| **Neuroplasticita** | BDNF elevace |
+| **[Neuroplasticita](@/glossary/neuroplasticita.md)** | [BDNF](@/molecules/bdnf.md) elevace |
 | **Reconnection** | Zvysena konektivita mozku |
 
 ---
@@ -340,9 +340,9 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 
 - Kardiovaskularni onemocneni
 - Nerizena hypertenze
-- Anamneza psychozy/schizofrenie
+- Anamneza psychozy/[schizofrenie](@/conditions/schizophrenia.md)
 - Aktualni uzivani MAOI
-- Aktualni uzivani SSRI/SNRI
+- Aktualni uzivani SSRI/SNRI ([serotonin](@/glossary/serotonin.md) modulatory)
 
 #### Relativni
 
@@ -356,8 +356,8 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou receptoru
 | Latka | Riziko | Mechanismus |
 |-------|--------|-------------|
 | **MAOI** | Zivot ohrozujici | Mnohanasobna potenciace |
-| **SSRI/SNRI** | Serotonin syndrom | 5-HT toxicita |
-| **Tramadol** | Serotonin syndrom | SERT inhibice |
+| **SSRI/SNRI** | [Serotonin syndrom](@/conditions/serotonin-syndrome.md) | [5-HT](@/glossary/serotonin.md) toxicita |
+| **Tramadol** | [Serotonin syndrom](@/conditions/serotonin-syndrome.md) | SERT inhibice |
 | **Lithium** | Zachvaty | Neznamy |
 | **Stimulanty** | Kardiovaskularni | Sympatomimeticka sumace |
 
@@ -434,19 +434,19 @@ Hamilton Morris a dalsi odbornici doporucuji **syntetickou 5-MeO-DMT** jako etic
 ## Krizove odkazy
 
 ### Souvisejici alkaloidy
-- [DMT](/alkaloids/dmt/) - strukturne pribuzny, odlisna fenomenologie
-- [Psilocybin](/alkaloids/psilocybin/) - houby obsahujici tryptaminy
-- [Bufotenin](/alkaloids/bufotenin/) - 5-hydroxy-DMT
+- [DMT](@/alkaloids/dmt.md) - strukturne pribuzny, odlisna fenomenologie
+- [Psilocybin](@/alkaloids/psilocybin.md) - houby obsahujici tryptaminy
+- [Bufotenin](@/alkaloids/bufotenin.md) - 5-hydroxy-DMT
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - primarni psychedelicky cil
-- [5-HT1A](/receptors/5-ht1a/) - anxiolyticke ucinky
-- [Sigma-1](/receptors/sigma-1/) - neuroprotektivni funkce
+- [5-HT2A](@/receptors/5-ht2a.md) - primarni psychedelicky cil
+- [5-HT1A](@/receptors/5-ht1a.md) - anxiolyticke ucinky
+- [Sigma-1](@/receptors/sigma-1.md) - neuroprotektivni funkce
 
 ### Souvisejici temata
-- [MAOI](/pharmacology/maoi/) - inhibitory monoaminoxidazy
-- [Harm Reduction](/harm-reduction/) - zasady bezpecneho uzivani
+- [MAOI](@/pharmacology/maoi.md) - inhibitory monoaminoxidazy
+- [Harm Reduction](@/harm-reduction/_index.md) - zasady bezpecneho uzivani
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [DMT](/alkaloids/dmt/) | [Psilocybin](/alkaloids/psilocybin/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [DMT](@/alkaloids/dmt.md) | [Psilocybin](@/alkaloids/psilocybin.md)

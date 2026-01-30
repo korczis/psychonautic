@@ -6,7 +6,7 @@ weight = 4
 
 # Psilocybe cyanescens - Lysohlávka modravá
 
-**Psilocybe cyanescens**, známá jako **Wavy Cap** (vlnitá čepička), je vysoce potentní druh [psilocybinových hub](/shrooms/psilocybes/) s charakteristickým zvlněným okrajem klobouku. Tento lignikolní druh se stal jedním z nejrozšířenějších psychoaktivních hub mírného pásma díky své vazbě na zahradní mulč a dřevěné štěpky.
+**Psilocybe cyanescens**, známá jako **Wavy Cap** (vlnitá čepička), je vysoce potentní druh [psilocybinových hub](@/shrooms/psilocybes/_index.md) s charakteristickým zvlněným okrajem klobouku. Tento lignikolní druh se stal jedním z nejrozšířenějších psychoaktivních hub mírného pásma díky své vazbě na zahradní mulč a dřevěné štěpky.
 
 ## Taxonomie
 
@@ -17,7 +17,7 @@ weight = 4
 | Třída | Agaricomycetes |
 | Řád | Agaricales |
 | Čeleď | Hymenogastraceae |
-| Rod | [Psilocybe](/shrooms/psilocybes/) |
+| Rod | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | Druh | P. cyanescens |
 
 ### Taxonomická historie
@@ -146,8 +146,8 @@ Druh byl poprvé popsán britskou mykoložkou Elsie Wakefield v roce 1946 na zá
 
 | Alkaloid | Koncentrace (suchá hmotnost) | Poznámka |
 |----------|------------------------------|----------|
-| [Psilocybin](/alkaloids/psilocybin/) | 0,39-0,66% (průměr 0,50%) | Hlavní aktivní látka |
-| [Psilocin](/alkaloids/psilocin/) | 0,14-0,30% (průměr 0,20%) | Přímo aktivní metabolit |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 0,39-0,66% (průměr 0,50%) | Hlavní aktivní látka |
+| [Psilocin](@/alkaloids/psilocin.md) | 0,14-0,30% (průměr 0,20%) | Přímo aktivní metabolit |
 | Baeocystin | 0,02-0,03% | Minoritní alkaloid |
 | Norbaeocystin | stopy | Prekurzor baeocystinu |
 
@@ -157,10 +157,10 @@ Druh byl poprvé popsán britskou mykoložkou Elsie Wakefield v roce 1946 na zá
 
 | Druh | Celková potence | Relativně k P. cyanescens |
 |------|-----------------|---------------------------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | 1,78% | 2,1x silnější |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | 1,78% | 2,1x silnější |
 | **P. cyanescens** | **0,85%** | **referenční** |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0,98% | 1,15x silnější |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0,63% | 0,74x slabší |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0,98% | 1,15x silnější |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0,63% | 0,74x slabší |
 | P. subaeruginosa | 0,67% | 0,79x slabší |
 
 ### Faktory ovlivňující potenci
@@ -761,11 +761,11 @@ Zima (prosinec-únor):
 
 | Druh | Hlavní odlišení | Potence |
 |------|-----------------|---------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | Větší, výrazný centrální hrbek | Vyšší |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | Větší, výrazný centrální hrbek | Vyšší |
 | P. allenii | Menší, méně zvlněný okraj | Podobná |
 | P. subaeruginosa | Austrálie, subtilnější stavba | Nižší |
 | P. ovoideocystidiata | Východní USA, ovoidní cystidy | Podobná |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Kuželovitý klobouk, louky | Vyšší |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Kuželovitý klobouk, louky | Vyšší |
 
 ### Nebezpečné záměny
 
@@ -982,4 +982,4 @@ Fotografovat čerstvý řez v intervalech 0, 5, 15, 30 minut
 
 ---
 
-<- Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. azurescens](/shrooms/psilocybes/azurescens/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) ->
+<- Zpět na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. azurescens](@/shrooms/psilocybes/azurescens.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) ->

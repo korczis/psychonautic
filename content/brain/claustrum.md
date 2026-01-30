@@ -13,7 +13,7 @@ categories = ["neuroanatomie", "neuroveda", "psychedelika"]
 
 **Claustrum** (z latiny "zavreny prostor") je tenkka, vrstvovita struktura sedi hmoty umistena hluboko pod neokortexem, mezi inzulou a putamenem. Navzdory sve male velikosti ma rozsahle reciprocni spojeni s prakticky vsemi oblastmi mozkove kury.
 
-Claustrum je casto oznacovano jako potencialni "sede vedomi" nebo integrator kortikalni aktivity. V kontextu psychedelik je zvlaste zajimava, protoze vykazuje jednu z nejvyssich hustot [5-HT2A receptoru](/receptors/5-ht2a/) v mozku.
+Claustrum je casto oznacovano jako potencialni "sede vedomi" nebo integrator kortikalni aktivity. V kontextu psychedelik je zvlaste zajimava, protoze vykazuje jednu z nejvyssich hustot [5-HT2A receptoru](@/receptors/5-ht2a.md) v mozku.
 
 ---
 
@@ -130,7 +130,7 @@ INTERNEURON (Type II):
 
 ### Vysoka hustota receptoru
 
-Claustrum ma **jednu z nejvyssich hustot [5-HT2A receptoru](/receptors/5-ht2a/)** v celem mozku:
+Claustrum ma **jednu z nejvyssich hustot [5-HT2A receptoru](@/receptors/5-ht2a.md)** v celem mozku:
 
 | Oblast | Relativni hustota 5-HT2A |
 |--------|-------------------------|
@@ -213,21 +213,21 @@ Vlastnosti spojeni:
 
 | Oblast | Funkce spojeni |
 |--------|----------------|
-| **[Prefrontalni kortex](/brain/prefrontal-cortex/)** | Exekutivni, rozhodovani |
+| **[Prefrontalni kortex](@/brain/prefrontal-cortex.md)** | Exekutivni, rozhodovani |
 | **Inzula** | Interoceptivni, emocni |
-| **[Vizualni kortex](/brain/visual-cortex/)** | Zrakova integrace |
+| **[Vizualni kortex](@/brain/visual-cortex.md)** | Zrakova integrace |
 | **Senzomotoricky kortex** | Senzomotorická integrace |
 | **Cingularni kortex** | Pozornost, konflikt |
-| **[Amygdala](/brain/amygdala/)** | Emocni vstup |
-| **[Hippocampus](/brain/hippocampus/)** | Pamefovy kontext |
+| **[Amygdala](@/brain/amygdala.md)** | Emocni vstup |
+| **[Hippocampus](@/brain/hippocampus.md)** | Pamefovy kontext |
 
 ### Subkortikalni spojeni
 
 | Struktura | Typ spojeni |
 |-----------|-------------|
 | **Striatum** | Reciprocni |
-| **[Thalamus](/brain/thalamus/)** | Reciprocni (MD, pulvinar) |
-| **[Amygdala](/brain/amygdala/)** | Reciprocni |
+| **[Thalamus](@/brain/thalamus.md)** | Reciprocni (MD, pulvinar) |
+| **[Amygdala](@/brain/amygdala.md)** | Reciprocni |
 | **Claustrum kontralat.** | Komisurální |
 
 ---
@@ -422,7 +422,7 @@ Leze claustru jsou vzacne a obvykle zasahuji i okolni struktury:
 
 | Receptor | Exprese | Poznamka |
 |----------|---------|----------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Velmi vysoka | **Nejvyssi v mozku** |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Velmi vysoka | **Nejvyssi v mozku** |
 | **5-HT2C** | Stredni | Modulace |
 | **5-HT1A** | Nizka | - |
 
@@ -496,25 +496,25 @@ Leze claustru jsou vzacne a obvykle zasahuji i okolni struktury:
 ## Viz take
 
 ### Mozkové oblasti
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Exekutivni spojeni
-- [Vizualni kortex](/brain/visual-cortex/) - Vizualni integrace
-- [Thalamus](/brain/thalamus/) - Senzoricky relay
-- [Amygdala](/brain/amygdala/) - Emocni vstup
-- [Hippocampus](/brain/hippocampus/) - Pamef
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Exekutivni spojeni
+- [Vizualni kortex](@/brain/visual-cortex.md) - Vizualni integrace
+- [Thalamus](@/brain/thalamus.md) - Senzoricky relay
+- [Amygdala](@/brain/amygdala.md) - Emocni vstup
+- [Hippocampus](@/brain/hippocampus.md) - Pamef
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Nejvyssi hustota v claustru
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Nejvyssi hustota v claustru
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - 5-HT2A ligand
-- [Glutamát](/glossary/glutamat/) - Projekcni neurony
-- [GABA](/glossary/gaba/) - Interneurony
+- [Serotonin](@/glossary/serotonin.md) - 5-HT2A ligand
+- [Glutamát](@/glossary/glutamat.md) - Projekcni neurony
+- [GABA](@/glossary/gaba.md) - Interneurony
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Ego dissolution
-- [LSD](/alkaloids/lsd/) - Zmenena integrace
-- [DMT](/alkaloids/dmt/) - Intenzivni dezintegrace
+- [Psilocybin](@/alkaloids/psilocybin.md) - Ego dissolution
+- [LSD](@/alkaloids/lsd.md) - Zmenena integrace
+- [DMT](@/alkaloids/dmt.md) - Intenzivni dezintegrace
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Thalamus](/brain/thalamus/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Thalamus](@/brain/thalamus.md) ->

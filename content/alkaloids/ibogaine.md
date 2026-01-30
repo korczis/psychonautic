@@ -11,7 +11,7 @@ zdroje = ["Tabernanthe iboga", "Voacanga africana"]
 
 # Ibogain - Alkaloid prerusujici zavislost
 
-**Ibogain** je prirodni psychoaktivni alkaloid ziskavany predevsim z africke rostliny **Tabernanthe iboga**. Vyznacuje se unikatni schopnosti prerusovat zavislost na opioidech, kokainu a dalsich navykovych latkach. Mechanismus ucinku zahrnuje komplexni pusobeni na mnozstvi receptorovych systemu vcetne [NMDA](/receptors/nmda/), opioidnich a serotonergních receptoru.
+**Ibogain** je prirodni psychoaktivni alkaloid ziskavany predevsim z africke rostliny **Tabernanthe iboga**. Vyznacuje se unikatni schopnosti prerusovat zavislost na opioidech, kokainu a dalsich navykovych latkach. Mechanismus ucinku zahrnuje komplexni pusobeni na mnozstvi receptorovych systemu vcetne [NMDA](@/receptors/nmda.md), opioidnich a serotonergních receptoru.
 
 ---
 
@@ -404,20 +404,20 @@ Semisynteticky derivat ibogainu s potencialne lepsim bezpecnostnim profilem:
 ## Krizove odkazy
 
 ### Souvisejici latky
-- [Ketamin](/alkaloids/ketamin/) - Jiny NMDA antagonista s anti-zavislostnim potencialem
-- [DMT](/alkaloids/dmt/) - Vizionarsky tryptamin
-- [Psilocybin](/alkaloids/psilocybin/) - Zkousan pro zavislost
+- [Ketamin](@/alkaloids/ketamin.md) - Jiny NMDA antagonista s anti-zavislostnim potencialem
+- [DMT](@/alkaloids/dmt.md) - Vizionarsky tryptamin
+- [Psilocybin](@/alkaloids/psilocybin.md) - Zkousan pro zavislost
 
 ### Receptory
-- [NMDA receptor](/receptors/nmda/) - Cil ibogainu
-- [Kappa opioidni receptor](/receptors/opioid/) - Dysforicka aktivita
-- [Sigma receptor](/receptors/sigma-1/) - Neuroprotekce
+- [NMDA receptor](@/receptors/nmda.md) - Cil ibogainu
+- [Kappa opioidni receptor](@/receptors/opioid.md) - Dysforicka aktivita
+- [Sigma receptor](@/receptors/sigma-1.md) - Neuroprotekce
 
 ### Souvisejici temata
-- [Zavislost](/conditions/addiction/) - Terapeuticka indikace
-- [Opioidni abstinenční syndrom](/glossary/opioid-withdrawal/) - Cilovy stav
-- [Neuroplasticita](/glossary/neuroplasticita/) - Mechanismus
+- [Zavislost](@/conditions/addiction.md) - Terapeuticka indikace
+- [Opioidni abstinenční syndrom](@/glossary/opioid-withdrawal.md) - Cilovy stav
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Mechanismus
 
 ---
 
-Zpet na [Alkaloidy](/alkaloids/) | [Ketamin](/alkaloids/ketamin/) | [NMDA receptor](/receptors/nmda/)
+Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Ketamin](@/alkaloids/ketamin.md) | [NMDA receptor](@/receptors/nmda.md)

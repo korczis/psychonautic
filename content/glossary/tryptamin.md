@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Tryptamin - Zakladni struktura psychedelickych alkaloidu
 
-**Tryptamin** je bicyklicka indolova sloucenina tvorici strukturni zaklad jedne z nejvyznamnejsich trid psychoaktivnich latek. Tato molekularni kostra je sdilena [DMT](/alkaloids/dmt/), [psilocybinem](/alkaloids/psilocybin/), [psilocinem](/alkaloids/psilocin/), serotoninem a dalsimi neurochemicky aktivnimi sloucenininami. Pochopeni tryptaminove struktury je klicove pro porozumeni mechanismum ucinku psychedelik.
+**Tryptamin** je bicyklicka indolova sloucenina tvorici strukturni zaklad jedne z nejvyznamnejsich trid psychoaktivnich latek. Tato molekularni kostra je sdilena [DMT](@/alkaloids/dmt.md), [psilocybinem](@/alkaloids/psilocybin.md), [psilocinem](@/alkaloids/psilocin.md), serotoninem a dalsimi neurochemicky aktivnimi sloucenininami. Pochopeni tryptaminove struktury je klicove pro porozumeni mechanismum ucinku psychedelik.
 
 ---
 
@@ -184,9 +184,9 @@ POZICE SUBSTITUCE NA TRYPTAMINOVE KOSTRE:
 |------------|-----------|----|----|----------|----------|----------|
 | **Tryptamin** | Bazova | H | H | H | H | Endogenni, slaba |
 | **Serotonin** | 5-HT | H | H | H | OH | Endogenni NT |
-| [**DMT**](/alkaloids/dmt/) | N,N-DMT | CH3 | CH3 | H | H | Silna psychedelicka |
-| [**Psilocin**](/alkaloids/psilocin/) | 4-HO-DMT | CH3 | CH3 | OH | H | Silna psychedelicka |
-| [**Psilocybin**](/alkaloids/psilocybin/) | 4-PO-DMT | CH3 | CH3 | OPO3H2 | H | Prodrug psilocinu |
+| [**DMT**](@/alkaloids/dmt.md) | N,N-DMT | CH3 | CH3 | H | H | Silna psychedelicka |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 4-HO-DMT | CH3 | CH3 | OH | H | Silna psychedelicka |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 4-PO-DMT | CH3 | CH3 | OPO3H2 | H | Prodrug psilocinu |
 | **5-MeO-DMT** | 5-MeO-DMT | CH3 | CH3 | H | OCH3 | Velmi silna |
 | **Bufotenin** | 5-HO-DMT | CH3 | CH3 | H | OH | Slaba-stredni |
 | **Baeocystin** | 4-PO-NMT | CH3 | H | OPO3H2 | H | Slaba |
@@ -207,7 +207,7 @@ POZICE SUBSTITUCE NA TRYPTAMINOVE KOSTRE:
 | **5-HT2A Ki** | 75-130 nM |
 | **Endogenni** | Ano |
 | **Trvani** | 15-60 min (inhalace) |
-| **Reference** | [DMT](/alkaloids/dmt/) |
+| **Reference** | [DMT](@/alkaloids/dmt.md) |
 
 #### Psilocybin / Psilocin
 
@@ -219,7 +219,7 @@ POZICE SUBSTITUCE NA TRYPTAMINOVE KOSTRE:
 | **5-HT2A Ki** | N/A (prodrug) | 6-20 nM |
 | **Aktivita** | Prodrug | Primo aktivni |
 | **Trvani** | 4-6 hodin | 4-6 hodin |
-| **Reference** | [Psilocybin](/alkaloids/psilocybin/) | [Psilocin](/alkaloids/psilocin/) |
+| **Reference** | [Psilocybin](@/alkaloids/psilocybin.md) | [Psilocin](@/alkaloids/psilocin.md) |
 
 #### 5-MeO-DMT
 
@@ -484,8 +484,8 @@ PSYCHEDELICKY UCINEK (4-6 hodin)
 |------------|----------------|----------------|----------------|------------|-----------------|
 | **Serotonin** | 300-500 | 700 | 3-5 | >10000 | >10000 |
 | **Tryptamin** | >10000 | >10000 | >10000 | >10000 | >10000 |
-| [**DMT**](/alkaloids/dmt/) | 75-130 | 360 | 750 | >10000 | 14750 |
-| [**Psilocin**](/alkaloids/psilocin/) | 6-15 | 10-20 | 50-100 | >10000 | >1000 |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | 360 | 750 | >10000 | 14750 |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | 10-20 | 50-100 | >10000 | >1000 |
 | **5-MeO-DMT** | 100-200 | 600 | 3-30 | >10000 | >10000 |
 | **Bufotenin** | 500-1000 | 800 | 500 | >10000 | >10000 |
 | **DET** | 150-300 | 400 | 1000 | >10000 | >10000 |
@@ -614,7 +614,7 @@ KRIZOVA TOLERANCE:
 
 | Rod | Hlavni tryptaminy | Druhy | Reference |
 |-----|-------------------|-------|-----------|
-| **Psilocybe** | Psilocybin, psilocin, baeocystin | 200+ | [Psilocybes](/shrooms/psilocybes/) |
+| **Psilocybe** | Psilocybin, psilocin, baeocystin | 200+ | [Psilocybes](@/shrooms/psilocybes/_index.md) |
 | **Panaeolus** | Psilocybin, psilocin | 10+ | P. cyanescens |
 | **Gymnopilus** | Psilocybin (nizke) | Nekteré | G. spectabilis |
 | **Pluteus** | Psilocybin | Nekteré | P. salicinus |
@@ -670,9 +670,9 @@ KRIZOVA TOLERANCE:
 | Sloucenina | Status | Pravni predpis |
 |------------|--------|----------------|
 | Tryptamin | Neregulováno | - |
-| [DMT](/alkaloids/dmt/) | Zakazano | NV 463/2013 Sb., Tab. 1 |
-| [Psilocybin](/alkaloids/psilocybin/) | Zakazano | NV 463/2013 Sb., Tab. 1 |
-| [Psilocin](/alkaloids/psilocin/) | Zakazano | NV 463/2013 Sb., Tab. 1 |
+| [DMT](@/alkaloids/dmt.md) | Zakazano | NV 463/2013 Sb., Tab. 1 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Zakazano | NV 463/2013 Sb., Tab. 1 |
+| [Psilocin](@/alkaloids/psilocin.md) | Zakazano | NV 463/2013 Sb., Tab. 1 |
 | 5-MeO-DMT | Seda zona | Explicitne neuvedeno |
 
 ---
@@ -713,30 +713,30 @@ KRIZOVA TOLERANCE:
 
 ### Hlavni tryptaminove alkaloidy
 
-- [DMT](/alkaloids/dmt/) - N,N-Dimethyltryptamin
-- [Psilocybin](/alkaloids/psilocybin/) - 4-fosforyloxy-DMT
-- [Psilocin](/alkaloids/psilocin/) - 4-hydroxy-DMT
-- [Baeocystin](/alkaloids/baeocystin/) - 4-fosforyloxy-NMT
+- [DMT](@/alkaloids/dmt.md) - N,N-Dimethyltryptamin
+- [Psilocybin](@/alkaloids/psilocybin.md) - 4-fosforyloxy-DMT
+- [Psilocin](@/alkaloids/psilocin.md) - 4-hydroxy-DMT
+- [Baeocystin](@/alkaloids/baeocystin.md) - 4-fosforyloxy-NMT
 
 ### Receptory
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Hlavni cil psychedelik
-- [5-HT1A receptor](/receptors/5-ht1a/) - Sekundarni cil
-- [Receptor](/glossary/receptor/) - Obecny pojem
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Hlavni cil psychedelik
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Sekundarni cil
+- [Receptor](@/glossary/receptor.md) - Obecny pojem
 
 ### Zdroje
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Hlavni zdroj psilocybinu
-- [Alkaloidy](/alkaloids/) - Prehled psychoaktivnich alkaloidu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Hlavni zdroj psilocybinu
+- [Alkaloidy](@/alkaloids/_index.md) - Prehled psychoaktivnich alkaloidu
 
 ### Souvisejici pojmy
 
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Signalni molekuly
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Signalni molekuly
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)
 
 ---
 

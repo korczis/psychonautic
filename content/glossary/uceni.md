@@ -12,7 +12,7 @@ souvisejici_latky = ["psilocybin", "LSD", "ketamin", "BDNF"]
 
 # Uceni - Neurobiologie osvojovani znalosti
 
-**Uceni** je fundamentalni proces, kterym nervovy system ziskava, zpracovava a uchovava informace z prostredi. Na molekularni a bunecne urovni je uceni zakotveno v **synapticke plasticite** - schopnosti synaptickych spojeni menit svou silu a efektivitu v zavislosti na aktivite. Psychoaktivni latky, predevsim [psychedelika](/glossary/psychedelikum/), mohou dramaticky ovlivnit procesy uceni prostrednictvim modulace [neuroplasticity](/glossary/neuroplasticita/).
+**Uceni** je fundamentalni proces, kterym nervovy system ziskava, zpracovava a uchovava informace z prostredi. Na molekularni a bunecne urovni je uceni zakotveno v **synapticke plasticite** - schopnosti synaptickych spojeni menit svou silu a efektivitu v zavislosti na aktivite. Psychoaktivni latky, predevsim [psychedelika](@/glossary/psychedelikum.md), mohou dramaticky ovlivnit procesy uceni prostrednictvim modulace [neuroplasticity](@/glossary/neuroplasticita.md).
 
 ---
 
@@ -136,7 +136,7 @@ LTP je klicovy mechanismus uceni, poprvé popsany Blissem a Loemo (1973).
 
 #### NMDA receptor jako "detektor koincidence"
 
-[NMDA receptor](/receptors/nmda/) je kriticky pro LTP, protoze vyzaduje soucasne splneni dvou podminek:
+[NMDA receptor](@/receptors/nmda.md) je kriticky pro LTP, protoze vyzaduje soucasne splneni dvou podminek:
 
 ```
     NMDA RECEPTOR - KOINCIDENCNI DETEKTOR
@@ -399,7 +399,7 @@ STDP je casove presna forma plasticity:
 
 ### BDNF (Brain-Derived Neurotrophic Factor)
 
-[BDNF](/glossary/neuroplasticita/) je klicovy neurotrofni faktor pro uceni:
+[BDNF](@/glossary/neuroplasticita.md) je klicovy neurotrofni faktor pro uceni:
 
 ```
     BDNF A UCENI
@@ -497,7 +497,7 @@ STDP je casove presna forma plasticity:
 
 ### Psychedelika a plasticita
 
-[Psychedelika](/glossary/psychedelikum/) dramaticky ovlivnují procesy uceni:
+[Psychedelika](@/glossary/psychedelikum.md) dramaticky ovlivnují procesy uceni:
 
 ```
     PSYCHEDELIKA A UCENI
@@ -543,8 +543,8 @@ STDP je casove presna forma plasticity:
 
 | Latka | Mechanismus | Efekt na uceni | Klinicky vyznam |
 |-------|-------------|----------------|-----------------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | 5-HT2A agonismus | +++ (plasticita) | Terapie deprese, PTSD |
-| [**LSD**](/alkaloids/lsd/) | 5-HT2A, D2 | +++ (plasticita) | Psychoterapie |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 5-HT2A agonismus | +++ (plasticita) | Terapie deprese, PTSD |
+| [**LSD**](@/alkaloids/lsd.md) | 5-HT2A, D2 | +++ (plasticita) | Psychoterapie |
 | **Ketamin** | NMDA antagonismus | ++ (BDNF burst) | Antidepresiva |
 | **MDMA** | 5-HT, DA, NE uvolneni | +++ (socialni) | PTSD terapie |
 | **Kofein** | Adenosinovy antagonismus | + (pozornost) | Bezne uzivani |
@@ -703,26 +703,26 @@ STDP je casove presna forma plasticity:
 ## Viz take
 
 ### Receptory a signalizace
-- [NMDA receptor](/receptors/nmda/) - "Koincidencni detektor" pro LTP
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibicni kontrola
-- [5-HT2A receptor](/receptors/5-ht2a/) - Cil psychedelik
-- [Glutamat](/glossary/glutamat/) - Hlavni excitacni neurotransmiter
+- [NMDA receptor](@/receptors/nmda.md) - "Koincidencni detektor" pro LTP
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibicni kontrola
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Cil psychedelik
+- [Glutamat](@/glossary/glutamat.md) - Hlavni excitacni neurotransmiter
 
 ### Neurobiologie
-- [Neuroplasticita](/glossary/neuroplasticita/) - Zmeny v mozku
-- [Synapse](/glossary/synapse/) - Misto prenosu signalu
-- [Default Mode Network](/circuits/dmn/) - Self-referential processing
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Zmeny v mozku
+- [Synapse](@/glossary/synapse.md) - Misto prenosu signalu
+- [Default Mode Network](@/circuits/dmn.md) - Self-referential processing
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - Psychoplastogen
-- [LSD](/alkaloids/lsd/) - Potentni induktor plasticity
-- [DMT](/alkaloids/dmt/) - Endogenni psychoplastogen
-- [Psychedelikum](/glossary/psychedelikum/) - Prehled
+- [Psilocybin](@/alkaloids/psilocybin.md) - Psychoplastogen
+- [LSD](@/alkaloids/lsd.md) - Potentni induktor plasticity
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychoplastogen
+- [Psychedelikum](@/glossary/psychedelikum.md) - Prehled
 
 ### Mozkove struktury
-- [Mozek](/brain/) - Anatomie
-- [Neuralni okruhy](/circuits/) - Funkcni site
+- [Mozek](@/brain/_index.md) - Anatomie
+- [Neuralni okruhy](@/circuits/_index.md) - Funkcni site
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)

@@ -10,7 +10,7 @@ tags = ["tolerance", "receptory", "downregulace", "tachyfylaxe", "krizova-tolera
 
 # Tolerance - Farmakologicka adaptace organismu
 
-**Tolerance** je farmakologicky fenomen charakterizovany **snizenou odpovedi na opakovanou nebo prolongovanou expozici latce**. Organismus se adaptuje na pritomnost xenobiotika, coz vede k nutnosti zvysovat davku pro dosazeni puvodniho ucinku. Tento fenomen ma zasadni vyznam pro pochopeni ucinku [psychedelik](/alkaloids/), [GABAergních latek](/glossary/gaba/) a dalsich psychoaktivnich sloucenin.
+**Tolerance** je farmakologicky fenomen charakterizovany **snizenou odpovedi na opakovanou nebo prolongovanou expozici latce**. Organismus se adaptuje na pritomnost xenobiotika, coz vede k nutnosti zvysovat davku pro dosazeni puvodniho ucinku. Tento fenomen ma zasadni vyznam pro pochopeni ucinku [psychedelik](@/alkaloids/_index.md), [GABAergních latek](@/glossary/gaba.md) a dalsich psychoaktivnich sloucenin.
 
 ---
 
@@ -52,7 +52,7 @@ TI > 10:      Extremni tolerance
 | Typ | Casovy ramec | Mechanismus | Priklady |
 |-----|--------------|-------------|----------|
 | **Akutni (tachyfylaxe)** | Minuty-hodiny | Receptorova desenzitizace | Nitroglycerin, beta-agoniste |
-| **Rychla** | Hodiny-dny | Downregulace receptoru | [Psychedelika](/alkaloids/), amfetaminy |
+| **Rychla** | Hodiny-dny | Downregulace receptoru | [Psychedelika](@/alkaloids/_index.md), amfetaminy |
 | **Chronicka** | Tydny-mesice | Kompenzacni adaptace | Opioidy, benzodiazepiny |
 
 ### Podle mechanismu
@@ -189,7 +189,7 @@ Uroven 4: SYSTEMOVA ADAPTACE
 
 ### Detailni mechanismus
 
-Receptorova downregulace je kliovy mechanismus tolerance k mnoha psychoaktivnim látkam vcetne [psychedelik](/alkaloids/).
+Receptorova downregulace je kliovy mechanismus tolerance k mnoha psychoaktivnim látkam vcetne [psychedelik](@/alkaloids/_index.md).
 
 ```
 RECEPTOROVA DOWNREGULACE - KOMPLETNI CYKLUS
@@ -234,8 +234,8 @@ FAZE 4: SORTING (hodiny)
 
 | Receptor | Rychlost internalizace | Recyklace vs degradace | Zotaveni |
 |----------|------------------------|------------------------|----------|
-| **[5-HT2A](/receptors/5-ht2a/)** | Rychla (LSD, psilocin) | Prevazne degradace | 7-14 dni |
-| **[GABA-A](/receptors/gaba-a/)** | Stredni | Smisena | 2-4 tydny |
+| **[5-HT2A](@/receptors/5-ht2a.md)** | Rychla (LSD, psilocin) | Prevazne degradace | 7-14 dni |
+| **[GABA-A](@/receptors/gaba-a.md)** | Stredni | Smisena | 2-4 tydny |
 | **Opioidni (mu)** | Rychla | Variabilni | 1-2 tydny |
 | **Dopaminovy D2** | Stredni | Prevazne recyklace | Dny |
 | **Adrenergni beta-2** | Rychla | Prevazne recyklace | Dny |
@@ -246,7 +246,7 @@ FAZE 4: SORTING (hodiny)
 
 ### Mechanismus tolerance k 5-HT2A agonistum
 
-Psychedelika jako [psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/) a [DMT](/alkaloids/dmt/) vykazuji unikatni vzorec tolerance charakterizovany rychlym nastupem a relativne rychlym zotavenim.
+Psychedelika jako [psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md) a [DMT](@/alkaloids/dmt.md) vykazuji unikatni vzorec tolerance charakterizovany rychlym nastupem a relativne rychlym zotavenim.
 
 ```
 TOLERANCE K PSYCHEDELIKUM - CASOVY PRUBEH
@@ -301,15 +301,15 @@ Efektivni interval mezi davkami = 7-14 dni
 
 | Latka | Nastup tolerance | Maximalni tolerance | Zotaveni | Doporuceny interval |
 |-------|------------------|---------------------|----------|---------------------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | 24 hodin | 70-90% | 7-14 dni | 14 dni |
-| [**LSD**](/alkaloids/lsd/) | 24 hodin | 70-90% | 7-14 dni | 14 dni |
-| [**DMT**](/alkaloids/dmt/) | Minimalni | ~10% | Hodiny | Zadny |
-| [**Meskalin**](/alkaloids/mescaline/) | 24 hodin | 60-80% | 7-10 dni | 10-14 dni |
-| [**Muscimol**](/alkaloids/muscimol/) | 24-48 hodin | 40-60% | 3-7 dni | 7 dni |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 24 hodin | 70-90% | 7-14 dni | 14 dni |
+| [**LSD**](@/alkaloids/lsd.md) | 24 hodin | 70-90% | 7-14 dni | 14 dni |
+| [**DMT**](@/alkaloids/dmt.md) | Minimalni | ~10% | Hodiny | Zadny |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 24 hodin | 60-80% | 7-10 dni | 10-14 dni |
+| [**Muscimol**](@/alkaloids/muscimol.md) | 24-48 hodin | 40-60% | 3-7 dni | 7 dni |
 
 ### Proc DMT nevytvari toleranci?
 
-[DMT](/alkaloids/dmt/) vykazuje unikatni farmakologicky profil s minimalni toleranci:
+[DMT](@/alkaloids/dmt.md) vykazuje unikatni farmakologicky profil s minimalni toleranci:
 
 | Faktor | Popis |
 |--------|-------|
@@ -346,7 +346,7 @@ LSD --> 5-HT2A downregulace --> Snizeny ucinek psilocybinu
 
 ### Matice krizove tolerance psychedelik
 
-| Predchozi latka | [Psilocybin](/alkaloids/psilocybin/) | [LSD](/alkaloids/lsd/) | [DMT](/alkaloids/dmt/) | [Meskalin](/alkaloids/mescaline/) | [Muscimol](/alkaloids/muscimol/) |
+| Predchozi latka | [Psilocybin](@/alkaloids/psilocybin.md) | [LSD](@/alkaloids/lsd.md) | [DMT](@/alkaloids/dmt.md) | [Meskalin](@/alkaloids/mescaline.md) | [Muscimol](@/alkaloids/muscimol.md) |
 |-----------------|--------|-----|-----|---------|---------|
 | **Psilocybin** | +++ | +++ | + | ++ | - |
 | **LSD** | +++ | +++ | + | ++ | - |
@@ -516,7 +516,7 @@ VZTAH TOLERANCE - ZÁVISLOST - ABSTINENCE
 | **Benzodiazepiny** | Střední | Silná | Závažný | Střední-vysoký |
 | **Alkohol** | Vyrazná | Silná | Zivot-ohrožující | Vysoký |
 | **Nikotin** | Střední | Silná | Mírný-střední | Velmi vysoký |
-| [**Psychedelika**](/alkaloids/) | Rychlá | Žádná | Žádný | Velmi nízký |
+| [**Psychedelika**](@/alkaloids/_index.md) | Rychlá | Žádná | Žádný | Velmi nízký |
 | **Kanabis** | Střední | Mírná | Mírný | Nízký-střední |
 
 ### Unikatni profil psychedelik
@@ -707,31 +707,31 @@ Porovnani: Skupina 3 vs Skupina 2
 
 ### Glosar
 
-- [Receptor](/glossary/receptor/) - Molekulární cíle tolerance
-- [GABA](/glossary/gaba/) - GABAergní tolerance
+- [Receptor](@/glossary/receptor.md) - Molekulární cíle tolerance
+- [GABA](@/glossary/gaba.md) - GABAergní tolerance
 
 ### Receptory
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik, rychlá tolerance
-- [GABA-A receptor](/receptors/gaba-a/) - Benzodiazepinová tolerance
-- [NMDA receptor](/receptors/nmda/) - Ketaminová tolerance
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik, rychlá tolerance
+- [GABA-A receptor](@/receptors/gaba-a.md) - Benzodiazepinová tolerance
+- [NMDA receptor](@/receptors/nmda.md) - Ketaminová tolerance
 
 ### Psychoaktivni latky
 
-- [Psilocybin](/alkaloids/psilocybin/) - Rychlá tolerance, 14denní zotavení
-- [LSD](/alkaloids/lsd/) - Silná křížová tolerance s psilocybinem
-- [DMT](/alkaloids/dmt/) - Minimální tolerance
-- [Muscimol](/alkaloids/muscimol/) - GABAergní tolerance, nezávislá na psychedelikách
-- [Meskalin](/alkaloids/mescaline/) - Střední křížová tolerance
+- [Psilocybin](@/alkaloids/psilocybin.md) - Rychlá tolerance, 14denní zotavení
+- [LSD](@/alkaloids/lsd.md) - Silná křížová tolerance s psilocybinem
+- [DMT](@/alkaloids/dmt.md) - Minimální tolerance
+- [Muscimol](@/alkaloids/muscimol.md) - GABAergní tolerance, nezávislá na psychedelikách
+- [Meskalin](@/alkaloids/mescaline.md) - Střední křížová tolerance
 
 ### Zdroje
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)
 
 ---
 

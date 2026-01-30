@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Psilocybe semilanceata - Lysohlávka kopinatá
 
-**Psilocybe semilanceata** (Fr.) P. Kumm., známá jako **Liberty Cap** nebo **lysohlávka kopinatá**, je nejrozšířenější [psilocybinovou houbou](/shrooms/psilocybes/) v Evropě a jedna z **nejpotentnějších** známých druhů. Její charakteristický kuželovitý klobouk s výraznou papilou (hrbolem) ji činí snadno rozpoznatelnou.
+**Psilocybe semilanceata** (Fr.) P. Kumm., známá jako **Liberty Cap** nebo **lysohlávka kopinatá**, je nejrozšířenější [psilocybinovou houbou](@/shrooms/psilocybes/_index.md) v Evropě a jedna z **nejpotentnějších** známých druhů. Její charakteristický kuželovitý klobouk s výraznou papilou (hrbolem) ji činí snadno rozpoznatelnou.
 
 ---
 
@@ -23,7 +23,7 @@ insert_anchor_links = "right"
 | **Třída** | Agaricomycetes |
 | **Řád** | Agaricales |
 | **Čeleď** | Hymenogastraceae (dříve Strophariaceae) |
-| **Rod** | [Psilocybe](/shrooms/psilocybes/) |
+| **Rod** | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | **Druh** | P. semilanceata (Fr.) P. Kumm. 1871 |
 
 ### Synonyma
@@ -99,9 +99,9 @@ insert_anchor_links = "right"
 
 | Alkaloid | Koncentrace (% sušiny) | Poznámka |
 |----------|------------------------|----------|
-| [**Psilocybin**](/alkaloids/psilocybin/) | **0,98%** (průměr, max 2,37%) | **Nejvyšší ze všech druhů** |
-| [**Psilocin**](/alkaloids/psilocin/) | 0,02% (průměr) | Nízký, stabilní |
-| [**Baeocystin**](/alkaloids/baeocystin/) | **0,36%** (průměr) | Vysoký |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | **0,98%** (průměr, max 2,37%) | **Nejvyšší ze všech druhů** |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 0,02% (průměr) | Nízký, stabilní |
+| [**Baeocystin**](@/alkaloids/baeocystin.md) | **0,36%** (průměr) | Vysoký |
 | **Norbaeocystin** | Stopy | Prekurzor |
 
 ### Celková potence
@@ -204,7 +204,7 @@ P. semilanceata má unikátně vysoký poměr psilocybinu k psilocinu. Psilocybi
 | **Říjen** | Hlavní sezóna |
 | **Listopad** | Konec, do prvního sněhu |
 
-### Konfuze s [P. bohemica](/shrooms/psilocybes/bohemica/)
+### Konfuze s [P. bohemica](@/shrooms/psilocybes/bohemica.md)
 
 | Znak | P. semilanceata | P. bohemica |
 |------|-----------------|-------------|
@@ -304,7 +304,7 @@ P. semilanceata má unikátně vysoký poměr psilocybinu k psilocinu. Psilocybi
 | 7 | ~80% |
 | 14 | 100% (reset) |
 
-**Křížová tolerance**: S [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/), meskalinem.
+**Křížová tolerance**: S [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md), meskalinem.
 
 ---
 
@@ -381,7 +381,7 @@ P. semilanceata má unikátně vysoký poměr psilocybinu k psilocinu. Psilocybi
 
 ### Etnomykologie
 
-Na rozdíl od mezoamerických druhů ([P. mexicana](/shrooms/psilocybes/mexicana/), P. aztecorum), P. semilanceata nemá dokumentovanou tradiční rituální historii v Evropě. Její psychoaktivní účinky byly "znovuobjeveny" až v moderní době.
+Na rozdíl od mezoamerických druhů ([P. mexicana](@/shrooms/psilocybes/mexicana.md), P. aztecorum), P. semilanceata nemá dokumentovanou tradiční rituální historii v Evropě. Její psychoaktivní účinky byly "znovuobjeveny" až v moderní době.
 
 ---
 
@@ -419,10 +419,10 @@ Na rozdíl od mezoamerických druhů ([P. mexicana](/shrooms/psilocybes/mexicana
 ---
 
 Viz také:
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavní aktivní látka
-- [Psilocin](/alkaloids/psilocin/) - Aktivní metabolit
-- [Baeocystin](/alkaloids/baeocystin/) - Minor alkaloid
-- [Psilocybe bohemica](/shrooms/psilocybes/bohemica/) - Další český druh
-- [Psilocybes](/shrooms/psilocybes/) - Přehled rodu
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor alkaloid
+- [Psilocybe bohemica](@/shrooms/psilocybes/bohemica.md) - Další český druh
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Přehled rodu
 
-← Zpět na [Psilocybes](/shrooms/psilocybes/) | [P. azurescens](/shrooms/psilocybes/azurescens/) →
+← Zpět na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. azurescens](@/shrooms/psilocybes/azurescens.md) →

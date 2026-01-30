@@ -11,7 +11,7 @@ kategorie = ["presmerovani"]
 
 # Glutamate
 
-Tato stranka presmerovava na [Glutamat](/glossary/glutamat/).
+Tato stranka presmerovava na [Glutamat](@/glossary/glutamat.md).
 
 ---
 
@@ -21,14 +21,14 @@ Tato stranka presmerovava na [Glutamat](/glossary/glutamat/).
 
 Pro uplne informace o tomto hlavnim excitacnim neurotransmiteru navstivte:
 
-**[Glutamat - Hlavni excitacni neurotransmiter](/glossary/glutamat/)**
+**[Glutamat - Hlavni excitacni neurotransmiter](@/glossary/glutamat.md)**
 
 ### Obsah na strance glutamat.md
 
 - Chemicka struktura a vlastnosti
 - Biosynteza a metabolismus (glutamat-glutaminovy cyklus)
 - Transportery (EAAT1-5, VGLUT1-3)
-- Ionotropni receptory ([NMDA](/receptors/nmda/), AMPA, Kainatove)
+- Ionotropni receptory ([NMDA](@/receptors/nmda.md), AMPA, Kainatove)
 - Metabotropni receptory (mGluR1-8)
 - Dlouhodoba potenciace (LTP) a pamet
 - Excitotoxicita
@@ -38,9 +38,9 @@ Pro uplne informace o tomto hlavnim excitacnim neurotransmiteru navstivte:
 ---
 
 Viz take:
-- [Glutamat](/glossary/glutamat/) - Hlavni stranka
-- [NMDA receptor](/receptors/nmda/) - Ionotropni glutamatovy receptor
-- [GABA](/glossary/gaba/) - Inhibicni neurotransmiter (metabolit glutamatu)
-- [Kyselina ibotenova](/neurotoxins/ibotenic-acid/) - NMDA agonista
+- [Glutamat](@/glossary/glutamat.md) - Hlavni stranka
+- [NMDA receptor](@/receptors/nmda.md) - Ionotropni glutamatovy receptor
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter (metabolit glutamatu)
+- [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - NMDA agonista
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)

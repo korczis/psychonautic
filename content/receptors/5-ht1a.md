@@ -211,9 +211,9 @@ Klidový stav              Aktivovaný stav
 
 | Látka | Aktivita na 5-HT1A | Klinický význam |
 |-------|-------------------|-----------------|
-| [**LSD**](/alkaloids/lsd/) | Parciální agonista | Anxiolytická komponenta |
-| [**Psilocin**](/alkaloids/psilocin/) | Agonista | Snížení úzkosti |
-| [**DMT**](/alkaloids/dmt/) | Agonista | Modulace psychedelického účinku |
+| [**LSD**](@/alkaloids/lsd.md) | Parciální agonista | Anxiolytická komponenta |
+| [**Psilocin**](@/alkaloids/psilocin.md) | Agonista | Snížení úzkosti |
+| [**DMT**](@/alkaloids/dmt.md) | Agonista | Modulace psychedelického účinku |
 | **Ayahuasca** | Agonista | Dlouhodobé anxiolytické účinky |
 
 ---
@@ -427,9 +427,9 @@ Raphé nuclei → VTA/Substantia nigra
 |----------|-----------|-------|---------------|
 | **5-HT1A** | Gi/Go | Inhibiční | Anxiolýza, autoreceptor |
 | **5-HT1B** | Gi/Go | Inhibiční | Vazokonstrikce, autoreceptor |
-| [**5-HT2A**](/receptors/5-ht2a/) | Gq/11 | Excitační | Halucinace, plasticita |
-| [**5-HT2B**](/receptors/5-ht2b/) | Gq/11 | Excitační | Kardiovaskulární |
-| [**5-HT2C**](/receptors/5-ht2c/) | Gq/11 | Excitační | Apetit, nálada |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Gq/11 | Excitační | Halucinace, plasticita |
+| [**5-HT2B**](@/receptors/5-ht2b.md) | Gq/11 | Excitační | Kardiovaskulární |
+| [**5-HT2C**](@/receptors/5-ht2c.md) | Gq/11 | Excitační | Apetit, nálada |
 
 ---
 
@@ -464,11 +464,11 @@ Raphé nuclei → VTA/Substantia nigra
 ---
 
 Viz také:
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
-- [5-HT2C receptor](/receptors/5-ht2c/) - Modulace apetitu a nálady
-- [GABA-A receptor](/receptors/gaba-a/) - Alternativní anxiolytický cíl
-- [LSD](/alkaloids/lsd/) - Parciální 5-HT1A agonista
-- [Psilocybin](/alkaloids/psilocybin/) - Anxiolytické účinky via 5-HT1A
-- [Glosář](/glossary/) - Definice pojmů
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulace apetitu a nálady
+- [GABA-A receptor](@/receptors/gaba-a.md) - Alternativní anxiolytický cíl
+- [LSD](@/alkaloids/lsd.md) - Parciální 5-HT1A agonista
+- [Psilocybin](@/alkaloids/psilocybin.md) - Anxiolytické účinky via 5-HT1A
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [5-HT2A receptor](/receptors/5-ht2a/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) ->

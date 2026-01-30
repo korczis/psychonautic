@@ -11,9 +11,9 @@ tags = ["BDNF", "neuroplasticita", "neurotrofiny", "deprese", "psychedelika", "k
 
 # BDNF - Brain-Derived Neurotrophic Factor
 
-**BDNF** (Brain-Derived Neurotrophic Factor, mozkovy neurotrofni faktor) je klicovy protein z rodiny **neurotrofinu**, ktery hraje centralni roli v [neuroplasticite](/glossary/neuroplasticita/), preziti neuronu, synaptogenezi a kognitivnich funkcich. Je povazovan za jeden z nejvyznamnejsich molekularnich mediatoru terapeutickych ucinku psychedelik, [ketaminu](/alkaloids/ketamin/) a antidepresiv.
+**BDNF** (Brain-Derived Neurotrophic Factor, mozkovy neurotrofni faktor) je klicovy protein z rodiny **neurotrofinu**, ktery hraje centralni roli v [neuroplasticite](@/glossary/neuroplasticita.md), preziti neuronu, synaptogenezi a kognitivnich funkcich. Je povazovan za jeden z nejvyznamnejsich molekularnich mediatoru terapeutickych ucinku psychedelik, [ketaminu](@/alkaloids/ketamin.md) a antidepresiv.
 
-Snizene hladiny BDNF jsou konzistentne spojovany s [depresí](/conditions/depression/), zatimco zvyseni BDNF predstavuje spolecny mechanismus ucinku prakticky vsech efektivnich antidepresivnich terapii.
+Snizene hladiny BDNF jsou konzistentne spojovany s [depresí](@/conditions/depression.md), zatimco zvyseni BDNF predstavuje spolecny mechanismus ucinku prakticky vsech efektivnich antidepresivnich terapii.
 
 ---
 
@@ -79,8 +79,8 @@ Zraly BDNF    Zraly BDNF
 | Faktor | Vliv na BDNF | Mechanismus |
 |--------|--------------|-------------|
 | **Neuronalni aktivita** | Silne zvyseni | Ca2+/CREB aktivace |
-| **[Psychedelika](/alkaloids/)** | Silne zvyseni | [5-HT2A](/receptors/5-ht2a/) aktivace |
-| **[Ketamin](/alkaloids/ketamin/)** | Rychle zvyseni | mTORC1 aktivace |
+| **[Psychedelika](@/alkaloids/_index.md)** | Silne zvyseni | [5-HT2A](@/receptors/5-ht2a.md) aktivace |
+| **[Ketamin](@/alkaloids/ketamin.md)** | Rychle zvyseni | mTORC1 aktivace |
 | **Fyzicke cviceni** | Zvyseni | Metabolicka aktivace |
 | **SSRI (chronicka)** | Postupne zvyseni | 5-HT elevace |
 | **Uceni** | Zvyseni | Synaptická aktivita |
@@ -318,8 +318,8 @@ PSYCHEDELIKA --> BDNF INDUKCE
 
 | Intervence | Zvyseni BDNF | Casovy nastup | Trvani | Mechanismus |
 |------------|--------------|---------------|--------|-------------|
-| **[Psilocybin](/alkaloids/psilocybin/)** | +200-400% | Hodiny | Tydny-mesice | 5-HT2A --> CREB |
-| **[Ketamin](/alkaloids/ketamin/)** | +100-200% | Hodiny | Dny-tydny | NMDA blokada --> mTOR |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | +200-400% | Hodiny | Tydny-mesice | 5-HT2A --> CREB |
+| **[Ketamin](@/alkaloids/ketamin.md)** | +100-200% | Hodiny | Dny-tydny | NMDA blokada --> mTOR |
 | **SSRI** | +50-100% | Tydny | Pri lecbe | Chronicka 5-HT |
 | **ECT** | +200-300% | Okamzite | Dny | Masivni aktivace |
 | **Cviceni** | +30-50% | Tydny | Pri aktivite | VEGF, metabolismus |
@@ -479,28 +479,28 @@ ANTIDEPRESIVNI UCINEK
 ## Viz take
 
 ### Neuroplasticita
-- [Neuroplasticita](/glossary/neuroplasticita/) - Zakladni koncept
-- [Uceni](/glossary/uceni/) - Kognitivni aspekty
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Zakladni koncept
+- [Uceni](@/glossary/uceni.md) - Kognitivni aspekty
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelicky cil
-- [NMDA receptor](/receptors/nmda/) - Ketaminovy cil
-- [AMPA receptor](/receptors/ampa/) - Rychla excitace
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [NMDA receptor](@/receptors/nmda.md) - Ketaminovy cil
+- [AMPA receptor](@/receptors/ampa.md) - Rychla excitace
 
 ### Psychoaktivni latky
-- [Psilocybin](/alkaloids/psilocybin/) - Psychedelicky induktor BDNF
-- [Ketamin](/alkaloids/ketamin/) - Rychly antidepresivni ucinek
-- [LSD](/alkaloids/lsd/) - Silny neuroplastogen
-- [DMT](/alkaloids/dmt/) - Endogenni psychoplastogen
+- [Psilocybin](@/alkaloids/psilocybin.md) - Psychedelicky induktor BDNF
+- [Ketamin](@/alkaloids/ketamin.md) - Rychly antidepresivni ucinek
+- [LSD](@/alkaloids/lsd.md) - Silny neuroplastogen
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychoplastogen
 
 ### Souvisejici temata
-- [Deprese](/conditions/depression/) - Klinicka indikace
-- [Serotonin](/glossary/serotonin/) - Neurotransmiter
+- [Deprese](@/conditions/depression.md) - Klinicka indikace
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
 
 ### Mozkove struktury
-- [Hippocampus](/brain/hippocampus/) - Hlavni misto exprese
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Kognitivni funkce
+- [Hippocampus](@/brain/hippocampus.md) - Hlavni misto exprese
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Kognitivni funkce
 
 ---
 
-<- Zpet na [Molekuly](/molecules/)
+<- Zpet na [Molekuly](@/molecules/_index.md)

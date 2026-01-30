@@ -22,11 +22,14 @@
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
 
     <!-- Styles -->
+    <!-- Flowbite CSS for advanced components -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{ get_url(path='css/main.css') | safe }}">
 
     <!-- Alpine.js -->
     <script defer src="{{ get_url(path='js/alpine.min.js') | safe }}"></script>
     <script defer src="{{ get_url(path='js/app.js') | safe }}"></script>
+    <script defer src="{{ get_url(path='js/sortable-table.js') | safe }}"></script>
 
     <!-- Prevent dark mode flash -->
     <script>
@@ -47,5 +50,11 @@
     <script src="{{ get_url(path='search_index.en.js') | safe }}" defer></script>
     <script src="{{ get_url(path='js/search.js') | safe }}" defer></script>
     {% endif %}
+
+    <!-- Flowbite JavaScript for advanced components -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
+
+    <!-- Mermaid.js diagram rendering (loads library on-demand from CDN) -->
+    <script src="{{ get_url(path='js/mermaid-init.js') | safe }}" defer></script>
 </body>
 </html>

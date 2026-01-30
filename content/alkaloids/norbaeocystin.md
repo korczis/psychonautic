@@ -11,7 +11,7 @@ zdroje = ["Houby"]
 
 # Norbaeocystin - 4-Fosforyloxytryptamin
 
-**Norbaeocystin** (4-PO-T, 4-fosforyloxytryptamin) je indolovy alkaloid a **biosynteticky prekurzor** [baeocystinu](/alkaloids/baeocystin/) a [psilocybinu](/alkaloids/psilocybin/) v psilocybinových houbach. Jedna se o nejrannejsi fosforylovany intermediat v biosynteticke dráze. Psychoaktivita teto latky je dosud malo prozkoumana.
+**Norbaeocystin** (4-PO-T, 4-fosforyloxytryptamin) je indolovy alkaloid a **biosynteticky prekurzor** [baeocystinu](@/alkaloids/baeocystin.md) a [psilocybinu](@/alkaloids/psilocybin.md) v psilocybinových houbach. Jedna se o nejrannejsi fosforylovany intermediat v biosynteticke dráze. Psychoaktivita teto latky je dosud malo prozkoumana.
 
 ---
 
@@ -46,8 +46,8 @@ zdroje = ["Houby"]
 | Sloucenina | R (na N) | Mw (g/mol) | Stupen metylace |
 |------------|----------|------------|-----------------|
 | **Norbaeocystin** | -H | 256,19 | 0x (zadna) |
-| [Baeocystin](/alkaloids/baeocystin/) | -CH3 | 270,22 | 1x (mono) |
-| [Psilocybin](/alkaloids/psilocybin/) | -N(CH3)2 | 284,25 | 2x (di) |
+| [Baeocystin](@/alkaloids/baeocystin.md) | -CH3 | 270,22 | 1x (mono) |
+| [Psilocybin](@/alkaloids/psilocybin.md) | -N(CH3)2 | 284,25 | 2x (di) |
 | Aeruginascin | -N(CH3)3+ | 298,27 | 3x (tri) |
 
 ### Strukturni diagram
@@ -127,9 +127,9 @@ Norbaeocystin je **achiralni** molekula:
 | Sloucenina | logP | Polarita |
 |------------|------|----------|
 | **Norbaeocystin** | -1,5 | Nejvyssi |
-| [Baeocystin](/alkaloids/baeocystin/) | -0,8 | Vysoka |
-| [Psilocybin](/alkaloids/psilocybin/) | -0,07 | Stredni |
-| [Psilocin](/alkaloids/psilocin/) | +1,2 | Nizka |
+| [Baeocystin](@/alkaloids/baeocystin.md) | -0,8 | Vysoka |
+| [Psilocybin](@/alkaloids/psilocybin.md) | -0,07 | Stredni |
+| [Psilocin](@/alkaloids/psilocin.md) | +1,2 | Nizka |
 
 ### Stabilita
 
@@ -301,7 +301,7 @@ Psychoaktivni ucinky (?)
 
 | Sloucenina | 5-HT2A Ki (nM) | Relativni potence |
 |------------|----------------|-------------------|
-| [Psilocin](/alkaloids/psilocin/) | 15-25 | 100% (reference) |
+| [Psilocin](@/alkaloids/psilocin.md) | 15-25 | 100% (reference) |
 | Norpsilocin | ~50 (odhad) | ~50% |
 | **4-HT (z norbaeocystinu)** | >100 (odhad) | <25% |
 
@@ -372,9 +372,9 @@ Systemová cirkulace
 | *P. semilanceata* | 0,02-0,05% | 0,98% | ~1:20-50 |
 | *P. azurescens* | Stopy | 1,78% | <1:100 |
 | *P. baeocystis* | 0,01-0,03% | 0,85% | ~1:30-85 |
-| [*P. cubensis*](/shrooms/psilocybes/cubensis/) | Stopy-0,01% | 0,14-0,42% | <1:40 |
+| [*P. cubensis*](@/shrooms/psilocybes/cubensis.md) | Stopy-0,01% | 0,14-0,42% | <1:40 |
 | *P. cyanescens* | Stopy | 0,85% | <1:100 |
-| [*P. bohemica*](/shrooms/psilocybes/bohemica/) | Stopy | 0,11% | Nedetekovan |
+| [*P. bohemica*](@/shrooms/psilocybes/bohemica.md) | Stopy | 0,11% | Nedetekovan |
 | *P. tampanensis* | Stopy | 0,68% | <1:100 |
 
 **Poznamka**: Norbaeocystin se vyskytuje v **velmi nizkych koncentracich** jako biosyntety prekurzor.
@@ -668,25 +668,25 @@ Vyšší poměr norbaeocystin/psilocybin může indikovat:
 ## Krizove odkazy
 
 ### Souvisejici alkaloidy
-- [Baeocystin](/alkaloids/baeocystin/) - Monometyl analog
-- [Psilocybin](/alkaloids/psilocybin/) - Dimetyl analog, hlavni alkaloid
-- [Psilocin](/alkaloids/psilocin/) - Aktivni metabolit psilocybinu
-- [DMT](/alkaloids/dmt/) - Nefosforylovaný tryptamin
-- [Aeruginascin](/alkaloids/aeruginascin/) - Trimetyl analog
+- [Baeocystin](@/alkaloids/baeocystin.md) - Monometyl analog
+- [Psilocybin](@/alkaloids/psilocybin.md) - Dimetyl analog, hlavni alkaloid
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivni metabolit psilocybinu
+- [DMT](@/alkaloids/dmt.md) - Nefosforylovaný tryptamin
+- [Aeruginascin](@/alkaloids/aeruginascin.md) - Trimetyl analog
 
 ### Houby
-- [Psilocybes](/shrooms/psilocybes/) - Houby s obsahem norbaeocystinu
-- [P. semilanceata](/shrooms/psilocybes/semilanceata/) - Nejvyssi obsah
-- [P. cubensis](/shrooms/psilocybes/cubensis/) - Nejrozsirennejsi druh
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Houby s obsahem norbaeocystinu
+- [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) - Nejvyssi obsah
+- [P. cubensis](@/shrooms/psilocybes/cubensis.md) - Nejrozsirennejsi druh
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - Predpokladany hlavni cil
-- [5-HT2C](/receptors/5-ht2c/) - Sekundarni cil
+- [5-HT2A](@/receptors/5-ht2a.md) - Predpokladany hlavni cil
+- [5-HT2C](@/receptors/5-ht2c.md) - Sekundarni cil
 
 ### Biochemie
-- [Tryptofan](/amino-acids/tryptophan/) - Prekurzor
-- [Biosynteza psilocybinu](/biosynthesis/psilocybin/) - Metabolicka draha
+- [Tryptofan](@/amino-acids/tryptophan.md) - Prekurzor
+- [Biosynteza psilocybinu](@/biosynthesis/psilocybin.md) - Metabolicka draha
 
 ---
 
-<- Zpet na [Alkaloidy](/alkaloids/) | [Baeocystin](/alkaloids/baeocystin/) | [Psilocybin](/alkaloids/psilocybin/) ->
+<- Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Baeocystin](@/alkaloids/baeocystin.md) | [Psilocybin](@/alkaloids/psilocybin.md) ->

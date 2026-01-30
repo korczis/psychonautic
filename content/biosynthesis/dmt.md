@@ -10,7 +10,7 @@ tags = ["DMT", "INMT", "tryptamin", "endogenni", "biosynteza", "AADC"]
 
 # Biosynteza DMT - Endogenni produkce "Spirit Molecule"
 
-**N,N-Dimethyltryptamin (DMT)** je tryptaminovy alkaloid syntetizovany prostrednictvim jednoduche enzymaticke drahy z aminokyseliny [L-tryptofanu](/amino-acids/tryptophan/). Unikatni je skutecnost, ze DMT je **endogenni sloucenina** - je produkovan v lidskem tele, vcetne mozku. Klicovym enzymem je **INMT (indolethylamin-N-methyltransferaza)**.
+**N,N-Dimethyltryptamin (DMT)** je tryptaminovy alkaloid syntetizovany prostrednictvim jednoduche enzymaticke drahy z aminokyseliny [L-tryptofanu](@/amino-acids/tryptophan.md). Unikatni je skutecnost, ze DMT je **endogenni sloucenina** - je produkovan v lidskem tele, vcetne mozku. Klicovym enzymem je **INMT (indolethylamin-N-methyltransferaza)**.
 
 ---
 
@@ -431,20 +431,20 @@ KOMBINACE:
 ## Krizove odkazy
 
 ### Produkty drahy
-- [DMT](/alkaloids/dmt/) - Finalni produkt
-- [Tryptamin](/glossary/tryptamin/) - Intermediat
+- [DMT](@/alkaloids/dmt.md) - Finalni produkt
+- [Tryptamin](@/glossary/tryptamin.md) - Intermediat
 
 ### Prekurzory
-- [L-Tryptofan](/amino-acids/tryptophan/) - Vychozi aminokyselina
+- [L-Tryptofan](@/amino-acids/tryptophan.md) - Vychozi aminokyselina
 
 ### Souvisejici drahy
-- [Biosynteza psilocybinu](/biosynthesis/psilocybin/) - Houbova draha
-- [Biosynteza serotoninu](/biosynthesis/serotonin/) - Sdilene enzymy
+- [Biosynteza psilocybinu](@/biosynthesis/psilocybin.md) - Houbova draha
+- [Biosynteza serotoninu](@/biosynthesis/serotonin.md) - Sdilene enzymy
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelicky cil
-- [Sigma-1 receptor](/receptors/sigma-1/) - Endogenni cil
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Endogenni cil
 
 ---
 
-<- Zpet na [Biosyntézy](/biosynthesis/) | [DMT](/alkaloids/dmt/) ->
+<- Zpet na [Biosyntézy](@/biosynthesis/_index.md) | [DMT](@/alkaloids/dmt.md) ->

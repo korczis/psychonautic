@@ -157,7 +157,7 @@ Bolest:       Nocicept. → VPL/VPM + IL jadra
 | **VPL** | Spinalni draha | S1 | Telesna senzace |
 | **VPM** | Trigeminalni | S1 | Tvar, usta |
 | **VL** | Cerebellum, GPi | M1 | Motoricky plan |
-| **MD** | [Amygdala](/brain/amygdala/), PFC | [PFC](/brain/prefrontal-cortex/) | Exekutivni |
+| **MD** | [Amygdala](@/brain/amygdala.md), PFC | [PFC](@/brain/prefrontal-cortex.md) | Exekutivni |
 
 ---
 
@@ -253,7 +253,7 @@ Thalamus ←──── Zvysena entropie ──→ Kortex
 |-------------|-------------|------------------|
 | **Propofol** | GABA-A PAM | Hyperpolarizace, burst |
 | **Sevofluran** | Multiple | Thalamokort. odpojeni |
-| **Ketamin** | [NMDA](/receptors/nmda/) antagonista | Disociace |
+| **Ketamin** | [NMDA](@/receptors/nmda.md) antagonista | Disociace |
 
 ---
 
@@ -261,7 +261,7 @@ Thalamus ←──── Zvysena entropie ──→ Kortex
 
 ### Efekty psychedelik
 
-Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/)) meni thalamickou funkci:
+Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md)) meni thalamickou funkci:
 
 | Efekt | Mechanismus | Dusledek |
 |-------|-------------|----------|
@@ -316,7 +316,7 @@ Pod psilocybinem:
 
 | Receptor | Exprese | Lokalizace | Funkce |
 |----------|---------|------------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Střední | MD, pulvinar | Psychedeliky ucinek |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Střední | MD, pulvinar | Psychedeliky ucinek |
 | **5-HT1A** | Vysoka | TRN | Modulace inhibice |
 | **5-HT2C** | Nizka | Rozptylena | - |
 | **5-HT7** | Stredni | MD | Cirkadianni |
@@ -497,26 +497,26 @@ Funkce: Konsolidace pameti
 ## Viz take
 
 ### Mozkové oblasti
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - Thalamokortikalni projekce
-- [Vizualni kortex](/brain/visual-cortex/) - LGN relay
-- [Hippocampus](/brain/hippocampus/) - Pamefove okruhy
-- [Claustrum](/brain/claustrum/) - Integrace vedomi
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Thalamokortikalni projekce
+- [Vizualni kortex](@/brain/visual-cortex.md) - LGN relay
+- [Hippocampus](@/brain/hippocampus.md) - Pamefove okruhy
+- [Claustrum](@/brain/claustrum.md) - Integrace vedomi
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelicky cil
-- [GABA-A receptor](/receptors/gaba-a/) - TRN inhibice
-- [NMDA receptor](/receptors/nmda/) - Thalamicky relay
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [GABA-A receptor](@/receptors/gaba-a.md) - TRN inhibice
+- [NMDA receptor](@/receptors/nmda.md) - Thalamicky relay
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Modulace
-- [GABA](/glossary/gaba/) - TRN funkce
-- [Glutamát](/glossary/glutamat/) - Relay
+- [Serotonin](@/glossary/serotonin.md) - Modulace
+- [GABA](@/glossary/gaba.md) - TRN funkce
+- [Glutamát](@/glossary/glutamat.md) - Relay
 
 ### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Thalamicka hyperkonektivita
-- [LSD](/alkaloids/lsd/) - Gate modulace
-- [DMT](/alkaloids/dmt/) - Zmeny vedomi
+- [Psilocybin](@/alkaloids/psilocybin.md) - Thalamicka hyperkonektivita
+- [LSD](@/alkaloids/lsd.md) - Gate modulace
+- [DMT](@/alkaloids/dmt.md) - Zmeny vedomi
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Claustrum](/brain/claustrum/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Claustrum](@/brain/claustrum.md) ->

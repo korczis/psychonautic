@@ -17,7 +17,7 @@ reading_time = "35 min"
 
 # Farmakokinetika
 
-**Farmakokinetika** (z reckeho *pharmakon* = lek a *kinetikos* = pohyb) je vedni disciplina studujici **osud leciv a latek v zivem organismu**. Zatimco farmakodynamika zkouma, co latka dela telu (mechanismus ucinku), farmakokinetika zkouma, co telo dela latce. Znalost farmakokinetickych principu je nezbytna pro pochopeni ucinku psychoaktivnich latek vcetne [psychedelik](/alkaloids/), disociativ a GABAergik.
+**Farmakokinetika** (z reckeho *pharmakon* = lek a *kinetikos* = pohyb) je vedni disciplina studujici **osud leciv a latek v zivem organismu**. Zatimco farmakodynamika zkouma, co latka dela telu (mechanismus ucinku), farmakokinetika zkouma, co telo dela latce. Znalost farmakokinetickych principu je nezbytna pro pochopeni ucinku psychoaktivnich latek vcetne [psychedelik](@/alkaloids/_index.md), disociativ a GABAergik.
 
 ---
 
@@ -134,7 +134,7 @@ Cilove tkane                                Metabolity          |
 
 ### Absorpce psychedelik - priklady
 
-#### [Psilocybin](/alkaloids/psilocybin/) (peroralni)
+#### [Psilocybin](@/alkaloids/psilocybin.md) (peroralni)
 
 ```
 ABSORPCE PSILOCYBINU
@@ -163,7 +163,7 @@ Biodostupnost psilocybinu: ~50%
 (Psilocybin je PRODRUG - aktivuje se na psilocin)
 ```
 
-#### [DMT](/alkaloids/dmt/) (ruzne cesty)
+#### [DMT](@/alkaloids/dmt.md) (ruzne cesty)
 
 | Cesta | Tmax | Trvani | Poznamka |
 |-------|------|--------|----------|
@@ -173,7 +173,7 @@ Biodostupnost psilocybinu: ~50%
 | **Intranazalni** | 5-15 min | 30-60 min | Castecne obchazi first-pass |
 | **Intramuskulari** | 5-10 min | 45-60 min | Bioegkvivalentni vapovani |
 
-#### [LSD](/alkaloids/lsd/) (sublingualni/peroralni)
+#### [LSD](@/alkaloids/lsd.md) (sublingualni/peroralni)
 
 ```
 ABSORPCE LSD
@@ -257,8 +257,8 @@ Systemova cirkulace (snizena biodostupnost)
 |-------|---------------------|------------|----------|
 | **DMT** | ~0% (bez MAOI) | Extremni (MAO) | Vyzaduje MAOI pro peroralni aktivitu |
 | **Morfin** | 20-40% | Vysoky (glukuronidace) | Aktivni metabolit M6G |
-| **[Psilocybin](/alkaloids/psilocybin/)** | ~50% | Stredni | Prodrug, aktivace na psilocin |
-| **[LSD](/alkaloids/lsd/)** | ~70% | Nizky | Vysoka potence kompenzuje |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | ~50% | Stredni | Prodrug, aktivace na psilocin |
+| **[LSD](@/alkaloids/lsd.md)** | ~70% | Nizky | Vysoka potence kompenzuje |
 | **MDMA** | ~70% | Stredni (CYP2D6) | Variabilita dle genotypu |
 | **THC** | 6-20% | Vysoky (CYP2C9, 3A4) | 11-OH-THC je aktivni |
 | **Ketamin** | 17-29% | Vysoky (CYP3A4, 2B6) | Norketamin je aktivni |
@@ -388,10 +388,10 @@ PROSTUP BBB:
 
 | Latka | MW (Da) | log P | Prostup BBB | Poznamka |
 |-------|---------|-------|-------------|----------|
-| **[LSD](/alkaloids/lsd/)** | 323 | 2.9 | Vyborny | Vysoka lipofilita |
-| **[Psilocin](/alkaloids/psilocin/)** | 204 | 1.2 | Dobry | Aktivni forma psilocybinu |
-| **[DMT](/alkaloids/dmt/)** | 188 | 1.3 | Dobry | Maly, lipofilni |
-| **[Mescalin](/alkaloids/mescaline/)** | 211 | 0.7 | Stredni | Mene lipofilni |
+| **[LSD](@/alkaloids/lsd.md)** | 323 | 2.9 | Vyborny | Vysoka lipofilita |
+| **[Psilocin](@/alkaloids/psilocin.md)** | 204 | 1.2 | Dobry | Aktivni forma psilocybinu |
+| **[DMT](@/alkaloids/dmt.md)** | 188 | 1.3 | Dobry | Maly, lipofilni |
+| **[Mescalin](@/alkaloids/mescaline.md)** | 211 | 0.7 | Stredni | Mene lipofilni |
 | **Ketamin** | 238 | 2.2 | Dobry | Rychly nastup |
 | **MDMA** | 193 | 1.8 | Dobry | - |
 | **THC** | 314 | 6.9 | Vyborny | Extremne lipofilni |
@@ -479,7 +479,7 @@ Priklady dopad na psychoaktivni latky:
 
 ### Metabolismus specifickych psychedelik
 
-#### [Psilocybin](/alkaloids/psilocybin/) → [Psilocin](/alkaloids/psilocin/)
+#### [Psilocybin](@/alkaloids/psilocybin.md) → [Psilocin](@/alkaloids/psilocin.md)
 
 ```
 METABOLISMUS PSILOCYBINU
@@ -508,7 +508,7 @@ T1/2 psilocinu: 2-3 hodiny
 Hlavni metabolicka cesta: Glukuronidace
 ```
 
-#### [LSD](/alkaloids/lsd/)
+#### [LSD](@/alkaloids/lsd.md)
 
 ```
 METABOLISMUS LSD
@@ -530,7 +530,7 @@ Aktivni metabolity: Zadne vyznamne
 Detekce: O-H-LSD v moci (delsi detekční okno)
 ```
 
-#### [DMT](/alkaloids/dmt/)
+#### [DMT](@/alkaloids/dmt.md)
 
 ```
 METABOLISMUS DMT (bez MAOI)
@@ -726,8 +726,8 @@ Cmax├───────────●────────────�
 
 | Latka | Cesta | Tmax | Cmax (typicka davka) |
 |-------|-------|------|---------------------|
-| **[Psilocin](/alkaloids/psilocin/)** | p.o. (z psilocybinu 25mg) | 60-90 min | 10-15 ng/ml |
-| **[LSD](/alkaloids/lsd/)** | p.o. (100 µg) | 1.5-2.5 h | 3-5 ng/ml |
+| **[Psilocin](@/alkaloids/psilocin.md)** | p.o. (z psilocybinu 25mg) | 60-90 min | 10-15 ng/ml |
+| **[LSD](@/alkaloids/lsd.md)** | p.o. (100 µg) | 1.5-2.5 h | 3-5 ng/ml |
 | **MDMA** | p.o. (100 mg) | 1.5-2 h | 200-300 ng/ml |
 | **Ketamin** | i.m. (1 mg/kg) | 20-30 min | 200-400 ng/ml |
 | **Ketamin** | i.n. (50 mg) | 20-40 min | 50-100 ng/ml |
@@ -766,11 +766,11 @@ Pravidlo: Po 4-5 polocasech je eliminováno >95% latky
 |-------|------|---------------|----------|
 | **DMT** (inhalacne) | ~15 min | 15-30 min | Velmi kratky |
 | **Ketamin** | 2-3 h | 45-90 min | Aktivni metabolit norketamin |
-| **[Psilocin](/alkaloids/psilocin/)** | 2-3 h | 4-6 h | - |
+| **[Psilocin](@/alkaloids/psilocin.md)** | 2-3 h | 4-6 h | - |
 | **MDMA** | 6-9 h | 4-6 h | Nelineární kinetika |
-| **[LSD](/alkaloids/lsd/)** | 3-5 h | 8-12 h | Prolongovany ucinek |
+| **[LSD](@/alkaloids/lsd.md)** | 3-5 h | 8-12 h | Prolongovany ucinek |
 | **THC** | 20-30 h (terminalni) | 2-4 h (akutni) | Sekverstrace v tuku |
-| **[Meskalin](/alkaloids/mescaline/)** | 6 h | 8-12 h | - |
+| **[Meskalin](@/alkaloids/mescaline.md)** | 6 h | 8-12 h | - |
 | **Diazepam** | 20-100 h | 4-6 h (akutni) | Aktivni metabolity |
 
 ### AUC (Area Under Curve)
@@ -1069,34 +1069,34 @@ Pro kazdeho, kdo se zabyva psychedelickym vyzkumem nebo asistovanou terapii, je 
 
 ### Souvisejici pojmy v glosari
 
-- [Receptor](/glossary/receptor/) - Cile latek v organismu
-- [GABA](/glossary/gaba/) - Neurotransmiter a jeho farmakokinetika
-- [Nukleotid](/glossary/nukleotid/) - Energeticky metabolismus
-- [Fosfat](/glossary/fosfat/) - Fosforylace a signalizace
+- [Receptor](@/glossary/receptor.md) - Cile latek v organismu
+- [GABA](@/glossary/gaba.md) - Neurotransmiter a jeho farmakokinetika
+- [Nukleotid](@/glossary/nukleotid.md) - Energeticky metabolismus
+- [Fosfat](@/glossary/fosfat.md) - Fosforylace a signalizace
 
 ### Receptory a signalizace
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Cil sedativ a anxiolytik
-- [NMDA receptor](/receptors/nmda/) - Cil disociativ
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil sedativ a anxiolytik
+- [NMDA receptor](@/receptors/nmda.md) - Cil disociativ
 
 ### Psychoaktivni latky
 
-- [Psilocybin](/alkaloids/psilocybin/) - Houbove psychedelikum (prodrug)
-- [Psilocin](/alkaloids/psilocin/) - Aktivni metabolit psilocybinu
-- [LSD](/alkaloids/lsd/) - Semisynteticke psychedelikum
-- [DMT](/alkaloids/dmt/) - Endogenni psychedelikum
-- [Meskalin](/alkaloids/mescaline/) - Kaktusove psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista
+- [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum (prodrug)
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivni metabolit psilocybinu
+- [LSD](@/alkaloids/lsd.md) - Semisynteticke psychedelikum
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
+- [Meskalin](@/alkaloids/mescaline.md) - Kaktusove psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
 
 ### Zdroje
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)
 
 ---
 

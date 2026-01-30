@@ -6,7 +6,7 @@ weight = 5
 
 # Psilocybe bohemica - Lysohlávka ceska
 
-**Psilocybe bohemica** je stredoevropsky druh [psilocybinove houby](/shrooms/psilocybes/) poprve popsany z Ceske republiky v roce 1983. Predstavuje jeden z **nejpotentnejsich** evropskych druhu s celkovym obsahem alkaloidu **1,34%** suche hmotnosti. Tento druh ma zvlastni vyznam pro ceskou mykologii jako typovy material pochazejici z ceskeho uzemi.
+**Psilocybe bohemica** je stredoevropsky druh [psilocybinove houby](@/shrooms/psilocybes/_index.md) poprve popsany z Ceske republiky v roce 1983. Predstavuje jeden z **nejpotentnejsich** evropskych druhu s celkovym obsahem alkaloidu **1,34%** suche hmotnosti. Tento druh ma zvlastni vyznam pro ceskou mykologii jako typovy material pochazejici z ceskeho uzemi.
 
 ---
 
@@ -65,7 +65,7 @@ Druh je tak **stredoevropskym subendemitem** s centrem rozsireni v Cechach a na 
 | Trida | Agaricomycetes |
 | Rad | Agaricales |
 | Celed | Hymenogastraceae (drive Strophariaceae) |
-| Rod | [Psilocybe](/shrooms/psilocybes/) |
+| Rod | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | Sekce | Cyanescens |
 | Druh | P. bohemica Sebek & Smarda |
 
@@ -77,7 +77,7 @@ Druh je tak **stredoevropskym subendemitem** s centrem rozsireni v Cechach a na 
 
 ### Vztah k P. cyanescens a geneticka analyza
 
-P. bohemica nalez do **sekce Cyanescens** a je blizce pribuzna druhu [P. cyanescens](/shrooms/psilocybes/cyanescens/). Molekularne fylogeneticke analyzy ukazuji:
+P. bohemica nalez do **sekce Cyanescens** a je blizce pribuzna druhu [P. cyanescens](@/shrooms/psilocybes/cyanescens.md). Molekularne fylogeneticke analyzy ukazuji:
 
 | Studie | Rok | Metoda | Zaver |
 |--------|-----|--------|-------|
@@ -247,8 +247,8 @@ Geneticka divergence od P. cyanescens cini priblizne **3,2-4,1%** v ITS oblasti,
 
 | Alkaloid | Koncentrace (sucha hmotnost) | Podil na celku |
 |----------|------------------------------|----------------|
-| [Psilocybin](/alkaloids/psilocybin/) | **1,15%** | 85,8% |
-| [Psilocin](/alkaloids/psilocin/) | **0,11%** | 8,2% |
+| [Psilocybin](@/alkaloids/psilocybin.md) | **1,15%** | 85,8% |
+| [Psilocin](@/alkaloids/psilocin.md) | **0,11%** | 8,2% |
 | Baeocystin | **0,08%** | 6,0% |
 | Norbaeocystin | stopy | <0,5% |
 | **CELKEM** | **1,34%** | 100% |
@@ -723,4 +723,4 @@ Druh predstavuje dulezity objekt pro mykologicky vyzkum a ma potencial pro budou
 
 ---
 
-<- Zpet na [Psilocybes](/shrooms/psilocybes/) | [P. semilanceata](/shrooms/psilocybes/semilanceata/) | [P. cyanescens](/shrooms/psilocybes/cyanescens/) ->
+<- Zpet na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) ->

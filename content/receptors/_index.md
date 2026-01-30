@@ -18,8 +18,8 @@ insert_anchor_links = "right"
 
 | Typ | Mechanismus | Rychlost | Příklady |
 |-----|-------------|----------|----------|
-| **Ionotropní** | Ligandem řízený iontový kanál | ms | [GABA-A](/receptors/gaba-a/), [NMDA](/receptors/nmda/), [AMPA](/receptors/ampa/) |
-| **Metabotropní** | G-protein spřažené (GPCR) | s-min | [5-HT2A](/receptors/5-ht2a/), [D2](/receptors/d2/), [mGluR](/receptors/mglur/) |
+| **Ionotropní** | Ligandem řízený iontový kanál | ms | [GABA-A](@/receptors/gaba-a.md), [NMDA](@/receptors/nmda.md), [AMPA](@/receptors/ampa.md) |
+| **Metabotropní** | G-protein spřažené (GPCR) | s-min | [5-HT2A](@/receptors/5-ht2a.md), [D2](@/receptors/d2.md), [mGluR](@/receptors/mglur.md) |
 | **Tyrosin kinázové** | Enzymatická aktivita | min-h | Inzulinový, růstové faktory |
 | **Intracelulární** | Jaderné receptory | h-dny | Steroidní hormony |
 
@@ -27,11 +27,11 @@ insert_anchor_links = "right"
 
 | Systém | Receptory | Funkce |
 |--------|-----------|--------|
-| **Serotonergní** | [5-HT1A](/receptors/5-ht1a/), [5-HT2A](/receptors/5-ht2a/), [5-HT2B](/receptors/5-ht2b/), [5-HT2C](/receptors/5-ht2c/) | Nálada, percepce, kognice |
-| **Dopaminergní** | [D1](/receptors/d1/), [D2](/receptors/d2/) | Odměna, motivace, motorika |
-| **Glutamátový** | [NMDA](/receptors/nmda/), [AMPA](/receptors/ampa/), [mGluR](/receptors/mglur/) | Excitace, plasticita, paměť |
-| **GABAergní** | [GABA-A](/receptors/gaba-a/), [GABA-B](/receptors/gaba-b/) | Inhibice, anxiolýza, sedace |
-| **Sigma** | [σ1](/receptors/sigma-1/), [σ2](/receptors/sigma-2/) | Neuromodulace, neuroprotekce |
+| **Serotonergní** | [5-HT1A](@/receptors/5-ht1a.md), [5-HT2A](@/receptors/5-ht2a.md), [5-HT2B](@/receptors/5-ht2b.md), [5-HT2C](@/receptors/5-ht2c.md) | Nálada, percepce, kognice |
+| **Dopaminergní** | [D1](@/receptors/d1.md), [D2](@/receptors/d2.md) | Odměna, motivace, motorika |
+| **Glutamátový** | [NMDA](@/receptors/nmda.md), [AMPA](@/receptors/ampa.md), [mGluR](@/receptors/mglur.md) | Excitace, plasticita, paměť |
+| **GABAergní** | [GABA-A](@/receptors/gaba-a.md), [GABA-B](@/receptors/gaba-b.md) | Inhibice, anxiolýza, sedace |
+| **Sigma** | [σ1](@/receptors/sigma-1.md), [σ2](@/receptors/sigma-2.md) | Neuromodulace, neuroprotekce |
 
 ---
 
@@ -41,10 +41,10 @@ insert_anchor_links = "right"
 
 | Látka | Ki (nM) | Aktivita | Zdroj |
 |-------|---------|----------|-------|
-| [LSD](/alkaloids/lsd/) | **1-2** | Plný agonista | Syntetický |
-| [Psilocin](/alkaloids/psilocin/) | 6-15 | Parciální agonista | [Psilocybe](/shrooms/psilocybes/) |
-| [DMT](/alkaloids/dmt/) | 75-130 | Parciální agonista | Endogenní/Rostliny |
-| [Meskalin](/alkaloids/mescaline/) | 5000+ | Parciální agonista | Kaktusy |
+| [LSD](@/alkaloids/lsd.md) | **1-2** | Plný agonista | Syntetický |
+| [Psilocin](@/alkaloids/psilocin.md) | 6-15 | Parciální agonista | [Psilocybe](@/shrooms/psilocybes/_index.md) |
+| [DMT](@/alkaloids/dmt.md) | 75-130 | Parciální agonista | Endogenní/Rostliny |
+| [Meskalin](@/alkaloids/mescaline.md) | 5000+ | Parciální agonista | Kaktusy |
 
 ### Sekundární cíle
 
@@ -70,7 +70,7 @@ Psychedelikum
 |-------|-------------|--------|
 | Ketamin | NMDA antagonista | Disociace, analgezie |
 | PCP | NMDA antagonista | Silná disociace |
-| [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) | NMDA agonista | Excitotoxicita |
+| [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) | NMDA agonista | Excitotoxicita |
 
 ---
 
@@ -80,7 +80,7 @@ Psychedelikum
 
 | Látka | Vazebné místo | Účinek |
 |-------|---------------|--------|
-| [Muscimol](/alkaloids/muscimol/) | GABA site | Přímý agonista |
+| [Muscimol](@/alkaloids/muscimol.md) | GABA site | Přímý agonista |
 | Benzodiazepiny | BZ site | Pozitivní modulátor |
 | Barbituráty | Barbiturátové | Pozitivní modulátor |
 | Alkohol | Více míst | Pozitivní modulátor |
@@ -129,12 +129,12 @@ Glutamát + Glycin → NMDA receptor
 
 | Látka | 5-HT2A | 5-HT1A | D2 | GABA-A | NMDA | σ1 |
 |-------|--------|--------|----|---------|----|-----|
-| [LSD](/alkaloids/lsd/) | +++ | + | ++ | - | - | + |
-| [Psilocybin](/alkaloids/psilocybin/) | +++ | ++ | - | - | - | - |
-| [DMT](/alkaloids/dmt/) | +++ | + | - | - | - | +++ |
-| [Muscimol](/alkaloids/muscimol/) | - | - | - | +++ | - | - |
+| [LSD](@/alkaloids/lsd.md) | +++ | + | ++ | - | - | + |
+| [Psilocybin](@/alkaloids/psilocybin.md) | +++ | ++ | - | - | - | - |
+| [DMT](@/alkaloids/dmt.md) | +++ | + | - | - | - | +++ |
+| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | +++ | - | - |
 | Ketamin | - | - | - | - | --- | ++ |
-| [Meskalin](/alkaloids/mescaline/) | ++ | + | + | - | - | - |
+| [Meskalin](@/alkaloids/mescaline.md) | ++ | + | + | - | - | - |
 
 **Legenda**: +++ silný agonista, ++ střední, + slabý, - žádný, --- antagonista
 
@@ -161,10 +161,14 @@ Glutamát + Glycin → NMDA receptor
 
 ---
 
-Viz také:
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Cíl GABAergních látek
-- [NMDA receptor](/receptors/nmda/) - Cíl disociativ
-- [Glosář](/glossary/) - Definice pojmů
+Viz take:
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Cil GABAergnich latek
+- [NMDA receptor](@/receptors/nmda.md) - Cil disociativ
+- [Glosar](@/glossary/_index.md) - Definice pojmu
+- [Mechanismy ucinku](@/mechanisms/_index.md) - Signalni kaskady, kinetika, modulace
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - Ki, Kd, vazebna termodynamika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - GPCR a ionotropni signalizace
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - PAM, NAM, subtypova selektivita
 
-← Zpět na [Hlavní stránku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)

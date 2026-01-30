@@ -28,7 +28,7 @@ Chronické užívání opioidů vede k:
 
 ### Role locus coeruleus
 
-[Locus coeruleus](/brain/locus-coeruleus/) je primárním zdrojem noradrenalinu v CNS:
+[Locus coeruleus](@/brain/locus-coeruleus.md) je primárním zdrojem noradrenalinu v CNS:
 
 - **Při užívání opioidů**: Tlumen přes mu-receptory → snížená aktivita
 - **Při abstinenci**: Rebound hyperaktivita → záplava noradrenalinu
@@ -81,7 +81,7 @@ Chronické užívání opioidů vede k:
 
 ### Ibogain
 
-[Ibogain](/alkaloids/ibogaine/) představuje experimentální přístup:
+[Ibogain](@/alkaloids/ibogaine.md) představuje experimentální přístup:
 
 - **Mechanismus**: Komplexní modulace opioidních a glutamátových systémů
 - **Účinek**: Rychlé zmírnění abstinenčních příznaků (během 24-48 hodin)
@@ -92,10 +92,10 @@ Chronické užívání opioidů vede k:
 
 ## Viz také
 
-- [Opioidy](/receptors/opioid/) - Opioidní receptory
-- [Ibogain](/alkaloids/ibogaine/) - Anti-adiktivní alkaloid
-- [Závislost](/conditions/addiction/) - Neurobiologie závislosti
-- [Locus coeruleus](/brain/locus-coeruleus/) - Noradrenalinové centrum
+- [Opioidy](@/receptors/opioid.md) - Opioidní receptory
+- [Ibogain](@/alkaloids/ibogaine.md) - Anti-adiktivní alkaloid
+- [Závislost](@/conditions/addiction.md) - Neurobiologie závislosti
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Noradrenalinové centrum
 
 ---
 

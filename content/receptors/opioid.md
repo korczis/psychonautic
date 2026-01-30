@@ -11,7 +11,7 @@ tags = ["mu", "delta", "kappa", "endorfiny", "bolest", "ibogain", "zavislost"]
 
 # Opioidni receptory - Regulátory bolesti a odměny
 
-**Opioidni receptory** jsou rodina G-protein spřažených receptorů (GPCR), ktere hrají klíčovou roli v **modulaci bolesti**, **odměně**, **emocích** a **homeostatických funkcích**. Zahrnují tri hlavní subtypy: **mu (MOR)**, **delta (DOR)** a **kappa (KOR)**. Jsou cílem endogenních opioidních peptidů (endorfiny, enkefaliny, dynorfiny) i exogenních látek (morfin, heroin, fentanyl). [Ibogain](/alkaloids/ibogaine/) interaguje s opioidním systémem, čož vysvětluje jeho potenciál v léčbě závislostí.
+**Opioidni receptory** jsou rodina G-protein spřažených receptorů (GPCR), ktere hrají klíčovou roli v **modulaci bolesti**, **odměně**, **emocích** a **homeostatických funkcích**. Zahrnují tri hlavní subtypy: **mu (MOR)**, **delta (DOR)** a **kappa (KOR)**. Jsou cílem endogenních opioidních peptidů (endorfiny, enkefaliny, dynorfiny) i exogenních látek (morfin, heroin, fentanyl). [Ibogain](@/alkaloids/ibogaine.md) interaguje s opioidním systémem, čož vysvětluje jeho potenciál v léčbě závislostí.
 
 ---
 
@@ -329,7 +329,7 @@ ACTH  MSH  β-LPH  β-endorfin
 
 ### Ibogain - interakce s opioidním systémem
 
-[Ibogain](/alkaloids/ibogaine/) je jedinečný alkaloid s komplexním farmakologickým profilem, který zahrnuje interakci s opioidním systémem:
+[Ibogain](@/alkaloids/ibogaine.md) je jedinečný alkaloid s komplexním farmakologickým profilem, který zahrnuje interakci s opioidním systémem:
 
 | Receptor | Afinita | Efekt | Klinický význam |
 |----------|---------|-------|-----------------|
@@ -516,20 +516,20 @@ MOR "nemá" agonisty → Hyperaktivace cAMP
 ## Křížové odkazy
 
 ### Souvisejici receptory
-- [NMDA receptor](/receptors/nmda/) - Interakce s ibogainem
-- [Sigma-1 receptor](/receptors/sigma-1/) - Opioidní modulace
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelická komponenta ibogainu
+- [NMDA receptor](@/receptors/nmda.md) - Interakce s ibogainem
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Opioidní modulace
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelická komponenta ibogainu
 
 ### Souvisejici látky
-- [Ibogain](/alkaloids/ibogaine/) - Anti-adiktivní alkaloid
-- [Ketamin](/alkaloids/ketamin/) - NMDA antagonista s opioidní aktivitou
-- [Salvinorin A](/alkaloids/salvinorin/) - Selektivní KOR agonista
+- [Ibogain](@/alkaloids/ibogaine.md) - Anti-adiktivní alkaloid
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA antagonista s opioidní aktivitou
+- [Salvinorin A](@/alkaloids/salvinorin.md) - Selektivní KOR agonista
 
 ### Souvisejici témata
-- [Bolest](/conditions/pain/) - Analgezie
-- [Závislost](/conditions/addiction/) - Opioidní závislost
-- [Endorfiny](/molecules/endorphins/) - Endogenní ligandy
+- [Bolest](@/conditions/pain.md) - Analgezie
+- [Závislost](@/conditions/addiction.md) - Opioidní závislost
+- [Endorfiny](@/molecules/endorphins.md) - Endogenní ligandy
 
 ---
 
-<- Zpět na [Receptory](/receptors/) | [NMDA receptor](/receptors/nmda/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [NMDA receptor](@/receptors/nmda.md) ->

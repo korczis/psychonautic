@@ -495,9 +495,9 @@ TAAR1 varianty a odpověď na stimulanty
 ---
 
 Viz také:
-- [D2 receptor](/receptors/d2/) - Tradiční antipsychotický cíl
-- [D1 receptor](/receptors/d1/) - Dopaminový receptor
-- [5-HT1A receptor](/receptors/5-ht1a/) - 5-HT1A komponenta ulotarontu
-- [Glosář](/glossary/) - Definice pojmů
+- [D2 receptor](@/receptors/d2.md) - Tradiční antipsychotický cíl
+- [D1 receptor](@/receptors/d1.md) - Dopaminový receptor
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - 5-HT1A komponenta ulotarontu
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/)
+<- Zpět na [Receptory](@/receptors/_index.md)

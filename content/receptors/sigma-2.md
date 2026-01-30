@@ -11,7 +11,7 @@ tags = ["sigma-2", "TMEM97", "proliferace", "onkologie", "cholesterol", "neuropr
 
 # Sigma-2 receptor (TMEM97) - Tajemný regulátor buněčného osudu
 
-**Sigma-2 receptor** (S2R), molekulárně identifikovaný jako **TMEM97** (Transmembrane Protein 97), je intracelulární protein s klíčovou rolí v **buněčné proliferaci**, **apoptóze** a **cholesterolovém metabolismu**. Na rozdíl od [Sigma-1 receptoru](/receptors/sigma-1/) byl jeho molekulární charakter objasněn teprve nedávno (2017) a představuje slibný cíl pro **onkologickou** terapii a **neurodegenerativní** onemocnění.
+**Sigma-2 receptor** (S2R), molekulárně identifikovaný jako **TMEM97** (Transmembrane Protein 97), je intracelulární protein s klíčovou rolí v **buněčné proliferaci**, **apoptóze** a **cholesterolovém metabolismu**. Na rozdíl od [Sigma-1 receptoru](@/receptors/sigma-1.md) byl jeho molekulární charakter objasněn teprve nedávno (2017) a představuje slibný cíl pro **onkologickou** terapii a **neurodegenerativní** onemocnění.
 
 ---
 
@@ -481,9 +481,9 @@ Otevřené otázky S2R/TMEM97 výzkumu
 ---
 
 Viz také:
-- [Sigma-1 receptor](/receptors/sigma-1/) - Sesterský receptor
-- [DMT](/alkaloids/dmt/) - Sigma ligand
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelický receptor
-- [Glosář](/glossary/) - Definice pojmů
+- [Sigma-1 receptor](@/receptors/sigma-1.md) - Sesterský receptor
+- [DMT](@/alkaloids/dmt.md) - Sigma ligand
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelický receptor
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [TAAR1](/receptors/taar1/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [TAAR1](@/receptors/taar1.md) ->

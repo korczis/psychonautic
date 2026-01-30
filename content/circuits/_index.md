@@ -254,7 +254,7 @@ Antikorelace KOLABUJE → Sítě se "mixují"
 
 | Okruh | Primární 5-HT receptor | Efekt psychedelik |
 |-------|------------------------|-------------------|
-| Kortikální | [5-HT2A](/receptors/5-ht2a/) | Halucinace, změněná kognice |
+| Kortikální | [5-HT2A](@/receptors/5-ht2a.md) | Halucinace, změněná kognice |
 | Limbický | 5-HT2A, 5-HT1A | Emoční modulace |
 | Striatální | 5-HT2A, 5-HT2C | Motorická změna |
 | Autoreceptory (raphe) | 5-HT1A | Snížení 5-HT uvolňování |
@@ -295,10 +295,10 @@ SNc = Substantia nigra pars compacta
 
 | Látka | Dopaminový efekt | Subjektivní |
 |-------|------------------|-------------|
-| [LSD](/alkaloids/lsd/) | D2 parciální agonismus | Euforie |
-| [Psilocybin](/alkaloids/psilocybin/) | Minimální | Neutrální nálada |
-| [DMT](/alkaloids/dmt/) | Sigma-1 (ne D2) | Jiný typ euforie |
-| [Muscimol](/alkaloids/muscimol/) | Nepřímý (GABA inhibice VTA) | Dysforická sedace |
+| [LSD](@/alkaloids/lsd.md) | D2 parciální agonismus | Euforie |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Minimální | Neutrální nálada |
+| [DMT](@/alkaloids/dmt.md) | Sigma-1 (ne D2) | Jiný typ euforie |
+| [Muscimol](@/alkaloids/muscimol.md) | Nepřímý (GABA inhibice VTA) | Dysforická sedace |
 
 ---
 
@@ -384,9 +384,9 @@ Nízká entropie              Vysoká entropie
 ---
 
 Viz také:
-- [Mozek](/brain/) - Anatomické oblasti
-- [Receptory](/receptors/) - Molekulární cíle
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
-- [Default Mode Network](/circuits/dmn/) - Detailní popis
+- [Mozek](@/brain/_index.md) - Anatomické oblasti
+- [Receptory](@/receptors/_index.md) - Molekulární cíle
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik
+- [Default Mode Network](@/circuits/dmn.md) - Detailní popis
 
-← Zpět na [Hlavní stránku](/)
+← Zpět na [Hlavní stránku](@/_index.md)

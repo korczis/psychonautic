@@ -464,10 +464,10 @@ Nové serotoninergní léčivo
 ---
 
 Viz také:
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární psychedelický cíl
-- [5-HT2C receptor](/receptors/5-ht2c/) - Modulace apetitu
-- [5-HT1A receptor](/receptors/5-ht1a/) - Anxiolytický receptor
-- [MDMA](/alkaloids/mdma/) - Potenciální 5-HT2B aktivátor
-- [Glosář](/glossary/) - Definice pojmů
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární psychedelický cíl
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulace apetitu
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytický receptor
+- [MDMA](@/alkaloids/mdma.md) - Potenciální 5-HT2B aktivátor
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [5-HT2C receptor](/receptors/5-ht2c/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [5-HT2C receptor](@/receptors/5-ht2c.md) ->

@@ -6,7 +6,7 @@ weight = 7
 
 # Psilocybe tampanensis - Philosopher's Stone
 
-**Psilocybe tampanensis** je exkremne vzacny druh [psilocybinove houby](/shrooms/psilocybes/) znamky predevsim diky produkci **sklerotii** ("magic truffles"). V prirode byla nalezena pouze jednou v roce 1977 a predstavuje jeden z nejvzacnejsich druhu psychoaktivnich hub na svete.
+**Psilocybe tampanensis** je exkremne vzacny druh [psilocybinove houby](@/shrooms/psilocybes/_index.md) znamky predevsim diky produkci **sklerotii** ("magic truffles"). V prirode byla nalezena pouze jednou v roce 1977 a predstavuje jeden z nejvzacnejsich druhu psychoaktivnich hub na svete.
 
 ---
 
@@ -43,7 +43,7 @@ weight = 7
 | Podtrida | Agaricomycetidae |
 | Rad | Agaricales |
 | Celed | Hymenogastraceae |
-| Rod | [Psilocybe](/shrooms/psilocybes/) |
+| Rod | [Psilocybe](@/shrooms/psilocybes/_index.md) |
 | Druh | P. tampanensis |
 
 ### Vedecke pojmenovani
@@ -379,8 +379,8 @@ P. tampanensis obsahuje typicky koktejl tryptaminovych alkaloidu charakteristick
 
 | Alkaloid | Koncentrace (% suche hmotnosti) | Zdroj |
 |----------|--------------------------------|-------|
-| [Psilocybin](/alkaloids/psilocybin/) | 0,60-0,75% | Gartz 1989 |
-| [Psilocin](/alkaloids/psilocin/) | 0,25-0,40% | Gartz 1989 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 0,60-0,75% | Gartz 1989 |
+| [Psilocin](@/alkaloids/psilocin.md) | 0,25-0,40% | Gartz 1989 |
 | Baeocystin | 0,01-0,05% | Gartz 1989 |
 | Norbaeocystin | stopy | Gartz 1989 |
 | **CELKEM** | **0,90-1,20%** | - |
@@ -389,8 +389,8 @@ P. tampanensis obsahuje typicky koktejl tryptaminovych alkaloidu charakteristick
 
 | Alkaloid | Koncentrace (% suche hmotnosti) | Zdroj |
 |----------|--------------------------------|-------|
-| [Psilocybin](/alkaloids/psilocybin/) | 0,25-0,35% | Stamets 1996 |
-| [Psilocin](/alkaloids/psilocin/) | 0,05-0,12% | Stamets 1996 |
+| [Psilocybin](@/alkaloids/psilocybin.md) | 0,25-0,35% | Stamets 1996 |
+| [Psilocin](@/alkaloids/psilocin.md) | 0,05-0,12% | Stamets 1996 |
 | Baeocystin | 0,01-0,02% | Stamets 1996 |
 | Norbaeocystin | stopy | Stamets 1996 |
 | **CELKEM** | **0,35-0,50%** | - |
@@ -1269,4 +1269,4 @@ Den 112+: Sklizen, cisteni, suseni
 
 ---
 
-<- Zpet na [Psilocybes](/shrooms/psilocybes/) | [P. mexicana](/shrooms/psilocybes/mexicana/) | [P. cubensis](/shrooms/psilocybes/cubensis/) ->
+<- Zpet na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. mexicana](@/shrooms/psilocybes/mexicana.md) | [P. cubensis](@/shrooms/psilocybes/cubensis.md) ->

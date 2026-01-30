@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Amanita muscaria - Muchomůrka červená
 
-**Amanita muscaria** (muchomůrka červená) je ikonická psychoaktivní houba s charakteristickým červeným kloboukem a bílými tečkami. Na rozdíl od [psilocybinových hub](/shrooms/psilocybes/) obsahuje GABAergní alkaloidy [muscimol](/alkaloids/muscimol/) a neurotoxickou [kyselinu ibotenovou](/neurotoxins/ibotenic-acid/).
+**Amanita muscaria** (muchomůrka červená) je ikonická psychoaktivní houba s charakteristickým červeným kloboukem a bílými tečkami. Na rozdíl od [psilocybinových hub](@/shrooms/psilocybes/_index.md) obsahuje GABAergní alkaloidy [muscimol](@/alkaloids/muscimol.md) a neurotoxickou [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md).
 
 ---
 
@@ -19,7 +19,7 @@ insert_anchor_links = "right"
 | **České názvy** | Muchomůrka červená, Moucho |
 | **Čeleď** | Amanitaceae |
 | **Rod** | Amanita (Muchomůrky) |
-| **Aktivní látky** | [Muscimol](/alkaloids/muscimol/), [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) |
+| **Aktivní látky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergní (disociativní/deliriantní) |
 
 ---
@@ -67,8 +67,8 @@ insert_anchor_links = "right"
 
 | Látka | Obsah (sušená) | Mechanismus | Účinek |
 |-------|----------------|-------------|--------|
-| [**Muscimol**](/alkaloids/muscimol/) | 0,03-0,18% | GABA-A agonista | Psychoaktivní |
-| [**Kyselina ibotenová**](/neurotoxins/ibotenic-acid/) | 0,03-0,10% | NMDA agonista | **Neurotoxická** |
+| [**Muscimol**](@/alkaloids/muscimol.md) | 0,03-0,18% | GABA-A agonista | Psychoaktivní |
+| [**Kyselina ibotenová**](@/neurotoxins/ibotenic-acid.md) | 0,03-0,10% | NMDA agonista | **Neurotoxická** |
 | Muscazon | Trace | Neznámý | Neznámý |
 
 ### Konverze při přípravě
@@ -337,9 +337,9 @@ Při předávkování nebo podezření na záměnu:
 ---
 
 Viz také:
-- [Muscimol](/alkaloids/muscimol/) - Hlavní aktivní látka
-- [Kyselina ibotenová](/neurotoxins/ibotenic-acid/) - Neurotoxický prekurzor
-- [Psilocybes](/shrooms/psilocybes/) - Alternativní psychoaktivní houby
-- [Houby](/shrooms/) - Přehled psychoaktivních hub
+- [Muscimol](@/alkaloids/muscimol.md) - Hlavní aktivní látka
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Neurotoxický prekurzor
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Alternativní psychoaktivní houby
+- [Houby](@/shrooms/_index.md) - Přehled psychoaktivních hub
 
-← Zpět na [Houby](/shrooms/) | [Muscimol](/alkaloids/muscimol/) →
+← Zpět na [Houby](@/shrooms/_index.md) | [Muscimol](@/alkaloids/muscimol.md) →

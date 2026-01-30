@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # Receptor - Molekulární brána buněčné komunikace
 
-**Receptor** je specifická proteinová molekula, která se nachází na povrchu nebo uvnitř buněk a rozpoznává a váže specifické signální molekuly (**ligandy**). Tato interakce spouští kaskádu intracelulárních signálů vedoucích k biologické odpovědi. Receptory jsou fundamentálními cíli psychoaktivních látek včetně [psychedelik](/alkaloids/), [GABAergních látek](/glossary/gaba/) a disociativ.
+**Receptor** je specifická proteinová molekula, která se nachází na povrchu nebo uvnitř buněk a rozpoznává a váže specifické signální molekuly (**ligandy**). Tato interakce spouští kaskádu intracelulárních signálů vedoucích k biologické odpovědi. Receptory jsou fundamentálními cíli psychoaktivních látek včetně [psychedelik](@/alkaloids/_index.md), [GABAergních látek](@/glossary/gaba.md) a disociativ.
 
 ---
 
@@ -17,8 +17,8 @@ insert_anchor_links = "right"
 
 | Typ | Mechanismus | Rychlost odpovědi | Příklady |
 |-----|-------------|-------------------|----------|
-| **Ionotropní** | Ligandem řízený iontový kanál | Milisekundy | [GABA-A](/receptors/gaba-a/), [NMDA](/receptors/nmda/), AMPA, nikotinový |
-| **Metabotropní (GPCR)** | G-protein spřažený receptor | Sekundy-minuty | [5-HT2A](/receptors/5-ht2a/), D2, mGluR, opioidní |
+| **Ionotropní** | Ligandem řízený iontový kanál | Milisekundy | [GABA-A](@/receptors/gaba-a.md), [NMDA](@/receptors/nmda.md), AMPA, nikotinový |
+| **Metabotropní (GPCR)** | G-protein spřažený receptor | Sekundy-minuty | [5-HT2A](@/receptors/5-ht2a.md), D2, mGluR, opioidní |
 | **Tyrozin kinázové** | Enzymatická aktivita | Minuty-hodiny | Inzulinový receptor, EGF receptor |
 | **Intracelulární** | Jaderné receptory | Hodiny-dny | Steroidní, thyroidní, retinoidní |
 
@@ -26,10 +26,10 @@ insert_anchor_links = "right"
 
 | Neurotransmiterový systém | Receptory | Funkce |
 |---------------------------|-----------|--------|
-| **Serotonergní** | 5-HT1A, [5-HT2A](/receptors/5-ht2a/), 5-HT2B, 5-HT2C, 5-HT3 | Nálada, percepce, kognice |
+| **Serotonergní** | 5-HT1A, [5-HT2A](@/receptors/5-ht2a.md), 5-HT2B, 5-HT2C, 5-HT3 | Nálada, percepce, kognice |
 | **Dopaminergní** | D1, D2, D3, D4, D5 | Odměna, motivace, motorika |
-| **Glutamátový** | [NMDA](/receptors/nmda/), AMPA, kainátový, mGluR | Excitace, plasticita, paměť |
-| **GABAergní** | [GABA-A](/receptors/gaba-a/), GABA-B | Inhibice, anxiolýza, sedace |
+| **Glutamátový** | [NMDA](@/receptors/nmda.md), AMPA, kainátový, mGluR | Excitace, plasticita, paměť |
+| **GABAergní** | [GABA-A](@/receptors/gaba-a.md), GABA-B | Inhibice, anxiolýza, sedace |
 | **Cholinergní** | Nikotinový (nAChR), muskarinový (mAChR) | Kognice, autonomní funkce |
 | **Opioidní** | mu, delta, kappa | Analgezie, euforie |
 | **Kanabinoidní** | CB1, CB2 | Neuromodulace, imunita |
@@ -80,8 +80,8 @@ Membrána │  ████        ████████  │
 
 | Rodina | Struktura | Selektivita | Příklady |
 |--------|-----------|-------------|----------|
-| **Cys-loop** | Pentamer | Kationty/Anionty | [GABA-A](/receptors/gaba-a/), nAChR, 5-HT3, GlyR |
-| **Glutamátové** | Tetramer | Kationty (Ca²⁺, Na⁺) | [NMDA](/receptors/nmda/), AMPA, Kainátový |
+| **Cys-loop** | Pentamer | Kationty/Anionty | [GABA-A](@/receptors/gaba-a.md), nAChR, 5-HT3, GlyR |
+| **Glutamátové** | Tetramer | Kationty (Ca²⁺, Na⁺) | [NMDA](@/receptors/nmda.md), AMPA, Kainátový |
 | **P2X (ATP)** | Trimer | Kationty | P2X1-7 |
 | **TRP kanály** | Tetramer | Kationty | TRPV1 (kapsaicin), TRPM8 (menthol) |
 
@@ -102,16 +102,16 @@ Srovnání s GPCR:
     Ionotropní      │ 1-5 ms │     milisekundy
 ```
 
-### [GABA-A receptor](/receptors/gaba-a/) - Inhibiční ionotropní receptor
+### [GABA-A receptor](@/receptors/gaba-a.md) - Inhibiční ionotropní receptor
 
 | Vlastnost | Hodnota |
 |-----------|---------|
 | **Struktura** | Pentamer (α, β, γ, δ podjednotky) |
 | **Ion** | Cl⁻ (chloridový) |
 | **Efekt** | Hyperpolarizace, inhibice |
-| **Ligandy** | [GABA](/glossary/gaba/), [Muscimol](/alkaloids/muscimol/), benzodiazepiny |
+| **Ligandy** | [GABA](@/glossary/gaba.md), [Muscimol](@/alkaloids/muscimol.md), benzodiazepiny |
 
-### [NMDA receptor](/receptors/nmda/) - Excitační ionotropní receptor
+### [NMDA receptor](@/receptors/nmda.md) - Excitační ionotropní receptor
 
 | Vlastnost | Hodnota |
 |-----------|---------|
@@ -159,7 +159,7 @@ Membrána│      │         │      │
 | **Gα12/13** | Rho GEF | Rho aktivace | Cytoskelet |
 | **Gβγ** | K⁺ kanály, PLC | Variabilní | Modulace |
 
-### Signální kaskáda Gq/11 ([5-HT2A](/receptors/5-ht2a/))
+### Signální kaskáda Gq/11 ([5-HT2A](@/receptors/5-ht2a.md))
 
 ```
 Psychedelikum (LSD, Psilocin, DMT)
@@ -237,14 +237,14 @@ Ligand (Baclofen, Morfin)
 └─────────────────────────────────────────────────┘
 ```
 
-### [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
+### [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik
 
 | Vlastnost | Hodnota |
 |-----------|---------|
 | **G-protein** | Gq/11 |
 | **Distribuce** | Prefrontální kortex, vizuální kortex |
 | **Funkce** | Percepce, kognice, neuroplasticita |
-| **Ligandy** | [LSD](/alkaloids/lsd/), [Psilocin](/alkaloids/psilocin/), [DMT](/alkaloids/dmt/) |
+| **Ligandy** | [LSD](@/alkaloids/lsd.md), [Psilocin](@/alkaloids/psilocin.md), [DMT](@/alkaloids/dmt.md) |
 
 ---
 
@@ -321,10 +321,10 @@ Ligand (Baclofen, Morfin)
 
 | Pojem | Definice | Příklad |
 |-------|----------|---------|
-| **Ligand** | Molekula vážící se na receptor | Serotonin, [LSD](/alkaloids/lsd/) |
-| **Agonista** | Aktivuje receptor | [Muscimol](/alkaloids/muscimol/) na GABA-A |
+| **Ligand** | Molekula vážící se na receptor | Serotonin, [LSD](@/alkaloids/lsd.md) |
+| **Agonista** | Aktivuje receptor | [Muscimol](@/alkaloids/muscimol.md) na GABA-A |
 | **Antagonista** | Blokuje receptor bez aktivace | Ketanserin na 5-HT2A |
-| **Parciální agonista** | Částečná aktivace | [Psilocin](/alkaloids/psilocin/) |
+| **Parciální agonista** | Částečná aktivace | [Psilocin](@/alkaloids/psilocin.md) |
 | **Inverzní agonista** | Snižuje bazální aktivitu | Pimavanserin |
 | **Alosterický modulátor** | Mění odpověď na orthosterický ligand | Benzodiazepiny |
 
@@ -370,8 +370,8 @@ Odpověď
 
 | Typ | Účinek na receptor | Vnitřní aktivita | Příklady |
 |-----|-------------------|------------------|----------|
-| **Plný agonista** | Maximální aktivace | 1.0 | [Muscimol](/alkaloids/muscimol/), serotonin |
-| **Parciální agonista** | Submaximální aktivace | 0.2-0.8 | [Psilocin](/alkaloids/psilocin/), buprenorfin |
+| **Plný agonista** | Maximální aktivace | 1.0 | [Muscimol](@/alkaloids/muscimol.md), serotonin |
+| **Parciální agonista** | Submaximální aktivace | 0.2-0.8 | [Psilocin](@/alkaloids/psilocin.md), buprenorfin |
 | **Neutrální antagonista** | Žádná aktivace, blokuje agonisty | 0 | Ketanserin, naloxon |
 | **Inverzní agonista** | Snižuje bazální aktivitu | < 0 | Flumazenil (částečný), DMCM |
 
@@ -412,28 +412,28 @@ NAM = Negativní alosterický modulátor (DMCM)
 
 ## Psychedelické cíle - Detailní přehled
 
-### [5-HT2A receptor](/receptors/5-ht2a/) - Brána psychedelického stavu
+### [5-HT2A receptor](@/receptors/5-ht2a.md) - Brána psychedelického stavu
 
 | Látka | Ki (nM) | Eficacia | Trvání účinku |
 |-------|---------|----------|---------------|
 | **Serotonin** | 100-300 | Endogenní standard | - |
-| [**LSD**](/alkaloids/lsd/) | 1-2 | Velmi vysoká | 8-12 hodin |
-| [**Psilocin**](/alkaloids/psilocin/) | 6-15 | Střední-vysoká | 4-6 hodin |
-| [**DMT**](/alkaloids/dmt/) | 75-130 | Střední | 15-60 minut |
-| [**Meskalin**](/alkaloids/mescaline/) | 5000+ | Nízká | 8-12 hodin |
+| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Velmi vysoká | 8-12 hodin |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | Střední-vysoká | 4-6 hodin |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | Střední | 15-60 minut |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 5000+ | Nízká | 8-12 hodin |
 | **25I-NBOMe** | 0.04 | Extrémně vysoká | 6-10 hodin |
 
-### [GABA-A receptor](/receptors/gaba-a/) - Cíl GABAergních látek
+### [GABA-A receptor](@/receptors/gaba-a.md) - Cíl GABAergních látek
 
 | Vazebné místo | Ligandy | Mechanismus |
 |---------------|---------|-------------|
-| **GABA site** | [Muscimol](/alkaloids/muscimol/), Gaboxadol | Přímé otevření kanálu |
+| **GABA site** | [Muscimol](@/alkaloids/muscimol.md), Gaboxadol | Přímé otevření kanálu |
 | **BZ site** | Diazepam, Alprazolam | Zvýšení frekvence otevírání |
 | **Barbiturátové** | Fenobarbital | Prodloužení doby otevření |
 | **Neurosteroidové** | Alopregnanolone | Potenciace |
 | **Etanolové** | Alkohol | Komplexní potenciace |
 
-### [NMDA receptor](/receptors/nmda/) - Cíl disociativ
+### [NMDA receptor](@/receptors/nmda.md) - Cíl disociativ
 
 | Látka | Ki (nM) | Mechanismus | Klinické použití |
 |-------|---------|-------------|------------------|
@@ -446,12 +446,12 @@ NAM = Negativní alosterický modulátor (DMCM)
 
 | Látka | 5-HT2A | 5-HT1A | D2 | GABA-A | NMDA | sigma-1 |
 |-------|--------|--------|----|---------|----|--------|
-| [LSD](/alkaloids/lsd/) | +++ | + | ++ | - | - | + |
-| [Psilocybin](/alkaloids/psilocybin/) | +++ | ++ | - | - | - | - |
-| [DMT](/alkaloids/dmt/) | +++ | + | - | - | - | +++ |
-| [Muscimol](/alkaloids/muscimol/) | - | - | - | +++ | - | - |
+| [LSD](@/alkaloids/lsd.md) | +++ | + | ++ | - | - | + |
+| [Psilocybin](@/alkaloids/psilocybin.md) | +++ | ++ | - | - | - | - |
+| [DMT](@/alkaloids/dmt.md) | +++ | + | - | - | - | +++ |
+| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | +++ | - | - |
 | Ketamin | - | - | - | - | --- | ++ |
-| [Meskalin](/alkaloids/mescaline/) | ++ | + | + | - | - | - |
+| [Meskalin](@/alkaloids/mescaline.md) | ++ | + | + | - | - | - |
 
 **Legenda**: +++ silný agonista, ++ střední, + slabý, - žádný účinek, --- antagonista
 
@@ -490,7 +490,7 @@ Příklad na 5-HT2A:
 | Ligand | Gq/11 | β-arrestin | Klinický profil |
 |--------|-------|------------|-----------------|
 | Serotonin | +++ | +++ | Fyziologický |
-| [LSD](/alkaloids/lsd/) | +++ | + | Halucinogenní |
+| [LSD](@/alkaloids/lsd.md) | +++ | + | Halucinogenní |
 | Lisurid | + | ++ | Antimigrénový (bez halucinací) |
 | Ergotamin | ++ | ++ | Antimigrénový |
 
@@ -603,8 +603,8 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 
 | Receptor | Internalizace | Recyklace | Klinický dopad |
 |----------|---------------|-----------|----------------|
-| [5-HT2A](/receptors/5-ht2a/) | Rychlá (LSD) | Pomalá | Tolerance k psychedelikům |
-| [GABA-A](/receptors/gaba-a/) | Střední | Střední | Tolerance k BZ |
+| [5-HT2A](@/receptors/5-ht2a.md) | Rychlá (LSD) | Pomalá | Tolerance k psychedelikům |
+| [GABA-A](@/receptors/gaba-a.md) | Střední | Střední | Tolerance k BZ |
 | Opioidní (mu) | Rychlá | Variabilní | Tolerance k opioidům |
 | D2 | Střední | Rychlá | Tardivní dyskineze |
 
@@ -696,13 +696,13 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 
 | Indikace | Receptor | Léčivo | Mechanismus |
 |----------|----------|--------|-------------|
-| **Deprese** | [5-HT2A](/receptors/5-ht2a/) | Psilocybin | Neuroplasticita |
-| **Rezistentní deprese** | [NMDA](/receptors/nmda/) | Ketamin | BDNF uvolnění |
-| **Úzkost** | [GABA-A](/receptors/gaba-a/) | Benzodiazepiny | Inhibice |
+| **Deprese** | [5-HT2A](@/receptors/5-ht2a.md) | Psilocybin | Neuroplasticita |
+| **Rezistentní deprese** | [NMDA](@/receptors/nmda.md) | Ketamin | BDNF uvolnění |
+| **Úzkost** | [GABA-A](@/receptors/gaba-a.md) | Benzodiazepiny | Inhibice |
 | **Schizofrenie** | D2 | Antipsychotika | Antagonismus |
 | **Parkinsonova choroba** | D2 | L-DOPA | Agonismus |
-| **PTSD** | [5-HT2A](/receptors/5-ht2a/) | MDMA + terapie | Emoční zpracování |
-| **Závislosti** | [5-HT2A](/receptors/5-ht2a/) | Psilocybin | Narušení návyků |
+| **PTSD** | [5-HT2A](@/receptors/5-ht2a.md) | MDMA + terapie | Emoční zpracování |
+| **Závislosti** | [5-HT2A](@/receptors/5-ht2a.md) | Psilocybin | Narušení návyků |
 
 ### Nežádoucí účinky z receptorové perspektivy
 
@@ -749,9 +749,9 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 
 | Receptor | Radioligand | Vlastnosti |
 |----------|-------------|------------|
-| [5-HT2A](/receptors/5-ht2a/) | [11C]MDL 100907 | Vysoká selektivita |
+| [5-HT2A](@/receptors/5-ht2a.md) | [11C]MDL 100907 | Vysoká selektivita |
 | D2 | [11C]Raclopride | Standard |
-| [GABA-A](/receptors/gaba-a/) | [11C]Flumazenil | BZ site |
+| [GABA-A](@/receptors/gaba-a.md) | [11C]Flumazenil | BZ site |
 | Opioidní | [11C]Carfentanil | mu-selektivní |
 
 ---
@@ -771,27 +771,27 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 ## Viz take
 
 ### Specifické receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl klasických psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Hlavní inhibiční receptor, cíl muscimolu
-- [NMDA receptor](/receptors/nmda/) - Klíčový pro plasticitu, cíl disociativ
-- [Receptory - přehled](/receptors/) - Kompletní katalog receptorů
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl klasických psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Hlavní inhibiční receptor, cíl muscimolu
+- [NMDA receptor](@/receptors/nmda.md) - Klíčový pro plasticitu, cíl disociativ
+- [Receptory - přehled](@/receptors/_index.md) - Kompletní katalog receptorů
 
 ### Neurotransmitery
-- [GABA](/glossary/gaba/) - Hlavní inhibiční neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Stavební jednotky signálních molekul
-- [Fosfát](/glossary/fosfat/) - Klíčový pro signální transdukci
+- [GABA](@/glossary/gaba.md) - Hlavní inhibiční neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Stavební jednotky signálních molekul
+- [Fosfát](@/glossary/fosfat.md) - Klíčový pro signální transdukci
 
 ### Psychoaktivní látky
-- [LSD](/alkaloids/lsd/) - 5-HT2A agonista s vysokou afinitou
-- [Psilocybin](/alkaloids/psilocybin/) / [Psilocin](/alkaloids/psilocin/) - Houbová psychedelika
-- [DMT](/alkaloids/dmt/) - Endogenní psychedelikum
-- [Muscimol](/alkaloids/muscimol/) - Přímý GABA-A agonista
-- [Meskalin](/alkaloids/mescaline/) - Fenyletylaminové psychedelikum
+- [LSD](@/alkaloids/lsd.md) - 5-HT2A agonista s vysokou afinitou
+- [Psilocybin](@/alkaloids/psilocybin.md) / [Psilocin](@/alkaloids/psilocin.md) - Houbová psychedelika
+- [DMT](@/alkaloids/dmt.md) - Endogenní psychedelikum
+- [Muscimol](@/alkaloids/muscimol.md) - Přímý GABA-A agonista
+- [Meskalin](@/alkaloids/mescaline.md) - Fenyletylaminové psychedelikum
 
 ### Zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)

@@ -10,7 +10,7 @@ tags = ["psilocybin", "PsiD", "PsiH", "PsiK", "PsiM", "tryptofan", "biosyntetick
 
 # Biosyntéza psilocybinu - Od tryptofanu k psychedeliku
 
-**Biosyntéza psilocybinu** je enzymatická dráha, kterou houby rodu *Psilocybe* a příbuzných rodů syntetizují psychoaktivní alkaloid [psilocybin](/alkaloids/psilocybin/). Dráha byla plně objasněna v roce 2017 týmem Janis Fricke a Dirk Hoffmeister (Friedrich Schiller University Jena) a zahrnuje čtyři klíčové enzymy: **PsiD**, **PsiH**, **PsiK** a **PsiM**.
+**Biosyntéza psilocybinu** je enzymatická dráha, kterou houby rodu *Psilocybe* a příbuzných rodů syntetizují psychoaktivní alkaloid [psilocybin](@/alkaloids/psilocybin.md). Dráha byla plně objasněna v roce 2017 týmem Janis Fricke a Dirk Hoffmeister (Friedrich Schiller University Jena) a zahrnuje čtyři klíčové enzymy: **PsiD**, **PsiH**, **PsiK** a **PsiM**.
 
 ---
 
@@ -620,24 +620,24 @@ Současní výrobci:
 ## Křížové odkazy
 
 ### Produkty dráhy
-- [Psilocybin](/alkaloids/psilocybin/) - Finální produkt
-- [Psilocin](/alkaloids/psilocin/) - Aktivní metabolit
-- [Baeocystin](/alkaloids/baeocystin/) - Intermediát
-- [Norbaeocystin](/alkaloids/norbaeocystin/) - Intermediát
+- [Psilocybin](@/alkaloids/psilocybin.md) - Finální produkt
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit
+- [Baeocystin](@/alkaloids/baeocystin.md) - Intermediát
+- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - Intermediát
 
 ### Prekurzory
-- [L-Tryptofan](/amino-acids/tryptophan/) - Výchozí aminokyselina
-- [Tryptamin](/glossary/tryptamin/) - Dekarboxylovaný prekurzor
+- [L-Tryptofan](@/amino-acids/tryptophan.md) - Výchozí aminokyselina
+- [Tryptamin](@/glossary/tryptamin.md) - Dekarboxylovaný prekurzor
 
 ### Producenti
-- [Psilocybe cubensis](/shrooms/psilocybes/cubensis/) - Modelový organismus
-- [Psilocybe semilanceata](/shrooms/psilocybes/semilanceata/) - Evropský druh
-- [Psilocyby](/shrooms/psilocybes/) - Přehled rodu
+- [Psilocybe cubensis](@/shrooms/psilocybes/cubensis.md) - Modelový organismus
+- [Psilocybe semilanceata](@/shrooms/psilocybes/semilanceata.md) - Evropský druh
+- [Psilocyby](@/shrooms/psilocybes/_index.md) - Přehled rodu
 
 ### Související dráhy
-- [Biosyntéza serotoninu](/biosynthesis/serotonin/) - Savčí dráha
-- [Biosyntéza DMT](/biosynthesis/dmt/) - Alternativní tryptamin
+- [Biosyntéza serotoninu](@/biosynthesis/serotonin.md) - Savčí dráha
+- [Biosyntéza DMT](@/biosynthesis/dmt.md) - Alternativní tryptamin
 
 ---
 
-<- Zpět na [Biosyntézy](/biosynthesis/) | [Psilocybin](/alkaloids/psilocybin/) ->
+<- Zpět na [Biosyntézy](@/biosynthesis/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) ->

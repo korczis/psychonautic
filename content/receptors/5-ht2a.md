@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # 5-HT2A receptor - Brána do psychedelického stavu
 
-**5-HT2A receptor** (5-hydroxytryptamin receptor 2A) je **serotoninový receptor** patřící do rodiny G-protein spřažených receptorů (GPCR). Je **primárním molekulárním cílem** klasických psychedelik jako [LSD](/alkaloids/lsd/), [psilocybin](/alkaloids/psilocybin/) a [DMT](/alkaloids/dmt/).
+**5-HT2A receptor** (5-hydroxytryptamin receptor 2A) je **serotoninový receptor** patřící do rodiny G-protein spřažených receptorů (GPCR). Je **primárním molekulárním cílem** klasických psychedelik jako [LSD](@/alkaloids/lsd.md), [psilocybin](@/alkaloids/psilocybin.md) a [DMT](@/alkaloids/dmt.md).
 
 ---
 
@@ -188,10 +188,10 @@ Normální stav                    Psychedelický stav
 
 | Látka | Ki (nM) | Eficacia | Trvání | Zdroj |
 |-------|---------|----------|--------|-------|
-| [**LSD**](/alkaloids/lsd/) | 1-2 | Vysoká | 8-12 h | Syntetický |
-| [**Psilocin**](/alkaloids/psilocin/) | 6-15 | Střední | 4-6 h | Houby |
-| [**DMT**](/alkaloids/dmt/) | 75-130 | Střední | 15-60 min | Endogenní |
-| [**Meskalin**](/alkaloids/mescaline/) | 5000+ | Nízká | 8-12 h | Kaktusy |
+| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Vysoká | 8-12 h | Syntetický |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | Střední | 4-6 h | Houby |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | Střední | 15-60 min | Endogenní |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 5000+ | Nízká | 8-12 h | Kaktusy |
 | **DOI** | 0.6 | Vysoká | 12-24 h | Syntetický |
 | **25I-NBOMe** | 0.04 | Velmi vysoká | 6-10 h | Syntetický |
 
@@ -364,11 +364,66 @@ Opakovaná aktivace 5-HT2A
 
 ---
 
-Viz také:
-- [5-HT1A receptor](/receptors/5-ht1a/) - Anxiolytický serotoninový receptor
-- [5-HT2C receptor](/receptors/5-ht2c/) - Modulační receptor
-- [LSD](/alkaloids/lsd/) - Nejvíce prozkoumaný 5-HT2A agonista
-- [Psilocybin](/alkaloids/psilocybin/) - Terapeuticky využívaný agonista
-- [DMT](/alkaloids/dmt/) - Endogenní psychedelikum
+## Detailni signalni kaskady a kinetika
 
-← Zpět na [Receptory](/receptors/) | [GABA-A receptor](/receptors/gaba-a/) →
+Pro kompletni kvantitativni analyzu 5-HT2A signalizace viz sekce [Mechanismy ucinku](@/mechanisms/_index.md):
+
+### Kvantitativni vazebna kinetika vsech ligandu
+
+| Ligand | Ki (nM) | kon (M^-1 s^-1) | koff (s^-1) | Rezid. cas (s) | deltaG (kJ/mol) |
+|--------|---------|-----------------|-------------|-----------------|-----------------|
+| **LSD** | 1-2 | ~10^7 | ~10^-4 | >1000 | -53 |
+| **Psilocin** | 6-20 | ~10^6 | ~10^-2 | ~100 | -44 |
+| **DMT** | 75-130 | ~10^5 | ~10^-1 | ~10 | -40 |
+| **Meskalin** | 5000+ | ~10^4 | ~1 | ~1 | -30 |
+| **DOI** | 0.6 | ~10^7 | ~10^-5 | >10000 | -56 |
+| **Serotonin** | 100-300 | ~10^7 | ~10^-1 | ~10 | -37 |
+
+Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) -- termodynamika, SAR, Hill rovnice, receptor occupancy modely
+
+### Kompletni signalni kaskada s casovym prubehem
+
+```
+CASOVY PRUBEH 5-HT2A SIGNALIZACE
+
+Cas:        ms      s       min      h        dny
+            |       |       |        |        |
+Gq/11:     [====]   |       |        |        |
+PLCbeta:    [=====]  |       |        |        |
+Ca2+:        [========]      |        |        |
+PKC:          [=========]   |        |        |
+ERK1/2:                [========]     |        |
+CREB:                     [========]  |        |
+IEG (c-Fos):                 [=======]|        |
+BDNF mRNA:                      [=========]   |
+BDNF protein:                         [=========]
+Dendrit. zmeny:                              [========]
+```
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- biased agonismus, beta-arrestin, mTOR, BDNF-TrkB
+
+### Alostericka modulace 5-HT2A
+
+5-HT2A je soucasti heterodimeru s mGluR2, coz moduluje signalizaci psychedelik:
+
+- mGluR2 aktivace **snizuje** psychedelicky ucinek (Gq antagonismus pres Gi)
+- mGluR2 antagonismus **potencuje** 5-HT2A signalizaci
+- Terapeuticke implikace: mGluR2 PAM jako adjuvantni terapie
+
+Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- heterodimer, PAM/NAM, MWC model
+
+---
+
+Viz take:
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolyticky serotonionvy receptor
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulacni receptor
+- [LSD](@/alkaloids/lsd.md) - Nejvice prozkumany 5-HT2A agonista
+- [Psilocybin](@/alkaloids/psilocybin.md) - Terapeuticky vyuzivany agonista
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni mechanismy
+- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - Ki, Kd, vazebna termodynamika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - Gq, beta-arrestin, mTOR drahy
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - mGluR2-5-HT2A heterodimer
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - receptor occupancy a klinicky ucinek
+
+<- Zpet na [Receptory](@/receptors/_index.md) | [GABA-A receptor](@/receptors/gaba-a.md) ->

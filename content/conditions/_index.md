@@ -14,4 +14,4 @@ Sekce venujici se psychiatrickym a neurologickym porucham, jejich neurobiologii 
 
 ## Psychiatricke poruchy
 
-- [Deprese](/conditions/depression/) - MDD, TRD a psychedelicka terapie
+- [Deprese](@/conditions/depression.md) - MDD, TRD a psychedelicka terapie

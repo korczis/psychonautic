@@ -12,7 +12,7 @@ souvisejici_latky = ["dmt", "harmin", "harmalin", "ayahuasca"]
 
 # MAO - Monoaminooxidaza
 
-**Monoaminooxidaza** (MAO) je klicovy mitochondrialni enzym zodpovedny za oxidativni deaminaci monoaminovych neurotransmiteru a xenobiotik. Existuji dve izoformy - **MAO-A** a **MAO-B** - s odlisnou substratovou specificitou a tkanova distribucou. MAO hraje zasadni roli v psychofarmakologii, nebot jeji inhibice umoznuje oralni aktivitu [DMT](/alkaloids/dmt/) v ayahuasce.
+**Monoaminooxidaza** (MAO) je klicovy mitochondrialni enzym zodpovedny za oxidativni deaminaci monoaminovych neurotransmiteru a xenobiotik. Existuji dve izoformy - **MAO-A** a **MAO-B** - s odlisnou substratovou specificitou a tkanova distribucou. MAO hraje zasadni roli v psychofarmakologii, nebot jeji inhibice umoznuje oralni aktivitu [DMT](@/alkaloids/dmt.md) v ayahuasce.
 
 ---
 
@@ -88,7 +88,7 @@ Detailne:
 
 | Substrat | MAO-A | MAO-B | Produkt | Fyziologicky vyznam |
 |----------|-------|-------|---------|---------------------|
-| **[Serotonin](/glossary/serotonin/)** | +++ | + | 5-HIAA | Regulace nalady |
+| **[Serotonin](@/glossary/serotonin.md)** | +++ | + | 5-HIAA | Regulace nalady |
 | **Noradrenalin** | +++ | + | MHPG/VMA | Stress, pozornost |
 | **Adrenalin** | +++ | - | VMA | Stress |
 | **Dopamin** | ++ | ++ | DOPAC/HVA | Odmena, motorika |
@@ -103,7 +103,7 @@ Detailne:
 
 | Substrat | MAO-A | MAO-B | Zdroj | Relevance |
 |----------|-------|-------|-------|-----------|
-| **[DMT](/alkaloids/dmt/)** | +++ | + | Psychotria viridis | Ayahuasca |
+| **[DMT](@/alkaloids/dmt.md)** | +++ | + | Psychotria viridis | Ayahuasca |
 | **5-MeO-DMT** | +++ | + | Bufo alvarius | Psychedelikum |
 | **Tryptaminy obecne** | ++ - +++ | + | Ruzne | Psychedelika |
 | **MPTP** | - | +++ | Kontaminant | Parkinsonismus |
@@ -615,18 +615,18 @@ MAO-B inhibitory → Snížení H2O2 → Neuroprotekce
 ## Viz také
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Hlavní substrát MAO-A
-- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
-- [Receptor](/glossary/receptor/) - Obecný pojem
+- [Serotonin](@/glossary/serotonin.md) - Hlavní substrát MAO-A
+- [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
+- [Receptor](@/glossary/receptor.md) - Obecný pojem
 
 ### Psychedelika
-- [DMT](/alkaloids/dmt/) - Substrát MAO-A, aktivní složka ayahuascy
-- [Psilocybin](/alkaloids/psilocybin/) - Tryptaminové psychedelikum
-- [LSD](/alkaloids/lsd/) - Klasické psychedelikum
+- [DMT](@/alkaloids/dmt.md) - Substrát MAO-A, aktivní složka ayahuascy
+- [Psilocybin](@/alkaloids/psilocybin.md) - Tryptaminové psychedelikum
+- [LSD](@/alkaloids/lsd.md) - Klasické psychedelikum
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - Primární cíl psychedelik
+- [5-HT2A](@/receptors/5-ht2a.md) - Primární cíl psychedelik
 
 ---
 
-<- Zpět na [Glosář](/glossary/)
+<- Zpět na [Glosář](@/glossary/_index.md)

@@ -11,7 +11,7 @@ tags = ["antagonista", "receptor", "blokada", "kompetitivni", "nekompetitivni", 
 
 # Antagonista - Molekularni strazce receptorove aktivity
 
-**Antagonista** je latka, ktera se vaze na [receptor](/glossary/receptor/) a blokuje nebo snizuje jeho aktivaci endogennimi ligandy ci agonisty, aniz by sama vyvolavala biologickou odpoved. Antagoniste predstavuji klicovy nastroj ve farmakologii a neurovede, umoznujici presne modulovat signalni drahy v nervovem systemu.
+**Antagonista** je latka, ktera se vaze na [receptor](@/glossary/receptor.md) a blokuje nebo snizuje jeho aktivaci endogennimi ligandy ci agonisty, aniz by sama vyvolavala biologickou odpoved. Antagoniste predstavuji klicovy nastroj ve farmakologii a neurovede, umoznujici presne modulovat signalni drahy v nervovem systemu.
 
 ---
 
@@ -670,31 +670,31 @@ Priklady radioligandu (antagoniste):
 
 ### Souvisejici pojmy v glosari
 
-- [Receptor](/glossary/receptor/) - Molekularni cil antagonistu
-- [GABA](/glossary/gaba/) - Neurotransmiter s klinicky vyznamnymi antagonisty
-- [Fosfat](/glossary/fosfat/) - Signalni transdukce
-- [Nukleotid](/glossary/nukleotid/) - Sekundarni messengery (cAMP)
+- [Receptor](@/glossary/receptor.md) - Molekularni cil antagonistu
+- [GABA](@/glossary/gaba.md) - Neurotransmiter s klinicky vyznamnymi antagonisty
+- [Fosfat](@/glossary/fosfat.md) - Signalni transdukce
+- [Nukleotid](@/glossary/nukleotid.md) - Sekundarni messengery (cAMP)
 
 ### Specificke receptory
 
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primarni cil psychedelik, ketanserin antagonista
-- [GABA-A receptor](/receptors/gaba-a/) - Flumazenil, bikukullin
-- [NMDA receptor](/receptors/nmda/) - Ketamin, memantín (kanalove blokatory)
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik, ketanserin antagonista
+- [GABA-A receptor](@/receptors/gaba-a.md) - Flumazenil, bikukullin
+- [NMDA receptor](@/receptors/nmda.md) - Ketamin, memantín (kanalove blokatory)
 
 ### Psychoaktivni latky
 
-- [LSD](/alkaloids/lsd/) - Blokovatelny ketanserinem
-- [Psilocybin](/alkaloids/psilocybin/) / [Psilocin](/alkaloids/psilocin/) - 5-HT2A agoniste
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista (antagoniste: bikukullin)
+- [LSD](@/alkaloids/lsd.md) - Blokovatelny ketanserinem
+- [Psilocybin](@/alkaloids/psilocybin.md) / [Psilocin](@/alkaloids/psilocin.md) - 5-HT2A agoniste
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista (antagoniste: bikukullin)
 
 ### Houby
 
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj psilocybinu
-- [Amanita muscaria](/shrooms/amanita-muscaria/) - Zdroj muscimolu
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 
 ---
 
-<- Zpet na [Glosar](/glossary/)
+<- Zpet na [Glosar](@/glossary/_index.md)
 
 ---
 

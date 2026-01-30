@@ -11,7 +11,7 @@ tags = ["GABA-B", "baklofen", "GHB", "spasticita", "závislost", "metabotropní"
 
 # GABA-B receptor - Metabotropní strážce inhibice
 
-**GABA-B receptor** je **metabotropní** (G-protein spřažený) receptor pro kyselinu gama-aminomáselnou (GABA). Na rozdíl od ionotropního [GABA-A receptoru](/receptors/gaba-a/) zprostředkovává **pomalou, prolongovanou inhibici** prostřednictvím G-proteinové signalizace. Je cílem **baklofenu** (myorelaxans) a místem účinku **GHB** (kyseliny gama-hydroxybutyrové).
+**GABA-B receptor** je **metabotropní** (G-protein spřažený) receptor pro kyselinu gama-aminomáselnou (GABA). Na rozdíl od ionotropního [GABA-A receptoru](@/receptors/gaba-a.md) zprostředkovává **pomalou, prolongovanou inhibici** prostřednictvím G-proteinové signalizace. Je cílem **baklofenu** (myorelaxans) a místem účinku **GHB** (kyseliny gama-hydroxybutyrové).
 
 ---
 
@@ -533,9 +533,9 @@ GABBR polymorfismy a odpověď na léčbu
 ---
 
 Viz také:
-- [GABA-A receptor](/receptors/gaba-a/) - Ionotropní GABA receptor
-- [NMDA receptor](/receptors/nmda/) - Glutamátový receptor
-- [Muscimol](/alkaloids/muscimol/) - GABA-A agonista
-- [Glosář](/glossary/) - Definice pojmů
+- [GABA-A receptor](@/receptors/gaba-a.md) - Ionotropní GABA receptor
+- [NMDA receptor](@/receptors/nmda.md) - Glutamátový receptor
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
+- [Glosář](@/glossary/_index.md) - Definice pojmů
 
-<- Zpět na [Receptory](/receptors/) | [AMPA receptor](/receptors/ampa/) ->
+<- Zpět na [Receptory](@/receptors/_index.md) | [AMPA receptor](@/receptors/ampa.md) ->

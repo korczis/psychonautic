@@ -6,7 +6,7 @@ weight = 1
 
 # MAOI - Inhibitory monoaminooxidazy
 
-**Inhibitory monoaminooxidazy (MAOI)** jsou latky, ktere blokuji cinnost enzymu [MAO (monoaminooxidazy)](/glossary/mao/), cimz zvysuji hladiny monoaminovych neurotransmiteru ([serotoninu](/glossary/serotonin/), dopaminu, noradrenalinu). V kontextu psychedelik jsou MAOI klicove pro umozneni **oralni aktivity [DMT](/alkaloids/dmt/)** v [ayahuasce](/preparations/ayahuasca/).
+**Inhibitory monoaminooxidazy (MAOI)** jsou latky, ktere blokuji cinnost enzymu [MAO (monoaminooxidazy)](@/glossary/mao.md), cimz zvysuji hladiny monoaminovych neurotransmiteru ([serotoninu](@/glossary/serotonin.md), dopaminu, noradrenalinu). V kontextu psychedelik jsou MAOI klicove pro umozneni **oralni aktivity [DMT](@/alkaloids/dmt.md)** v [ayahuasce](@/preparations/ayahuasca.md).
 
 ---
 
@@ -35,7 +35,7 @@ weight = 1
 
 ### Prehled
 
-Harmala alkaloidy jsou **beta-karbolin**ove slouceniny s reverzibilni MAO-A inhibicni aktivitou. Jsou klicovou slozkou [ayahuascy](/preparations/ayahuasca/).
+Harmala alkaloidy jsou **beta-karbolin**ove slouceniny s reverzibilni MAO-A inhibicni aktivitou. Jsou klicovou slozkou [ayahuascy](@/preparations/ayahuasca.md).
 
 ### Hlavni alkaloidy
 
@@ -394,18 +394,23 @@ PSYCHEDELICKY UCINEK (4-6 hodin)
 ## Krizove odkazy
 
 ### Souvisejici temata
-- [MAO (enzym)](/glossary/mao/) - detailni popis enzymu
-- [Ayahuasca](/preparations/ayahuasca/) - tradicni pripravek
-- [DMT](/alkaloids/dmt/) - psychoaktivni slozka
-- [Serotonin](/glossary/serotonin/) - neurotransmiter
+- [MAO (enzym)](@/glossary/mao.md) - detailni popis enzymu
+- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni pripravek
+- [DMT](@/alkaloids/dmt.md) - psychoaktivni slozka
+- [Serotonin](@/glossary/serotonin.md) - neurotransmiter
 
 ### Bezpecnost
-- [Harm Reduction](/harm-reduction/) - zasady bezpecneho uzivani
+- [Harm Reduction](@/harm-reduction/_index.md) - zasady bezpecneho uzivani
 
 ### Receptory
-- [5-HT2A](/receptors/5-ht2a/) - cilovy receptor psychedelik
-- [5-HT1A](/receptors/5-ht1a/) - sekundární receptor
+- [5-HT2A](@/receptors/5-ht2a.md) - cilovy receptor psychedelik
+- [5-HT1A](@/receptors/5-ht1a.md) - sekundarni receptor
+
+### Mechanismy
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni prehled mechanismu
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - MAO-A metabolismus, lekove interakce, farmakogenetika
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - signalni kaskady po MAO inhibici
 
 ---
 
-Zpet na [Farmakologie](/pharmacology/) | [Ayahuasca](/preparations/ayahuasca/) | [DMT](/alkaloids/dmt/)
+Zpet na [Farmakologie](@/pharmacology/_index.md) | [Ayahuasca](@/preparations/ayahuasca.md) | [DMT](@/alkaloids/dmt.md)

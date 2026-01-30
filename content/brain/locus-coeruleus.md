@@ -167,10 +167,10 @@ PROJEKCE LOCUS COERULEUS
 
 | Cil | Funkce | Adrenoreceptor |
 |-----|--------|----------------|
-| **[Prefrontalni kortex](/brain/prefrontal-cortex/)** | Pracovni pamet, pozornost | Alpha-2A, Alpha-1 |
-| **[Hippocampus](/brain/hippocampus/)** | Pamet, LTP modulace | Beta, Alpha-1 |
-| **[Amygdala](/brain/amygdala/)** | Emocni pamet, strach | Beta |
-| **[Thalamus](/brain/thalamus/)** | Arousal, senzoricky relay | Alpha-1 |
+| **[Prefrontalni kortex](@/brain/prefrontal-cortex.md)** | Pracovni pamet, pozornost | Alpha-2A, Alpha-1 |
+| **[Hippocampus](@/brain/hippocampus.md)** | Pamet, LTP modulace | Beta, Alpha-1 |
+| **[Amygdala](@/brain/amygdala.md)** | Emocni pamet, strach | Beta |
+| **[Thalamus](@/brain/thalamus.md)** | Arousal, senzoricky relay | Alpha-1 |
 | **Mozeček** | Motoricka koordinace | Beta |
 | **Micha** | Bolest, autonomni | Alpha-2 |
 
@@ -317,8 +317,8 @@ Kontext: NE system pravdepodobne prispiva k:
 
 | Latka | Efekt na LC | Reference |
 |-------|-------------|-----------|
-| **[LSD](/alkaloids/lsd/)** | Zvysena aktivita | Aghajanian 1968 |
-| **[Psilocybin](/alkaloids/psilocybin/)** | Modulace | - |
+| **[LSD](@/alkaloids/lsd.md)** | Zvysena aktivita | Aghajanian 1968 |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | Modulace | - |
 | **MDMA** | Silna NE release | Green 2003 |
 
 ---
@@ -336,10 +336,10 @@ Kontext: NE system pravdepodobne prispiva k:
 
 | Receptor | Ligand | Efekt na LC |
 |----------|--------|-------------|
-| **5-HT2A** | [Serotonin](/glossary/serotonin/) | Excitace |
+| **5-HT2A** | [Serotonin](@/glossary/serotonin.md) | Excitace |
 | **CRF-R1** | CRF | Silna excitace |
 | **Orexin** | Orexin A/B | Excitace (arousal) |
-| **GABA-A** | [GABA](/glossary/gaba/) | Inhibice |
+| **GABA-A** | [GABA](@/glossary/gaba.md) | Inhibice |
 | **Opioidni (mu)** | Endorfiny | Inhibice |
 
 ### Alpha-2 autoreceptor
@@ -383,10 +383,10 @@ Farmakologie:
 
 | Zdroj | Neurotransmiter | Efekt |
 |-------|-----------------|-------|
-| **[Amygdala](/brain/amygdala/) (CeA)** | CRF | Silna excitace |
+| **[Amygdala](@/brain/amygdala.md) (CeA)** | CRF | Silna excitace |
 | **Hypothalamus (LH)** | Orexin | Arousal |
 | **PAG** | Glutamát | Obrana, bolest |
-| **[Prefrontální kortex](/brain/prefrontal-cortex/)** | Glutamát | Modulace |
+| **[Prefrontální kortex](@/brain/prefrontal-cortex.md)** | Glutamát | Modulace |
 | **Nucleus paragigantocell.** | GABA | Inhibice (REM) |
 
 ### Eferentni spoje
@@ -500,24 +500,24 @@ Důsledky:
 ## Viz take
 
 ### Mozkové oblasti
-- [Prefrontalni kortex](/brain/prefrontal-cortex/) - LC projekce, kognice
-- [Hippocampus](/brain/hippocampus/) - Pamet, LTP
-- [Amygdala](/brain/amygdala/) - Emocni pamet
-- [Raphe nuclei](/brain/raphe-nuclei/) - Vzajemna regulace
-- [Thalamus](/brain/thalamus/) - Arousal
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - LC projekce, kognice
+- [Hippocampus](@/brain/hippocampus.md) - Pamet, LTP
+- [Amygdala](@/brain/amygdala.md) - Emocni pamet
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Vzajemna regulace
+- [Thalamus](@/brain/thalamus.md) - Arousal
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Modulace LC
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibice
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Modulace LC
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibice
 
 ### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - 5-HT2A vstup
-- [GABA](/glossary/gaba/) - Inhibice
+- [Serotonin](@/glossary/serotonin.md) - 5-HT2A vstup
+- [GABA](@/glossary/gaba.md) - Inhibice
 
 ### Psychoaktivní látky
-- [LSD](/alkaloids/lsd/) - LC modulace
-- [Psilocybin](/alkaloids/psilocybin/) - Neprime efekty
+- [LSD](@/alkaloids/lsd.md) - LC modulace
+- [Psilocybin](@/alkaloids/psilocybin.md) - Neprime efekty
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Raphe nuclei](/brain/raphe-nuclei/) ->
+<- Zpet na [Mozek](@/brain/_index.md) | [Raphe nuclei](@/brain/raphe-nuclei.md) ->

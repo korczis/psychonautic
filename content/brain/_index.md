@@ -66,14 +66,14 @@ Psychoaktivní látky ovlivňují specifické **mozkové oblasti** a jejich **vz
 
 | Oblast | Funkce | Vliv psychedelik | Receptor |
 |--------|--------|------------------|----------|
-| [**Prefrontální kortex**](/brain/prefrontal-cortex/) | Exekutivní funkce, rozhodování | Změněná kognice | [5-HT2A](/receptors/5-ht2a/) |
-| [**Vizuální kortex**](/brain/visual-cortex/) | Zrakové zpracování | Halucinace | [5-HT2A](/receptors/5-ht2a/) |
-| [**Claustrum**](/brain/claustrum/) | Integrace vědomí | "Reset" vědomí | [5-HT2A](/receptors/5-ht2a/) |
-| [**Hippocampus**](/brain/hippocampus/) | Paměť, navigace | Změněná paměť | [5-HT2A](/receptors/5-ht2a/), NMDA |
-| [**Amygdala**](/brain/amygdala/) | Emoce, strach | Snížená reaktivita | [5-HT2A](/receptors/5-ht2a/) |
-| [**Thalamus**](/brain/thalamus/) | Senzorický relay | Filtrování vjemů | [5-HT2A](/receptors/5-ht2a/) |
-| [**Raphe nuclei**](/brain/raphe-nuclei/) | Produkce serotoninu | Autoreceptorová inhibice | 5-HT1A |
-| [**Locus coeruleus**](/brain/locus-coeruleus/) | Produkce noradrenalinu | Arousal | α2, 5-HT2A |
+| [**Prefrontální kortex**](@/brain/prefrontal-cortex.md) | Exekutivní funkce, rozhodování | Změněná kognice | [5-HT2A](@/receptors/5-ht2a.md) |
+| [**Vizuální kortex**](@/brain/visual-cortex.md) | Zrakové zpracování | Halucinace | [5-HT2A](@/receptors/5-ht2a.md) |
+| [**Claustrum**](@/brain/claustrum.md) | Integrace vědomí | "Reset" vědomí | [5-HT2A](@/receptors/5-ht2a.md) |
+| [**Hippocampus**](@/brain/hippocampus.md) | Paměť, navigace | Změněná paměť | [5-HT2A](@/receptors/5-ht2a.md), NMDA |
+| [**Amygdala**](@/brain/amygdala.md) | Emoce, strach | Snížená reaktivita | [5-HT2A](@/receptors/5-ht2a.md) |
+| [**Thalamus**](@/brain/thalamus.md) | Senzorický relay | Filtrování vjemů | [5-HT2A](@/receptors/5-ht2a.md) |
+| [**Raphe nuclei**](@/brain/raphe-nuclei.md) | Produkce serotoninu | Autoreceptorová inhibice | 5-HT1A |
+| [**Locus coeruleus**](@/brain/locus-coeruleus.md) | Produkce noradrenalinu | Arousal | α2, 5-HT2A |
 
 ---
 
@@ -181,8 +181,8 @@ Angular ←────→ Temporal          Angular ←  ·  → Temporal
 
 | Oblast | Hlavní 5-HT receptor | Funkce |
 |--------|---------------------|--------|
-| Prefrontální kortex | [5-HT2A](/receptors/5-ht2a/) | Kognice |
-| Vizuální kortex | [5-HT2A](/receptors/5-ht2a/) | Percepce |
+| Prefrontální kortex | [5-HT2A](@/receptors/5-ht2a.md) | Kognice |
+| Vizuální kortex | [5-HT2A](@/receptors/5-ht2a.md) | Percepce |
 | Amygdala | 5-HT2A, 5-HT1A | Emoce |
 | Hippocampus | 5-HT1A, 5-HT2A | Paměť |
 | Raphe nuclei | 5-HT1A (autoreceptor) | Regulace |
@@ -200,7 +200,7 @@ Angular ←────→ Temporal          Angular ←  ·  → Temporal
 | **Noradrenergní** | Locus coeruleus | Noradrenalin | Arousal, pozornost |
 | **Cholinergní** | Nucleus basalis | Acetylcholin | Paměť, pozornost |
 | **Glutamátový** | Kortex | Glutamát | Excitace |
-| **GABAergní** | Interneurony | [GABA](/glossary/gaba/) | Inhibice |
+| **GABAergní** | Interneurony | [GABA](@/glossary/gaba.md) | Inhibice |
 
 ---
 
@@ -252,17 +252,20 @@ Top-down predikce (oslabené) → Bottom-up signály dominují
 
 ## Jednotlivé oblasti
 
-- [Prefrontální kortex](/brain/prefrontal-cortex/) - Exekutivní funkce
-- [Vizuální kortex](/brain/visual-cortex/) - Zrakové zpracování
-- [Claustrum](/brain/claustrum/) - Integrace vědomí
-- [Hippocampus](/brain/hippocampus/) - Paměť
-- [Amygdala](/brain/amygdala/) - Emoce
-- [Thalamus](/brain/thalamus/) - Senzorický relay
-- [Raphe nuclei](/brain/raphe-nuclei/) - Zdroj serotoninu
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - Exekutivní funkce
+- [Vizuální kortex](@/brain/visual-cortex.md) - Zrakové zpracování
+- [Claustrum](@/brain/claustrum.md) - Integrace vědomí
+- [Hippocampus](@/brain/hippocampus.md) - Paměť
+- [Amygdala](@/brain/amygdala.md) - Emoce
+- [Thalamus](@/brain/thalamus.md) - Senzorický relay
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Zdroj serotoninu
 
-Viz také:
-- [Receptory](/receptors/) - Molekulární cíle
-- [Okruhy](/circuits/) - Neurální sítě
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
+Viz take:
+- [Receptory](@/receptors/_index.md) - Molekularni cile
+- [Okruhy](@/circuits/_index.md) - Neuralni site
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
+- [Mechanismy ucinku](@/mechanisms/_index.md) - Signalni kaskady, neuroplasticita
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - GPCR a ionotropni signalizace v mozkovych oblastech
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - Vztah distribuce latek a mozkovych oblasti
 
-← Zpět na [Hlavní stránku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)

@@ -20,7 +20,7 @@ Tato sekce popisuje **enzymatické dráhy**, kterymi zive organismy syntetizuji 
 
 | Alkaloid | Prekurzor | Organismus | Klicove enzymy |
 |----------|-----------|------------|----------------|
-| [Psilocybin](/biosynthesis/psilocybin/) | L-Tryptofan | Houby (*Psilocybe*) | PsiD, PsiH, PsiK, PsiM |
+| [Psilocybin](@/biosynthesis/psilocybin.md) | L-Tryptofan | Houby (*Psilocybe*) | PsiD, PsiH, PsiK, PsiM |
 | Serotonin | L-Tryptofan | Savci | TPH, AADC |
 | DMT | L-Tryptofan | Rostliny, savci? | AADC, INMT |
 | Meskalin | L-Tyrosin | Kaktusy | TDC, hydroxylazy, OMT |
@@ -55,7 +55,7 @@ BAEOCYSTIN
      v
 PSILOCYBIN
 
-VIZ: [Detailni popis](/biosynthesis/psilocybin/)
+VIZ: [Detailni popis](@/biosynthesis/psilocybin.md)
 ```
 
 ### Biosynteza serotoninu (savci)
@@ -200,8 +200,8 @@ Evoluce:
 ---
 
 Viz take:
-- [Psilocybin](/alkaloids/psilocybin/) - Produkt biosyntezy
-- [L-Tryptofan](/amino-acids/tryptophan/) - Prekurzor
-- [Serotonin](/glossary/serotonin/) - Savci biosynteticka draha
+- [Psilocybin](@/alkaloids/psilocybin.md) - Produkt biosyntezy
+- [L-Tryptofan](@/amino-acids/tryptophan.md) - Prekurzor
+- [Serotonin](@/glossary/serotonin.md) - Savci biosynteticka draha
 
-<- Zpet na [Hlavni stranku](/)
+<- Zpet na [Hlavni stranku](@/_index.md)

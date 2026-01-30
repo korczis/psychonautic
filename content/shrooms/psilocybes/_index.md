@@ -9,7 +9,7 @@ template = "section.html"
 
 # Psilocybes - Lysohlávky
 
-**Psilocybes** (lysohlávky) jsou rodem hub obsahujících psychoaktivní tryptaminy [psilocybin](/alkaloids/psilocybin/) a [psilocin](/alkaloids/psilocin/). Rod zahrnuje přes 200 druhů rozšířených po celém světě.
+**Psilocybes** (lysohlávky) jsou rodem hub obsahujících psychoaktivní tryptaminy [psilocybin](@/alkaloids/psilocybin.md) a [psilocin](@/alkaloids/psilocin.md). Rod zahrnuje přes 200 druhů rozšířených po celém světě.
 
 ---
 
@@ -218,13 +218,13 @@ Rod *Psilocybe* je kosmopolitní, s nejvyšší druhovou diverzitou v:
 
 | Druh | Psilocybin | Psilocin | Baeocystin | Celkem | Relativní síla |
 |------|-----------|----------|------------|--------|----------------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | 1.78% | 0.38% | 0.35% | **2.51%** | Extrémní |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | 0.98% | 0.20% | 0.18% | **1.36%** | Velmi vysoká |
-| [P. bohemica](/shrooms/psilocybes/bohemica/) | 1.02% | 0.17% | 0.15% | **1.34%** | Velmi vysoká |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | 0.60% | 0.17% | 0.08% | **0.85%** | Vysoká |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | 0.50% | 0.06% | 0.07% | **0.63%** | Střední |
-| [P. tampanensis](/shrooms/psilocybes/tampanensis/) | 0.31% | 0.03% | 0.07% | **0.41%** | Nízká-střední |
-| [P. mexicana](/shrooms/psilocybes/mexicana/) | 0.25% | 0.05% | 0.05% | **0.35%** | Nízká-střední |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | 1.78% | 0.38% | 0.35% | **2.51%** | Extrémní |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | 0.98% | 0.20% | 0.18% | **1.36%** | Velmi vysoká |
+| [P. bohemica](@/shrooms/psilocybes/bohemica.md) | 1.02% | 0.17% | 0.15% | **1.34%** | Velmi vysoká |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | 0.60% | 0.17% | 0.08% | **0.85%** | Vysoká |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | 0.50% | 0.06% | 0.07% | **0.63%** | Střední |
+| [P. tampanensis](@/shrooms/psilocybes/tampanensis.md) | 0.31% | 0.03% | 0.07% | **0.41%** | Nízká-střední |
+| [P. mexicana](@/shrooms/psilocybes/mexicana.md) | 0.25% | 0.05% | 0.05% | **0.35%** | Nízká-střední |
 
 ### Ekvivalentní dávkování (sušená hmotnost)
 
@@ -560,13 +560,13 @@ Vyšší poměr = lepší skladovatelnost (psilocin rychleji degraduje).
 
 | Druh | České jméno | Celková potence | Region |
 |------|-------------|-----------------|--------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | Lysohlávka azurová | **2.51%** | Pacifik USA |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Lysohlávka kopinatá | **1.36%** | Evropa |
-| [P. bohemica](/shrooms/psilocybes/bohemica/) | Lysohlávka česká | **1.34%** | Střední Evropa |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | Lysohlávka modravá | **0.85%** | Celosvětově |
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | Kubánská lysohlávka | **0.63%** | Tropy |
-| [P. tampanensis](/shrooms/psilocybes/tampanensis/) | Philosopher's Stone | **0.41%** (sklerotia) | Florida |
-| [P. mexicana](/shrooms/psilocybes/mexicana/) | Teonanácatl | **0.35%** | Mexiko |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | Lysohlávka azurová | **2.51%** | Pacifik USA |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Lysohlávka kopinatá | **1.36%** | Evropa |
+| [P. bohemica](@/shrooms/psilocybes/bohemica.md) | Lysohlávka česká | **1.34%** | Střední Evropa |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | Lysohlávka modravá | **0.85%** | Celosvětově |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | Kubánská lysohlávka | **0.63%** | Tropy |
+| [P. tampanensis](@/shrooms/psilocybes/tampanensis.md) | Philosopher's Stone | **0.41%** (sklerotia) | Florida |
+| [P. mexicana](@/shrooms/psilocybes/mexicana.md) | Teonanácatl | **0.35%** | Mexiko |
 
 ### Podle biotopu
 
@@ -574,29 +574,29 @@ Vyšší poměr = lepší skladovatelnost (psilocin rychleji degraduje).
 
 | Druh | Region | Klíčový znak |
 |------|--------|--------------|
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Evropa | Kuželovitý klobouk s bradavkou |
-| [P. mexicana](/shrooms/psilocybes/mexicana/) | Mexiko | Menší, hnědý klobouk |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Evropa | Kuželovitý klobouk s bradavkou |
+| [P. mexicana](@/shrooms/psilocybes/mexicana.md) | Mexiko | Menší, hnědý klobouk |
 
 #### Dřevo/Mulč (Wood lovers)
 
 | Druh | Region | Klíčový znak |
 |------|--------|--------------|
-| [P. azurescens](/shrooms/psilocybes/azurescens/) | Pacifik USA | Široký karamelový klobouk |
-| [P. cyanescens](/shrooms/psilocybes/cyanescens/) | Celosvětově | Vlnitý okraj kloblouku |
-| [P. bohemica](/shrooms/psilocybes/bohemica/) | Střední Evropa | Bílý třen |
+| [P. azurescens](@/shrooms/psilocybes/azurescens.md) | Pacifik USA | Široký karamelový klobouk |
+| [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) | Celosvětově | Vlnitý okraj kloblouku |
+| [P. bohemica](@/shrooms/psilocybes/bohemica.md) | Střední Evropa | Bílý třen |
 
 #### Trus/Pastviny
 
 | Druh | Region | Klíčový znak |
 |------|--------|--------------|
-| [P. cubensis](/shrooms/psilocybes/cubensis/) | Tropy | Zlatohnědý klobouk, závoj |
+| [P. cubensis](@/shrooms/psilocybes/cubensis.md) | Tropy | Zlatohnědý klobouk, závoj |
 
 #### Sklerotia producenti
 
 | Druh | Typ sklerotií | Poznámka |
 |------|---------------|----------|
-| [P. tampanensis](/shrooms/psilocybes/tampanensis/) | "Magic truffles" | Komerčně pěstované |
-| [P. mexicana](/shrooms/psilocybes/mexicana/) | "Piedras" | Tradiční použití |
+| [P. tampanensis](@/shrooms/psilocybes/tampanensis.md) | "Magic truffles" | Komerčně pěstované |
+| [P. mexicana](@/shrooms/psilocybes/mexicana.md) | "Piedras" | Tradiční použití |
 
 ---
 
@@ -604,9 +604,9 @@ Vyšší poměr = lepší skladovatelnost (psilocin rychleji degraduje).
 
 | Alkaloid | Funkce | Více info |
 |----------|--------|-----------|
-| [Psilocybin](/alkaloids/psilocybin/) | Fosforylovaný prodrug | Hlavní alkaloid |
-| [Psilocin](/alkaloids/psilocin/) | Aktivní metabolit | Přímý 5-HT2A agonista |
-| [Baeocystin](/alkaloids/baeocystin/) | Minor alkaloid | Demetyl-psilocybin |
+| [Psilocybin](@/alkaloids/psilocybin.md) | Fosforylovaný prodrug | Hlavní alkaloid |
+| [Psilocin](@/alkaloids/psilocin.md) | Aktivní metabolit | Přímý 5-HT2A agonista |
+| [Baeocystin](@/alkaloids/baeocystin.md) | Minor alkaloid | Demetyl-psilocybin |
 | Norbaeocystin | Trace alkaloid | Prekurzor |
 | Aeruginascin | Trace alkaloid | Potencující efekt? |
 
@@ -618,8 +618,8 @@ V České republice se vyskytují:
 
 | Druh | Výskyt | Sezóna | Biotop |
 |------|--------|--------|--------|
-| [P. bohemica](/shrooms/psilocybes/bohemica/) | Běžný | IX-XII | Listnaté lesy, zahrady |
-| [P. semilanceata](/shrooms/psilocybes/semilanceata/) | Běžný | IX-XI | Horské louky |
+| [P. bohemica](@/shrooms/psilocybes/bohemica.md) | Běžný | IX-XII | Listnaté lesy, zahrady |
+| [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) | Běžný | IX-XI | Horské louky |
 | P. serbica | Vzácný | IX-XI | Jižní Morava, lužní lesy |
 | P. cyanescens | Vzácný (introdukovaný) | X-XI | Zahradní mulč |
 
@@ -705,12 +705,12 @@ Psilocybin → (defosforylace) → Psilocin → 5-HT2A receptor →
 
 ## Související
 
-- [Alkaloidy](/alkaloids/) - Aktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Hlavní alkaloid
-- [Psilocin](/alkaloids/psilocin/) - Aktivní forma
-- [Baeocystin](/alkaloids/baeocystin/) - Minor alkaloid
-- [Amanita](/shrooms/amanita-muscaria/) - Jiný typ psychoaktivních hub
-- [Houby](/shrooms/) - Nadřazená sekce
+- [Alkaloidy](@/alkaloids/_index.md) - Aktivní látky
+- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní alkaloid
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní forma
+- [Baeocystin](@/alkaloids/baeocystin.md) - Minor alkaloid
+- [Amanita](@/shrooms/amanita-muscaria.md) - Jiný typ psychoaktivních hub
+- [Houby](@/shrooms/_index.md) - Nadřazená sekce
 
 ---
 

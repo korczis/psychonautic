@@ -120,7 +120,7 @@ Entorhinalni kortex
 | **Pyramidove bunky** | CA1-CA3 | Hlavni projekcni | Glutamat |
 | **Mistnobunky (Place cells)** | CA1, CA3 | Prostorove kodovani | Glutamat |
 | **Gridove bunky** | EC | Metricka navigace | Glutamat |
-| **Interneurony** | Vsechny vrstvy | Inhibice | [GABA](/glossary/gaba/) |
+| **Interneurony** | Vsechny vrstvy | Inhibice | [GABA](@/glossary/gaba.md) |
 
 ---
 
@@ -202,7 +202,7 @@ Hippocampus (konkretne gyrus dentatus) je jednou z mala oblasti dospeleho mozku,
 **Faktory podporujici neurogenezi**:
 - Fyzicka aktivita (beh)
 - Uceni a kognitivni stimulace
-- Psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/))
+- Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md))
 - BDNF (brain-derived neurotrophic factor)
 - Socialní interakce
 
@@ -221,7 +221,7 @@ Hippocampus (konkretne gyrus dentatus) je jednou z mala oblasti dospeleho mozku,
 
 | Receptor | Exprese | Lokalizace | Funkce |
 |----------|---------|------------|--------|
-| [**5-HT2A**](/receptors/5-ht2a/) | Stredni | CA1, CA3 | Plasticita, psychedelicky ucinek |
+| [**5-HT2A**](@/receptors/5-ht2a.md) | Stredni | CA1, CA3 | Plasticita, psychedelicky ucinek |
 | **5-HT1A** | Vysoka | CA1, DG | Inhibice, anxiolyticky efekt |
 | **5-HT4** | Stredni | CA1 | Kognitivni funkce |
 | **5-HT7** | Nizka | CA3 | Cirkadianní regulace |
@@ -230,7 +230,7 @@ Hippocampus (konkretne gyrus dentatus) je jednou z mala oblasti dospeleho mozku,
 
 | Receptor | Funkce v hippocampu |
 |----------|---------------------|
-| [**NMDA**](/receptors/nmda/) | Dlouhodoba potenciace (LTP), pamet |
+| [**NMDA**](@/receptors/nmda.md) | Dlouhodoba potenciace (LTP), pamet |
 | **AMPA** | Rychla excitacni transmise |
 | **mGluR1/5** | Modulace plasticity |
 | **mGluR2/3** | Presynapticka inhibice |
@@ -250,7 +250,7 @@ Hippocampus (konkretne gyrus dentatus) je jednou z mala oblasti dospeleho mozku,
 
 ### Efekty psychedelik
 
-Klasicka psychedelika ([psilocybin](/alkaloids/psilocybin/), [LSD](/alkaloids/lsd/), [DMT](/alkaloids/dmt/)) ovlivnuji hippocampus prostrednictvim [5-HT2A receptoru](/receptors/5-ht2a/):
+Klasicka psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) ovlivnuji hippocampus prostrednictvim [5-HT2A receptoru](@/receptors/5-ht2a.md):
 
 | Efekt | Mechanismus | Dusledek |
 |-------|-------------|----------|
@@ -385,7 +385,7 @@ Zvýšený kortizol
 | Radioligand | Cil | Aplikace |
 |-------------|-----|----------|
 | [11C]WAY-100635 | 5-HT1A | Deprese, uzkost |
-| [11C]MDL 100907 | [5-HT2A](/receptors/5-ht2a/) | Psychedelicky vyzkum |
+| [11C]MDL 100907 | [5-HT2A](@/receptors/5-ht2a.md) | Psychedelicky vyzkum |
 | [18F]FDG | Metabolismus | AD, epilepsie |
 | [11C]Pittsburgh B | Amyloid | AD |
 
@@ -439,7 +439,7 @@ Funkce:
 |-------|-------|-----|--------|
 | **Fornix** | Subikulum | Mamillární teliska | Papezův okruh |
 | **EC projekce** | CA1, Sub | Neokortex | Paměťova konsolidace |
-| **Amygdala** | CA1, Sub | [Amygdala](/brain/amygdala/) | Emoční pamet |
+| **Amygdala** | CA1, Sub | [Amygdala](@/brain/amygdala.md) | Emoční pamet |
 
 ### Papezuv okruh
 
@@ -498,7 +498,7 @@ PAPEZUV OKRUH (Emocni pamet)
 | Latka | Mechanismus | Ucinek |
 |-------|-------------|--------|
 | **Donepezil** | AChE inhibitor | Zlepsena pamet (AD) |
-| **Memantine** | [NMDA](/receptors/nmda/) antagonista | Neuroprotekce |
+| **Memantine** | [NMDA](@/receptors/nmda.md) antagonista | Neuroprotekce |
 | **Piracetam** | AMPA modulace | Kontroverzni |
 | **Psychedelika** | 5-HT2A, neuroplasticita | Vyzkum |
 
@@ -507,7 +507,7 @@ PAPEZUV OKRUH (Emocni pamet)
 | Latka | Receptor | Efekt |
 |-------|----------|-------|
 | **Buspiron** | 5-HT1A agonista | Anxiolyticky |
-| **Benzodiazepiny** | [GABA-A](/receptors/gaba-a/) PAM | Anxiolyticky, amnezie |
+| **Benzodiazepiny** | [GABA-A](@/receptors/gaba-a.md) PAM | Anxiolyticky, amnezie |
 
 ---
 
@@ -537,29 +537,90 @@ PAPEZUV OKRUH (Emocni pamet)
 
 ---
 
-## Viz take
+## Mechanismy neuroplasticity v hippocampu
 
-### Mozkove oblasti
-- [Amygdala](/brain/amygdala/) - Emoční zpracování, strach
-- [Prefrontální kortex](/brain/prefrontal-cortex/) - Exekutivní funkce
-- [Thalamus](/brain/thalamus/) - Senzorický relay
-- [Claustrum](/brain/claustrum/) - Integrace vědomí
+Hippocampus je klicovym mistem pro pochopeni neuroplastickych mechanismu psychoaktivnich latek -- viz [Mechanismy ucinku](@/mechanisms/_index.md):
 
-### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Psychedelický cíl
-- [NMDA receptor](/receptors/nmda/) - Plasticita, LTP
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibice
+### Konvergence signalnich drah v hippocampu
 
-### Neurotransmitery
-- [Serotonin](/glossary/serotonin/) - Modulace nálady
-- [GABA](/glossary/gaba/) - Inhibiční neurotransmiter
-- [Glutamát](/glossary/glutamat/) - Excitační transmise
+```
+NEUROPLASTICITA V HIPPOCAMPU
 
-### Psychoaktivní látky
-- [Psilocybin](/alkaloids/psilocybin/) - Neuroplasticita, neurogeneze
-- [LSD](/alkaloids/lsd/) - Kognitivní efekty
-- [DMT](/alkaloids/dmt/) - Endogenní psychedelikum
+PSYCHEDELIKA (5-HT2A):           KETAMIN (NMDA blokada):
+Psilocin, LSD, DMT               Ketamin, PCP
+        |                               |
+        v                               v
+5-HT2A -> Gq -> PLCbeta          NMDA blok -> Glu burst
+        |                               |
+        v                               v
+Ca2+/PKC -> ERK1/2               AMPA -> BDNF uvolneni
+        |                               |
+        +-------> KONVERGENCE <---------+
+                       |
+                       v
+               BDNF -> TrkB
+                       |
+                       v
+               mTORC1 aktivace
+                       |
+          +------------+------------+
+          |            |            |
+          v            v            v
+     PSD-95        GluA1       Synaptofyzin
+     (postsynapt.) (AMPA)     (presynapt.)
+          |            |            |
+          v            v            v
+    SYNAPTOGENEZE + LTP FACILITACE
+          |
+          v
+    NEUROGENEZE (DG subgranularni zona)
+    - Catlow et al. 2013: Psilocybin zvysuje
+      neurogenezi v dentate gyrus
+```
+
+### Terapeuticky vyznam hippocampalnich mechanismu
+
+| Mechanismus | Latka | Hippocampalni efekt | Klinicky korelat |
+|-------------|-------|---------------------|------------------|
+| 5-HT2A -> BDNF | [Psilocybin](@/alkaloids/psilocybin.md) | Neurogeneze v DG | Antidepresivni, pro-kognitivni |
+| NMDA blok -> synaptogeneze | Ketamin | CA1 synaptogeneze | Rychly antidepresivni ucinek |
+| 5-HT2A -> extinkcni uceni | [Psilocybin](@/alkaloids/psilocybin.md) | Facilitace fear extinction | PTSD terapie |
+| GABA-A inhibice | [Muscimol](@/alkaloids/muscimol.md) | Amnesticky efekt | Sedace, zmeny vedomi |
+
+Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- BDNF-TrkB, mTOR konvergence
+Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NMDA modulace v hippocampu
 
 ---
 
-<- Zpet na [Mozek](/brain/) | [Amygdala](/brain/amygdala/) ->
+## Viz take
+
+### Mozkove oblasti
+- [Amygdala](@/brain/amygdala.md) - Emocni zpracovani, strach
+- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Exekutivni funkce
+- [Thalamus](@/brain/thalamus.md) - Senzoricky relay
+- [Claustrum](@/brain/claustrum.md) - Integrace vedomi
+
+### Receptory
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
+- [NMDA receptor](@/receptors/nmda.md) - Plasticita, LTP
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibice
+
+### Neurotransmitery
+- [Serotonin](@/glossary/serotonin.md) - Modulace nalady
+- [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
+- [Glutamat](@/glossary/glutamat.md) - Excitacni transmise
+
+### Psychoaktivni latky
+- [Psilocybin](@/alkaloids/psilocybin.md) - Neuroplasticita, neurogeneze
+- [LSD](@/alkaloids/lsd.md) - Kognitivni efekty
+- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
+
+### Mechanismy ucinku
+- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni prehled
+- [Signalni transdukce](@/mechanisms/signal-transduction.md) - BDNF-TrkB, mTOR
+- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - NMDA modulace
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - terapeuticke davkovani
+
+---
+
+<- Zpet na [Mozek](@/brain/_index.md) | [Amygdala](@/brain/amygdala.md) ->

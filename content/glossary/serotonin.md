@@ -10,7 +10,7 @@ categories = ["neuroveda", "farmakologie", "biochemie"]
 
 # Serotonin - 5-hydroxytryptamin (5-HT)
 
-**Serotonin** (5-hydroxytryptamin, 5-HT) je monoaminovy neurotransmiter, ktery hraje klicovou roli v regulaci **nalady**, **kognice**, **percepce**, **spanku**, **chuti k jidlu** a mnoha dalsich fyziologickych funkci. Je take primarnim cilem klasickych psychedelik, ktera pusobi jako agoniste na [5-HT2A receptorech](/receptors/5-ht2a/).
+**Serotonin** (5-hydroxytryptamin, 5-HT) je monoaminovy neurotransmiter, ktery hraje klicovou roli v regulaci **nalady**, **kognice**, **percepce**, **spanku**, **chuti k jidlu** a mnoha dalsich fyziologickych funkci. Je take primarnim cilem klasickych psychedelik, ktera pusobi jako agoniste na [5-HT2A receptorech](@/receptors/5-ht2a.md).
 
 Vice nez 90% serotoninu v lidskem tele se nachazi v gastrointestinalnim traktu, kde reguluje motilitu strev. V centralni nervove soustave je serotonin syntetizovan v **raphe nuclei** mozkoveho kmene a jeho projekce zasahuji prakticky do vsech oblasti mozku.
 
@@ -65,7 +65,7 @@ Bufotenin (5-HO-DMT): HO-[Indol]-CH2-CH2-N(CH3)2
                            ^5
 ```
 
-**Klic**: Psychedelika jako [psilocin](/alkaloids/psilocin/), [DMT](/alkaloids/dmt/) a [LSD](/alkaloids/lsd/) jsou strukturalni analogy serotoninu a vazou se na jeho receptory.
+**Klic**: Psychedelika jako [psilocin](@/alkaloids/psilocin.md), [DMT](@/alkaloids/dmt.md) a [LSD](@/alkaloids/lsd.md) jsou strukturalni analogy serotoninu a vazou se na jeho receptory.
 
 ### Molekularni struktura (ASCII)
 
@@ -199,14 +199,14 @@ Serotonin → 5-HT1A → Gi/o protein
 
 ### 5-HT2 receptory - primární cíle psychedelik
 
-#### [5-HT2A receptor](/receptors/5-ht2a/)
+#### [5-HT2A receptor](@/receptors/5-ht2a.md)
 
 | Vlastnost | Hodnota |
 |-----------|---------|
 | **G-protein** | Gq/11 |
 | **Lokalizace** | Prefrontální kortex, vizuální kortex, claustrum |
 | **Funkce** | **Halucinace**, neuroplasticita, percepce |
-| **Psychedelika** | [LSD](/alkaloids/lsd/), [psilocin](/alkaloids/psilocin/), [DMT](/alkaloids/dmt/), [meskalin](/alkaloids/mescaline/) |
+| **Psychedelika** | [LSD](@/alkaloids/lsd.md), [psilocin](@/alkaloids/psilocin.md), [DMT](@/alkaloids/dmt.md), [meskalin](@/alkaloids/mescaline.md) |
 
 **KLICOVE**: 5-HT2A receptor je **primárním molekulárním cílem** klasických psychedelik. Aktivace tohoto receptoru v pyramidových neuronech vrstvy V kortexu je zodpovědná za halucinogenní účinky.
 
@@ -345,15 +345,15 @@ Serotonergní neurony jsou koncentrovány v **raphe nuclei** (švu jádrech) moz
 
 ### Psychedelika jako 5-HT2A agonisté
 
-Klasická psychedelika jsou strukturální analogy serotoninu a působí primárně jako agonisté [5-HT2A receptoru](/receptors/5-ht2a/):
+Klasická psychedelika jsou strukturální analogy serotoninu a působí primárně jako agonisté [5-HT2A receptoru](@/receptors/5-ht2a.md):
 
 | Látka | Ki na 5-HT2A (nM) | Relativní potence | Trvání |
 |-------|-------------------|-------------------|--------|
 | **Serotonin** | 100-300 | Reference | - |
-| [**LSD**](/alkaloids/lsd/) | 1-2 | Velmi vysoká | 8-12 h |
-| [**Psilocin**](/alkaloids/psilocin/) | 6-15 | Vysoká | 4-6 h |
-| [**DMT**](/alkaloids/dmt/) | 75-130 | Střední | 15-60 min |
-| [**Meskalin**](/alkaloids/mescaline/) | 5000+ | Nízká | 8-12 h |
+| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Velmi vysoká | 8-12 h |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | Vysoká | 4-6 h |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | Střední | 15-60 min |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 5000+ | Nízká | 8-12 h |
 | **25I-NBOMe** | 0.04 | Extrémně vysoká | 6-10 h |
 
 ### Mechanismus halucinogeneze
@@ -762,9 +762,9 @@ Serotonin je jen jednou částí složité mozaiky.
 
 | Látka | Ki (nM) | Selektivita | Využití |
 |-------|---------|-------------|---------|
-| [**LSD**](/alkaloids/lsd/) | 1-2 | Multi-receptor | Výzkum, terapie (studie) |
-| [**Psilocin**](/alkaloids/psilocin/) | 6-15 | 5-HT2A/2C | Terapie deprese |
-| [**DMT**](/alkaloids/dmt/) | 75-130 | + Sigma-1 | Výzkum, tradiční |
+| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Multi-receptor | Výzkum, terapie (studie) |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | 5-HT2A/2C | Terapie deprese |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | + Sigma-1 | Výzkum, tradiční |
 | **DOI** | 0.6 | 5-HT2A/2C | Laboratorní standard |
 
 ### 5-HT2A antagonisté
@@ -820,25 +820,25 @@ Serotonin je jen jednou částí složité mozaiky.
 ## Viz take
 
 ### Receptory
-- [5-HT2A receptor](/receptors/5-ht2a/) - Primární cíl psychedelik
-- [GABA-A receptor](/receptors/gaba-a/) - Inhibiční neurotransmise
-- [NMDA receptor](/receptors/nmda/) - Excitační neurotransmise
-- [Receptor (obecně)](/glossary/receptor/) - Základní pojem
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik
+- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibiční neurotransmise
+- [NMDA receptor](@/receptors/nmda.md) - Excitační neurotransmise
+- [Receptor (obecně)](@/glossary/receptor.md) - Základní pojem
 
 ### Psychoaktivni latky
-- [LSD](/alkaloids/lsd/) - 5-HT2A agonista s nejvyšší afinitou
-- [Psilocybin](/alkaloids/psilocybin/) - Prodrug psilocinu
-- [Psilocin](/alkaloids/psilocin/) - Aktivní metabolit, 5-HT2A agonista
-- [DMT](/alkaloids/dmt/) - Endogenní psychedelikum
-- [Meskalin](/alkaloids/mescaline/) - Fenyletylaminové psychedelikum
+- [LSD](@/alkaloids/lsd.md) - 5-HT2A agonista s nejvyšší afinitou
+- [Psilocybin](@/alkaloids/psilocybin.md) - Prodrug psilocinu
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit, 5-HT2A agonista
+- [DMT](@/alkaloids/dmt.md) - Endogenní psychedelikum
+- [Meskalin](@/alkaloids/mescaline.md) - Fenyletylaminové psychedelikum
 
 ### Neurotransmitery
-- [GABA](/glossary/gaba/) - Hlavní inhibiční neurotransmiter
-- [Nukleotid](/glossary/nukleotid/) - Signální molekuly
+- [GABA](@/glossary/gaba.md) - Hlavní inhibiční neurotransmiter
+- [Nukleotid](@/glossary/nukleotid.md) - Signální molekuly
 
 ### Zdroje
-- [Psilocybe houby](/shrooms/psilocybes/) - Zdroj tryptaminových alkaloidů
+- [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj tryptaminových alkaloidů
 
 ---
 
-<- Zpet na [Glosar](/glossary/) | [GABA](/glossary/gaba/) | [Receptor](/glossary/receptor/)
+<- Zpet na [Glosar](@/glossary/_index.md) | [GABA](@/glossary/gaba.md) | [Receptor](@/glossary/receptor.md)
