@@ -245,14 +245,14 @@ Krátký proud        Prolongovaný proud
 
 ### Funkční role α podjednotek
 
-| Subtyp | Distribuce | Funkce | Selektivní ligand |
-|--------|------------|--------|-------------------|
-| **α1** | Kortex, cerebellum | Sedace, amnézie | Zolpidem |
-| **α2** | Limbický systém | Anxiolýza | TPA023 |
-| **α3** | Limbický systém | Myorelaxace | TP003 |
-| **α4** | Thalamus, hippocampus | Tonická inhibice | (extrasynaptické) |
-| **α5** | Hippocampus | Paměť, kognice | α5IA (inverzní) |
-| **α6** | Cerebellum | Motorická koordinace | Furosemid (blokátor) |
+| Subtyp | Distribuce | Funkce | Selektivní ligand | Terapeutické cílení |
+|--------|------------|--------|-------------------|---------------------|
+| **α1** | Kortex, cerebellum | Sedace, amnézie | Zolpidem | Nespavost, [Amanita](@/shrooms/amanita-muscaria.md) efekty |
+| **α2** | [Limbický systém](@/brain/amygdala.md) | **Anxiolýza** | TPA023 | **Úzkostné stavy** |
+| **α3** | [Limbický systém](@/brain/amygdala.md) | Myorelaxace | TP003 | Spasticita |
+| **α4** | [Thalamus](@/brain/thalamus.md), [hippocampus](@/brain/hippocampus.md) | **Tonická inhibice** | [Muscimol](@/alkaloids/muscimol.md) | Sedace, spánek |
+| **α5** | [Hippocampus](@/brain/hippocampus.md) | Paměť, kognice | α5IA (inverzní) | Kognitivní enhancery |
+| **α6** | Cerebellum | Motorická koordinace | Furosemid (blokátor) | Ataxie |
 
 ### Synaptické vs extrasynaptické receptory
 
@@ -286,15 +286,15 @@ inhibice
 
 ### Regionální exprese
 
-| Oblast | Hlavní subtypy | Funkce |
-|--------|----------------|--------|
-| **Kortex** | α1β2γ2, α5β3γ2 | Kognice, vědomí |
-| **Hippocampus** | α1β2γ2, α5β3γ2 | Paměť |
-| **Amygdala** | α2β3γ2 | Strach, úzkost |
-| **Thalamus** | α4β2δ | Senzorické zpracování |
-| **Cerebellum** | α6β2/3γ2, α1β2/3γ2 | Motorika |
-| **Striatum** | α1-5βγ | Motorika, odměna |
-| **Mícha** | α2/3β3γ2 | Myorelaxace |
+| Oblast | Hlavní subtypy | Funkce | Psychoaktivní cílení |
+|--------|----------------|--------|---------------------|
+| **[Prefrontální kortex](@/brain/prefrontal-cortex.md)** | α1β2γ2, α5β3γ2 | Kognice, vědomí | [Muscimol](@/alkaloids/muscimol.md) → kognitivní sedace |
+| **[Hippocampus](@/brain/hippocampus.md)** | α1β2γ2, α5β3γ2 | Paměť | Amnestické účinky benzodiazepinů |
+| **[Amygdala](@/brain/amygdala.md)** | α2β3γ2 | **Strach, úzkost** | **Anxiolytické efekty [muscimolu](@/alkaloids/muscimol.md)** |
+| **[Thalamus](@/brain/thalamus.md)** | α4β2δ | Senzorické zpracování | Sedace, ztráta vědomí |
+| **Cerebellum** | α6β2/3γ2, α1β2/3γ2 | Motorika | Ataxie při vysokých dávkách |
+| **Striatum** | α1-5βγ | Motorika, odměna | Myorelaxace |
+| **Mícha** | α2/3β3γ2 | Myorelaxace | Centrální myorelaxancia |
 
 ---
 
@@ -302,14 +302,14 @@ inhibice
 
 ### Indikace GABAergních léčiv
 
-| Indikace | Léčivo | Subtyp | Mechanismus |
-|----------|--------|--------|-------------|
-| **Úzkost** | Benzodiazepiny | α2/3 | Limbická inhibice |
-| **Nespavost** | Zolpidem | α1 | Sedace |
-| **Epilepsie** | Fenobarbital, Clobazam | Neselektivní | Antikonvulze |
-| **Spasticita** | Baclofen (GABA-B) | - | Míšní inhibice |
-| **Anestezie** | Propofol, Thiopental | Neselektivní | Globální inhibice |
-| **Abstinenční syndrom** | Diazepam | Neselektivní | Substituce |
+| Indikace | Léčivo | Subtyp | Mechanismus | Alternativní látky |
+|----------|--------|--------|-------------|-------------------|
+| **Úzkost** | Benzodiazepiny | α2/3 | [Amygdala](@/brain/amygdala.md) inhibice | [Muscimol](@/alkaloids/muscimol.md) (tradiční) |
+| **Nespavost** | Zolpidem | α1 | Kortikální sedace | [Amanita muscaria](@/shrooms/amanita-muscaria.md) (etnomedicína) |
+| **Epilepsie** | Fenobarbital, Clobazam | Neselektivní | Antikonvulze | Vysoké dávky muscimolu |
+| **Spasticita** | Baclofen ([GABA-B](@/receptors/gaba-b.md)) | - | Míšní inhibice | Centrální myorelaxancia |
+| **Anestezie** | Propofol, Thiopental | Neselektivní | Globální inhibice | [Muscimol](@/alkaloids/muscimol.md) v etnoanestezii |
+| **Abstinenční syndrom** | Diazepam | Neselektivní | Substituce | Cross-tolerance s alkohoem |
 
 ### Nežádoucí účinky
 
@@ -435,14 +435,40 @@ Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- PA
 
 ---
 
-Viz take:
-- [GABA](@/glossary/gaba.md) - Hlavni inhibicni neurotransmiter
-- [Muscimol](@/alkaloids/muscimol.md) - Primy GABA-A agonista
-- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
-- [GABA-B receptor](@/receptors/gaba-b.md) - Metabotropni GABA receptor
-- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni mechanismy
-- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - GABA-A jako model
-- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - ionotropni kinetika
-- [Signalni transdukce](@/mechanisms/signal-transduction.md) - ionotropni signalizace
+## Viz také
+
+### GABA agonisté a modulátory
+- [Muscimol](@/alkaloids/muscimol.md) - Přímý GABA-A agonista z [Amanity](@/shrooms/amanita-muscaria.md)
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Tradiční sedativní houba
+- [Amanita pantherina](@/shrooms/amanita-pantherina.md) - Podobné účinky jako A. muscaria
+- [Amanita regalis](@/shrooms/amanita-regalis.md) - Další muscimol-obsahující druh
+- [GABA](@/glossary/gaba.md) - Hlavní inhibiční neurotransmiter
+
+### Cílové mozkové oblasti
+- [Amygdala](@/brain/amygdala.md) - **Hlavní místo anxiolytických efektů**
+- [Thalamus](@/brain/thalamus.md) - Sedace a ztráta vědomí
+- [Hippocampus](@/brain/hippocampus.md) - Amnestické efekty
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - Kognitivní sedace
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Modulace arousal
+
+### Terapeutické a klinické souvislosti
+- [Tolerance](@/glossary/tolerance.md) - Problematika závislosti
+- [Opioidní withdrawal](@/glossary/opioid-withdrawal.md) - GABA modulátory v léčbě
+- [Serotonin syndrom](@/conditions/serotonin-syndrome.md) - Interakce se sedativy
+
+### GABA systém
+- [GABA-B receptor](@/receptors/gaba-b.md) - Metabotropní GABA receptor
+- [GABA](@/glossary/gaba.md) - Endogenní ligand
+
+### Kontrastní systémy
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Excitační vs inhibiční
+- [NMDA receptor](@/receptors/nmda.md) - Glutamátergní excitace
+- [Glutamát](@/glossary/glutamate.md) - Hlavní excitační neurotransmiter
+
+### Mechanismy účinku
+- [Mechanismy účinku](@/mechanisms/_index.md) - Kompletní mechanismy
+- [Alosterická modulace](@/mechanisms/allosteric-modulation.md) - GABA-A jako paradigmatický model
+- [Receptorová kinetika](@/mechanisms/receptor-binding.md) - Ionotropní kinetika
+- [Signální transdukce](@/mechanisms/signal-transduction.md) - Ionotropní signalizace
 
 <- Zpet na [Receptory](@/receptors/_index.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) ->

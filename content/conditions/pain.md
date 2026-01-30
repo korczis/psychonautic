@@ -397,16 +397,62 @@ Viz: [Endorfiny](@/molecules/endorphins.md)
 
 ---
 
-## Viz take
+## Viz také
 
-### Psychoaktivni latky
-- [Ketamin](@/alkaloids/ketamin.md) - NMDA antagonista, analgezie
-- [Ibogain](@/alkaloids/ibogaine.md) - Kappa opioidni aktivita
-- [Salvinorin A](@/alkaloids/salvinorin.md) - Kappa agonista
+### Psychedelická analgezie
+- [Ketamin](@/alkaloids/ketamin.md) - **FDA schváleno pro refrakterní bolest, NMDA blokáda**
+- [LSD](@/alkaloids/lsd.md) - **Cluster headaches, experimentální chronická bolest**
+- [Psilocybin](@/alkaloids/psilocybin.md) - Phantom pain, experimentální
+- [DMT](@/alkaloids/dmt.md) - Krátkodobá analgezie
+- [Ibogain](@/alkaloids/ibogaine.md) - κ-opioidní aktivita, opioidní withdrawal
 
-### Mechanismy
-- [Endorfiny](@/molecules/endorphins.md) - Endogenní analgezie
-- [NMDA receptor](@/receptors/nmda.md) - Centrální senzitizace
+### Kappa-opioidní systém
+- [Salvinorin A](@/alkaloids/salvinorin.md) - **Selektivní κ-opioidní agonista**
+- [κ-opioidní receptory](receptors/kappa-opioid.md) - Analgezie bez závislosti
+
+### Cílové mozkové oblasti
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Top-down modulace bolesti**
+- **Periaqueduktální šeď (PAG)** - Centrální analgetické centrum
+- **Rostral ventromedial medulla** - Descendentní inhibice
+- [Thalamus](@/brain/thalamus.md) - Senzorické zpracování
+- **Anterior cingulate cortex** - Emoční komponenta bolesti
+- **Insula** - Interoceptivní vnímání
+
+### Receptory a mechanismy
+- [NMDA receptor](@/receptors/nmda.md) - **Centrální senzitizace, cíl ketaminu**
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - Descendentní modulace
+- **μ-opioidní receptory** - Klasická analgezie
+- **κ-opioidní receptory** - Analgezie bez euforie
+- [GABA-A receptor](@/receptors/gaba-a.md) - Spinální inhibice
+
+### Endogenní analgetické systémy
+- [Endorfiny](@/molecules/endorphins.md) - **Endogenní opiáty**
+- **Endokanabinoids** - CB1/CB2 modulace
+- **Monoaminy** (serotonin, noradrenalin) - Descendentní inhibice
+
+### Farmakologická léčba
+- **Opioidy** - μ-agonisté (morfin, oxykodon)
+- **NSAID** - COX inhibitory
+- **Antikonvulziva** (gabapentin, pregabalin)
+- **Antidepresiva** (tricyclické, SNRI)
+- **Kanabinoids** - THC, CBD
+
+### Chronická bolest syndrom
+- **Fibromyalgie** - Nociplastická bolest
+- **Complex regional pain syndrome** - Neuropatická
+- **Phantom pain** - Post-amputační
+- **Cluster headaches** - Vaskulární
+
+### Komorbidní stavy
+- [Deprese](@/conditions/depression.md) - **50% chronické bolesti + deprese**
+- **Úzkostné stavy** - Anticipatorní strach z bolesti
+- [Závislosti](@/conditions/addiction.md) - Opioidní závislost epidemic
+
+### Nefarmakologické přístupy
+- **Kognitiv-behaviorální terapie** - Coping strategie
+- **Mindfulness** - Změna vztahu k bolesti
+- **Neurostimulace** (TENS, DBS, SCS)
+- **Fyzikální terapie** - Rehabilitace
 
 ### Souvisejici stavy
 - [Deprese](@/conditions/depression.md) - Komorbidita s chronickou bolestí

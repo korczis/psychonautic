@@ -797,17 +797,49 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 
 ---
 
-## Viz take
+## Viz také
 
-- [Psilocin](@/alkaloids/psilocin.md) - aktivni metabolit
-- [Baeocystin](@/alkaloids/baeocystin.md) - pribuzny alkaloid
-- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - prekurzor
-- [Psilocybes](@/shrooms/psilocybes/_index.md) - vyskyt v houbach
-- [5-HT2A receptor](@/receptors/5-ht2a.md) - cilovy receptor
-- [5-HT1A receptor](@/receptors/5-ht1a.md) - sekundarni cil
-- [Mozek](@/brain/_index.md) - neuralni substraty
-- [Serotonin](@/neurotransmitters/serotonin.md) - endogenni ligand
-- [DMT](@/alkaloids/dmt.md) - strukturne pribuzny alkaloid
+### Metabolismus a příbuzné alkaloids
+- [Psilocin](@/alkaloids/psilocin.md) - **Aktivní metabolit psilocybinu**
+- [Baeocystin](@/alkaloids/baeocystin.md) - Méně aktivní analog
+- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - Prekurzor biosyntézy
+- [DMT](@/alkaloids/dmt.md) - Strukturně příbuzný tryptamin
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Jiný terapeutický tryptamin
+
+### Zdrojové houby
+- [Psilocybe cubensis](@/shrooms/psilocybes/cubensis.md) - Nejběžnější druh
+- [Psilocybe semilanceata](@/shrooms/psilocybes/semilanceata.md) - Evropský druh
+- [Psilocybe azurescens](@/shrooms/psilocybes/azurescens.md) - Nejsilnější druh
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - Kompletní přehled druhů
+
+### Receptory a mechanismy
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Primární cíl terapeutických efektů**
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Sekundární cíl, anxiolýza
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulace nálady
+- [Serotonin](@/glossary/serotonin.md) - Endogenní ligand
+
+### Mozkové oblasti a sítě
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Centrum REBUS efektu**
+- [Default Mode Network](@/circuits/dmn.md) - **Hlavní cíl terapie deprese**
+- [Hippocampus](@/brain/hippocampus.md) - Neuroplasticita, paměť
+- [Amygdala](@/brain/amygdala.md) - Emoční regulace
+- [Vizuální kortex](@/brain/visual-cortex.md) - Zdroj vizuálních efektů
+
+### Terapeutické indikace
+- [Deprese](@/conditions/depression.md) - **FDA Breakthrough designation**
+- [Závislosti](@/conditions/addiction.md) - Experimentální léčba
+- [PTSD](conditions/ptsd.md) - Kombinace s psychoterapií
+- [Existenciální úzkost](conditions/anxiety.md) - Onkologičtí pacienti
+
+### Fenomenologie a praxe
+- [Mystické zážitky](@/phenomenology/mystical-experiences.md) - **Prediktor terapeutického výsledku**
+- [Set and setting](@/glossary/set-and-setting.md) - Optimalizace efektu
+- [Mikrodávkování](@/glossary/mikrodavkovani.md) - Sub-psychedelické dávky
+
+### Srovnávací látky
+- [Ketamin](@/alkaloids/ketamin.md) - Jiný rychle působící antidepresivum
+- [LSD](@/alkaloids/lsd.md) - Delší trvání, podobné mechanismy
+- [MDMA](@/alkaloids/mdma.md) - Terapeutické synergieß
 - [LSD](@/alkaloids/lsd.md) - funkcne podobne psychedelikum
 - [Mechanismy ucinku](@/mechanisms/_index.md) - molekularni mechanismy
 - [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika

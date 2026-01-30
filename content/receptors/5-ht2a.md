@@ -48,15 +48,15 @@ TM = transmembránová doména (celkem 7)
 
 ### Hustota exprese
 
-| Oblast | Relativní hustota | Funkce |
-|--------|-------------------|--------|
-| **Prefrontální kortex** | Velmi vysoká | Kognice, rozhodování |
-| **Vizuální kortex** | Velmi vysoká | Vizuální zpracování |
-| **Claustrum** | Vysoká | Integrace vědomí |
-| **Hippocampus** | Střední | Paměť, navigace |
-| **Amygdala** | Střední | Emoce, strach |
-| **Nucleus accumbens** | Nízká | Odměna |
-| **Raphe nuclei** | Nízká | Regulace serotoninu |
+| Oblast | Relativní hustota | Funkce | Psychedelický efekt |
+|--------|-------------------|--------|-------------------|
+| **[Prefrontální kortex](@/brain/prefrontal-cortex.md)** | Velmi vysoká | Kognice, rozhodování | [REBUS efekt](@/brain/prefrontal-cortex.md#rebus-model), ego dissoluce |
+| **[Vizuální kortex](@/brain/visual-cortex.md)** | Velmi vysoká | Vizuální zpracování | Vizuální halucinace, pattern enhancement |
+| **[Claustrum](@/brain/claustrum.md)** | Vysoká | Integrace vědomí | Změna vnímání reality |
+| **[Hippocampus](@/brain/hippocampus.md)** | Střední | Paměť, navigace | Neuroplasticita, [léčba deprese](@/conditions/depression.md) |
+| **[Amygdala](@/brain/amygdala.md)** | Střední | Emoce, strach | Snížená aktivita, anxiolýza |
+| **Nucleus accumbens** | Nízká | Odměna | Změněné reward processing |
+| **[Raphe nuclei](@/brain/raphe-nuclei.md)** | Nízká | Regulace serotoninu | Feedback inhibice |
 
 ### Buněčná lokalizace
 
@@ -186,14 +186,16 @@ Normální stav                    Psychedelický stav
 
 ### Agonisté (psychedelika)
 
-| Látka | Ki (nM) | Eficacia | Trvání | Zdroj |
-|-------|---------|----------|--------|-------|
-| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Vysoká | 8-12 h | Syntetický |
-| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | Střední | 4-6 h | Houby |
-| [**DMT**](@/alkaloids/dmt.md) | 75-130 | Střední | 15-60 min | Endogenní |
-| [**Meskalin**](@/alkaloids/mescaline.md) | 5000+ | Nízká | 8-12 h | Kaktusy |
-| **DOI** | 0.6 | Vysoká | 12-24 h | Syntetický |
-| **25I-NBOMe** | 0.04 | Velmi vysoká | 6-10 h | Syntetický |
+| Látka | Ki (nM) | Eficacia | Trvání | Zdroj | Terapeutické použití |
+|-------|---------|----------|--------|-------|---------------------|
+| [**LSD**](@/alkaloids/lsd.md) | 1-2 | Vysoká | 8-12 h | Syntetický | Experimentální ([deprese](@/conditions/depression.md), úzkost) |
+| [**Psilocin**](@/alkaloids/psilocin.md) | 6-15 | Střední | 4-6 h | [Psilocybinové houby](@/shrooms/psilocybes/_index.md) | [Rezistentní deprese](@/conditions/depression.md), [závislosti](@/conditions/addiction.md) |
+| [**Psilocybin**](@/alkaloids/psilocybin.md) | 25-50 (prodrug) | Střední | 4-6 h | [Psilocybe species](@/shrooms/psilocybes/_index.md) | FDA Breakthrough ([deprese](@/conditions/depression.md)) |
+| [**DMT**](@/alkaloids/dmt.md) | 75-130 | Střední | 15-60 min | Endogenní, [Ayahuasca](@/preparations/ayahuasca.md) | Experimentální (deprese, PTSD) |
+| [**Meskalin**](@/alkaloids/mescaline.md) | 5000+ | Nízká | 8-12 h | Kaktusy | Tradiční ceremonální |
+| [**5-MeO-DMT**](@/alkaloids/5-meo-dmt.md) | 180-250 | Střední | 30-60 min | Endogenní, žáby | Experimentální ([deprese](@/conditions/depression.md)) |
+| **DOI** | 0.6 | Vysoká | 12-24 h | Syntetický | Výzkumný nástroj |
+| **25I-NBOMe** | 0.04 | Velmi vysoká | 6-10 h | Syntetický | Nebezpečný (kardiotoxicita) |
 
 ### Antagonisté
 
@@ -303,13 +305,14 @@ Opakovaná aktivace 5-HT2A
 
 ### Psychedeliky asistovaná psychoterapie
 
-| Indikace | Látka | Mechanismus |
-|----------|-------|-------------|
-| **Deprese** | Psilocybin | Neuroplasticita, DMN reset |
-| **PTSD** | MDMA (+ 5-HT2A) | Emoční zpracování |
-| **Závislosti** | Psilocybin | Narušení habituálních vzorců |
-| **OCD** | Psilocybin | Snížení rigidity |
-| **Existenciální úzkost** | Psilocybin | Mystické zážitky |
+| Indikace | Látka | Mechanismus | Klinický status |
+|----------|-------|-------------|-----------------|
+| **[Deprese](@/conditions/depression.md)** | [Psilocybin](@/alkaloids/psilocybin.md) | Neuroplasticita, [DMN](@/circuits/dmn.md) reset | FDA Breakthrough, Phase III |
+| **PTSD** | [MDMA](@/alkaloids/mdma.md) (+ 5-HT2A) | Emoční zpracování | Schváleno FDA 2024 |
+| **[Závislosti](@/conditions/addiction.md)** | [Psilocybin](@/alkaloids/psilocybin.md) | Narušení habituálních vzorců | Phase II studie |
+| **OCD** | [Psilocybin](@/alkaloids/psilocybin.md) | Snížení rigidity | Preklinické |
+| **Existenciální úzkost** | [Psilocybin](@/alkaloids/psilocybin.md) | [Mystické zážitky](@/phenomenology/mystical-experiences.md) | Phase II |
+| **[Chronická bolest](@/conditions/pain.md)** | [LSD](@/alkaloids/lsd.md) | Modulace nociceptivních drah | Experimentální |
 
 ### Fáze klinických studií
 
@@ -414,16 +417,45 @@ Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- he
 
 ---
 
-Viz take:
-- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolyticky serotonionvy receptor
-- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulacni receptor
-- [LSD](@/alkaloids/lsd.md) - Nejvice prozkumany 5-HT2A agonista
-- [Psilocybin](@/alkaloids/psilocybin.md) - Terapeuticky vyuzivany agonista
-- [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
-- [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni mechanismy
-- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - Ki, Kd, vazebna termodynamika
-- [Signalni transdukce](@/mechanisms/signal-transduction.md) - Gq, beta-arrestin, mTOR drahy
-- [Alostericka modulace](@/mechanisms/allosteric-modulation.md) - mGluR2-5-HT2A heterodimer
-- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - receptor occupancy a klinicky ucinek
+## Viz také
+
+### Alkaloid agonisté 5-HT2A
+- [Psilocybin](@/alkaloids/psilocybin.md) - Terapeuticky nejslibnejši psychedelikum
+- [LSD](@/alkaloids/lsd.md) - Nejvíce prostudovaný 5-HT2A agonista
+- [DMT](@/alkaloids/dmt.md) - Endogenní psychedelikum
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Silné mystické efekty
+- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit psilocybinu
+- [Meskalin](@/alkaloids/mescaline.md) - Nejstarší známé psychedelikum
+
+### Cílové mozkové oblasti
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - Centrum REBUS efektu
+- [Vizuální kortex](@/brain/visual-cortex.md) - Zdroj vizuálních halucinací
+- [Claustrum](@/brain/claustrum.md) - Integrace vědomí
+- [Hippocampus](@/brain/hippocampus.md) - Neuroplasticita, paměť
+- [Amygdala](@/brain/amygdala.md) - Emoční modulace
+
+### Terapeutické indikace
+- [Deprese](@/conditions/depression.md) - Hlavní klinická aplikace
+- [Závislosti](@/conditions/addiction.md) - Narušení habituálních vzorců
+- [Chronická bolest](@/conditions/pain.md) - Experimentální léčba
+
+### Mechanismy a fenomenologie
+- [DMN](@/circuits/dmn.md) - Default Mode Network dysregulace
+- [Mystické zážitky](@/phenomenology/mystical-experiences.md) - Prediktor terapeutického efektu
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Základ dlouhodobých efektů
+- [Set and setting](@/glossary/set-and-setting.md) - Optimalizace účinku
+
+### Serotonin systém
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytický serotoninový receptor
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulační receptor
+- [Serotonin](@/glossary/serotonin.md) - Neurotransmiter
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Centrum serotoninu
+
+### Mechanismy účinku
+- [Mechanismy účinku](@/mechanisms/_index.md) - Kompletní přehled
+- [Receptorová kinetika](@/mechanisms/receptor-binding.md) - Ki, Kd, vazebná termodynamika
+- [Signální transdukce](@/mechanisms/signal-transduction.md) - Gq, β-arrestin, mTOR dráhy
+- [Alosterická modulace](@/mechanisms/allosteric-modulation.md) - mGluR2-5-HT2A heterodimer
+- [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - Receptor occupancy a klinický účinek
 
 <- Zpet na [Receptory](@/receptors/_index.md) | [GABA-A receptor](@/receptors/gaba-a.md) ->

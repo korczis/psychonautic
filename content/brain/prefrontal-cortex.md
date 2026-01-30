@@ -448,11 +448,17 @@ PFC dokoncuje vyvoj kolem 25 let.
 
 ### Deprese
 
-| Nalez | Oblast |
-|-------|--------|
-| **Hyperaktivita DMN** | mPFC | Ruminace |
-| **Snizena aktivita** | DLPFC | Kognitivni deficity |
-| **Zmeny konektivity** | PFC-limbicky system | Emocni dysregulace |
+| Nález | Oblast | Léčebný mechanismus |
+|-------|--------|-------------------|
+| **Hyperaktivita [DMN](@/circuits/dmn.md)** | mPFC | [Psilocybin](@/alkaloids/psilocybin.md) → DMN dezintegrace |
+| **Snížená aktivita** | DLPFC | [Ketamin](@/alkaloids/ketamin.md) → rychlá neuroplasticita |
+| **Změny konektivity** | PFC-limbický systém | Psychedelika → emoční reset |
+| **Rigidní kognitivní vzorce** | DLPFC | [LSD](@/alkaloids/lsd.md) → kognitivní flexibilita |
+
+**Terapeutické cílení PFC při [depresi](@/conditions/depression.md)**:
+- [5-HT2A](@/receptors/5-ht2a.md) aktivace → neuroplasticita
+- [NMDA](@/receptors/nmda.md) modulace → synaptogeneze
+- DMN reset → snížená ruminace
 
 ### Frontalni demence (FTD)
 
@@ -476,12 +482,15 @@ PFC dokoncuje vyvoj kolem 25 let.
 
 ### Farmakologie
 
-| Latka | Mechanismus | Ucinek na PFC |
-|-------|-------------|---------------|
-| **Methylfenidat** | DAT inhibitor | Zlepsena pracovni pamet |
-| **Atomoxetin** | NET inhibitor | Zlepsena pozornost |
-| **Modafinil** | Komplexni | Zvysena exekutivni funkce |
-| **Psychedelika** | 5-HT2A | Neuroplasticita, insight |
+| Látka | Mechanismus | Účinek na PFC | Indikace |
+|-------|-------------|---------------|----------|
+| **Methylfenidat** | DAT inhibitor | Zlepšená pracovní paměť | ADHD |
+| **Atomoxetin** | NET inhibitor | Zlepšená pozornost | ADHD |
+| **Modafinil** | Komplexní | Zvýšená exekutivní funkce | Narkolepsie |
+| **[Psilocybin](@/alkaloids/psilocybin.md)** | [5-HT2A](@/receptors/5-ht2a.md) | Neuroplasticita, [DMN](@/circuits/dmn.md) reset | [Deprese](@/conditions/depression.md), [závislosti](@/conditions/addiction.md) |
+| **[LSD](@/alkaloids/lsd.md)** | [5-HT2A](@/receptors/5-ht2a.md) | REBUS efekt, kognitivní flexibilita | Experimentální |
+| **[DMT](@/alkaloids/dmt.md)** | [5-HT2A](@/receptors/5-ht2a.md) | Intenzivní mystické zážitky | Výzkum |
+| **[Ketamin](@/alkaloids/ketamin.md)** | [NMDA](@/receptors/nmda.md) blokáda | Rychlá neuroplasticita | Rezistentní [deprese](@/conditions/depression.md) |
 
 ---
 
@@ -554,14 +563,16 @@ SIGNALNI INTEGRACE V PYRAMIDOVYCH NEURONECH PFC
 Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- casovy prubeh, BDNF-TrkB, mTOR
 Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) -- 5-HT2A distribuce, receptor occupancy
 
-### Terapeuticky cil: DMN reset pres PFC
+### Terapeutický cíl: DMN reset přes PFC
 
-| Terapeuticky cil | Mechanismus v PFC | Latka | Indikace |
-|------------------|-------------------|-------|----------|
-| DMN dezintegrace | 5-HT2A na mPFC pyramidach | [Psilocybin](@/alkaloids/psilocybin.md) | Deprese, ruminace |
-| Kognitivni flexibilita | Entropie PFC okruhu | [LSD](@/alkaloids/lsd.md) | OCD, zavislosti |
-| PFC neuroplasticita | mTOR, BDNF v DLPFC | Ketamin | Rez. deprese |
-| Emocni regulace | PFC-amygdala konektivita | [Psilocybin](@/alkaloids/psilocybin.md) | PTSD |
+| Terapeutický cíl | Mechanismus v PFC | Látka | Indikace | Klinický status |
+|------------------|-------------------|-------|----------|-----------------|
+| [DMN](@/circuits/dmn.md) dezintegrace | [5-HT2A](@/receptors/5-ht2a.md) na mPFC pyramidách | [Psilocybin](@/alkaloids/psilocybin.md) | [Deprese](@/conditions/depression.md), ruminace | FDA Breakthrough |
+| Kognitivní flexibilita | Entropie PFC okruhů | [LSD](@/alkaloids/lsd.md) | OCD, [závislosti](@/conditions/addiction.md) | Experimentální |
+| PFC neuroplasticita | mTOR, [BDNF](@/molecules/bdnf.md) v DLPFC | [Ketamin](@/alkaloids/ketamin.md) | Rezistentní [deprese](@/conditions/depression.md) | FDA schváleno |
+| Emoční regulace | PFC-[amygdala](@/brain/amygdala.md) konektivita | [Psilocybin](@/alkaloids/psilocybin.md) | PTSD | Phase II |
+| Habituální vzorce | Narušení PFC-striatum | [Psilocybin](@/alkaloids/psilocybin.md) | [Závislosti](@/conditions/addiction.md) | Promising data |
+| Chronická [bolest](@/conditions/pain.md) | PFC modulace nociceptivních drah | [LSD](@/alkaloids/lsd.md), [Ketamin](@/alkaloids/ketamin.md) | Farmakoresistentní bolest | Experimentální |
 
 Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) -- terapeuticky davkovani, receptor occupancy
 
@@ -584,10 +595,13 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) -- 
 - [Serotonin](@/glossary/serotonin.md) - Modulace
 - [Dopamin](@/glossary/dopamin.md) - Pracovni pamet
 
-### Psychoaktivni latky
-- [Psilocybin](@/alkaloids/psilocybin.md) - Zmena kognice
-- [LSD](@/alkaloids/lsd.md) - REBUS efekt
-- [DMT](@/alkaloids/dmt.md) - Mysticke zkusenosti
+### Psychoaktivní látky cílící PFC
+- [Psilocybin](@/alkaloids/psilocybin.md) - Nejslibnejší pro terapii deprese
+- [LSD](@/alkaloids/lsd.md) - Paradigmatický REBUS efekt
+- [DMT](@/alkaloids/dmt.md) - Intenzivní mystické zážitky
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Silné ego dissoluce
+- [Ketamin](@/alkaloids/ketamin.md) - Rychlá antidepresivní účinky
+- [MDMA](@/alkaloids/mdma.md) - Emoční zpracování (částečně 5-HT2A)
 
 ### Mechanismy ucinku
 - [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni prehled

@@ -403,16 +403,17 @@ FAZE 3: INTEGRACE (2-4 sezeni)
 
 ## Budouci smery
 
-### Aktivni vyzkum
+### Aktivní výzkum
 
-| Oblast | Instituce | Status |
-|--------|-----------|--------|
-| **Psilocybin pro TRD** | COMPASS | Phase III |
-| **Psilocybin pro MDD** | Usona | Phase II dokoncena |
-| **MDMA + psilocybin** | Experimentalni | Preklinicka |
-| **Mikrodavkovani** | Multiple | Nedostatecne dukazy |
-| **Biomarkery odpovedi** | Multiple | Aktivni |
-| **Mechanismy** | Johns Hopkins, Imperial | Pokracujici |
+| Oblast | Látka | Instituce | Fáze | Mechanismus |
+|--------|-------|-----------|------|-------------|
+| **[Psilocybin](@/alkaloids/psilocybin.md) pro TRD** | [Psilocybin](@/alkaloids/psilocybin.md) | COMPASS | **Phase III** | [5-HT2A](@/receptors/5-ht2a.md) → neuroplasticita |
+| **[Psilocybin](@/alkaloids/psilocybin.md) pro MDD** | [Psilocybin](@/alkaloids/psilocybin.md) | Usona | Phase II dokončena | [DMN](@/circuits/dmn.md) reset |
+| **[Ketamin](@/alkaloids/ketamin.md) udržba** | [Esketamine](@/substances/esketamine.md) | Janssen | **FDA schváleno** | [NMDA](@/receptors/nmda.md) blokáda |
+| **Kombinované terapie** | [MDMA](@/alkaloids/mdma.md) + [Psilocybin](@/alkaloids/psilocybin.md) | Experimentální | Preklinická | Synergické mechanismy |
+| **[LSD](@/alkaloids/lsd.md) mikrodávkování** | [LSD](@/alkaloids/lsd.md) | Multiple | Phase I/II | Sub-hallucinogenní dávky |
+| **[5-MeO-DMT](@/alkaloids/5-meo-dmt.md)** | [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) | GH Research | Phase I/II | Intenzivní [5-HT2A](@/receptors/5-ht2a.md) |
+| **Biomarkery odpovědi** | Multiple | Multiple | Aktivní | PET, fMRI, EEG |
 
 ### Otazky k zodpovezeni
 
@@ -462,26 +463,34 @@ FAZE 3: INTEGRACE (2-4 sezeni)
 
 ## Viz take
 
-### Psychoaktivni latky
-- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavni psychedelikum ve vyzkumu deprese
-- [Ketamin](@/alkaloids/ketamin.md) - Rychle pusobici antidepresivum
-- [LSD](@/alkaloids/lsd.md) - Dalsi psychedelikum s potencialem
-- [DMT](@/alkaloids/dmt.md) - Kratce pusobici psychedelikum
+### Psychoaktivní látky v léčbě deprese
+- [Psilocybin](@/alkaloids/psilocybin.md) - **Hlavní psychedelikum FDA Breakthrough pro TRD**
+- [Ketamin](@/alkaloids/ketamin.md) - **Prvé rychle působící antidepresivum (FDA schváleno)**
+- [Esketamine](@/substances/esketamine.md) - Intranazální forma ketaminu (Spravato)
+- [LSD](@/alkaloids/lsd.md) - Experimentální mikrodávkování a terapie
+- [DMT](@/alkaloids/dmt.md) - Krátce působící, intenzivní efekty
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Silná ego dissolution, Phase I/II studie
+- [MDMA](@/alkaloids/mdma.md) - Emoční zpracování (schváleno pro PTSD, zkouší se v depresi)
 
 ### Molekuly a mechanismy
 - [BDNF](@/molecules/bdnf.md) - Klicovy mediator neuroplasticity
 - [Serotonin](@/glossary/serotonin.md) - Neurotransmiter cíleny antidepresivy
 - [Neuroplasticita](@/glossary/neuroplasticita.md) - Zakladni mechanismus
 
-### Receptory
-- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil psychedelik
-- [NMDA receptor](@/receptors/nmda.md) - Cil ketaminu
+### Receptory a mechanismy
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Primární cíl psychedelické terapie** ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md))
+- [NMDA receptor](@/receptors/nmda.md) - **Cíl [ketaminu](@/alkaloids/ketamin.md)** (glutamátergní modulace)
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytické efekty, SSRI mechanismus
+- [Dopaminové receptory](@/receptors/dopamine.md) - Motivace, anhedonie
+- [GABA-A receptor](@/receptors/gaba-a.md) - Anxiolytické modulátory (benzodiazepiny)
 
-### Mozkove oblasti
-- [Hippocampus](@/brain/hippocampus.md) - Atrofie u deprese
-- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Exekutivní dysfunkce
-- [Amygdala](@/brain/amygdala.md) - Emocionalni dysregulace
-- [DMN](@/circuits/dmn.md) - Hyperkonektivita, ruminace
+### Mozkové oblasti a terapeutické cílení
+- [Hippocampus](@/brain/hippocampus.md) - **Atrofie u deprese → [BDNF](@/molecules/bdnf.md) indukce psychedeliky**
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Centrum REBUS efektu psychedelik**
+- [Amygdala](@/brain/amygdala.md) - **Emoční dysregulace → anxiolytické efekty**
+- [DMN](@/circuits/dmn.md) - **Hyperkonektivita, ruminace → primární cíl [psilocybinu](@/alkaloids/psilocybin.md)**
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Centrum serotoninu, cíl SSRI
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Noradrenergní dysregulace
 
 ### Fenomenologie
 - [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md) - Prediktor terapeutické odpovedi

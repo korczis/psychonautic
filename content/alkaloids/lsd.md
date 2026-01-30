@@ -1076,16 +1076,47 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) | [
 
 ---
 
-Viz take:
-- [5-HT2A receptor](@/receptors/5-ht2a.md) - Primarni cil LSD
-- [Neuralni okruhy](@/circuits/_index.md) - DMN a dalsi site
-- [Psilocybin](@/alkaloids/psilocybin.md) - Pribuzny tryptamin
-- [DMT](@/alkaloids/dmt.md) - Spirit Molecule
-- [Meskalin](@/alkaloids/mescaline.md) - Fenetylaminove psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - Odlisny mechanismus (GABAergni)
-- [Mechanismy ucinku](@/mechanisms/_index.md) - molekularni mechanismy
-- [Receptorova kinetika](@/mechanisms/receptor-binding.md) - vazebna kinetika, lid mechanismus
-- [Signalni transdukce](@/mechanisms/signal-transduction.md) - biased agonismus
+## Viz také
+
+### Receptory a mechanismy účinku
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Primární cíl LSD, nejdéle vazba**
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytické efekty
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - Modulace nálady
+- [Dopaminové receptory](@/receptors/dopamine.md) - Motivace a reward
+
+### Mozkové oblasti a sítě
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Paradigmatický REBUS efekt**
+- [Default Mode Network](@/circuits/dmn.md) - Ego dissolution
+- [Vizuální kortex](@/brain/visual-cortex.md) - Intenzivní vizuální efekty
+- [Claustrum](@/brain/claustrum.md) - Integrace vědomí
+- [Thalamus](@/brain/thalamus.md) - Senzorická filtrace
+
+### Srovnávací psychedelika
+- [Psilocybin](@/alkaloids/psilocybin.md) - Kratší trvání, terapeutická preference
+- [DMT](@/alkaloids/dmt.md) - Krátké trvání, podobný mechanismus
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Intenzivnější ego dissolution
+- [Meskalin](@/alkaloids/mescaline.md) - Fenethylaminové psychedelikum
+
+### Kontrastní mechanismy
+- [Muscimol](@/alkaloids/muscimol.md) - **Odlišný mechanismus (GABAergní)**
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA blokáda vs 5-HT2A
+- [MDMA](@/alkaloids/mdma.md) - Entaktogenní vs psychedelický profil
+
+### Terapeutické aplikace
+- [Deprese](@/conditions/depression.md) - Experimentální mikrodávkování
+- [Závislosti](@/conditions/addiction.md) - Historické úspěchy, současný výzkum
+- [Chronická bolest](@/conditions/pain.md) - Cluster headaches
+
+### Fenomenologie a praxe
+- [Mystické zážitky](@/phenomenology/mystical-experiences.md) - Vysoká incidence MEQ
+- [Set and setting](@/glossary/set-and-setting.md) - Kritické pro bezpečnost
+- [Mikrodávkování](@/glossary/mikrodavkovani.md) - **Nejstudovanější látka**
+- [Tolerance](@/glossary/tolerance.md) - Rychlá cross-tolerance s psilocybinem
+
+### Mechanismy účinku
+- [Mechanismy účinku](@/mechanisms/_index.md) - Molekulární mechanismy
+- [Receptorová kinetika](@/mechanisms/receptor-binding.md) - Vazebná kinetika, "lid" mechanismus
+- [Signální transdukce](@/mechanisms/signal-transduction.md) - Biased agonismus
 - [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - PK-PD diskonexe, farmakogenetika
 
 ---

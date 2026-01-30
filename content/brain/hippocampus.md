@@ -592,17 +592,41 @@ Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NM
 
 ---
 
-## Viz take
+## Viz také
 
-### Mozkove oblasti
-- [Amygdala](@/brain/amygdala.md) - Emocni zpracovani, strach
-- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Exekutivni funkce
-- [Thalamus](@/brain/thalamus.md) - Senzoricky relay
-- [Claustrum](@/brain/claustrum.md) - Integrace vedomi
+### Terapeutické cílení hippocampu
+- [Deprese](@/conditions/depression.md) - **Atrofie hippocampu, cíl neuroplastické terapie**
+- [PTSD](conditions/ptsd.md) - Narušená konsolidace traumatických vzpomínek
+- [Alzheimer](conditions/alzheimer.md) - Primární lokalizace patologie
+- [Schizofrenie](@/conditions/schizophrenia.md) - Deficity paměti
 
-### Receptory
-- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelicky cil
-- [NMDA receptor](@/receptors/nmda.md) - Plasticita, LTP
+### Neuroplasticita a molekuly
+- [BDNF](@/molecules/bdnf.md) - **Klíčový růstový faktor neurogeneze**
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - Synaptická a strukturální plasticita
+- [Učení](@/glossary/uceni.md) - Paměťové konsolidace
+
+### Psychoaktivní látky cílící hippocampus
+- [Psilocybin](@/alkaloids/psilocybin.md) - **Indukce BDNF, neuroplasticita**
+- [Ketamin](@/alkaloids/ketamin.md) - Rychlá spinogeneze, antidepresivní efekty
+- [LSD](@/alkaloids/lsd.md) - Prostorové vnímání, paměťové modulace
+- [DMT](@/alkaloids/dmt.md) - Neurogeneze, mystické vzpomínky
+- [Muscimol](@/alkaloids/muscimol.md) - GABA-A, amnestické efekty
+
+### Receptory v hippocampu
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Psychedelický cíl neuroplasticity**
+- [NMDA receptor](@/receptors/nmda.md) - **Plasticita, LTP, cíl ketaminu**
+- [GABA-A receptor](@/receptors/gaba-a.md) - α5 subtyp, paměťové efekty
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolýza, neurogeneze
+
+### Limbické propojení
+- [Amygdala](@/brain/amygdala.md) - **Emoční zpracování vzpomínek**
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - Pracovní paměť, exekutivní funkce
+- [Thalamus](@/brain/thalamus.md) - Senzorický relay k hippocampu
+- [Claustrum](@/brain/claustrum.md) - Integrace vědomí a paměti
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Serotoninová modulace neurogeneze
+
+### Okruhy a sítě
+- [Default Mode Network](@/circuits/dmn.md) - **Hippocampus jako DMN hub**
 - [GABA-A receptor](@/receptors/gaba-a.md) - Inhibice
 
 ### Neurotransmitery

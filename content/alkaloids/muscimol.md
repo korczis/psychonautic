@@ -338,10 +338,39 @@ Rostoucí zájem o mikrodávkování sušených Amanita:
 
 ---
 
-Viz také:
-- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Přírodní zdroj
-- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Prekurzor/neurotoxin
-- [Psilocybin](@/alkaloids/psilocybin.md) - Jiný typ psychoaktivní houby
-- [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
+## Viz také
+
+### Zdroj a příbuzné látky
+- [Amanita muscaria](@/shrooms/amanita-muscaria.md) - **Hlavní přírodní zdroj**
+- [Amanita pantherina](@/shrooms/amanita-pantherina.md) - Podobné účinky
+- [Amanita regalis](@/shrooms/amanita-regalis.md) - Další muscimol-obsahující druh
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - **Prekurzor/neurotoxin**
+
+### GABA systém a receptory
+- [GABA-A receptor](@/receptors/gaba-a.md) - **Primární cíl muscimolu**
+- [GABA-B receptor](@/receptors/gaba-b.md) - Metabotropní GABA receptor
+- [GABA](@/glossary/gaba.md) - Endogenní inhibiční neurotransmiter
+
+### Cílové mozkové oblasti
+- [Amygdala](@/brain/amygdala.md) - **Anxiolytické efekty přes α2/3 subtypy**
+- [Thalamus](@/brain/thalamus.md) - **Sedace přes α4 subtypy**
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - Kognitivní sedace
+- [Hippocampus](@/brain/hippocampus.md) - Vliv na paměť
+- [Cerebellum](brain/cerebellum.md) - Motorická koordinace
+
+### Kontrastní psychoaktivní mechanismy
+- [Psilocybin](@/alkaloids/psilocybin.md) - **Odlišný mechanismus (serotoninový)**
+- [LSD](@/alkaloids/lsd.md) - 5-HT2A vs GABA-A
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA blokáda vs GABA aktivace
+- [Benzodiazepiny](glossary/benzodiazepiny.md) - Alosterická vs ortosterická modulace
+
+### Klinické souvislosti
+- [Tolerance](@/glossary/tolerance.md) - GABA-A tolerance a závislost
+- [Anxiolytika](glossary/anxiolytika.md) - Terapeutické GABA modulátory
+- [Sedativa](glossary/sedativa.md) - Spektrum GABA agonistů
+
+### Harm reduction a bezpečnost
+- [Set and setting](@/glossary/set-and-setting.md) - Důležité i pro GABAergní látky
+- [Dávkování](glossary/davkovani.md) - Úzké terapeutické okno
 
 ← Zpět na [Alkaloidy](@/alkaloids/_index.md) | [Amanita muscaria](@/shrooms/amanita-muscaria.md) →

@@ -504,21 +504,43 @@ amygdalni reaktivitu v dospelosti.
 
 ---
 
-## Viz take
+## Viz také
 
-### Mozkové oblasti
-- [Hippocampus](@/brain/hippocampus.md) - Pamet, kontext
-- [Prefrontalni kortex](@/brain/prefrontal-cortex.md) - Regulace emoci
-- [Thalamus](@/brain/thalamus.md) - Senzoricky vstup
-- [Locus coeruleus](@/brain/locus-coeruleus.md) - Arousal
+### Anxiolytické a emoční terapie
+- [Úzkostné stavy](conditions/anxiety.md) - **Hlavní cíl anxiolytické terapie**
+- [PTSD](conditions/ptsd.md) - **Narušené zpracování traumatu**
+- [Deprese](@/conditions/depression.md) - Emoční dysregulace
+- [Schizofrenie](@/conditions/schizophrenia.md) - Paranoidní symptomy
 
-### Receptory
-- [5-HT2A receptor](@/receptors/5-ht2a.md) - Psychedelický cíl
-- [GABA-A receptor](@/receptors/gaba-a.md) - Inhibice, BZD
+### Anxiolytické látky cílící amygdalu
+- [Muscimol](@/alkaloids/muscimol.md) - **GABA-A α2/3, silné anxiolytické efekty**
+- [Psilocybin](@/alkaloids/psilocybin.md) - **Snížená amygdala reaktivita, 5-HT2A**
+- [MDMA](@/alkaloids/mdma.md) - Emoční zpracování, terapie PTSD
+- [LSD](@/alkaloids/lsd.md) - Redukce negativního biasu
+- [Ketamin](@/alkaloids/ketamin.md) - Rychlé anxiolytické efekty
 
-### Neurotransmitery
-- [Serotonin](@/glossary/serotonin.md) - Emocni regulace
-- [GABA](@/glossary/gaba.md) - Inhibice
+### Receptory v amygdale
+- [GABA-A receptor](@/receptors/gaba-a.md) - **Primární anxiolytický systém (α2/3 subtypy)**
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Psychedelický cíl emoční modulace**
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - Anxiolytické efekty SSRI
+- [NMDA receptor](@/receptors/nmda.md) - Extinction learning, PTSD
+
+### Limbické propojení
+- [Hippocampus](@/brain/hippocampus.md) - **Kontextuální paměť vs strach**
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Top-down emoční regulace**
+- [Thalamus](@/brain/thalamus.md) - Rychlá "low road" k amygdale
+- [Locus coeruleus](@/brain/locus-coeruleus.md) - Noradrenalinová aktivace
+- [Raphe nuclei](@/brain/raphe-nuclei.md) - Serotoninová modulace
+
+### Molecules a mechanismy
+- [GABA](@/glossary/gaba.md) - **Hlavní inhibiční neurotransmiter**
+- [Serotonin](@/glossary/serotonin.md) - Emoční regulace
+- [Dopamin](@/glossary/dopamin.md) - Motivační salience
+- [BDNF](@/molecules/bdnf.md) - Neuroplasticita, extinction learning
+
+### Farmakologie a terapie
+- [Set and setting](@/glossary/set-and-setting.md) - Kritické pro amygdala modulaci
+- [Tolerance](@/glossary/tolerance.md) - GABA-A tolerance problematika
 
 ### Psychoaktivní látky
 - [Psilocybin](@/alkaloids/psilocybin.md) - Snizuje amygdalární reaktivitu

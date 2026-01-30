@@ -397,19 +397,61 @@ FAZE 4: FOLLOW-UP (měsíce)
 
 ---
 
-## Viz take
+## Viz také
 
-### Psychoaktivni latky
-- [Psilocybin](@/alkaloids/psilocybin.md) - Klinicke studie pro zavislost
-- [Ibogain](@/alkaloids/ibogaine.md) - Lecba opioidni zavislosti
-- [Ketamin](@/alkaloids/ketamin.md) - Rychle pusobici intervence
+### Psychedelická terapie závislostí
+- [Ibogain](@/alkaloids/ibogaine.md) - **Nejslibnejší pro opioidní závislost (75% úspěšnost)**
+- [Psilocybin](@/alkaloids/psilocybin.md) - **Narušení habituálních vzorců, FDA Phase II**
+- [LSD](@/alkaloids/lsd.md) - Historické úspěchy u alkoholismu
+- [Ayahuasca](@/preparations/ayahuasca.md) - Tradiční léčba závislostí
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - Experimentální terapie
 
-### Mechanismy
-- [BDNF](@/molecules/bdnf.md) - Neuroplasticita
-- [Dopamin](@/glossary/dopamin.md) - Reward system
+### Alternativní farmakoterapie
+- [Ketamin](@/alkaloids/ketamin.md) - **Rychlé antikraving efekty, NMDA blokáda**
+- [MDMA](@/alkaloids/mdma.md) - Terapie traumatických kořenů závislosti
 
-### Souvisejici stavy
-- [Deprese](@/conditions/depression.md) - Casty komorbidni stav
+### Cílové mozkové oblasti
+- **Nucleus accumbens** - Primární reward centrum
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - **Narušení habituálních vzorců psychedeliky**
+- **Striatum** - Habituální chování
+- **VTA (ventral tegmental area)** - Dopaminový zdroj
+- [Amygdala](@/brain/amygdala.md) - Emoční spouštěče
+- [Hippocampus](@/brain/hippocampus.md) - Kontextová paměť
+
+### Receptory a mechanismy
+- [Dopaminové receptory](@/receptors/dopamine.md) - **Centrum reward systému**
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - **Cíl psychedelické terapie**
+- **5-HT2C receptor** - Impulzní kontrola
+- **Kappa opiovie receptory** - Dysforické stavy
+- [NMDA receptor](@/receptors/nmda.md) - Cíl ketaminu
+
+### Molekulární mediátory
+- [BDNF](@/molecules/bdnf.md) - **Neuroplasticita, nové neuronální dráhy**
+- [Dopamin](@/glossary/dopamin.md) - Reward systém, craving
+- **ΔFosB** - Dlouhodobé změny genové exprese
+- **CREB** - Tolerance a withdrawal
+
+### Komorbidní stavy
+- [Deprese](@/conditions/depression.md) - **Častý komorbidní stav (50%)**
+- **Úzkostné stavy** - Self-medication pattern
+- **PTSD** - Traumatické kořeny závislosti
+- [Schizofrenie](@/conditions/schizophrenia.md) - Duální diagnóza
+
+### Psychoterapeutické přístupy
+- **Motivační interviewing** - Zvýšení motivace ke změně
+- **Kognitiv-behaviorální terapie** - Změna myšlenkových vzorců
+- **Contingency management** - Behaviorální posilování
+- **12-step programy** - Peer support
+
+### Harm reduction
+- **Substituční terapie** (metadon, buprenorfin)
+- **Needle exchange** programy
+- **Safe injection sites**
+- [Set and setting](@/glossary/set-and-setting.md) - Psychedelická bezpečnost
+
+### Withdrawal a tolerance
+- [Tolerance](@/glossary/tolerance.md) - Neuroadaptace, eskalace
+- [Opioidní withdrawal](@/glossary/opioid-withdrawal.md) - Specifické syndrom
 
 ---
 
