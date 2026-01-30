@@ -493,8 +493,8 @@ MUSCIMOL CLEARING → GABA-A normalizace
 - [Thalamus](@/brain/thalamus.md) - Oneirogenie
 - [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Hlavní zdroj
 - [Neutrální účinky](@/phenomenology/muscimol-effects.md) - Další efekty
-- [Negativní účinky](@/phenomenology/muscimol/negative-effects.md) - Nežádoucí efekty
+- [Negativní účinky](@/phenomenology/muscimol-effects.md) - Nežádoucí efekty
 
 ---
 
-← Zpět na [Fenomenologie muscimolu](@/phenomenology/muscimol/_index.md) | [Neutrální účinky](@/phenomenology/muscimol-effects.md) →
+← Zpět na [Fenomenologie muscimolu](@/phenomenology/muscimol-effects.md) | [Neutrální účinky](@/phenomenology/muscimol-effects.md) →
