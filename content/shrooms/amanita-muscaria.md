@@ -336,10 +336,40 @@ Při předávkování nebo podezření na záměnu:
 
 ---
 
-Viz také:
-- [Muscimol](@/alkaloids/muscimol.md) - Hlavní aktivní látka
-- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Neurotoxický prekurzor
-- [Psilocybes](@/shrooms/psilocybes/_index.md) - Alternativní psychoaktivní houby
-- [Houby](@/shrooms/_index.md) - Přehled psychoaktivních hub
+## Křížové odkazy
+
+### Psychoaktivní alkaloidy
+- [Muscimol](@/alkaloids/muscimol.md) - hlavní psychoaktivní látka, GABA-A agonista
+- [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - neurotoxický prekurzor muscimolu
+- Muscazon - minor alkaloid, degradační produkt kyseliny ibotenové
+
+### Mechanismy účinku
+- [GABA-A receptor](@/receptors/gaba-a.md) - primární cíl muscimolu
+- [GABA](@/glossary/gaba.md) - hlavní inhibiční neurotransmiter
+- [NMDA receptor](@/receptors/nmda.md) - cíl kyseliny ibotenové (toxický)
+- [Receptor](@/glossary/receptor.md) - základní koncept vazby ligandů
+
+### Srovnání s jinými psychoaktivními houbami
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - serotonergní psychoaktivní houby
+- [Psilocybin](@/alkaloids/psilocybin.md) - kontrastní mechanismus (5-HT2A vs GABA-A)
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - srovnání mechanismů
+
+### Farmakologie a toxikologie
+- [Farmakokinetika](@/pharmacology/_index.md) - absorpce, distribuce, eliminace
+- [Tolerance](@/glossary/tolerance.md) - GABA-A downregulace při chronickém užívání
+- [Neurotoxiny](@/neurotoxins/_index.md) - kyselina ibotenová jako neurotoxin
+
+### Příprava a bezpečnost
+- [Harm Reduction](@/harm-reduction/_index.md) - bezpečné zpracování a užívání
+- [Set and Setting](@/glossary/set-and-setting.md) - psychologické faktory
+
+### Příbuzné druhy Amanita
+- [Amanita pantherina](@/shrooms/amanita-pantherina.md) - tygřice, podobné alkaloidy
+- [Amanita regalis](@/shrooms/amanita-regalis.md) - královská, severská varianta
+- [Houby](@/shrooms/_index.md) - celkový přehled psychoaktivních hub
+
+### Historické kontexty
+- **Soma hypothesis** - teorie o védském Soma nápoji
+- **Sibiřský šamanismus** - tradiční využití mezi sibiřskými národy
 
 ← Zpět na [Houby](@/shrooms/_index.md) | [Muscimol](@/alkaloids/muscimol.md) →

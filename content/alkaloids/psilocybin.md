@@ -6,7 +6,7 @@ weight = 1
 
 # Psilocybin - O-fosforyl-4-hydroxy-DMT
 
-**Psilocybin** je psychoaktivni alkaloid nalezajici se v [houbach rodu Psilocybe](@/shrooms/psilocybes/_index.md) a dalsich rodech. Jedna se o **prodrug** [psilocinu](@/alkaloids/psilocin.md), ktery po defosforylaci pusobi jako serotoninovy agonista na [5-HT2A receptorech](@/receptors/5-ht2a.md).
+**Psilocybin** je psychoaktivní [tryptaminový](@/glossary/tryptamin.md) alkaloid nacházející se v [houbách rodu Psilocybe](@/shrooms/psilocybes/_index.md) a dalších rodech. Jedná se o **prodrug** [psilocinu](@/alkaloids/psilocin.md), který po defosforylaci působí jako [serotoninový](@/glossary/serotonin.md) agonista na [5-HT2A receptorech](@/receptors/5-ht2a.md), čímž vyvolává [psychedelické](@/glossary/psychedelikum.md) účinky.
 
 Tato latka predstavuje jednu z nejintenzivneji zkoumanycch psychedelickych sloucenin v modernich klinickych studii, s prukopnickymi vysledky v lecbe rezistentni deprese, PTSD a zavislosti.
 

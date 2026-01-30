@@ -6,7 +6,7 @@ weight = 6
 
 # LSD - Diethylamid kyseliny lysergove
 
-**LSD** (LSD-25, Lysergic acid diethylamide) je semisynteticke psychedelikum a jedno z **nejpotentnejsich** znamych psychoaktivnich latek. Bylo syntetizovano Albertem Hofmannem v roce 1938 a jeho psychoaktivni ucinky byly nahodne objeveny v roce 1943. LSD zustava zlatym standardem psychedelickeho vyzkumu a klinickych studii.
+**LSD** (LSD-25, Lysergic acid diethylamide) je semisyntetické [psychedelikum](@/glossary/psychedelikum.md) a jedno z **nejpotentějších** známých psychoaktivních látek. Bylo syntetizováno Albertem Hofmannem v roce 1938 a jeho psychoaktivní účinky byly náhodně objeveny v roce 1943. LSD působí jako agonista [serotoninových receptorů](@/glossary/serotonin.md), především [5-HT2A](@/receptors/5-ht2a.md), a zůstává zlatým standardem psychedelického výzkumu.
 
 ---
 

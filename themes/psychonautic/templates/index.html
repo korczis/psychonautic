@@ -19,8 +19,13 @@
 
         <nav class="sidebar__nav">
             {% set section = get_section(path="_index.md") %}
+            {# Build array of subsections with titles for sorting #}
+            {% set_global subsections_list = [] %}
             {% for subsection_path in section.subsections %}
                 {% set subsection = get_section(path=subsection_path) %}
+                {% set_global subsections_list = subsections_list | concat(with=[subsection]) %}
+            {% endfor %}
+            {% for subsection in subsections_list | sort(attribute="title") %}
                 {% set has_content = subsection.pages | length > 0 or subsection.subsections | length > 0 %}
                 <div class="nav-group" x-data="{ open: {% if current_path is starting_with(subsection.path) %}true{% else %}false{% endif %} }">
                     {% if has_content %}
@@ -31,9 +36,13 @@
                         </svg>
                     </button>
                     <div class="nav-group__items" x-show="open" x-collapse>
-                        <!-- Nested subsections first -->
+                        {# Nested subsections sorted alphabetically #}
+                        {% set_global nested_list = [] %}
                         {% for nested_path in subsection.subsections %}
                             {% set nested = get_section(path=nested_path) %}
+                            {% set_global nested_list = nested_list | concat(with=[nested]) %}
+                        {% endfor %}
+                        {% for nested in nested_list | sort(attribute="title") %}
                             <div class="nav-subgroup" x-data="{ subopen: {% if current_path is starting_with(nested.path) %}true{% else %}false{% endif %} }">
                                 <button class="nav-subgroup__toggle" @click="subopen = !subopen">
                                     <span>{{ nested.title }}</span>
@@ -50,7 +59,7 @@
                                 </div>
                             </div>
                         {% endfor %}
-                        <!-- Direct pages sorted alphabetically -->
+                        {# Direct pages sorted alphabetically #}
                         {% for page in subsection.pages | sort(attribute="title") %}
                         <a href="{{ page.permalink | safe }}" class="nav-link {% if current_path == page.path %}nav-link--active{% endif %}">
                             {{ page.title }}

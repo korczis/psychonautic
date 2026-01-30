@@ -393,23 +393,44 @@ PSYCHEDELICKY UCINEK (4-6 hodin)
 
 ## Krizove odkazy
 
-### Souvisejici temata
-- [MAO (enzym)](@/glossary/mao.md) - detailni popis enzymu
-- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni pripravek
-- [DMT](@/alkaloids/dmt.md) - psychoaktivni slozka
-- [Serotonin](@/glossary/serotonin.md) - neurotransmiter
+### Alkaloidy ovlivnovane MAOI
+- [DMT](@/alkaloids/dmt.md) - primo zavislý na MAO inhibici pro oralni aktivitu
+- [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) - alternativi k DMT v syntetickych analogach ayahuascy
+- [Bufotenin](@/alkaloids/bufotenin.md) - 5-HO-DMT, degradovan MAO-A
+- [Tryptamin alkaloidy](@/alkaloids/_index.md) - celá rodina závislá na MAO-A metabolismu
 
-### Bezpecnost
-- [Harm Reduction](@/harm-reduction/_index.md) - zasady bezpecneho uzivani
+### Prirodni zdroje MAOI
+- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni pripravek s harmala alkaloidy
+- Peganum harmala (Syrian rue) - zdroj harmina/harmalinu
+- Banisteriopsis caapi - klasický MAOI v ayahuasce
 
-### Receptory
-- [5-HT2A](@/receptors/5-ht2a.md) - cilovy receptor psychedelik
-- [5-HT1A](@/receptors/5-ht1a.md) - sekundarni receptor
-
-### Mechanismy
+### Mechanismy a farmakokinetika
 - [Mechanismy ucinku](@/mechanisms/_index.md) - kompletni prehled mechanismu
 - [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - MAO-A metabolismus, lekove interakce, farmakogenetika
 - [Signalni transdukce](@/mechanisms/signal-transduction.md) - signalni kaskady po MAO inhibici
+- [First-pass metabolismus](@/pharmacology/first-pass-metabolism.md) - jak MAOI obchazi first-pass eliminaci
+- [Membranová permeabilita](@/pharmacology/membrane-permeability.md) - vliv na distribuci po MAO inhibici
+
+### Neurotransmitery a enzymy
+- [MAO (enzym)](@/glossary/mao.md) - detailni popis enzymu
+- [Serotonin](@/glossary/serotonin.md) - hlavni cil MAO-A
+- [Dopamin](@/glossary/dopamin.md) - cil MAO-B, relevance pro L-DOPA interakce
+- [GABA](@/glossary/gaba.md) - nepřímá modulace přes serotonin
+
+### Receptory ovlivnovane MAOI
+- [5-HT2A](@/receptors/5-ht2a.md) - zvysena aktivace po zvyseni hladiny 5-HT
+- [5-HT1A](@/receptors/5-ht1a.md) - autoreceptor, kompenzacni mechanismus
+- [5-HT2C](@/receptors/5-ht2c.md) - modulace nalady a apetitu
+- [D2 receptor](@/receptors/d2.md) - interakce s MAO-B inhibitory
+
+### Klinicke souvislosti
+- [Deprese](@/conditions/depression.md) - hlavní indikace MAO inhibitorů
+- [Serotonin syndrom](@/conditions/serotonin-syndrome.md) - hlavni riziko MAOI kombinaci
+- [Farmakokinetika](@/pharmacology/_index.md) - celkovy prehled absorpce, distribuce, metabolismu
+
+### Bezpecnost
+- [Harm Reduction](@/harm-reduction/_index.md) - zasady bezpecneho uzivani MAOI
+- [Tolerance](@/glossary/tolerance.md) - mechanismy u chronického užívání MAOI
 
 ---
 

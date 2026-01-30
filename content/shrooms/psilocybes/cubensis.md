@@ -531,10 +531,40 @@ Při průměrné potenci 0,63%:
 
 ---
 
-Viz také:
-- [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka
-- [Psilocin](@/alkaloids/psilocin.md) - Aktivní metabolit
-- [Baeocystin](@/alkaloids/baeocystin.md) - Minor alkaloid
-- [Psilocybes](@/shrooms/psilocybes/_index.md) - Přehled rodu
+## Krizové odkazy
+
+### Aktivní alkaloidy
+- [Psilocybin](@/alkaloids/psilocybin.md) - hlavní psychoaktivní složka (0,37-1,30% sušiny)
+- [Psilocin](@/alkaloids/psilocin.md) - aktivní metabolit, 4-HO-DMT
+- [Baeocystin](@/alkaloids/baeocystin.md) - minor alkaloid, 4-PO-NMT
+- [Norbaeocystin](@/alkaloids/norbaeocystin.md) - prekurzor baeocystinu
+
+### Biosyntéza a metabolismus
+- [Biosyntéza psilocybinu](@/biosynthesis/psilocybin.md) - enzymatická dráha 4-PO-DMT syntézy
+- [Serotonin](@/glossary/serotonin.md) - neurotransmiter, na který psilocybin působí
+- [Tryptamin](@/glossary/tryptamin.md) - základní struktura všech alkaloidů
+
+### Receptory a mechanismy
+- [5-HT2A receptor](@/receptors/5-ht2a.md) - primární cíl psilocybinu v mozku
+- [5-HT2C receptor](@/receptors/5-ht2c.md) - sekundární cíl
+- [Default Mode Network](@/circuits/dmn.md) - mozkové sítě ovlivněné psychedeliky
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - dlouhodobé změny po psilocybinu
+
+### Farmakokinetika a bezpečnost
+- [Farmakokinetika](@/pharmacology/_index.md) - absorpce, metabolismus, eliminace
+- [Set and Setting](@/glossary/set-and-setting.md) - faktory ovlivňující účinek
+- [Tolerance](@/glossary/tolerance.md) - mechanismus snížené citlivosti
+- [Harm Reduction](@/harm-reduction/_index.md) - bezpečné užívání
+
+### Příbuzné druhy
+- [Psilocybes](@/shrooms/psilocybes/_index.md) - celý rod obsahující psilocybin
+- [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) - evropský druh
+- [P. azurescens](@/shrooms/psilocybes/azurescens.md) - nejsilnější druh
+- [P. cyanescens](@/shrooms/psilocybes/cyanescens.md) - silný kultivovatelný druh
+
+### Terapeutické aplikace
+- [Deprese](@/conditions/depression.md) - hlavní terapeutické využití
+- **PTSD** - trauma-focused terapie
+- [Závislosti](@/conditions/addiction.md) - léčba alkoholismu a nikotinismu
 
 ← Zpět na [Psilocybes](@/shrooms/psilocybes/_index.md) | [P. semilanceata](@/shrooms/psilocybes/semilanceata.md) →

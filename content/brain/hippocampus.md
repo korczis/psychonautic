@@ -513,6 +513,37 @@ PAPEZUV OKRUH (Emocni pamet)
 
 ## Reference
 
+## Křížové odkazy
+
+### Neurotransmitery a receptory
+- [Serotonin](@/glossary/serotonin.md) - hlavní modulátor hippokampální funkce
+- [5-HT1A receptor](@/receptors/5-ht1a.md) - anxiolytické účinky, neurogeneze
+- [GABA](@/glossary/gaba.md) - inhibiční neurotransmiter, interneurony
+- [Glutamát](@/glossary/glutamate.md) - hlavní excitační neurotransmiter pyramidálních neuronů
+- [NMDA receptor](@/receptors/nmda.md) - klíčový pro LTP a učení
+- [AMPA receptor](@/receptors/ampa.md) - rychlá glutamátergní transmise
+
+### Psychedelika ovlivňující hippocampus
+- [LSD](@/alkaloids/lsd.md) - 5-HT1A a 5-HT2A agonista
+- [Psilocybin](@/alkaloids/psilocybin.md) - modulace paměťových procesů
+- [DMT](@/alkaloids/dmt.md) - alterace prostorového vnímání
+- [Ketamin](@/alkaloids/ketamin.md) - NMDA antagonista, antidepresivní účinky
+
+### Příbuzné mozkové struktury
+- [Prefrontální kortex](@/brain/prefrontal-cortex.md) - executive funkce, pracovní paměť
+- [Amygdala](@/brain/amygdala.md) - emoce, strach, paměť na trauma
+- [Default Mode Network](@/circuits/dmn.md) - síť ovlivněná psychedeliky
+
+### Neuroplasticita a učení
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - synaptic plasticity, LTP/LTD
+- [BDNF](@/molecules/bdnf.md) - růstový faktor podporující neurogenezi
+- [Učení a paměť](@/glossary/uceni.md) - mechanismy učení
+
+### Klinické souvislosti
+- [Deprese](@/conditions/depression.md) - snížený objem hippocampu, neurogeneze
+- **PTSD** - dysregulace hippocampu, paměť na trauma
+- [Závislosti](@/conditions/addiction.md) - modulace reward systému
+
 ### Klicova literatura
 
 1. O'Keefe, J. & Nadel, L. (1978). *The Hippocampus as a Cognitive Map*. Oxford University Press.

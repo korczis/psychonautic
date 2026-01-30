@@ -1031,11 +1031,27 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 - [Signalni transdukce](@/mechanisms/signal-transduction.md) - 5-HT2A a Sigma-1 drahy
 - [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) - MAO-zavisla farmakokinetika
 
-### Souvisejici temata
-- [Ayahuasca](@/preparations/ayahuasca.md) - tradicni pripravek
-- [MAOI](@/pharmacology/maoi.md) - inhibitory monoaminoxidazy
-- [Neuroplasticita](@/neuroscience/neuroplasticity.md) - strukturalni zmeny
-- [Mysticke zazitky](@/phenomenology/mystical-experiences.md) - fenomenologie
+### Farmakologie a metabolismus
+- [MAOI](@/pharmacology/maoi.md) - inhibitory monoaminoxidazy, klic k oralni aktivite
+- [First-pass metabolismus](@/pharmacology/first-pass-metabolism.md) - proc DMT neni oralne aktivni bez MAOI
+- [Membranová permeabilita](@/pharmacology/membrane-permeability.md) - prostup hematoencefalickou bariérou
+- [Farmakokinetika](@/pharmacology/_index.md) - absorpce, distribuce, eliminace
+
+### Neuroveda a mechanismy
+- [Neuroplasticita](@/glossary/neuroplasticita.md) - dlouhodobé změny po DMT expozici
+- [BDNF](@/molecules/bdnf.md) - růstový faktor indukovaný DMT
+- [Default Mode Network](@/circuits/dmn.md) - síť potlačená psychedeliky
+- [Signální transdukce](@/mechanisms/signal-transduction.md) - 5-HT2A a Sigma-1 dráhy
+
+### Přípravky a aplikace
+- [Ayahuasca](@/preparations/ayahuasca.md) - tradiční MAOI-obsahující připravek
+- **Changa** - kuřitelná DMT-MAOI směs
+- **Pharmahuasca** - syntetická ayahuasca
+
+### Fenomenologie a zkusenost
+- [Mystické zážitky](@/phenomenology/mystical-experiences.md) - fenomenologie DMT breakthrough
+- [Set and Setting](@/glossary/set-and-setting.md) - faktory ovlivňující zážitek
+- **Entity encounters** - setkání s bytostmi
 
 ---
 

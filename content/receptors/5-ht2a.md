@@ -7,7 +7,7 @@ insert_anchor_links = "right"
 
 # 5-HT2A receptor - Brána do psychedelického stavu
 
-**5-HT2A receptor** (5-hydroxytryptamin receptor 2A) je **serotoninový receptor** patřící do rodiny G-protein spřažených receptorů (GPCR). Je **primárním molekulárním cílem** klasických psychedelik jako [LSD](@/alkaloids/lsd.md), [psilocybin](@/alkaloids/psilocybin.md) a [DMT](@/alkaloids/dmt.md).
+**5-HT2A receptor** (5-hydroxytryptamin receptor 2A) je **[serotoninový receptor](@/glossary/serotonin.md)** patřící do rodiny G-protein spřažených [receptorů](@/glossary/receptor.md) (GPCR). Je **primárním molekulárním cílem** klasických [psychedelik](@/glossary/psychedelikum.md) jako [LSD](@/alkaloids/lsd.md), [psilocybin](@/alkaloids/psilocybin.md) a [DMT](@/alkaloids/dmt.md), které mají strukturní podobnost s endogenním neurotransmiterem [serotoninem](@/glossary/serotonin.md).
 
 ---
 
