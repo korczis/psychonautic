@@ -2,8 +2,23 @@
 
 {% block title %}{{ section.title }} | {{ config.title }}{% endblock %}
 {% block description %}{{ section.description | default(value='Sekce ' ~ section.title) }}{% endblock %}
+
+{# OpenGraph meta #}
+{% block og_type %}website{% endblock %}
 {% block og_title %}{{ section.title }}{% endblock %}
 {% block og_description %}{{ section.description | default(value='Sekce ' ~ section.title) }}{% endblock %}
+{% block og_url %}{{ section.permalink }}{% endblock %}
+{% if section.extra.og_image %}
+{% block og_image %}{{ config.base_url ~ section.extra.og_image }}{% endblock %}
+{% block og_image_alt %}{{ section.title }}{% endblock %}
+{% endif %}
+
+{# Twitter meta #}
+{% block twitter_title %}{{ section.title }}{% endblock %}
+{% block twitter_description %}{{ section.description | default(value='Sekce ' ~ section.title) }}{% endblock %}
+{% if section.extra.og_image %}
+{% block twitter_image %}{{ config.base_url ~ section.extra.og_image }}{% endblock %}
+{% endif %}
 
 {% block content %}
 <div class="section-page">

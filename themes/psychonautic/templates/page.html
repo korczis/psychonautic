@@ -2,8 +2,23 @@
 
 {% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
 {% block description %}{{ page.description | default(value='') }}{% endblock %}
+
+{# OpenGraph meta #}
+{% block og_type %}article{% endblock %}
 {% block og_title %}{{ page.title }}{% endblock %}
 {% block og_description %}{{ page.description | default(value='') }}{% endblock %}
+{% block og_url %}{{ page.permalink }}{% endblock %}
+{% if page.extra.og_image %}
+{% block og_image %}{{ config.base_url ~ page.extra.og_image }}{% endblock %}
+{% block og_image_alt %}{{ page.title }}{% endblock %}
+{% endif %}
+
+{# Twitter meta #}
+{% block twitter_title %}{{ page.title }}{% endblock %}
+{% block twitter_description %}{{ page.description | default(value='') }}{% endblock %}
+{% if page.extra.og_image %}
+{% block twitter_image %}{{ config.base_url ~ page.extra.og_image }}{% endblock %}
+{% endif %}
 
 {% block content %}
 <article class="article">

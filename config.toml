@@ -10,6 +10,14 @@ theme = "psychonautic"
 logo = "/logo.svg"
 favicon = "/favicon.ico"
 
+# OG/Social meta defaults
+og_image = "/images/og-default.png"
+og_image_width = "1200"
+og_image_height = "630"
+twitter_site = "@psychonautics_cz"
+twitter_creator = "@psychonautics_cz"
+author = "Psychonautics"
+
 [search]
 include_title = true
 include_description = true
