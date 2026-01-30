@@ -876,7 +876,7 @@ CST A GABA:
 
 ### Psychoaktivní látky
 - [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
-- [Benzodiazepiny](@/pharmacology/benzodiazepines.md) - GABA-A PAM
+- [Benzodiazepiny](@/classes/gaba-modulators.md) - GABA-A PAM
 
 ---
 
