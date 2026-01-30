@@ -24,12 +24,23 @@ Sekce venovana farmakologickym mechanismum psychoaktivnich latek, jejich osudu v
 - [Membranovy prostup](@/pharmacology/membrane-permeability.md) - Hematoencefalicka bariera, placentarni bariera, testikulrani bariera
 - [MAOI](@/pharmacology/maoi.md) - Inhibitory monoaminooxidazy, harmala alkaloidy, ayahuasca
 
+### Leciva (Farmaka)
+
+| Skupina | Mechanismus | Priklad |
+|---------|-------------|---------|
+| **Benzodiazepiny** | [GABA-A](@/receptors/gaba-a.md) PAM | Diazepam, Alprazolam |
+| **SSRI** | SERT inhibice | Sertralin, Escitalopram |
+| **Stimulancia** | DAT/NET modulace | Methylfenidat, Modafinil |
+| **Myorelaxancia** | [GABA-B](@/receptors/gaba-b.md), α2 | Baclofen, Tizanidin |
+
+Vice viz [GABA modulatory](@/classes/gaba-modulators.md)
+
 ### Souvisejici sekce
 
 - [Farmakokinetika](@/glossary/farmakokinetika.md) - Kompletni pruvodce ADME procesy
 - [Farmakologicke tridy](@/classes/_index.md) - Klasifikace podle mechanismu ucinku
 - [Receptory](@/receptors/_index.md) - Cilove struktury psychoaktivnich latek
-- GABA modulatory - Benzodiazepiny, barbituráty, neurosteroidyá, Z-léky, alkohol (pripravujeme)
+- [GABA modulatory](@/classes/gaba-modulators.md) - Benzodiazepiny, barbituráty, neurosteroidyá, Z-léky, alkohol
 
 ---
 

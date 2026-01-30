@@ -76,6 +76,12 @@ template = "section.html"
         <p class="feature-card__desc">Receptorova kinetika, signalni transdukce, alostericka modulace, PK-PD vztahy.</p>
         <span class="feature-card__count">4 sekce</span>
     </a>
+    <a href="@/pharmacology/_index.md" class="feature-card feature-card--rose">
+        <div class="feature-card__icon">&#128138;</div>
+        <h3 class="feature-card__title">Farmakologie</h3>
+        <p class="feature-card__desc">Farmakokinetika, metabolismus, leciva. Benzodiazepiny, SSRI, stimulancia a jejich interakce.</p>
+        <span class="feature-card__count">5+ sekci</span>
+    </a>
 </div>
 
 ---
