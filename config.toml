@@ -1,23 +1,17 @@
 base_url = "https://korczis.github.io/psychonautic"
 title = "Psychonautics"
-compile_sass = true
+description = "Komplexní česká encyklopedie psychoaktivních látek"
+compile_sass = false
 build_search_index = true
 default_language = "en"
+theme = "psychonautic"
 
 [extra]
 logo = "/logo.svg"
 favicon = "/favicon.ico"
-easydocs_logo_always_clickable = false
 
-# For use with offline sites. If set to true links in the nav are generated with the full path including index.html
-# Inspired by Abridge theme https://www.getzola.org/themes/abridge/
-# Notes:
-#  - Also requires the base URL to be set to the local folder where the site will be stored eg. base_url = file:///home/user/mysite/public/
-#  - This is not portable and only works with a specific local folder
-easydocs_uglyurls = false
 
-# Minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5.
-# Can be used for example to always show headings on each page by setting it to 1.
-easydocs_heading_threshold = 2
-
-sort_by = "title"
+[search]
+include_title = true
+include_description = true
+include_content = true

@@ -1,0 +1,17 @@
+[theme]
+name = "Psychonautic"
+description = "Modern documentation theme with Flowbite + Alpine.js for Psychonautics Encyclopedia"
+license = "MIT"
+homepage = "https://github.com/korczis/psychonautic"
+min_version = "0.17.0"
+demo = "https://korczis.github.io/psychonautic/"
+
+[author]
+name = "Tomas Korcak"
+homepage = "https://github.com/korczis"
+
+[extra]
+# Theme configuration
+primary_color = "#22c55e"
+dark_mode = true
+search_enabled = true

@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+
+{% block title %}{{ section.title }} | {{ config.title }}{% endblock %}
+{% block description %}{{ section.description | default(value='Sekce ' ~ section.title) }}{% endblock %}
+{% block og_title %}{{ section.title }}{% endblock %}
+{% block og_description %}{{ section.description | default(value='Sekce ' ~ section.title) }}{% endblock %}
+
+{% block content %}
+<div class="section-page">
+    {% if section.content %}
+        {{ section.content | safe }}
+    {% else %}
+        <h1>{{ section.title }}</h1>
+        {% if section.description %}
+        <p class="lead">{{ section.description }}</p>
+        {% endif %}
+
+        {% if section.subsections %}
+        <div class="card-grid">
+            {% for subsection_path in section.subsections %}
+            {% set subsection = get_section(path=subsection_path) %}
+            <a href="{{ subsection.permalink | safe }}" class="card">
+                <h3 class="card__title">{{ subsection.title }}</h3>
+                {% if subsection.description %}
+                <p class="card__description">{{ subsection.description }}</p>
+                {% endif %}
+                <span class="card__meta">{{ subsection.pages | length }} stránek</span>
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if section.pages %}
+        <div class="card-grid">
+            {% for page in section.pages %}
+            <a href="{{ page.permalink | safe }}" class="card">
+                <h3 class="card__title">{{ page.title }}</h3>
+                {% if page.description %}
+                <p class="card__description">{{ page.description | truncate(length=120) }}</p>
+                {% endif %}
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
+{% block description %}{{ page.description | default(value='') }}{% endblock %}
+{% block og_title %}{{ page.title }}{% endblock %}
+{% block og_description %}{{ page.description | default(value='') }}{% endblock %}
+
+{% block content %}
+<article class="article">
+    <header class="article__header">
+        <h1 class="article__title">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="article__description">{{ page.description }}</p>
+        {% endif %}
+        {% if page.taxonomies.tags %}
+        <div class="article__tags">
+            {% for tag in page.taxonomies.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </header>
+
+    <div class="article__content prose">
+        {{ page.content | safe }}
+    </div>
+
+    {% if page.lower or page.higher %}
+    <nav class="article__nav">
+        {% if page.lower %}
+        <a href="{{ page.lower.permalink | safe }}" class="article__nav-link article__nav-link--prev">
+            <span class="article__nav-label">Předchozí</span>
+            <span class="article__nav-title">{{ page.lower.title }}</span>
+        </a>
+        {% endif %}
+        {% if page.higher %}
+        <a href="{{ page.higher.permalink | safe }}" class="article__nav-link article__nav-link--next">
+            <span class="article__nav-label">Další</span>
+            <span class="article__nav-title">{{ page.higher.title }}</span>
+        </a>
+        {% endif %}
+    </nav>
+    {% endif %}
+</article>
+{% endblock %}
