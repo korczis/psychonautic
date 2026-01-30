@@ -868,7 +868,7 @@ CST A GABA:
 - [Bazální ganglia](@/brain/basal-ganglia.md) - Motorické okruhy
 - [Cerebellum](@/brain/cerebellum.md) - Motorická koordinace
 - [Thalamus](@/brain/thalamus.md) - Senzorický relay
-- [Vestibulární systém](@/brain/vestibular-system.md) - Vestibulospinální reflexy
+- [Vestibulární systém](@/brain/cerebellum.md) - Vestibulospinální reflexy
 
 ### Receptory
 - [GABA-A receptor](@/receptors/gaba-a.md) - Spinální inhibice
