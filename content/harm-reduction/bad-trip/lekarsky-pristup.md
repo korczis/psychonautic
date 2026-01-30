@@ -33,6 +33,47 @@ Tato sekce popisuje **farmakologickou intervenci** a **medicinsky management** p
 
 ### Kdy Pouzit Farmakoterapii
 
+```mermaid
+flowchart TD
+    node_ROZHODOVACISTROM["ROZHODOVACI STROM:"]
+    node_PSYCHOLOGICKAINTERVE["PSYCHOLOGICKA INTERVENCE"]
+    node_Dychanikotveniprostr["Dychani, kotveni, prostredi"]
+    node_Efektivni["Efektivni?"]
+    node_801be939["/    \"]
+    node_ANONE["ANO     NE"]
+    node_POKRACOVATHODNOCENII["POKRACOVAT  HODNOCENI INTENZITY"]
+    node_6e1482da["/          \"]
+    node_STREDNITEZKAKRITICKA["STREDNI        TEZKA/KRITICKA"]
+    node_POKRACOVATFARMAKOTER["POKRACOVAT      FARMAKOTERAPIE UVAHA"]
+    node_intenzivni["+ intenzivni"]
+    node_podpora["podpora"]
+    node_Kontraindikace["Kontraindikace?"]
+    node_3f34161c["/        \"]
+    node_ANONE["ANO        NE"]
+    node_NEDAVATPODAT["NEDAVAT    PODAT"]
+    node_155BENZODIAZEPIN["155      BENZODIAZEPIN"]
+
+    node_ROZHODOVACISTROM --> node_PSYCHOLOGICKAINTERVE
+    node_PSYCHOLOGICKAINTERVE --> node_Dychanikotveniprostr
+    node_Dychanikotveniprostr --> node_Efektivni
+    node_Efektivni --> node_801be939
+    node_801be939 --> node_ANONE
+    node_ANONE --> node_POKRACOVATHODNOCENII
+    node_POKRACOVATHODNOCENII --> node_6e1482da
+    node_6e1482da --> node_STREDNITEZKAKRITICKA
+    node_STREDNITEZKAKRITICKA --> node_POKRACOVATFARMAKOTER
+    node_POKRACOVATFARMAKOTER --> node_intenzivni
+    node_intenzivni --> node_podpora
+    node_podpora --> node_Kontraindikace
+    node_Kontraindikace --> node_3f34161c
+    node_3f34161c --> node_ANONE
+    node_ANONE --> node_NEDAVATPODAT
+    node_NEDAVATPODAT --> node_155BENZODIAZEPIN
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ROZHODOVACI STROM:
 ==================
@@ -62,6 +103,8 @@ PSYCHOLOGICKA INTERVENCE
               NEDAVAT    PODAT
               → 155      BENZODIAZEPIN
 ```
+
+</details>
 
 ### Indikace Pro Farmakoterapii
 
@@ -465,6 +508,31 @@ SCHEMA KOMUNIKACE S 155:
 
 ### Hierarchie Intervenci
 
+```mermaid
+flowchart TD
+    node_ESKALACEINTERVENCE["ESKALACE INTERVENCE:"]
+    node_1Psychologickpodpora["1. Psychologická podpora"]
+    node_neefektivnpo30min["neefektivní po 30 min"]
+    node_2Optimalizaceprosted["2. Optimalizace prostředí"]
+    node_neefektivn["neefektivní"]
+    node_3Benzodiazepinynzkdv["3. Benzodiazepiny nízká dávka"]
+    node_4Benzodiazepinyvydvk["4. Benzodiazepiny vyšší dávka"]
+    node_neefektivnmedicnskko["neefektivní / medicínská komplikace"]
+    node_5Zchrannsluba155["5. Záchranná služba 155"]
+
+    node_ESKALACEINTERVENCE --> node_1Psychologickpodpora
+    node_1Psychologickpodpora --> node_neefektivnpo30min
+    node_neefektivnpo30min --> node_2Optimalizaceprosted
+    node_2Optimalizaceprosted --> node_neefektivn
+    node_neefektivn --> node_3Benzodiazepinynzkdv
+    node_3Benzodiazepinynzkdv --> node_4Benzodiazepinyvydvk
+    node_4Benzodiazepinyvydvk --> node_neefektivnmedicnskko
+    node_neefektivnmedicnskko --> node_5Zchrannsluba155
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ESKALACE INTERVENCE:
 ====================
@@ -479,6 +547,8 @@ ESKALACE INTERVENCE:
    ↓ (neefektivní / medicínská komplikace)
 5. Záchranná služba (155)
 ```
+
+</details>
 
 ### Klicove Body
 

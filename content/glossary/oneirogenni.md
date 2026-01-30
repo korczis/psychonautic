@@ -31,7 +31,6 @@ tags = ["oneirogenní", "sny", "lucidní sny", "muscimol", "halucinogeny", "deli
 
 | Kategorie | Primární efekt | Orientace | Příklady |
 |-----------|----------------|-----------|----------|
-| **Oneirogenní** | Snové stavy | Snížená | [Muscimol](@/alkaloids/muscimol.md) |
 | **Psychedelické** | Vizuální, kognitivní | Zachovaná | [Psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md) |
 | **Disociativní** | Odpojení od reality | Variabilní | [Ketamin](@/alkaloids/ketamin.md) |
 | **Deliriantní** | Pravé halucinace | Ztracená | Scopolamin, Datura |
@@ -41,6 +40,25 @@ tags = ["oneirogenní", "sny", "lucidní sny", "muscimol", "halucinogeny", "deli
 ## Mechanismy
 
 ### GABAergní oneirogeny
+
+```mermaid
+flowchart TD
+    node_GABAergnMECHANISMUS["GABAergní MECHANISMUS"]
+    node_GABAAreceptoraktivac["GABA-A receptor aktivace"]
+    node_Kortiklninhibice["Kortikální inhibice"]
+    node_Snensenzorickfiltrac["Snížená senzorická filtrace"]
+    node_Intruzivnsnovobsahy["Intruzivní snové obsahy"]
+
+    node_GABAergnMECHANISMUS --> node_GABAAreceptoraktivac
+    node_GABAAreceptoraktivac --> node_Kortiklninhibice
+    node_Kortiklninhibice --> node_Snensenzorickfiltrac
+    node_Snensenzorickfiltrac --> node_Intruzivnsnovobsahy
+
+    click node_GABAAreceptoraktivac "/receptors/gaba-a/" "GABA-A receptor aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GABAergní MECHANISMUS
@@ -54,9 +72,27 @@ Snížená senzorická filtrace
 Intruzivní snové obsahy
 ```
 
-**Příklady**: [Muscimol](@/alkaloids/muscimol.md), některé benzodiazepiny
+</details>
+
 
 ### Anticholinergní oneirogeny
+
+```mermaid
+flowchart TD
+    node_ANTICHOLINERGNMECHAN["ANTICHOLINERGNÍ MECHANISMUS"]
+    node_Muskarinovantagonism["Muskarinový antagonismus"]
+    node_AChdeficitvbazlnmped["ACh deficit v bazálním předním mozku"]
+    node_REMlikeaktivitapibdl["REM-like aktivita při bdělosti"]
+    node_Pravhalucinacekonfuz["Pravé halucinace + konfuze"]
+
+    node_ANTICHOLINERGNMECHAN --> node_Muskarinovantagonism
+    node_Muskarinovantagonism --> node_AChdeficitvbazlnmped
+    node_AChdeficitvbazlnmped --> node_REMlikeaktivitapibdl
+    node_REMlikeaktivitapibdl --> node_Pravhalucinacekonfuz
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ANTICHOLINERGNÍ MECHANISMUS
@@ -69,6 +105,8 @@ REM-like aktivita při bdělosti
         ↓
 Pravé halucinace + konfuze
 ```
+
+</details>
 
 **Příklady**: Scopolamin, atropin, Datura (tropanové alkaloidy)
 
@@ -97,7 +135,6 @@ Pravé halucinace + konfuze
 
 | Látka | Mechanismus | Charakter |
 |-------|-------------|-----------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | GABA-A agonista | Sedativní, snové |
 | **Gaboxadol (THIP)** | GABA-A agonista | Výzkumný |
 | **Ambien (zolpidem)** | GABA-A PAM (α1) | Hypnotikum s oneirogenními efekty |
 
@@ -132,7 +169,6 @@ Pravé halucinace + konfuze
 ## Viz také
 
 ### Látky
-- [Muscimol](@/alkaloids/muscimol.md) - **Paradigmatický oneirogen**
 - [Účinky muscimolu](@/phenomenology/muscimol-effects.md) - Detailní fenomenologie
 - [DMT](@/alkaloids/dmt.md) - Psychedelikum s oneirogenními prvky
 

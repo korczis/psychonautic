@@ -256,6 +256,26 @@ Potence mezi kultivary se může lišit 2-3×. Penis Envy a jeho varianty jsou o
 
 ### Metabolismus psilocybinu
 
+```mermaid
+flowchart TD
+    node_Psilocybin4PODMTProd["Psilocybin 4-PO-DMT Prodrug, neaktivní"]
+    node_Alkalickfosfatzastev["Alkalická fosfatáza - střevo, játra, kre"]
+    node_Psilocin4HODMTAktivn["Psilocin 4-HO-DMT Aktivní metabolit"]
+    node_Prnikpeshematoencefa["Průnik přes hematoencefalickou bariéru"]
+    node_5HTreceptoryvmozkuPs["5-HT receptory v mozku  Psychoaktivní účinky"]
+
+    node_Psilocybin4PODMTProd --> node_Alkalickfosfatzastev
+    node_Alkalickfosfatzastev --> node_Psilocin4HODMTAktivn
+    node_Psilocin4HODMTAktivn --> node_Prnikpeshematoencefa
+    node_Prnikpeshematoencefa --> node_5HTreceptoryvmozkuPs
+
+    click node_Psilocybin4PODMTProd "/alkaloids/psilocybin/" "Psilocybin 4-PO-DMT Prodrug, neaktivní"
+    click node_Psilocin4HODMTAktivn "/alkaloids/psilocin/" "Psilocin 4-HO-DMT Aktivní metabolit"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocybin (4-PO-DMT) [Prodrug, neaktivní]
          ↓
@@ -267,6 +287,8 @@ Psilocin (4-HO-DMT) [Aktivní metabolit]
          ↓
 5-HT receptory v mozku → Psychoaktivní účinky
 ```
+
+</details>
 
 ### Cílové receptory
 
@@ -296,6 +318,29 @@ Psilocin (4-HO-DMT) [Aktivní metabolit]
 
 DMN je síť mozkových oblastí aktivních při introspekci a sebereferenčním myšlení:
 
+```mermaid
+flowchart TD
+    node_Medilnprefrontlnkort["Mediální prefrontální kortex"]
+    node_sebeuvdomn["sebeuvědomění"]
+    node_df498a4e["▼                ▼                     ▼"]
+    node_ZadnHipokampusLaterl["Zadní          Hipokampus     Laterální"]
+    node_cingulrnpamtemporln["cingulární     paměť        temporální"]
+    node_kortexkortex["kortex                        kortex"]
+    node_PsilocinDezorganizac["Psilocin  Dezorganizace DMN  'Ego dissolution'"]
+
+    node_Medilnprefrontlnkort --> node_sebeuvdomn
+    node_sebeuvdomn --> node_df498a4e
+    node_df498a4e --> node_ZadnHipokampusLaterl
+    node_ZadnHipokampusLaterl --> node_cingulrnpamtemporln
+    node_cingulrnpamtemporln --> node_kortexkortex
+    node_kortexkortex --> node_PsilocinDezorganizac
+
+    click node_PsilocinDezorganizac "/alkaloids/psilocin/" "Psilocin  Dezorganizace DMN  "Ego dissolution""
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
        ┌──────────────────────────────────────┐
        │   Mediální prefrontální kortex       │
@@ -312,6 +357,8 @@ DMN je síť mozkových oblastí aktivních při introspekci a sebereferenčním
 
 Psilocin → Dezorganizace DMN → "Ego dissolution"
 ```
+
+</details>
 
 ---
 

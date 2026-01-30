@@ -39,6 +39,33 @@ insert_anchor_links = "right"
 
 ### Koincidentní detektor
 
+```mermaid
+flowchart TD
+    node_ProaktivaciNMDArecep["Pro aktivaci NMDA receptoru jsou potřeba TŘI podmínky:"]
+    node_1Glutamt2GlycinDseri["1. Glutamát          2. Glycin/D-serin      3. Depolarizace"]
+    node_presynaptickastrocyt["presynaptický      astrocyty            postsynaptická"]
+    node_NMDARECEPTOR["NMDA RECEPTOR"]
+    node_GlusiteGlysite["Glu site      Gly site"]
+    node_71006eb8["▼    ▼"]
+    node_MgKANLDepolarizace["Mg²⁺     KANÁL        Depolarizace"]
+    node_blokprodstranMg["blok       pór          odstraní Mg²⁺"]
+    node_Cainflux["Ca²⁺ influx"]
+    node_NMDAANDgateprosynapt["NMDA = 'AND gate' pro synaptickou koincidenci"]
+
+    node_ProaktivaciNMDArecep --> node_1Glutamt2GlycinDseri
+    node_1Glutamt2GlycinDseri --> node_presynaptickastrocyt
+    node_presynaptickastrocyt --> node_NMDARECEPTOR
+    node_NMDARECEPTOR --> node_GlusiteGlysite
+    node_GlusiteGlysite --> node_71006eb8
+    node_71006eb8 --> node_MgKANLDepolarizace
+    node_MgKANLDepolarizace --> node_blokprodstranMg
+    node_blokprodstranMg --> node_Cainflux
+    node_Cainflux --> node_NMDAANDgateprosynapt
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Pro aktivaci NMDA receptoru jsou potřeba TŘI podmínky:
 
@@ -64,6 +91,8 @@ Pro aktivaci NMDA receptoru jsou potřeba TŘI podmínky:
 NMDA = "AND gate" pro synaptickou koincidenci
 ```
 
+</details>
+
 ### Mg²⁺ blokáda
 
 | Membránový potenciál | Mg²⁺ stav | NMDA aktivita |
@@ -78,6 +107,25 @@ NMDA = "AND gate" pro synaptickou koincidenci
 ## Signalizace
 
 ### Ca²⁺ dependentní kaskády
+
+```mermaid
+flowchart TD
+    node_NMDAaktivace["NMDA aktivace"]
+    node_Cainflux["Ca²⁺ influx"]
+    node_CaMKIICalci["CaMKII  Calci-"]
+    node_neurin["neurin"]
+    node_LTPLTD["LTP     LTD"]
+    node_posilnnoslaben["posilnění oslabení"]
+
+    node_NMDAaktivace --> node_Cainflux
+    node_Cainflux --> node_CaMKIICalci
+    node_CaMKIICalci --> node_neurin
+    node_neurin --> node_LTPLTD
+    node_LTPLTD --> node_posilnnoslaben
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NMDA aktivace
@@ -100,6 +148,8 @@ NMDA aktivace
 │(posilnění) │(oslabení)
 └───────┘ └───────┘
 ```
+
+</details>
 
 ### LTP (Long-Term Potentiation)
 
@@ -153,6 +203,29 @@ NMDA aktivace
 
 ### Mechanismus antidepresivního účinku
 
+```mermaid
+flowchart TD
+    node_KetaminNMDAblokda["Ketamin  NMDA blokáda"]
+    node_Paradoxnglutamtburst["Paradoxní glutamát burst"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace"]
+    node_BDNFuvolnn["BDNF uvolnění"]
+    node_TrkBmTORaktivace["TrkB  mTOR aktivace"]
+    node_Synaptogenezehodinyd["Synaptogeneze hodiny-dny"]
+    node_ANTIDEPRESIVNINEK["ANTIDEPRESIVNÍ ÚČINEK"]
+
+    node_KetaminNMDAblokda --> node_Paradoxnglutamtburst
+    node_Paradoxnglutamtburst --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_BDNFuvolnn
+    node_BDNFuvolnn --> node_TrkBmTORaktivace
+    node_TrkBmTORaktivace --> node_Synaptogenezehodinyd
+    node_Synaptogenezehodinyd --> node_ANTIDEPRESIVNINEK
+
+    click node_AMPAreceptoraktivace "/receptors/ampa/" "AMPA receptor aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Ketamin → NMDA blokáda
               │
@@ -175,11 +248,38 @@ Ketamin → NMDA blokáda
     ANTIDEPRESIVNÍ ÚČINEK
 ```
 
+</details>
+
 ---
 
 ## Excitotoxicita
 
 ### Mechanismus poškození
+
+```mermaid
+flowchart TD
+    node_NadmrnNMDAaktivaceis["Nadměrná NMDA aktivace ischémie, trauma, ibotenová k.@/neurotoxins/ibotenic-acid.md"]
+    node_MasivnCainflux["Masivní Ca²⁺ influx"]
+    node_ProtezyLipzyEndonukl["Proteázy    Lipázy     Endonukleázy"]
+    node_calpainyPLACAD["calpainy   PLA₂    CAD"]
+    node_CytoskeletMembrnyDNA["Cytoskelet  Membrány      DNA"]
+    node_destrukceperoxidacef["destrukce   peroxidace   fragmentace"]
+    node_NEURONLNSMRT["NEURONÁLNÍ SMRT"]
+    node_nekrzaapoptza["nekróza/apoptóza"]
+
+    node_NadmrnNMDAaktivaceis --> node_MasivnCainflux
+    node_MasivnCainflux --> node_ProtezyLipzyEndonukl
+    node_ProtezyLipzyEndonukl --> node_calpainyPLACAD
+    node_calpainyPLACAD --> node_CytoskeletMembrnyDNA
+    node_CytoskeletMembrnyDNA --> node_destrukceperoxidacef
+    node_destrukceperoxidacef --> node_NEURONLNSMRT
+    node_NEURONLNSMRT --> node_nekrzaapoptza
+
+    click node_NadmrnNMDAaktivaceis "/neurotoxins/ibotenic-acid/" "Nadměrná NMDA aktivace ischémie, trauma, ibotenová k.@/neurotoxins/ibotenic-acid.md"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Nadměrná NMDA aktivace (ischémie, trauma, [ibotenová k.](@/neurotoxins/ibotenic-acid.md))
@@ -201,6 +301,8 @@ Nadměrná NMDA aktivace (ischémie, trauma, [ibotenová k.](@/neurotoxins/ibote
            NEURONÁLNÍ SMRT
            (nekróza/apoptóza)
 ```
+
+</details>
 
 ### Neuroprotektivní strategie
 
@@ -251,6 +353,33 @@ NMDA receptor ma **6+ odlisnych modulacnich mist** -- viz sekce [Mechanismy ucin
 
 ### Modulacni mista a jejich farmakologie
 
+```mermaid
+flowchart TD
+    node_NMDARECEPTORMODULACN["NMDA RECEPTOR - MODULACNI MISTA"]
+    node_GlutamatovemistoGluN["Glutamatove misto GluN2"]
+    node_GlycinovemistoPolyam["Glycinove misto -----+------ Polyaminove misto"]
+    node_GluN1GluN2Bextracel["GluN1              |       GluN2B extracel."]
+    node_IONOVYKANAL["IONOVY KANAL"]
+    node_Mg2sitePCPketaminsit["Mg2+ site ----- PCP/ketamin site"]
+    node_kanalovypor["kanalovy por"]
+    node_Zn2mistoRedoxmisto["Zn2+ misto ----------+------ Redox misto"]
+    node_GluN2AextracelCysres["GluN2A extracel.          Cys residua"]
+
+    node_NMDARECEPTORMODULACN --> node_GlutamatovemistoGluN
+    node_GlutamatovemistoGluN --> node_GlycinovemistoPolyam
+    node_GlycinovemistoPolyam --> node_GluN1GluN2Bextracel
+    node_GluN1GluN2Bextracel --> node_IONOVYKANAL
+    node_IONOVYKANAL --> node_Mg2sitePCPketaminsit
+    node_Mg2sitePCPketaminsit --> node_kanalovypor
+    node_kanalovypor --> node_Zn2mistoRedoxmisto
+    node_Zn2mistoRedoxmisto --> node_GluN2AextracelCysres
+
+    click node_GlutamatovemistoGluN "/glossary/glutamate/" "Glutamatove misto GluN2"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NMDA RECEPTOR - MODULACNI MISTA
 
@@ -269,6 +398,8 @@ NMDA RECEPTOR - MODULACNI MISTA
     (GluN2A extracel.)          (Cys residua)
 ```
 
+</details>
+
 | Misto | Typ modulace | Farmakologicky priklad | Terapeuticke vyuziti |
 |-------|-------------|------------------------|---------------------|
 | **Glutamatove** | Agonismus | NMDA, kys. ibotenova | Vyzkum |
@@ -280,6 +411,36 @@ NMDA RECEPTOR - MODULACNI MISTA
 | **Redox** | Modulace | Oxidanty/reduktanty | Neurodegenerace |
 
 ### Antidepresivni mechanismus ketaminu -- signalni kaskada
+
+```mermaid
+flowchart TD
+    node_KETAMINNMDABLOKADAin["KETAMIN -&gt; NMDA BLOKADA interneurony"]
+    node_Paradoxniglutamatovy["Paradoxni glutamatovy burst dezinhibice"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace postsynapticka"]
+    node_BDNFuvolnenizdendrit["+---&gt; BDNF uvolneni z dendritickych vezikulu"]
+    node_VDCCCa2TrkBautofosfo["VDCC Ca2+   TrkB autofosforylace"]
+    node_CaMKIIPI3KAktmTORC1["CaMKII     PI3K/Akt -&gt; mTORC1"]
+    node_CREBTranslacePSD95Gl["CREB      Translace: PSD-95, GluA1, synaptofyzin"]
+    node_GenovaSYNAPTOGENEZE6["Genova    SYNAPTOGENEZE 6-24 h"]
+    node_exprese["exprese"]
+    node_ANTIDEPRESIVNIUCINEK["ANTIDEPRESIVNI UCINEK 24-72 h"]
+
+    node_KETAMINNMDABLOKADAin --> node_Paradoxniglutamatovy
+    node_Paradoxniglutamatovy --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_BDNFuvolnenizdendrit
+    node_BDNFuvolnenizdendrit --> node_VDCCCa2TrkBautofosfo
+    node_VDCCCa2TrkBautofosfo --> node_CaMKIIPI3KAktmTORC1
+    node_CaMKIIPI3KAktmTORC1 --> node_CREBTranslacePSD95Gl
+    node_CREBTranslacePSD95Gl --> node_GenovaSYNAPTOGENEZE6
+    node_GenovaSYNAPTOGENEZE6 --> node_exprese
+    node_exprese --> node_ANTIDEPRESIVNIUCINEK
+
+    click node_Paradoxniglutamatovy "/glossary/glutamate/" "Paradoxni glutamatovy burst dezinhibice"
+    click node_AMPAreceptoraktivace "/receptors/ampa/" "AMPA receptor aktivace postsynapticka"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KETAMIN -> NMDA BLOKADA (interneurony)
@@ -307,6 +468,8 @@ exprese        |
                v
          ANTIDEPRESIVNI UCINEK (24-72 h)
 ```
+
+</details>
 
 Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- mTOR konvergence, BDNF-TrkB
 Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NMDA modulacni mista, GluN2B selektivita

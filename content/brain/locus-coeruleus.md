@@ -31,6 +31,29 @@ LC je klicovy pro regulaci **bdelosti**, **pozornosti**, **stresove odpovedi** a
 
 ### Anatomicke vztahy
 
+```mermaid
+flowchart TD
+    node_LOCUSCOERULEUSHORIZO["LOCUS COERULEUS - HORIZONTALNI REZ PONSEM"]
+    node_IVkomora["IV. komora"]
+    node_LOCUSLOCUS["LOCUS                     LOCUS"]
+    node_COERULEUSCOERULEUS["COERULEUS               COERULEUS"]
+    node_levypravy["levy                  pravy"]
+    node_modremodre["modre                  modre"]
+    node_zbarvenizbarveni["zbarveni               zbarveni"]
+    node_Tegmentumpontu["Tegmentum pontu"]
+
+    node_LOCUSCOERULEUSHORIZO --> node_IVkomora
+    node_IVkomora --> node_LOCUSLOCUS
+    node_LOCUSLOCUS --> node_COERULEUSCOERULEUS
+    node_COERULEUSCOERULEUS --> node_levypravy
+    node_levypravy --> node_modremodre
+    node_modremodre --> node_zbarvenizbarveni
+    node_zbarvenizbarveni --> node_Tegmentumpontu
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 LOCUS COERULEUS - HORIZONTALNI REZ PONSEM
 
@@ -53,6 +76,8 @@ LOCUS COERULEUS - HORIZONTALNI REZ PONSEM
                         │
               Tegmentum pontu
 ```
+
+</details>
 
 ### Neuromelanin
 
@@ -82,6 +107,43 @@ LC ma charakteristickou **modrou barvu** diky neuromelaninu:
 
 ### Synteza noradrenalinu
 
+```mermaid
+flowchart TD
+    node_SYNTEZANORADRENALINU["SYNTEZA NORADRENALINU V LC"]
+    node_Tyrosinzpotravy["Tyrosin z potravy"]
+    node_THtyrosinhydroxylaza["TH tyrosin hydroxylaza"]
+    node_Ratelimitingkrok["Rate-limiting krok"]
+    node_Kofaktortetrahydrobi["Kofaktor: tetrahydrobiopterin"]
+    node_LDOPA["L-DOPA"]
+    node_AADCaromatickaminoky["AADC aromatická aminokyselina dekarboxyláza"]
+    node_Kofaktorpyridoxalfos["Kofaktor: pyridoxal fosfát B6"]
+    node_Dopamin["Dopamin"]
+    node_DBHdopaminbetahydrox["DBH dopamin beta-hydroxylaza"]
+    node_Vsynaptickchvezikulc["V synaptických vezikulách"]
+    node_KofaktoraskorbtCu2["Kofaktor: askorbát, Cu2+"]
+    node_NORADRENALINNE["NORADRENALIN NE"]
+    node_UskladnniVMAT2["Uskladněni VMAT2"]
+    node_Uvolnnexocytza["Uvolnění exocytóza"]
+
+    node_SYNTEZANORADRENALINU --> node_Tyrosinzpotravy
+    node_Tyrosinzpotravy --> node_THtyrosinhydroxylaza
+    node_THtyrosinhydroxylaza --> node_Ratelimitingkrok
+    node_Ratelimitingkrok --> node_Kofaktortetrahydrobi
+    node_Kofaktortetrahydrobi --> node_LDOPA
+    node_LDOPA --> node_AADCaromatickaminoky
+    node_AADCaromatickaminoky --> node_Kofaktorpyridoxalfos
+    node_Kofaktorpyridoxalfos --> node_Dopamin
+    node_Dopamin --> node_DBHdopaminbetahydrox
+    node_DBHdopaminbetahydrox --> node_Vsynaptickchvezikulc
+    node_Vsynaptickchvezikulc --> node_KofaktoraskorbtCu2
+    node_KofaktoraskorbtCu2 --> node_NORADRENALINNE
+    node_NORADRENALINNE --> node_UskladnniVMAT2
+    node_UskladnniVMAT2 --> node_Uvolnnexocytza
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SYNTEZA NORADRENALINU V LC
 
@@ -109,6 +171,8 @@ NORADRENALIN (NE)
         └─→ Uvolnění (exocytóza)
 ```
 
+</details>
+
 ### Klicove enzymy
 
 | Enzym | Gen | Funkce | Regulace |
@@ -125,6 +189,37 @@ NORADRENALIN (NE)
 ### Vzestupné projekce
 
 LC inervuje prakticky cely mozek:
+
+```mermaid
+flowchart TD
+    node_PROJEKCELOCUSCOERULE["PROJEKCE LOCUS COERULEUS"]
+    node_CELNEOKORTEX["CELÝ NEOKORTEX"]
+    node_PFCparietalnivizualn["PFC, parietalni, vizualni..."]
+    node_ThalamusLimbickMozee["Thalamus           Limbický            Mozeček"]
+    node_systm["systém"]
+    node_HypothalamusHippocam["Hypothalamus        Hippocampus"]
+    node_Amygdala["Amygdala"]
+    node_LOCUS["LOCUS"]
+    node_COERULEUS["COERULEUS"]
+    node_MICHA["MICHA"]
+
+    node_PROJEKCELOCUSCOERULE --> node_CELNEOKORTEX
+    node_CELNEOKORTEX --> node_PFCparietalnivizualn
+    node_PFCparietalnivizualn --> node_ThalamusLimbickMozee
+    node_ThalamusLimbickMozee --> node_systm
+    node_systm --> node_HypothalamusHippocam
+    node_HypothalamusHippocam --> node_Amygdala
+    node_Amygdala --> node_LOCUS
+    node_LOCUS --> node_COERULEUS
+    node_COERULEUS --> node_MICHA
+
+    click node_ThalamusLimbickMozee "/brain/thalamus/" "Thalamus           Limbický            Mozeček"
+    click node_HypothalamusHippocam "/brain/hippocampus/" "Hypothalamus        Hippocampus"
+    click node_Amygdala "/brain/amygdala/" "Amygdala"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PROJEKCE LOCUS COERULEUS
@@ -163,6 +258,8 @@ PROJEKCE LOCUS COERULEUS
                              └─────────────┘
 ```
 
+</details>
+
 ### Specificke projekce
 
 | Cil | Funkce | Adrenoreceptor |
@@ -181,6 +278,31 @@ PROJEKCE LOCUS COERULEUS
 ### Arousal a bdelost
 
 LC je klicovy pro regulaci stavu bdelosti:
+
+```mermaid
+flowchart TD
+    node_LCAKTIVITAASTAVYVEDO["LC AKTIVITA A STAVY VEDOMI"]
+    node_LCfiringrate["LC firing rate"]
+    node_VysokStress["Vysoká                      ████████████  Stress"]
+    node_4c9d0919["████"]
+    node_StednAktivnibdelost["Střední            ████                   Aktivni bdelost"]
+    node_NzkRelaxovanabdelost["Nízká     ████                            Relaxovana bdelost"]
+    node_MinimlnNREMspnek["Minimální█                                 NREM spánek"]
+    node_NulovREMspnek["Nulová  ░                                 REM spánek"]
+    node_Behaviorlnsta["Behaviorální sta"]
+
+    node_LCAKTIVITAASTAVYVEDO --> node_LCfiringrate
+    node_LCfiringrate --> node_VysokStress
+    node_VysokStress --> node_4c9d0919
+    node_4c9d0919 --> node_StednAktivnibdelost
+    node_StednAktivnibdelost --> node_NzkRelaxovanabdelost
+    node_NzkRelaxovanabdelost --> node_MinimlnNREMspnek
+    node_MinimlnNREMspnek --> node_NulovREMspnek
+    node_NulovREMspnek --> node_Behaviorlnsta
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 LC AKTIVITA A STAVY VEDOMI
@@ -203,9 +325,46 @@ Nulová  ────┤░                                 REM spánek
             └────────────────────────────────→ Behaviorální stav
 ```
 
+</details>
+
 ### Adaptive Gain Theory
 
 LC moduluje "gain" kortikalni odpovedi:
+
+```mermaid
+flowchart TD
+    node_ADAPTIVEGAINTHEORY["ADAPTIVE GAIN THEORY"]
+    node_TONICMODEnizkabdelos["TONIC MODE nizka bdelost:"]
+    node_PHASICMODEfokusovana["PHASIC MODE fokusovana pozornost:"]
+    node_Vkon["Výkon"]
+    node_fddd21b9["*****"]
+    node_85b44d28["**     **"]
+    node_Optimal["Optimal **"]
+    node_95d58a1b["*           *"]
+    node_e426b9c9["*             *"]
+    node_59329965["*               *"]
+    node_7f99cb67["*                 *"]
+    node_LCaktivita["LC aktivita"]
+    node_NzkStednVysok["Nízká   Střední   Vysoká"]
+    node_ospalostalertstress["ospalost alert stress"]
+
+    node_ADAPTIVEGAINTHEORY --> node_TONICMODEnizkabdelos
+    node_TONICMODEnizkabdelos --> node_PHASICMODEfokusovana
+    node_PHASICMODEfokusovana --> node_Vkon
+    node_Vkon --> node_fddd21b9
+    node_fddd21b9 --> node_85b44d28
+    node_85b44d28 --> node_Optimal
+    node_Optimal --> node_95d58a1b
+    node_95d58a1b --> node_e426b9c9
+    node_e426b9c9 --> node_59329965
+    node_59329965 --> node_7f99cb67
+    node_7f99cb67 --> node_LCaktivita
+    node_LCaktivita --> node_NzkStednVysok
+    node_NzkStednVysok --> node_ospalostalertstress
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ADAPTIVE GAIN THEORY
@@ -238,6 +397,8 @@ Optimal ──────────────│────*────�
 = Obrácená U-křivka (Yerkes-Dodson)
 ```
 
+</details>
+
 ### Pozornost a kognice
 
 | Funkce | Mechanismus | Receptor |
@@ -249,6 +410,41 @@ Optimal ──────────────│────*────�
 | **Memory consolidation** | Hippocampal NE | Beta |
 
 ### Stresova odpoved
+
+```mermaid
+flowchart TD
+    node_LCASTRESOVAODPOVED["LC A STRESOVA ODPOVED"]
+    node_STRESOR["STRESOR"]
+    node_AmygdalaCRFLCaktivac["Amygdala CRF  LC aktivace"]
+    node_Noradrenalinrelease["Noradrenalin release"]
+    node_HPAosa["HPA osa"]
+    node_Kortexarousal["Kortex arousal"]
+    node_Amygdalastrach["Amygdala strach"]
+    node_Hippocampuspamet["Hippocampus pamet"]
+    node_Kortizol["Kortizol"]
+    node_Pozitivnizpetnavazba["Pozitivni zpetna vazba:"]
+    node_StresCRFLCNEzvysenav["Stres  CRF  LC  NE  zvysena vigilance  dalsi LC aktivace"]
+    node_UPTSDHyperaktivniLCz["U PTSD: Hyperaktivni LC, zvysena bazalni NE"]
+
+    node_LCASTRESOVAODPOVED --> node_STRESOR
+    node_STRESOR --> node_AmygdalaCRFLCaktivac
+    node_AmygdalaCRFLCaktivac --> node_Noradrenalinrelease
+    node_Noradrenalinrelease --> node_HPAosa
+    node_HPAosa --> node_Kortexarousal
+    node_Kortexarousal --> node_Amygdalastrach
+    node_Amygdalastrach --> node_Hippocampuspamet
+    node_Hippocampuspamet --> node_Kortizol
+    node_Kortizol --> node_Pozitivnizpetnavazba
+    node_Pozitivnizpetnavazba --> node_StresCRFLCNEzvysenav
+    node_StresCRFLCNEzvysenav --> node_UPTSDHyperaktivniLCz
+
+    click node_AmygdalaCRFLCaktivac "/brain/amygdala/" "Amygdala CRF  LC aktivace"
+    click node_Amygdalastrach "/brain/amygdala/" "Amygdala strach"
+    click node_Hippocampuspamet "/brain/hippocampus/" "Hippocampus pamet"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 LC A STRESOVA ODPOVED
@@ -272,6 +468,8 @@ Stres → CRF → LC → NE → zvysena vigilance → dalsi LC aktivace
 U PTSD: Hyperaktivni LC, zvysena bazalni NE
 ```
 
+</details>
+
 ---
 
 ## LC a psychedelika
@@ -285,6 +483,36 @@ U PTSD: Hyperaktivni LC, zvysena bazalni NE
 | **Interakce s raphe** | Vzajemna regulace |
 
 ### Mechanismus
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAALC["PSYCHEDELIKA A LC"]
+    node_PsychedelikumnaprLSD["Psychedelikum napr. LSD"]
+    node_5HT2Areceptorkortex["5-HT2A receptor kortex"]
+    node_KortikoLCprojekce["Kortiko-LC projekce"]
+    node_LCaktivacemodulace["LC aktivace/modulace"]
+    node_Zmenenyarousal["Zmeneny arousal"]
+    node_Zmenenapozornost["Zmenena pozornost"]
+    node_5HT2Cpmo["5-HT2C přímo?"]
+    node_LCmodulace["LC modulace"]
+    node_KontextNEsystempravd["Kontext: NE system pravdepodobne prispiva k:"]
+
+    node_PSYCHEDELIKAALC --> node_PsychedelikumnaprLSD
+    node_PsychedelikumnaprLSD --> node_5HT2Areceptorkortex
+    node_5HT2Areceptorkortex --> node_KortikoLCprojekce
+    node_KortikoLCprojekce --> node_LCaktivacemodulace
+    node_LCaktivacemodulace --> node_Zmenenyarousal
+    node_Zmenenyarousal --> node_Zmenenapozornost
+    node_Zmenenapozornost --> node_5HT2Cpmo
+    node_5HT2Cpmo --> node_LCmodulace
+    node_LCmodulace --> node_KontextNEsystempravd
+
+    click node_PsychedelikumnaprLSD "/alkaloids/lsd/" "Psychedelikum napr. LSD"
+    click node_5HT2Areceptorkortex "/receptors/5-ht2a/" "5-HT2A receptor kortex"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELIKA A LC
@@ -312,6 +540,8 @@ Kontext: NE system pravdepodobne prispiva k:
 - Emocni intenzite
 - Hypervigilanci
 ```
+
+</details>
 
 ### Psychedelika a noradrenergni system
 
@@ -344,6 +574,33 @@ Kontext: NE system pravdepodobne prispiva k:
 
 ### Alpha-2 autoreceptor
 
+```mermaid
+flowchart TD
+    node_ALPHA2AAUTORECEPTOR["ALPHA-2A AUTORECEPTOR"]
+    node_NEneuronLC["NE neuron LC:"]
+    node_Terminl["Terminál"]
+    node_Alpha2AAutoreceptor["Alpha-2A          Autoreceptor"]
+    node_presynaptick["presynaptický"]
+    node_Gioprotein["Gi/o protein"]
+    node_cAMPCa2influx["cAMP           Ca2+ influx"]
+    node_THaktivitaNErelease["TH aktivita    NE release"]
+    node_NEGATIVNZPTNVAZBA["NEGATIVNÍ ZPĚTNÁ VAZBA"]
+    node_Farmakologie["Farmakologie:"]
+
+    node_ALPHA2AAUTORECEPTOR --> node_NEneuronLC
+    node_NEneuronLC --> node_Terminl
+    node_Terminl --> node_Alpha2AAutoreceptor
+    node_Alpha2AAutoreceptor --> node_presynaptick
+    node_presynaptick --> node_Gioprotein
+    node_Gioprotein --> node_cAMPCa2influx
+    node_cAMPCa2influx --> node_THaktivitaNErelease
+    node_THaktivitaNErelease --> node_NEGATIVNZPTNVAZBA
+    node_NEGATIVNZPTNVAZBA --> node_Farmakologie
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ALPHA-2A AUTORECEPTOR
 
@@ -374,6 +631,8 @@ Farmakologie:
 - Agonista (clonidin, dexmedetomidin): sedace, analgezie
 - Antagonista (yohimbin): arousal, anxieta
 ```
+
+</details>
 
 ---
 

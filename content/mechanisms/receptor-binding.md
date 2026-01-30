@@ -71,6 +71,30 @@ Kd* = Kd radioligandu
 
 ### Interpretace Ki hodnot
 
+```mermaid
+flowchart TD
+    node_KinMKlasifikacePrakt["Ki nM     Klasifikace         Prakticky vyznam"]
+    node_1UltravysokaAktivniv["&lt;1          Ultra-vysoka        Aktivni v sub-ug davkach 25I-NBOMe"]
+    node_110VelmivysokaAktivn["1-10        Velmi vysoka        Aktivni v ug davkach LSD, psilocin"]
+    node_10100VysokaAktivnivm["10-100      Vysoka              Aktivni v mg davkach DMT"]
+    node_1001000StredniSekund["100-1000    Stredni             Sekundarni terapeuticky cil"]
+    node_100010000NizkaReleva["1000-10000  Nizka               Relevantni jen pri vysokych davkach"]
+    node_10000ZanedbatelnaKli["&gt;10000      Zanedbatelna        Klinicky irelevantni"]
+
+    node_KinMKlasifikacePrakt --> node_1UltravysokaAktivniv
+    node_1UltravysokaAktivniv --> node_110VelmivysokaAktivn
+    node_110VelmivysokaAktivn --> node_10100VysokaAktivnivm
+    node_10100VysokaAktivnivm --> node_1001000StredniSekund
+    node_1001000StredniSekund --> node_100010000NizkaReleva
+    node_100010000NizkaReleva --> node_10000ZanedbatelnaKli
+
+    click node_110VelmivysokaAktivn "/alkaloids/lsd/" "1-10        Velmi vysoka        Aktivni v ug davkach LSD, psilocin"
+    click node_10100VysokaAktivnivm "/alkaloids/dmt/" "10-100      Vysoka              Aktivni v mg davkach DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Ki (nM)     Klasifikace         Prakticky vyznam
 -----------------------------------------------------------------
@@ -82,6 +106,8 @@ Ki (nM)     Klasifikace         Prakticky vyznam
 >10000      Zanedbatelna        Klinicky irelevantni
 ```
 
+</details>
+
 ---
 
 ## Vazebna kinetika
@@ -89,6 +115,39 @@ Ki (nM)     Klasifikace         Prakticky vyznam
 ### Asociacni a disociacni rychlosti
 
 Kineticke parametry urcuji **dynamiku vazby** ligandu:
+
+```mermaid
+flowchart TD
+    node_CASOVYPRUBEHVAZBYaso["CASOVY PRUBEH VAZBY asociace:"]
+    node_Occupancy["Occupancy %"]
+    node_100["100 |                          _______________"]
+    node_280c5e17["__/"]
+    node_80["80 |                    __/"]
+    node_60["60 |              __/"]
+    node_40["40 |        __/"]
+    node_20["20 |  __/"]
+    node_6631afc9["_/"]
+    node_Cas["+----+----+----+----+----+----&gt;  Cas"]
+    node_0t12ln2kobs["0   t1/2                        = ln2/kobs"]
+    node_kobskonLkoff["kobs = konL + koff"]
+    node_t12asociaceln2kobs["t1/2 asociace = ln2 / kobs"]
+
+    node_CASOVYPRUBEHVAZBYaso --> node_Occupancy
+    node_Occupancy --> node_100
+    node_100 --> node_280c5e17
+    node_280c5e17 --> node_80
+    node_80 --> node_60
+    node_60 --> node_40
+    node_40 --> node_20
+    node_20 --> node_6631afc9
+    node_6631afc9 --> node_Cas
+    node_Cas --> node_0t12ln2kobs
+    node_0t12ln2kobs --> node_kobskonLkoff
+    node_kobskonLkoff --> node_t12asociaceln2kobs
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CASOVY PRUBEH VAZBY (asociace):
@@ -112,7 +171,65 @@ kobs = kon[L] + koff
 t1/2 asociace = ln(2) / kobs
 ```
 
+</details>
+
 ### Kinetika LSD vs serotonin na 5-HT2A
+
+```mermaid
+flowchart TD
+    node_REZIDENCNICAStau1kof["REZIDENCNI CAS tau = 1/koff"]
+    node_Serotonintau110msryc["Serotonin:     tau ~ 1-10 ms    rychla disociace"]
+    node_LSDtau1060minpomalad["LSD:           tau ~ 10-60 min  pomala disociace, 'lid'"]
+    node_Psilocintau15sstredn["Psilocin:      tau ~ 1-5 s     stredni"]
+    node_DMTtau052sstredni["DMT:           tau ~ 0.5-2 s   stredni"]
+    node_Meskalintau15sstredn["Meskalin:      tau ~ 1-5 s     stredni, ale nizka afinita"]
+    node_DISOCIACNIKRIVKY["DISOCIACNI KRIVKY:"]
+    node_Vazby["% Vazby"]
+    node_100["100 |\ \"]
+    node_DMTPsilocin["\ \ \__  DMT, Psilocin"]
+    node_80["80 | \ \    \___"]
+    node_aca8e91d["\ \       \____"]
+    node_60["60 |   \ \            \____"]
+    node_Serotonin["\ \                \____  Serotonin"]
+    node_40["40 |     \ \"]
+    node_17c2178b["\  \"]
+    node_20LSD["20 |       \   \_____________________  LSD"]
+    node_0["0 |         \___________________________"]
+    node_ab39b5f0["+----+----+----+----+----+----+----+--&gt;"]
+    node_01101001k10k100ks["0    1    10  100  1k   10k  100k  s"]
+    node_logscale["log scale"]
+
+    node_REZIDENCNICAStau1kof --> node_Serotonintau110msryc
+    node_Serotonintau110msryc --> node_LSDtau1060minpomalad
+    node_LSDtau1060minpomalad --> node_Psilocintau15sstredn
+    node_Psilocintau15sstredn --> node_DMTtau052sstredni
+    node_DMTtau052sstredni --> node_Meskalintau15sstredn
+    node_Meskalintau15sstredn --> node_DISOCIACNIKRIVKY
+    node_DISOCIACNIKRIVKY --> node_Vazby
+    node_Vazby --> node_100
+    node_100 --> node_DMTPsilocin
+    node_DMTPsilocin --> node_80
+    node_80 --> node_aca8e91d
+    node_aca8e91d --> node_60
+    node_60 --> node_Serotonin
+    node_Serotonin --> node_40
+    node_40 --> node_17c2178b
+    node_17c2178b --> node_20LSD
+    node_20LSD --> node_0
+    node_0 --> node_ab39b5f0
+    node_ab39b5f0 --> node_01101001k10k100ks
+    node_01101001k10k100ks --> node_logscale
+
+    click node_LSDtau1060minpomalad "/alkaloids/lsd/" "LSD:           tau ~ 10-60 min  pomala disociace, "lid""
+    click node_Psilocintau15sstredn "/alkaloids/psilocin/" "Psilocin:      tau ~ 1-5 s     stredni"
+    click node_DMTtau052sstredni "/alkaloids/dmt/" "DMT:           tau ~ 0.5-2 s   stredni"
+    click node_Meskalintau15sstredn "/alkaloids/mescaline/" "Meskalin:      tau ~ 1-5 s     stredni, ale nizka afinita"
+    click node_DMTPsilocin "/alkaloids/psilocin/" "\ \ \__  DMT, Psilocin"
+    click node_20LSD "/alkaloids/lsd/" "20 |       \   \_____________________  LSD"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 REZIDENCNI CAS (tau = 1/koff)
@@ -142,9 +259,52 @@ DISOCIACNI KRIVKY:
                                       (log scale)
 ```
 
+</details>
+
 ### Mechanismus prodlouzene vazby LSD ("Lid" hypoteza)
 
 Krystalova struktura (Wacker et al., Cell 2017) odhalila unikatni mechanismus:
+
+```mermaid
+flowchart TD
+    node_STRUKTURALNIZAKLADPR["STRUKTURALNI ZAKLAD PRODLOUZENE VAZBY LSD"]
+    node_1LSDvstupujedovazebn["1. LSD vstupuje do vazebneho mista receptoru"]
+    node_5HT2Areceptor["5-HT2A receptor"]
+    node_Extracelulsmycka2EL2["Extracelul. smycka 2 EL2"]
+    node_OTEVRENE["OTEVRENE"]
+    node_azebnemistoLSD["azebne misto   &lt;-- LSD"]
+    node_2PovazbeseEL2zavrena["2. Po vazbe se EL2 'zavre' nad LSD"]
+    node_EL2lid["EL2 'lid'"]
+    node_ZAVRENE["ZAVRENE"]
+    node_LSD["LSD"]
+    node_uveznno["uvezněno"]
+    node_Klicoveaminokyseliny["Klicove aminokyseliny 'lid':"]
+    node_MutaceL229A10xrychle["Mutace L229A: 10x rychlejsi disociace LSD"]
+
+    node_STRUKTURALNIZAKLADPR --> node_1LSDvstupujedovazebn
+    node_1LSDvstupujedovazebn --> node_5HT2Areceptor
+    node_5HT2Areceptor --> node_Extracelulsmycka2EL2
+    node_Extracelulsmycka2EL2 --> node_OTEVRENE
+    node_OTEVRENE --> node_azebnemistoLSD
+    node_azebnemistoLSD --> node_2PovazbeseEL2zavrena
+    node_2PovazbeseEL2zavrena --> node_EL2lid
+    node_EL2lid --> node_ZAVRENE
+    node_ZAVRENE --> node_LSD
+    node_LSD --> node_uveznno
+    node_uveznno --> node_Klicoveaminokyseliny
+    node_Klicoveaminokyseliny --> node_MutaceL229A10xrychle
+
+    click node_STRUKTURALNIZAKLADPR "/alkaloids/lsd/" "STRUKTURALNI ZAKLAD PRODLOUZENE VAZBY LSD"
+    click node_1LSDvstupujedovazebn "/alkaloids/lsd/" "1. LSD vstupuje do vazebneho mista receptoru"
+    click node_5HT2Areceptor "/receptors/5-ht2a/" "5-HT2A receptor"
+    click node_azebnemistoLSD "/alkaloids/lsd/" "azebne misto   <-- LSD"
+    click node_2PovazbeseEL2zavrena "/alkaloids/lsd/" "2. Po vazbe se EL2 "zavre" nad LSD"
+    click node_LSD "/alkaloids/lsd/" "LSD"
+    click node_MutaceL229A10xrychle "/alkaloids/lsd/" "Mutace L229A: 10x rychlejsi disociace LSD"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 STRUKTURALNI ZAKLAD PRODLOUZENE VAZBY LSD
@@ -182,6 +342,8 @@ Klicove aminokyseliny "lid":
 Mutace L229A: 10x rychlejsi disociace LSD
 -> Potvrzuje "lid" mechanismus
 ```
+
+</details>
 
 ### Kvantitativni kineticke parametry
 
@@ -225,6 +387,31 @@ deltaG = -51.6 kJ/mol = -12.3 kcal/mol
 
 ### Entalpicke kontribuce (molekularni interakce)
 
+```mermaid
+flowchart TD
+    node_TYPYINTERAKCILIGAND5["TYPY INTERAKCI LIGAND-5-HT2A"]
+    node_InterakceEnergiekcal["Interakce                  Energie kcal/mol   Priklad"]
+    node_Salnabridgeiontova3a["Salna bridge iontova     -3 az -5             Protonov. amin - Asp155"]
+    node_Hbond1az35OHindolSer["H-bond                     -1 az -3             5-OH indol - Ser239"]
+    node_pipistacking1az2Indo["pi-pi stacking             -1 az -2             Indol - Phe339, Phe340"]
+    node_Hydrofobnikontakt05a["Hydrofobni kontakt         -0.5 az -1           Diethylamid - Trp336"]
+    node_VanderWaals01az05Obe["Van der Waals              -0.1 az -0.5         Obecne kontakty"]
+    node_Entropickedesolvatac["Entropicke desolvatace   -1 az -3             Uvolneni H2O z mista"]
+
+    node_TYPYINTERAKCILIGAND5 --> node_InterakceEnergiekcal
+    node_InterakceEnergiekcal --> node_Salnabridgeiontova3a
+    node_Salnabridgeiontova3a --> node_Hbond1az35OHindolSer
+    node_Hbond1az35OHindolSer --> node_pipistacking1az2Indo
+    node_pipistacking1az2Indo --> node_Hydrofobnikontakt05a
+    node_Hydrofobnikontakt05a --> node_VanderWaals01az05Obe
+    node_VanderWaals01az05Obe --> node_Entropickedesolvatac
+
+    click node_TYPYINTERAKCILIGAND5 "/receptors/5-ht2a/" "TYPY INTERAKCI LIGAND-5-HT2A"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPY INTERAKCI LIGAND-5-HT2A
 
@@ -237,6 +424,8 @@ Hydrofobni kontakt         -0.5 az -1           Diethylamid - Trp336
 Van der Waals              -0.1 az -0.5         Obecne kontakty
 Entropicke (desolvatace)   -1 az -3             Uvolneni H2O z mista
 ```
+
+</details>
 
 ### Vazebne misto 5-HT2A receptoru - klicove interakce
 
@@ -265,6 +454,67 @@ Pro 99% occupancy: [L] = 99 * Kd
 ```
 
 ### Casovy prubeh receptor occupancy
+
+```mermaid
+flowchart TD
+    node_PSILOCYBINPlazmatick["PSILOCYBIN: Plazmaticky profil a receptor occupancy"]
+    node_PlazmapsilocinngmL5H["Plazma psilocin ng/mL        5-HT2A occupancy %"]
+    node_6080["60  |    *                     80    |    *****"]
+    node_c38f3924["* *                          |   *     *"]
+    node_4060["40  |  *   *                   60    |  *       *"]
+    node_b344fdc2["*     *                        | *         **"]
+    node_2040["20  |*       **                40    |*            ***"]
+    node_13aebd70["***                   |                ****"]
+    node_00["0  |             ****          0    |                    *****"]
+    node_bd92bfe3["+----+----+----+----+            +----+----+----+----+----&gt;"]
+    node_01234h01234h["0    1    2    3    4   h        0    1    2    3    4   h"]
+    node_Tmax1hT1225hPeak70tr["Tmax=1h, T1/2=2.5h              Peak ~70%, trvani 4-6h"]
+    node_LSDPlazmatickyprofil["LSD: Plazmaticky profil a receptor occupancy"]
+    node_PlazmaLSDngmL5HT2Aoc["Plazma LSD ng/mL            5-HT2A occupancy %"]
+    node_380["3   |     *                    80    |    ****************"]
+    node_283ba078["* *                         |   *                ***"]
+    node_260["2   |   *   **                 60    |  *                    **"]
+    node_121d2598["*      ***                    | *                       *"]
+    node_140["1   | *          *****         40    |*                         **"]
+    node_13f0972c["*                ****           |                            **"]
+    node_00["0  |                     *** 0     |                              ***"]
+    node_5be565e8["+----+----+----+----+----+      +----+----+----+----+----+----+-&gt;"]
+    node_0246810h024681012h["0    2    4    6    8   10 h    0    2    4    6    8   10  12 h"]
+    node_Tmax2hT1235hPeak75tr["Tmax=2h, T1/2=3.5h             Peak ~75%, trvani 8-12h"]
+    node_receptortrapping["receptor trapping!"]
+
+    node_PSILOCYBINPlazmatick --> node_PlazmapsilocinngmL5H
+    node_PlazmapsilocinngmL5H --> node_6080
+    node_6080 --> node_c38f3924
+    node_c38f3924 --> node_4060
+    node_4060 --> node_b344fdc2
+    node_b344fdc2 --> node_2040
+    node_2040 --> node_13aebd70
+    node_13aebd70 --> node_00
+    node_00 --> node_bd92bfe3
+    node_bd92bfe3 --> node_01234h01234h
+    node_01234h01234h --> node_Tmax1hT1225hPeak70tr
+    node_Tmax1hT1225hPeak70tr --> node_LSDPlazmatickyprofil
+    node_LSDPlazmatickyprofil --> node_PlazmaLSDngmL5HT2Aoc
+    node_PlazmaLSDngmL5HT2Aoc --> node_380
+    node_380 --> node_283ba078
+    node_283ba078 --> node_260
+    node_260 --> node_121d2598
+    node_121d2598 --> node_140
+    node_140 --> node_13f0972c
+    node_13f0972c --> node_00
+    node_00 --> node_5be565e8
+    node_5be565e8 --> node_0246810h024681012h
+    node_0246810h024681012h --> node_Tmax2hT1235hPeak75tr
+    node_Tmax2hT1235hPeak75tr --> node_receptortrapping
+
+    click node_PlazmapsilocinngmL5H "/alkaloids/psilocin/" "Plazma psilocin ng/mL        5-HT2A occupancy %"
+    click node_LSDPlazmatickyprofil "/alkaloids/lsd/" "LSD: Plazmaticky profil a receptor occupancy"
+    click node_PlazmaLSDngmL5HT2Aoc "/alkaloids/lsd/" "Plazma LSD ng/mL            5-HT2A occupancy %"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSILOCYBIN: Plazmaticky profil a receptor occupancy
@@ -299,6 +549,8 @@ Plazma LSD (ng/mL)            5-HT2A occupancy (%)
                                     (receptor trapping!)
 ```
 
+</details>
+
 ### PET receptor occupancy studie
 
 | Latka | Davka | Peak occupancy (%) | Cas peaku | Reference |
@@ -313,6 +565,49 @@ Plazma LSD (ng/mL)            5-HT2A occupancy (%)
 ## Struktura-aktivitni vztahy (SAR)
 
 ### Tryptaminovy scaffold: kriticke modifikace
+
+```mermaid
+flowchart TD
+    node_VLIVSUBSTITUCINAAFIN["VLIV SUBSTITUCI NA AFINITU K 5-HT2A"]
+    node_ZakladnitryptaminKi1["Zakladni tryptamin Ki &gt; 10000 nM - neaktivni"]
+    node_NNdimethylaceDMTKi75["+-- N,N-dimethylace: DMT Ki = 75-130 nM"]
+    node_4OHPsilocinKi615nM10["+-- 4-OH: Psilocin Ki = 6-15 nM +10x"]
+    node_4OPO3H2Psilocybinpro["+-- 4-OPO3H2: Psilocybin prodrug"]
+    node_5MeO5MeODMTKi310nM20["+-- 5-MeO: 5-MeO-DMT Ki = 3-10 nM +20x"]
+    node_5OHBufoteninKi300nM1["+-- 5-OH: Bufotenin Ki = 300 nM ~1x"]
+    node_NmethylaceNMTKi5000n["+-- N-methylace: NMT Ki &gt; 5000 nM - nizka"]
+    node_ZadnaNalkylaceTrypta["+-- Zadna N-alkylace: Tryptamin neaktivni"]
+    node_PRAVIDLA["PRAVIDLA:"]
+    node_1NNdimethyljeminimal["1. N,N-dimethyl je minimalni pro plnou aktivitu"]
+    node_24substituceOHOPO3zv["2. 4-substituce OH, OPO3 zvysuje 5-HT2A afinitu 5-20x"]
+    node_35methoxyzvysujeafin["3. 5-methoxy zvysuje afinitu 10-40x"]
+    node_45hydroxysnizujeBBBp["4. 5-hydroxy snizuje BBB penetraci"]
+    node_54fosforylacestabiln["5. 4-fosforylace = stabilni prodrug oralni dostupnost"]
+
+    node_VLIVSUBSTITUCINAAFIN --> node_ZakladnitryptaminKi1
+    node_ZakladnitryptaminKi1 --> node_NNdimethylaceDMTKi75
+    node_NNdimethylaceDMTKi75 --> node_4OHPsilocinKi615nM10
+    node_4OHPsilocinKi615nM10 --> node_4OPO3H2Psilocybinpro
+    node_4OPO3H2Psilocybinpro --> node_5MeO5MeODMTKi310nM20
+    node_5MeO5MeODMTKi310nM20 --> node_5OHBufoteninKi300nM1
+    node_5OHBufoteninKi300nM1 --> node_NmethylaceNMTKi5000n
+    node_NmethylaceNMTKi5000n --> node_ZadnaNalkylaceTrypta
+    node_ZadnaNalkylaceTrypta --> node_PRAVIDLA
+    node_PRAVIDLA --> node_1NNdimethyljeminimal
+    node_1NNdimethyljeminimal --> node_24substituceOHOPO3zv
+    node_24substituceOHOPO3zv --> node_35methoxyzvysujeafin
+    node_35methoxyzvysujeafin --> node_45hydroxysnizujeBBBp
+    node_45hydroxysnizujeBBBp --> node_54fosforylacestabiln
+
+    click node_VLIVSUBSTITUCINAAFIN "/receptors/5-ht2a/" "VLIV SUBSTITUCI NA AFINITU K 5-HT2A"
+    click node_NNdimethylaceDMTKi75 "/alkaloids/dmt/" "+-- N,N-dimethylace: DMT Ki = 75-130 nM"
+    click node_4OHPsilocinKi615nM10 "/alkaloids/psilocin/" "+-- 4-OH: Psilocin Ki = 6-15 nM +10x"
+    click node_5MeO5MeODMTKi310nM20 "/alkaloids/dmt/" "+-- 5-MeO: 5-MeO-DMT Ki = 3-10 nM +20x"
+    click node_24substituceOHOPO3zv "/receptors/5-ht2a/" "2. 4-substituce OH, OPO3 zvysuje 5-HT2A afinitu 5-20x"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 VLIV SUBSTITUCI NA AFINITU K 5-HT2A
@@ -340,6 +635,8 @@ PRAVIDLA:
 4. 5-hydroxy snizuje BBB penetraci
 5. 4-fosforylace = stabilni prodrug (oralni dostupnost)
 ```
+
+</details>
 
 ### Selektivita determinanty
 
@@ -410,6 +707,70 @@ n < 1: Negativni kooperativita (plochejsi krivka)
 
 ### Kineticke modely tolerance
 
+```mermaid
+flowchart TD
+    node_CASOVYPRUBEHDESENZIT["CASOVY PRUBEH DESENZITIZACE 5-HT2A"]
+    node_Receptorodpovedbasel["Receptor odpoved % baseline"]
+    node_100["100 |*"]
+    node_80["80 |  *"]
+    node_514faf5a["**"]
+    node_60["60 |     ***"]
+    node_45583147["****"]
+    node_40["40 |            ****"]
+    node_fddd21b9["*****"]
+    node_20["20 |                     *****"]
+    node_3fc26dc9["**********"]
+    node_9822c9d2["+----+----+----+----+----+----+----&gt;"]
+    node_005124824hodiny["0   0.5   1    2    4    8   24  hodiny"]
+    node_Faze["Faze:"]
+    node_1FosforylaceGRKminut["1. Fosforylace GRK: minuty"]
+    node_2betaarrestinvazba10["2. beta-arrestin vazba: 10-30 min"]
+    node_3Internalizace3060mi["3. Internalizace: 30-60 min"]
+    node_4Degradacedownregula["4. Degradace/downregulace: hodiny-dny"]
+    node_OBNOVAPOJEDNEDAVCE["OBNOVA PO JEDNE DAVCE:"]
+    node_Receptorexpresebasel["Receptor exprese % baseline"]
+    node_100["100 |                               ********"]
+    node_80["80 |                     ****"]
+    node_60["60 |             ****"]
+    node_40["40 |     ****"]
+    node_20["20 |**"]
+    node_01235714dny["0    1    2    3    5    7   14  dny"]
+    node_Plnaobnova714dni5HT2["Plna obnova: 7-14 dni 5-HT2A"]
+
+    node_CASOVYPRUBEHDESENZIT --> node_Receptorodpovedbasel
+    node_Receptorodpovedbasel --> node_100
+    node_100 --> node_80
+    node_80 --> node_514faf5a
+    node_514faf5a --> node_60
+    node_60 --> node_45583147
+    node_45583147 --> node_40
+    node_40 --> node_fddd21b9
+    node_fddd21b9 --> node_20
+    node_20 --> node_3fc26dc9
+    node_3fc26dc9 --> node_9822c9d2
+    node_9822c9d2 --> node_005124824hodiny
+    node_005124824hodiny --> node_Faze
+    node_Faze --> node_1FosforylaceGRKminut
+    node_1FosforylaceGRKminut --> node_2betaarrestinvazba10
+    node_2betaarrestinvazba10 --> node_3Internalizace3060mi
+    node_3Internalizace3060mi --> node_4Degradacedownregula
+    node_4Degradacedownregula --> node_OBNOVAPOJEDNEDAVCE
+    node_OBNOVAPOJEDNEDAVCE --> node_Receptorexpresebasel
+    node_Receptorexpresebasel --> node_100
+    node_100 --> node_80
+    node_80 --> node_60
+    node_60 --> node_40
+    node_40 --> node_20
+    node_20 --> node_01235714dny
+    node_01235714dny --> node_Plnaobnova714dni5HT2
+
+    click node_CASOVYPRUBEHDESENZIT "/receptors/5-ht2a/" "CASOVY PRUBEH DESENZITIZACE 5-HT2A"
+    click node_Plnaobnova714dni5HT2 "/receptors/5-ht2a/" "Plna obnova: 7-14 dni 5-HT2A"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 CASOVY PRUBEH DESENZITIZACE 5-HT2A
 
@@ -452,6 +813,8 @@ Receptor exprese (% baseline)
 
 Plna obnova: 7-14 dni (5-HT2A)
 ```
+
+</details>
 
 ---
 

@@ -87,6 +87,33 @@ CNS (TPH2): ~5% celkoveho serotoninu
 
 #### Reakce
 
+```mermaid
+flowchart TD
+    node_COOHCOOH["COOH                              COOH"]
+    node_H2NCHH2NCH["H2N---C---H                       H2N---C---H"]
+    node_TPH["TPH"]
+    node_CH2CH2["CH2        &gt;            CH2"]
+    node_BH4O2Fe2["BH4, O2, Fe2+"]
+    node_Indol5OHIndol["Indol                           5-OH-Indol"]
+    node_NHHO5NH["NH                              HO-5  NH"]
+    node_LTRYPTOFAN5HYDROXYTR["L-TRYPTOFAN                    5-HYDROXYTRYPTOFAN 5-HTP"]
+    node_M20423M22023["M: 204,23                       M: 220,23"]
+
+    node_COOHCOOH --> node_H2NCHH2NCH
+    node_H2NCHH2NCH --> node_TPH
+    node_TPH --> node_CH2CH2
+    node_CH2CH2 --> node_BH4O2Fe2
+    node_BH4O2Fe2 --> node_Indol5OHIndol
+    node_Indol5OHIndol --> node_NHHO5NH
+    node_NHHO5NH --> node_LTRYPTOFAN5HYDROXYTR
+    node_LTRYPTOFAN5HYDROXYTR --> node_M20423M22023
+
+    click node_LTRYPTOFAN5HYDROXYTR "/supplements/5-htp/" "L-TRYPTOFAN                    5-HYDROXYTRYPTOFAN 5-HTP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
         COOH                              COOH
          |                                 |
@@ -101,6 +128,8 @@ CNS (TPH2): ~5% celkoveho serotoninu
 L-TRYPTOFAN                    5-HYDROXYTRYPTOFAN (5-HTP)
   (M: 204,23)                       (M: 220,23)
 ```
+
+</details>
 
 #### Mechanismus hydroxylace
 
@@ -144,6 +173,31 @@ L-Tryptofan + O2 + BH4 → 5-HTP + H2O + BH2
 
 #### Reakce
 
+```mermaid
+flowchart TD
+    node_COOH["COOH"]
+    node_H2NCHAADCH2NCH2["H2N---C---H              AADC              H2N---CH2"]
+    node_CH2PLPHCH2["CH2           PLP, H+            +          CH2"]
+    node_CO2["-CO2"]
+    node_5OHIndol5OHIndol["5-OH-Indol                              5-OH-Indol"]
+    node_NHNH["NH                                          NH"]
+    node_5HYDROXYTRYPTOFANSER["5-HYDROXYTRYPTOFAN                         SEROTONIN 5-HT"]
+    node_M22023M17622["M: 220,23                             M: 176,22"]
+
+    node_COOH --> node_H2NCHAADCH2NCH2
+    node_H2NCHAADCH2NCH2 --> node_CH2PLPHCH2
+    node_CH2PLPHCH2 --> node_CO2
+    node_CO2 --> node_5OHIndol5OHIndol
+    node_5OHIndol5OHIndol --> node_NHNH
+    node_NHNH --> node_5HYDROXYTRYPTOFANSER
+    node_5HYDROXYTRYPTOFANSER --> node_M22023M17622
+
+    click node_5HYDROXYTRYPTOFANSER "/glossary/serotonin/" "5-HYDROXYTRYPTOFAN                         SEROTONIN 5-HT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
         COOH
          |
@@ -158,6 +212,8 @@ L-Tryptofan + O2 + BH4 → 5-HTP + H2O + BH2
 5-HYDROXYTRYPTOFAN                         SEROTONIN (5-HT)
     (M: 220,23)                             (M: 176,22)
 ```
+
+</details>
 
 #### Substrátova specificita AADC
 
@@ -189,6 +245,37 @@ AADC je **nespecificky enzym** - katalyzuje dekarboxylaci mnoha aromatickych ami
 
 ### Limitace dostupnosti tryptofanu
 
+```mermaid
+flowchart TD
+    node_TRANSPORTNKOMPETICEN["TRANSPORTNÍ KOMPETICE NA BBB"]
+    node_KrevMozekBloodBrainB["Krev  Mozek Blood-Brain Barrier"]
+    node_LsystemLAT1transport["L-system LAT1 transporter:"]
+    node_VYSOKOPROTEINOVASTRA["VYSOKOPROTEINOVA STRAVA:"]
+    node_BCAAbranchedchainami["BCAA branched-chain amino acids"]
+    node_TryptofanLNAApomer["Tryptofan/LNAA pomer"]
+    node_Transporttryptofanud["Transport tryptofanu do mozku"]
+    node_Serotoninovasynteza["Serotoninova synteza"]
+    node_VYSOKOSACHARIDOVASTR["VYSOKOSACHARIDOVA STRAVA:"]
+    node_Inzulin["Inzulin"]
+    node_VychytavaniBCAAsvaly["Vychytavani BCAA svaly"]
+
+    node_TRANSPORTNKOMPETICEN --> node_KrevMozekBloodBrainB
+    node_KrevMozekBloodBrainB --> node_LsystemLAT1transport
+    node_LsystemLAT1transport --> node_VYSOKOPROTEINOVASTRA
+    node_VYSOKOPROTEINOVASTRA --> node_BCAAbranchedchainami
+    node_BCAAbranchedchainami --> node_TryptofanLNAApomer
+    node_TryptofanLNAApomer --> node_Transporttryptofanud
+    node_Transporttryptofanud --> node_Serotoninovasynteza
+    node_Serotoninovasynteza --> node_VYSOKOSACHARIDOVASTR
+    node_VYSOKOSACHARIDOVASTR --> node_Inzulin
+    node_Inzulin --> node_VychytavaniBCAAsvaly
+
+    click node_Serotoninovasynteza "/glossary/serotonin/" "Serotoninova synteza"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TRANSPORTNÍ KOMPETICE NA BBB
 
@@ -217,7 +304,46 @@ VYSOKOSACHARIDOVA STRAVA:
 ↑ Serotoninova synteza
 ```
 
+</details>
+
 ### Kynureninova draha - kompetice o tryptofan
+
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_25fb0bee["++"]
+    node_TPH5IDOTDO95["TPH 5%                            IDO/TDO 95%"]
+    node_5HTPNFORMYLKYNURENIN["5-HTP                               N-FORMYLKYNURENIN"]
+    node_SEROTONIN["SEROTONIN"]
+    node_KYNURENIN["KYNURENIN"]
+    node_a803ba62["+--------------------+--------------------+"]
+    node_KYNURENOVAKYS3HYDROX["KYNURENOVA KYS.                          3-HYDROXYKYNURENIN"]
+    node_neuroprotektivni["neuroprotektivni"]
+    node_QUINOLINOVAKYS["QUINOLINOVA KYS."]
+    node_NADneurotoxicka["NAD+                                  neurotoxicka"]
+    node_NAD["NAD+"]
+    node_ZAnetaktivujeIDO["ZAnet aktivuje IDO:"]
+
+    node_LTRYPTOFAN --> node_25fb0bee
+    node_25fb0bee --> node_TPH5IDOTDO95
+    node_TPH5IDOTDO95 --> node_5HTPNFORMYLKYNURENIN
+    node_5HTPNFORMYLKYNURENIN --> node_SEROTONIN
+    node_SEROTONIN --> node_KYNURENIN
+    node_KYNURENIN --> node_a803ba62
+    node_a803ba62 --> node_KYNURENOVAKYS3HYDROX
+    node_KYNURENOVAKYS3HYDROX --> node_neuroprotektivni
+    node_neuroprotektivni --> node_QUINOLINOVAKYS
+    node_QUINOLINOVAKYS --> node_NADneurotoxicka
+    node_NADneurotoxicka --> node_NAD
+    node_NAD --> node_ZAnetaktivujeIDO
+
+    click node_LTRYPTOFAN "/amino-acids/tryptophan/" "L-TRYPTOFAN"
+    click node_5HTPNFORMYLKYNURENIN "/supplements/5-htp/" "5-HTP                               N-FORMYLKYNURENIN"
+    click node_SEROTONIN "/glossary/serotonin/" "SEROTONIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 L-TRYPTOFAN
@@ -252,6 +378,8 @@ ZAnet aktivuje IDO:
 - Zvysena quinolinova kyselina (NMDA agonista)
 - "Inflammatory depression" hypoteza
 ```
+
+</details>
 
 ---
 

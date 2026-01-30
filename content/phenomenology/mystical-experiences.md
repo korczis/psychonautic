@@ -48,6 +48,35 @@ Historicky popisovane v nabozenských a spiritualnich tradicich vsech kultur, dn
 
 ### Oceánická bezhraničnost (Oceanic Boundlessness)
 
+```mermaid
+flowchart TD
+    node_OCEANICKABEZHRANICNO["OCEANICKA BEZHRANICNOST"]
+    node_NormalnivedomiOceani["Normalni vedomi               Oceanicka bezhranicnost"]
+    node_fc3e3546["+------------------+          +------------------+"]
+    node_EGO["===EGO==="]
+    node_d7ee762b["~ ~ ~ ~ ~"]
+    node_Hraniceself["Hranice self   |          |  ~ ~ ~ ~ ~ ~ ~"]
+    node_Rozpusteni["~ Rozpusteni ~ ~"]
+    node_SELFWORLDego["SELF | WORLD   |   ---&gt;   |  ~ ~ ego ~ ~ ~"]
+    node_6579de0c["~ ~ ~ ~ ~ ~"]
+    node_c8d272fc["~ ~ ~ ~"]
+    node_Charakteristiky["Charakteristiky:"]
+
+    node_OCEANICKABEZHRANICNO --> node_NormalnivedomiOceani
+    node_NormalnivedomiOceani --> node_fc3e3546
+    node_fc3e3546 --> node_EGO
+    node_EGO --> node_d7ee762b
+    node_d7ee762b --> node_Hraniceself
+    node_Hraniceself --> node_Rozpusteni
+    node_Rozpusteni --> node_SELFWORLDego
+    node_SELFWORLDego --> node_6579de0c
+    node_6579de0c --> node_c8d272fc
+    node_c8d272fc --> node_Charakteristiky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 OCEANICKA BEZHRANICNOST
 
@@ -70,6 +99,8 @@ Charakteristiky:
 - Transcendence
 - Pozitivni zmena vnimania
 ```
+
+</details>
 
 ### Ego disoluce (Ego Dissolution)
 
@@ -133,6 +164,47 @@ Charakteristiky:
 
 ### 5-HT2A receptor a mystické zážitky
 
+```mermaid
+flowchart TD
+    node_5HT2AAKTIVACEAMYSTIC["5-HT2A AKTIVACE A MYSTICKE ZAZITKY"]
+    node_PsilocybinLSDDMT["Psilocybin/LSD/DMT"]
+    node_5HT2Areceptor["5-HT2A receptor"]
+    node_pyramidalnineurony["pyramidalni neurony"]
+    node_0cb77c9d["+--------+--------+"]
+    node_KortikalniKlaustrum["Kortikalni         Klaustrum"]
+    node_dezintegraceinhibice["dezintegrace       inhibice"]
+    node_DMNdezintegraceCondu["DMN dezintegrace   'Conductor'"]
+    node_Entropiedysfunkce["Entropie          dysfunkce"]
+    node_PREDIKTIVNIMODEL["PREDIKTIVNI MODEL"]
+    node_NARUEN["NARUŠEN"]
+    node_Priorbeliefsoslabeny["Prior beliefs oslabeny"]
+    node_Bottomupzeslen["Bottom-up zesílen"]
+    node_EGODISOLUCE["EGO DISOLUCE"]
+    node_MYSTICKAZKUSENOST["MYSTICKA ZKUSENOST"]
+
+    node_5HT2AAKTIVACEAMYSTIC --> node_PsilocybinLSDDMT
+    node_PsilocybinLSDDMT --> node_5HT2Areceptor
+    node_5HT2Areceptor --> node_pyramidalnineurony
+    node_pyramidalnineurony --> node_0cb77c9d
+    node_0cb77c9d --> node_KortikalniKlaustrum
+    node_KortikalniKlaustrum --> node_dezintegraceinhibice
+    node_dezintegraceinhibice --> node_DMNdezintegraceCondu
+    node_DMNdezintegraceCondu --> node_Entropiedysfunkce
+    node_Entropiedysfunkce --> node_PREDIKTIVNIMODEL
+    node_PREDIKTIVNIMODEL --> node_NARUEN
+    node_NARUEN --> node_Priorbeliefsoslabeny
+    node_Priorbeliefsoslabeny --> node_Bottomupzeslen
+    node_Bottomupzeslen --> node_EGODISOLUCE
+    node_EGODISOLUCE --> node_MYSTICKAZKUSENOST
+
+    click node_PsilocybinLSDDMT "/alkaloids/psilocybin/" "Psilocybin/LSD/DMT"
+    click node_5HT2Areceptor "/receptors/5-ht2a/" "5-HT2A receptor"
+    click node_DMNdezintegraceCondu "/circuits/dmn/" "DMN dezintegrace   "Conductor""
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT2A AKTIVACE A MYSTICKE ZAZITKY
 
@@ -166,6 +238,8 @@ Charakteristiky:
         EGO DISOLUCE
         MYSTICKA ZKUSENOST
 ```
+
+</details>
 
 ### Default Mode Network (DMN)
 
@@ -247,6 +321,47 @@ Meta-analyticka data: r = 0.4-0.6
 
 ### Spektrum zazitku
 
+```mermaid
+flowchart TD
+    node_SPEKTRUMPSYCHEDELICK["SPEKTRUM PSYCHEDELICKYCH ZAZITKU"]
+    node_PozitivnipolNegativn["Pozitivni pol                              Negativni pol"]
+    node_c58d3610["+---------------+                          +---------------+"]
+    node_OCENICKANXIOZNIEGO["OCEÁNICKÁ     |                          | ANXIOZNI EGO"]
+    node_BEZHRANICNOSTDISOLUC["BEZHRANICNOST |                          | DISOLUCE"]
+    node_ExtazePanika["- Extaze      |                          | - Panika"]
+    node_JednotaZtrata["- Jednota     |                          | - Ztrata"]
+    node_Laskakontroly["- Laska       |                          |   kontroly"]
+    node_KlidTerror["- Klid        |                          | - Terror"]
+    node_72a19e7d["+-------+-------+                          +-------+-------+"]
+    node_c9470ff3["+--------------+"]
+    node_INTEGRATION["+---------&gt;| INTEGRATION  |&lt;---------------+"]
+    node_Terapeut["Terapeut"]
+    node_Support["Support"]
+    node_Setsetting["Set/setting"]
+    node_TERAPEUTICKY["TERAPEUTICKY"]
+    node_OUTCOME["OUTCOME"]
+
+    node_SPEKTRUMPSYCHEDELICK --> node_PozitivnipolNegativn
+    node_PozitivnipolNegativn --> node_c58d3610
+    node_c58d3610 --> node_OCENICKANXIOZNIEGO
+    node_OCENICKANXIOZNIEGO --> node_BEZHRANICNOSTDISOLUC
+    node_BEZHRANICNOSTDISOLUC --> node_ExtazePanika
+    node_ExtazePanika --> node_JednotaZtrata
+    node_JednotaZtrata --> node_Laskakontroly
+    node_Laskakontroly --> node_KlidTerror
+    node_KlidTerror --> node_72a19e7d
+    node_72a19e7d --> node_c9470ff3
+    node_c9470ff3 --> node_INTEGRATION
+    node_INTEGRATION --> node_Terapeut
+    node_Terapeut --> node_Support
+    node_Support --> node_Setsetting
+    node_Setsetting --> node_TERAPEUTICKY
+    node_TERAPEUTICKY --> node_OUTCOME
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SPEKTRUM PSYCHEDELICKYCH ZAZITKU
 
@@ -275,6 +390,8 @@ Pozitivni pol                              Negativni pol
                    OUTCOME
 ```
 
+</details>
+
 ---
 
 ## Set and setting
@@ -292,6 +409,57 @@ Pozitivni pol                              Negativni pol
 | **Dávka** | Dostatecne vysoka pro mystiku |
 
 ### Doporuceni protokolu
+
+```mermaid
+flowchart TD
+    node_PROTOKOLOPTIMALIZUJI["PROTOKOL OPTIMALIZUJICI MYSTICKE ZAZITKY"]
+    node_PREDSEZENM["PRED SEZENÍM:"]
+    node_20a73e10["+-----------------------------------+"]
+    node_1Psychologickyscreen["1. Psychologicky screening"]
+    node_2Budovaniterapeutick["2. Budovani terapeutickeho vztahu"]
+    node_3Psychoedukaceozazit["3. Psychoedukace o zazitku"]
+    node_4Formulaceintence["4. Formulace intence"]
+    node_5Breathingmeditation["5. Breathing/meditation training"]
+    node_BEHEMSEZEN["BEHEM SEZENÍ:"]
+    node_1Klidneestetickprost["1. Klidne, estetické prostredi"]
+    node_2Kvasetkyshubou["2. Kvasetky s hubou"]
+    node_3Kvalitnihudba["3. Kvalitni hudba"]
+    node_4Minimalniverbalniin["4. Minimalni verbalni intervence"]
+    node_5Trustletgobeopen["5. 'Trust, let go, be open'"]
+    node_6Kontinulnterapeutic["6. Kontinuální terapeutická"]
+    node_ptomnost["přítomnost"]
+    node_POSEZEN["PO SEZENÍ:"]
+    node_1Imeditndebriefing["1. Imediátní debriefing"]
+    node_2Integracnisezeni14x["2. Integracni sezeni 1-4x"]
+    node_3Journalingumeni["3. Journaling, umeni"]
+    node_4Komunitapodpora["4. Komunita/podpora"]
+    node_5Implementaceinsight["5. Implementace insights"]
+
+    node_PROTOKOLOPTIMALIZUJI --> node_PREDSEZENM
+    node_PREDSEZENM --> node_20a73e10
+    node_20a73e10 --> node_1Psychologickyscreen
+    node_1Psychologickyscreen --> node_2Budovaniterapeutick
+    node_2Budovaniterapeutick --> node_3Psychoedukaceozazit
+    node_3Psychoedukaceozazit --> node_4Formulaceintence
+    node_4Formulaceintence --> node_5Breathingmeditation
+    node_5Breathingmeditation --> node_BEHEMSEZEN
+    node_BEHEMSEZEN --> node_1Klidneestetickprost
+    node_1Klidneestetickprost --> node_2Kvasetkyshubou
+    node_2Kvasetkyshubou --> node_3Kvalitnihudba
+    node_3Kvalitnihudba --> node_4Minimalniverbalniin
+    node_4Minimalniverbalniin --> node_5Trustletgobeopen
+    node_5Trustletgobeopen --> node_6Kontinulnterapeutic
+    node_6Kontinulnterapeutic --> node_ptomnost
+    node_ptomnost --> node_POSEZEN
+    node_POSEZEN --> node_1Imeditndebriefing
+    node_1Imeditndebriefing --> node_2Integracnisezeni14x
+    node_2Integracnisezeni14x --> node_3Journalingumeni
+    node_3Journalingumeni --> node_4Komunitapodpora
+    node_4Komunitapodpora --> node_5Implementaceinsight
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PROTOKOL OPTIMALIZUJICI MYSTICKE ZAZITKY
@@ -325,6 +493,8 @@ PO SEZENÍ:
 | 5. Implementace insights          |
 +-----------------------------------+
 ```
+
+</details>
 
 ---
 

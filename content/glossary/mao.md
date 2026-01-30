@@ -147,6 +147,39 @@ Vyloučení močí
 
 ### Dopamin
 
+```mermaid
+flowchart TD
+    node_Tyrosin["Tyrosin"]
+    node_Tyrosinhydroxylza["Tyrosin hydroxyláza"]
+    node_LDOPA["L-DOPA"]
+    node_AADC["AADC"]
+    node_Dopamin["Dopamin"]
+    node_MAOAB34Dihydroxyfeny["+--MAO-A/B---&gt; 3,4-Dihydroxyfenylacetaldehyd"]
+    node_ALDH["ALDH"]
+    node_DOPAC34Dihydroxyfeny["DOPAC 3,4-Dihydroxyfenyloctová kyselina"]
+    node_COMT["COMT"]
+    node_HVAHomovanilovkyseli["HVA Homovanilová kyselina"]
+    node_COMT3Methoxytyramin["+--COMT-----&gt; 3-Methoxytyramin"]
+    node_MAOAB["MAO-A/B"]
+    node_HVA["HVA"]
+
+    node_Tyrosin --> node_Tyrosinhydroxylza
+    node_Tyrosinhydroxylza --> node_LDOPA
+    node_LDOPA --> node_AADC
+    node_AADC --> node_Dopamin
+    node_Dopamin --> node_MAOAB34Dihydroxyfeny
+    node_MAOAB34Dihydroxyfeny --> node_ALDH
+    node_ALDH --> node_DOPAC34Dihydroxyfeny
+    node_DOPAC34Dihydroxyfeny --> node_COMT
+    node_COMT --> node_HVAHomovanilovkyseli
+    node_HVAHomovanilovkyseli --> node_COMT3Methoxytyramin
+    node_COMT3Methoxytyramin --> node_MAOAB
+    node_MAOAB --> node_HVA
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Tyrosin
     |
@@ -170,7 +203,38 @@ Dopamin
                     HVA
 ```
 
+</details>
+
 ### Noradrenalin
+
+```mermaid
+flowchart TD
+    node_Dopamin["Dopamin"]
+    node_Dopaminbetahydroxylz["Dopamin beta-hydroxyláza"]
+    node_Noradrenalin["Noradrenalin"]
+    node_MAOA34Dihydroxymandl["+--MAO-A---&gt; 3,4-Dihydroxymandlový aldehyd"]
+    node_ALDHAR["ALDH/AR"]
+    node_DHPGMHPG["DHPG / MHPG"]
+    node_COMT["COMT"]
+    node_VMAVanilmandlovkysel["VMA Vanilmandlová kyselina"]
+    node_COMTNormetanefrin["+--COMT-----&gt; Normetanefrin"]
+    node_MAOA["MAO-A"]
+    node_VMA["VMA"]
+
+    node_Dopamin --> node_Dopaminbetahydroxylz
+    node_Dopaminbetahydroxylz --> node_Noradrenalin
+    node_Noradrenalin --> node_MAOA34Dihydroxymandl
+    node_MAOA34Dihydroxymandl --> node_ALDHAR
+    node_ALDHAR --> node_DHPGMHPG
+    node_DHPGMHPG --> node_COMT
+    node_COMT --> node_VMAVanilmandlovkysel
+    node_VMAVanilmandlovkysel --> node_COMTNormetanefrin
+    node_COMTNormetanefrin --> node_MAOA
+    node_MAOA --> node_VMA
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Dopamin
@@ -191,6 +255,8 @@ Noradrenalin
                          v [MAO-A]
                     VMA
 ```
+
+</details>
 
 ---
 
@@ -263,6 +329,41 @@ Noradrenalin
 
 ### Mechanismus účinku ayahuascy
 
+```mermaid
+flowchart TD
+    node_Komponentyayahuascy["Komponenty ayahuascy:"]
+    node_8bcc77b8["+------------------------------------------+"]
+    node_BanisteriopsiscaapiP["Banisteriopsis caapi      Psychotria"]
+    node_MAOIzdrojviridis["MAOI zdroj              viridis"]
+    node_DMTzdroj["DMT zdroj"]
+    node_HarminHarmalin["Harmin/Harmalin"]
+    node_MAOAinhibiceDMTochrn["MAO-A inhibice -------&gt; DMT ochráněno"]
+    node_peddegradac["před degradací"]
+    node_Orlnbiodostupnost["Orální biodostupnost"]
+    node_DMT50["DMT ~50%"]
+    node_Psychedelickinek["Psychedelický účinek"]
+    node_46hodin["4-6 hodin"]
+
+    node_Komponentyayahuascy --> node_8bcc77b8
+    node_8bcc77b8 --> node_BanisteriopsiscaapiP
+    node_BanisteriopsiscaapiP --> node_MAOIzdrojviridis
+    node_MAOIzdrojviridis --> node_DMTzdroj
+    node_DMTzdroj --> node_HarminHarmalin
+    node_HarminHarmalin --> node_MAOAinhibiceDMTochrn
+    node_MAOAinhibiceDMTochrn --> node_peddegradac
+    node_peddegradac --> node_Orlnbiodostupnost
+    node_Orlnbiodostupnost --> node_DMT50
+    node_DMT50 --> node_Psychedelickinek
+    node_Psychedelickinek --> node_46hodin
+
+    click node_DMTzdroj "/alkaloids/dmt/" "DMT zdroj"
+    click node_MAOAinhibiceDMTochrn "/alkaloids/dmt/" "MAO-A inhibice -------> DMT ochráněno"
+    click node_DMT50 "/alkaloids/dmt/" "DMT ~50%"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Komponenty ayahuascy:
 +------------------------------------------+
@@ -286,6 +387,8 @@ Komponenty ayahuascy:
 |                        (4-6 hodin)       |
 +------------------------------------------+
 ```
+
+</details>
 
 ### Farmakokinetika DMT s/bez MAOI
 
@@ -363,6 +466,52 @@ HYPERTENZNÍ KRIZE
 
 ### Serotoninový syndrom
 
+```mermaid
+flowchart TD
+    node_MAOISerotonergnltka["MAOI + Serotonergní látka"]
+    node_Nadmrnserotoninovakt["Nadměrná serotoninová aktivita"]
+    node_8bcc77b8["+------------------------------------------+"]
+    node_SEROTONINOVSYNDROM["SEROTONINOVÝ SYNDROM"]
+    node_MRN["MÍRNÝ:"]
+    node_Tespocen["- Třes, pocení"]
+    node_Tachykardie["- Tachykardie"]
+    node_Mydriza["- Mydriáza"]
+    node_STEDN["STŘEDNÍ:"]
+    node_Hypertermie3839C["- Hypertermie 38-39°C"]
+    node_Hyperreflexieklonus["- Hyperreflexie, klonus"]
+    node_Agitace["- Agitace"]
+    node_TKIVOTOHROUJC["TĚŽKÝ ŽIVOT OHROŽUJÍCÍ:"]
+    node_Hypertermie40C["- Hypertermie &gt;40°C"]
+    node_Rigidita["- Rigidita"]
+    node_Rabdomyolza["- Rabdomyolýza"]
+    node_Selhnorgn["- Selhání orgánů"]
+    node_Smrt["- Smrt"]
+
+    node_MAOISerotonergnltka --> node_Nadmrnserotoninovakt
+    node_Nadmrnserotoninovakt --> node_8bcc77b8
+    node_8bcc77b8 --> node_SEROTONINOVSYNDROM
+    node_SEROTONINOVSYNDROM --> node_MRN
+    node_MRN --> node_Tespocen
+    node_Tespocen --> node_Tachykardie
+    node_Tachykardie --> node_Mydriza
+    node_Mydriza --> node_STEDN
+    node_STEDN --> node_Hypertermie3839C
+    node_Hypertermie3839C --> node_Hyperreflexieklonus
+    node_Hyperreflexieklonus --> node_Agitace
+    node_Agitace --> node_TKIVOTOHROUJC
+    node_TKIVOTOHROUJC --> node_Hypertermie40C
+    node_Hypertermie40C --> node_Rigidita
+    node_Rigidita --> node_Rabdomyolza
+    node_Rabdomyolza --> node_Selhnorgn
+    node_Selhnorgn --> node_Smrt
+
+    click node_Nadmrnserotoninovakt "/glossary/serotonin/" "Nadměrná serotoninová aktivita"
+    click node_SEROTONINOVSYNDROM "/glossary/serotonin/" "SEROTONINOVÝ SYNDROM"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MAOI + Serotonergní látka
     |
@@ -391,6 +540,8 @@ Nadměrná serotoninová aktivita
 | - Smrt                                    |
 +------------------------------------------+
 ```
+
+</details>
 
 ### Nebezpečné kombinace s MAOI
 
@@ -453,6 +604,40 @@ Nadměrná serotoninová aktivita
 
 ### Mechanismus antidepresivního účinku MAOI
 
+```mermaid
+flowchart TD
+    node_MAOIpodn["MAOI podání"]
+    node_InhibiceMAOApedevm["Inhibice MAO-A především"]
+    node_Snendegradacemonoami["Snížená degradace monoaminů"]
+    node_34959a3e["+------------------------+"]
+    node_Zvensynaptick["Zvýšené synaptické"]
+    node_koncentrace["koncentrace:"]
+    node_Serotonin["- Serotonin"]
+    node_Noradrenalin["- Noradrenalin"]
+    node_Dopamin["- Dopamin"]
+    node_Receptorovdownregula["Receptorová downregulace 2-4 týdny"]
+    node_NeuroplastickzmnyBDN["Neuroplastické změny BDNF"]
+    node_Antidepresivninek["Antidepresivní účinek"]
+
+    node_MAOIpodn --> node_InhibiceMAOApedevm
+    node_InhibiceMAOApedevm --> node_Snendegradacemonoami
+    node_Snendegradacemonoami --> node_34959a3e
+    node_34959a3e --> node_Zvensynaptick
+    node_Zvensynaptick --> node_koncentrace
+    node_koncentrace --> node_Serotonin
+    node_Serotonin --> node_Noradrenalin
+    node_Noradrenalin --> node_Dopamin
+    node_Dopamin --> node_Receptorovdownregula
+    node_Receptorovdownregula --> node_NeuroplastickzmnyBDN
+    node_NeuroplastickzmnyBDN --> node_Antidepresivninek
+
+    click node_Serotonin "/glossary/serotonin/" "- Serotonin"
+    click node_Receptorovdownregula "/glossary/receptor/" "Receptorová downregulace 2-4 týdny"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MAOI podání
     |
@@ -480,6 +665,8 @@ Neuroplastické změny (BDNF ↑)
     v
 Antidepresivní účinek
 ```
+
+</details>
 
 ---
 
@@ -554,6 +741,35 @@ negativními důsledky
 
 ### Neuroprotekce a MAO
 
+```mermaid
+flowchart TD
+    node_OxidativnstresaMAO["Oxidativní stres a MAO:"]
+    node_MAOaktivita["MAO aktivita"]
+    node_ProdukceH2O2["Produkce H2O2"]
+    node_ddb739e1["+------------------+"]
+    node_Fentonreakce["Fenton reakce:"]
+    node_Fe2H2O2["Fe2+ + H2O2"]
+    node_Fe3OHOH["Fe3+ + OH• + OH-"]
+    node_HydroxylovradiklOH["Hydroxylový radikál OH•"]
+    node_Pokozen["Poškození:"]
+    node_Neurodegenerace["Neurodegenerace"]
+    node_MAOBinhibitorySnenH2["MAO-B inhibitory  Snížení H2O2  Neuroprotekce"]
+
+    node_OxidativnstresaMAO --> node_MAOaktivita
+    node_MAOaktivita --> node_ProdukceH2O2
+    node_ProdukceH2O2 --> node_ddb739e1
+    node_ddb739e1 --> node_Fentonreakce
+    node_Fentonreakce --> node_Fe2H2O2
+    node_Fe2H2O2 --> node_Fe3OHOH
+    node_Fe3OHOH --> node_HydroxylovradiklOH
+    node_HydroxylovradiklOH --> node_Pokozen
+    node_Pokozen --> node_Neurodegenerace
+    node_Neurodegenerace --> node_MAOBinhibitorySnenH2
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Oxidativní stres a MAO:
 
@@ -583,6 +799,8 @@ Neurodegenerace
 
 MAO-B inhibitory → Snížení H2O2 → Neuroprotekce
 ```
+
+</details>
 
 ---
 

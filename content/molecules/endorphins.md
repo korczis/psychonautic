@@ -51,6 +51,35 @@ tags = ["endorfiny", "opioidy", "analgezie", "euforie", "runners-high", "beta-en
 
 ### Biosynteza
 
+```mermaid
+flowchart TD
+    node_POMCPROOPIOMELANOCOR["POMC PROOPIOMELANOCORTIN"]
+    node_Proteolyticktpen["Proteolytické štěpení"]
+    node_027024f1["+-------+-------+"]
+    node_ACTHBetaLPHGammaMSH["ACTH   Beta-LPH  Gamma-MSH"]
+    node_c0cc21db["+---+---+"]
+    node_AlphaGammaBeta["Alpha- Gamma-  Beta-"]
+    node_MSHLPHENDORFIN31AA["MSH    LPH    ENDORFIN 31 AA"]
+    node_Daltpen["Další štěpení"]
+    node_AlphaGamma["Alpha-          Gamma-"]
+    node_endorfinendorfin["endorfin        endorfin"]
+    node_116117["1-16          1-17"]
+
+    node_POMCPROOPIOMELANOCOR --> node_Proteolyticktpen
+    node_Proteolyticktpen --> node_027024f1
+    node_027024f1 --> node_ACTHBetaLPHGammaMSH
+    node_ACTHBetaLPHGammaMSH --> node_c0cc21db
+    node_c0cc21db --> node_AlphaGammaBeta
+    node_AlphaGammaBeta --> node_MSHLPHENDORFIN31AA
+    node_MSHLPHENDORFIN31AA --> node_Daltpen
+    node_Daltpen --> node_AlphaGamma
+    node_AlphaGamma --> node_endorfinendorfin
+    node_endorfinendorfin --> node_116117
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 POMC (PROOPIOMELANOCORTIN)
             |
@@ -78,6 +107,8 @@ MSH    LPH    ENDORFIN (31 AA)
     endorfin        endorfin
     (1-16)          (1-17)
 ```
+
+</details>
 
 ### Funkce beta-endorfinu
 
@@ -127,6 +158,37 @@ MSH    LPH    ENDORFIN (31 AA)
 
 ### Paradoxni efekty dynorfinu
 
+```mermaid
+flowchart TD
+    node_DYNORFINAKAPPARECEPT["DYNORFIN A KAPPA RECEPTOR"]
+    node_Dynorfin["Dynorfin"]
+    node_Kappaopioidnreceptor["Kappa opioidní receptor KOR"]
+    node_Analgeziespinln["+---&gt; Analgezie spinální"]
+    node_DYSFORIElimbicksyste["+---&gt; DYSFORIE limbický system"]
+    node_SnizenDAvNAc["+---&gt; Snizení DA v NAc"]
+    node_Aversivnstavy["+---&gt; Aversivní stavy"]
+    node_Depresivnsymptomy["+---&gt; Depresivní symptomy"]
+    node_Stresovodpoved["+---&gt; Stresová odpoved"]
+    node_CRFdynorfininterakce["+---&gt; CRF-dynorfin interakce"]
+    node_Uzkostdysforie["+---&gt; Uzkost, dysforie"]
+    node_IMPLIKACE["IMPLIKACE:"]
+
+    node_DYNORFINAKAPPARECEPT --> node_Dynorfin
+    node_Dynorfin --> node_Kappaopioidnreceptor
+    node_Kappaopioidnreceptor --> node_Analgeziespinln
+    node_Analgeziespinln --> node_DYSFORIElimbicksyste
+    node_DYSFORIElimbicksyste --> node_SnizenDAvNAc
+    node_SnizenDAvNAc --> node_Aversivnstavy
+    node_Aversivnstavy --> node_Depresivnsymptomy
+    node_Depresivnsymptomy --> node_Stresovodpoved
+    node_Stresovodpoved --> node_CRFdynorfininterakce
+    node_CRFdynorfininterakce --> node_Uzkostdysforie
+    node_Uzkostdysforie --> node_IMPLIKACE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DYNORFIN A KAPPA RECEPTOR
 
@@ -153,6 +215,8 @@ IMPLIKACE:
 - Kappa antagoniste = potencialni antidepresiva
 ```
 
+</details>
+
 ---
 
 ## Runner's high a endorfiny
@@ -162,6 +226,37 @@ IMPLIKACE:
 "Runner's high" je stav euforie, snizené uzkosti a analgezie vznikajici pri prodlouzenem aerobním cviceni.
 
 ### Mechanismus
+
+```mermaid
+flowchart TD
+    node_PRODLOUZENECVICENI30["PRODLOUZENE CVICENI &gt;30 min"]
+    node_Stresmetabolicknroky["Stres, metabolické nároky"]
+    node_027024f1["+-------+-------+"]
+    node_HPAosaOpioidnsystem["HPA osa         Opioidní system"]
+    node_kortizolendorfiny["kortizol      endorfiny"]
+    node_AdaptivniBetaendorfi["Adaptivni       Beta-endorfin"]
+    node_odpoveduvolneni["odpoved         uvolneni"]
+    node_CNSPeriferie["CNS             Periferie"]
+    node_PAGNAcanalgezie["PAG, NAc      analgezie"]
+    node_EUFORIEANALGEZIE["EUFORIE, ANALGEZIE"]
+    node_RUNNERSHIGH["'RUNNER'S HIGH'"]
+    node_DUKAZY["DUKAZY:"]
+
+    node_PRODLOUZENECVICENI30 --> node_Stresmetabolicknroky
+    node_Stresmetabolicknroky --> node_027024f1
+    node_027024f1 --> node_HPAosaOpioidnsystem
+    node_HPAosaOpioidnsystem --> node_kortizolendorfiny
+    node_kortizolendorfiny --> node_AdaptivniBetaendorfi
+    node_AdaptivniBetaendorfi --> node_odpoveduvolneni
+    node_odpoveduvolneni --> node_CNSPeriferie
+    node_CNSPeriferie --> node_PAGNAcanalgezie
+    node_PAGNAcanalgezie --> node_EUFORIEANALGEZIE
+    node_EUFORIEANALGEZIE --> node_RUNNERSHIGH
+    node_RUNNERSHIGH --> node_DUKAZY
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PRODLOUZENE CVICENI (>30 min)
@@ -195,6 +290,8 @@ DUKAZY:
 - Plasmaticke endorfiny koreguji s intenzitou
 ```
 
+</details>
+
 ### Endokanabinoidy vs. endorfiny
 
 Soucasny vyzkum ukazuje, ze **endokanabinoidy** (anandamid) mohou byt stejne dulezite jako endorfiny:
@@ -220,6 +317,48 @@ Soucasny vyzkum ukazuje, ze **endokanabinoidy** (anandamid) mohou byt stejne dul
 | **Ketamin** | Neprime (mu, kappa) | Slaba opioidni aktivita |
 
 ### Opioidy a závislost
+
+```mermaid
+flowchart TD
+    node_OPIOIDNIZAVISLOSTAEN["OPIOIDNI ZAVISLOST A ENDORFINY"]
+    node_AKUTNIUZITIOPIOIDU["AKUTNI UZITI OPIOIDU:"]
+    node_MorfinHeroin["Morfin/Heroin"]
+    node_Exogennimuaktivace["Exogenni mu aktivace"]
+    node_MasivniDAuvolnenNAc["Masivni DA uvolnení NAc"]
+    node_EUFORIE["EUFORIE"]
+    node_CHRONICKEUZITI["CHRONICKE UZITI:"]
+    node_Downregulaceendogenn["Downregulace endogenního systemu"]
+    node_SnizenPOMCexprese["+---&gt; Snizená POMC exprese"]
+    node_Receptordownregulace["+---&gt; Receptor downregulace"]
+    node_Snizenbazlnendorfino["+---&gt; Snizená bazální endorfinová aktivita"]
+    node_TOLERANCEZAVISLOST["TOLERANCE, ZAVISLOST"]
+    node_ABSTINENCE["ABSTINENCE:"]
+    node_Deficitendogennchopi["Deficit endogenních opioidů"]
+    node_DYSFORIECRAVINGABSTI["DYSFORIE, CRAVING, ABSTINENČNÍ SYNDROM"]
+    node_IMPLIKACEPROLECBU["IMPLIKACE PRO LECBU:"]
+
+    node_OPIOIDNIZAVISLOSTAEN --> node_AKUTNIUZITIOPIOIDU
+    node_AKUTNIUZITIOPIOIDU --> node_MorfinHeroin
+    node_MorfinHeroin --> node_Exogennimuaktivace
+    node_Exogennimuaktivace --> node_MasivniDAuvolnenNAc
+    node_MasivniDAuvolnenNAc --> node_EUFORIE
+    node_EUFORIE --> node_CHRONICKEUZITI
+    node_CHRONICKEUZITI --> node_Downregulaceendogenn
+    node_Downregulaceendogenn --> node_SnizenPOMCexprese
+    node_SnizenPOMCexprese --> node_Receptordownregulace
+    node_Receptordownregulace --> node_Snizenbazlnendorfino
+    node_Snizenbazlnendorfino --> node_TOLERANCEZAVISLOST
+    node_TOLERANCEZAVISLOST --> node_ABSTINENCE
+    node_ABSTINENCE --> node_Deficitendogennchopi
+    node_Deficitendogennchopi --> node_DYSFORIECRAVINGABSTI
+    node_DYSFORIECRAVINGABSTI --> node_IMPLIKACEPROLECBU
+
+    click node_OPIOIDNIZAVISLOSTAEN "/conditions/addiction/" "OPIOIDNI ZAVISLOST A ENDORFINY"
+    click node_TOLERANCEZAVISLOST "/conditions/addiction/" "TOLERANCE, ZAVISLOST"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 OPIOIDNI ZAVISLOST A ENDORFINY
@@ -260,6 +399,8 @@ IMPLIKACE PRO LECBU:
 - Ibogain: "Reset" opioidního systemu?
 - Psilocybin: Neuroplasticita, ne prima modulace
 ```
+
+</details>
 
 ---
 

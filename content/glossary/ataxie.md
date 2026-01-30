@@ -55,6 +55,23 @@ tags = ["ataxie", "koordinace", "cerebellum", "GABA", "muscimol", "alkohol", "mo
 
 ### GABAergní látky
 
+```mermaid
+flowchart TD
+    node_GABAAAKTIVACECEREBEL["GABA-A AKTIVACE  CEREBELÁRNÍ INHIBICE  ATAXIE"]
+    node_MozekovkraHlubokjdra["Mozečková kůra               Hluboká jádra"]
+    node_GABAA6subtypySnenvst["GABA-A α6 subtypy           Snížený výstup"]
+    node_InhibicePurkyovchMot["Inhibice Purkyňových          Motorická"]
+    node_bunkdyskoordinace["buněk                         dyskoordinace"]
+
+    node_GABAAAKTIVACECEREBEL --> node_MozekovkraHlubokjdra
+    node_MozekovkraHlubokjdra --> node_GABAA6subtypySnenvst
+    node_GABAA6subtypySnenvst --> node_InhibicePurkyovchMot
+    node_InhibicePurkyovchMot --> node_bunkdyskoordinace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 GABA-A AKTIVACE → CEREBELÁRNÍ INHIBICE → ATAXIE
 
@@ -66,9 +83,10 @@ GABA-A AKTIVACE → CEREBELÁRNÍ INHIBICE → ATAXIE
   buněk                         dyskoordinace
 ```
 
+</details>
+
 | Látka | Mechanismus | Intenzita ataxie |
 |-------|-------------|------------------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | GABA-A agonista | Silná |
 | **Alkohol** | GABA-A PAM + NMDA antagonista | Střední až silná |
 | **Benzodiazepiny** | GABA-A PAM | Mírná až střední |
 | **Barbituráty** | GABA-A agonista/PAM | Silná |
@@ -104,6 +122,23 @@ GABA-A AKTIVACE → CEREBELÁRNÍ INHIBICE → ATAXIE
 
 ### Hodnocení při intoxikaci
 
+```mermaid
+flowchart TD
+    node_STUPNATAXIEintoxikac["STUPNĚ ATAXIE intoxikace"]
+    node_Stupe1PozitivnRomber["Stupeň 1: Pozitivní Romberg, ale stabilní chůze"]
+    node_Stupe2Nestabilnchzep["Stupeň 2: Nestabilní chůze, potřebuje oporu"]
+    node_Stupe3Neschopensttbe["Stupeň 3: Neschopen stát bez asistence"]
+    node_Stupe4Neschopensttan["Stupeň 4: Neschopen stát ani s asistencí"]
+
+    node_STUPNATAXIEintoxikac --> node_Stupe1PozitivnRomber
+    node_Stupe1PozitivnRomber --> node_Stupe2Nestabilnchzep
+    node_Stupe2Nestabilnchzep --> node_Stupe3Neschopensttbe
+    node_Stupe3Neschopensttbe --> node_Stupe4Neschopensttan
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 STUPNĚ ATAXIE (intoxikace)
 
@@ -115,6 +150,8 @@ Stupeň 3: Neschopen stát bez asistence
     ↓
 Stupeň 4: Neschopen stát ani s asistencí
 ```
+
+</details>
 
 ---
 
@@ -149,7 +186,6 @@ Stupeň 4: Neschopen stát ani s asistencí
 ## Viz také
 
 ### Látky způsobující ataxii
-- [Muscimol](@/alkaloids/muscimol.md) - **Silná cerebelární ataxie**
 - [Účinky muscimolu](@/phenomenology/muscimol-effects.md) - Detailní popis
 - [Ketamin](@/alkaloids/ketamin.md) - Disociativní ataxie
 

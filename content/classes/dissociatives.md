@@ -21,6 +21,54 @@ Mezi nejznamejsi disociativa patri [ketamin](@/alkaloids/ketamin.md), fencyklidi
 
 ### Chemicke tridy
 
+```mermaid
+flowchart TD
+    node_DISOCIATIVACHEMICKET["DISOCIATIVA - CHEMICKE TRIDY"]
+    node_34959a3e["+------------------------+"]
+    node_ARYLCYKLOHEXYLAMINY["ARYLCYKLOHEXYLAMINY"]
+    node_781f5987["------------------------"]
+    node_Ketamin["Ketamin"]
+    node_PCPfencyklidin["PCP fencyklidin"]
+    node_MXEmethoxetamin["MXE methoxetamin"]
+    node_3MeOPCP["3-MeO-PCP"]
+    node_PCEDCK["PCE, DCK"]
+    node_Strukturneodlisnepod["Strukturne odlisne, podobny ucinek"]
+    node_MORFINANY["MORFINANY"]
+    node_DXMdextromethorfan["DXM dextromethorfan"]
+    node_Dextrorfan["Dextrorfan"]
+    node_DALSISTRUKTURY["DALSI STRUKTURY"]
+    node_Memantin["Memantin"]
+    node_DizocilpinMK801["Dizocilpin MK-801"]
+    node_NitrousoxideN2O["Nitrous oxide N2O"]
+    node_Xenon["Xenon"]
+
+    node_DISOCIATIVACHEMICKET --> node_34959a3e
+    node_34959a3e --> node_ARYLCYKLOHEXYLAMINY
+    node_ARYLCYKLOHEXYLAMINY --> node_781f5987
+    node_781f5987 --> node_Ketamin
+    node_Ketamin --> node_PCPfencyklidin
+    node_PCPfencyklidin --> node_MXEmethoxetamin
+    node_MXEmethoxetamin --> node_3MeOPCP
+    node_3MeOPCP --> node_PCEDCK
+    node_PCEDCK --> node_Strukturneodlisnepod
+    node_Strukturneodlisnepod --> node_MORFINANY
+    node_MORFINANY --> node_DXMdextromethorfan
+    node_DXMdextromethorfan --> node_Dextrorfan
+    node_Dextrorfan --> node_DALSISTRUKTURY
+    node_DALSISTRUKTURY --> node_Memantin
+    node_Memantin --> node_DizocilpinMK801
+    node_DizocilpinMK801 --> node_NitrousoxideN2O
+    node_NitrousoxideN2O --> node_Xenon
+
+    click node_Ketamin "/alkaloids/ketamin/" "Ketamin"
+    click node_PCPfencyklidin "/alkaloids/pcp/" "PCP fencyklidin"
+    click node_3MeOPCP "/alkaloids/pcp/" "3-MeO-PCP"
+    click node_DXMdextromethorfan "/alkaloids/dxm/" "DXM dextromethorfan"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DISOCIATIVA - CHEMICKE TRIDY
 
@@ -54,6 +102,8 @@ DISOCIATIVA - CHEMICKE TRIDY
 +------------------------+
 ```
 
+</details>
+
 ### Srovnavaci tabulka
 
 | Latka | Ki NMDA (nM) | Dalsi cile | Trvani | Legal status (CR) |
@@ -71,6 +121,40 @@ DISOCIATIVA - CHEMICKE TRIDY
 ## Mechanismus ucinku
 
 ### NMDA receptor blokada
+
+```mermaid
+flowchart TD
+    node_NMDARECEPTORADISOCIA["NMDA RECEPTOR A DISOCIATIVA"]
+    node_NormalnistavSdisocia["Normalni stav:                    S disociativem:"]
+    node_4a4621fa["+---------------------+           +---------------------+"]
+    node_GlutamatGlycinGlutam["Glutamat + Glycin |           |   Glutamat + Glycin"]
+    node_eb66e049["+=============+   |           |   +=============+"]
+    node_NMDANMDA["NMDA      |   |           |   |   NMDA"]
+    node_receptorreceptor["receptor  |   |           |   |   receptor"]
+    node_BLOKADA["===     |   |           |   |   BLOKADA"]
+    node_Kanalkanlu["Kanal     |   |           |   |   kanálu"]
+    node_Ca2influxSnizenyinfl["Ca2+ influx       |           |   Snizeny influx"]
+    node_NormalniDISOCIACE["Normalni          |           |   DISOCIACE"]
+    node_neurotransmiseAnalge["neurotransmise    |           |   Analgezie"]
+
+    node_NMDARECEPTORADISOCIA --> node_NormalnistavSdisocia
+    node_NormalnistavSdisocia --> node_4a4621fa
+    node_4a4621fa --> node_GlutamatGlycinGlutam
+    node_GlutamatGlycinGlutam --> node_eb66e049
+    node_eb66e049 --> node_NMDANMDA
+    node_NMDANMDA --> node_receptorreceptor
+    node_receptorreceptor --> node_BLOKADA
+    node_BLOKADA --> node_Kanalkanlu
+    node_Kanalkanlu --> node_Ca2influxSnizenyinfl
+    node_Ca2influxSnizenyinfl --> node_NormalniDISOCIACE
+    node_NormalniDISOCIACE --> node_neurotransmiseAnalge
+
+    click node_NMDARECEPTORADISOCIA "/receptors/nmda/" "NMDA RECEPTOR A DISOCIATIVA"
+    click node_NMDANMDA "/receptors/nmda/" "NMDA      |   |           |   |   NMDA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NMDA RECEPTOR A DISOCIATIVA
@@ -94,6 +178,8 @@ Normalni stav:                    S disociativem:
 |   neurotransmise    |           |   Analgezie         |
 +---------------------+           +---------------------+
 ```
+
+</details>
 
 ### Typ blokady
 
@@ -285,6 +371,52 @@ Struktura:
 
 ### Ketamin v psychiatrii
 
+```mermaid
+flowchart TD
+    node_KETAMINTERAPEUTICKEA["KETAMIN - TERAPEUTICKE APLIKACE"]
+    node_cf3533c5["+------------------+     +------------------+"]
+    node_AKUTNIUCINEKNEUROPLA["AKUTNI UCINEK    |     | NEUROPLASTICITA"]
+    node_64581a73["------------------|     |------------------"]
+    node_DisociaceBDNFzvyseni["Disociace        |     | BDNF zvyseni"]
+    node_AnalgeziemTORaktivac["Analgezie        |     | mTOR aktivace"]
+    node_RelaxaceSynaptogenez["Relaxace         |     | Synaptogeneze"]
+    node_9809d797["+--------+---------+     +--------+---------+"]
+    node_559f279b["+------------+-----------+"]
+    node_34959a3e["+------------------------+"]
+    node_KLINICKEINDIKACE["KLINICKE INDIKACE"]
+    node_781f5987["------------------------"]
+    node_Rezistentnideprese["Rezistentni deprese"]
+    node_Akutnisuicidalita["Akutni suicidalita"]
+    node_Chronickabolest["Chronicka bolest"]
+    node_PTSDvzkum["PTSD výzkum"]
+    node_OCDvzkum["OCD výzkum"]
+
+    node_KETAMINTERAPEUTICKEA --> node_cf3533c5
+    node_cf3533c5 --> node_AKUTNIUCINEKNEUROPLA
+    node_AKUTNIUCINEKNEUROPLA --> node_64581a73
+    node_64581a73 --> node_DisociaceBDNFzvyseni
+    node_DisociaceBDNFzvyseni --> node_AnalgeziemTORaktivac
+    node_AnalgeziemTORaktivac --> node_RelaxaceSynaptogenez
+    node_RelaxaceSynaptogenez --> node_9809d797
+    node_9809d797 --> node_559f279b
+    node_559f279b --> node_34959a3e
+    node_34959a3e --> node_KLINICKEINDIKACE
+    node_KLINICKEINDIKACE --> node_781f5987
+    node_781f5987 --> node_Rezistentnideprese
+    node_Rezistentnideprese --> node_Akutnisuicidalita
+    node_Akutnisuicidalita --> node_Chronickabolest
+    node_Chronickabolest --> node_PTSDvzkum
+    node_PTSDvzkum --> node_OCDvzkum
+
+    click node_KETAMINTERAPEUTICKEA "/alkaloids/ketamin/" "KETAMIN - TERAPEUTICKE APLIKACE"
+    click node_AKUTNIUCINEKNEUROPLA "/glossary/neuroplasticita/" "AKUTNI UCINEK    |     | NEUROPLASTICITA"
+    click node_DisociaceBDNFzvyseni "/molecules/bdnf/" "Disociace        |     | BDNF zvyseni"
+    click node_Rezistentnideprese "/conditions/depression/" "Rezistentni deprese"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KETAMIN - TERAPEUTICKE APLIKACE
 
@@ -309,6 +441,8 @@ KETAMIN - TERAPEUTICKE APLIKACE
          | OCD (výzkum)           |
          +------------------------+
 ```
+
+</details>
 
 ### Esketamin (Spravato)
 
@@ -357,6 +491,40 @@ KETAMIN - TERAPEUTICKE APLIKACE
 
 ### Ketaminova cystitida
 
+```mermaid
+flowchart TD
+    node_KETAMINOVACYSTITIDA["KETAMINOVA CYSTITIDA"]
+    node_Chronickpouztiketami["Chronické pouzíti ketaminu rekreační"]
+    node_Urotoxickmetabolity["Urotoxické metabolity"]
+    node_Pokozenuroepitelu["Poškození uroepitelu"]
+    node_58071513["+-----------------------------+"]
+    node_Symptomy["Symptomy:"]
+    node_Dysurie["- Dysurie"]
+    node_Frekvence["- Frekvence"]
+    node_Urgence["- Urgence"]
+    node_Hematurie["- Hematurie"]
+    node_Snizenakapacita["- Snizena kapacita"]
+    node_ProgreseKontrakcemec["Progrese  Kontrakce mechýře  Chirurgie"]
+
+    node_KETAMINOVACYSTITIDA --> node_Chronickpouztiketami
+    node_Chronickpouztiketami --> node_Urotoxickmetabolity
+    node_Urotoxickmetabolity --> node_Pokozenuroepitelu
+    node_Pokozenuroepitelu --> node_58071513
+    node_58071513 --> node_Symptomy
+    node_Symptomy --> node_Dysurie
+    node_Dysurie --> node_Frekvence
+    node_Frekvence --> node_Urgence
+    node_Urgence --> node_Hematurie
+    node_Hematurie --> node_Snizenakapacita
+    node_Snizenakapacita --> node_ProgreseKontrakcemec
+
+    click node_KETAMINOVACYSTITIDA "/alkaloids/ketamin/" "KETAMINOVA CYSTITIDA"
+    click node_Chronickpouztiketami "/alkaloids/ketamin/" "Chronické pouzíti ketaminu rekreační"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KETAMINOVA CYSTITIDA
 
@@ -381,6 +549,8 @@ Poškození uroepitelu
               v
 Progrese → Kontrakce mechýře → Chirurgie
 ```
+
+</details>
 
 ### Lekove interakce
 

@@ -187,6 +187,29 @@ kyselin.
 
 TDP je nezbytný pro tři klíčové metabolické uzly:
 
+```mermaid
+flowchart TD
+    node_GLUKZA["GLUKÓZA"]
+    node_Glykolza["Glykolýza"]
+    node_PYRUVT["PYRUVÁT"]
+    node_TDPPDC["TDP PDC"]
+    node_AcetylCoA["Acetyl-CoA"]
+    node_Krebsvcyklus["Krebsův cyklus"]
+    node_TDPKGDC["TDP KGDC"]
+    node_ATPprodukce["ATP produkce"]
+
+    node_GLUKZA --> node_Glykolza
+    node_Glykolza --> node_PYRUVT
+    node_PYRUVT --> node_TDPPDC
+    node_TDPPDC --> node_AcetylCoA
+    node_AcetylCoA --> node_Krebsvcyklus
+    node_Krebsvcyklus --> node_TDPKGDC
+    node_TDPKGDC --> node_ATPprodukce
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                         GLUKÓZA
                            ↓
@@ -200,6 +223,8 @@ TDP je nezbytný pro tři klíčové metabolické uzly:
                            ↓ ←── TDP (KGDC)
                       ATP produkce
 ```
+
+</details>
 
 ### Pentózafosfátová dráha
 

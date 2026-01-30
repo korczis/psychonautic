@@ -42,6 +42,43 @@ insert_anchor_links = "right"
 
 Ionotropní receptory jsou **ligandem řízené iontové kanály** (LGIC - Ligand-Gated Ion Channels). Vazba ligandu přímo otevírá iontový kanál bez potřeby sekundárních messengerů.
 
+```mermaid
+flowchart TD
+    node_IONOTROPNRECEPTOR["IONOTROPNÍ RECEPTOR"]
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_LigandVazebnmsto["Ligand ►◄ Vazebné místo"]
+    node_Membrna["Membrána   ████████████████████"]
+    node_IONTOVKANL["█   IONTOVÝ KANÁL  █"]
+    node_uzaven["█     uzavřený   █"]
+    node_6c5058ec["████████████████████"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+    node_POVAZBLIGANDU["PO VAZBĚ LIGANDU"]
+    node_LigandKonformanzmna["Ligand ●►◄ Konformační změna"]
+    node_Membrna["Membrána   ████        ████████"]
+    node_adee5aab["█              █████"]
+    node_OTEVENIontovtok["█   OTEVŘENÝ   █████  ► Iontový tok"]
+    node_KANL["█    KANÁL     █████"]
+    node_9739e0c1["████        ████████"]
+
+    node_IONOTROPNRECEPTOR --> node_Extracelulrnprostor
+    node_Extracelulrnprostor --> node_LigandVazebnmsto
+    node_LigandVazebnmsto --> node_Membrna
+    node_Membrna --> node_IONTOVKANL
+    node_IONTOVKANL --> node_uzaven
+    node_uzaven --> node_6c5058ec
+    node_6c5058ec --> node_Intracelulrnprostor
+    node_Intracelulrnprostor --> node_POVAZBLIGANDU
+    node_POVAZBLIGANDU --> node_LigandKonformanzmna
+    node_LigandKonformanzmna --> node_Membrna
+    node_Membrna --> node_adee5aab
+    node_adee5aab --> node_OTEVENIontovtok
+    node_OTEVENIontovtok --> node_KANL
+    node_KANL --> node_9739e0c1
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     IONOTROPNÍ RECEPTOR
 
@@ -76,6 +113,8 @@ Membrána │  ████        ████████  │
               Intracelulární prostor
 ```
 
+</details>
+
 ### Rodiny ionotropních receptorů
 
 | Rodina | Struktura | Selektivita | Příklady |
@@ -86,6 +125,27 @@ Membrána │  ████        ████████  │
 | **TRP kanály** | Tetramer | Kationty | TRPV1 (kapsaicin), TRPM8 (menthol) |
 
 ### Kinetika ionotropních receptorů
+
+```mermaid
+flowchart TD
+    node_Rychlostodpovdiionot["Rychlost odpovědi ionotropních receptorů:"]
+    node_VazbaliganduOtevenka["Vazba ligandu        Otevření kanálu      Iontový tok"]
+    node_916d7f6a["▼                    ▼                   ▼"]
+    node_015ms10ms["0                1-5 ms                        10 ms"]
+    node_SrovnnsGPCR["Srovnání s GPCR:"]
+    node_GPCR100ms1ssekundymi["GPCR             100 ms - 1 s       sekundy-minuty"]
+    node_Ionotropn15msmilisek["Ionotropní       1-5 ms      milisekundy"]
+
+    node_Rychlostodpovdiionot --> node_VazbaliganduOtevenka
+    node_VazbaliganduOtevenka --> node_916d7f6a
+    node_916d7f6a --> node_015ms10ms
+    node_015ms10ms --> node_SrovnnsGPCR
+    node_SrovnnsGPCR --> node_GPCR100ms1ssekundymi
+    node_GPCR100ms1ssekundymi --> node_Ionotropn15msmilisek
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Rychlost odpovědi ionotropních receptorů:
@@ -102,6 +162,8 @@ Srovnání s GPCR:
     Ionotropní      │ 1-5 ms │     milisekundy
 ```
 
+</details>
+
 ### [GABA-A receptor](@/receptors/gaba-a.md) - Inhibiční ionotropní receptor
 
 | Vlastnost | Hodnota |
@@ -109,7 +171,6 @@ Srovnání s GPCR:
 | **Struktura** | Pentamer (α, β, γ, δ podjednotky) |
 | **Ion** | Cl⁻ (chloridový) |
 | **Efekt** | Hyperpolarizace, inhibice |
-| **Ligandy** | [GABA](@/glossary/gaba.md), [Muscimol](@/alkaloids/muscimol.md), benzodiazepiny |
 
 ### [NMDA receptor](@/receptors/nmda.md) - Excitační ionotropní receptor
 
@@ -127,6 +188,35 @@ Srovnání s GPCR:
 ### G-proteiny spřažené receptory
 
 **GPCR** (G-Protein Coupled Receptors) tvoří největší rodinu membránových receptorů v lidském genomu (~800 členů). Všechny sdílejí charakteristickou strukturu sedmi transmembránových domén (7TM).
+
+```mermaid
+flowchart TD
+    node_GPCRSTRUKTURA["GPCR STRUKTURA"]
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_NterminusVazebnmsto["N-terminus  Vazebné místo"]
+    node_orthosterick["orthosterické"]
+    node_TM1TM2TM3["TM1     TM2     TM3"]
+    node_Membrna["Membrána"]
+    node_TM7TM4["TM7             TM4"]
+    node_TM6TM5["TM6     TM5"]
+    node_CterminusGproteinvaz["C-terminus  G-protein vazba"]
+    node_intracelulrn["intracelulární"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+
+    node_GPCRSTRUKTURA --> node_Extracelulrnprostor
+    node_Extracelulrnprostor --> node_NterminusVazebnmsto
+    node_NterminusVazebnmsto --> node_orthosterick
+    node_orthosterick --> node_TM1TM2TM3
+    node_TM1TM2TM3 --> node_Membrna
+    node_Membrna --> node_TM7TM4
+    node_TM7TM4 --> node_TM6TM5
+    node_TM6TM5 --> node_CterminusGproteinvaz
+    node_CterminusGproteinvaz --> node_intracelulrn
+    node_intracelulrn --> node_Intracelulrnprostor
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     GPCR STRUKTURA
@@ -149,6 +239,8 @@ Membrána│      │         │      │
              Intracelulární prostor
 ```
 
+</details>
+
 ### Typy G-proteinů
 
 | G-protein | Efektorový enzym | Sekundární messenger | Buněčná odpověď |
@@ -160,6 +252,46 @@ Membrána│      │         │      │
 | **Gβγ** | K⁺ kanály, PLC | Variabilní | Modulace |
 
 ### Signální kaskáda Gq/11 ([5-HT2A](@/receptors/5-ht2a.md))
+
+```mermaid
+flowchart TD
+    node_PsychedelikumLSDPsil["Psychedelikum LSD, Psilocin, DMT"]
+    node_5HT2ARECEPTOR["5-HT2A RECEPTOR"]
+    node_Extracelulrnvazbalig["Extracelulární vazba ligandu"]
+    node_Konformanzmna["Konformační změna"]
+    node_Gq11aktivace["Gαq/11 aktivace"]
+    node_FosfolipzaCPLC["Fosfolipáza C PLCβ"]
+    node_9bc1dc39["▼                   ▼"]
+    node_IPDAG["IP₃                 DAG"]
+    node_CazERProteinkinzaCPK["Ca²⁺ z ER         Protein kináza C PKC"]
+    node_CalmodulinFosforylac["Calmodulin       Fosforylace substrátů"]
+    node_CaMKIIERK12aktivace["CaMKII           ERK1/2 aktivace"]
+    node_CREB["CREB"]
+    node_Genovexprese["Genová exprese"]
+    node_Neuroplasticita["Neuroplasticita"]
+    node_Zmnnvdom["Změněné vědomí"]
+
+    node_PsychedelikumLSDPsil --> node_5HT2ARECEPTOR
+    node_5HT2ARECEPTOR --> node_Extracelulrnvazbalig
+    node_Extracelulrnvazbalig --> node_Konformanzmna
+    node_Konformanzmna --> node_Gq11aktivace
+    node_Gq11aktivace --> node_FosfolipzaCPLC
+    node_FosfolipzaCPLC --> node_9bc1dc39
+    node_9bc1dc39 --> node_IPDAG
+    node_IPDAG --> node_CazERProteinkinzaCPK
+    node_CazERProteinkinzaCPK --> node_CalmodulinFosforylac
+    node_CalmodulinFosforylac --> node_CaMKIIERK12aktivace
+    node_CaMKIIERK12aktivace --> node_CREB
+    node_CREB --> node_Genovexprese
+    node_Genovexprese --> node_Neuroplasticita
+    node_Neuroplasticita --> node_Zmnnvdom
+
+    click node_PsychedelikumLSDPsil "/alkaloids/_index/" "Psychedelikum LSD, Psilocin, DMT"
+    click node_5HT2ARECEPTOR "/receptors/5-ht2a/" "5-HT2A RECEPTOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Psychedelikum (LSD, Psilocin, DMT)
@@ -205,7 +337,46 @@ Psychedelikum (LSD, Psilocin, DMT)
 └─────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Signální kaskáda Gi/o (GABA-B, opioidní)
+
+```mermaid
+flowchart TD
+    node_LigandBaclofenMorfin["Ligand Baclofen, Morfin"]
+    node_GABABOpioidnreceptor["GABA-B / Opioidní receptor"]
+    node_Extracelulrnvazbalig["Extracelulární vazba ligandu"]
+    node_Gioaktivace["Gαi/o aktivace"]
+    node_a6b5b6fe["▼                           ▼"]
+    node_AdenylylGpodjednotky["Adenylyl                    Gβγ podjednotky"]
+    node_cyklza["cykláza"]
+    node_969c44f9["▼                     ▼           ▼"]
+    node_cAMPKkanlCakanl["cAMP                  K⁺ kanál   Ca²⁺ kanál"]
+    node_otevenblokda["otevření    blokáda"]
+    node_PKAinhibice["PKA inhibice              ▼           ▼"]
+    node_HyperpolarizaceSnen["Hyperpolarizace  Snížené"]
+    node_uvolnn["uvolnění"]
+    node_NT["NT"]
+
+    node_LigandBaclofenMorfin --> node_GABABOpioidnreceptor
+    node_GABABOpioidnreceptor --> node_Extracelulrnvazbalig
+    node_Extracelulrnvazbalig --> node_Gioaktivace
+    node_Gioaktivace --> node_a6b5b6fe
+    node_a6b5b6fe --> node_AdenylylGpodjednotky
+    node_AdenylylGpodjednotky --> node_cyklza
+    node_cyklza --> node_969c44f9
+    node_969c44f9 --> node_cAMPKkanlCakanl
+    node_cAMPKkanlCakanl --> node_otevenblokda
+    node_otevenblokda --> node_PKAinhibice
+    node_PKAinhibice --> node_HyperpolarizaceSnen
+    node_HyperpolarizaceSnen --> node_uvolnn
+    node_uvolnn --> node_NT
+
+    click node_GABABOpioidnreceptor "/glossary/gaba/" "GABA-B / Opioidní receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Ligand (Baclofen, Morfin)
@@ -237,6 +408,8 @@ Ligand (Baclofen, Morfin)
 └─────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### [5-HT2A receptor](@/receptors/5-ht2a.md) - Primární cíl psychedelik
 
 | Vlastnost | Hodnota |
@@ -261,6 +434,41 @@ Ligand (Baclofen, Morfin)
 | **Ca²⁺** | VGCC, IP₃R, RyR | Univerzální messenger | SERCA, NCX |
 
 ### Proteinové kinázy v signalizaci
+
+```mermaid
+flowchart TD
+    node_SIGNLNKASKDA["SIGNÁLNÍ KASKÁDA"]
+    node_Receptoraktivace["Receptor aktivace"]
+    node_GproteinIon["G-protein / Ion"]
+    node_9bc1dc39["▼                   ▼"]
+    node_cAMPCa["cAMP              Ca²⁺"]
+    node_PKACaMK["PKA              CaMK"]
+    node_Fosforylace["Fosforylace"]
+    node_substrt["substrátů"]
+    node_57d3b9af["▼                 ▼"]
+    node_IontovTrans["Iontové        Trans-"]
+    node_kanlykripn["kanály         kripční"]
+    node_faktory["faktory"]
+    node_MembrnovGenov["Membránová        Genová"]
+    node_excitabilitaexprese["excitabilita      exprese"]
+
+    node_SIGNLNKASKDA --> node_Receptoraktivace
+    node_Receptoraktivace --> node_GproteinIon
+    node_GproteinIon --> node_9bc1dc39
+    node_9bc1dc39 --> node_cAMPCa
+    node_cAMPCa --> node_PKACaMK
+    node_PKACaMK --> node_Fosforylace
+    node_Fosforylace --> node_substrt
+    node_substrt --> node_57d3b9af
+    node_57d3b9af --> node_IontovTrans
+    node_IontovTrans --> node_kanlykripn
+    node_kanlykripn --> node_faktory
+    node_faktory --> node_MembrnovGenov
+    node_MembrnovGenov --> node_excitabilitaexprese
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                 SIGNÁLNÍ KASKÁDA
@@ -304,6 +512,8 @@ Ligand (Baclofen, Morfin)
     excitabilita      exprese
 ```
 
+</details>
+
 ### Křížová komunikace signálních drah
 
 | Dráha 1 | Dráha 2 | Interakce | Význam |
@@ -322,13 +532,59 @@ Ligand (Baclofen, Morfin)
 | Pojem | Definice | Příklad |
 |-------|----------|---------|
 | **Ligand** | Molekula vážící se na receptor | Serotonin, [LSD](@/alkaloids/lsd.md) |
-| **Agonista** | Aktivuje receptor | [Muscimol](@/alkaloids/muscimol.md) na GABA-A |
 | **Antagonista** | Blokuje receptor bez aktivace | Ketanserin na 5-HT2A |
 | **Parciální agonista** | Částečná aktivace | [Psilocin](@/alkaloids/psilocin.md) |
 | **Inverzní agonista** | Snižuje bazální aktivitu | Pimavanserin |
 | **Alosterický modulátor** | Mění odpověď na orthosterický ligand | Benzodiazepiny |
 
 ### Vazebná afinita a eficacia
+
+```mermaid
+flowchart TD
+    node_RECEPTORFARMAKOLOGIE["RECEPTOR FARMAKOLOGIE"]
+    node_AfinitaKiKdEficaciaE["Afinita Ki, Kd           Eficacia Emax"]
+    node_4de977d6["▼                          ▼"]
+    node_JakpevnseJaksiln["Jak pevně se             Jak silně"]
+    node_ligandveaktivuje["ligand váže              aktivuje"]
+    node_Ki1nMEmax100["Ki = 1 nM                 Emax = 100%"]
+    node_ysokafinitaplnagonis["ysoká afinita          plný agonista"]
+    node_Ki1000nMEmax50["Ki = 1000 nM              Emax = 50%"]
+    node_nzkafinitaparcilnago["nízká afinita           parciální agonista"]
+    node_DOSERESPONSEKIVKA["DOSE-RESPONSE KŘIVKA:"]
+    node_Odpov["Odpověď"]
+    node_100PlnagonistaEmax10["100              Plný agonista Emax 100%"]
+    node_75["75         ╱"]
+    node_ParcilnagonistaEmax5["╱    ╭ Parciální agonista Emax 50%"]
+    node_50["50     ╱    ╱"]
+    node_cbf19595["╱    ╱"]
+    node_25["25 ╱    ╱"]
+    node_0LogLigand["0  Log Ligand"]
+    node_EC50EC50["EC50   EC50"]
+    node_silnslab["silný slabý"]
+
+    node_RECEPTORFARMAKOLOGIE --> node_AfinitaKiKdEficaciaE
+    node_AfinitaKiKdEficaciaE --> node_4de977d6
+    node_4de977d6 --> node_JakpevnseJaksiln
+    node_JakpevnseJaksiln --> node_ligandveaktivuje
+    node_ligandveaktivuje --> node_Ki1nMEmax100
+    node_Ki1nMEmax100 --> node_ysokafinitaplnagonis
+    node_ysokafinitaplnagonis --> node_Ki1000nMEmax50
+    node_Ki1000nMEmax50 --> node_nzkafinitaparcilnago
+    node_nzkafinitaparcilnago --> node_DOSERESPONSEKIVKA
+    node_DOSERESPONSEKIVKA --> node_Odpov
+    node_Odpov --> node_100PlnagonistaEmax10
+    node_100PlnagonistaEmax10 --> node_75
+    node_75 --> node_ParcilnagonistaEmax5
+    node_ParcilnagonistaEmax5 --> node_50
+    node_50 --> node_cbf19595
+    node_cbf19595 --> node_25
+    node_25 --> node_0LogLigand
+    node_0LogLigand --> node_EC50EC50
+    node_EC50EC50 --> node_silnslab
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     RECEPTOR FARMAKOLOGIE
@@ -366,16 +622,47 @@ Odpověď
       (silný) (slabý)
 ```
 
+</details>
+
 ### Agonisté vs Antagonisté
 
 | Typ | Účinek na receptor | Vnitřní aktivita | Příklady |
 |-----|-------------------|------------------|----------|
-| **Plný agonista** | Maximální aktivace | 1.0 | [Muscimol](@/alkaloids/muscimol.md), serotonin |
 | **Parciální agonista** | Submaximální aktivace | 0.2-0.8 | [Psilocin](@/alkaloids/psilocin.md), buprenorfin |
 | **Neutrální antagonista** | Žádná aktivace, blokuje agonisty | 0 | Ketanserin, naloxon |
 | **Inverzní agonista** | Snižuje bazální aktivitu | < 0 | Flumazenil (částečný), DMCM |
 
 ### Alosterická modulace
+
+```mermaid
+flowchart TD
+    node_ORTHOSTERICKVSALOSTE["ORTHOSTERICKÉ VS ALOSTERICKÉ MÍSTO"]
+    node_RECEPTOR["RECEPTOR"]
+    node_ORTHOSTERICKALOSTERI["ORTHOSTERICKÉ    ALOSTERICKÉ"]
+    node_MSTOMSTO["MÍSTO            MÍSTO"]
+    node_GABABenzodz["GABA          Benzodz"]
+    node_5b0695cb["●                 ○"]
+    node_Vzjemnkomunikacemezi["Vzájemná komunikace mezi místy"]
+    node_Orthosterickagonista["Orthosterický agonista + PAM ="]
+    node_Orthosterickagonista["Orthosterický agonista + NAM ="]
+    node_PAMPozitivnalosteric["PAM = Pozitivní alosterický modulátor benzodiazepiny"]
+    node_NAMNegativnalosteric["NAM = Negativní alosterický modulátor DMCM"]
+
+    node_ORTHOSTERICKVSALOSTE --> node_RECEPTOR
+    node_RECEPTOR --> node_ORTHOSTERICKALOSTERI
+    node_ORTHOSTERICKALOSTERI --> node_MSTOMSTO
+    node_MSTOMSTO --> node_GABABenzodz
+    node_GABABenzodz --> node_5b0695cb
+    node_5b0695cb --> node_Vzjemnkomunikacemezi
+    node_Vzjemnkomunikacemezi --> node_Orthosterickagonista
+    node_Orthosterickagonista --> node_PAMPozitivnalosteric
+    node_PAMPozitivnalosteric --> node_NAMNegativnalosteric
+
+    click node_GABABenzodz "/glossary/gaba/" "GABA          Benzodz"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
             ORTHOSTERICKÉ VS ALOSTERICKÉ MÍSTO
@@ -402,6 +689,8 @@ PAM = Pozitivní alosterický modulátor (benzodiazepiny)
 NAM = Negativní alosterický modulátor (DMCM)
 ```
 
+</details>
+
 | Typ modulátoru | Účinek | Příklad |
 |----------------|--------|---------|
 | **PAM (pozitivní)** | Zvyšuje účinek agonisty | Benzodiazepiny na GABA-A |
@@ -427,7 +716,6 @@ NAM = Negativní alosterický modulátor (DMCM)
 
 | Vazebné místo | Ligandy | Mechanismus |
 |---------------|---------|-------------|
-| **GABA site** | [Muscimol](@/alkaloids/muscimol.md), Gaboxadol | Přímé otevření kanálu |
 | **BZ site** | Diazepam, Alprazolam | Zvýšení frekvence otevírání |
 | **Barbiturátové** | Fenobarbital | Prodloužení doby otevření |
 | **Neurosteroidové** | Alopregnanolone | Potenciace |
@@ -449,7 +737,6 @@ NAM = Negativní alosterický modulátor (DMCM)
 | [LSD](@/alkaloids/lsd.md) | +++ | + | ++ | - | - | + |
 | [Psilocybin](@/alkaloids/psilocybin.md) | +++ | ++ | - | - | - | - |
 | [DMT](@/alkaloids/dmt.md) | +++ | + | - | - | - | +++ |
-| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | +++ | - | - |
 | Ketamin | - | - | - | - | --- | ++ |
 | [Meskalin](@/alkaloids/mescaline.md) | ++ | + | + | - | - | - |
 
@@ -462,6 +749,35 @@ NAM = Negativní alosterický modulátor (DMCM)
 ### Koncept
 
 Různé ligandy vážící se na stejný receptor mohou aktivovat odlišné signální dráhy. Tento jev se nazývá **funkční selektivita** nebo **biased agonism**.
+
+```mermaid
+flowchart TD
+    node_KLASICKMODELBIASEDAG["KLASICKÝ MODEL              BIASED AGONISM"]
+    node_ReceptorReceptor["Receptor                       Receptor"]
+    node_687316e7["▼                              ▼"]
+    node_JedensignlLigandAB["Jeden signál               Ligand A    B"]
+    node_provechny["pro všechny"]
+    node_ligandy["ligandy                       ▼        ▼"]
+    node_Gq11arr["Gq/11   β-arr"]
+    node_02e1ccec["▼                         ▼        ▼"]
+    node_JednotnodpovHalucina["Jednotná odpověď             Halucinace Intern"]
+    node_Pkladna5HT2A["Příklad na 5-HT2A:"]
+
+    node_KLASICKMODELBIASEDAG --> node_ReceptorReceptor
+    node_ReceptorReceptor --> node_687316e7
+    node_687316e7 --> node_JedensignlLigandAB
+    node_JedensignlLigandAB --> node_provechny
+    node_provechny --> node_ligandy
+    node_ligandy --> node_Gq11arr
+    node_Gq11arr --> node_02e1ccec
+    node_02e1ccec --> node_JednotnodpovHalucina
+    node_JednotnodpovHalucina --> node_Pkladna5HT2A
+
+    click node_Pkladna5HT2A "/receptors/5-ht2a/" "Příklad na 5-HT2A:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
            KLASICKÝ MODEL              BIASED AGONISM
@@ -485,6 +801,8 @@ Příklad na 5-HT2A:
 - Lisurid: Slabá Gq, silná β-arrestin (bez halucinací!)
 ```
 
+</details>
+
 ### Klinický význam
 
 | Ligand | Gq/11 | β-arrestin | Klinický profil |
@@ -495,6 +813,33 @@ Příklad na 5-HT2A:
 | Ergotamin | ++ | ++ | Antimigrénový |
 
 ### Terapeutické implikace
+
+```mermaid
+flowchart TD
+    node_CLEVVOJELIV["CÍLE VÝVOJE LÉČIV"]
+    node_Halucinogennpsychede["Halucinogenní psychedelika     Nehalucinogenní analogy"]
+    node_a6b5b6fe["▼                           ▼"]
+    node_SilnGqSlabGq["Silná Gq                  Slabá Gq"]
+    node_slabarrnebo["+ slabá β-arr             nebo"]
+    node_Biasedarr["Biased β-arr"]
+    node_NeuroplasticitaNeuro["Neuroplasticita            Neuroplasticita"]
+    node_HalucinaceBEZhalucin["+ Halucinace               BEZ halucinací"]
+    node_alenronterapeutika["ale náročné                   terapeutika?"]
+
+    node_CLEVVOJELIV --> node_Halucinogennpsychede
+    node_Halucinogennpsychede --> node_a6b5b6fe
+    node_a6b5b6fe --> node_SilnGqSlabGq
+    node_SilnGqSlabGq --> node_slabarrnebo
+    node_slabarrnebo --> node_Biasedarr
+    node_Biasedarr --> node_NeuroplasticitaNeuro
+    node_NeuroplasticitaNeuro --> node_HalucinaceBEZhalucin
+    node_HalucinaceBEZhalucin --> node_alenronterapeutika
+
+    click node_Halucinogennpsychede "/alkaloids/_index/" "Halucinogenní psychedelika     Nehalucinogenní analogy"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
          CÍLE VÝVOJE LÉČIV
@@ -516,11 +861,44 @@ Příklad na 5-HT2A:
       ale náročné                   terapeutika?
 ```
 
+</details>
+
 ---
 
 ## Regulace receptorů
 
 ### Desenzitizace
+
+```mermaid
+flowchart TD
+    node_DESENZITIZACERECEPTO["DESENZITIZACE RECEPTORŮ"]
+    node_AkutnexpoziceChronic["Akutní expozice          Chronická expozice"]
+    node_minutyhodinydny["minuty                 hodiny-dny"]
+    node_78cdc4b8["▼                        ▼"]
+    node_1Fosforylace4Downreg["1. Fosforylace        4. Downregulace"]
+    node_GRKexprese["GRK                 exprese"]
+    node_2arrestin5mRNA["2. β-arrestin         5. mRNA"]
+    node_azbadegradace["azba                 degradace"]
+    node_3Internali6Proteinov["3. Internali-         6. Proteinová"]
+    node_zacedegradace["zace                  degradace"]
+    node_TOLERANCEDLOUHODOB["TOLERANCE             DLOUHODOBÁ"]
+    node_reverzibilnADAPTACE["reverzibilní        ADAPTACE"]
+
+    node_DESENZITIZACERECEPTO --> node_AkutnexpoziceChronic
+    node_AkutnexpoziceChronic --> node_minutyhodinydny
+    node_minutyhodinydny --> node_78cdc4b8
+    node_78cdc4b8 --> node_1Fosforylace4Downreg
+    node_1Fosforylace4Downreg --> node_GRKexprese
+    node_GRKexprese --> node_2arrestin5mRNA
+    node_2arrestin5mRNA --> node_azbadegradace
+    node_azbadegradace --> node_3Internali6Proteinov
+    node_3Internali6Proteinov --> node_zacedegradace
+    node_zacedegradace --> node_TOLERANCEDLOUHODOB
+    node_TOLERANCEDLOUHODOB --> node_reverzibilnADAPTACE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                 DESENZITIZACE RECEPTORŮ
@@ -551,6 +929,8 @@ Příklad na 5-HT2A:
     (reverzibilní)        ADAPTACE
 ```
 
+</details>
+
 ### Mechanismy internalizace
 
 | Fáze | Časový rámec | Mechanismus | Reverzibilita |
@@ -562,6 +942,47 @@ Příklad na 5-HT2A:
 | **Degradace** | Hodiny-dny | Lysozomální proteolýza | Vyžaduje resyntézu |
 
 ### Tolerance k psychedelikům
+
+```mermaid
+flowchart TD
+    node_TOLERANCEKPSYCHEDELI["TOLERANCE K PSYCHEDELIKŮM"]
+    node_Den1Plninek["Den 1: Plný účinek"]
+    node_5HT2Areceptorhustota["5-HT2A receptor hustota: 100%"]
+    node_Odpovnapsilocybin100["Odpověď na psilocybin: 100%"]
+    node_Den2Sneninek70["Den 2: Snížený účinek ~70%"]
+    node_Den34Minimlninek20["Den 3-4: Minimální účinek ~20%"]
+    node_5HT2Areceptordownreg["5-HT2A receptor downregulace"]
+    node_Odpovnapsilocybin20["Odpověď na psilocybin: ~20%"]
+    node_Den714Zotavenresyntz["Den 7-14: Zotavení resyntéza receptorů"]
+    node_5HT2Areceptorhustota["5-HT2A receptor hustota: ~100%"]
+    node_Odpovnapsilocybin100["Odpověď na psilocybin: ~100%"]
+    node_PRAKTICKDSLEDEK["PRAKTICKÝ DŮSLEDEK:"]
+    node_Minimlnefektivninter["Minimální efektivní interval mezi dávkami = 7-14 dní"]
+
+    node_TOLERANCEKPSYCHEDELI --> node_Den1Plninek
+    node_Den1Plninek --> node_5HT2Areceptorhustota
+    node_5HT2Areceptorhustota --> node_Odpovnapsilocybin100
+    node_Odpovnapsilocybin100 --> node_Den2Sneninek70
+    node_Den2Sneninek70 --> node_Den34Minimlninek20
+    node_Den34Minimlninek20 --> node_5HT2Areceptordownreg
+    node_5HT2Areceptordownreg --> node_Odpovnapsilocybin20
+    node_Odpovnapsilocybin20 --> node_Den714Zotavenresyntz
+    node_Den714Zotavenresyntz --> node_5HT2Areceptorhustota
+    node_5HT2Areceptorhustota --> node_Odpovnapsilocybin100
+    node_Odpovnapsilocybin100 --> node_PRAKTICKDSLEDEK
+    node_PRAKTICKDSLEDEK --> node_Minimlnefektivninter
+
+    click node_TOLERANCEKPSYCHEDELI "/alkaloids/_index/" "TOLERANCE K PSYCHEDELIKŮM"
+    click node_5HT2Areceptorhustota "/receptors/5-ht2a/" "5-HT2A receptor hustota: 100%"
+    click node_Odpovnapsilocybin100 "/alkaloids/psilocybin/" "Odpověď na psilocybin: 100%"
+    click node_5HT2Areceptordownreg "/receptors/5-ht2a/" "5-HT2A receptor downregulace"
+    click node_Odpovnapsilocybin20 "/alkaloids/psilocybin/" "Odpověď na psilocybin: ~20%"
+    click node_5HT2Areceptorhustota "/receptors/5-ht2a/" "5-HT2A receptor hustota: ~100%"
+    click node_Odpovnapsilocybin100 "/alkaloids/psilocybin/" "Odpověď na psilocybin: ~100%"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
              TOLERANCE K PSYCHEDELIKŮM
@@ -599,6 +1020,8 @@ PRAKTICKÝ DŮSLEDEK:
 Minimální efektivní interval mezi dávkami = 7-14 dní
 ```
 
+</details>
+
 ### Receptor trafficking
 
 | Receptor | Internalizace | Recyklace | Klinický dopad |
@@ -613,6 +1036,39 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 ## Drug development - Vývoj léčiv
 
 ### Receptor jako terapeutický cíl
+
+```mermaid
+flowchart TD
+    node_PROCESVVOJELIVA["PROCES VÝVOJE LÉČIVA"]
+    node_1TARGETIDENTIFICATIO["1. TARGET IDENTIFICATION"]
+    node_Identifikacereceptor["Identifikace receptoru jako cíle"]
+    node_genetikafarmakologie["genetika, farmakologie, klinická data"]
+    node_2TARGETVALIDATION["2. TARGET VALIDATION"]
+    node_Ovenrelevanceknockou["Ověření relevance knock-out myši,"]
+    node_farmakologicknstroje["farmakologické nástroje"]
+    node_3HITIDENTIFICATION["3. HIT IDENTIFICATION"]
+    node_HlednmolekulHTSvirtu["Hledání molekul HTS, virtuální screening"]
+    node_4LEADOPTIMIZATION["4. LEAD OPTIMIZATION"]
+    node_Optimalizaceselektiv["Optimalizace selektivita, ADMET"]
+    node_5PRECLINICALCLINICAL["5. PRECLINICAL / CLINICAL"]
+    node_Preklinickaklinickst["Preklinické a klinické studie"]
+
+    node_PROCESVVOJELIVA --> node_1TARGETIDENTIFICATIO
+    node_1TARGETIDENTIFICATIO --> node_Identifikacereceptor
+    node_Identifikacereceptor --> node_genetikafarmakologie
+    node_genetikafarmakologie --> node_2TARGETVALIDATION
+    node_2TARGETVALIDATION --> node_Ovenrelevanceknockou
+    node_Ovenrelevanceknockou --> node_farmakologicknstroje
+    node_farmakologicknstroje --> node_3HITIDENTIFICATION
+    node_3HITIDENTIFICATION --> node_HlednmolekulHTSvirtu
+    node_HlednmolekulHTSvirtu --> node_4LEADOPTIMIZATION
+    node_4LEADOPTIMIZATION --> node_Optimalizaceselektiv
+    node_Optimalizaceselektiv --> node_5PRECLINICALCLINICAL
+    node_5PRECLINICALCLINICAL --> node_Preklinickaklinickst
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
               PROCES VÝVOJE LÉČIVA
@@ -649,6 +1105,8 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
     └─────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Selektivita
 
 | Parametr | Definice | Důležitost |
@@ -658,6 +1116,41 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 | **Poly-farmakologie** | Záměrná aktivita na více cílech | Některá léčiva (clozapin) |
 
 ### Terapeutický index
+
+```mermaid
+flowchart TD
+    node_TERAPEUTICKINDEX["TERAPEUTICKÝ INDEX"]
+    node_innost["Účinnost"]
+    node_100Toxickinek["100                      Toxický účinek"]
+    node_75["75                ╱"]
+    node_TD50toxickdvka50["╱         TD50 toxická dávka 50%"]
+    node_50["50 ╱"]
+    node_25["25    ╱"]
+    node_0Dvka["0  Dávka"]
+    node_ED50efektivndvka50["ED50 efektivní dávka 50%"]
+    node_TerapeutickindexTITD["Terapeutický index TI = TD50 / ED50"]
+    node_TI10Relativnbezpen["TI &gt; 10:   Relativně bezpečné"]
+    node_TI110Nutnmonitoring["TI = 1-10: Nutný monitoring"]
+    node_TI1Toxickvterapeutic["TI &lt; 1:    Toxické v terapeutických dávkách"]
+    node_Pklady["Příklady:"]
+
+    node_TERAPEUTICKINDEX --> node_innost
+    node_innost --> node_100Toxickinek
+    node_100Toxickinek --> node_75
+    node_75 --> node_TD50toxickdvka50
+    node_TD50toxickdvka50 --> node_50
+    node_50 --> node_25
+    node_25 --> node_0Dvka
+    node_0Dvka --> node_ED50efektivndvka50
+    node_ED50efektivndvka50 --> node_TerapeutickindexTITD
+    node_TerapeutickindexTITD --> node_TI10Relativnbezpen
+    node_TI10Relativnbezpen --> node_TI110Nutnmonitoring
+    node_TI110Nutnmonitoring --> node_TI1Toxickvterapeutic
+    node_TI1Toxickvterapeutic --> node_Pklady
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                 TERAPEUTICKÝ INDEX
@@ -687,6 +1180,8 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
     - Barbituráty: TI ~ 3-10 (nebezpečné)
     - Digoxin: TI ~ 2 (úzké terapeutické okno)
 ```
+
+</details>
 
 ---
 
@@ -785,7 +1280,6 @@ Minimální efektivní interval mezi dávkami = 7-14 dní
 - [LSD](@/alkaloids/lsd.md) - 5-HT2A agonista s vysokou afinitou
 - [Psilocybin](@/alkaloids/psilocybin.md) / [Psilocin](@/alkaloids/psilocin.md) - Houbová psychedelika
 - [DMT](@/alkaloids/dmt.md) - Endogenní psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - Přímý GABA-A agonista
 - [Meskalin](@/alkaloids/mescaline.md) - Fenyletylaminové psychedelikum
 
 ### Zdroje

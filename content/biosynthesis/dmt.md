@@ -73,6 +73,29 @@ N,N-DIMETHYLTRYPTAMIN (DMT)
 
 #### Reakce
 
+```mermaid
+flowchart TD
+    node_COOH["COOH"]
+    node_H2NCHAADCH2NCH2["H2N---C---H              AADC              H2N---CH2"]
+    node_CH2PLPHCH2["CH2           PLP, H+            +          CH2"]
+    node_CO2["-CO2"]
+    node_IndolIndol["Indol                                    Indol"]
+    node_LTRYPTOFANTRYPTAMIN["L-TRYPTOFAN                              TRYPTAMIN"]
+    node_M20423M16022["M: 204,23                             M: 160,22"]
+
+    node_COOH --> node_H2NCHAADCH2NCH2
+    node_H2NCHAADCH2NCH2 --> node_CH2PLPHCH2
+    node_CH2PLPHCH2 --> node_CO2
+    node_CO2 --> node_IndolIndol
+    node_IndolIndol --> node_LTRYPTOFANTRYPTAMIN
+    node_LTRYPTOFANTRYPTAMIN --> node_M20423M16022
+
+    click node_LTRYPTOFANTRYPTAMIN "/glossary/tryptamin/" "L-TRYPTOFAN                              TRYPTAMIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
         COOH
          |
@@ -85,6 +108,8 @@ N,N-DIMETHYLTRYPTAMIN (DMT)
 L-TRYPTOFAN                              TRYPTAMIN
  (M: 204,23)                             (M: 160,22)
 ```
+
+</details>
 
 #### Substrátova specificita
 
@@ -113,6 +138,40 @@ AADC je **nespicificka** - katalyzuje dekarboxylaci mnoha aromatickych aminokyse
 
 #### Reakce (dve methylace)
 
+```mermaid
+flowchart TD
+    node_PRVNIMETHYLACE["PRVNI METHYLACE:"]
+    node_IndolIndol["Indol                      Indol"]
+    node_INMT["INMT"]
+    node_CH2CH2["CH2      &gt;          CH2"]
+    node_SAMSAH["SAM -&gt; SAH"]
+    node_NH2NHCH3["NH2                          NHCH3"]
+    node_TRYPTAMINNMETHYLTRYP["TRYPTAMIN                   N-METHYLTRYPTAMIN NMT"]
+    node_M16022M17424["M: 160,22                     M: 174,24"]
+    node_DRUHAMETHYLACE["DRUHA METHYLACE:"]
+    node_NHCH3NCH32["NHCH3                        NCH32"]
+    node_NMETHYLTRYPTAMINDMT["N-METHYLTRYPTAMIN                   DMT"]
+    node_M17424M18827["M: 174,24                  M: 188,27"]
+
+    node_PRVNIMETHYLACE --> node_IndolIndol
+    node_IndolIndol --> node_INMT
+    node_INMT --> node_CH2CH2
+    node_CH2CH2 --> node_SAMSAH
+    node_SAMSAH --> node_NH2NHCH3
+    node_NH2NHCH3 --> node_TRYPTAMINNMETHYLTRYP
+    node_TRYPTAMINNMETHYLTRYP --> node_M16022M17424
+    node_M16022M17424 --> node_DRUHAMETHYLACE
+    node_DRUHAMETHYLACE --> node_NHCH3NCH32
+    node_NHCH3NCH32 --> node_NMETHYLTRYPTAMINDMT
+    node_NMETHYLTRYPTAMINDMT --> node_M17424M18827
+
+    click node_TRYPTAMINNMETHYLTRYP "/glossary/tryptamin/" "TRYPTAMIN                   N-METHYLTRYPTAMIN NMT"
+    click node_NMETHYLTRYPTAMINDMT "/alkaloids/dmt/" "N-METHYLTRYPTAMIN                   DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PRVNI METHYLACE:
 
@@ -138,7 +197,42 @@ N-METHYLTRYPTAMIN                   DMT
    (M: 174,24)                  (M: 188,27)
 ```
 
+</details>
+
 #### Mechanismus SAM-dependentni methylace
+
+```mermaid
+flowchart TD
+    node_SAMMETHYLACESN2mecha["SAM-METHYLACE SN2 mechanismus"]
+    node_CH3["CH3"]
+    node_AdenosylS["Adenosyl-S+"]
+    node_INMT["\      INMT"]
+    node_RNH2tryptamin["R-NH2 tryptamin"]
+    node_1Substrattryptaminse["1. Substrat tryptamin se vaze do aktivniho mista INMT"]
+    node_2SAMsevazedokofaktor["2. SAM se vaze do kofaktoroveho mista"]
+    node_3Aminoskupinanukleof["3. Amino skupina nukleofilne atakuje methylovou skupinu SAM"]
+    node_4PrenosCH3nadusikSN2["4. Prenos CH3 na dusik SN2"]
+    node_5UvolneniSAHSadenosy["5. Uvolneni SAH S-adenosylhomocystein"]
+    node_6UvolneniproduktuNMT["6. Uvolneni produktu NMT nebo DMT"]
+
+    node_SAMMETHYLACESN2mecha --> node_CH3
+    node_CH3 --> node_AdenosylS
+    node_AdenosylS --> node_INMT
+    node_INMT --> node_RNH2tryptamin
+    node_RNH2tryptamin --> node_1Substrattryptaminse
+    node_1Substrattryptaminse --> node_2SAMsevazedokofaktor
+    node_2SAMsevazedokofaktor --> node_3Aminoskupinanukleof
+    node_3Aminoskupinanukleof --> node_4PrenosCH3nadusikSN2
+    node_4PrenosCH3nadusikSN2 --> node_5UvolneniSAHSadenosy
+    node_5UvolneniSAHSadenosy --> node_6UvolneniproduktuNMT
+
+    click node_RNH2tryptamin "/glossary/tryptamin/" "R-NH2 tryptamin"
+    click node_1Substrattryptaminse "/glossary/tryptamin/" "1. Substrat tryptamin se vaze do aktivniho mista INMT"
+    click node_6UvolneniproduktuNMT "/alkaloids/dmt/" "6. Uvolneni produktu NMT nebo DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SAM-METHYLACE (SN2 mechanismus)
@@ -158,6 +252,8 @@ SAM-METHYLACE (SN2 mechanismus)
 5. Uvolneni SAH (S-adenosylhomocystein)
 6. Uvolneni produktu (NMT nebo DMT)
 ```
+
+</details>
 
 #### INMT kinetika
 
@@ -312,6 +408,42 @@ RESENI: Ayahuasca
 
 ### Klicove rozdily
 
+```mermaid
+flowchart TD
+    node_SROVNANIDRAH["SROVNANI DRAH"]
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_Dekarboxylace["Dekarboxylace"]
+    node_TRYPTAMIN["TRYPTAMIN"]
+    node_75af1692["+---------------+---------------+"]
+    node_INMTPsiH["INMT                          PsiH"]
+    node_Methylace4Hydroxylac["Methylace                       4-Hydroxylace"]
+    node_DMT4Hydroxytryptamin["DMT                     4-Hydroxytryptamin"]
+    node_NNdimethyl["N,N-dimethyl"]
+    node_PsiKPsiM["PsiK + PsiM"]
+    node_PSILOCYBIN["PSILOCYBIN"]
+    node_4PONNDMT["4-PO-N,N-DMT"]
+
+    node_SROVNANIDRAH --> node_LTRYPTOFAN
+    node_LTRYPTOFAN --> node_Dekarboxylace
+    node_Dekarboxylace --> node_TRYPTAMIN
+    node_TRYPTAMIN --> node_75af1692
+    node_75af1692 --> node_INMTPsiH
+    node_INMTPsiH --> node_Methylace4Hydroxylac
+    node_Methylace4Hydroxylac --> node_DMT4Hydroxytryptamin
+    node_DMT4Hydroxytryptamin --> node_NNdimethyl
+    node_NNdimethyl --> node_PsiKPsiM
+    node_PsiKPsiM --> node_PSILOCYBIN
+    node_PSILOCYBIN --> node_4PONNDMT
+
+    click node_LTRYPTOFAN "/amino-acids/tryptophan/" "L-TRYPTOFAN"
+    click node_TRYPTAMIN "/glossary/tryptamin/" "TRYPTAMIN"
+    click node_DMT4Hydroxytryptamin "/alkaloids/dmt/" "DMT                     4-Hydroxytryptamin"
+    click node_4PONNDMT "/alkaloids/dmt/" "4-PO-N,N-DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SROVNANI DRAH
 
@@ -336,6 +468,8 @@ TRYPTAMIN
                               (4-PO-N,N-DMT)
 ```
 
+</details>
+
 ---
 
 ## Endogenni DMT a psychofyziologie
@@ -354,6 +488,27 @@ TRYPTAMIN
 
 DMT je endogenni ligand sigma-1 receptoru:
 
+```mermaid
+flowchart TD
+    node_DMTSigma1receptor["DMT + Sigma-1 receptor"]
+    node_Chaperonovaaktivita["Chaperonova aktivita"]
+    node_dc692126["+----+----+"]
+    node_AntiModulace["Anti-         Modulace"]
+    node_oxidantCa2signalizac["oxidant       Ca2+ signalizace"]
+    node_NeuroprotekceNeuropl["Neuroprotekce  Neuroplasticita"]
+
+    node_DMTSigma1receptor --> node_Chaperonovaaktivita
+    node_Chaperonovaaktivita --> node_dc692126
+    node_dc692126 --> node_AntiModulace
+    node_AntiModulace --> node_oxidantCa2signalizac
+    node_oxidantCa2signalizac --> node_NeuroprotekceNeuropl
+
+    click node_DMTSigma1receptor "/alkaloids/dmt/" "DMT + Sigma-1 receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DMT + Sigma-1 receptor
          |
@@ -369,6 +524,8 @@ oxidant       Ca2+ signalizace
     v         v
 Neuroprotekce  Neuroplasticita
 ```
+
+</details>
 
 ---
 

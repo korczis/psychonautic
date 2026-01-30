@@ -66,11 +66,26 @@ Rod *Psilocybe* byl popsán Elias Magnus Friesem v roce 1818 a později revidov�
 
 Psilocybin vzniká čtyřstupňovou enzymatickou dráhou z L-tryptofanu:
 
+```mermaid
+flowchart TD
+    node_LtryptofanTryptamin4["L-tryptofan  Tryptamin  4-hydroxytryptamin  Psilocin  Psilocybin"]
+    node_TrpDTrpBPsiHPsiKPsiM["TrpD         TrpB           PsiH            PsiK         PsiM"]
+
+    node_LtryptofanTryptamin4 --> node_TrpDTrpBPsiHPsiKPsiM
+
+    click node_LtryptofanTryptamin4 "/alkaloids/psilocybin/" "L-tryptofan  Tryptamin  4-hydroxytryptamin  Psilocin  Psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-tryptofan → Tryptamin → 4-hydroxytryptamin → Psilocin → Psilocybin
      ↓            ↓              ↓                ↓            ↓
   TrpD         TrpB           PsiH            PsiK         PsiM
 ```
+
+</details>
 
 | Enzym | Gen | Funkce |
 |-------|-----|--------|
@@ -392,11 +407,24 @@ Pro dosažení přibližně stejného efektu:
 
 ### Životní cyklus
 
+```mermaid
+flowchart TD
+    node_BazidiosporyPrimrnmy["Bazidiospory → Primární mycelium → Dikaryotické mycelium → Plodnice"]
+    node_fe4c2a47["↑                                                          ↓"]
+
+    node_BazidiosporyPrimrnmy --> node_fe4c2a47
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Bazidiospory → Primární mycelium → Dikaryotické mycelium → Plodnice
      ↑                                                          ↓
      └──────────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 | Fáze | Trvání | Podmínky |
 |------|--------|----------|
@@ -669,12 +697,31 @@ V České republice se vyskytují:
 
 ### Mechanismus účinku
 
+```mermaid
+flowchart TD
+    node_Psilocybindefosforyl["Psilocybin  defosforylace  Psilocin  5-HT2A receptor"]
+    node_ZmnyvDefaultModeNetw["Změny v Default Mode Network"]
+    node_Zvenneuroplasticita["Zvýšená neuroplasticita"]
+    node_Terapeutickefekty["Terapeutické efekty"]
+
+    node_Psilocybindefosforyl --> node_ZmnyvDefaultModeNetw
+    node_ZmnyvDefaultModeNetw --> node_Zvenneuroplasticita
+    node_Zvenneuroplasticita --> node_Terapeutickefekty
+
+    click node_Psilocybindefosforyl "/alkaloids/psilocybin/" "Psilocybin  defosforylace  Psilocin  5-HT2A receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocybin → (defosforylace) → Psilocin → 5-HT2A receptor →
     → Změny v Default Mode Network →
     → Zvýšená neuroplasticita →
     → Terapeutické efekty
 ```
+
+</details>
 
 ---
 

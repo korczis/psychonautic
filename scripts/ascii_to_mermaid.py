@@ -235,17 +235,31 @@ def process_markdown_file(filepath: Path, dry_run: bool = False) -> dict:
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
+    # Split frontmatter from content
+    # Frontmatter is between +++ ... +++ or --- ... ---
+    frontmatter_pattern = re.compile(r'^(\+\+\+.*?\+\+\+|\-\-\-.*?\-\-\-)\s*', re.DOTALL)
+    fm_match = frontmatter_pattern.match(content)
+
+    if fm_match:
+        frontmatter = fm_match.group(0)
+        body = content[fm_match.end():]
+        body_offset = fm_match.end()
+    else:
+        frontmatter = ''
+        body = content
+        body_offset = 0
+
     # Extract internal links from the whole file for context
     context_links = extract_internal_links(content)
 
-    # Find code blocks
+    # Find code blocks only in body (not frontmatter)
     code_block_pattern = re.compile(r'```\s*\n(.*?)\n```', re.DOTALL)
 
     conversions = []
-    new_content = content
+    new_body = body
     offset = 0
 
-    for match in code_block_pattern.finditer(content):
+    for match in code_block_pattern.finditer(body):
         code = match.group(1)
 
         # Check if it's already mermaid
@@ -276,8 +290,8 @@ def process_markdown_file(filepath: Path, dry_run: bool = False) -> dict:
 
             start = match.start() + offset
             end = match.end() + offset
-            new_content = new_content[:start] + replacement + new_content[end:]
-            offset += len(replacement) - (end - start - offset)
+            new_body = new_body[:start] + replacement + new_body[end:]
+            offset += len(replacement) - (end - start)
 
             conversions.append({
                 'original': code[:100] + '...' if len(code) > 100 else code,
@@ -285,6 +299,8 @@ def process_markdown_file(filepath: Path, dry_run: bool = False) -> dict:
             })
 
     if conversions and not dry_run:
+        # Rejoin frontmatter with modified body
+        new_content = frontmatter + new_body
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(new_content)
 

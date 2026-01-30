@@ -772,6 +772,41 @@ Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md)
 
 ### Farmakokinetiko-farmakodynamicke vztahy
 
+```mermaid
+flowchart TD
+    node_PSILOCYBINPKPDPROFIL["PSILOCYBIN PK-PD PROFIL"]
+    node_PlazmapsilocinUcinek["Plazma psilocin              Ucinek VAS"]
+    node_Tmax115hPeak["Tmax=1-1.5h               |    Peak"]
+    node_ec82b351["/\                       |   _____"]
+    node_6099f5b0["/  \                      |  /     \"]
+    node_ccd19fef["/    \__                   | /       \___"]
+    node_c925cdfb["/        \___               |/            \___"]
+    node_8d09de8d["/             \___           +                 \___"]
+    node_f7933997["+----+----+----+----&gt;         +----+----+----+----+--&gt;"]
+    node_0246h0246h["0    2    4    6    h         0    2    4    6    h"]
+    node_ED501520mgEmaxmodel["ED50: 15-20 mg Emax model"]
+    node_Hillovykoeficient152["Hillovy koeficient: 1.5-2.0"]
+    node_Terapeutickyindex100["Terapeuticky index: &gt;100"]
+
+    node_PSILOCYBINPKPDPROFIL --> node_PlazmapsilocinUcinek
+    node_PlazmapsilocinUcinek --> node_Tmax115hPeak
+    node_Tmax115hPeak --> node_ec82b351
+    node_ec82b351 --> node_6099f5b0
+    node_6099f5b0 --> node_ccd19fef
+    node_ccd19fef --> node_c925cdfb
+    node_c925cdfb --> node_8d09de8d
+    node_8d09de8d --> node_f7933997
+    node_f7933997 --> node_0246h0246h
+    node_0246h0246h --> node_ED501520mgEmaxmodel
+    node_ED501520mgEmaxmodel --> node_Hillovykoeficient152
+    node_Hillovykoeficient152 --> node_Terapeutickyindex100
+
+    click node_PlazmapsilocinUcinek "/alkaloids/psilocin/" "Plazma psilocin              Ucinek VAS"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSILOCYBIN PK-PD PROFIL
 
@@ -790,6 +825,8 @@ ED50: 15-20 mg (Emax model)
 Hillovy koeficient: 1.5-2.0
 Terapeuticky index: >100
 ```
+
+</details>
 
 Hystereze: Psilocybin vykazuje minimalni PK-PD hysterezi diky rychle konverzi na psilocin (ALP defosforylace, t1/2 konverze = 15-30 min).
 

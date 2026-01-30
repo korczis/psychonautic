@@ -19,6 +19,41 @@ categories = ["farmakologie", "molekularni-biologie", "mechanismy"]
 
 ### Ortostericke vs alostericke vazebne misto
 
+```mermaid
+flowchart TD
+    node_RECEPTORSDVEMAVAZEBN["RECEPTOR S DVEMA VAZEBNYMI MISTY"]
+    node_RECEPTOR["RECEPTOR"]
+    node_ORTOSTEALOSTERICKE["ORTOSTE-     ALOSTERICKE"]
+    node_RICKEMISTO["RICKE           MISTO"]
+    node_MISTO["MISTO"]
+    node_Modulator["Modulator"]
+    node_EndogenniBZbarb["Endogenni    BZ, barb,"]
+    node_ligandneurostero["ligand       neurostero."]
+    node_GABA["GABA,"]
+    node_5HT["5-HT"]
+    node_a9619c60["+------+-------+"]
+    node_MODULOVANAODPOVED["MODULOVANA ODPOVED"]
+    node_Klicovyrozdil["Klicovy rozdil:"]
+    node_BEZagonistyZADNYucin["BEZ agonisty = ZADNY ucinek"]
+
+    node_RECEPTORSDVEMAVAZEBN --> node_RECEPTOR
+    node_RECEPTOR --> node_ORTOSTEALOSTERICKE
+    node_ORTOSTEALOSTERICKE --> node_RICKEMISTO
+    node_RICKEMISTO --> node_MISTO
+    node_MISTO --> node_Modulator
+    node_Modulator --> node_EndogenniBZbarb
+    node_EndogenniBZbarb --> node_ligandneurostero
+    node_ligandneurostero --> node_GABA
+    node_GABA --> node_5HT
+    node_5HT --> node_a9619c60
+    node_a9619c60 --> node_MODULOVANAODPOVED
+    node_MODULOVANAODPOVED --> node_Klicovyrozdil
+    node_Klicovyrozdil --> node_BEZagonistyZADNYucin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RECEPTOR S DVEMA VAZEBNYMI MISTY
 
@@ -48,6 +83,8 @@ Klicovy rozdil:
                      BEZ agonisty = ZADNY ucinek
 ```
 
+</details>
+
 ### Typy alosterickych modulatoru
 
 | Typ | Zkratka | Efekt | Priklad | Receptor |
@@ -65,6 +102,49 @@ Klicovy rozdil:
 [GABA-A receptor](@/receptors/gaba-a.md) je **paradigmaticky** priklad alostericke modulace. Pentamerny komplex obsahuje mnozstvi farmakologicky distinktních vazebnych mist.
 
 ### Vazebna mista na GABA-A receptoru
+
+```mermaid
+flowchart TD
+    node_GABAARECEPTORPOHLEDS["GABA-A RECEPTOR - POHLED SHORA"]
+    node_alpha1["alpha1"]
+    node_3f34161c["/        \"]
+    node_BZsiteGABAsite["BZ site           GABA site"]
+    node_alphagammaalphabeta["alpha/gamma     alpha/beta"]
+    node_gamma2beta2["gamma2           beta2"]
+    node_beta2["beta2"]
+    node_4037099c["+-----+-----+"]
+    node_alpha1Barbiturtov["alpha1      Barbiturátové"]
+    node_siteTM["site TM"]
+    node_Neurosteroid["Neurosteroid"]
+    node_Etanolov["Etanolové"]
+    node_GABAsites2alphabetai["GABA sites: 2 alpha/beta interfaces"]
+    node_BZsite1alphagammaint["BZ site: 1 alpha/gamma interface"]
+    node_Barbiturt2TMdomnybet["Barbiturát: 2+ TM domény beta"]
+    node_Neurosteroid2TMalpha["Neurosteroid: 2+ TM alpha/beta"]
+    node_Pikrotoxin1vkanlovmp["Pikrotoxin: 1 v kanálovém póru"]
+
+    node_GABAARECEPTORPOHLEDS --> node_alpha1
+    node_alpha1 --> node_3f34161c
+    node_3f34161c --> node_BZsiteGABAsite
+    node_BZsiteGABAsite --> node_alphagammaalphabeta
+    node_alphagammaalphabeta --> node_gamma2beta2
+    node_gamma2beta2 --> node_beta2
+    node_beta2 --> node_4037099c
+    node_4037099c --> node_alpha1Barbiturtov
+    node_alpha1Barbiturtov --> node_siteTM
+    node_siteTM --> node_Neurosteroid
+    node_Neurosteroid --> node_Etanolov
+    node_Etanolov --> node_GABAsites2alphabetai
+    node_GABAsites2alphabetai --> node_BZsite1alphagammaint
+    node_BZsite1alphagammaint --> node_Barbiturt2TMdomnybet
+    node_Barbiturt2TMdomnybet --> node_Neurosteroid2TMalpha
+    node_Neurosteroid2TMalpha --> node_Pikrotoxin1vkanlovmp
+
+    click node_GABAARECEPTORPOHLEDS "/receptors/gaba-a/" "GABA-A RECEPTOR - POHLED SHORA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GABA-A RECEPTOR - POHLED SHORA
@@ -97,6 +177,8 @@ Barbiturát: 2+ (TM domény beta)
 Neurosteroid: 2+ (TM alpha/beta)
 Pikrotoxin: 1 (v kanálovém póru)
 ```
+
+</details>
 
 ### Benzodiazepiny - PAM
 
@@ -196,6 +278,43 @@ Soucasny vyzkum: nove alpha-subtypove selektivni BZ
 
 ### Modulacni mista NMDA receptoru
 
+```mermaid
+flowchart TD
+    node_NMDARECEPTORMODULACN["NMDA RECEPTOR - MODULACNI MISTA"]
+    node_Extracelularni["Extracelularni"]
+    node_GlutamatGlycin["Glutamat      Glycin/"]
+    node_siteDserin["site         D-serin"]
+    node_GluN2site["GluN2        site"]
+    node_GluN1["GluN1"]
+    node_KANALOVYPOR["KANALOVY POR"]
+    node_Mg2blokadaVdep["Mg2+ blokada V-dep."]
+    node_KetaminPCPsite["Ketamin/PCP site"]
+    node_MK801site["MK-801 site"]
+    node_PolyaminZn2["Polyamin       Zn2+"]
+    node_sitesite["site          site"]
+    node_GluN2BGluN2A["GluN2B     GluN2A"]
+    node_Intracelularni["Intracelularni"]
+
+    node_NMDARECEPTORMODULACN --> node_Extracelularni
+    node_Extracelularni --> node_GlutamatGlycin
+    node_GlutamatGlycin --> node_siteDserin
+    node_siteDserin --> node_GluN2site
+    node_GluN2site --> node_GluN1
+    node_GluN1 --> node_KANALOVYPOR
+    node_KANALOVYPOR --> node_Mg2blokadaVdep
+    node_Mg2blokadaVdep --> node_KetaminPCPsite
+    node_KetaminPCPsite --> node_MK801site
+    node_MK801site --> node_PolyaminZn2
+    node_PolyaminZn2 --> node_sitesite
+    node_sitesite --> node_GluN2BGluN2A
+    node_GluN2BGluN2A --> node_Intracelularni
+
+    click node_NMDARECEPTORMODULACN "/receptors/nmda/" "NMDA RECEPTOR - MODULACNI MISTA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NMDA RECEPTOR - MODULACNI MISTA
 
@@ -226,6 +345,8 @@ NMDA RECEPTOR - MODULACNI MISTA
     └───────────────────────────────┘
          Intracelularni
 ```
+
+</details>
 
 ### NMDA modulatory
 
@@ -258,6 +379,35 @@ GluN2B subjednotka je cilena novymi antidepresivy:
 
 mGluR rodina (skupina I: mGluR1/5; skupina II: mGluR2/3; skupina III: mGluR4/6/7/8) je predmetem intenzivniho vyzkumu novych anxiolytik a antipsychotik:
 
+```mermaid
+flowchart TD
+    node_mGluR2APSYCHEDELIKA["mGluR2 A PSYCHEDELIKA"]
+    node_mGluR2a5HT2AtvoriHET["mGluR2 a 5-HT2A tvori HETERODIMER na pyramidovych neuronech:"]
+    node_5HT2AmGluR2["5-HT2A    mGluR2"]
+    node_Fyzickykomplex["&lt;-- Fyzicky komplex"]
+    node_nabunecnempovrchu["na bunecnem povrchu"]
+    node_Gq11Gio["Gq/11      Gi/o"]
+    node_excitinhibice["excit.   inhibice"]
+    node_INTERAKCE["INTERAKCE:"]
+    node_TERAPEUTICKYPOTENCIA["TERAPEUTICKY POTENCIAL:"]
+    node_mGluR2PAMAntipsychot["mGluR2 PAM -&gt; Antipsychoticky ucinek"]
+    node_mGluR2NAMPotenciacep["mGluR2 NAM -&gt; Potenciace psychedelickeho ucinku ?"]
+
+    node_mGluR2APSYCHEDELIKA --> node_mGluR2a5HT2AtvoriHET
+    node_mGluR2a5HT2AtvoriHET --> node_5HT2AmGluR2
+    node_5HT2AmGluR2 --> node_Fyzickykomplex
+    node_Fyzickykomplex --> node_nabunecnempovrchu
+    node_nabunecnempovrchu --> node_Gq11Gio
+    node_Gq11Gio --> node_excitinhibice
+    node_excitinhibice --> node_INTERAKCE
+    node_INTERAKCE --> node_TERAPEUTICKYPOTENCIA
+    node_TERAPEUTICKYPOTENCIA --> node_mGluR2PAMAntipsychot
+    node_mGluR2PAMAntipsychot --> node_mGluR2NAMPotenciacep
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 mGluR2 A PSYCHEDELIKA
 =====================
@@ -285,6 +435,8 @@ TERAPEUTICKY POTENCIAL:
 mGluR2 PAM -> Antipsychoticky ucinek
 mGluR2 NAM -> Potenciace psychedelickeho ucinku (?)
 ```
+
+</details>
 
 ### mGluR modulatory ve vyzkumu
 
@@ -324,6 +476,48 @@ Ackoliv psychedelika pusobi primarne na ortosterickem miste [5-HT2A receptoru](@
 
 [Sigma-1 receptor](@/receptors/sigma-1.md) je unikatni intracelularni chaperon ovlivneny [DMT](@/alkaloids/dmt.md):
 
+```mermaid
+flowchart TD
+    node_SIGMA1RECEPTORCHAPER["SIGMA-1 RECEPTOR - CHAPERON MECHANISMUS"]
+    node_Sigma1receptorjeloka["Sigma-1 receptor je lokalizovan na ER-mitochondrialni membrane:"]
+    node_ERMEMBRANA["ER MEMBRANA"]
+    node_Sigma1receptor["Sigma-1 receptor"]
+    node_bezligandu["bez ligandu:"]
+    node_BiPvazeinaktivni["BiP vaze inaktivni"]
+    node_SDMTagonistou["S DMT/agonistou:"]
+    node_BiPseuvolni["BiP se uvolni"]
+    node_Sigma1seoligom["Sigma-1 se oligom."]
+    node_CHAPERONfunkce["CHAPERON funkce:"]
+    node_IP3Rstabilizace["- IP3R stabilizace"]
+    node_Ca2signalizace["- Ca2+ signalizace"]
+    node_Neuroprotekce["- Neuroprotekce"]
+    node_Antiapoptoticke["- Antiapoptoticke"]
+    node_MAMERmitojunkce["MAM ER-mito junkce"]
+
+    node_SIGMA1RECEPTORCHAPER --> node_Sigma1receptorjeloka
+    node_Sigma1receptorjeloka --> node_ERMEMBRANA
+    node_ERMEMBRANA --> node_Sigma1receptor
+    node_Sigma1receptor --> node_bezligandu
+    node_bezligandu --> node_BiPvazeinaktivni
+    node_BiPvazeinaktivni --> node_SDMTagonistou
+    node_SDMTagonistou --> node_BiPseuvolni
+    node_BiPseuvolni --> node_Sigma1seoligom
+    node_Sigma1seoligom --> node_CHAPERONfunkce
+    node_CHAPERONfunkce --> node_IP3Rstabilizace
+    node_IP3Rstabilizace --> node_Ca2signalizace
+    node_Ca2signalizace --> node_Neuroprotekce
+    node_Neuroprotekce --> node_Antiapoptoticke
+    node_Antiapoptoticke --> node_MAMERmitojunkce
+
+    click node_SIGMA1RECEPTORCHAPER "/receptors/sigma-1/" "SIGMA-1 RECEPTOR - CHAPERON MECHANISMUS"
+    click node_Sigma1receptorjeloka "/receptors/sigma-1/" "Sigma-1 receptor je lokalizovan na ER-mitochondrialni membrane:"
+    click node_Sigma1receptor "/receptors/sigma-1/" "Sigma-1 receptor"
+    click node_SDMTagonistou "/alkaloids/dmt/" "S DMT/agonistou:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SIGMA-1 RECEPTOR - CHAPERON MECHANISMUS
 
@@ -351,6 +545,8 @@ Sigma-1 receptor je lokalizovan na ER-mitochondrialni membrane:
     │   MAM (ER-mito junkce)          │
     └─────────────────────────────────┘
 ```
+
+</details>
 
 | Sigma-1 ligand | Ki (nM) | Typ | Zdroj |
 |---------------|---------|-----|-------|
@@ -399,6 +595,51 @@ Inverzni agonista (NAM):
 
 ### Alostericka doza-odpoved
 
+```mermaid
+flowchart TD
+    node_EFEKTALOSTERICKEHOMO["EFEKT ALOSTERICKEHO MODULATORU NA DOZA-ODPOVED KRIVKU"]
+    node_Odpoved["Odpoved"]
+    node_100PAMAgonistasamNAM["100 |          PAM              Agonista sam     NAM"]
+    node_1ea903a7["/.           .-----.             ."]
+    node_4a23495e["/ .          /       \           ."]
+    node_80["80 |        /   .        /         \         ."]
+    node_585d763e["/     .      /           \       ."]
+    node_60["60 |      /       .    /             \     ."]
+    node_21fda6a7["/         .  /               \   ."]
+    node_40["40 |    /           ./                 \ ."]
+    node_198c25d2["/            /                   ."]
+    node_20["20 |  /           ./                   /."]
+    node_d77ab9c0["/          . /                  ./"]
+    node_0["0 |/        .  /                 ./"]
+    node_9822c9d2["+----+----+----+----+----+----+----&gt;"]
+    node_PAMPosunujekrivkuDOL["PAM: Posunuje krivku DOLEVA zvysena citlivost"]
+    node_MuzezvysitEmaxnekter["Muze zvysit Emax nekterych agonistů"]
+    node_NAMPosunujekrivkuDOP["NAM: Posunuje krivku DOPRAVA snizena citlivost"]
+    node_MuzesnizitEmax["Muze snizit Emax"]
+
+    node_EFEKTALOSTERICKEHOMO --> node_Odpoved
+    node_Odpoved --> node_100PAMAgonistasamNAM
+    node_100PAMAgonistasamNAM --> node_1ea903a7
+    node_1ea903a7 --> node_4a23495e
+    node_4a23495e --> node_80
+    node_80 --> node_585d763e
+    node_585d763e --> node_60
+    node_60 --> node_21fda6a7
+    node_21fda6a7 --> node_40
+    node_40 --> node_198c25d2
+    node_198c25d2 --> node_20
+    node_20 --> node_d77ab9c0
+    node_d77ab9c0 --> node_0
+    node_0 --> node_9822c9d2
+    node_9822c9d2 --> node_PAMPosunujekrivkuDOL
+    node_PAMPosunujekrivkuDOL --> node_MuzezvysitEmaxnekter
+    node_MuzezvysitEmaxnekter --> node_NAMPosunujekrivkuDOP
+    node_NAMPosunujekrivkuDOP --> node_MuzesnizitEmax
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 EFEKT ALOSTERICKEHO MODULATORU NA DOZA-ODPOVED KRIVKU
 
@@ -424,6 +665,8 @@ PAM: Posunuje krivku DOLEVA (zvysena citlivost)
 NAM: Posunuje krivku DOPRAVA (snizena citlivost)
      Muze snizit Emax
 ```
+
+</details>
 
 ---
 
@@ -465,7 +708,6 @@ NAM: Posunuje krivku DOPRAVA (snizena citlivost)
 Viz take:
 - [GABA-A receptor](@/receptors/gaba-a.md) - Hlavni alostericky modulovany receptor
 - [NMDA receptor](@/receptors/nmda.md) - Glutamatovy receptor s modulacnimi misty
-- [Muscimol](@/alkaloids/muscimol.md) - Primy GABA-A agonista (ne modulator)
 - [Receptorova kinetika](@/mechanisms/receptor-binding.md) - Vazebne parametry
 - [Signalni transdukce](@/mechanisms/signal-transduction.md) - Downstream efekty
 

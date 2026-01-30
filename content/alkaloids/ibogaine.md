@@ -41,6 +41,29 @@ zdroje = ["Tabernanthe iboga", "Voacanga africana"]
 
 ### Strukturni diagram
 
+```mermaid
+flowchart TD
+    node_OCH3["OCH3"]
+    node_C["+-----C-----+"]
+    node_Indol["Indol"]
+    node_33546275["/   \"]
+    node_30d3d9ad["/     \"]
+    node_e481c146["/       \"]
+    node_Izochinolin["Izochinolin"]
+    node_C2H5["C2H5"]
+
+    node_OCH3 --> node_C
+    node_C --> node_Indol
+    node_Indol --> node_33546275
+    node_33546275 --> node_30d3d9ad
+    node_30d3d9ad --> node_e481c146
+    node_e481c146 --> node_Izochinolin
+    node_Izochinolin --> node_C2H5
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
          OCH3
           |
@@ -56,6 +79,8 @@ zdroje = ["Tabernanthe iboga", "Voacanga africana"]
         |
        C2H5
 ```
+
+</details>
 
 ---
 
@@ -124,6 +149,43 @@ Lotsof stravil zbytek zivota propagaci ibogainu jako lecby zavislosti a ziskal p
 
 ### Mechanismus anti-zavislostniho ucinku
 
+```mermaid
+flowchart TD
+    node_IBOGAIN["IBOGAIN"]
+    node_Komplexnireceptorova["Komplexni receptorova interakce"]
+    node_NMDAblokada["+---&gt; NMDA blokada"]
+    node_Neuroplasticita["Neuroplasticita"]
+    node_podobneketaminu["podobne ketaminu"]
+    node_Kappaopioidniagonism["+---&gt; Kappa opioidni agonismus"]
+    node_Dysforickavize["Dysforicka 'vize'"]
+    node_Introspekce["Introspekce"]
+    node_SERTinhibice["+---&gt; SERT inhibice"]
+    node_Serotoninergniefekt["Serotoninergni efekt"]
+    node_UpregulaceGDNF["+---&gt; Upregulace GDNF"]
+    node_Obnovadopaminergnhos["Obnova dopaminergního systemu"]
+    node_SNIZENICRAVINGUAABST["SNIZENI CRAVINGU A ABSTINENČNÍCH PRIZNAKU"]
+
+    node_IBOGAIN --> node_Komplexnireceptorova
+    node_Komplexnireceptorova --> node_NMDAblokada
+    node_NMDAblokada --> node_Neuroplasticita
+    node_Neuroplasticita --> node_podobneketaminu
+    node_podobneketaminu --> node_Kappaopioidniagonism
+    node_Kappaopioidniagonism --> node_Dysforickavize
+    node_Dysforickavize --> node_Introspekce
+    node_Introspekce --> node_SERTinhibice
+    node_SERTinhibice --> node_Serotoninergniefekt
+    node_Serotoninergniefekt --> node_UpregulaceGDNF
+    node_UpregulaceGDNF --> node_Obnovadopaminergnhos
+    node_Obnovadopaminergnhos --> node_SNIZENICRAVINGUAABST
+
+    click node_NMDAblokada "/receptors/nmda/" "+---> NMDA blokada"
+    click node_Neuroplasticita "/glossary/neuroplasticita/" "Neuroplasticita"
+    click node_podobneketaminu "/alkaloids/ketamin/" "podobne ketaminu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 IBOGAIN
     |
@@ -155,6 +217,8 @@ Komplexni receptorova interakce
               v
           SNIZENI CRAVINGU A ABSTINENČNÍCH PRIZNAKU
 ```
+
+</details>
 
 ### Teorie mechanismu
 
@@ -253,6 +317,53 @@ Eliminace (moc)
 
 ### Protokol lecby
 
+```mermaid
+flowchart TD
+    node_PREDLECBOU17dni["PRED LECBOU 1-7 dni"]
+    node_53e1b860["+----------------------------------+"]
+    node_EKGscreeningQTc450ms["EKG screening QTc &lt; 450 ms"]
+    node_Medicinskaevaluace["Medicinska evaluace"]
+    node_Detoxifikaceminimaln["Detoxifikace minimalne"]
+    node_Psychologickapriprav["Psychologicka priprava"]
+    node_IBOGAINOVASESSION243["IBOGAINOVA SESSION 24-36 h"]
+    node_Davka1025mgkgoralne["Davka: 10-25 mg/kg oralne"]
+    node_Kontinualnimonitorin["Kontinualni monitoring"]
+    node_EKGtelemetrie["EKG telemetrie"]
+    node_Hydratace["Hydratace"]
+    node_Minimalnistimulace["Minimalni stimulace"]
+    node_REKONVALESCENCE17dni["REKONVALESCENCE 1-7 dni"]
+    node_Monitoringvitalnichf["Monitoring vitalnich funkci"]
+    node_Postupnamobilizace["Postupna mobilizace"]
+    node_Integracniterapie["Integracni terapie"]
+    node_FOLLOWUPtydnymesice["FOLLOW-UP tydny-mesice"]
+    node_Psychoterapie["Psychoterapie"]
+    node_Podpurneskupiny["Podpurne skupiny"]
+    node_Monitoringrelapsu["Monitoring relapsu"]
+
+    node_PREDLECBOU17dni --> node_53e1b860
+    node_53e1b860 --> node_EKGscreeningQTc450ms
+    node_EKGscreeningQTc450ms --> node_Medicinskaevaluace
+    node_Medicinskaevaluace --> node_Detoxifikaceminimaln
+    node_Detoxifikaceminimaln --> node_Psychologickapriprav
+    node_Psychologickapriprav --> node_IBOGAINOVASESSION243
+    node_IBOGAINOVASESSION243 --> node_Davka1025mgkgoralne
+    node_Davka1025mgkgoralne --> node_Kontinualnimonitorin
+    node_Kontinualnimonitorin --> node_EKGtelemetrie
+    node_EKGtelemetrie --> node_Hydratace
+    node_Hydratace --> node_Minimalnistimulace
+    node_Minimalnistimulace --> node_REKONVALESCENCE17dni
+    node_REKONVALESCENCE17dni --> node_Monitoringvitalnichf
+    node_Monitoringvitalnichf --> node_Postupnamobilizace
+    node_Postupnamobilizace --> node_Integracniterapie
+    node_Integracniterapie --> node_FOLLOWUPtydnymesice
+    node_FOLLOWUPtydnymesice --> node_Psychoterapie
+    node_Psychoterapie --> node_Podpurneskupiny
+    node_Podpurneskupiny --> node_Monitoringrelapsu
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PRED LECBOU (1-7 dni)
 +----------------------------------+
@@ -288,6 +399,8 @@ FOLLOW-UP (tydny-mesice)
 | Monitoring relapsu               |
 +----------------------------------+
 ```
+
+</details>
 
 ### Klinicka evidence
 

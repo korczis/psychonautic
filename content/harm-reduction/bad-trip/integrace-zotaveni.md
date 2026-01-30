@@ -139,6 +139,47 @@ PECE:
 
 ### Faze Integrace
 
+```mermaid
+flowchart TD
+    node_INTEGRACNIPROCES["INTEGRACNI PROCES:"]
+    node_AKUTNI17dni["AKUTNI 1-7 dni"]
+    node_Stabilizace["• Stabilizace"]
+    node_Zkladnpece["• Základní pece"]
+    node_Nenutitzpracovani["• Nenutit zpracovani"]
+    node_REFLEKTIVNI14tydny["REFLEKTIVNI 1-4 tydny"]
+    node_Journaling["• Journaling"]
+    node_Sdilenisduvernky["• Sdileni s duverníky"]
+    node_Hledanivzorcu["• Hledani vzorcu"]
+    node_INTEGRATIVNI16mesicu["INTEGRATIVNI 1-6 mesicu"]
+    node_Aplikacevivote["• Aplikace v živote"]
+    node_Terapeutickaprace["• Terapeuticka prace"]
+    node_Behavioralnizmeny["• Behavioralni zmeny"]
+    node_TRANSFORMACNImesicer["TRANSFORMACNI mesice-roky"]
+    node_Dlouhodobezmeny["• Dlouhodobe zmeny"]
+    node_Novaperspektiva["• Nova perspektiva"]
+    node_Posttraumatickrust["• Post-traumatický rust"]
+
+    node_INTEGRACNIPROCES --> node_AKUTNI17dni
+    node_AKUTNI17dni --> node_Stabilizace
+    node_Stabilizace --> node_Zkladnpece
+    node_Zkladnpece --> node_Nenutitzpracovani
+    node_Nenutitzpracovani --> node_REFLEKTIVNI14tydny
+    node_REFLEKTIVNI14tydny --> node_Journaling
+    node_Journaling --> node_Sdilenisduvernky
+    node_Sdilenisduvernky --> node_Hledanivzorcu
+    node_Hledanivzorcu --> node_INTEGRATIVNI16mesicu
+    node_INTEGRATIVNI16mesicu --> node_Aplikacevivote
+    node_Aplikacevivote --> node_Terapeutickaprace
+    node_Terapeutickaprace --> node_Behavioralnizmeny
+    node_Behavioralnizmeny --> node_TRANSFORMACNImesicer
+    node_TRANSFORMACNImesicer --> node_Dlouhodobezmeny
+    node_Dlouhodobezmeny --> node_Novaperspektiva
+    node_Novaperspektiva --> node_Posttraumatickrust
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 INTEGRACNI PROCES:
 ==================
@@ -163,6 +204,8 @@ TRANSFORMACNI (mesice-roky)
     • Nova perspektiva
     • Post-traumatický rust
 ```
+
+</details>
 
 ### Potencialni Dlouhodobe Nasledky
 

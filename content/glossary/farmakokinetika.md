@@ -63,6 +63,29 @@ ADME PROCESY
 
 ### Casova posloupnost
 
+```mermaid
+flowchart TD
+    node_Podanilatky["Podani latky"]
+    node_ABSORPCE["ABSORPCE"]
+    node_Systemovacirkulace["Systemova cirkulace"]
+    node_DISTRIBUCEMETABOLISM["DISTRIBUCE                                METABOLISMUS"]
+    node_CilovetkaneMetabolit["Cilove tkane                                Metabolity"]
+    node_mozeksvalyaktivninea["mozek, svaly...                           aktivni/neaktivni"]
+    node_EXKRECE["EXKRECE ◄"]
+    node_Eliminacezorganismu["Eliminace z organismu"]
+
+    node_Podanilatky --> node_ABSORPCE
+    node_ABSORPCE --> node_Systemovacirkulace
+    node_Systemovacirkulace --> node_DISTRIBUCEMETABOLISM
+    node_DISTRIBUCEMETABOLISM --> node_CilovetkaneMetabolit
+    node_CilovetkaneMetabolit --> node_mozeksvalyaktivninea
+    node_mozeksvalyaktivninea --> node_EXKRECE
+    node_EXKRECE --> node_Eliminacezorganismu
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Podani latky
      |
@@ -89,6 +112,8 @@ Cilove tkane                                Metabolity          |
                              v
                     Eliminace z organismu
 ```
+
+</details>
 
 ---
 
@@ -136,6 +161,44 @@ Cilove tkane                                Metabolity          |
 
 #### [Psilocybin](@/alkaloids/psilocybin.md) (peroralni)
 
+```mermaid
+flowchart TD
+    node_ABSORPCEPSILOCYBINU["ABSORPCE PSILOCYBINU"]
+    node_Pozitihoubykapsle["Poziti houby/kapsle"]
+    node_ZaludekpH13["Zaludek pH 1-3"]
+    node_TenkestrevopH68["Tenke strevo pH 6-8"]
+    node_Absorpcepsilocybinu["Absorpce psilocybinu"]
+    node_Strevnistena["Strevni stena"]
+    node_DEFOSFORYLACEalkalic["DEFOSFORYLACE alkalicke fosfatazy"]
+    node_PSILOCINaktivniforma["PSILOCIN aktivni forma"]
+    node_PortalnizilaJatraSys["Portalni zila  Jatra  Systemova cirkulace"]
+    node_Tmax6090minut["Tmax: 60-90 minut"]
+    node_Biodostupnostpsilocy["Biodostupnost psilocybinu: ~50%"]
+    node_PsilocybinjePRODRUGa["Psilocybin je PRODRUG - aktivuje se na psilocin"]
+
+    node_ABSORPCEPSILOCYBINU --> node_Pozitihoubykapsle
+    node_Pozitihoubykapsle --> node_ZaludekpH13
+    node_ZaludekpH13 --> node_TenkestrevopH68
+    node_TenkestrevopH68 --> node_Absorpcepsilocybinu
+    node_Absorpcepsilocybinu --> node_Strevnistena
+    node_Strevnistena --> node_DEFOSFORYLACEalkalic
+    node_DEFOSFORYLACEalkalic --> node_PSILOCINaktivniforma
+    node_PSILOCINaktivniforma --> node_PortalnizilaJatraSys
+    node_PortalnizilaJatraSys --> node_Tmax6090minut
+    node_Tmax6090minut --> node_Biodostupnostpsilocy
+    node_Biodostupnostpsilocy --> node_PsilocybinjePRODRUGa
+
+    click node_ABSORPCEPSILOCYBINU "/alkaloids/psilocybin/" "ABSORPCE PSILOCYBINU"
+    click node_Absorpcepsilocybinu "/alkaloids/psilocybin/" "Absorpce psilocybinu"
+    click node_DEFOSFORYLACEalkalic "/glossary/fosfat/" "DEFOSFORYLACE alkalicke fosfatazy"
+    click node_PSILOCINaktivniforma "/alkaloids/psilocin/" "PSILOCIN aktivni forma"
+    click node_Biodostupnostpsilocy "/alkaloids/psilocybin/" "Biodostupnost psilocybinu: ~50%"
+    click node_PsilocybinjePRODRUGa "/alkaloids/psilocybin/" "Psilocybin je PRODRUG - aktivuje se na psilocin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ABSORPCE PSILOCYBINU
 
@@ -163,6 +226,8 @@ Biodostupnost psilocybinu: ~50%
 (Psilocybin je PRODRUG - aktivuje se na psilocin)
 ```
 
+</details>
+
 #### [DMT](@/alkaloids/dmt.md) (ruzne cesty)
 
 | Cesta | Tmax | Trvani | Poznamka |
@@ -174,6 +239,33 @@ Biodostupnost psilocybinu: ~50%
 | **Intramuskulari** | 5-10 min | 45-60 min | Bioegkvivalentni vapovani |
 
 #### [LSD](@/alkaloids/lsd.md) (sublingualni/peroralni)
+
+```mermaid
+flowchart TD
+    node_ABSORPCELSD["ABSORPCE LSD"]
+    node_Blotterpaperpodjazyk["Blotter paper pod jazyk/spolknuto"]
+    node_Sublingualniabsorpce["Sublingualni absorpce 20-30%"]
+    node_Systemovacirkulaceob["Systemova cirkulace obchazi first-pass"]
+    node_Peroralniabsorpce708["Peroralni absorpce 70-80%"]
+    node_TenkestrevoJatramini["Tenke strevo  Jatra minimalny first-pass"]
+    node_Systemovacirkulace["Systemova cirkulace"]
+    node_Tmax1525hodiny["Tmax: 1.5-2.5 hodiny"]
+    node_Biodostupnost70odhad["Biodostupnost: ~70% odhadem, nedostatek dat"]
+
+    node_ABSORPCELSD --> node_Blotterpaperpodjazyk
+    node_Blotterpaperpodjazyk --> node_Sublingualniabsorpce
+    node_Sublingualniabsorpce --> node_Systemovacirkulaceob
+    node_Systemovacirkulaceob --> node_Peroralniabsorpce708
+    node_Peroralniabsorpce708 --> node_TenkestrevoJatramini
+    node_TenkestrevoJatramini --> node_Systemovacirkulace
+    node_Systemovacirkulace --> node_Tmax1525hodiny
+    node_Tmax1525hodiny --> node_Biodostupnost70odhad
+
+    click node_ABSORPCELSD "/alkaloids/lsd/" "ABSORPCE LSD"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ABSORPCE LSD
@@ -197,6 +289,8 @@ Tmax: 1.5-2.5 hodiny
 Biodostupnost: ~70% (odhadem, nedostatek dat)
 ```
 
+</details>
+
 ---
 
 ## Biodostupnost (F)
@@ -204,6 +298,21 @@ Biodostupnost: ~70% (odhadem, nedostatek dat)
 ### Definice
 
 **Biodostupnost (F)** je podil podane davky, ktery dosahne systemove cirkulace v nezmenene forme. Vyjadruje se jako procento nebo desetinne cislo (0-1).
+
+```mermaid
+flowchart TD
+    node_AUCperoralni["AUC peroralni"]
+    node_Fx100["F  =    x 100%"]
+    node_AUCiv["AUC i.v."]
+    node_AUCAreaUnderCurveplo["AUC = Area Under Curve plocha pod krivkou koncentrace-cas"]
+
+    node_AUCperoralni --> node_Fx100
+    node_Fx100 --> node_AUCiv
+    node_AUCiv --> node_AUCAreaUnderCurveplo
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
             AUC (peroralni)
@@ -213,11 +322,46 @@ Biodostupnost: ~70% (odhadem, nedostatek dat)
 AUC = Area Under Curve (plocha pod krivkou koncentrace-cas)
 ```
 
+</details>
+
 ### Faktory snizujici biodostupnost
 
 #### First-pass metabolismus
 
 **First-pass efekt** (presystemovy metabolismus) je metabolicka premena latky pred dosazenim systemove cirkulace.
+
+```mermaid
+flowchart TD
+    node_FIRSTPASSMETABOLISMU["FIRST-PASS METABOLISMUS"]
+    node_Peroralnipodani["Peroralni podani"]
+    node_Gastrointestinalnitr["Gastrointestinalni trakt"]
+    node_Luminalnmetabolismus["Luminalní metabolismus strevni bakterie"]
+    node_StrevnistenaCYP3A4UG["Strevni stena CYP3A4, UGT"]
+    node_Metabolitysnizeniakt["Metabolity snizeni aktivni latky"]
+    node_Portalnizila["Portalni zila"]
+    node_JATRAhlavnimistofirs["JATRA hlavni misto first-pass"]
+    node_CYP450oxidace["CYP450 oxidace"]
+    node_Konjugaceglukuronida["Konjugace glukuronidace, sulfatace"]
+    node_Reduktaze["Reduktaze"]
+    node_MetabolityNezmeneana["Metabolity + Nezmeneana latka"]
+    node_Systemovacirkulacesn["Systemova cirkulace snizena biodostupnost"]
+
+    node_FIRSTPASSMETABOLISMU --> node_Peroralnipodani
+    node_Peroralnipodani --> node_Gastrointestinalnitr
+    node_Gastrointestinalnitr --> node_Luminalnmetabolismus
+    node_Luminalnmetabolismus --> node_StrevnistenaCYP3A4UG
+    node_StrevnistenaCYP3A4UG --> node_Metabolitysnizeniakt
+    node_Metabolitysnizeniakt --> node_Portalnizila
+    node_Portalnizila --> node_JATRAhlavnimistofirs
+    node_JATRAhlavnimistofirs --> node_CYP450oxidace
+    node_CYP450oxidace --> node_Konjugaceglukuronida
+    node_Konjugaceglukuronida --> node_Reduktaze
+    node_Reduktaze --> node_MetabolityNezmeneana
+    node_MetabolityNezmeneana --> node_Systemovacirkulacesn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 FIRST-PASS METABOLISMUS
@@ -251,6 +395,8 @@ Metabolity + Nezmeneana latka
 Systemova cirkulace (snizena biodostupnost)
 ```
 
+</details>
+
 #### Priklady first-pass efektu u psychoaktivnich latek
 
 | Latka | Biodostupnost (p.o.) | First-pass | Poznamka |
@@ -264,6 +410,29 @@ Systemova cirkulace (snizena biodostupnost)
 | **Ketamin** | 17-29% | Vysoky (CYP3A4, 2B6) | Norketamin je aktivni |
 
 ### Biodostupnost podle cesty podani
+
+```mermaid
+flowchart TD
+    node_RELATIVNIBIODOSTUPNO["RELATIVNI BIODOSTUPNOST"]
+    node_100Intravenoznidefin["100%  ████████████████████████████████  Intravenozni definice"]
+    node_80Intramuskulrn["80%  ████████████████████████          Intramuskulární"]
+    node_60Sublingualnivaha["60%  ██████████████████                Sublingualni vaha"]
+    node_40Peroralniprumer["40%  ████████████████                  Peroralni prumer"]
+    node_20Intranazalnivar["20%  ████████                          Intranazalni var."]
+    node_0["0%"]
+    node_ivimslpoin["i.v.    i.m.    s.l.   p.o.    i.n."]
+
+    node_RELATIVNIBIODOSTUPNO --> node_100Intravenoznidefin
+    node_100Intravenoznidefin --> node_80Intramuskulrn
+    node_80Intramuskulrn --> node_60Sublingualnivaha
+    node_60Sublingualnivaha --> node_40Peroralniprumer
+    node_40Peroralniprumer --> node_20Intranazalnivar
+    node_20Intranazalnivar --> node_0
+    node_0 --> node_ivimslpoin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 RELATIVNI BIODOSTUPNOST
@@ -282,6 +451,8 @@ RELATIVNI BIODOSTUPNOST
          i.v.    i.m.    s.l.   p.o.    i.n.
 ```
 
+</details>
+
 ---
 
 ## Distribuce
@@ -293,6 +464,21 @@ RELATIVNI BIODOSTUPNOST
 ### Objem distribuce (Vd)
 
 **Objem distribuce** je teoreticky objem, do ktereho by se musela latka rozpustit, aby koncentrace v tomto objemu odpovídala plazmaticke koncentraci.
+
+```mermaid
+flowchart TD
+    node_Mnozstvilatkyvtele["Mnozstvi latky v tele"]
+    node_Vd["Vd  ="]
+    node_Plazmatickakoncentra["Plazmaticka koncentrace"]
+    node_InterpretaceVd["Interpretace Vd:"]
+
+    node_Mnozstvilatkyvtele --> node_Vd
+    node_Vd --> node_Plazmatickakoncentra
+    node_Plazmatickakoncentra --> node_InterpretaceVd
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
            Mnozstvi latky v tele
@@ -306,6 +492,8 @@ Interpretace Vd:
 - Vd > 70 L:      Extensivni distribuce do tkani (lipofilni latky)
 ```
 
+</details>
+
 ### Faktory ovlivnujici distribuci
 
 #### Vazba na plazmaticke proteiny
@@ -315,6 +503,41 @@ Interpretace Vd:
 | **Albumin** | Kyselé, neutralni | Diazepam (98% vazba) |
 | **alpha-1-kyselý glykoprotein** | Zasadite | Ketamin, LSD |
 | **Lipoproteiny** | Lipofilni | THC |
+
+```mermaid
+flowchart TD
+    node_VOLNAVSVAZANAFRAKCE["VOLNA VS VAZANA FRAKCE"]
+    node_Plazma["Plazma:"]
+    node_LatkaProteinVolnalat["Latka-Protein  ◄►  Volna latka"]
+    node_azanafrakceaktivni["azana frakce              aktivni"]
+    node_9010["90%           ◄►         10%"]
+    node_INAKTIVNIFARMAKO["INAKTIVNI                          FARMAKO-"]
+    node_rezervoarLOGICKY["rezervoar                        LOGICKY"]
+    node_AKTIVNI["▼ AKTIVNI"]
+    node_Prostupdotkan["Prostup do tkaní"]
+    node_Vazbanareceptory["Vazba na receptory"]
+    node_Metabolismus["Metabolismus"]
+    node_Exkrece["Exkrece"]
+    node_PouzeVOLNAfrakcejefa["Pouze VOLNA frakce je farmakologicky aktivni!"]
+
+    node_VOLNAVSVAZANAFRAKCE --> node_Plazma
+    node_Plazma --> node_LatkaProteinVolnalat
+    node_LatkaProteinVolnalat --> node_azanafrakceaktivni
+    node_azanafrakceaktivni --> node_9010
+    node_9010 --> node_INAKTIVNIFARMAKO
+    node_INAKTIVNIFARMAKO --> node_rezervoarLOGICKY
+    node_rezervoarLOGICKY --> node_AKTIVNI
+    node_AKTIVNI --> node_Prostupdotkan
+    node_Prostupdotkan --> node_Vazbanareceptory
+    node_Vazbanareceptory --> node_Metabolismus
+    node_Metabolismus --> node_Exkrece
+    node_Exkrece --> node_PouzeVOLNAfrakcejefa
+
+    click node_Vazbanareceptory "/glossary/receptor/" "Vazba na receptory"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 VOLNA VS VAZANA FRAKCE
@@ -338,6 +561,8 @@ Plazma:
 Pouze VOLNA frakce je farmakologicky aktivni!
 ```
 
+</details>
+
 #### Prostupnost memban
 
 | Membrana | Charakteristika | Latky s dobrym prostupem |
@@ -350,6 +575,31 @@ Pouze VOLNA frakce je farmakologicky aktivni!
 ### Hematoencefalicka bariera (BBB)
 
 **Blood-Brain Barrier (BBB)** je kriticka pro psychoaktivni latky, protoze musi prostoupit do mozku, aby vyvolaly ucinek.
+
+```mermaid
+flowchart TD
+    node_HEMATOENCEFALICKABAR["HEMATOENCEFALICKA BARIERA"]
+    node_KREVkapilara["KREV kapilara"]
+    node_Endotelovebunkytight["Endotelove bunky tight junctions"]
+    node_Bazalnilamina["Bazalni lamina"]
+    node_PericytyAstrocyty["Pericyty + Astrocyty"]
+    node_MOZEKparenchym["MOZEK parenchym"]
+    node_PROSTUPBBB["PROSTUP BBB:"]
+    node_Prostupi["✓ Prostupi:"]
+    node_Neprostupi["✗ Neprostupi:"]
+
+    node_HEMATOENCEFALICKABAR --> node_KREVkapilara
+    node_KREVkapilara --> node_Endotelovebunkytight
+    node_Endotelovebunkytight --> node_Bazalnilamina
+    node_Bazalnilamina --> node_PericytyAstrocyty
+    node_PericytyAstrocyty --> node_MOZEKparenchym
+    node_MOZEKparenchym --> node_PROSTUPBBB
+    node_PROSTUPBBB --> node_Prostupi
+    node_Prostupi --> node_Neprostupi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 HEMATOENCEFALICKA BARIERA
@@ -384,6 +634,8 @@ PROSTUP BBB:
   - Substráty effluxnich pump (P-glykoprotein)
 ```
 
+</details>
+
 ### Prostup BBB u psychedelik
 
 | Latka | MW (Da) | log P | Prostup BBB | Poznamka |
@@ -405,6 +657,39 @@ PROSTUP BBB:
 **Metabolismus** (biotransformace) je enzymatická premena latek v organismu. Cilem je obvykle prevest lipofilni latky na hydrofilnejsi metabolity, ktere lze snadneji vylouci.
 
 ### Faze metabolismu
+
+```mermaid
+flowchart TD
+    node_DVOUFAZOVYMETABOLISM["DVOU-FAZOVY METABOLISMUS"]
+    node_FAZEIFunkcionalizace["FAZE I Funkcionalizace"]
+    node_OxidaceCYP450["Oxidace CYP450"]
+    node_Redukce["Redukce"]
+    node_Hydrolza["Hydrolýza"]
+    node_Zavedenineboodhaleni["Zavedeni nebo odhaleni funkcnich skupin -OH, -NH2, -COOH"]
+    node_FAZEIIKonjugace["FAZE II Konjugace"]
+    node_GlukuronidaceUGT["Glukuronidace UGT"]
+    node_SulfataceSULT["Sulfatace SULT"]
+    node_AcetylaceNAT["Acetylace NAT"]
+    node_MethylaceCOMTMT["Methylace COMT, MT"]
+    node_Konjugacesglutathion["Konjugace s glutathionem GST"]
+    node_Hydrofilnikonjugatys["Hydrofilni konjugaty snadna exkrece"]
+
+    node_DVOUFAZOVYMETABOLISM --> node_FAZEIFunkcionalizace
+    node_FAZEIFunkcionalizace --> node_OxidaceCYP450
+    node_OxidaceCYP450 --> node_Redukce
+    node_Redukce --> node_Hydrolza
+    node_Hydrolza --> node_Zavedenineboodhaleni
+    node_Zavedenineboodhaleni --> node_FAZEIIKonjugace
+    node_FAZEIIKonjugace --> node_GlukuronidaceUGT
+    node_GlukuronidaceUGT --> node_SulfataceSULT
+    node_SulfataceSULT --> node_AcetylaceNAT
+    node_AcetylaceNAT --> node_MethylaceCOMTMT
+    node_MethylaceCOMTMT --> node_Konjugacesglutathion
+    node_Konjugacesglutathion --> node_Hydrofilnikonjugatys
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DVOU-FAZOVY METABOLISMUS
@@ -429,6 +714,8 @@ FAZE II (Konjugace)
 Hydrofilni konjugaty (snadna exkrece)
 ```
 
+</details>
+
 ### Cytochrom P450 (CYP450)
 
 CYP450 je rodina enzymů zodpovednych za metabolismus vetsiny leciv a xenobiotik.
@@ -445,6 +732,53 @@ CYP450 je rodina enzymů zodpovednych za metabolismus vetsiny leciv a xenobiotik
 | **CYP2B6** | ~5% | Ketamin, metadon |
 
 #### Geneticke polymorfismy CYP2D6
+
+```mermaid
+flowchart TD
+    node_CYP2D6FENOTYPY["CYP2D6 FENOTYPY"]
+    node_ULTRARYCHLIMETABOLIZ["ULTRA-RYCHLI METABOLIZERI UM"]
+    node_510populace["5-10% populace"]
+    node_DuplikacegenuCYP2D6["Duplikace genu CYP2D6"]
+    node_Rychlejsimetabolismu["Rychlejsi metabolismus"]
+    node_RizikoSnizenyucinekp["Riziko: Snizeny ucinek, potreba vyssi davky"]
+    node_EXTENZIVNINORMALNMET["EXTENZIVNI NORMALNÍ METABOLIZERI EM"]
+    node_6580populace["65-80% populace"]
+    node_Normalnifunkcnigen["Normalni funkcni gen"]
+    node_Standardniodpoved["Standardni odpoved"]
+    node_INTERMEDIARNIMETABOL["INTERMEDIARNI METABOLIZERI IM"]
+    node_1015populace["10-15% populace"]
+    node_Snizenaaktivitaheter["Snizena aktivita heterozygoti"]
+    node_Mirnezvysenehladiny["Mirne zvysene hladiny"]
+    node_POMALIMETABOLIZERIPM["POMALI METABOLIZERI PM"]
+    node_510kavkazskepopulace["5-10% kavkazske populace"]
+    node_Nefunkcnigenhomozygo["Nefunkcni gen homozygoti"]
+    node_Vyraznesnizenymetabo["Vyrazne snizeny metabolismus"]
+    node_RizikoToxicitaprodlo["Riziko: Toxicita, prodlouzeny ucinek"]
+    node_Prikladydopadnapsych["Priklady dopad na psychoaktivni latky:"]
+
+    node_CYP2D6FENOTYPY --> node_ULTRARYCHLIMETABOLIZ
+    node_ULTRARYCHLIMETABOLIZ --> node_510populace
+    node_510populace --> node_DuplikacegenuCYP2D6
+    node_DuplikacegenuCYP2D6 --> node_Rychlejsimetabolismu
+    node_Rychlejsimetabolismu --> node_RizikoSnizenyucinekp
+    node_RizikoSnizenyucinekp --> node_EXTENZIVNINORMALNMET
+    node_EXTENZIVNINORMALNMET --> node_6580populace
+    node_6580populace --> node_Normalnifunkcnigen
+    node_Normalnifunkcnigen --> node_Standardniodpoved
+    node_Standardniodpoved --> node_INTERMEDIARNIMETABOL
+    node_INTERMEDIARNIMETABOL --> node_1015populace
+    node_1015populace --> node_Snizenaaktivitaheter
+    node_Snizenaaktivitaheter --> node_Mirnezvysenehladiny
+    node_Mirnezvysenehladiny --> node_POMALIMETABOLIZERIPM
+    node_POMALIMETABOLIZERIPM --> node_510kavkazskepopulace
+    node_510kavkazskepopulace --> node_Nefunkcnigenhomozygo
+    node_Nefunkcnigenhomozygo --> node_Vyraznesnizenymetabo
+    node_Vyraznesnizenymetabo --> node_RizikoToxicitaprodlo
+    node_RizikoToxicitaprodlo --> node_Prikladydopadnapsych
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CYP2D6 FENOTYPY
@@ -477,9 +811,49 @@ Priklady dopad na psychoaktivni latky:
 - Kodein: PM nemaji ucinek (neni konverze na morfin)
 ```
 
+</details>
+
 ### Metabolismus specifickych psychedelik
 
 #### [Psilocybin](@/alkaloids/psilocybin.md) → [Psilocin](@/alkaloids/psilocin.md)
+
+```mermaid
+flowchart TD
+    node_METABOLISMUSPSILOCYB["METABOLISMUS PSILOCYBINU"]
+    node_Psilocybinprodrugnea["Psilocybin prodrug, neaktivni"]
+    node_Alkalickfosfatzastre["Alkalická fosfatáza strevo, jatra"]
+    node_Defosforylace["Defosforylace"]
+    node_PSILOCINaktivni["PSILOCIN aktivni"]
+    node_UGTglukuronidacePsil["UGT glukuronidace ► Psilocin-glukuronid neaktivni"]
+    node_Exkrecemoci["Exkrece moci"]
+    node_MAOAoxidace4hydroxyi["MAO-A oxidace ► 4-hydroxyindol-3-acetaldehyd"]
+    node_Dalsioxidace["Dalsi oxidace"]
+    node_4hydroxyindol3octova["4-hydroxyindol-3-octova kyselina neaktivni"]
+    node_T12psilocinu23hodiny["T1/2 psilocinu: 2-3 hodiny"]
+    node_Hlavnimetabolickaces["Hlavni metabolicka cesta: Glukuronidace"]
+
+    node_METABOLISMUSPSILOCYB --> node_Psilocybinprodrugnea
+    node_Psilocybinprodrugnea --> node_Alkalickfosfatzastre
+    node_Alkalickfosfatzastre --> node_Defosforylace
+    node_Defosforylace --> node_PSILOCINaktivni
+    node_PSILOCINaktivni --> node_UGTglukuronidacePsil
+    node_UGTglukuronidacePsil --> node_Exkrecemoci
+    node_Exkrecemoci --> node_MAOAoxidace4hydroxyi
+    node_MAOAoxidace4hydroxyi --> node_Dalsioxidace
+    node_Dalsioxidace --> node_4hydroxyindol3octova
+    node_4hydroxyindol3octova --> node_T12psilocinu23hodiny
+    node_T12psilocinu23hodiny --> node_Hlavnimetabolickaces
+
+    click node_METABOLISMUSPSILOCYB "/alkaloids/psilocybin/" "METABOLISMUS PSILOCYBINU"
+    click node_Psilocybinprodrugnea "/alkaloids/psilocybin/" "Psilocybin prodrug, neaktivni"
+    click node_Alkalickfosfatzastre "/glossary/fosfat/" "Alkalická fosfatáza strevo, jatra"
+    click node_PSILOCINaktivni "/alkaloids/psilocin/" "PSILOCIN aktivni"
+    click node_UGTglukuronidacePsil "/alkaloids/psilocin/" "UGT glukuronidace ► Psilocin-glukuronid neaktivni"
+    click node_T12psilocinu23hodiny "/alkaloids/psilocin/" "T1/2 psilocinu: 2-3 hodiny"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 METABOLISMUS PSILOCYBINU
@@ -508,7 +882,45 @@ T1/2 psilocinu: 2-3 hodiny
 Hlavni metabolicka cesta: Glukuronidace
 ```
 
+</details>
+
 #### [LSD](@/alkaloids/lsd.md)
+
+```mermaid
+flowchart TD
+    node_METABOLISMUSLSD["METABOLISMUS LSD"]
+    node_LSD["LSD"]
+    node_CYP3A42oxo3hydroxyLS["CYP3A4 ► 2-oxo-3-hydroxy-LSD O-H-LSD"]
+    node_Hlavnimetabolitvmoci["Hlavni metabolit v moci detekce"]
+    node_CYP2D6norLSDdemethyl["CYP2D6 ► nor-LSD demethylace"]
+    node_CYP1A2NdesmethylLSD["CYP1A2 ► N-desmethyl-LSD"]
+    node_GlukuronidaceLSDgluk["Glukuronidace ► LSD-glukuronid"]
+    node_T12LSD35hodin["T1/2 LSD: 3-5 hodin"]
+    node_AktivnimetabolityZad["Aktivni metabolity: Zadne vyznamne"]
+    node_DetekceOHLSDvmocidel["Detekce: O-H-LSD v moci delsi detekční okno"]
+
+    node_METABOLISMUSLSD --> node_LSD
+    node_LSD --> node_CYP3A42oxo3hydroxyLS
+    node_CYP3A42oxo3hydroxyLS --> node_Hlavnimetabolitvmoci
+    node_Hlavnimetabolitvmoci --> node_CYP2D6norLSDdemethyl
+    node_CYP2D6norLSDdemethyl --> node_CYP1A2NdesmethylLSD
+    node_CYP1A2NdesmethylLSD --> node_GlukuronidaceLSDgluk
+    node_GlukuronidaceLSDgluk --> node_T12LSD35hodin
+    node_T12LSD35hodin --> node_AktivnimetabolityZad
+    node_AktivnimetabolityZad --> node_DetekceOHLSDvmocidel
+
+    click node_METABOLISMUSLSD "/alkaloids/lsd/" "METABOLISMUS LSD"
+    click node_LSD "/alkaloids/lsd/" "LSD"
+    click node_CYP3A42oxo3hydroxyLS "/alkaloids/lsd/" "CYP3A4 ► 2-oxo-3-hydroxy-LSD O-H-LSD"
+    click node_CYP2D6norLSDdemethyl "/alkaloids/lsd/" "CYP2D6 ► nor-LSD demethylace"
+    click node_CYP1A2NdesmethylLSD "/alkaloids/lsd/" "CYP1A2 ► N-desmethyl-LSD"
+    click node_GlukuronidaceLSDgluk "/alkaloids/lsd/" "Glukuronidace ► LSD-glukuronid"
+    click node_T12LSD35hodin "/alkaloids/lsd/" "T1/2 LSD: 3-5 hodin"
+    click node_DetekceOHLSDvmocidel "/alkaloids/lsd/" "Detekce: O-H-LSD v moci delsi detekční okno"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 METABOLISMUS LSD
@@ -530,7 +942,56 @@ Aktivni metabolity: Zadne vyznamne
 Detekce: O-H-LSD v moci (delsi detekční okno)
 ```
 
+</details>
+
 #### [DMT](@/alkaloids/dmt.md)
+
+```mermaid
+flowchart TD
+    node_METABOLISMUSDMTbezMA["METABOLISMUS DMT bez MAOI"]
+    node_DMT["DMT"]
+    node_MAOAextenzerychla5mi["MAO-A extenze rychla, &lt;5 min"]
+    node_Indol3acetaldehyd["Indol-3-acetaldehyd"]
+    node_Aldehyddehydrogenaza["Aldehyd dehydrogenaza"]
+    node_Indol3octovakyselina["Indol-3-octova kyselina IAA"]
+    node_Exkrecemoci["Exkrece moci"]
+    node_T12DMTivinhalacne15m["T1/2 DMT i.v./inhalacne: ~15 minut"]
+    node_T12DMTperoralniMAOI1["T1/2 DMT peroralni + MAOI: 1-2 hodiny"]
+    node_DMTMAOINHIBITORAyahu["DMT + MAO INHIBITOR Ayahuasca:"]
+    node_DMTHarmalinHarminMAO["DMT + Harmalin/Harmin MAOI"]
+    node_MAOAINHIBOVANA["MAO-A INHIBOVANA"]
+    node_DMTSystemovacirkulac["DMT  Systemova cirkulace  CNS"]
+    node_T12prodlouzen["T1/2 prodlouzen"]
+    node_Ucinkytrvaji46hodin["Ucinky trvaji 4-6 hodin"]
+    node_Pomalymetabolismusal["Pomaly metabolismus alternativni cesty"]
+
+    node_METABOLISMUSDMTbezMA --> node_DMT
+    node_DMT --> node_MAOAextenzerychla5mi
+    node_MAOAextenzerychla5mi --> node_Indol3acetaldehyd
+    node_Indol3acetaldehyd --> node_Aldehyddehydrogenaza
+    node_Aldehyddehydrogenaza --> node_Indol3octovakyselina
+    node_Indol3octovakyselina --> node_Exkrecemoci
+    node_Exkrecemoci --> node_T12DMTivinhalacne15m
+    node_T12DMTivinhalacne15m --> node_T12DMTperoralniMAOI1
+    node_T12DMTperoralniMAOI1 --> node_DMTMAOINHIBITORAyahu
+    node_DMTMAOINHIBITORAyahu --> node_DMTHarmalinHarminMAO
+    node_DMTHarmalinHarminMAO --> node_MAOAINHIBOVANA
+    node_MAOAINHIBOVANA --> node_DMTSystemovacirkulac
+    node_DMTSystemovacirkulac --> node_T12prodlouzen
+    node_T12prodlouzen --> node_Ucinkytrvaji46hodin
+    node_Ucinkytrvaji46hodin --> node_Pomalymetabolismusal
+
+    click node_METABOLISMUSDMTbezMA "/alkaloids/dmt/" "METABOLISMUS DMT bez MAOI"
+    click node_DMT "/alkaloids/dmt/" "DMT"
+    click node_T12DMTivinhalacne15m "/alkaloids/dmt/" "T1/2 DMT i.v./inhalacne: ~15 minut"
+    click node_T12DMTperoralniMAOI1 "/alkaloids/dmt/" "T1/2 DMT peroralni + MAOI: 1-2 hodiny"
+    click node_DMTMAOINHIBITORAyahu "/alkaloids/dmt/" "DMT + MAO INHIBITOR Ayahuasca:"
+    click node_DMTHarmalinHarminMAO "/alkaloids/dmt/" "DMT + Harmalin/Harmin MAOI"
+    click node_DMTSystemovacirkulac "/alkaloids/dmt/" "DMT  Systemova cirkulace  CNS"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 METABOLISMUS DMT (bez MAOI)
@@ -568,6 +1029,8 @@ DMT + MAO INHIBITOR (Ayahuasca):
 Pomaly metabolismus (alternativni cesty)
 ```
 
+</details>
+
 ### Monoaminooxidaza (MAO)
 
 MAO je klicovy enzym pro metabolismus monoaminovych neurotransmiteru a nekterych psychedelik.
@@ -576,6 +1039,31 @@ MAO je klicovy enzym pro metabolismus monoaminovych neurotransmiteru a nekterych
 |----------|------------|-----------|
 | **MAO-A** | Strevo, jatra, mozek | Serotonin, noradrenalin, DMT, tyramin |
 | **MAO-B** | Mozek, trombocyty | Dopamin, phenylethylamin |
+
+```mermaid
+flowchart TD
+    node_SEROTONINOVYSYNDROMR["SEROTONINOVY SYNDROM - RIZIKO MAO INHIBICE"]
+    node_MAOinhibitorSerotone["MAO inhibitor + Serotonergni latka = NEBEZPECI"]
+    node_Prikladynebezpecnych["Priklady nebezpecnych kombinaci:"]
+    node_MAOISerotonergnilatk["MAOI                    +     Serotonergni latka"]
+    node_HarmalinAyahuascaMDM["Harmalin Ayahuasca    +     MDMA"]
+    node_MoclobemidSSRI["Moclobemid              +     SSRI"]
+    node_PhenelzinTramadol["Phenelzin               +     Tramadol"]
+    node_SyrianrueDXM["Syrian rue              +     DXM"]
+    node_Symptomyserotonineho["Symptomy serotonineho syndromu:"]
+
+    node_SEROTONINOVYSYNDROMR --> node_MAOinhibitorSerotone
+    node_MAOinhibitorSerotone --> node_Prikladynebezpecnych
+    node_Prikladynebezpecnych --> node_MAOISerotonergnilatk
+    node_MAOISerotonergnilatk --> node_HarmalinAyahuascaMDM
+    node_HarmalinAyahuascaMDM --> node_MoclobemidSSRI
+    node_MoclobemidSSRI --> node_PhenelzinTramadol
+    node_PhenelzinTramadol --> node_SyrianrueDXM
+    node_SyrianrueDXM --> node_Symptomyserotonineho
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SEROTONINOVY SYNDROM - RIZIKO MAO INHIBICE
@@ -601,6 +1089,8 @@ Symptomy serotonineho syndromu:
 - V tezkeých pripadech: Krecě, smrt
 ```
 
+</details>
+
 ---
 
 ## Exkrece (Eliminace)
@@ -621,6 +1111,41 @@ Symptomy serotonineho syndromu:
 | **Materskě mleko** | Lipidní difuze | Lipofilni latky |
 
 ### Renalni exkrece
+
+```mermaid
+flowchart TD
+    node_RENALNIEXKRECE["RENALNI EXKRECE"]
+    node_Arteriarenalis["Arteria renalis"]
+    node_GLOMERULUS["GLOMERULUS"]
+    node_GLOMERULARNIFILTRACE["GLOMERULARNI FILTRACE GFR ~125 ml/min"]
+    node_Volnanevazanafrakcel["- Volna nevazana frakce latky"]
+    node_MW20000Da["- MW &lt; 20,000 Da"]
+    node_PROXIMALNITUBULUS["PROXIMALNI TUBULUS"]
+    node_AKTIVNISEKRECEOATOCT["AKTIVNI SEKRECE OAT, OCT transportery"]
+    node_Organickeaniontykonj["- Organicke anionty konjugaty"]
+    node_Organickekationtyamf["- Organicke kationty amfetaminy, ketamin"]
+    node_PASIVNIREABSORPCE["PASIVNI REABSORPCE"]
+    node_Lipofilnineionizovan["- Lipofilni neionizovane formy"]
+    node_ZavisinapHmoci["- Zavisi na pH moci"]
+    node_Konecnamoc["Konecna moc"]
+
+    node_RENALNIEXKRECE --> node_Arteriarenalis
+    node_Arteriarenalis --> node_GLOMERULUS
+    node_GLOMERULUS --> node_GLOMERULARNIFILTRACE
+    node_GLOMERULARNIFILTRACE --> node_Volnanevazanafrakcel
+    node_Volnanevazanafrakcel --> node_MW20000Da
+    node_MW20000Da --> node_PROXIMALNITUBULUS
+    node_PROXIMALNITUBULUS --> node_AKTIVNISEKRECEOATOCT
+    node_AKTIVNISEKRECEOATOCT --> node_Organickeaniontykonj
+    node_Organickeaniontykonj --> node_Organickekationtyamf
+    node_Organickekationtyamf --> node_PASIVNIREABSORPCE
+    node_PASIVNIREABSORPCE --> node_Lipofilnineionizovan
+    node_Lipofilnineionizovan --> node_ZavisinapHmoci
+    node_ZavisinapHmoci --> node_Konecnamoc
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 RENALNI EXKRECE
@@ -656,6 +1181,8 @@ RENALNI EXKRECE
                     Konecna moc
 ```
 
+</details>
+
 #### Vliv pH moci na exkreci
 
 ```
@@ -678,6 +1205,23 @@ Praktický význam:
 
 **Clearance** je objem plazmy, ktery je za jednotku casu zcela ocisten od latky.
 
+```mermaid
+flowchart TD
+    node_Rychlosteliminacemgm["Rychlost eliminace mg/min"]
+    node_CLmlmin["CL ml/min  ="]
+    node_Plazmatickakoncentra["Plazmaticka koncentrace mg/ml"]
+    node_CelkovclearanceCLren["Celková clearance = CL renalni + CL hepatalni + CL jine"]
+    node_Typickehodnoty["Typicke hodnoty:"]
+
+    node_Rychlosteliminacemgm --> node_CLmlmin
+    node_CLmlmin --> node_Plazmatickakoncentra
+    node_Plazmatickakoncentra --> node_CelkovclearanceCLren
+    node_CelkovclearanceCLren --> node_Typickehodnoty
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                  Rychlost eliminace (mg/min)
     CL (ml/min)  =  ────────────────────────────────
@@ -691,6 +1235,8 @@ Typicke hodnoty:
 - GFR: ~125 ml/min (max. renalni CL filtrací)
 ```
 
+</details>
+
 ---
 
 ## Farmakokinetické parametry
@@ -701,6 +1247,39 @@ Typicke hodnoty:
 |----------|----------|-----------------|
 | **Cmax** | Maximalni dosazena koncentrace | Intenzita ucinku, riziko toxicity |
 | **Tmax** | Cas do dosazeni Cmax | Nastup ucinku |
+
+```mermaid
+flowchart TD
+    node_KONCENTRACNIKRIVKA["KONCENTRACNI KRIVKA"]
+    node_Koncentrace["Koncentrace"]
+    node_ngml["ng/ml"]
+    node_Cmax["Cmax●"]
+    node_909dd5a5["╱╲"]
+    node_d881541c["╱  ╲"]
+    node_8455cce0["╱    ╲"]
+    node_fb527cbf["╱      ╲"]
+    node_5ec3d07b["╱        ╲"]
+    node_65e39c05["╱                      ╲"]
+    node_369ee02c["╱                                    ╲"]
+    node_Cas["► Cas"]
+    node_0Tmax["0      Tmax"]
+
+    node_KONCENTRACNIKRIVKA --> node_Koncentrace
+    node_Koncentrace --> node_ngml
+    node_ngml --> node_Cmax
+    node_Cmax --> node_909dd5a5
+    node_909dd5a5 --> node_d881541c
+    node_d881541c --> node_8455cce0
+    node_8455cce0 --> node_fb527cbf
+    node_fb527cbf --> node_5ec3d07b
+    node_5ec3d07b --> node_65e39c05
+    node_65e39c05 --> node_369ee02c
+    node_369ee02c --> node_Cas
+    node_Cas --> node_0Tmax
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KONCENTRACNI KRIVKA
@@ -722,6 +1301,8 @@ Cmax├───────────●────────────�
        0      Tmax
 ```
 
+</details>
+
 ### Priklady Cmax a Tmax u psychedelik
 
 | Latka | Cesta | Tmax | Cmax (typicka davka) |
@@ -737,6 +1318,35 @@ Cmax├───────────●────────────�
 ### Polocas rozpadu (T1/2)
 
 **Polocas** je cas, za ktery koncentrace latky v plazme klesne na polovinu.
+
+```mermaid
+flowchart TD
+    node_POLOCASAELIMINACE["POLOCAS A ELIMINACE"]
+    node_KoncentracePocetT12Z["Koncentrace                     Pocet T1/2    Zbývá"]
+    node_1000100["100%●                          0         100%"]
+    node_50150["50%●                     1          50%"]
+    node_25225["25%●                  2          25%"]
+    node_1253125["12.5●              3         12.5%"]
+    node_6254625["6.25●          4          6.25%"]
+    node_31531["3.1%●      5          3.1%"]
+    node_Cas["► Cas"]
+    node_0T122xT123xT124xT12["0    T1/2   2xT1/2  3xT1/2  4xT1/2"]
+    node_PravidloPo45polocase["Pravidlo: Po 4-5 polocasech je eliminováno &gt;95% latky"]
+
+    node_POLOCASAELIMINACE --> node_KoncentracePocetT12Z
+    node_KoncentracePocetT12Z --> node_1000100
+    node_1000100 --> node_50150
+    node_50150 --> node_25225
+    node_25225 --> node_1253125
+    node_1253125 --> node_6254625
+    node_6254625 --> node_31531
+    node_31531 --> node_Cas
+    node_Cas --> node_0T122xT123xT124xT12
+    node_0T122xT123xT124xT12 --> node_PravidloPo45polocase
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 POLOCAS A ELIMINACE
@@ -759,6 +1369,8 @@ Koncentrace                     Pocet T1/2    Zbývá
 
 Pravidlo: Po 4-5 polocasech je eliminováno >95% latky
 ```
+
+</details>
 
 ### Polocas psychoaktivnich latek
 
@@ -824,6 +1436,33 @@ AUC je ukazatelem:
 
 ### Kriticke interakce s psychoaktivnimi latkami
 
+```mermaid
+flowchart TD
+    node_NEBEZPECNEKOMBINACE["NEBEZPECNE KOMBINACE"]
+    node_KOMBINACERIZIKO["KOMBINACE                    RIZIKO"]
+    node_MAOIMDMASerotoninovy["MAOI + MDMA                  Serotoninovy syndrom smrt"]
+    node_MAOIDXMSerotoninovys["MAOI + DXM                   Serotoninovy syndrom"]
+    node_MAOItramadolSerotoni["MAOI + tramadol              Serotoninovy syndrom"]
+    node_SSRIMDMASnizenucinek["SSRI + MDMA                  Snizený ucinek + neurotoxicita"]
+    node_CYP2D6inhibMDMAZvyse["CYP2D6 inhib. + MDMA         Zvysena toxicita"]
+    node_Benzodiazepinyopioid["Benzodiazepiny + opioidy     Respiracni deprese"]
+    node_Alkoholbenzodiazepin["Alkohol + benzodiazepiny     Respiracní deprese"]
+    node_StimulantyMAOIHypert["Stimulanty + MAOI            Hypertenzni krize"]
+
+    node_NEBEZPECNEKOMBINACE --> node_KOMBINACERIZIKO
+    node_KOMBINACERIZIKO --> node_MAOIMDMASerotoninovy
+    node_MAOIMDMASerotoninovy --> node_MAOIDXMSerotoninovys
+    node_MAOIDXMSerotoninovys --> node_MAOItramadolSerotoni
+    node_MAOItramadolSerotoni --> node_SSRIMDMASnizenucinek
+    node_SSRIMDMASnizenucinek --> node_CYP2D6inhibMDMAZvyse
+    node_CYP2D6inhibMDMAZvyse --> node_Benzodiazepinyopioid
+    node_Benzodiazepinyopioid --> node_Alkoholbenzodiazepin
+    node_Alkoholbenzodiazepin --> node_StimulantyMAOIHypert
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NEBEZPECNE KOMBINACE
 
@@ -841,7 +1480,38 @@ NEBEZPECNE KOMBINACE
 ╚════════════════════════════════════════════════════════════════╝
 ```
 
+</details>
+
 ### Interakce Ayahuascy
+
+```mermaid
+flowchart TD
+    node_AYAHUASCAINTERAKCEMA["AYAHUASCA INTERAKCE MAO-A INHIBICE"]
+    node_Ayahuascaobsahuje["Ayahuasca obsahuje:"]
+    node_KONTRAINDIKOVANELATK["KONTRAINDIKOVANE LATKY:"]
+    node_KategoriePriklady["Kategorie              Priklady"]
+    node_SSRISNRIFluoxetinser["SSRI/SNRI              Fluoxetin, sertralin, venlafaxin"]
+    node_TricyklickaADAmitrip["Tricyklicka AD         Amitriptylin, imipramin"]
+    node_OpioidyTramadoldextr["Opioidy                Tramadol, dextrometorfan, fentanyl"]
+    node_StimulantyMDMAamfeta["Stimulanty             MDMA, amfetaminy, kokain"]
+    node_PotravinytyraminZral["Potraviny tyramin    Zrale syry, vino, fermentovane jidlo"]
+    node_DalsiMAOIMoclobemids["Dalsi MAOI             Moclobemid, selegilin"]
+    node_Doporucenawashoutper["Doporucena wash-out perioda pred Ayahuascou:"]
+
+    node_AYAHUASCAINTERAKCEMA --> node_Ayahuascaobsahuje
+    node_Ayahuascaobsahuje --> node_KONTRAINDIKOVANELATK
+    node_KONTRAINDIKOVANELATK --> node_KategoriePriklady
+    node_KategoriePriklady --> node_SSRISNRIFluoxetinser
+    node_SSRISNRIFluoxetinser --> node_TricyklickaADAmitrip
+    node_TricyklickaADAmitrip --> node_OpioidyTramadoldextr
+    node_OpioidyTramadoldextr --> node_StimulantyMDMAamfeta
+    node_StimulantyMDMAamfeta --> node_PotravinytyraminZral
+    node_PotravinytyraminZral --> node_DalsiMAOIMoclobemids
+    node_DalsiMAOIMoclobemids --> node_Doporucenawashoutper
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 AYAHUASCA INTERAKCE (MAO-A INHIBICE)
@@ -869,6 +1539,8 @@ Doporucena wash-out perioda pred Ayahuascou:
 - Tramadol: 1 tyden
 ```
 
+</details>
+
 ---
 
 ## Specialni populace
@@ -892,6 +1564,29 @@ Doporucena wash-out perioda pred Ayahuascou:
 
 ### Jaterni insuficience
 
+```mermaid
+flowchart TD
+    node_JATERNIINSUFICIENCEA["JATERNI INSUFICIENCE A FARMAKOKINETIKA"]
+    node_Snizenafunkcejater["Snizena funkce jater:"]
+    node_Snizenasyntezaalbumi["Snizena synteza albuminu  Zvysena volna frakce"]
+    node_SnizenaCYPaktivitaSn["Snizena CYP aktivita  Snizeny metabolismus"]
+    node_SnizenyprutokjaterSn["Snizeny prutok jater  Snizena hepatalni clearance"]
+    node_Snizenaprodukcezluci["Snizena produkce zluci  Snizena bilirarni exkrece"]
+    node_Dopad["Dopad:"]
+    node_Doporuceni["Doporuceni:"]
+
+    node_JATERNIINSUFICIENCEA --> node_Snizenafunkcejater
+    node_Snizenafunkcejater --> node_Snizenasyntezaalbumi
+    node_Snizenasyntezaalbumi --> node_SnizenaCYPaktivitaSn
+    node_SnizenaCYPaktivitaSn --> node_SnizenyprutokjaterSn
+    node_SnizenyprutokjaterSn --> node_Snizenaprodukcezluci
+    node_Snizenaprodukcezluci --> node_Dopad
+    node_Dopad --> node_Doporuceni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 JATERNI INSUFICIENCE A FARMAKOKINETIKA
 
@@ -912,6 +1607,8 @@ Doporuceni:
 - Vyhnout se hepatotoxickym latkam
 ```
 
+</details>
+
 ### Renalni insuficience
 
 | GFR (ml/min) | Stadium | Uprava davky |
@@ -927,6 +1624,41 @@ Doporuceni:
 ## Terapeuticky monitoring
 
 ### Terapeuticke rozmezi
+
+```mermaid
+flowchart TD
+    node_TERAPEUTICKEROZMEZI["TERAPEUTICKE ROZMEZI"]
+    node_Koncentrace["Koncentrace"]
+    node_ToxiToxickkoncentrac["Toxi   Toxická koncentrace"]
+    node_642728ef["░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"]
+    node_Cmax["Cmax ●"]
+    node_TERAPEUTICKE["░░░░░░░░░░░╱░░╲░░░░░░░░░░░░░░░░░░░░░░░░░░  TERAPEUTICKE"]
+    node_OKNO["░░░░░░░░░╱░░░░░╲░░░░░░░░░░░░░░░░░░░░░░░░░  OKNO"]
+    node_841d3010["░░░░░░░╱░░░░░░░░╲░░░░░░░░░░░░░░░░░░░░░░░░"]
+    node_Cmin["Cmin ●●"]
+    node_04d1acd2["╱                ╲"]
+    node_Subterepkoncentrace["╱                  ╲  Subterep. koncentrace"]
+    node_Cas["► Cas"]
+    node_0Tmaxdalsidavka["0       Tmax     dalsi davka"]
+    node_Ulateksuzkymterapeut["U latek s uzkym terapeutickym oknem je monitoring kriticky."]
+
+    node_TERAPEUTICKEROZMEZI --> node_Koncentrace
+    node_Koncentrace --> node_ToxiToxickkoncentrac
+    node_ToxiToxickkoncentrac --> node_642728ef
+    node_642728ef --> node_Cmax
+    node_Cmax --> node_TERAPEUTICKE
+    node_TERAPEUTICKE --> node_OKNO
+    node_OKNO --> node_841d3010
+    node_841d3010 --> node_Cmin
+    node_Cmin --> node_04d1acd2
+    node_04d1acd2 --> node_Subterepkoncentrace
+    node_Subterepkoncentrace --> node_Cas
+    node_Cas --> node_0Tmaxdalsidavka
+    node_0Tmaxdalsidavka --> node_Ulateksuzkymterapeut
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TERAPEUTICKE ROZMEZI
@@ -950,6 +1682,8 @@ Cmin ├──────●──────────────●──
 
 U latek s uzkym terapeutickym oknem je monitoring kriticky.
 ```
+
+</details>
 
 ### Latky vyzadujici monitoring
 
@@ -1087,7 +1821,6 @@ Pro kazdeho, kdo se zabyva psychedelickym vyzkumem nebo asistovanou terapii, je 
 - [LSD](@/alkaloids/lsd.md) - Semisynteticke psychedelikum
 - [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
 - [Meskalin](@/alkaloids/mescaline.md) - Kaktusove psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
 
 ### Zdroje
 

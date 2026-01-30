@@ -11,7 +11,6 @@ tags = ["amnézie", "paměť", "hippocampus", "GABA", "muscimol", "benzodiazepin
 
 # Amnézie
 
-**Amnézie** (z řeckého *a-* = bez + *mnesis* = paměť) je částečná nebo úplná **ztráta paměti**. V kontextu psychoaktivních látek je častým jevem u GABAergních látek ([muscimol](@/alkaloids/muscimol.md), benzodiazepiny, alkohol).
 
 ---
 
@@ -20,6 +19,25 @@ tags = ["amnézie", "paměť", "hippocampus", "GABA", "muscimol", "benzodiazepin
 ### Anterográdní amnézie
 
 **Definice**: Neschopnost tvořit **nové vzpomínky** po nástupu amnézie
+
+```mermaid
+flowchart TD
+    node_ANTEROGRDNAMNZIE["ANTEROGRÁDNÍ AMNÉZIE"]
+    node_asovosa["Časová osa"]
+    node_PEDBHEMPO["PŘED              BĚHEM           PO"]
+    node_PamOKAMNZIEPamOK["Paměť OK         AMNÉZIE         Paměť OK"]
+    node_VzpomnkydnnovNov["Vzpomínky         Žádné nové      Nové"]
+    node_zachovnyvzpomnkyvzpo["zachovány         vzpomínky       vzpomínky"]
+
+    node_ANTEROGRDNAMNZIE --> node_asovosa
+    node_asovosa --> node_PEDBHEMPO
+    node_PEDBHEMPO --> node_PamOKAMNZIEPamOK
+    node_PamOKAMNZIEPamOK --> node_VzpomnkydnnovNov
+    node_VzpomnkydnnovNov --> node_zachovnyvzpomnkyvzpo
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ANTEROGRÁDNÍ AMNÉZIE
@@ -35,6 +53,8 @@ ANTEROGRÁDNÍ AMNÉZIE
   zachovány         vzpomínky       vzpomínky
 ```
 
+</details>
+
 | Charakteristika | Popis |
 |-----------------|-------|
 | **Mechanismus** | Narušení konsolidace paměti |
@@ -44,6 +64,23 @@ ANTEROGRÁDNÍ AMNÉZIE
 ### Retrográdní amnézie
 
 **Definice**: Ztráta vzpomínek na události **před** nástupem amnézie
+
+```mermaid
+flowchart TD
+    node_RETROGRDNAMNZIE["RETROGRÁDNÍ AMNÉZIE"]
+    node_asovosa["Časová osa"]
+    node_PEDBHEMPO["PŘED              BĚHEM           PO"]
+    node_ZtracenPotekPamOK["Ztracené         Počátek         Paměť OK"]
+    node_zpomnkyamnzie["zpomínky        amnézie"]
+
+    node_RETROGRDNAMNZIE --> node_asovosa
+    node_asovosa --> node_PEDBHEMPO
+    node_PEDBHEMPO --> node_ZtracenPotekPamOK
+    node_ZtracenPotekPamOK --> node_zpomnkyamnzie
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 RETROGRÁDNÍ AMNÉZIE
@@ -56,6 +93,8 @@ RETROGRÁDNÍ AMNÉZIE
   Ztracené         Počátek         Paměť OK
   vzpomínky        amnézie
 ```
+
+</details>
 
 | Charakteristika | Popis |
 |-----------------|-------|
@@ -77,6 +116,29 @@ RETROGRÁDNÍ AMNÉZIE
 
 ### Hippocampální amnézie
 
+```mermaid
+flowchart TD
+    node_PAMOVKONSOLIDACE["PAMĚŤOVÁ KONSOLIDACE"]
+    node_SenzorickKrtkodobDlo["Senzorická    Krátkodobá      Dlouhodobá"]
+    node_pampampam["paměť          paměť          paměť"]
+    node_SekundyMinutyHodinyr["Sekundy        Minuty         Hodiny-roky"]
+    node_HIPPOCAMPUS["HIPPOCAMPUS"]
+    node_KONSOLIDACE["KONSOLIDACE"]
+    node_GABAergikaBLOKUJ["GABAergika BLOKUJÍ"]
+
+    node_PAMOVKONSOLIDACE --> node_SenzorickKrtkodobDlo
+    node_SenzorickKrtkodobDlo --> node_pampampam
+    node_pampampam --> node_SekundyMinutyHodinyr
+    node_SekundyMinutyHodinyr --> node_HIPPOCAMPUS
+    node_HIPPOCAMPUS --> node_KONSOLIDACE
+    node_KONSOLIDACE --> node_GABAergikaBLOKUJ
+
+    click node_HIPPOCAMPUS "/brain/hippocampus/" "HIPPOCAMPUS"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PAMĚŤOVÁ KONSOLIDACE
 
@@ -91,6 +153,8 @@ Sekundy        Minuty         Hodiny-roky
                  ↓
     GABAergika BLOKUJÍ
 ```
+
+</details>
 
 ### GABA-A receptory a paměť
 
@@ -122,7 +186,6 @@ ANTEROGRÁDNÍ AMNÉZIE
 
 | Látka | Mechanismus | Typ amnézie | Intenzita |
 |-------|-------------|-------------|-----------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | GABA-A agonista | Anterográdní | **Silná** |
 | **Benzodiazepiny** | GABA-A PAM | Anterográdní | Silná |
 | **Alkohol** | GABA-A PAM + NMDA ant. | Anterográdní | Silná |
 | **GHB** | GABA-B + GHB-R | Anterográdní | Silná |
@@ -168,6 +231,31 @@ ANTEROGRÁDNÍ AMNÉZIE
 
 ### Rizikové faktory
 
+```mermaid
+flowchart TD
+    node_RIZIKOVFAKTORYBLACKO["RIZIKOVÉ FAKTORY BLACKOUTU"]
+    node_Dvka["Dávka"]
+    node_VysokVysokriziko["Vysoká ████████  Vysoké riziko"]
+    node_e11df6b9["████████"]
+    node_Stedn["Střední ████████"]
+    node_4c9d0919["████"]
+    node_Nzk["Nízká   ██"]
+    node_Rychlostnstupu["Rychlost nástupu"]
+    node_PomalRychl["Pomalá  Rychlá"]
+
+    node_RIZIKOVFAKTORYBLACKO --> node_Dvka
+    node_Dvka --> node_VysokVysokriziko
+    node_VysokVysokriziko --> node_e11df6b9
+    node_e11df6b9 --> node_Stedn
+    node_Stedn --> node_4c9d0919
+    node_4c9d0919 --> node_Nzk
+    node_Nzk --> node_Rychlostnstupu
+    node_Rychlostnstupu --> node_PomalRychl
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RIZIKOVÉ FAKTORY BLACKOUTU
 
@@ -182,6 +270,8 @@ RIZIKOVÉ FAKTORY BLACKOUTU
                  Rychlost nástupu
               Pomalá → Rychlá
 ```
+
+</details>
 
 | Faktor | Vliv |
 |--------|------|
@@ -232,7 +322,6 @@ RIZIKOVÉ FAKTORY BLACKOUTU
 ## Viz také
 
 ### Látky
-- [Muscimol](@/alkaloids/muscimol.md) - **Silné amnestické efekty**
 - [Účinky muscimolu](@/phenomenology/muscimol-effects.md) - Detailní popis
 - [Ketamin](@/alkaloids/ketamin.md) - Disociativní amnézie
 

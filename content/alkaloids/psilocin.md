@@ -254,6 +254,39 @@ Intracelularni prostor
 
 #### Primarni draha: Gq/11-PLC
 
+```mermaid
+flowchart TD
+    node_Psilocin["Psilocin"]
+    node_5HT2Areceptoraktivac["5-HT2A receptor aktivace"]
+    node_Gq11proteindisociace["Gq/11 protein disociace alfa podjednotky"]
+    node_FosfolipazaCPLCbetaa["Fosfolipaza C PLC-beta aktivace"]
+    node_IP3inositol145trisfo["+---&gt; IP3 inositol-1,4,5-trisfosfat"]
+    node_ERCa2uvolneni["ER Ca2+ uvolneni"]
+    node_CaMKIIaktivace["CaMKII aktivace"]
+    node_Synaptickplasticita["Synaptická plasticita"]
+    node_DAGdiacylglycerol["+---&gt; DAG diacylglycerol"]
+    node_PKCaktivace["PKC aktivace"]
+    node_MAPKERKdraha["MAPK/ERK draha"]
+    node_GenovaexpreseBDNFArc["Genova exprese BDNF, Arc, c-Fos"]
+
+    node_Psilocin --> node_5HT2Areceptoraktivac
+    node_5HT2Areceptoraktivac --> node_Gq11proteindisociace
+    node_Gq11proteindisociace --> node_FosfolipazaCPLCbetaa
+    node_FosfolipazaCPLCbetaa --> node_IP3inositol145trisfo
+    node_IP3inositol145trisfo --> node_ERCa2uvolneni
+    node_ERCa2uvolneni --> node_CaMKIIaktivace
+    node_CaMKIIaktivace --> node_Synaptickplasticita
+    node_Synaptickplasticita --> node_DAGdiacylglycerol
+    node_DAGdiacylglycerol --> node_PKCaktivace
+    node_PKCaktivace --> node_MAPKERKdraha
+    node_MAPKERKdraha --> node_GenovaexpreseBDNFArc
+
+    click node_5HT2Areceptoraktivac "/receptors/5-ht2a/" "5-HT2A receptor aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocin
     |
@@ -288,6 +321,8 @@ Fosfolipaza C (PLC-beta) aktivace
               v
           Genova exprese (BDNF, Arc, c-Fos)
 ```
+
+</details>
 
 #### Sekundarni draha: Beta-arrestin
 
@@ -414,6 +449,25 @@ Vazba na 5-HT2A receptory
 
 #### Faze I reakce
 
+```mermaid
+flowchart TD
+    node_Psilocin["Psilocin"]
+    node_MAOA4Hydroxyindol3ac["+---&gt; MAO-A ---&gt; 4-Hydroxyindol-3-acetaldehyd"]
+    node_ALDH["ALDH"]
+    node_4Hydroxyindol3octova["4-Hydroxyindol-3-octova kyselina 4-HIAA"]
+    node_NespecifickeoxidazyP["+---&gt; Nespecificke oxidazy ---&gt; Psilocin-o-chinon"]
+    node_Modrepolymerydegrada["Modre polymery degradace"]
+
+    node_Psilocin --> node_MAOA4Hydroxyindol3ac
+    node_MAOA4Hydroxyindol3ac --> node_ALDH
+    node_ALDH --> node_4Hydroxyindol3octova
+    node_4Hydroxyindol3octova --> node_NespecifickeoxidazyP
+    node_NespecifickeoxidazyP --> node_Modrepolymerydegrada
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocin
     |
@@ -428,7 +482,24 @@ Psilocin
                                       Modre polymery (degradace)
 ```
 
+</details>
+
 #### Faze II reakce (hlavni eliminacni cesta)
+
+```mermaid
+flowchart TD
+    node_Psilocin["Psilocin"]
+    node_UGT1A10Psilocin4Oglu["+---&gt; UGT1A10 ---&gt; Psilocin-4-O-glukuronid majoritni, 65%"]
+    node_UGT1A9PsilocinNgluku["+---&gt; UGT1A9  ---&gt; Psilocin-N-glukuronid minoritni, 10%"]
+    node_SULT1A3PsilocinOsulf["+---&gt; SULT1A3 ---&gt; Psilocin-O-sulfat minoritni, 5%"]
+
+    node_Psilocin --> node_UGT1A10Psilocin4Oglu
+    node_UGT1A10Psilocin4Oglu --> node_UGT1A9PsilocinNgluku
+    node_UGT1A9PsilocinNgluku --> node_SULT1A3PsilocinOsulf
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Psilocin
@@ -439,6 +510,8 @@ Psilocin
     |
     +---> [SULT1A3] ---> Psilocin-O-sulfat (minoritni, 5%)
 ```
+
+</details>
 
 #### Metabolicke enzymy
 
@@ -1105,4 +1178,3 @@ Fialový/purpurový produkt (indolovy adukt)
 
 ---
 
-Zpet na [Alkaloidy](@/alkaloids/_index.md) | Dalsi: [Muscimol](@/alkaloids/muscimol.md)

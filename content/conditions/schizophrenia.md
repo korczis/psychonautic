@@ -76,6 +76,47 @@ tags = ["schizofrenie", "psychoza", "dopamin", "glutamat", "NMDA", "5-HT2A", "ko
 
 ### Dopaminova hypoteza
 
+```mermaid
+flowchart TD
+    node_DOPAMINOVAHYPOTEZAkl["DOPAMINOVA HYPOTEZA klasicka"]
+    node_POZITIVNISYMPTOMY["POZITIVNI SYMPTOMY:"]
+    node_ddb739e1["+------------------+"]
+    node_Mezolimbicky["Mezolimbicky"]
+    node_system["system"]
+    node_VTANAc["VTA -&gt; NAc"]
+    node_c9d89b87["+--------+---------+"]
+    node_Hyperdopaminergie["Hyperdopaminergie"]
+    node_zvysenaDAtransmise["zvysena DA transmise"]
+    node_Halucinacebludy["Halucinace, bludy"]
+    node_Evidence["Evidence:"]
+    node_NEGATIVNIKOGNITIVNIS["NEGATIVNI/KOGNITIVNI SYMPTOMY:"]
+    node_Mezokortikalni["Mezokortikalni"]
+    node_VTAPFC["VTA -&gt; PFC"]
+    node_Hypodopaminergie["Hypodopaminergie"]
+    node_snizenaDAvPFC["snizena DA v PFC"]
+    node_Negativnsymptomykogn["Negativní symptomy, kognitivni deficity"]
+
+    node_DOPAMINOVAHYPOTEZAkl --> node_POZITIVNISYMPTOMY
+    node_POZITIVNISYMPTOMY --> node_ddb739e1
+    node_ddb739e1 --> node_Mezolimbicky
+    node_Mezolimbicky --> node_system
+    node_system --> node_VTANAc
+    node_VTANAc --> node_c9d89b87
+    node_c9d89b87 --> node_Hyperdopaminergie
+    node_Hyperdopaminergie --> node_zvysenaDAtransmise
+    node_zvysenaDAtransmise --> node_Halucinacebludy
+    node_Halucinacebludy --> node_Evidence
+    node_Evidence --> node_NEGATIVNIKOGNITIVNIS
+    node_NEGATIVNIKOGNITIVNIS --> node_Mezokortikalni
+    node_Mezokortikalni --> node_VTAPFC
+    node_VTAPFC --> node_Hypodopaminergie
+    node_Hypodopaminergie --> node_snizenaDAvPFC
+    node_snizenaDAvPFC --> node_Negativnsymptomykogn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DOPAMINOVA HYPOTEZA (klasicka)
 
@@ -116,7 +157,51 @@ Evidence:
 - Antipsychotika nezlepsuji negativni symptomy
 ```
 
+</details>
+
 ### Glutamatova hypoteza
+
+```mermaid
+flowchart TD
+    node_GLUTAMATOVAHYPOTEZAm["GLUTAMATOVA HYPOTEZA moderna"]
+    node_NMDARECEPTORHYPOFUNK["NMDA RECEPTOR HYPOFUNKCE"]
+    node_ddb739e1["+------------------+"]
+    node_Snizenaaktivita["Snizena aktivita"]
+    node_NMDAreceptoru["NMDA receptoru"]
+    node_kortikolimbicky["kortikolimbicky"]
+    node_c9d89b87["+--------+---------+"]
+    node_dc692126["+----+----+"]
+    node_KortikalniSubkortika["Kortikalni    Subkortikalni"]
+    node_PFCstriatum["PFC         striatum"]
+    node_SnizenaDisinhibice["Snizena       Disinhibice"]
+    node_glutamatovDAneuronu["glutamatová   DA neuronu"]
+    node_transmise["transmise"]
+    node_NegativniPozitivni["Negativni     Pozitivni"]
+    node_symptomysymptomy["symptomy      symptomy"]
+    node_Evidence["Evidence:"]
+
+    node_GLUTAMATOVAHYPOTEZAm --> node_NMDARECEPTORHYPOFUNK
+    node_NMDARECEPTORHYPOFUNK --> node_ddb739e1
+    node_ddb739e1 --> node_Snizenaaktivita
+    node_Snizenaaktivita --> node_NMDAreceptoru
+    node_NMDAreceptoru --> node_kortikolimbicky
+    node_kortikolimbicky --> node_c9d89b87
+    node_c9d89b87 --> node_dc692126
+    node_dc692126 --> node_KortikalniSubkortika
+    node_KortikalniSubkortika --> node_PFCstriatum
+    node_PFCstriatum --> node_SnizenaDisinhibice
+    node_SnizenaDisinhibice --> node_glutamatovDAneuronu
+    node_glutamatovDAneuronu --> node_transmise
+    node_transmise --> node_NegativniPozitivni
+    node_NegativniPozitivni --> node_symptomysymptomy
+    node_symptomysymptomy --> node_Evidence
+
+    click node_NMDARECEPTORHYPOFUNK "/receptors/nmda/" "NMDA RECEPTOR HYPOFUNKCE"
+    click node_NMDAreceptoru "/receptors/nmda/" "NMDA receptoru"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GLUTAMATOVA HYPOTEZA (moderna)
@@ -151,6 +236,8 @@ Evidence:
 - Genetické varianty v NMDA-related genech
 ```
 
+</details>
+
 ### Serotoninova hypoteza
 
 ```
@@ -172,6 +259,37 @@ ale muze exacerbovat symptomy u vulnerabilnich
 ```
 
 ### Integrovany model
+
+```mermaid
+flowchart TD
+    node_INTEGROVANYMODELSCHI["INTEGROVANY MODEL SCHIZOFRENIE"]
+    node_GENETICKAENVIRONMENT["GENETICKA + ENVIRONMENTALNI VULNERABILITA"]
+    node_53e1b860["+----------------------------------+"]
+    node_VyvojovabnormalityCN["Vyvojové abnormality CNS"]
+    node_pruningmyelinizaceko["pruning, myelinizace, konektivita"]
+    node_93c69fc6["+----------------+-----------------+"]
+    node_3c51c5b4["+------------+------------+"]
+    node_GLUTAMATDOPAMINGABA["GLUTAMAT     DOPAMIN      GABA"]
+    node_NMDAMezolimbickaKort["NMDA         Mezolimbicka  Kortikalni"]
+    node_hypofunkcehyperaktiv["hypofunkce   hyperaktivita inhibice"]
+    node_SYMPTOMY["SYMPTOMY:"]
+    node_PozitivniNegativniKo["Pozitivni, Negativni, Kognitivni"]
+
+    node_INTEGROVANYMODELSCHI --> node_GENETICKAENVIRONMENT
+    node_GENETICKAENVIRONMENT --> node_53e1b860
+    node_53e1b860 --> node_VyvojovabnormalityCN
+    node_VyvojovabnormalityCN --> node_pruningmyelinizaceko
+    node_pruningmyelinizaceko --> node_93c69fc6
+    node_93c69fc6 --> node_3c51c5b4
+    node_3c51c5b4 --> node_GLUTAMATDOPAMINGABA
+    node_GLUTAMATDOPAMINGABA --> node_NMDAMezolimbickaKort
+    node_NMDAMezolimbickaKort --> node_hypofunkcehyperaktiv
+    node_hypofunkcehyperaktiv --> node_SYMPTOMY
+    node_SYMPTOMY --> node_PozitivniNegativniKo
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 INTEGROVANY MODEL SCHIZOFRENIE
@@ -200,6 +318,8 @@ hypofunkce   hyperaktivita inhibice
 +----------------------------------+
 ```
 
+</details>
+
 ---
 
 ## Psychedelika a schizofrenie
@@ -216,6 +336,50 @@ hypofunkce   hyperaktivita inhibice
 | **Znemozneni lecby** | Interakce s antipsychotiky |
 
 ### Mechanismus rizika
+
+```mermaid
+flowchart TD
+    node_PROCJSOUPSYCHEDELIKA["PROC JSOU PSYCHEDELIKA NEBEZPECNA U SCHIZOFRENIE"]
+    node_PSYCHEDELIKUMpsilocy["PSYCHEDELIKUM psilocybin, LSD"]
+    node_5HT2Areceptoraktivac["5-HT2A receptor aktivace"]
+    node_Kortikalniglutamatuv["+---&gt; Kortikalni glutamat uvolneni"]
+    node_DezintegraceDMN["+---&gt; Dezintegrace DMN"]
+    node_Zmenapercepce["+---&gt; Zmena percepce"]
+    node_USCHIZOFRENIE["U SCHIZOFRENIE:"]
+    node_ddb739e1["+------------------+"]
+    node_Preexistujici["Preexistujici"]
+    node_dysregulace["dysregulace:"]
+    node_DAGlu5HT["- DA, Glu, 5-HT"]
+    node_Konektivita["- Konektivita"]
+    node_c9d89b87["+--------+---------+"]
+    node_PSYCHEDELIKUMJEBENZI["PSYCHEDELIKUM JE 'BENZIN NA OHEN'"]
+    node_Exacerbacepozitivnic["Exacerbace pozitivnich symptomu"]
+    node_Prolongovanapsychoza["Prolongovana psychoza"]
+    node_Potencialniireverzib["Potencialni ireverzibilni zhorseni"]
+
+    node_PROCJSOUPSYCHEDELIKA --> node_PSYCHEDELIKUMpsilocy
+    node_PSYCHEDELIKUMpsilocy --> node_5HT2Areceptoraktivac
+    node_5HT2Areceptoraktivac --> node_Kortikalniglutamatuv
+    node_Kortikalniglutamatuv --> node_DezintegraceDMN
+    node_DezintegraceDMN --> node_Zmenapercepce
+    node_Zmenapercepce --> node_USCHIZOFRENIE
+    node_USCHIZOFRENIE --> node_ddb739e1
+    node_ddb739e1 --> node_Preexistujici
+    node_Preexistujici --> node_dysregulace
+    node_dysregulace --> node_DAGlu5HT
+    node_DAGlu5HT --> node_Konektivita
+    node_Konektivita --> node_c9d89b87
+    node_c9d89b87 --> node_PSYCHEDELIKUMJEBENZI
+    node_PSYCHEDELIKUMJEBENZI --> node_Exacerbacepozitivnic
+    node_Exacerbacepozitivnic --> node_Prolongovanapsychoza
+    node_Prolongovanapsychoza --> node_Potencialniireverzib
+
+    click node_PSYCHEDELIKUMpsilocy "/alkaloids/psilocybin/" "PSYCHEDELIKUM psilocybin, LSD"
+    click node_5HT2Areceptoraktivac "/receptors/5-ht2a/" "5-HT2A receptor aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PROC JSOU PSYCHEDELIKA NEBEZPECNA U SCHIZOFRENIE
@@ -247,6 +411,8 @@ Exacerbace pozitivnich symptomu
 Prolongovana psychoza
 Potencialni ireverzibilni zhorseni
 ```
+
+</details>
 
 ### Screeningove otazky
 

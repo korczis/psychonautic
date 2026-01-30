@@ -68,6 +68,41 @@ Dusledky:
 
 ### Vztah k jinym arylcyklohexylaminům
 
+```mermaid
+flowchart TD
+    node_FENYLCYKLOHEXYLPIPER["FENYLCYKLOHEXYLPIPERIDINY A DERIVÁTY"]
+    node_PCPFencyklidin["PCP Fencyklidin"]
+    node_Ketamin2ClNmethyl["+---&gt; Ketamin 2-Cl, N-methyl"]
+    node_EsketaminSisomer["+---&gt; Esketamin S-isomer"]
+    node_Tiletaminveterinrn["+---&gt; Tiletamin veterinární"]
+    node_MXE3OMeNethyl["+---&gt; MXE 3-OMe, N-ethyl"]
+    node_3MeOPCPbezketonu["+---&gt; 3-MeO-PCP bez ketonu"]
+    node_DeschloroketaminbezC["+---&gt; Deschloroketamin bez Cl"]
+    node_PCENethylPCP["+---&gt; PCE N-ethyl-PCP"]
+    node_3HOPCP3hydroxyPCP["+---&gt; 3-HO-PCP 3-hydroxy-PCP"]
+
+    node_FENYLCYKLOHEXYLPIPER --> node_PCPFencyklidin
+    node_PCPFencyklidin --> node_Ketamin2ClNmethyl
+    node_Ketamin2ClNmethyl --> node_EsketaminSisomer
+    node_EsketaminSisomer --> node_Tiletaminveterinrn
+    node_Tiletaminveterinrn --> node_MXE3OMeNethyl
+    node_MXE3OMeNethyl --> node_3MeOPCPbezketonu
+    node_3MeOPCPbezketonu --> node_DeschloroketaminbezC
+    node_DeschloroketaminbezC --> node_PCENethylPCP
+    node_PCENethylPCP --> node_3HOPCP3hydroxyPCP
+
+    click node_PCPFencyklidin "/substances/pcp/" "PCP Fencyklidin"
+    click node_Ketamin2ClNmethyl "/alkaloids/ketamin/" "+---> Ketamin 2-Cl, N-methyl"
+    click node_EsketaminSisomer "/alkaloids/ketamin/" "+---> Esketamin S-isomer"
+    click node_3MeOPCPbezketonu "/substances/pcp/" "+---> 3-MeO-PCP bez ketonu"
+    click node_DeschloroketaminbezC "/alkaloids/ketamin/" "+---> Deschloroketamin bez Cl"
+    click node_PCENethylPCP "/substances/pcp/" "+---> PCE N-ethyl-PCP"
+    click node_3HOPCP3hydroxyPCP "/substances/pcp/" "+---> 3-HO-PCP 3-hydroxy-PCP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FENYLCYKLOHEXYLPIPERIDINY A DERIVÁTY
 
@@ -89,6 +124,8 @@ PCP (Fencyklidin)
  |
  +---> 3-HO-PCP (3-hydroxy-PCP)
 ```
+
+</details>
 
 ---
 
@@ -191,6 +228,50 @@ VLNA DESIGNER DISOCIATIV (2010-2015)
 
 ### Mechanismus ucinku
 
+```mermaid
+flowchart TD
+    node_MXE["MXE"]
+    node_NMDAreceptorantagoni["+---&gt; NMDA receptor antagonismus"]
+    node_Disociativnistavy["Disociativni stavy"]
+    node_Analgzie["Analgézie"]
+    node_NeuroplasticitaAMPAB["Neuroplasticita AMPA  BDNF"]
+    node_SERTinhibice["+---&gt; SERT inhibice"]
+    node_Zvysenysynaptickyser["Zvyseny synapticky serotonin"]
+    node_Empatogennkomponenta["'Empatogenní' komponenta"]
+    node_Prodlouzenyucinek["Prodlouzeny ucinek"]
+    node_Rizikoserotoninsyndr["Riziko: serotonin syndrom, manie"]
+    node_Sigma1agonismus["+---&gt; Sigma-1 agonismus"]
+    node_Neuroprotekce["Neuroprotekce"]
+    node_Modulacejinychrecept["Modulace jinych receptoru"]
+    node_Opioidniaktivitaslab["+---&gt; Opioidni aktivita slabá"]
+    node_Mrnanalgezie["Mírná analgezie"]
+    node_Euforie["Euforie"]
+
+    node_MXE --> node_NMDAreceptorantagoni
+    node_NMDAreceptorantagoni --> node_Disociativnistavy
+    node_Disociativnistavy --> node_Analgzie
+    node_Analgzie --> node_NeuroplasticitaAMPAB
+    node_NeuroplasticitaAMPAB --> node_SERTinhibice
+    node_SERTinhibice --> node_Zvysenysynaptickyser
+    node_Zvysenysynaptickyser --> node_Empatogennkomponenta
+    node_Empatogennkomponenta --> node_Prodlouzenyucinek
+    node_Prodlouzenyucinek --> node_Rizikoserotoninsyndr
+    node_Rizikoserotoninsyndr --> node_Sigma1agonismus
+    node_Sigma1agonismus --> node_Neuroprotekce
+    node_Neuroprotekce --> node_Modulacejinychrecept
+    node_Modulacejinychrecept --> node_Opioidniaktivitaslab
+    node_Opioidniaktivitaslab --> node_Mrnanalgezie
+    node_Mrnanalgezie --> node_Euforie
+
+    click node_NMDAreceptorantagoni "/receptors/nmda/" "+---> NMDA receptor antagonismus"
+    click node_Zvysenysynaptickyser "/glossary/serotonin/" "Zvyseny synapticky serotonin"
+    click node_Rizikoserotoninsyndr "/glossary/serotonin/" "Riziko: serotonin syndrom, manie"
+    click node_Sigma1agonismus "/receptors/sigma-1/" "+---> Sigma-1 agonismus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MXE
  |
@@ -221,6 +302,8 @@ MXE
        Mírná analgezie
        Euforie
 ```
+
+</details>
 
 ---
 
@@ -382,6 +465,33 @@ MXE je POTENTNI SERT INHIBITOR - kombinace jsou NEBEZPECNE:
 
 MXE je spojeny s vyraznejsim rizikem manie nez ketamin:
 
+```mermaid
+flowchart TD
+    node_MXESERTINHIBICE["MXE SERT INHIBICE"]
+    node_Zvysenysynapticky5HT["Zvyseny synapticky 5-HT"]
+    node_Uvulnerabilnchjedinc["+---&gt; U vulnerabilních jedincu"]
+    node_Manickaepizoda["Manicka epizoda"]
+    node_Grandiozita["- Grandiozita"]
+    node_Snizenapotrebaspanku["- Snizena potreba spanku"]
+    node_Zrychlenemysleni["- Zrychlene mysleni"]
+    node_Impulzivita["- Impulzivita"]
+    node_Prolongovanapsychoza["+---&gt; Prolongovana psychoza"]
+    node_Tydnyazmesice["Tydny az mesice"]
+
+    node_MXESERTINHIBICE --> node_Zvysenysynapticky5HT
+    node_Zvysenysynapticky5HT --> node_Uvulnerabilnchjedinc
+    node_Uvulnerabilnchjedinc --> node_Manickaepizoda
+    node_Manickaepizoda --> node_Grandiozita
+    node_Grandiozita --> node_Snizenapotrebaspanku
+    node_Snizenapotrebaspanku --> node_Zrychlenemysleni
+    node_Zrychlenemysleni --> node_Impulzivita
+    node_Impulzivita --> node_Prolongovanapsychoza
+    node_Prolongovanapsychoza --> node_Tydnyazmesice
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MXE SERT INHIBICE
         |
@@ -402,6 +512,8 @@ Zvyseny synapticky 5-HT
                    v
               Tydny az mesice
 ```
+
+</details>
 
 ### Urologicka toxicita
 

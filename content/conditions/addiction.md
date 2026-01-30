@@ -46,6 +46,51 @@ Posledni dekada prinesla renesanci zajmu o **psychedelika jako lecbu zavislosti*
 
 ### Reward system (mezokortikolimbicky system)
 
+```mermaid
+flowchart TD
+    node_REWARDCIRCUITRY["REWARD CIRCUITRY"]
+    node_PrefrontalnkortexPFC["Prefrontalní kortex PFC"]
+    node_Rozhodovaniinhibice["Rozhodovani, inhibice"]
+    node_glutamat["glutamat"]
+    node_ddb739e1["+------------------+"]
+    node_Nucleus["Nucleus"]
+    node_AccumbensNAcDopamin["Accumbens NAc|&lt;-------- Dopamin"]
+    node_Reward["Reward,"]
+    node_motivace["motivace"]
+    node_0cb77c9d["+--------+--------+"]
+    node_GABA["GABA"]
+    node_Ventralni["Ventralni      |---------+"]
+    node_Tegmentalni["Tegmentalni"]
+    node_AreaVTA["Area VTA"]
+    node_DAneurony["DA neurony"]
+    node_Drogyaktivuji["Drogy aktivuji"]
+    node_8f2e3ec4["+----+----+----+----+"]
+    node_OpioidyKokainAlkohol["Opioidy Kokain Alkohol AMPH"]
+
+    node_REWARDCIRCUITRY --> node_PrefrontalnkortexPFC
+    node_PrefrontalnkortexPFC --> node_Rozhodovaniinhibice
+    node_Rozhodovaniinhibice --> node_glutamat
+    node_glutamat --> node_ddb739e1
+    node_ddb739e1 --> node_Nucleus
+    node_Nucleus --> node_AccumbensNAcDopamin
+    node_AccumbensNAcDopamin --> node_Reward
+    node_Reward --> node_motivace
+    node_motivace --> node_0cb77c9d
+    node_0cb77c9d --> node_GABA
+    node_GABA --> node_Ventralni
+    node_Ventralni --> node_Tegmentalni
+    node_Tegmentalni --> node_AreaVTA
+    node_AreaVTA --> node_DAneurony
+    node_DAneurony --> node_Drogyaktivuji
+    node_Drogyaktivuji --> node_8f2e3ec4
+    node_8f2e3ec4 --> node_OpioidyKokainAlkohol
+
+    click node_AccumbensNAcDopamin "/glossary/dopamin/" "Accumbens NAc|<-------- Dopamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 REWARD CIRCUITRY
 
@@ -78,7 +123,54 @@ REWARD CIRCUITRY
   Opioidy Kokain Alkohol AMPH
 ```
 
+</details>
+
 ### Dopaminova hypoteza
+
+```mermaid
+flowchart TD
+    node_NORMALNIVSZAVISLOSTN["NORMALNI VS. ZAVISLOSTNI STAV"]
+    node_NORMALNI["NORMALNI:"]
+    node_56642846["+-----------------+"]
+    node_Prirodniodmeny["Prirodni odmeny"]
+    node_jidlosex["jidlo, sex"]
+    node_0cb77c9d["+--------+--------+"]
+    node_MirnezvyseniDA["Mirne zvyseni DA"]
+    node_150200baseline["150-200% baseline"]
+    node_Ucenimotivace["Uceni, motivace"]
+    node_Adaptivnichovani["Adaptivni chovani"]
+    node_ZAVISLOST["ZAVISLOST:"]
+    node_Droga["Droga"]
+    node_MasivnizvyseniDA["Masivni zvyseni DA"]
+    node_3001000baseline["300-1000%+ baseline"]
+    node_Hijackingrewardsyste["'Hijacking' reward systemu"]
+    node_DownregulaceD2recept["+---&gt; Downregulace D2 receptoru"]
+    node_Hypofrontalitasnizen["+---&gt; Hypofrontalita snizena PFC"]
+    node_Snizenaodpovednaprir["+---&gt; Snizena odpoved na prirodni odmeny"]
+    node_KOMPULZIVNIUZIVANI["+---&gt; KOMPULZIVNI UZIVANI"]
+
+    node_NORMALNIVSZAVISLOSTN --> node_NORMALNI
+    node_NORMALNI --> node_56642846
+    node_56642846 --> node_Prirodniodmeny
+    node_Prirodniodmeny --> node_jidlosex
+    node_jidlosex --> node_0cb77c9d
+    node_0cb77c9d --> node_MirnezvyseniDA
+    node_MirnezvyseniDA --> node_150200baseline
+    node_150200baseline --> node_Ucenimotivace
+    node_Ucenimotivace --> node_Adaptivnichovani
+    node_Adaptivnichovani --> node_ZAVISLOST
+    node_ZAVISLOST --> node_Droga
+    node_Droga --> node_MasivnizvyseniDA
+    node_MasivnizvyseniDA --> node_3001000baseline
+    node_3001000baseline --> node_Hijackingrewardsyste
+    node_Hijackingrewardsyste --> node_DownregulaceD2recept
+    node_DownregulaceD2recept --> node_Hypofrontalitasnizen
+    node_Hypofrontalitasnizen --> node_Snizenaodpovednaprir
+    node_Snizenaodpovednaprir --> node_KOMPULZIVNIUZIVANI
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NORMALNI VS. ZAVISLOSTNI STAV
@@ -118,6 +210,8 @@ ZAVISLOST:
          +---> KOMPULZIVNI UZIVANI
 ```
 
+</details>
+
 ### Klicove neuroadaptace
 
 | Zmena | Mechanismus | Dusledek |
@@ -129,6 +223,23 @@ ZAVISLOST:
 | **Opioidni deficit** | Endorfinova downregulace | Dysforicky, withdrawal |
 
 ### Tri stadía zavislostního cyklu
+
+```mermaid
+flowchart TD
+    node_BINGEINTOXIKACEWITHD["BINGE/INTOXIKACE &gt; WITHDRAWAL/NEGATIVNI AFEKT"]
+    node_PREOCCUPATIONANTICIP["+&lt; PREOCCUPATION/ANTICIPACE"]
+    node_Stadium1BINGEINTOXIK["Stadium 1: BINGE/INTOXIKACE"]
+    node_Stadium2WITHDRAWALNE["Stadium 2: WITHDRAWAL/NEGATIVNI AFEKT"]
+    node_Stadium3PREOCCUPATIO["Stadium 3: PREOCCUPATION/CRAVING"]
+
+    node_BINGEINTOXIKACEWITHD --> node_PREOCCUPATIONANTICIP
+    node_PREOCCUPATIONANTICIP --> node_Stadium1BINGEINTOXIK
+    node_Stadium1BINGEINTOXIK --> node_Stadium2WITHDRAWALNE
+    node_Stadium2WITHDRAWALNE --> node_Stadium3PREOCCUPATIO
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 BINGE/INTOXIKACE ──────> WITHDRAWAL/NEGATIVNI AFEKT
@@ -152,6 +263,8 @@ Stadium 3: PREOCCUPATION/CRAVING
 - PFC, hipokampus
 - Glutamat
 ```
+
+</details>
 
 ---
 
@@ -188,6 +301,55 @@ Stadium 3: PREOCCUPATION/CRAVING
 
 ### Mechanismy ucinku
 
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAVLECBEZA["PSYCHEDELIKA V LECBE ZAVISLOSTI"]
+    node_PsilocybinLSDIbogain["Psilocybin/LSD/Ibogain"]
+    node_643d4c09["+--------------------+"]
+    node_5HT2Aaktivacepsilocy["5-HT2A aktivace    |  psilocybin, LSD"]
+    node_KORaktivaceibogain["KOR aktivace       |  ibogain"]
+    node_NMDAmodulaceketamini["NMDA modulace      |  ketamin, ibogain"]
+    node_dc692126["+----+----+"]
+    node_AkutniNeurobiologick["Akutni      Neurobiologicke"]
+    node_efektyefekty["efekty      efekty"]
+    node_MystickeBDNFneuropla["Mysticke    BDNF/neuroplasticita"]
+    node_zazitkySynaptogeneze["zazitky     Synaptogeneze"]
+    node_PsychoResetreward["Psycho-     'Reset' reward"]
+    node_logickycircuitry["logicky     circuitry"]
+    node_insight["insight"]
+    node_4f76f3cc["+------+------+"]
+    node_SNIZENICRAVINGU["SNIZENI CRAVINGU"]
+    node_ZVYSENAABSTINENCE["ZVYSENA ABSTINENCE"]
+    node_ZMENAHODNOTPRIORITY["ZMENA HODNOT/PRIORITY"]
+
+    node_PSYCHEDELIKAVLECBEZA --> node_PsilocybinLSDIbogain
+    node_PsilocybinLSDIbogain --> node_643d4c09
+    node_643d4c09 --> node_5HT2Aaktivacepsilocy
+    node_5HT2Aaktivacepsilocy --> node_KORaktivaceibogain
+    node_KORaktivaceibogain --> node_NMDAmodulaceketamini
+    node_NMDAmodulaceketamini --> node_dc692126
+    node_dc692126 --> node_AkutniNeurobiologick
+    node_AkutniNeurobiologick --> node_efektyefekty
+    node_efektyefekty --> node_MystickeBDNFneuropla
+    node_MystickeBDNFneuropla --> node_zazitkySynaptogeneze
+    node_zazitkySynaptogeneze --> node_PsychoResetreward
+    node_PsychoResetreward --> node_logickycircuitry
+    node_logickycircuitry --> node_insight
+    node_insight --> node_4f76f3cc
+    node_4f76f3cc --> node_SNIZENICRAVINGU
+    node_SNIZENICRAVINGU --> node_ZVYSENAABSTINENCE
+    node_ZVYSENAABSTINENCE --> node_ZMENAHODNOTPRIORITY
+
+    click node_PsilocybinLSDIbogain "/alkaloids/psilocybin/" "Psilocybin/LSD/Ibogain"
+    click node_5HT2Aaktivacepsilocy "/alkaloids/psilocybin/" "5-HT2A aktivace    |  psilocybin, LSD"
+    click node_KORaktivaceibogain "/alkaloids/ibogaine/" "KOR aktivace       |  ibogain"
+    click node_NMDAmodulaceketamini "/alkaloids/ibogaine/" "NMDA modulace      |  ketamin, ibogain"
+    click node_MystickeBDNFneuropla "/molecules/bdnf/" "Mysticke    BDNF/neuroplasticita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSYCHEDELIKA V LECBE ZAVISLOSTI
 
@@ -223,6 +385,8 @@ insight
     ZMENA HODNOT/PRIORITY
 ```
 
+</details>
+
 ### Evidence pro jednotlive latky
 
 #### Psilocybin
@@ -250,6 +414,33 @@ insight
 
 ### Mystické zazitky a outcome
 
+```mermaid
+flowchart TD
+    node_KORELACEMYSTICKYZAZI["KORELACE: MYSTICKY ZAZITEK &lt;-&gt; ABSTINENCE"]
+    node_Intenzitamystickhoza["Intenzita mystického zazitku MEQ skore"]
+    node_7628ce5b["*  *"]
+    node_d73ac619["*      *"]
+    node_8cbfb81f["*          *"]
+    node_fa9ddae1["*              *"]
+    node_Abstinence["+--------------------------&gt; Abstinence %"]
+    node_Korelacer0406["Korelace: r = 0.4 - 0.6"]
+    node_MediaceParcialni["Mediace: Parcialni"]
+    node_INTERPRETACE["INTERPRETACE:"]
+
+    node_KORELACEMYSTICKYZAZI --> node_Intenzitamystickhoza
+    node_Intenzitamystickhoza --> node_7628ce5b
+    node_7628ce5b --> node_d73ac619
+    node_d73ac619 --> node_8cbfb81f
+    node_8cbfb81f --> node_fa9ddae1
+    node_fa9ddae1 --> node_Abstinence
+    node_Abstinence --> node_Korelacer0406
+    node_Korelacer0406 --> node_MediaceParcialni
+    node_MediaceParcialni --> node_INTERPRETACE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KORELACE: MYSTICKY ZAZITEK <-> ABSTINENCE
 
@@ -270,6 +461,8 @@ INTERPRETACE:
 - Ale nejsou NUTNE pro ucinek
 - Neuroplasticita je take dulezita
 ```
+
+</details>
 
 ---
 
@@ -318,6 +511,59 @@ Viz: [Ketamin](@/alkaloids/ketamin.md)
 
 ### Psilocybinem asistovana terapie zavislosti
 
+```mermaid
+flowchart TD
+    node_TYPICKYPROTOKOL["TYPICKY PROTOKOL"]
+    node_FAZE1PRIPRAVA24sezen["FAZE 1: PRIPRAVA 2-4 sezeni"]
+    node_1343fde7["+--------------------------------+"]
+    node_Budovaniterapeuticke["Budovani terapeutickeho vztahu"]
+    node_Psychoedukaceozavisl["Psychoedukace o zavislosti"]
+    node_Motivacniinterviewin["Motivacni interviewing"]
+    node_Formulaceintention["Formulace intention"]
+    node_FAZE2DOSINGSESSIONS1["FAZE 2: DOSING SESSIONS 1-2x"]
+    node_Psilocybin2530mg["Psilocybin 25-30 mg"]
+    node_68hodinsterapeuty["6-8 hodin s terapeuty"]
+    node_Supportivninondirect["Supportivni, non-directive"]
+    node_Hudbaklidneprostredi["Hudba, klidne prostredi"]
+    node_FAZE3INTEGRACE48seze["FAZE 3: INTEGRACE 4-8 sezení"]
+    node_Zpracovanizazitku["Zpracovani zazitku"]
+    node_Identifikaceinsight["Identifikace insight"]
+    node_Zmenamaladaptivnichp["Zmena maladaptivnich patternu"]
+    node_Lifestylezmeny["Lifestyle zmeny"]
+    node_Podpurneskupiny["Podpurne skupiny"]
+    node_FAZE4FOLLOWUPmsce["FAZE 4: FOLLOW-UP měsíce"]
+    node_Monitoringabstinence["Monitoring abstinence"]
+    node_Boostersezenioptiona["Booster sezeni optional"]
+    node_Relapseprevention["Relapse prevention"]
+
+    node_TYPICKYPROTOKOL --> node_FAZE1PRIPRAVA24sezen
+    node_FAZE1PRIPRAVA24sezen --> node_1343fde7
+    node_1343fde7 --> node_Budovaniterapeuticke
+    node_Budovaniterapeuticke --> node_Psychoedukaceozavisl
+    node_Psychoedukaceozavisl --> node_Motivacniinterviewin
+    node_Motivacniinterviewin --> node_Formulaceintention
+    node_Formulaceintention --> node_FAZE2DOSINGSESSIONS1
+    node_FAZE2DOSINGSESSIONS1 --> node_Psilocybin2530mg
+    node_Psilocybin2530mg --> node_68hodinsterapeuty
+    node_68hodinsterapeuty --> node_Supportivninondirect
+    node_Supportivninondirect --> node_Hudbaklidneprostredi
+    node_Hudbaklidneprostredi --> node_FAZE3INTEGRACE48seze
+    node_FAZE3INTEGRACE48seze --> node_Zpracovanizazitku
+    node_Zpracovanizazitku --> node_Identifikaceinsight
+    node_Identifikaceinsight --> node_Zmenamaladaptivnichp
+    node_Zmenamaladaptivnichp --> node_Lifestylezmeny
+    node_Lifestylezmeny --> node_Podpurneskupiny
+    node_Podpurneskupiny --> node_FAZE4FOLLOWUPmsce
+    node_FAZE4FOLLOWUPmsce --> node_Monitoringabstinence
+    node_Monitoringabstinence --> node_Boostersezenioptiona
+    node_Boostersezenioptiona --> node_Relapseprevention
+
+    click node_Psilocybin2530mg "/alkaloids/psilocybin/" "Psilocybin 25-30 mg"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPICKY PROTOKOL
 
@@ -356,6 +602,8 @@ FAZE 4: FOLLOW-UP (měsíce)
 | Relapse prevention             |
 +--------------------------------+
 ```
+
+</details>
 
 ---
 

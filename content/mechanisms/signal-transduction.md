@@ -21,6 +21,37 @@ categories = ["farmakologie", "molekularni-biologie", "mechanismy"]
 
 G-protein coupled receptory (GPCR) jsou **7-transmembranove** receptory, ktere konvertuji extracelularni signaly prostrednictvim heterotrimernich G-proteinu:
 
+```mermaid
+flowchart TD
+    node_STAVBA5HT2AGPCR["STAVBA 5-HT2A GPCR"]
+    node_Extracelularniprosto["Extracelularni prostor"]
+    node_Nterminus["N-terminus"]
+    node_6e1482da["/          \"]
+    node_TM1TM2TM3TM4TM5TM6TM["TM1  TM2  TM3  TM4  TM5  TM6  TM7"]
+    node_VAZEBNEMISTO["\  VAZEBNE MISTO  /"]
+    node_ligand["\  ligand     /"]
+    node_Intracelularniprosto["Intracelularni prostor"]
+    node_36ddd408["/            \"]
+    node_ICL23Cterminus["ICL2/3           C-terminus"]
+    node_Gproteinbetaarrestin["G-protein          beta-arrestin"]
+    node_Gq11fosforylace["Gq/11           fosforylace"]
+
+    node_STAVBA5HT2AGPCR --> node_Extracelularniprosto
+    node_Extracelularniprosto --> node_Nterminus
+    node_Nterminus --> node_6e1482da
+    node_6e1482da --> node_TM1TM2TM3TM4TM5TM6TM
+    node_TM1TM2TM3TM4TM5TM6TM --> node_VAZEBNEMISTO
+    node_VAZEBNEMISTO --> node_ligand
+    node_ligand --> node_Intracelularniprosto
+    node_Intracelularniprosto --> node_36ddd408
+    node_36ddd408 --> node_ICL23Cterminus
+    node_ICL23Cterminus --> node_Gproteinbetaarrestin
+    node_Gproteinbetaarrestin --> node_Gq11fosforylace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 STAVBA 5-HT2A GPCR
 
@@ -46,6 +77,8 @@ STAVBA 5-HT2A GPCR
     (Gq/11)           fosforylace
 ```
 
+</details>
+
 ### Typy G-proteinu a jejich signalni drahy
 
 | G-protein | Efektor | Second messenger | Bunecni ucinek | Psychoaktivni latky |
@@ -62,6 +95,88 @@ STAVBA 5-HT2A GPCR
 ### Primy retezec udalosti
 
 Toto je **dominantni draha** pro ucinky klasickych psychedelik:
+
+```mermaid
+flowchart TD
+    node_KOMPLETNIGqKASKADA5H["KOMPLETNI Gq KASKADA 5-HT2A"]
+    node_1AKTIVACERECEPTORUmi["1 AKTIVACE RECEPTORU milisekundy"]
+    node_PsilocinLSDDMT5HT2A["Psilocin/LSD/DMT + 5-HT2A"]
+    node_KonformacnizmenaTM3T["Konformacni zmena TM3, TM5, TM6"]
+    node_otevreniintracelular["otevreni intracelulariho prostoru"]
+    node_2GPROTEINAKTIVACE100["2 G-PROTEIN AKTIVACE 100-500 ms"]
+    node_Gqalfapodjednotka["Gq alfa podjednotka"]
+    node_GDPGTPvymena["GDP -&gt; GTP vymena"]
+    node_GqalfaGTPseoddelujeo["Gqalfa-GTP se oddeluje od beta-gamma"]
+    node_3EFEKTORAKTIVACEseku["3 EFEKTOR AKTIVACE sekundy"]
+    node_PLCbetafosfolipazaCb["PLCbeta fosfolipaza C-beta"]
+    node_aktivovanaGqalfaGTP["aktivovana Gqalfa-GTP"]
+    node_PIP2IP3DAG["PIP2 -&gt; IP3 + DAG"]
+    node_hydrolzamembranoveho["hydrolza membranoveho fosfolipidu"]
+    node_4SECONDMESSENGERSsek["4 SECOND MESSENGERS sekundy-minuty"]
+    node_IP3DAG["IP3                   DAG"]
+    node_IP3receptorPKC["IP3 receptor          PKC"]
+    node_naER["na ER"]
+    node_Fosforylace["Fosforylace:"]
+    node_Ca2uvolneniIonkanaly["Ca2+ uvolneni  - Ion kanaly"]
+    node_zERReceptory["z ER            - Receptory"]
+    node_Transkrfaktory["- Transkr. faktory"]
+    node_Ca2transient["Ca2+ transient"]
+    node_100nM500nM["100 nM -&gt; 500 nM"]
+    node_5DOWNSTREAMEFEKTORYm["5 DOWNSTREAM EFEKTORY minuty-hodiny"]
+    node_CalmodulinPKCsubstra["Calmodulin            PKC substraty"]
+    node_CaMKIIERK12["CaMKII               ERK1/2"]
+    node_CREBfosfolELK1["CREB fosfol.          ELK-1"]
+    node_Genovaexprese["Genova exprese:"]
+    node_BDNFArccFosEGR1Homer["BDNF, Arc, c-Fos, EGR1, Homer1a"]
+    node_6NEUROPLASTICITAhodi["6 NEUROPLASTICITA hodiny-dny"]
+    node_BDNFTrkBAktmTORC1["BDNF -&gt; TrkB -&gt; Akt -&gt; mTORC1"]
+    node_Syntezaproteinu["Synteza proteinu"]
+    node_Dendritickyrust1015["Dendriticky rust +10-15%"]
+    node_Spinedensita2030["Spine densita +20-30%"]
+    node_Synaptogeneze["Synaptogeneze"]
+
+    node_KOMPLETNIGqKASKADA5H --> node_1AKTIVACERECEPTORUmi
+    node_1AKTIVACERECEPTORUmi --> node_PsilocinLSDDMT5HT2A
+    node_PsilocinLSDDMT5HT2A --> node_KonformacnizmenaTM3T
+    node_KonformacnizmenaTM3T --> node_otevreniintracelular
+    node_otevreniintracelular --> node_2GPROTEINAKTIVACE100
+    node_2GPROTEINAKTIVACE100 --> node_Gqalfapodjednotka
+    node_Gqalfapodjednotka --> node_GDPGTPvymena
+    node_GDPGTPvymena --> node_GqalfaGTPseoddelujeo
+    node_GqalfaGTPseoddelujeo --> node_3EFEKTORAKTIVACEseku
+    node_3EFEKTORAKTIVACEseku --> node_PLCbetafosfolipazaCb
+    node_PLCbetafosfolipazaCb --> node_aktivovanaGqalfaGTP
+    node_aktivovanaGqalfaGTP --> node_PIP2IP3DAG
+    node_PIP2IP3DAG --> node_hydrolzamembranoveho
+    node_hydrolzamembranoveho --> node_4SECONDMESSENGERSsek
+    node_4SECONDMESSENGERSsek --> node_IP3DAG
+    node_IP3DAG --> node_IP3receptorPKC
+    node_IP3receptorPKC --> node_naER
+    node_naER --> node_Fosforylace
+    node_Fosforylace --> node_Ca2uvolneniIonkanaly
+    node_Ca2uvolneniIonkanaly --> node_zERReceptory
+    node_zERReceptory --> node_Transkrfaktory
+    node_Transkrfaktory --> node_Ca2transient
+    node_Ca2transient --> node_100nM500nM
+    node_100nM500nM --> node_5DOWNSTREAMEFEKTORYm
+    node_5DOWNSTREAMEFEKTORYm --> node_CalmodulinPKCsubstra
+    node_CalmodulinPKCsubstra --> node_CaMKIIERK12
+    node_CaMKIIERK12 --> node_CREBfosfolELK1
+    node_CREBfosfolELK1 --> node_Genovaexprese
+    node_Genovaexprese --> node_BDNFArccFosEGR1Homer
+    node_BDNFArccFosEGR1Homer --> node_6NEUROPLASTICITAhodi
+    node_6NEUROPLASTICITAhodi --> node_BDNFTrkBAktmTORC1
+    node_BDNFTrkBAktmTORC1 --> node_Syntezaproteinu
+    node_Syntezaproteinu --> node_Dendritickyrust1015
+    node_Dendritickyrust1015 --> node_Spinedensita2030
+    node_Spinedensita2030 --> node_Synaptogeneze
+
+    click node_PsilocinLSDDMT5HT2A "/alkaloids/psilocin/" "Psilocin/LSD/DMT + 5-HT2A"
+    click node_6NEUROPLASTICITAhodi "/glossary/neuroplasticita/" "6 NEUROPLASTICITA hodiny-dny"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KOMPLETNI Gq KASKADA (5-HT2A)
@@ -139,6 +254,8 @@ KOMPLETNI Gq KASKADA (5-HT2A)
     Synaptogeneze
 ```
 
+</details>
+
 ### Kvantitativni parametry Gq kaskady
 
 | Udalost | Casovy ramec | Amplituda | Metoda |
@@ -162,6 +279,49 @@ KOMPLETNI Gq KASKADA (5-HT2A)
 ## beta-arrestin signalizace
 
 ### beta-arrestin draha
+
+```mermaid
+flowchart TD
+    node_BETAARRESTINSIGNALIZ["BETA-ARRESTIN SIGNALIZACE 5-HT2A"]
+    node_1GRKfosforylacerecep["1 GRK fosforylace receptoru"]
+    node_Aktivovany5HT2A["Aktivovany 5-HT2A"]
+    node_GRK23Gproteinrecepto["GRK2/3 G-protein receptor kinaza"]
+    node_FosforylaceCterminal["Fosforylace C-terminalu Ser/Thr"]
+    node_2betaarrestin2rekrut["2 beta-arrestin 2 rekrutace"]
+    node_betaarr2sevazenafosf["beta-arr2 se vaze na fosforyl. receptor"]
+    node_SterickyblokujeGqint["Stericky blokuje Gq interakci"]
+    node_3Internalizace["3 Internalizace"]
+    node_Clathrincoatedpits["Clathrin-coated pits"]
+    node_Endocytozadoendozomu["Endocytoza do endozomu"]
+    node_RECYKLACEDEGRADACE["RECYKLACE           DEGRADACE"]
+    node_minhhdny["min-h             h-dny"]
+    node_povrchDownregulace["povrch           -&gt; Downregulace"]
+    node_4Signalizacezendozom["4 Signalizace z endozomu"]
+    node_ERK12prolongovana301["ERK1/2 prolongovana, 30-120 min"]
+    node_Srckinazy["Src kinazy"]
+    node_p38MAPK["p38 MAPK"]
+
+    node_BETAARRESTINSIGNALIZ --> node_1GRKfosforylacerecep
+    node_1GRKfosforylacerecep --> node_Aktivovany5HT2A
+    node_Aktivovany5HT2A --> node_GRK23Gproteinrecepto
+    node_GRK23Gproteinrecepto --> node_FosforylaceCterminal
+    node_FosforylaceCterminal --> node_2betaarrestin2rekrut
+    node_2betaarrestin2rekrut --> node_betaarr2sevazenafosf
+    node_betaarr2sevazenafosf --> node_SterickyblokujeGqint
+    node_SterickyblokujeGqint --> node_3Internalizace
+    node_3Internalizace --> node_Clathrincoatedpits
+    node_Clathrincoatedpits --> node_Endocytozadoendozomu
+    node_Endocytozadoendozomu --> node_RECYKLACEDEGRADACE
+    node_RECYKLACEDEGRADACE --> node_minhhdny
+    node_minhhdny --> node_povrchDownregulace
+    node_povrchDownregulace --> node_4Signalizacezendozom
+    node_4Signalizacezendozom --> node_ERK12prolongovana301
+    node_ERK12prolongovana301 --> node_Srckinazy
+    node_Srckinazy --> node_p38MAPK
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 BETA-ARRESTIN SIGNALIZACE (5-HT2A)
@@ -207,6 +367,8 @@ BETA-ARRESTIN SIGNALIZACE (5-HT2A)
     Src kinazy
     p38 MAPK
 ```
+
+</details>
 
 ### Kvantitativni parametry beta-arrestin drahy
 
@@ -283,7 +445,6 @@ Negativni = preference drahy 2 (napr. beta-arr)
 
 ## Ionotropni signalizace
 
-### GABA-A receptor ([Muscimol](@/alkaloids/muscimol.md))
 
 ```
 GABA-A SIGNALIZACE - PRIMY IONOVY MECHANISMUS
@@ -390,6 +551,37 @@ S KETAMINEM (use-dependent block):
 
 ### mTOR draha (spolecna pro psychedelika i ketamin)
 
+```mermaid
+flowchart TD
+    node_KONVERGENCENAmTORDRA["KONVERGENCE NA mTOR DRAHU"]
+    node_Psychedelika5HT2AKet["Psychedelika 5-HT2A:         Ketamin NMDA blok:"]
+    node_GqPLCbetaAMPAburst["Gq -&gt; PLCbeta                  AMPA burst"]
+    node_Ca2PKCBDNFuvolneni["Ca2+, PKC                     BDNF uvolneni"]
+    node_ERK12TrkBaktivace["ERK1/2                         TrkB aktivace"]
+    node_b6e372df["+----------+--------------------+"]
+    node_Aktkinaza["Akt kinaza"]
+    node_mTORC1aktivace["mTORC1 aktivace"]
+    node_4EBP1fosforylaceS6K1["4E-BP1 fosforylace    S6K1 fosforylace"]
+    node_eIF4EuvolneniS6fosfo["eIF4E uvolneni        S6 fosforylace"]
+    node_Translacespecifickyc["Translace specifickych proteinu:"]
+    node_STRUKTURALNIPLASTICI["STRUKTURALNI PLASTICITA:"]
+
+    node_KONVERGENCENAmTORDRA --> node_Psychedelika5HT2AKet
+    node_Psychedelika5HT2AKet --> node_GqPLCbetaAMPAburst
+    node_GqPLCbetaAMPAburst --> node_Ca2PKCBDNFuvolneni
+    node_Ca2PKCBDNFuvolneni --> node_ERK12TrkBaktivace
+    node_ERK12TrkBaktivace --> node_b6e372df
+    node_b6e372df --> node_Aktkinaza
+    node_Aktkinaza --> node_mTORC1aktivace
+    node_mTORC1aktivace --> node_4EBP1fosforylaceS6K1
+    node_4EBP1fosforylaceS6K1 --> node_eIF4EuvolneniS6fosfo
+    node_eIF4EuvolneniS6fosfo --> node_Translacespecifickyc
+    node_Translacespecifickyc --> node_STRUKTURALNIPLASTICI
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KONVERGENCE NA mTOR DRAHU
 
@@ -436,6 +628,8 @@ STRUKTURALNI PLASTICITA:
 - Zvysena konektivita
 ```
 
+</details>
+
 ### BDNF-TrkB signalizace
 
 | Parametr | Po psilocybinu | Po ketaminu | Po LSD |
@@ -448,6 +642,33 @@ STRUKTURALNI PLASTICITA:
 | Trvani elevace | 24-72 h | 12-48 h | 24-72 h |
 
 ### Genova exprese - Immediate Early Genes (IEGs)
+
+```mermaid
+flowchart TD
+    node_CASOVYPRUBEHIEGINDUK["CASOVY PRUBEH IEG INDUKCE PO PSILOCYBINU"]
+    node_cFospeak3060min["c-Fos:     ████████░░░░░░░░░░░░░░░░  peak 30-60 min"]
+    node_Arcpeak12h["Arc:       ░░████████████░░░░░░░░░░  peak 1-2 h"]
+    node_EGR1peak13h["EGR1:      ░░░░████████████░░░░░░░░  peak 1-3 h"]
+    node_Homer1apeak24h["Homer1a:   ░░░░░░████████████░░░░░░  peak 2-4 h"]
+    node_BDNFpeak36h["BDNF:      ░░░░░░░░░░████████████░░  peak 3-6 h"]
+    node_Zprtpeak612h["Zprt:      ░░░░░░░░░░░░░░████████░░  peak 6-12 h"]
+    node_1f3aab65["----|----|----|----|----|----"]
+    node_012461224hodiny["0    1    2    4    6   12   24  hodiny"]
+
+    node_CASOVYPRUBEHIEGINDUK --> node_cFospeak3060min
+    node_cFospeak3060min --> node_Arcpeak12h
+    node_Arcpeak12h --> node_EGR1peak13h
+    node_EGR1peak13h --> node_Homer1apeak24h
+    node_Homer1apeak24h --> node_BDNFpeak36h
+    node_BDNFpeak36h --> node_Zprtpeak612h
+    node_Zprtpeak612h --> node_1f3aab65
+    node_1f3aab65 --> node_012461224hodiny
+
+    click node_CASOVYPRUBEHIEGINDUK "/alkaloids/psilocybin/" "CASOVY PRUBEH IEG INDUKCE PO PSILOCYBINU"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CASOVY PRUBEH IEG INDUKCE PO PSILOCYBINU
@@ -462,6 +683,8 @@ Zprt:      ░░░░░░░░░░░░░░████████░
            0    1    2    4    6   12   24  hodiny
 ```
 
+</details>
+
 ---
 
 ## Tabulka signalnich drah podle latky
@@ -473,7 +696,6 @@ Zprt:      ░░░░░░░░░░░░░░████████░
 | [DMT](@/alkaloids/dmt.md) | Gq -> PLCb | Sigma-1 (chaperon) | Endogenni, Sigma-1 |
 | [5-MeO-DMT](@/alkaloids/5-meo-dmt.md) | Gq + Gi (5-HT1A) | PLCb + cAMP inhibice | Dual 5-HT2A/1A |
 | [Meskalin](@/alkaloids/mescaline.md) | Gq -> PLCb (nizka potence) | 5-HT2C, adrenergni | Pomaly nastup |
-| [Muscimol](@/alkaloids/muscimol.md) | GABA-A -> Cl- influx | Tonická inhibice | Primy agonismus |
 | Ketamin | NMDA blok -> AMPA burst | Sigma, opioid | Use-dependent |
 | MDMA | SERT reversal -> 5-HT flood | 5-HT2A, oxytocin | Empathogenni |
 | [Ibogain](@/alkaloids/ibogaine.md) | kappa-opioid, NMDA, 5-HT2A | Sigma-2, SERT | Multipocilový |

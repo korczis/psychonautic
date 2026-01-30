@@ -26,6 +26,35 @@ insert_anchor_links = "right"
 
 ## Tryptofan a jeho deriváty
 
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_SEROTONINOVDRHA["+---&gt; SEROTONINOVÁ DRÁHA"]
+    node_Tryptofan5HTPSeroton["Tryptofan  5-HTP  Serotonin  Melatonin"]
+    node_KYNURENINOVDRHA95["+---&gt; KYNURENINOVÁ DRÁHA 95%"]
+    node_TryptofanKynureninNA["Tryptofan  Kynurenin  NAD+"]
+    node_TRYPTAMINOVDRHA["+---&gt; TRYPTAMINOVÁ DRÁHA"]
+    node_TryptofanTryptaminDM["Tryptofan  Tryptamin  DMT / Psilocybin"]
+    node_VIZLTryptofanaminoac["VIZ: L-Tryptofan@/amino-acids/tryptophan.md"]
+
+    node_LTRYPTOFAN --> node_SEROTONINOVDRHA
+    node_SEROTONINOVDRHA --> node_Tryptofan5HTPSeroton
+    node_Tryptofan5HTPSeroton --> node_KYNURENINOVDRHA95
+    node_KYNURENINOVDRHA95 --> node_TryptofanKynureninNA
+    node_TryptofanKynureninNA --> node_TRYPTAMINOVDRHA
+    node_TRYPTAMINOVDRHA --> node_TryptofanTryptaminDM
+    node_TryptofanTryptaminDM --> node_VIZLTryptofanaminoac
+
+    click node_LTRYPTOFAN "/amino-acids/tryptophan/" "L-TRYPTOFAN"
+    click node_SEROTONINOVDRHA "/glossary/serotonin/" "+---> SEROTONINOVÁ DRÁHA"
+    click node_Tryptofan5HTPSeroton "/glossary/serotonin/" "Tryptofan  5-HTP  Serotonin  Melatonin"
+    click node_TryptofanTryptaminDM "/alkaloids/dmt/" "Tryptofan  Tryptamin  DMT / Psilocybin"
+    click node_VIZLTryptofanaminoac "/amino-acids/tryptophan/" "VIZ: L-Tryptofan@/amino-acids/tryptophan.md"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-TRYPTOFAN
      |
@@ -40,6 +69,8 @@ L-TRYPTOFAN
 
 VIZ: [L-Tryptofan](@/amino-acids/tryptophan.md)
 ```
+
+</details>
 
 ---
 

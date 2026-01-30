@@ -7,7 +7,6 @@ insert_anchor_links = "right"
 
 # GABA - Kyselina gama-aminomáselná
 
-**GABA** (γ-aminobutyric acid, kyselina gama-aminomáselná) je **hlavní inhibiční neurotransmiter** v centrálním nervovém systému savců. Hraje klíčovou roli v regulaci neuronální excitability a je cílem mnoha psychoaktivních látek včetně [muscimolu](@/alkaloids/muscimol.md).
 
 ---
 
@@ -27,6 +26,25 @@ insert_anchor_links = "right"
 
 ### Biosyntéza v mozku
 
+```mermaid
+flowchart TD
+    node_Glutamtexcitanneurot["Glutamát excitační neurotransmiter"]
+    node_GlutamtdekarboxylzaG["Glutamát dekarboxyláza GAD"]
+    node_KoenzymPyridoxal5fos["Koenzym: Pyridoxal-5-fosfát B6"]
+    node_GABAinhibinneurotran["GABA inhibiční neurotransmiter"]
+    node_GABAtransaminza["GABA transamináza"]
+    node_SukcintsemialdehydCi["Sukcinát semialdehyd  Citrátový cyklus"]
+
+    node_Glutamtexcitanneurot --> node_GlutamtdekarboxylzaG
+    node_GlutamtdekarboxylzaG --> node_KoenzymPyridoxal5fos
+    node_KoenzymPyridoxal5fos --> node_GABAinhibinneurotran
+    node_GABAinhibinneurotran --> node_GABAtransaminza
+    node_GABAtransaminza --> node_SukcintsemialdehydCi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Glutamát (excitační neurotransmiter)
          ↓ [Glutamát dekarboxyláza (GAD)]
@@ -35,6 +53,8 @@ GABA (inhibiční neurotransmiter)
          ↓ [GABA transamináza]
 Sukcinát semialdehyd → Citrátový cyklus
 ```
+
+</details>
 
 ### Klíčové enzymy
 
@@ -63,7 +83,6 @@ Sukcinát semialdehyd → Citrátový cyklus
 
 | Místo | Ligandy | Účinek |
 |-------|---------|--------|
-| **GABA místo** | GABA, [Muscimol](@/alkaloids/muscimol.md) | Agonismus |
 | Benzodiazepinové | Diazepam, Alprazolam | Pozitivní modulace |
 | Barbiturátové | Fenobarbital | Pozitivní modulace |
 | Neurosteroidové | Alopregnanolone | Pozitivní modulace |
@@ -71,6 +90,27 @@ Sukcinát semialdehyd → Citrátový cyklus
 | Pikrotoxinové | Pikrotoxin | Negativní modulace |
 
 #### Mechanismus GABA-A
+
+```mermaid
+flowchart TD
+    node_GABAMuscimolGABAArec["GABA/Muscimol  GABA-A receptor"]
+    node_OtevenClkanlu["Otevření Cl⁻ kanálu"]
+    node_PlivCldoneuronu["Příliv Cl⁻ do neuronu"]
+    node_Hyperpolarizacemembr["Hyperpolarizace membrány"]
+    node_Snenexcitabilita["Snížená excitabilita"]
+    node_INHIBICE["INHIBICE"]
+
+    node_GABAMuscimolGABAArec --> node_OtevenClkanlu
+    node_OtevenClkanlu --> node_PlivCldoneuronu
+    node_PlivCldoneuronu --> node_Hyperpolarizacemembr
+    node_Hyperpolarizacemembr --> node_Snenexcitabilita
+    node_Snenexcitabilita --> node_INHIBICE
+
+    click node_GABAMuscimolGABAArec "/alkaloids/muscimol/" "GABA/Muscimol  GABA-A receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GABA/Muscimol → GABA-A receptor
@@ -86,6 +126,8 @@ Snížená excitabilita
 INHIBICE
 ```
 
+</details>
+
 ### GABA-B receptor (metabotropní)
 
 | Vlastnost | Popis |
@@ -97,6 +139,23 @@ INHIBICE
 
 #### Mechanismus GABA-B
 
+```mermaid
+flowchart TD
+    node_GABAGABABreceptorGio["GABA  GABA-B receptor  Gi/o protein"]
+    node_cAMP["cAMP"]
+    node_AktivaceKkanlInhibic["Aktivace K⁺ kanálů + Inhibice Ca²⁺ kanálů"]
+    node_HyperpolarizaceSnenu["Hyperpolarizace + Snížené uvolňování neurotransmiterů"]
+
+    node_GABAGABABreceptorGio --> node_cAMP
+    node_cAMP --> node_AktivaceKkanlInhibic
+    node_AktivaceKkanlInhibic --> node_HyperpolarizaceSnenu
+
+    click node_GABAGABABreceptorGio "/glossary/receptor/" "GABA  GABA-B receptor  Gi/o protein"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 GABA → GABA-B receptor → Gi/o protein
         ↓                    ↓
@@ -106,6 +165,8 @@ Aktivace K⁺ kanálů + Inhibice Ca²⁺ kanálů
         ↓
 Hyperpolarizace + Snížené uvolňování neurotransmiterů
 ```
+
+</details>
 
 #### Ligandy GABA-B
 
@@ -149,7 +210,6 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 | Látka | Receptor | Zdroj |
 |-------|----------|-------|
 | **GABA** | GABA-A, GABA-B | Endogenní |
-| [**Muscimol**](@/alkaloids/muscimol.md) | GABA-A | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | **Baclofen** | GABA-B | Syntetický |
 | **GHB** | GABA-B, GHB receptor | Syntetický/endogenní |
 
@@ -189,7 +249,6 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 
 ## Spojení s psychoaktivními látkami
 
-### [Muscimol](@/alkaloids/muscimol.md) (Amanita muscaria)
 
 - **Typ**: Přímý GABA-A agonista
 - **Účinek**: Silná sedace, disociace, halucinace
@@ -219,7 +278,6 @@ Hyperpolarizace + Snížené uvolňování neurotransmiterů
 ---
 
 Viz také:
-- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista
 - [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Zdroj muscimolu
 - [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Prekurzor muscimolu
 - [Receptor](@/glossary/receptor.md) - Obecný pojem

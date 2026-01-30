@@ -32,6 +32,31 @@ Psychedelika vyrazne ovlivnuji amygdalu, casto snizuji jeji reaktivitu na negati
 
 ### Anatomicke vztahy
 
+```mermaid
+flowchart TD
+    node_KORONALNIREZ["KORONALNI REZ"]
+    node_Striatum["Striatum"]
+    node_putamencaudate["putamen, caudate"]
+    node_GlobusNucl["Globus                       Nucl."]
+    node_pallidusbasalis["pallidus                    basalis"]
+    node_AMYGDALA["AMYGDALA"]
+    node_mandle["mandle"]
+    node_Hippocampus["Hippocampus"]
+
+    node_KORONALNIREZ --> node_Striatum
+    node_Striatum --> node_putamencaudate
+    node_putamencaudate --> node_GlobusNucl
+    node_GlobusNucl --> node_pallidusbasalis
+    node_pallidusbasalis --> node_AMYGDALA
+    node_AMYGDALA --> node_mandle
+    node_mandle --> node_Hippocampus
+
+    click node_Hippocampus "/brain/hippocampus/" "Hippocampus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                 KORONALNI REZ
 
@@ -59,6 +84,8 @@ Psychedelika vyrazne ovlivnuji amygdalu, casto snizuji jeji reaktivitu na negati
               └─────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Vnitrni struktura
@@ -75,6 +102,36 @@ Amygdala se sklada z nekolika jadrovych skupin:
 | **Medialni jadro** | Medialni | Reprodukcni chovani |
 
 ### Schematicka organizace
+
+```mermaid
+flowchart TD
+    node_INFORMACNITOKVAMYGDA["INFORMACNI TOK V AMYGDALE"]
+    node_Senzorickyvstupthala["Senzoricky vstup thalamus, kortex"]
+    node_LATERALNIJADROVstupn["LATERALNI JADRO     Vstupni brana"]
+    node_LAstrachpodmnn["LA            strach podmínění"]
+    node_BAZALNIJADROIntegrac["BAZALNI JADRO       Integrace"]
+    node_Bkontext["B             kontext"]
+    node_CENTRALNIJADROVystup["CENTRALNI JADRO     Vystupni brana"]
+    node_CeAfearresponses["CeA            fear responses"]
+    node_HypothalamusMozkovyk["Hypothalamus      Mozkovy kmen"]
+    node_HPAosaautonomni["HPA osa         autonomni"]
+
+    node_INFORMACNITOKVAMYGDA --> node_Senzorickyvstupthala
+    node_Senzorickyvstupthala --> node_LATERALNIJADROVstupn
+    node_LATERALNIJADROVstupn --> node_LAstrachpodmnn
+    node_LAstrachpodmnn --> node_BAZALNIJADROIntegrac
+    node_BAZALNIJADROIntegrac --> node_Bkontext
+    node_Bkontext --> node_CENTRALNIJADROVystup
+    node_CENTRALNIJADROVystup --> node_CeAfearresponses
+    node_CeAfearresponses --> node_HypothalamusMozkovyk
+    node_HypothalamusMozkovyk --> node_HPAosaautonomni
+
+    click node_Senzorickyvstupthala "/brain/thalamus/" "Senzoricky vstup thalamus, kortex"
+    click node_HypothalamusMozkovyk "/brain/thalamus/" "Hypothalamus      Mozkovy kmen"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 INFORMACNI TOK V AMYGDALE
@@ -105,6 +162,8 @@ Hypothalamus      Mozkovy kmen
 (HPA osa)         (autonomni)
 ```
 
+</details>
+
 ### Bunecne typy
 
 | Typ bunky | Lokalizace | Neurotransmiter | Podil |
@@ -122,6 +181,34 @@ Hypothalamus      Mozkovy kmen
 ### Zpracovani strachu
 
 Amygdala je klicova pro **detekci hrozby** a **strachovou odpoved**:
+
+```mermaid
+flowchart TD
+    node_STRACHOVYOKRUH["STRACHOVY OKRUH"]
+    node_HROZBA["HROZBA"]
+    node_RychladrahaPomaladra["Rychla draha             Pomala draha"]
+    node_thalamusamygdalakort["thalamus  amygdala    kortex  amygdala"]
+    node_AMYGDALALABCeA["AMYGDALA LA  B  CeA"]
+    node_HypothalamusHPAosaKo["Hypothalamus  HPA osa  Kortizol"]
+    node_PAGFreezing["PAG  Freezing"]
+    node_PVNStresovaodpoved["PVN  Stresova odpoved"]
+    node_LCNoradrenalinArousa["LC  Noradrenalin  Arousal"]
+
+    node_STRACHOVYOKRUH --> node_HROZBA
+    node_HROZBA --> node_RychladrahaPomaladra
+    node_RychladrahaPomaladra --> node_thalamusamygdalakort
+    node_thalamusamygdalakort --> node_AMYGDALALABCeA
+    node_AMYGDALALABCeA --> node_HypothalamusHPAosaKo
+    node_HypothalamusHPAosaKo --> node_PAGFreezing
+    node_PAGFreezing --> node_PVNStresovaodpoved
+    node_PVNStresovaodpoved --> node_LCNoradrenalinArousa
+
+    click node_thalamusamygdalakort "/brain/thalamus/" "thalamus  amygdala    kortex  amygdala"
+    click node_HypothalamusHPAosaKo "/brain/thalamus/" "Hypothalamus  HPA osa  Kortizol"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 STRACHOVY OKRUH
@@ -148,6 +235,8 @@ AMYGDALA (LA → B → CeA)
     └──→ LC → Noradrenalin → Arousal
 ```
 
+</details>
+
 ### Emocni pamet
 
 | Typ pameti | Role amygdaly | Oblast |
@@ -172,6 +261,31 @@ AMYGDALA (LA → B → CeA)
 
 ### Pavlovovske podmineni
 
+```mermaid
+flowchart TD
+    node_KLASICKESTRACHOVEPOD["KLASICKE STRACHOVE PODMINENI"]
+    node_Predpodminenim["Pred podminenim:"]
+    node_CSzvukZadnareakce["CS zvuk  Zadna reakce"]
+    node_USsokURstrach["US sok   UR strach"]
+    node_Podmineni["Podmineni:"]
+    node_CSUSLAsynaptickplast["CS + US  LA: synaptická plasticita"]
+    node_Popodmineni["Po podmineni:"]
+    node_CSCRstrach["CS  CR strach"]
+    node_podmnenareakce["podmínena reakce"]
+
+    node_KLASICKESTRACHOVEPOD --> node_Predpodminenim
+    node_Predpodminenim --> node_CSzvukZadnareakce
+    node_CSzvukZadnareakce --> node_USsokURstrach
+    node_USsokURstrach --> node_Podmineni
+    node_Podmineni --> node_CSUSLAsynaptickplast
+    node_CSUSLAsynaptickplast --> node_Popodmineni
+    node_Popodmineni --> node_CSCRstrach
+    node_CSCRstrach --> node_podmnenareakce
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KLASICKE STRACHOVE PODMINENI
 
@@ -188,6 +302,8 @@ CS ─────────────→ CR (strach)
                   (podmínena reakce)
 ```
 
+</details>
+
 ### Synaptická plasticita
 
 | Mechanismus | Oblast | Funkce |
@@ -198,6 +314,33 @@ CS ─────────────→ CR (strach)
 | **Metaplasticita** | BLA | Modulace prahů |
 
 ### Extinkce strachu
+
+```mermaid
+flowchart TD
+    node_EXTINKCESTRACHU["EXTINKCE STRACHU"]
+    node_OpakovanprezentaceCS["Opakovaná prezentace CS bez US:"]
+    node_CSCSCSCS["CS  CS  CS  CS"]
+    node_mPFCaktivace["mPFC aktivace"]
+    node_ITCaktivaceInterkala["ITC aktivace  Interkalarne bunky"]
+    node_CeAinhibice["CeA inhibice"]
+    node_Snizenastrachovaodpo["Snizena strachova odpoved"]
+    node_POZORExtinkcenenivym["POZOR: Extinkce neni vymazani - original pamet zustava,"]
+    node_ytvarisenovabezpecna["ytvari se nova 'bezpecna' pamet."]
+
+    node_EXTINKCESTRACHU --> node_OpakovanprezentaceCS
+    node_OpakovanprezentaceCS --> node_CSCSCSCS
+    node_CSCSCSCS --> node_mPFCaktivace
+    node_mPFCaktivace --> node_ITCaktivaceInterkala
+    node_ITCaktivaceInterkala --> node_CeAinhibice
+    node_CeAinhibice --> node_Snizenastrachovaodpo
+    node_Snizenastrachovaodpo --> node_POZORExtinkcenenivym
+    node_POZORExtinkcenenivym --> node_ytvarisenovabezpecna
+
+    click node_mPFCaktivace "/brain/prefrontal-cortex/" "mPFC aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 EXTINKCE STRACHU
@@ -221,6 +364,8 @@ POZOR: Extinkce neni vymazani - original pamet zustava,
        vytvari se nova "bezpecna" pamet.
 ```
 
+</details>
+
 ---
 
 ## Amygdala a psychedelika
@@ -237,6 +382,46 @@ Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md)
 | **Emocni zpracovani** | Facilitace emocniho uvolneni | Roseman (2018) |
 
 ### Mechanismus
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAAAMYGDAL["PSYCHEDELIKA A AMYGDALA"]
+    node_Normalnistav["Normalni stav:"]
+    node_NegativnistimulAmygd["Negativni stimul  Amygdala   Strach/uzkost"]
+    node_Vyhybavechovani["Vyhybave chovani"]
+    node_Podpsilocybinem["Pod psilocybinem:"]
+    node_NegativnistimulAmygd["Negativni stimul  Amygdala   Snizeny strach"]
+    node_5HT2Aaktivace["5-HT2A aktivace"]
+    node_Otevrenezpracovani["Otevrene zpracovani"]
+    node_traumatickychobsah["traumatickych obsahù"]
+    node_mPFCmodulace["mPFC modulace"]
+    node_Terapeutickyvyznam["Terapeuticky vyznam:"]
+    node_PTSDSnizenahyperreak["• PTSD: Snizena hyperreaktivita"]
+    node_UzkostNormalizacestr["• Uzkost: Normalizace strachu"]
+    node_DepresePrekonaninega["• Deprese: Prekonani negativniho biasu"]
+
+    node_PSYCHEDELIKAAAMYGDAL --> node_Normalnistav
+    node_Normalnistav --> node_NegativnistimulAmygd
+    node_NegativnistimulAmygd --> node_Vyhybavechovani
+    node_Vyhybavechovani --> node_Podpsilocybinem
+    node_Podpsilocybinem --> node_NegativnistimulAmygd
+    node_NegativnistimulAmygd --> node_5HT2Aaktivace
+    node_5HT2Aaktivace --> node_Otevrenezpracovani
+    node_Otevrenezpracovani --> node_traumatickychobsah
+    node_traumatickychobsah --> node_mPFCmodulace
+    node_mPFCmodulace --> node_Terapeutickyvyznam
+    node_Terapeutickyvyznam --> node_PTSDSnizenahyperreak
+    node_PTSDSnizenahyperreak --> node_UzkostNormalizacestr
+    node_UzkostNormalizacestr --> node_DepresePrekonaninega
+
+    click node_Podpsilocybinem "/alkaloids/psilocybin/" "Pod psilocybinem:"
+    click node_5HT2Aaktivace "/receptors/5-ht2a/" "5-HT2A aktivace"
+    click node_mPFCmodulace "/brain/prefrontal-cortex/" "mPFC modulace"
+    click node_DepresePrekonaninega "/conditions/depression/" "• Deprese: Prekonani negativniho biasu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELIKA A AMYGDALA
@@ -260,6 +445,8 @@ Terapeuticky vyznam:
 • Uzkost: Normalizace strachu
 • Deprese: Prekonani negativniho biasu
 ```
+
+</details>
 
 ### Neurozobrazovaciní studie
 
@@ -304,6 +491,36 @@ Terapeuticky vyznam:
 
 ### Farmakologie uzkosti
 
+```mermaid
+flowchart TD
+    node_FARMAKOLOGIEAMYGDALY["FARMAKOLOGIE AMYGDALY"]
+    node_Anxiolytika["Anxiolytika:"]
+    node_BenzodiazepinyGABAAP["Benzodiazepiny  GABA-A PAM   Amygdala"]
+    node_Buspiron5HT1Aagonist["Buspiron  5-HT1A agonista   Amygdala"]
+    node_SSRI5HTadaptaceAmygd["SSRI  5-HT   adaptace   Amygdala reaktivita"]
+    node_PropranololBetabloka["Propranolol  Beta-blokada   Somaticke symptomy"]
+    node_Psychedelika5HT2Aago["Psychedelika 5-HT2A agonismus:"]
+    node_AkutneModulaceamygda["Akutne: Modulace amygdalni aktivity"]
+    node_DlouhodobeZmenaemocn["Dlouhodobe: Zmena emocniho zpracovani"]
+    node_TerapeutickyFacilita["Terapeuticky: Facilitace zpracovani traumat"]
+
+    node_FARMAKOLOGIEAMYGDALY --> node_Anxiolytika
+    node_Anxiolytika --> node_BenzodiazepinyGABAAP
+    node_BenzodiazepinyGABAAP --> node_Buspiron5HT1Aagonist
+    node_Buspiron5HT1Aagonist --> node_SSRI5HTadaptaceAmygd
+    node_SSRI5HTadaptaceAmygd --> node_PropranololBetabloka
+    node_PropranololBetabloka --> node_Psychedelika5HT2Aago
+    node_Psychedelika5HT2Aago --> node_AkutneModulaceamygda
+    node_AkutneModulaceamygda --> node_DlouhodobeZmenaemocn
+    node_DlouhodobeZmenaemocn --> node_TerapeutickyFacilita
+
+    click node_BenzodiazepinyGABAAP "/glossary/gaba/" "Benzodiazepiny  GABA-A PAM   Amygdala"
+    click node_Psychedelika5HT2Aago "/receptors/5-ht2a/" "Psychedelika 5-HT2A agonismus:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FARMAKOLOGIE AMYGDALY
 
@@ -322,6 +539,8 @@ Psychedelika (5-HT2A agonismus):
 │ Terapeuticky: Facilitace zpracovani traumat     │
 └─────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -350,6 +569,44 @@ Psychedelika (5-HT2A agonismus):
 | **Kortex** | Emocni informace |
 
 ### Amygdalo-prefrontální okruh
+
+```mermaid
+flowchart TD
+    node_REGULACESTRACHU["REGULACE STRACHU"]
+    node_mPFCTopdownkontrola["mPFC       Top-down kontrola"]
+    node_mPFCIL["mPFC, IL"]
+    node_Inhibicnivli["Inhibicni vli"]
+    node_AMYGDALAStrachovaodp["AMYGDALA     Strachova odpoved"]
+    node_BLA["BLA"]
+    node_Excitacnivystup["Excitacni vystup"]
+    node_HypothalamusFyziolog["Hypothalamus   Fyziologicka"]
+    node_Mozkovkmenreakce["Mozkový kmen  reakce"]
+    node_Dysregulacetohotookr["Dysregulace tohoto okruhu:"]
+    node_PTSDSlabaPFCkontrola["• PTSD: Slaba PFC kontrola, hyperaktivni amygdala"]
+    node_UzkostNadmernaamygda["• Uzkost: Nadmerna amygdalni reaktivita"]
+    node_DepreseAbnormalnikon["• Deprese: Abnormalni konektivita"]
+
+    node_REGULACESTRACHU --> node_mPFCTopdownkontrola
+    node_mPFCTopdownkontrola --> node_mPFCIL
+    node_mPFCIL --> node_Inhibicnivli
+    node_Inhibicnivli --> node_AMYGDALAStrachovaodp
+    node_AMYGDALAStrachovaodp --> node_BLA
+    node_BLA --> node_Excitacnivystup
+    node_Excitacnivystup --> node_HypothalamusFyziolog
+    node_HypothalamusFyziolog --> node_Mozkovkmenreakce
+    node_Mozkovkmenreakce --> node_Dysregulacetohotookr
+    node_Dysregulacetohotookr --> node_PTSDSlabaPFCkontrola
+    node_PTSDSlabaPFCkontrola --> node_UzkostNadmernaamygda
+    node_UzkostNadmernaamygda --> node_DepreseAbnormalnikon
+
+    click node_mPFCTopdownkontrola "/brain/prefrontal-cortex/" "mPFC       Top-down kontrola"
+    click node_mPFCIL "/brain/prefrontal-cortex/" "mPFC, IL"
+    click node_HypothalamusFyziolog "/brain/thalamus/" "Hypothalamus   Fyziologicka"
+    click node_DepreseAbnormalnikon "/conditions/depression/" "• Deprese: Abnormalni konektivita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 REGULACE STRACHU
@@ -380,6 +637,8 @@ Dysregulace tohoto okruhu:
 • Uzkost: Nadmerna amygdalni reaktivita
 • Deprese: Abnormalni konektivita
 ```
+
+</details>
 
 ---
 
@@ -438,6 +697,35 @@ Bilateralni leze amygdaly (vzacny):
 
 ### Kriticka perioda
 
+```mermaid
+flowchart TD
+    node_VYVOJSTRACHOVEHOSYST["VYVOJ STRACHOVEHO SYSTEMU"]
+    node_Reaktivitaamygdaly["Reaktivita amygdaly:"]
+    node_aa74f307["** **"]
+    node_12b62e33["**     *"]
+    node_130ce996["**        **"]
+    node_b6f2cdb9["**            **"]
+    node_13249458["**                **"]
+    node_c200abc5["**                    **"]
+    node_051015202530Vek["0  5  10  15  20  25  30   Vek"]
+    node_Rannzkusenost05letma["Ranná zkusenost 0-5 let ma trvalý vliv na"]
+    node_amygdalnireaktivituv["amygdalni reaktivitu v dospelosti."]
+
+    node_VYVOJSTRACHOVEHOSYST --> node_Reaktivitaamygdaly
+    node_Reaktivitaamygdaly --> node_aa74f307
+    node_aa74f307 --> node_12b62e33
+    node_12b62e33 --> node_130ce996
+    node_130ce996 --> node_b6f2cdb9
+    node_b6f2cdb9 --> node_13249458
+    node_13249458 --> node_c200abc5
+    node_c200abc5 --> node_051015202530Vek
+    node_051015202530Vek --> node_Rannzkusenost05letma
+    node_Rannzkusenost05letma --> node_amygdalnireaktivituv
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 VYVOJ STRACHOVEHO SYSTEMU
 
@@ -456,6 +744,8 @@ Reaktivita amygdaly:
 Ranná zkusenost (0-5 let) ma trvalý vliv na
 amygdalni reaktivitu v dospelosti.
 ```
+
+</details>
 
 ---
 
@@ -513,7 +803,6 @@ amygdalni reaktivitu v dospelosti.
 - [Schizofrenie](@/conditions/schizophrenia.md) - Paranoidní symptomy
 
 ### Anxiolytické látky cílící amygdalu
-- [Muscimol](@/alkaloids/muscimol.md) - **GABA-A α2/3, silné anxiolytické efekty**
 - [Psilocybin](@/alkaloids/psilocybin.md) - **Snížená amygdala reaktivita, 5-HT2A**
 - [MDMA](@/alkaloids/mdma.md) - Emoční zpracování, terapie PTSD
 - [LSD](@/alkaloids/lsd.md) - Redukce negativního biasu

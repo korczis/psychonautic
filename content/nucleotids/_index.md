@@ -327,6 +327,38 @@ EXTRACELULARNI         MEMBRANA          INTRACELULARNI
 
 [cAMP](@/nucleotids/camp.md) je nejlepe prostudovany druhy posel v nervovem systemu:
 
+```mermaid
+flowchart TD
+    node_SYNTEZAADEGRADACEcAM["SYNTEZA A DEGRADACE cAMP"]
+    node_Gssprazenyreceptor["Gs-sprazeny receptor"]
+    node_ATPADENYLATCYKLAZA["ATP -----&gt; ADENYLAT CYKLAZA"]
+    node_cAMP["cAMP"]
+    node_a8510f68["+-----------+-----------+"]
+    node_PKAEpacCNGCs["PKA        Epac        CNGCs"]
+    node_FosforylaceRap1GEFIo["Fosforylace  Rap1-GEF   Iontove"]
+    node_CREBaktivitakanaly["CREB         aktivita   kanaly"]
+    node_FOSFODIESTERAZAPDE["FOSFODIESTERAZA PDE"]
+    node_5AMPinaktivni["5'-AMP inaktivni"]
+
+    node_SYNTEZAADEGRADACEcAM --> node_Gssprazenyreceptor
+    node_Gssprazenyreceptor --> node_ATPADENYLATCYKLAZA
+    node_ATPADENYLATCYKLAZA --> node_cAMP
+    node_cAMP --> node_a8510f68
+    node_a8510f68 --> node_PKAEpacCNGCs
+    node_PKAEpacCNGCs --> node_FosforylaceRap1GEFIo
+    node_FosforylaceRap1GEFIo --> node_CREBaktivitakanaly
+    node_CREBaktivitakanaly --> node_FOSFODIESTERAZAPDE
+    node_FOSFODIESTERAZAPDE --> node_5AMPinaktivni
+
+    click node_SYNTEZAADEGRADACEcAM "/nucleotids/amp/" "SYNTEZA A DEGRADACE cAMP"
+    click node_ATPADENYLATCYKLAZA "/nucleotids/atp/" "ATP -----> ADENYLAT CYKLAZA"
+    click node_cAMP "/nucleotids/amp/" "cAMP"
+    click node_5AMPinaktivni "/nucleotids/amp/" "5'-AMP inaktivni"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SYNTEZA A DEGRADACE cAMP
 
@@ -353,6 +385,8 @@ SYNTEZA A DEGRADACE cAMP
               v
             5'-AMP (inaktivni)
 ```
+
+</details>
 
 #### Role cAMP v synaptické plasticitě
 
@@ -416,6 +450,42 @@ EFEKTORY cGMP:
 
 Oxid dusity (NO) je neurotransmiter aktivujici cGMP:
 
+```mermaid
+flowchart TD
+    node_NOcGMPSIGNALIZACEVNE["NO-cGMP SIGNALIZACE V NEURONECH"]
+    node_PRESYNAPTICKYPOSTSYN["PRESYNAPTICKY                    POSTSYNAPTICKY"]
+    node_NEURONNEURON["NEURON                           NEURON"]
+    node_GlutamatNMDAR["Glutamat -----------------------&gt; NMDA-R"]
+    node_Ca2influx["Ca2+ influx"]
+    node_Ca2CaM["Ca2+/CaM"]
+    node_nNOS["nNOS"]
+    node_LArgininNO["L-Arginin -----------------------&gt; NO"]
+    node_846a9fb3["+---------------------------+"]
+    node_Rozpustnaguanylylcyk["Rozpustna guanylyl cyklaza sGC"]
+    node_GTPcGMP["GTP --&gt; cGMP"]
+    node_PKGFosforylacecilovy["PKG --&gt; Fosforylace cilovych proteinu"]
+    node_Synaptickplasticitav["Synaptická plasticita, vazodilatace"]
+
+    node_NOcGMPSIGNALIZACEVNE --> node_PRESYNAPTICKYPOSTSYN
+    node_PRESYNAPTICKYPOSTSYN --> node_NEURONNEURON
+    node_NEURONNEURON --> node_GlutamatNMDAR
+    node_GlutamatNMDAR --> node_Ca2influx
+    node_Ca2influx --> node_Ca2CaM
+    node_Ca2CaM --> node_nNOS
+    node_nNOS --> node_LArgininNO
+    node_LArgininNO --> node_846a9fb3
+    node_846a9fb3 --> node_Rozpustnaguanylylcyk
+    node_Rozpustnaguanylylcyk --> node_GTPcGMP
+    node_GTPcGMP --> node_PKGFosforylacecilovy
+    node_PKGFosforylacecilovy --> node_Synaptickplasticitav
+
+    click node_NOcGMPSIGNALIZACEVNE "/nucleotids/gmp/" "NO-cGMP SIGNALIZACE V NEURONECH"
+    click node_GTPcGMP "/nucleotids/gtp/" "GTP --> cGMP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NO-cGMP SIGNALIZACE V NEURONECH
 
@@ -452,6 +522,8 @@ PRESYNAPTICKY                    POSTSYNAPTICKY
   Synaptická plasticita, vazodilatace
 ```
 
+</details>
+
 #### cGMP a psychoaktivní látky
 
 | Latka | Vliv na cGMP | Mechanismus |
@@ -472,6 +544,48 @@ Geoffrey Burnstock v roce 1970 navrd koncept purinergni neurotransmise. ATP fung
 1. **Primy neurotransmiter** - uvolnovan ze synaptickych vezikul
 2. **Ko-transmiter** - spolupusobi s klasickymi neurotransmitery
 3. **Signalni molekula** - uvolnovana pri bunecnem poskozeni
+
+```mermaid
+flowchart TD
+    node_ATPJAKONEUROTRANSMIT["ATP JAKO NEUROTRANSMITER"]
+    node_PRESYNAPTICKYPOSTSYN["PRESYNAPTICKY                         POSTSYNAPTICKY"]
+    node_NEURONNEURON["NEURON                                NEURON"]
+    node_ATPvezikulyReceptory["ATP vezikuly                          Receptory"]
+    node_Ca2zavisla["Ca2+-zavisla"]
+    node_exocytoza["exocytoza"]
+    node_SYNAPTICKSTRBINA["SYNAPTICKÁ STĚRBINA"]
+    node_ATPex["ATPex"]
+    node_81ebf11d["+---------+---------+"]
+    node_P2XP2YEktoATPazy["P2X       P2Y     Ekto-ATPazy"]
+    node_ionotropnimetabotrop["ionotropnimetabotropni"]
+    node_Adenosin["Adenosin"]
+    node_NaCa2GqGi["Na+/Ca2+   Gq/Gi"]
+    node_influxsignalizace["influx   signalizace"]
+    node_P1A1A2["P1 A1, A2"]
+
+    node_ATPJAKONEUROTRANSMIT --> node_PRESYNAPTICKYPOSTSYN
+    node_PRESYNAPTICKYPOSTSYN --> node_NEURONNEURON
+    node_NEURONNEURON --> node_ATPvezikulyReceptory
+    node_ATPvezikulyReceptory --> node_Ca2zavisla
+    node_Ca2zavisla --> node_exocytoza
+    node_exocytoza --> node_SYNAPTICKSTRBINA
+    node_SYNAPTICKSTRBINA --> node_ATPex
+    node_ATPex --> node_81ebf11d
+    node_81ebf11d --> node_P2XP2YEktoATPazy
+    node_P2XP2YEktoATPazy --> node_ionotropnimetabotrop
+    node_ionotropnimetabotrop --> node_Adenosin
+    node_Adenosin --> node_NaCa2GqGi
+    node_NaCa2GqGi --> node_influxsignalizace
+    node_influxsignalizace --> node_P1A1A2
+
+    click node_ATPJAKONEUROTRANSMIT "/nucleotids/atp/" "ATP JAKO NEUROTRANSMITER"
+    click node_ATPvezikulyReceptory "/nucleotids/atp/" "ATP vezikuly                          Receptory"
+    click node_ATPex "/nucleotids/atp/" "ATPex"
+    click node_P2XP2YEktoATPazy "/nucleotids/atp/" "P2X       P2Y     Ekto-ATPazy"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ATP JAKO NEUROTRANSMITER
@@ -503,6 +617,8 @@ PRESYNAPTICKY                         POSTSYNAPTICKY
  influx   signalizace         v
                           P1 (A1, A2)
 ```
+
+</details>
 
 ### Purinergní receptory
 
@@ -569,6 +685,39 @@ P2Y receptory jsou G-protein sprazene receptory (GPCR):
 
 Adenosin vznika degradaci ATP a aktivuje specificke receptory:
 
+```mermaid
+flowchart TD
+    node_DEGRADACEATPNAADENOS["DEGRADACE ATP NA ADENOSIN"]
+    node_ATPADPAMPADENOSIN["ATP -----&gt; ADP -----&gt; AMP -----&gt; ADENOSIN"]
+    node_CD39CD39CD73CD73["CD39       CD39/CD73    CD73"]
+    node_NTPDaza1NTPDazy5nukl["NTPDaza1  NTPDazy  5'-nukleotidaza"]
+    node_ADENOSINOVERECEPTORY["ADENOSINOVE RECEPTORY:"]
+    node_ReceptorGproteinAfin["Receptor | G-protein | Afinita nM | Funkce v CNS"]
+    node_b53fa7e4["----------|-----------|--------------|--------------"]
+    node_A1Gi330Inhibiceneuro["A1       | Gi        | 3-30         | Inhibice, neuroprotekce"]
+    node_A2AGs10150Modulacedo["A2A      | Gs        | 10-150       | Modulace dopaminu"]
+    node_A2BGsGq500020000Nizk["A2B      | Gs/Gq     | 5000-20000   | Nizka afinita"]
+    node_A3Gi1001000Neuroprot["A3       | Gi        | 100-1000     | Neuroprotekce"]
+
+    node_DEGRADACEATPNAADENOS --> node_ATPADPAMPADENOSIN
+    node_ATPADPAMPADENOSIN --> node_CD39CD39CD73CD73
+    node_CD39CD39CD73CD73 --> node_NTPDaza1NTPDazy5nukl
+    node_NTPDaza1NTPDazy5nukl --> node_ADENOSINOVERECEPTORY
+    node_ADENOSINOVERECEPTORY --> node_ReceptorGproteinAfin
+    node_ReceptorGproteinAfin --> node_b53fa7e4
+    node_b53fa7e4 --> node_A1Gi330Inhibiceneuro
+    node_A1Gi330Inhibiceneuro --> node_A2AGs10150Modulacedo
+    node_A2AGs10150Modulacedo --> node_A2BGsGq500020000Nizk
+    node_A2BGsGq500020000Nizk --> node_A3Gi1001000Neuroprot
+
+    click node_DEGRADACEATPNAADENOS "/nucleotids/atp/" "DEGRADACE ATP NA ADENOSIN"
+    click node_ATPADPAMPADENOSIN "/nucleotids/atp/" "ATP -----> ADP -----> AMP -----> ADENOSIN"
+    click node_ADENOSINOVERECEPTORY "/receptors/_index/" "ADENOSINOVE RECEPTORY:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DEGRADACE ATP NA ADENOSIN
 
@@ -588,9 +737,42 @@ ADENOSINOVE RECEPTORY:
 | A3       | Gi        | 100-1000     | Neuroprotekce |
 ```
 
+</details>
+
 #### A2A-dopaminový antagonismus
 
 A2A receptory interaguji s dopaminovymi D2 receptory:
+
+```mermaid
+flowchart TD
+    node_A2AD2INTERAKCEVSTRIA["A2A-D2 INTERAKCE V STRIATU"]
+    node_ADENOSINDOPAMIN["ADENOSIN               DOPAMIN"]
+    node_A2AD2["A2A                     D2"]
+    node_bcda4d00["+-------&lt;&gt;-------------+"]
+    node_HETEROMERN["HETEROMERNÍ"]
+    node_KOMPLEX["KOMPLEX"]
+    node_3c51c5b4["+------------+------------+"]
+    node_GssignalizaceGisigna["Gs signalizace            Gi signalizace"]
+    node_aktivacniinhibicni["aktivacni               inhibicni"]
+    node_ZvysenicAMPSnizenicA["Zvyseni cAMP             Snizeni cAMP"]
+    node_MotorickinhibiceMoto["Motorická inhibice      Motorická aktivace"]
+
+    node_A2AD2INTERAKCEVSTRIA --> node_ADENOSINDOPAMIN
+    node_ADENOSINDOPAMIN --> node_A2AD2
+    node_A2AD2 --> node_bcda4d00
+    node_bcda4d00 --> node_HETEROMERN
+    node_HETEROMERN --> node_KOMPLEX
+    node_KOMPLEX --> node_3c51c5b4
+    node_3c51c5b4 --> node_GssignalizaceGisigna
+    node_GssignalizaceGisigna --> node_aktivacniinhibicni
+    node_aktivacniinhibicni --> node_ZvysenicAMPSnizenicA
+    node_ZvysenicAMPSnizenicA --> node_MotorickinhibiceMoto
+
+    click node_ZvysenicAMPSnizenicA "/nucleotids/amp/" "Zvyseni cAMP             Snizeni cAMP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 A2A-D2 INTERAKCE V STRIATU
@@ -617,6 +799,8 @@ A2A-D2 INTERAKCE V STRIATU
            v                         v
      Motorická inhibice      Motorická aktivace
 ```
+
+</details>
 
 **Klinicky vyznam**: Antagoniste A2A (istradefyllin) se pouzivaji v lecbe Parkinsonovy nemoci.
 
@@ -674,6 +858,35 @@ Psychoaktivni latky ovlivnuji nukleotidovou signalizaci na vice urovnich:
 
 Klasicka psychedelika aktivuji 5-HT2A receptory sprazene s Gq:
 
+```mermaid
+flowchart TD
+    node_5HT2ASIGNALIZACEPSYC["5-HT2A SIGNALIZACE PSYCHEDELIKA"]
+    node_PsilocinLSDDMT["Psilocin/LSD/DMT"]
+    node_5HT2A["5-HT2A"]
+    node_Gqprotein["Gq protein"]
+    node_PLCbeta["PLC-beta"]
+    node_0cb77c9d["+--------+--------+"]
+    node_IP3DAG["IP3              DAG"]
+    node_Ca2uvolneniPKCaktiva["Ca2+ uvolneni      PKC aktivace"]
+    node_Modulacesignalnichdr["Modulace signalnich drah"]
+    node_cetnecAMPcGMP["cetne cAMP/cGMP"]
+
+    node_5HT2ASIGNALIZACEPSYC --> node_PsilocinLSDDMT
+    node_PsilocinLSDDMT --> node_5HT2A
+    node_5HT2A --> node_Gqprotein
+    node_Gqprotein --> node_PLCbeta
+    node_PLCbeta --> node_0cb77c9d
+    node_0cb77c9d --> node_IP3DAG
+    node_IP3DAG --> node_Ca2uvolneniPKCaktiva
+    node_Ca2uvolneniPKCaktiva --> node_Modulacesignalnichdr
+    node_Modulacesignalnichdr --> node_cetnecAMPcGMP
+
+    click node_cetnecAMPcGMP "/nucleotids/amp/" "cetne cAMP/cGMP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT2A SIGNALIZACE (PSYCHEDELIKA)
 
@@ -702,6 +915,8 @@ Psilocin/LSD/DMT
       Modulace signalnich drah
       (vcetne cAMP/cGMP)
 ```
+
+</details>
 
 ### Methylxantiny a purinergní systém
 
@@ -734,6 +949,37 @@ Nukleotidove signalni drahy predstavuji slibne terapeuticke cile:
 
 Adenosinovy system ma vyznamny neuroprotektivni potencial:
 
+```mermaid
+flowchart TD
+    node_NEUROPROTEKCEADENOSI["NEUROPROTEKCE ADENOSINEM"]
+    node_ISCHEMIEHYPOXIE["ISCHEMIE/HYPOXIE"]
+    node_SnizeniATP["Snizeni ATP"]
+    node_Zvyseniadenosinu["Zvyseni adenosinu"]
+    node_0cb77c9d["+--------+--------+"]
+    node_A1A2A["A1               A2A"]
+    node_PresynaptickaPostisc["Presynapticka     Postischemicka"]
+    node_inhibicevazodilace["inhibice          vazodilace"]
+    node_SnizeniZvyseni["Snizeni             Zvyseni"]
+    node_excitotoxicityprokrv["excitotoxicity      prokrveni"]
+    node_NEUROPROTEKCE["NEUROPROTEKCE"]
+
+    node_NEUROPROTEKCEADENOSI --> node_ISCHEMIEHYPOXIE
+    node_ISCHEMIEHYPOXIE --> node_SnizeniATP
+    node_SnizeniATP --> node_Zvyseniadenosinu
+    node_Zvyseniadenosinu --> node_0cb77c9d
+    node_0cb77c9d --> node_A1A2A
+    node_A1A2A --> node_PresynaptickaPostisc
+    node_PresynaptickaPostisc --> node_inhibicevazodilace
+    node_inhibicevazodilace --> node_SnizeniZvyseni
+    node_SnizeniZvyseni --> node_excitotoxicityprokrv
+    node_excitotoxicityprokrv --> node_NEUROPROTEKCE
+
+    click node_SnizeniATP "/nucleotids/atp/" "Snizeni ATP"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NEUROPROTEKCE ADENOSINEM
 
@@ -763,6 +1009,8 @@ ISCHEMIE/HYPOXIE
                 v
          NEUROPROTEKCE
 ```
+
+</details>
 
 ### Perspektivy pro psychonautiku
 

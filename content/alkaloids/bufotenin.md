@@ -276,6 +276,35 @@ Reseni:
 
 ### Mechanismus ucinku
 
+```mermaid
+flowchart TD
+    node_Bufotenin["Bufotenin"]
+    node_5HT2Areceptorkortex["5-HT2A receptor kortex"]
+    node_Gqproteinaktivace["Gq protein aktivace"]
+    node_c1098c42["+----------------+"]
+    node_PLCbetabetaarrestin["PLC-beta         beta-arrestin"]
+    node_IP3DAGInternalizace["IP3 + DAG        Internalizace"]
+    node_Ca2uvolneni["Ca2+ uvolneni"]
+    node_PKCaktivace["PKC aktivace"]
+    node_Zmenenaneuronalniakt["Zmenena neuronalni aktivita"]
+    node_Psychoaktivniucinky["Psychoaktivni ucinky"]
+
+    node_Bufotenin --> node_5HT2Areceptorkortex
+    node_5HT2Areceptorkortex --> node_Gqproteinaktivace
+    node_Gqproteinaktivace --> node_c1098c42
+    node_c1098c42 --> node_PLCbetabetaarrestin
+    node_PLCbetabetaarrestin --> node_IP3DAGInternalizace
+    node_IP3DAGInternalizace --> node_Ca2uvolneni
+    node_Ca2uvolneni --> node_PKCaktivace
+    node_PKCaktivace --> node_Zmenenaneuronalniakt
+    node_Zmenenaneuronalniakt --> node_Psychoaktivniucinky
+
+    click node_5HT2Areceptorkortex "/receptors/5-ht2a/" "5-HT2A receptor kortex"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Bufotenin
     |
@@ -306,7 +335,26 @@ Zmenena neuronalni aktivita
 Psychoaktivni ucinky
 ```
 
+</details>
+
 ### Metabolismus
+
+```mermaid
+flowchart TD
+    node_Bufotenin["Bufotenin"]
+    node_MAOA5Hydroxyindol3ac["+--MAO-A-----&gt; 5-Hydroxyindol-3-acetaldehyd"]
+    node_5Hydroxyindol3octova["5-Hydroxyindol-3-octova kyselina 5-HIAA"]
+    node_UGTBufoteninOglukuro["+--UGT-------&gt; Bufotenin-O-glukuronid"]
+    node_SULTBufoteninOsulfat["+--SULT------&gt; Bufotenin-O-sulfat"]
+
+    node_Bufotenin --> node_MAOA5Hydroxyindol3ac
+    node_MAOA5Hydroxyindol3ac --> node_5Hydroxyindol3octova
+    node_5Hydroxyindol3octova --> node_UGTBufoteninOglukuro
+    node_UGTBufoteninOglukuro --> node_SULTBufoteninOsulfat
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Bufotenin
@@ -320,6 +368,8 @@ Bufotenin
     |
     +--[SULT]------> Bufotenin-O-sulfat
 ```
+
+</details>
 
 **Polocas eliminace**: 20-40 minut (kratky)
 

@@ -65,7 +65,6 @@ CNS (cilovy kompartment)
 | [DMT](@/alkaloids/dmt.md) (oral) | p.o. | <5 | - | MAO-A degradace v GIT/jatrech |
 | [DMT](@/alkaloids/dmt.md) + MAOI | p.o. | ~50 | 1.0-2.0 | MAOI inhibuje first-pass |
 | [Meskalin](@/alkaloids/mescaline.md) | p.o. | ~100 | 2.0-3.0 | Pomala absorpce |
-| [Muscimol](@/alkaloids/muscimol.md) | p.o. | ~50 | 1.0-2.0 | Variabilni obsah v houbach |
 | Ketamin | i.v. | 100 | Okamzite | - |
 | Ketamin | i.n. | ~45 | 0.3-0.5 | Spravato (esketamin) |
 | Ketamin | p.o. | ~17 | 0.5-1.0 | Vysoky first-pass |
@@ -74,6 +73,46 @@ CNS (cilovy kompartment)
 ### Distribuce
 
 #### Kompartmentove modely
+
+```mermaid
+flowchart TD
+    node_DVOUKOMPARTMENTOVYMO["DVOUKOMPARTMENTOVY MODEL LSD"]
+    node_k12["k12"]
+    node_CENTRALNIPERIFERN["CENTRALNI         PERIFERNÍ"]
+    node_kompartmentkompartme["kompartment              kompartment"]
+    node_plazmatkane["plazma,          tkane,"]
+    node_ysokek21nizke["ysoke          k21      nizke"]
+    node_perfuzeperfuze["perfuze                 perfuze"]
+    node_keeliminace["ke eliminace"]
+    node_ELIMINACE["ELIMINACE"]
+    node_metabolitymoc["metabolity, moc"]
+    node_Parametry["Parametry:"]
+    node_Vc02LkgLSDCentralnio["Vc = 0.2 L/kg LSD      - Centralni objem"]
+    node_Vss08LkgStacionarnio["Vss = 0.8 L/kg            - Stacionarni objem"]
+    node_CL10LhCelkovaclearan["CL = 10 L/h               - Celkova clearance"]
+    node_k12k21distribucnikon["k12, k21 = distribucni konstanty"]
+
+    node_DVOUKOMPARTMENTOVYMO --> node_k12
+    node_k12 --> node_CENTRALNIPERIFERN
+    node_CENTRALNIPERIFERN --> node_kompartmentkompartme
+    node_kompartmentkompartme --> node_plazmatkane
+    node_plazmatkane --> node_ysokek21nizke
+    node_ysokek21nizke --> node_perfuzeperfuze
+    node_perfuzeperfuze --> node_keeliminace
+    node_keeliminace --> node_ELIMINACE
+    node_ELIMINACE --> node_metabolitymoc
+    node_metabolitymoc --> node_Parametry
+    node_Parametry --> node_Vc02LkgLSDCentralnio
+    node_Vc02LkgLSDCentralnio --> node_Vss08LkgStacionarnio
+    node_Vss08LkgStacionarnio --> node_CL10LhCelkovaclearan
+    node_CL10LhCelkovaclearan --> node_k12k21distribucnikon
+
+    click node_DVOUKOMPARTMENTOVYMO "/alkaloids/lsd/" "DVOUKOMPARTMENTOVY MODEL LSD"
+    click node_Vc02LkgLSDCentralnio "/alkaloids/lsd/" "Vc = 0.2 L/kg LSD      - Centralni objem"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DVOUKOMPARTMENTOVY MODEL (LSD)
@@ -98,6 +137,8 @@ CL = 10 L/h               - Celkova clearance
 k12, k21 = distribucni konstanty
 ```
 
+</details>
+
 #### Distribucni objemy psychedelik
 
 | Latka | Vd (L/kg) | Vazba na proteiny (%) | Prostup HEB | CNS distribuce |
@@ -112,6 +153,81 @@ k12, k21 = distribucni konstanty
 ### Metabolismus
 
 #### Metabolicke drahy psychedelik
+
+```mermaid
+flowchart TD
+    node_METABOLISMUSPSILOCYB["METABOLISMUS PSILOCYBINU/PSILOCINU"]
+    node_Psilocybinprodrug["Psilocybin prodrug"]
+    node_AlkalickafosfatazaGI["Alkalicka fosfataza - GIT, jatra"]
+    node_Faze0Hydrolza["Faze 0: Hydrolza"]
+    node_Psilocinaktivni["Psilocin aktivni"]
+    node_MAOA4HOIAAneaktivni["+---&gt; MAO-A --&gt; 4-HO-IAA neaktivni"]
+    node_FazeIOxidativnideami["Faze I: Oxidativni deaminace"]
+    node_UGT1A91A10Psilocin4O["+---&gt; UGT1A9/1A10 --&gt; Psilocin-4-O-glukuronid neaktivni"]
+    node_FazeIIKonjugace["Faze II: Konjugace"]
+    node_ALDH4HOIAcAneaktivni["+---&gt; ALDH --&gt; 4-HO-IAcA neaktivni"]
+    node_FazeIOxidace["Faze I: Oxidace"]
+    node_ADH4HOTryptofolneakt["+---&gt; ADH --&gt; 4-HO-Tryptofol neaktivni"]
+    node_FazeIRedukce["Faze I: Redukce"]
+    node_METABOLISMUSLSD["METABOLISMUS LSD"]
+    node_LSDaktivni["LSD aktivni"]
+    node_CYP3A42oxoLSDhlavnin["+---&gt; CYP3A4 --&gt; 2-oxo-LSD hlavni, neaktivni"]
+    node_CYP3A42oxo3OHLSDOHLS["+---&gt; CYP3A4 --&gt; 2-oxo-3-OH-LSD O-H-LSD, neaktivni"]
+    node_CYP2D6NdemethylLSDmi["+---&gt; CYP2D6 --&gt; N-demethyl-LSD minoritni"]
+    node_CYP2C9Hydroxymetabol["+---&gt; CYP2C9 --&gt; Hydroxy-metabolity minoritni"]
+    node_Nezmenenvmoci1["+---&gt; Nezmenen v moci ~1%"]
+    node_METABOLISMUSDMT["METABOLISMUS DMT"]
+    node_DMTaktivni["DMT aktivni"]
+    node_MAOAIAAindol3octovky["+---&gt; MAO-A --&gt; IAA indol-3-octová kyselina, hlavni"]
+    node_VelmirychleT1215min["Velmi rychle! T1/2 &lt; 15 min"]
+    node_CYP2D6DMTNoxidminori["+---&gt; CYP2D6 --&gt; DMT-N-oxid minoritni"]
+    node_INMTNMTdemetylacemin["+---&gt; INMT? --&gt; NMT demetylace, minoritni"]
+    node_SMAOIayahuascaMAOAIN["S MAOI ayahuasca: MAO-A INHIBOVANO"]
+
+    node_METABOLISMUSPSILOCYB --> node_Psilocybinprodrug
+    node_Psilocybinprodrug --> node_AlkalickafosfatazaGI
+    node_AlkalickafosfatazaGI --> node_Faze0Hydrolza
+    node_Faze0Hydrolza --> node_Psilocinaktivni
+    node_Psilocinaktivni --> node_MAOA4HOIAAneaktivni
+    node_MAOA4HOIAAneaktivni --> node_FazeIOxidativnideami
+    node_FazeIOxidativnideami --> node_UGT1A91A10Psilocin4O
+    node_UGT1A91A10Psilocin4O --> node_FazeIIKonjugace
+    node_FazeIIKonjugace --> node_ALDH4HOIAcAneaktivni
+    node_ALDH4HOIAcAneaktivni --> node_FazeIOxidace
+    node_FazeIOxidace --> node_ADH4HOTryptofolneakt
+    node_ADH4HOTryptofolneakt --> node_FazeIRedukce
+    node_FazeIRedukce --> node_METABOLISMUSLSD
+    node_METABOLISMUSLSD --> node_LSDaktivni
+    node_LSDaktivni --> node_CYP3A42oxoLSDhlavnin
+    node_CYP3A42oxoLSDhlavnin --> node_CYP3A42oxo3OHLSDOHLS
+    node_CYP3A42oxo3OHLSDOHLS --> node_CYP2D6NdemethylLSDmi
+    node_CYP2D6NdemethylLSDmi --> node_CYP2C9Hydroxymetabol
+    node_CYP2C9Hydroxymetabol --> node_Nezmenenvmoci1
+    node_Nezmenenvmoci1 --> node_METABOLISMUSDMT
+    node_METABOLISMUSDMT --> node_DMTaktivni
+    node_DMTaktivni --> node_MAOAIAAindol3octovky
+    node_MAOAIAAindol3octovky --> node_VelmirychleT1215min
+    node_VelmirychleT1215min --> node_CYP2D6DMTNoxidminori
+    node_CYP2D6DMTNoxidminori --> node_INMTNMTdemetylacemin
+    node_INMTNMTdemetylacemin --> node_SMAOIayahuascaMAOAIN
+
+    click node_METABOLISMUSPSILOCYB "/alkaloids/psilocybin/" "METABOLISMUS PSILOCYBINU/PSILOCINU"
+    click node_Psilocybinprodrug "/alkaloids/psilocybin/" "Psilocybin prodrug"
+    click node_Psilocinaktivni "/alkaloids/psilocin/" "Psilocin aktivni"
+    click node_UGT1A91A10Psilocin4O "/alkaloids/psilocin/" "+---> UGT1A9/1A10 --> Psilocin-4-O-glukuronid neaktivni"
+    click node_METABOLISMUSLSD "/alkaloids/lsd/" "METABOLISMUS LSD"
+    click node_LSDaktivni "/alkaloids/lsd/" "LSD aktivni"
+    click node_CYP3A42oxoLSDhlavnin "/alkaloids/lsd/" "+---> CYP3A4 --> 2-oxo-LSD hlavni, neaktivni"
+    click node_CYP3A42oxo3OHLSDOHLS "/alkaloids/lsd/" "+---> CYP3A4 --> 2-oxo-3-OH-LSD O-H-LSD, neaktivni"
+    click node_CYP2D6NdemethylLSDmi "/alkaloids/lsd/" "+---> CYP2D6 --> N-demethyl-LSD minoritni"
+    click node_METABOLISMUSDMT "/alkaloids/dmt/" "METABOLISMUS DMT"
+    click node_DMTaktivni "/alkaloids/dmt/" "DMT aktivni"
+    click node_CYP2D6DMTNoxidminori "/alkaloids/dmt/" "+---> CYP2D6 --> DMT-N-oxid minoritni"
+    click node_SMAOIayahuascaMAOAIN "/pharmacology/maoi/" "S MAOI ayahuasca: MAO-A INHIBOVANO"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 METABOLISMUS PSILOCYBINU/PSILOCINU
@@ -169,6 +285,8 @@ S MAOI (ayahuasca): MAO-A INHIBOVANO
     -> ORALNI AKTIVITA
 ```
 
+</details>
+
 #### Enzymy metabolismu: srovnání
 
 | Latka | Hlavni enzym | Minoritni | Aktivni metabolity | T1/2 (h) |
@@ -183,6 +301,52 @@ S MAOI (ayahuasca): MAO-A INHIBOVANO
 | MDMA | CYP2D6 | CYP3A4 | **MDA** (aktivni) | 6.0-9.0 |
 
 ### Eliminace
+
+```mermaid
+flowchart TD
+    node_ELIMINACNIPROFILY["ELIMINACNI PROFILY"]
+    node_Plazmakonc["Plazma konc."]
+    node_logscale["log scale"]
+    node_DMTT1215min["\\    DMT T1/2 = 15 min"]
+    node_208d9728["\ \"]
+    node_PsilocinT123h["\  \     Psilocin T1/2 = 3h"]
+    node_46ea3048["\   \\"]
+    node_d5ca3e02["\    \\"]
+    node_LSDT124h["\     \\    LSD T1/2 = 4h"]
+    node_e6bb6f2c["\      \\"]
+    node_MeskalinT126h["\       \\     Meskalin T1/2 = 6h"]
+    node_4c4c76fc["\        \\"]
+    node_MDMAT128h["\         \\      MDMA T1/2 = 8h"]
+    node_55e5b87d["\          \\"]
+    node_49720d39["\           \\"]
+    node_1f4286a3["+----+----+----+----+----+----+----+----&gt;"]
+    node_024681012h["0    2    4    6    8   10   12  h"]
+
+    node_ELIMINACNIPROFILY --> node_Plazmakonc
+    node_Plazmakonc --> node_logscale
+    node_logscale --> node_DMTT1215min
+    node_DMTT1215min --> node_208d9728
+    node_208d9728 --> node_PsilocinT123h
+    node_PsilocinT123h --> node_46ea3048
+    node_46ea3048 --> node_d5ca3e02
+    node_d5ca3e02 --> node_LSDT124h
+    node_LSDT124h --> node_e6bb6f2c
+    node_e6bb6f2c --> node_MeskalinT126h
+    node_MeskalinT126h --> node_4c4c76fc
+    node_4c4c76fc --> node_MDMAT128h
+    node_MDMAT128h --> node_55e5b87d
+    node_55e5b87d --> node_49720d39
+    node_49720d39 --> node_1f4286a3
+    node_1f4286a3 --> node_024681012h
+
+    click node_DMTT1215min "/alkaloids/dmt/" "\\    DMT T1/2 = 15 min"
+    click node_PsilocinT123h "/alkaloids/psilocin/" "\  \     Psilocin T1/2 = 3h"
+    click node_LSDT124h "/alkaloids/lsd/" "\     \\    LSD T1/2 = 4h"
+    click node_MeskalinT126h "/alkaloids/mescaline/" "\       \\     Meskalin T1/2 = 6h"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ELIMINACNI PROFILY
@@ -206,6 +370,8 @@ Plazma konc.
     +----+----+----+----+----+----+----+---->
     0    2    4    6    8   10   12  (h)
 ```
+
+</details>
 
 ---
 
@@ -305,6 +471,42 @@ Priciny:
 
 ### Effect-compartment model
 
+```mermaid
+flowchart TD
+    node_EFFECTCOMPARTMENTMOD["EFFECT-COMPARTMENT MODEL ke0"]
+    node_Plazmake0Effectsitem["Plazma       ke0      Effect site mozek"]
+    node_CpCe["Cp   Ce"]
+    node_UcinekfCe["Ucinek = fCe"]
+    node_ke0rychlostnikonstan["ke0 = rychlostni konstanta prenosu do efektoveho kompartmentu"]
+    node_t12ke0ln2ke0casequil["t1/2,ke0 = ln2/ke0 = cas equilibrace"]
+    node_Latkat12ke0minInterp["Latka         t1/2,ke0 min    Interpretace"]
+    node_LSD1530Stredniequili["LSD           15-30             Stredni equilibrace"]
+    node_Psilocin1020Rychlaeq["Psilocin      10-20             Rychla equilibrace"]
+    node_DMTinh13Velmirychla["DMT inh.    1-3               Velmi rychla"]
+    node_Ketaminiv25Rychlavys["Ketamin i.v. 2-5              Rychla vysoka lipofilita"]
+    node_Meskalin3060Pomalani["Meskalin      30-60             Pomala nizka lipofilita"]
+
+    node_EFFECTCOMPARTMENTMOD --> node_Plazmake0Effectsitem
+    node_Plazmake0Effectsitem --> node_CpCe
+    node_CpCe --> node_UcinekfCe
+    node_UcinekfCe --> node_ke0rychlostnikonstan
+    node_ke0rychlostnikonstan --> node_t12ke0ln2ke0casequil
+    node_t12ke0ln2ke0casequil --> node_Latkat12ke0minInterp
+    node_Latkat12ke0minInterp --> node_LSD1530Stredniequili
+    node_LSD1530Stredniequili --> node_Psilocin1020Rychlaeq
+    node_Psilocin1020Rychlaeq --> node_DMTinh13Velmirychla
+    node_DMTinh13Velmirychla --> node_Ketaminiv25Rychlavys
+    node_Ketaminiv25Rychlavys --> node_Meskalin3060Pomalani
+
+    click node_LSD1530Stredniequili "/alkaloids/lsd/" "LSD           15-30             Stredni equilibrace"
+    click node_Psilocin1020Rychlaeq "/alkaloids/psilocin/" "Psilocin      10-20             Rychla equilibrace"
+    click node_DMTinh13Velmirychla "/alkaloids/dmt/" "DMT inh.    1-3               Velmi rychla"
+    click node_Meskalin3060Pomalani "/alkaloids/mescaline/" "Meskalin      30-60             Pomala nizka lipofilita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 EFFECT-COMPARTMENT MODEL (ke0)
 
@@ -325,6 +527,8 @@ DMT (inh.)    1-3               Velmi rychla
 Ketamin (i.v.) 2-5              Rychla (vysoka lipofilita)
 Meskalin      30-60             Pomala (nizka lipofilita)
 ```
+
+</details>
 
 ---
 
@@ -394,6 +598,43 @@ MDMA INHIBUJE CYP2D6 (mechanism-based inhibice)
 
 ### Casove ramce wash-out pred psychedelickou terapii
 
+```mermaid
+flowchart TD
+    node_WASHOUTPERIODY["WASH-OUT PERIODY"]
+    node_LatkaPotrebnapauzaDu["Latka               Potrebna pauza    Duvod"]
+    node_FluoxetinProzac56tyd["Fluoxetin Prozac   5-6 tydnů        Dlouhy T1/2 1-6 dní"]
+    node_aktivnmetabolit["+ aktivní metabolit"]
+    node_Paroxetin23tydnyCYP2["Paroxetin            2-3 tydny        CYP2D6 inhibice"]
+    node_Sertralin23tydnyStan["Sertralin            2-3 tydny        Standardni T1/2"]
+    node_Citalopram23tydnySta["Citalopram           2-3 tydny        Standardni T1/2"]
+    node_Venlafaxin23tydnySNR["Venlafaxin           2-3 tydny        SNRI ucinek"]
+    node_Duloxetin23tydnySNRI["Duloxetin            2-3 tydny        SNRI ucinek"]
+    node_Tramadol12tydnySERTi["Tramadol             1-2 tydny        SERT inhibice"]
+    node_Lithium12tydnyKONTRA["Lithium              1-2 tydny        KONTRAINDIKACE zauchvaty"]
+    node_5HTP1tyden5HTprekurz["5-HTP                1 tyden          5-HT prekurzor"]
+    node_StJohnswort2tydnyMAO["St. John's wort      2 tydny         MAOI + CYP indukce"]
+    node_CannabisIdealne2tydn["Cannabis             Idealne 2 tydny  Nepredvidatelna interakce"]
+
+    node_WASHOUTPERIODY --> node_LatkaPotrebnapauzaDu
+    node_LatkaPotrebnapauzaDu --> node_FluoxetinProzac56tyd
+    node_FluoxetinProzac56tyd --> node_aktivnmetabolit
+    node_aktivnmetabolit --> node_Paroxetin23tydnyCYP2
+    node_Paroxetin23tydnyCYP2 --> node_Sertralin23tydnyStan
+    node_Sertralin23tydnyStan --> node_Citalopram23tydnySta
+    node_Citalopram23tydnySta --> node_Venlafaxin23tydnySNR
+    node_Venlafaxin23tydnySNR --> node_Duloxetin23tydnySNRI
+    node_Duloxetin23tydnySNRI --> node_Tramadol12tydnySERTi
+    node_Tramadol12tydnySERTi --> node_Lithium12tydnyKONTRA
+    node_Lithium12tydnyKONTRA --> node_5HTP1tyden5HTprekurz
+    node_5HTP1tyden5HTprekurz --> node_StJohnswort2tydnyMAO
+    node_StJohnswort2tydnyMAO --> node_CannabisIdealne2tydn
+
+    click node_StJohnswort2tydnyMAO "/pharmacology/maoi/" "St. John's wort      2 tydny         MAOI + CYP indukce"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 WASH-OUT PERIODY
 
@@ -413,6 +654,8 @@ St. John's wort      2 tydny         MAOI + CYP indukce
 Cannabis             Idealne 2 tydny  Nepredvidatelna interakce
 ```
 
+</details>
+
 ---
 
 ## Populacni farmakokinetika
@@ -428,6 +671,47 @@ Cannabis             Idealne 2 tydny  Nepredvidatelna interakce
 | Subjektivni ucinek | 40-60 | Genetika, set & setting |
 
 ### Faktory ovlivnujici odpoved
+
+```mermaid
+flowchart TD
+    node_VARIABILITAVODPOVEDI["VARIABILITA V ODPOVEDI NA PSYCHEDELIKA"]
+    node_FARMAKOKINETCIKEFAKT["FARMAKOKINETCIKE FAKTORY 40%:"]
+    node_53e1b860["+----------------------------------+"]
+    node_GenetikaCYPUGTMAOABC["Genetika CYP, UGT, MAO, ABCB1"]
+    node_Veksnizenahepatalnif["Vek snizena hepatalni funkce"]
+    node_Jidlozpomaleniabsorp["Jidlo zpomaleni absorpce"]
+    node_PohlavCYProzdly["Pohlaví CYP rozdíly"]
+    node_Telesnahmotnost["Telesna hmotnost"]
+    node_Komedikaceinhibicein["Komedikace inhibice/indukce"]
+    node_FARMAKODYNAMICKEFAKT["FARMAKODYNAMICKE FAKTORY 60%:"]
+    node_HTR2AgenotypT102CHis["HTR2A genotyp T102C, His452Tyr"]
+    node_5HT2Areceptordenzita["5-HT2A receptor denzita vek"]
+    node_Predchoziexpozicetol["Predchozi expozice tolerance"]
+    node_Setpsychologickysta["Set psychologicky sta"]
+    node_Settingprostredi["Setting prostredi"]
+    node_OsobnostnirysyOpenne["Osobnostni rysy Openness"]
+    node_Psychiatrickaanamnez["Psychiatricka anamneza"]
+
+    node_VARIABILITAVODPOVEDI --> node_FARMAKOKINETCIKEFAKT
+    node_FARMAKOKINETCIKEFAKT --> node_53e1b860
+    node_53e1b860 --> node_GenetikaCYPUGTMAOABC
+    node_GenetikaCYPUGTMAOABC --> node_Veksnizenahepatalnif
+    node_Veksnizenahepatalnif --> node_Jidlozpomaleniabsorp
+    node_Jidlozpomaleniabsorp --> node_PohlavCYProzdly
+    node_PohlavCYProzdly --> node_Telesnahmotnost
+    node_Telesnahmotnost --> node_Komedikaceinhibicein
+    node_Komedikaceinhibicein --> node_FARMAKODYNAMICKEFAKT
+    node_FARMAKODYNAMICKEFAKT --> node_HTR2AgenotypT102CHis
+    node_HTR2AgenotypT102CHis --> node_5HT2Areceptordenzita
+    node_5HT2Areceptordenzita --> node_Predchoziexpozicetol
+    node_Predchoziexpozicetol --> node_Setpsychologickysta
+    node_Setpsychologickysta --> node_Settingprostredi
+    node_Settingprostredi --> node_OsobnostnirysyOpenne
+    node_OsobnostnirysyOpenne --> node_Psychiatrickaanamnez
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 VARIABILITA V ODPOVEDI NA PSYCHEDELIKA
@@ -453,6 +737,8 @@ FARMAKODYNAMICKE FAKTORY (60%):
 | Psychiatricka anamneza            |
 +----------------------------------+
 ```
+
+</details>
 
 ---
 

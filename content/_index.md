@@ -54,7 +54,6 @@ Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie*
     { alkaloid: '[DMT](@/alkaloids/dmt.md)', typ: 'Tryptamin', mechanismus: '[5-HT2A](@/receptors/5-ht2a.md) agonista' },
     { alkaloid: '[LSD](@/alkaloids/lsd.md)', typ: 'Ergolin', mechanismus: '[5-HT2A](@/receptors/5-ht2a.md)/D2 agonista' },
     { alkaloid: '[Baeocystin](@/alkaloids/baeocystin.md)', typ: 'Tryptamin', mechanismus: '[5-HT2A](@/receptors/5-ht2a.md) agonista' },
-    { alkaloid: '[Muscimol](@/alkaloids/muscimol.md)', typ: 'Isoxazol', mechanismus: '[GABA-A](@/receptors/gaba-a.md) agonista' },
     { alkaloid: '[Meskalin](@/alkaloids/mescaline.md)', typ: 'Fenethylamin', mechanismus: '[5-HT2A](@/receptors/5-ht2a.md) agonista' }
 ], [
     { key: 'alkaloid', label: 'Alkaloid', sortable: true },
@@ -188,7 +187,6 @@ Komplexní česká encyklopedie **psychoaktivních látek**, jejich **biochemie*
 
 <div x-data="advancedTable([
     { receptor: '[5-HT2A](@/receptors/5-ht2a.md)', typ: 'GPCR', funkce: 'Halucinace', ligandy: 'Psychedelika' },
-    { receptor: '[GABA-A](@/receptors/gaba-a.md)', typ: 'Ionotropní', funkce: 'Inhibice', ligandy: '[Muscimol](@/alkaloids/muscimol.md), BZ' },
     { receptor: '[NMDA](@/receptors/nmda.md)', typ: 'Ionotropní', funkce: 'Plasticita', ligandy: 'Ketamin, [K. ibotenová](@/neurotoxins/ibotenic-acid.md)' }
 ], [
     { key: 'receptor', label: 'Receptor', sortable: true },
@@ -450,7 +448,6 @@ Definice pojmů: [Receptor](@/glossary/receptor.md), [GABA](@/glossary/gaba.md),
     { latka: '[DMT](@/alkaloids/dmt.md)', ki: '75-130', kiValue: 102.5, davka: '15-60 mg', trvani: '15 min (inh.)' },
     { latka: '[Psilocybin](@/alkaloids/psilocybin.md)', ki: '(prodrug)', kiValue: 999, davka: '15-30 mg', trvani: '4-6 h' },
     { latka: '[Meskalin](@/alkaloids/mescaline.md)', ki: '5000+', kiValue: 5000, davka: '200-400 mg', trvani: '8-12 h' },
-    { latka: '[Muscimol](@/alkaloids/muscimol.md)', ki: 'N/A ([GABA](@/glossary/gaba.md))', kiValue: 9999, davka: '5-15 mg', trvani: '6-8 h' }
 ], [
     { key: 'latka', label: 'Látka', sortable: true },
     { key: 'ki', label: 'Ki (nM)', sortable: true, sortKey: 'kiValue' },
@@ -526,7 +523,6 @@ Definice pojmů: [Receptor](@/glossary/receptor.md), [GABA](@/glossary/gaba.md),
     { kategorie: '**Psychedelika**', receptor: '[5-HT2A](@/receptors/5-ht2a.md)', priklady: '[Psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md), [Meskalin](@/alkaloids/mescaline.md)' },
     { kategorie: '**Disociativa**', receptor: '[NMDA](@/receptors/nmda.md) antagonismus', priklady: 'Ketamin, PCP' },
     { kategorie: '**Deliriantia**', receptor: 'mAChR antagonismus', priklady: 'Skopolamin, Atropin' },
-    { kategorie: '**GABAergní**', receptor: '[GABA-A](@/receptors/gaba-a.md)', priklady: '[Muscimol](@/alkaloids/muscimol.md), Alkohol' }
 ], [
     { key: 'kategorie', label: 'Kategorie', sortable: true },
     { key: 'receptor', label: 'Receptor', sortable: true },
@@ -587,6 +583,31 @@ Detailni zpracovani viz [Mechanismy ucinku](@/mechanisms/_index.md) -- receptoro
 
 ### Psychedelika a mozek
 
+```mermaid
+flowchart TD
+    node_Psychedelikum["Psychedelikum"]
+    node_5HT2Areceptorkortex["5-HT2A receptor kortex"]
+    node_GqsignalizaceCaPKC["Gq signalizace  Ca²⁺  PKC"]
+    node_Zmnnneuronlnaktivita["Změněná neuronální aktivita"]
+    node_DMNsupreseegodissolu["DMN suprese ego dissolution"]
+    node_Vizulnkortexhalucina["Vizuální kortex  halucinace"]
+    node_Entropieflexibilita["Entropie  flexibilita"]
+    node_ZMNNSTAVVDOM["ZMĚNĚNÝ STAV VĚDOMÍ"]
+
+    node_Psychedelikum --> node_5HT2Areceptorkortex
+    node_5HT2Areceptorkortex --> node_GqsignalizaceCaPKC
+    node_GqsignalizaceCaPKC --> node_Zmnnneuronlnaktivita
+    node_Zmnnneuronlnaktivita --> node_DMNsupreseegodissolu
+    node_DMNsupreseegodissolu --> node_Vizulnkortexhalucina
+    node_Vizulnkortexhalucina --> node_Entropieflexibilita
+    node_Entropieflexibilita --> node_ZMNNSTAVVDOM
+
+    click node_5HT2Areceptorkortex "/receptors/5-ht2a/" "5-HT2A receptor kortex"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psychedelikum
       │
@@ -607,6 +628,8 @@ Psychedelikum
 │  ZMĚNĚNÝ STAV VĚDOMÍ                │
 └─────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 

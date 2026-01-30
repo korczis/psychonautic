@@ -141,6 +141,53 @@ Tryptofan (aminokyselina)
 
 #### Biosynteza v namelu
 
+```mermaid
+flowchart TD
+    node_BIOSYNTEZAERGOLINOVY["BIOSYNTEZA ERGOLINOVYCH ALKALOIDU V CLAVICEPS"]
+    node_LTryptofanDimethylal["L-Tryptofan + Dimethylallyl-difosfat DMAPP"]
+    node_DMATsyntaza["DMAT syntaza"]
+    node_4DimethylallylLtrypt["4-Dimethylallyl-L-tryptofan DMAT"]
+    node_NMethyltransferaza["N-Methyltransferaza"]
+    node_NMethylDMAT["N-Methyl-DMAT"]
+    node_Oxidazecyklazy["Oxidaze, cyklazy"]
+    node_ZavenkruhuCaD["Zavření kruhu C a D"]
+    node_ChanoclavinI["Chanoclavin-I"]
+    node_Izomerace["Izomerace"]
+    node_ChanoclavinII["Chanoclavin-II"]
+    node_Oxidace["Oxidace"]
+    node_Agroclavin["Agroclavin"]
+    node_Elymoclavin["Elymoclavin"]
+    node_Kyselinapaspalova["Kyselina paspalova"]
+    node_KyselinalysergovaLSA["Kyselina lysergova LSA"]
+    node_df854632["+----------+----------+"]
+    node_ErgotaminErgometrin["Ergotamin            Ergometrin"]
+    node_peptidovjednoduch["peptidové          jednoduché"]
+    node_alkaloidyamidy["alkaloidy            amidy"]
+
+    node_BIOSYNTEZAERGOLINOVY --> node_LTryptofanDimethylal
+    node_LTryptofanDimethylal --> node_DMATsyntaza
+    node_DMATsyntaza --> node_4DimethylallylLtrypt
+    node_4DimethylallylLtrypt --> node_NMethyltransferaza
+    node_NMethyltransferaza --> node_NMethylDMAT
+    node_NMethylDMAT --> node_Oxidazecyklazy
+    node_Oxidazecyklazy --> node_ZavenkruhuCaD
+    node_ZavenkruhuCaD --> node_ChanoclavinI
+    node_ChanoclavinI --> node_Izomerace
+    node_Izomerace --> node_ChanoclavinII
+    node_ChanoclavinII --> node_Oxidace
+    node_Oxidace --> node_Agroclavin
+    node_Agroclavin --> node_Elymoclavin
+    node_Elymoclavin --> node_Kyselinapaspalova
+    node_Kyselinapaspalova --> node_KyselinalysergovaLSA
+    node_KyselinalysergovaLSA --> node_df854632
+    node_df854632 --> node_ErgotaminErgometrin
+    node_ErgotaminErgometrin --> node_peptidovjednoduch
+    node_peptidovjednoduch --> node_alkaloidyamidy
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BIOSYNTEZA ERGOLINOVYCH ALKALOIDU V CLAVICEPS
 
@@ -186,6 +233,8 @@ L-Tryptofan + Dimethylallyl-difosfat (DMAPP)
     (peptidové)          (jednoduché
     alkaloidy            amidy)
 ```
+
+</details>
 
 ### Ipomoea (Povijnice)
 
@@ -297,6 +346,23 @@ Viz podrobny clanek: [LSD](@/alkaloids/lsd.md)
 | **Trida** | Peptidovy alkaloid |
 | **Klinicke pouziti** | Migrenozum (historicky) |
 
+```mermaid
+flowchart TD
+    node_ERGOTAMINPeptidovyer["ERGOTAMIN - Peptidovy ergolinovy alkaloid"]
+    node_KyselinalysergovaTri["Kyselina lysergova + Tripeptidovy zbytek"]
+    node_LFenylalaninLProlinL["+---L-Fenylalanin---L-Prolin---L-Alanin"]
+    node_cyklizovano["cyklizovano"]
+    node_StrukturaErgopeptin["Struktura: Ergopeptin"]
+
+    node_ERGOTAMINPeptidovyer --> node_KyselinalysergovaTri
+    node_KyselinalysergovaTri --> node_LFenylalaninLProlinL
+    node_LFenylalaninLProlinL --> node_cyklizovano
+    node_cyklizovano --> node_StrukturaErgopeptin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ERGOTAMIN - Peptidovy ergolinovy alkaloid
 
@@ -311,6 +377,8 @@ Struktura: Ergopeptin
 - Aminokyseliny
 ```
 
+</details>
+
 ### Ergometrin (Ergonovin)
 
 | Vlastnost | Hodnota |
@@ -322,6 +390,33 @@ Struktura: Ergopeptin
 | **Klinicke pouziti** | Uterotonikum (poporodní krvaceni) |
 
 ### Prehled strukturnich vztahu
+
+```mermaid
+flowchart TD
+    node_ERGOLIN["ERGOLIN"]
+    node_3c51c5b4["+------------+------------+"]
+    node_CLAVINYKYSELINALYSER["CLAVINY                  KYSELINA LYSERGOVA"]
+    node_bezCOOHsCOOHnaC8["bez COOH                s COOH na C-8"]
+    node_c8ef1a7a["+-----+-----+          +--------+--------+"]
+    node_AgroclavinElymoclavi["Agroclavin  Elymoclavin  AMIDY            PEPTIDY"]
+    node_603a892d["+-----+-----+     +-----+-----+"]
+    node_LSALSDErgotaminErgom["LSA      **LSD**  Ergotamin  Ergometrin"]
+    node_erginsyntetickypepti["ergin   synteticky peptidovy amid"]
+
+    node_ERGOLIN --> node_3c51c5b4
+    node_3c51c5b4 --> node_CLAVINYKYSELINALYSER
+    node_CLAVINYKYSELINALYSER --> node_bezCOOHsCOOHnaC8
+    node_bezCOOHsCOOHnaC8 --> node_c8ef1a7a
+    node_c8ef1a7a --> node_AgroclavinElymoclavi
+    node_AgroclavinElymoclavi --> node_603a892d
+    node_603a892d --> node_LSALSDErgotaminErgom
+    node_LSALSDErgotaminErgom --> node_erginsyntetickypepti
+
+    click node_LSALSDErgotaminErgom "/alkaloids/lsd/" "LSA      **LSD**  Ergotamin  Ergometrin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     ERGOLIN
@@ -340,6 +435,8 @@ Agroclavin  Elymoclavin  AMIDY            PEPTIDY
                    LSA      **LSD**  Ergotamin  Ergometrin
                 (ergin)   (synteticky) (peptidovy) (amid)
 ```
+
+</details>
 
 ---
 
@@ -361,6 +458,54 @@ Agroclavin  Elymoclavin  AMIDY            PEPTIDY
 **Legenda**: +++ silna aktivita, ++ stredni, + slaba, - zadna
 
 ### Mechanismus psychedelickeho ucinku
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELICKEERGOLIN["PSYCHEDELICKE ERGOLINY LSD, LSA"]
+    node_Ergolin["Ergolin"]
+    node_0cb77c9d["+--------+--------+"]
+    node_5HT2AreceptorDopamin["5-HT2A receptor  Dopaminove rec."]
+    node_Gq11proteinModulaceo["Gq/11 protein     Modulace odmeny"]
+    node_FosfolipazaC["Fosfolipaza C"]
+    node_4f76f3cc["+------+------+"]
+    node_IP3DAG["IP3          DAG"]
+    node_Ca2zERPKCaktivace["Ca2+ z ER    PKC aktivace"]
+    node_CaMKIIERK12fosforyla["CaMKII    ERK1/2 fosforylace"]
+    node_CREB["CREB"]
+    node_ddb739e1["+------------------+"]
+    node_Genovaexprese["Genova exprese:"]
+    node_BDNF["- BDNF"]
+    node_Arc["- Arc"]
+    node_cFos["- c-Fos"]
+    node_NEUROPLASTICITA["NEUROPLASTICITA"]
+    node_Psychedelicky["+ Psychedelicky"]
+    node_zazitek["zazitek"]
+
+    node_PSYCHEDELICKEERGOLIN --> node_Ergolin
+    node_Ergolin --> node_0cb77c9d
+    node_0cb77c9d --> node_5HT2AreceptorDopamin
+    node_5HT2AreceptorDopamin --> node_Gq11proteinModulaceo
+    node_Gq11proteinModulaceo --> node_FosfolipazaC
+    node_FosfolipazaC --> node_4f76f3cc
+    node_4f76f3cc --> node_IP3DAG
+    node_IP3DAG --> node_Ca2zERPKCaktivace
+    node_Ca2zERPKCaktivace --> node_CaMKIIERK12fosforyla
+    node_CaMKIIERK12fosforyla --> node_CREB
+    node_CREB --> node_ddb739e1
+    node_ddb739e1 --> node_Genovaexprese
+    node_Genovaexprese --> node_BDNF
+    node_BDNF --> node_Arc
+    node_Arc --> node_cFos
+    node_cFos --> node_NEUROPLASTICITA
+    node_NEUROPLASTICITA --> node_Psychedelicky
+    node_Psychedelicky --> node_zazitek
+
+    click node_PSYCHEDELICKEERGOLIN "/alkaloids/lsd/" "PSYCHEDELICKE ERGOLINY LSD, LSA"
+    click node_5HT2AreceptorDopamin "/receptors/5-ht2a/" "5-HT2A receptor  Dopaminove rec."
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELICKE ERGOLINY (LSD, LSA)
@@ -408,6 +553,8 @@ PSYCHEDELICKE ERGOLINY (LSD, LSA)
     |   zazitek        |
     +------------------+
 ```
+
+</details>
 
 ### Vazoaktivni ucinky
 

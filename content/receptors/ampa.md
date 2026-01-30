@@ -43,6 +43,29 @@ tags = ["AMPA", "glutamát", "LTP", "synaptická-plasticita", "excitace", "pamě
 
 ### Architektura tetrameru
 
+```mermaid
+flowchart TD
+    node_Pohledshoraextracelu["Pohled shora extracelulární"]
+    node_GluA1["GluA1"]
+    node_8455cce0["╱    ╲"]
+    node_5ec3d07b["╱        ╲"]
+    node_GluA2GluA2["GluA2  GluA2"]
+    node_b14cbd56["╲        ╱"]
+    node_fd0e3b1c["╲    ╱"]
+    node_Nejastjkombinacevdos["Nejčastější kombinace v dospělém mozku:"]
+
+    node_Pohledshoraextracelu --> node_GluA1
+    node_GluA1 --> node_8455cce0
+    node_8455cce0 --> node_5ec3d07b
+    node_5ec3d07b --> node_GluA2GluA2
+    node_GluA2GluA2 --> node_b14cbd56
+    node_b14cbd56 --> node_fd0e3b1c
+    node_fd0e3b1c --> node_Nejastjkombinacevdos
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
          Pohled shora (extracelulární)
 
@@ -60,7 +83,52 @@ Nejčastější kombinace v dospělém mozku:
 - GluA1 homomery - plasticita (GluA2-lacking)
 ```
 
+</details>
+
 ### Doménová organizace
+
+```mermaid
+flowchart TD
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_NterminusATD["N-terminus  ATD"]
+    node_aminoterminlnAminoTe["amino-terminální                   Amino-Terminal Domain"]
+    node_domna["doména"]
+    node_LBDLBD["LBD                     LBD"]
+    node_LigandBinding["Ligand-Binding"]
+    node_Glutamt["Glutamát"]
+    node_3bf53711["██████████████████████████████████████████████"]
+    node_KANL["KANÁL"]
+    node_pr["pór"]
+    node_M1["M1"]
+    node_M2reentrantloop["M2       re-entrant loop"]
+    node_M3["M3"]
+    node_M4["M4"]
+    node_CterminusPDZvazba["C-terminus  PDZ vazba"]
+    node_scaffolding["scaffolding"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+
+    node_Extracelulrnprostor --> node_NterminusATD
+    node_NterminusATD --> node_aminoterminlnAminoTe
+    node_aminoterminlnAminoTe --> node_domna
+    node_domna --> node_LBDLBD
+    node_LBDLBD --> node_LigandBinding
+    node_LigandBinding --> node_Glutamt
+    node_Glutamt --> node_3bf53711
+    node_3bf53711 --> node_KANL
+    node_KANL --> node_pr
+    node_pr --> node_M1
+    node_M1 --> node_M2reentrantloop
+    node_M2reentrantloop --> node_M3
+    node_M3 --> node_M4
+    node_M4 --> node_CterminusPDZvazba
+    node_CterminusPDZvazba --> node_scaffolding
+    node_scaffolding --> node_Intracelulrnprostor
+
+    click node_Glutamt "/glossary/glutamate/" "Glutamát"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     Extracelulární prostor
@@ -91,7 +159,30 @@ Nejčastější kombinace v dospělém mozku:
                Intracelulární prostor
 ```
 
+</details>
+
 ### Iontový pór a Q/R editing
+
+```mermaid
+flowchart TD
+    node_QReditovacmstoM2segm["Q/R editovací místo M2 segment"]
+    node_GluA2needitovanQGluA["GluA2 needitovaná Q        GluA2 editovaná R"]
+    node_QR["████ Q ████                ████ R ████"]
+    node_CapropustnCaIMPERMEA["Ca²⁺ propustný             Ca²⁺ IMPERMEABILNÍ"]
+    node_ExcitotoxicitaNeurop["Excitotoxicita             Neuroprotekce"]
+    node_Normln99GluA2jeRedit["Normálně: &gt;99% GluA2 je R-editovaná ADAR2"]
+    node_VjimkyRanvvojspecifi["Výjimky: Raný vývoj, specifické populace neuronů"]
+
+    node_QReditovacmstoM2segm --> node_GluA2needitovanQGluA
+    node_GluA2needitovanQGluA --> node_QR
+    node_QR --> node_CapropustnCaIMPERMEA
+    node_CapropustnCaIMPERMEA --> node_ExcitotoxicitaNeurop
+    node_ExcitotoxicitaNeurop --> node_Normln99GluA2jeRedit
+    node_Normln99GluA2jeRedit --> node_VjimkyRanvvojspecifi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Q/R editovací místo (M2 segment)
@@ -112,6 +203,8 @@ GluA2 needitovaná (Q)        GluA2 editovaná (R)
 Normálně: >99% GluA2 je R-editovaná (ADAR2)
 Výjimky: Raný vývoj, specifické populace neuronů
 ```
+
+</details>
 
 ---
 
@@ -141,6 +234,41 @@ Výjimky: Raný vývoj, specifické populace neuronů
 ## Kinetika a funkce
 
 ### Rychlá synaptická transmise
+
+```mermaid
+flowchart TD
+    node_PresynaptickAP["Presynaptický AP"]
+    node_Glutamtuvolnn["Glutamát uvolnění"]
+    node_0105ms["0.1-0.5 ms"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace"]
+    node_NainfluxKeflux["Na⁺ influx, K⁺ eflux"]
+    node_EPSPExcitatoryPostSy["EPSP Excitatory PostSynaptic Potential"]
+    node_RychlostAMPAvsNMDA["Rychlost AMPA vs NMDA:"]
+    node_AMPARisetime05ms["AMPA: Rise time ~0.5 ms"]
+    node_Decay25ms["Decay ~2-5 ms"]
+    node_NMDARisetime510ms["NMDA: Rise time ~5-10 ms"]
+    node_Decay50300ms["Decay ~50-300 ms"]
+    node_AMPArychldepolarizac["AMPA = rychlá depolarizace"]
+    node_NMDApomalCadependent["NMDA = pomalá, Ca²⁺-dependentní"]
+
+    node_PresynaptickAP --> node_Glutamtuvolnn
+    node_Glutamtuvolnn --> node_0105ms
+    node_0105ms --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_NainfluxKeflux
+    node_NainfluxKeflux --> node_EPSPExcitatoryPostSy
+    node_EPSPExcitatoryPostSy --> node_RychlostAMPAvsNMDA
+    node_RychlostAMPAvsNMDA --> node_AMPARisetime05ms
+    node_AMPARisetime05ms --> node_Decay25ms
+    node_Decay25ms --> node_NMDARisetime510ms
+    node_NMDARisetime510ms --> node_Decay50300ms
+    node_Decay50300ms --> node_AMPArychldepolarizac
+    node_AMPArychldepolarizac --> node_NMDApomalCadependent
+
+    click node_Glutamtuvolnn "/glossary/glutamate/" "Glutamát uvolnění"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Presynaptický AP
@@ -175,7 +303,38 @@ EPSP (Excitatory PostSynaptic Potential)
 └─────────────────────────────────────────┘
 ```
 
+</details>
+
 ### AMPA-NMDA synergie
+
+```mermaid
+flowchart TD
+    node_Glutamtovsynapse["Glutamátová synapse"]
+    node_Glutamt["Glutamát"]
+    node_AMPAreceptor["AMPA receptor"]
+    node_Rychldepolarizace["Rychlá depolarizace"]
+    node_Mgodstrann["Mg²⁺ odstranění"]
+    node_NMDAreceptor["NMDA receptor"]
+    node_Cainflux["Ca²⁺ influx"]
+    node_LTPplasticita["LTP/plasticita"]
+    node_AMPAgateopenerproNMD["AMPA = 'gate opener' pro NMDA"]
+
+    node_Glutamtovsynapse --> node_Glutamt
+    node_Glutamt --> node_AMPAreceptor
+    node_AMPAreceptor --> node_Rychldepolarizace
+    node_Rychldepolarizace --> node_Mgodstrann
+    node_Mgodstrann --> node_NMDAreceptor
+    node_NMDAreceptor --> node_Cainflux
+    node_Cainflux --> node_LTPplasticita
+    node_LTPplasticita --> node_AMPAgateopenerproNMD
+
+    click node_Glutamtovsynapse "/glossary/glutamate/" "Glutamátová synapse"
+    click node_Glutamt "/glossary/glutamate/" "Glutamát"
+    click node_NMDAreceptor "/receptors/nmda/" "NMDA receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Glutamátová synapse
@@ -204,11 +363,50 @@ Glutamátová synapse
 AMPA = "gate opener" pro NMDA
 ```
 
+</details>
+
 ---
 
 ## Synaptická plasticita
 
 ### LTP (Long-Term Potentiation)
+
+```mermaid
+flowchart TD
+    node_LTPindukceaexprese["LTP indukce a exprese"]
+    node_1INDUKCENMDAdependen["1. INDUKCE NMDA-dependentní"]
+    node_Tetanickstimulace["Tetanická stimulace"]
+    node_AMPAdepolarizace["AMPA depolarizace"]
+    node_NMDAaktivaceCainflux["NMDA aktivace  Ca²⁺ influx"]
+    node_CaMKIIaktivace["CaMKII aktivace"]
+    node_2RANEXPRESEminuty["2. RANÁ EXPRESE minuty"]
+    node_CaMKII["CaMKII"]
+    node_odivostexistujcchAMP["odivost existujících AMPA"]
+    node_fosforylaceSer831Glu["fosforylace Ser831 GluA1"]
+    node_3POZDNEXPRESEhodinyd["3. POZDNÍ EXPRESE hodiny-dny"]
+    node_Proteinsyntza["Protein syntéza"]
+    node_TraffickingnovchAMPA["Trafficking nových AMPA na synapsi"]
+    node_GluA1obsahujc["GluA1-obsahující"]
+    node_Strukturlnzmnyspine["Strukturální změny spine"]
+
+    node_LTPindukceaexprese --> node_1INDUKCENMDAdependen
+    node_1INDUKCENMDAdependen --> node_Tetanickstimulace
+    node_Tetanickstimulace --> node_AMPAdepolarizace
+    node_AMPAdepolarizace --> node_NMDAaktivaceCainflux
+    node_NMDAaktivaceCainflux --> node_CaMKIIaktivace
+    node_CaMKIIaktivace --> node_2RANEXPRESEminuty
+    node_2RANEXPRESEminuty --> node_CaMKII
+    node_CaMKII --> node_odivostexistujcchAMP
+    node_odivostexistujcchAMP --> node_fosforylaceSer831Glu
+    node_fosforylaceSer831Glu --> node_3POZDNEXPRESEhodinyd
+    node_3POZDNEXPRESEhodinyd --> node_Proteinsyntza
+    node_Proteinsyntza --> node_TraffickingnovchAMPA
+    node_TraffickingnovchAMPA --> node_GluA1obsahujc
+    node_GluA1obsahujc --> node_Strukturlnzmnyspine
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 LTP indukce a exprese
@@ -240,7 +438,30 @@ LTP indukce a exprese
 └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### LTD (Long-Term Depression)
+
+```mermaid
+flowchart TD
+    node_LTDmechanismus["LTD mechanismus"]
+    node_Nzkofrekvnenstimulac["Nízkofrekvneční stimulace"]
+    node_MrnCainfluxNMDA["Mírný Ca²⁺ influx NMDA"]
+    node_Calcineurinfosfatza["Calcineurin fosfatáza"]
+    node_DefosforylaceGluA1Se["Defosforylace GluA1 Ser845"]
+    node_AMPAreceptorinternal["AMPA receptor internalizace"]
+    node_synapticksla["synaptická síla"]
+
+    node_LTDmechanismus --> node_Nzkofrekvnenstimulac
+    node_Nzkofrekvnenstimulac --> node_MrnCainfluxNMDA
+    node_MrnCainfluxNMDA --> node_Calcineurinfosfatza
+    node_Calcineurinfosfatza --> node_DefosforylaceGluA1Se
+    node_DefosforylaceGluA1Se --> node_AMPAreceptorinternal
+    node_AMPAreceptorinternal --> node_synapticksla
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 LTD mechanismus
@@ -260,6 +481,8 @@ LTD mechanismus
 │                                                     │
 └─────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ### AMPA trafficking
 
@@ -306,6 +529,45 @@ LTD mechanismus
 
 ### Perampanel - Epilepsie
 
+```mermaid
+flowchart TD
+    node_PERAMPANELFycompa["PERAMPANEL Fycompa"]
+    node_Mechanismus["Mechanismus:"]
+    node_NekompetitivnAMPAant["- Nekompetitivní AMPA antagonista"]
+    node_Alosterickvazba["- Alosterická vazba"]
+    node_Snenglutamtovexcitac["- Snížení glutamátové excitace"]
+    node_Indikace["Indikace:"]
+    node_Parcilnzchvatyaddon["- Parciální záchvaty add-on"]
+    node_Primrngeneralizovant["- Primárně generalizované tonicko-klonické"]
+    node_Dvkovn["Dávkování:"]
+    node_Zatek2mgden["- Začátek: 2 mg/den"]
+    node_Cl812mgden["- Cíl: 8-12 mg/den"]
+    node_Nonpodnt105h["- Noční podání t½ ~105 h"]
+    node_N["NÚ:"]
+    node_Zvratsomnolence["- Závratě, somnolence"]
+    node_Agresivitairitabilit["- Agresivita/iritabilita vzácně"]
+
+    node_PERAMPANELFycompa --> node_Mechanismus
+    node_Mechanismus --> node_NekompetitivnAMPAant
+    node_NekompetitivnAMPAant --> node_Alosterickvazba
+    node_Alosterickvazba --> node_Snenglutamtovexcitac
+    node_Snenglutamtovexcitac --> node_Indikace
+    node_Indikace --> node_Parcilnzchvatyaddon
+    node_Parcilnzchvatyaddon --> node_Primrngeneralizovant
+    node_Primrngeneralizovant --> node_Dvkovn
+    node_Dvkovn --> node_Zatek2mgden
+    node_Zatek2mgden --> node_Cl812mgden
+    node_Cl812mgden --> node_Nonpodnt105h
+    node_Nonpodnt105h --> node_N
+    node_N --> node_Zvratsomnolence
+    node_Zvratsomnolence --> node_Agresivitairitabilit
+
+    click node_Snenglutamtovexcitac "/glossary/glutamate/" "- Snížení glutamátové excitace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PERAMPANEL (Fycompa)
 ┌─────────────────────────────────────────────────────┐
@@ -331,7 +593,34 @@ PERAMPANEL (Fycompa)
 └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Kognitivní enhancement
+
+```mermaid
+flowchart TD
+    node_AMPAkinyTeoretickmec["AMPAkiny - Teoretický mechanismus"]
+    node_AMPAkine["AMPAkine"]
+    node_AMPAdesenzitizace["AMPA desenzitizace"]
+    node_AMPAproudprodlouen["AMPA proud prodloužený"]
+    node_NMDAaktivacesynergie["NMDA aktivace synergie"]
+    node_LTPBDNF["LTP,  BDNF"]
+    node_Kognicepam["Kognice, paměť"]
+    node_StatusKlinickstudiev["Status: Klinické studie většinou negativní"]
+    node_nebosmarginlnminkem["nebo s marginálním účinkem"]
+
+    node_AMPAkinyTeoretickmec --> node_AMPAkine
+    node_AMPAkine --> node_AMPAdesenzitizace
+    node_AMPAdesenzitizace --> node_AMPAproudprodlouen
+    node_AMPAproudprodlouen --> node_NMDAaktivacesynergie
+    node_NMDAaktivacesynergie --> node_LTPBDNF
+    node_LTPBDNF --> node_Kognicepam
+    node_Kognicepam --> node_StatusKlinickstudiev
+    node_StatusKlinickstudiev --> node_nebosmarginlnminkem
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 AMPAkiny - Teoretický mechanismus
@@ -360,6 +649,8 @@ AMPAkiny - Teoretický mechanismus
 └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Potenciální indikace
 
 | Indikace | Přístup | Status |
@@ -375,6 +666,37 @@ AMPAkiny - Teoretický mechanismus
 ## AMPA a onemocnění
 
 ### Excitotoxicita
+
+```mermaid
+flowchart TD
+    node_GluA2lackingAMPArece["GluA2-lacking AMPA receptory a patologie"]
+    node_Normlnsta["Normální sta"]
+    node_GluA2obsahujcAMPA["- GluA2-obsahující AMPA"]
+    node_Caimpermeabiln["- Ca²⁺ impermeabilní"]
+    node_Fyziologickexcitace["- Fyziologická excitace"]
+    node_Patologickstavy["Patologické stavy"]
+    node_ischmieepilepsietrau["ischémie, epilepsie, trauma"]
+    node_GluA2expreseQReditin["GluA2 exprese /  Q/R editing"]
+    node_GluA2lackingAMPACape["GluA2-lacking AMPA Ca²⁺-permeable"]
+    node_CainfluxpesAMPA["Ca²⁺ influx přes AMPA"]
+    node_EXCITOTOXICITA["EXCITOTOXICITA"]
+
+    node_GluA2lackingAMPArece --> node_Normlnsta
+    node_Normlnsta --> node_GluA2obsahujcAMPA
+    node_GluA2obsahujcAMPA --> node_Caimpermeabiln
+    node_Caimpermeabiln --> node_Fyziologickexcitace
+    node_Fyziologickexcitace --> node_Patologickstavy
+    node_Patologickstavy --> node_ischmieepilepsietrau
+    node_ischmieepilepsietrau --> node_GluA2expreseQReditin
+    node_GluA2expreseQReditin --> node_GluA2lackingAMPACape
+    node_GluA2lackingAMPACape --> node_CainfluxpesAMPA
+    node_CainfluxpesAMPA --> node_EXCITOTOXICITA
+
+    click node_GluA2lackingAMPArece "/receptors/_index/" "GluA2-lacking AMPA receptory a patologie"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GluA2-lacking AMPA receptory a patologie
@@ -403,6 +725,8 @@ GluA2-lacking AMPA receptory a patologie
 └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Asociace s nemocemi
 
 | Onemocnění | AMPA změna | Důsledek |
@@ -418,6 +742,39 @@ GluA2-lacking AMPA receptory a patologie
 ## Auxiliární proteiny - TARPs
 
 ### TARP funkce
+
+```mermaid
+flowchart TD
+    node_TARPTransmembraneAMP["TARP Transmembrane AMPA Receptor Regulatory Proteins"]
+    node_2stargazin34578["γ-2 stargazin, γ-3, γ-4, γ-5, γ-7, γ-8"]
+    node_Funkce["Funkce:"]
+    node_1Traffickingnapovrch["1. Trafficking na povrch"]
+    node_2Synapticklokalizace["2. Synaptická lokalizace PSD-95 vazba"]
+    node_3Modulacekinetiky["3. Modulace kinetiky"]
+    node_afinitaglutamtu["-  afinita glutamátu"]
+    node_desenzitizace["-  desenzitizace"]
+    node_Pomalejdeaktivace["- Pomalejší deaktivace"]
+    node_Farmakologickvznam["Farmakologický význam:"]
+    node_TARPdependentnPAMcle["- TARP-dependentní PAM = cílená modulace"]
+    node_TkovspecifickTARPsse["- Tkáňově specifické TARPs = selektivita"]
+
+    node_TARPTransmembraneAMP --> node_2stargazin34578
+    node_2stargazin34578 --> node_Funkce
+    node_Funkce --> node_1Traffickingnapovrch
+    node_1Traffickingnapovrch --> node_2Synapticklokalizace
+    node_2Synapticklokalizace --> node_3Modulacekinetiky
+    node_3Modulacekinetiky --> node_afinitaglutamtu
+    node_afinitaglutamtu --> node_desenzitizace
+    node_desenzitizace --> node_Pomalejdeaktivace
+    node_Pomalejdeaktivace --> node_Farmakologickvznam
+    node_Farmakologickvznam --> node_TARPdependentnPAMcle
+    node_TARPdependentnPAMcle --> node_TkovspecifickTARPsse
+
+    click node_afinitaglutamtu "/glossary/glutamate/" "-  afinita glutamátu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TARP (Transmembrane AMPA Receptor Regulatory Proteins)
@@ -439,6 +796,8 @@ TARP (Transmembrane AMPA Receptor Regulatory Proteins)
 │                                                     │
 └─────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 

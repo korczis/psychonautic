@@ -261,11 +261,24 @@ Dusledek: Permanentní inaktivace TS
 ```
 
 **Aktivace 5-FU**:
+```mermaid
+flowchart TD
+    node_5FUFUMPFUDPFdUDPFdUM["5-FU  FUMP  FUDP  FdUDP  FdUMP"]
+    node_FUTPinkorporacedoRNA["FUTP  inkorporace do RNA"]
+
+    node_5FUFUMPFUDPFdUDPFdUM --> node_FUTPinkorporacedoRNA
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-FU → FUMP → FUDP → FdUDP → FdUMP
               ↓
             FUTP → inkorporace do RNA
 ```
+
+</details>
 
 **Klinické použití**:
 - Kolorektální karcinom

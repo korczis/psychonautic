@@ -7,7 +7,6 @@ insert_anchor_links = "right"
 
 # Kyselina ibotenová - Neurotoxin
 
-**Kyselina ibotenová** (Ibotenic acid) je neurotoxická aminokyselina přirozeně se vyskytující v houbách rodu Amanita. Je prekurzorem psychoaktivního [muscimolu](@/alkaloids/muscimol.md) a působí jako **NMDA agonista**, což způsobuje excitotoxicitu a poškození neuronů.
 
 ---
 
@@ -34,6 +33,21 @@ insert_anchor_links = "right"
 
 ### Struktura
 
+```mermaid
+flowchart TD
+    node_OH["OH"]
+    node_NO["N  O"]
+    node_CCCHCHCOOH["C  C  CH₂  CH  COOH"]
+    node_NH["NH₂"]
+
+    node_OH --> node_NO
+    node_NO --> node_CCCHCHCOOH
+    node_CCCHCHCOOH --> node_NH
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
          OH
           |
@@ -43,6 +57,8 @@ insert_anchor_links = "right"
               |       |
               ═       NH₂
 ```
+
+</details>
 
 Kyselina ibotenová je strukturálně podobná **glutamátu** - hlavnímu excitačnímu neurotransmiteru v mozku. Tato podobnost je základem její neurotoxicity.
 
@@ -85,6 +101,25 @@ Kyselina ibotenová je **excitotoxin** působící primárně na glutamátové r
 
 ### Excitotoxický mechanismus
 
+```mermaid
+flowchart TD
+    node_Kyselinaibotenov["Kyselina ibotenová"]
+    node_NMDAreceptorOtevenCa["NMDA receptor  Otevření Ca²⁺ kanálu"]
+    node_NadmrnplivCadoneuron["Nadměrný příliv Ca²⁺ do neuronu"]
+    node_Aktivaceprotezlipzen["Aktivace proteáz, lipáz, endonukleáz"]
+    node_Mitochondrilndysfunk["Mitochondriální dysfunkce"]
+    node_NEURONLNSMRTnekrzaap["NEURONÁLNÍ SMRT nekróza/apoptóza"]
+
+    node_Kyselinaibotenov --> node_NMDAreceptorOtevenCa
+    node_NMDAreceptorOtevenCa --> node_NadmrnplivCadoneuron
+    node_NadmrnplivCadoneuron --> node_Aktivaceprotezlipzen
+    node_Aktivaceprotezlipzen --> node_Mitochondrilndysfunk
+    node_Mitochondrilndysfunk --> node_NEURONLNSMRTnekrzaap
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Kyselina ibotenová
         ↓
@@ -98,6 +133,8 @@ Mitochondriální dysfunkce
         ↓
 NEURONÁLNÍ SMRT (nekróza/apoptóza)
 ```
+
+</details>
 
 ### Srovnání s glutamátem
 
@@ -114,12 +151,31 @@ NEURONÁLNÍ SMRT (nekróza/apoptóza)
 
 ### Dekarboxylační reakce
 
+```mermaid
+flowchart TD
+    node_KyselinaibotenovNMDA["Kyselina ibotenová NMDA agonista, NEUROTOXICKÁ"]
+    node_DekarboxylaceCO["Dekarboxylace: -CO₂"]
+    node_PodmnkyteplopHas["Podmínky: teplo, pH, čas"]
+    node_MuscimolGABAAagonist["Muscimol GABA-A agonista, PSYCHOAKTIVNÍ"]
+
+    node_KyselinaibotenovNMDA --> node_DekarboxylaceCO
+    node_DekarboxylaceCO --> node_PodmnkyteplopHas
+    node_PodmnkyteplopHas --> node_MuscimolGABAAagonist
+
+    click node_MuscimolGABAAagonist "/alkaloids/muscimol/" "Muscimol GABA-A agonista, PSYCHOAKTIVNÍ"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Kyselina ibotenová (NMDA agonista, NEUROTOXICKÁ)
            ↓ [Dekarboxylace: -CO₂]
            ↓ [Podmínky: teplo, pH, čas]
 Muscimol (GABA-A agonista, PSYCHOAKTIVNÍ)
 ```
+
+</details>
 
 ### Faktory ovlivňující konverzi
 
@@ -211,7 +267,6 @@ Kyselina ibotenová se používá v neurovědách pro **selektivní lézování*
 
 ## Srovnání: Kyselina ibotenová vs Muscimol
 
-| Vlastnost | Kyselina ibotenová | [Muscimol](@/alkaloids/muscimol.md) |
 |-----------|-------------------|----------|
 | **Mechanismus** | NMDA agonista | GABA-A agonista |
 | **Typ účinku** | Excitační | Inhibiční |
@@ -276,9 +331,7 @@ Kyselina ibotenová se používá v neurovědách pro **selektivní lézování*
 ---
 
 Viz také:
-- [Muscimol](@/alkaloids/muscimol.md) - Dekarboxylační produkt
 - [Amanita muscaria](@/shrooms/amanita-muscaria.md) - Přírodní zdroj
 - [Neurotoxiny](@/neurotoxins/_index.md) - Přehled neurotoxinů
 - [GABA](@/glossary/gaba.md) - Inhibiční neurotransmiter
 
-← Zpět na [Neurotoxiny](@/neurotoxins/_index.md) | [Muscimol](@/alkaloids/muscimol.md) →

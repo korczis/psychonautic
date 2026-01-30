@@ -13,13 +13,52 @@ tags = ["muscimol", "amanita muscaria", "GABA-A", "oneirogenní", "deliriant", "
 
 **Muscimol** představuje jedinečnou třídu psychoaktivních látek - **GABAergní psychoaktivum** - které se fundamentálně odlišuje od serotoninových psychedelik ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md), [DMT](@/alkaloids/dmt.md)) svým mechanismem účinku i fenomenologickým profilem.
 
-Zatímco klasická psychedelika aktivují [5-HT2A receptory](@/receptors/5-ht2a.md) a indukují vizuální halucinace s zachovanou orientací, muscimol jako agonista [GABA-A receptorů](@/receptors/gaba-a.md) vyvolává **oneirogenní** (snům podobné) stavy s výraznou sedací a alterací propriocepce.
+Zatímco klasická psychedelika aktivují [5-HT2A receptory](@/receptors/5-ht2a.md) a indukují vizuální halucinace s zachovanou orientací, muscimol jako agonista GABA-A receptorů vyvolává **oneirogenní** (snům podobné) stavy s výraznou sedací a alterací propriocepce.
 
 ---
 
 ## Základní farmakologický profil
 
 ### Mechanismus účinku
+
+```mermaid
+flowchart TD
+    node_MUSCIMOLGABAergnmech["MUSCIMOL: GABAergní mechanismus"]
+    node_GABAAreceptor["GABA-A receptor"]
+    node_ddb739e1["+------------------+"]
+    node_0f851d20["α β α β γ"]
+    node_0796c239["\|/|/"]
+    node_MuscimolORTOSTERICKV["Muscimol -----&gt; ORTOSTERICKÉ VAZEBNÉ MÍSTO"]
+    node_Clinflux["Cl⁻ influx"]
+    node_HYPERPOLARIZACENEURO["HYPERPOLARIZACE NEURONU"]
+    node_INHIBICENEURONLNAKTI["INHIBICE NEURONÁLNÍ AKTIVITY"]
+    node_KLINICKEFEKTYDLESUBT["KLINICKÉ EFEKTY DLE SUBTYPŮ"]
+    node_1subtypySEDACEamnzie["α1 subtypy  SEDACE, amnézie"]
+    node_23subtypyANXIOLZA["α2/α3 subtypy  ANXIOLÝZA"]
+    node_46subtypyThalamickmo["α4/α6 subtypy  Thalamická modulace"]
+    node_5subtypyKognitivnefe["α5 subtypy  Kognitivní efekty"]
+
+    node_MUSCIMOLGABAergnmech --> node_GABAAreceptor
+    node_GABAAreceptor --> node_ddb739e1
+    node_ddb739e1 --> node_0f851d20
+    node_0f851d20 --> node_0796c239
+    node_0796c239 --> node_MuscimolORTOSTERICKV
+    node_MuscimolORTOSTERICKV --> node_Clinflux
+    node_Clinflux --> node_HYPERPOLARIZACENEURO
+    node_HYPERPOLARIZACENEURO --> node_INHIBICENEURONLNAKTI
+    node_INHIBICENEURONLNAKTI --> node_KLINICKEFEKTYDLESUBT
+    node_KLINICKEFEKTYDLESUBT --> node_1subtypySEDACEamnzie
+    node_1subtypySEDACEamnzie --> node_23subtypyANXIOLZA
+    node_23subtypyANXIOLZA --> node_46subtypyThalamickmo
+    node_46subtypyThalamickmo --> node_5subtypyKognitivnefe
+
+    click node_MUSCIMOLGABAergnmech "/alkaloids/muscimol/" "MUSCIMOL: GABAergní mechanismus"
+    click node_GABAAreceptor "/receptors/gaba-a/" "GABA-A receptor"
+    click node_MuscimolORTOSTERICKV "/alkaloids/muscimol/" "Muscimol -----> ORTOSTERICKÉ VAZEBNÉ MÍSTO"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MUSCIMOL: GABAergní mechanismus
@@ -47,9 +86,11 @@ Muscimol -----> [ORTOSTERICKÉ VAZEBNÉ MÍSTO]
 └─────────────────────────────────────────┘
 ```
 
+</details>
+
 | Parametr | Hodnota |
 |----------|---------|
-| **Primární cíl** | [GABA-A receptor](@/receptors/gaba-a.md) |
+| **Primární cíl** | GABA-A receptor |
 | **Typ vazby** | Ortosterický agonista |
 | **Afinita (Ki)** | 2-10 nM |
 | **Účinnost (Emax)** | ~80% vs GABA |
@@ -76,6 +117,21 @@ Muscimol -----> [ORTOSTERICKÉ VAZEBNÉ MÍSTO]
 
 **Mechanismus**: Generalizovaná inhibice CNS přes GABA-A receptory
 
+```mermaid
+flowchart TD
+    node_SPEKTRUMRELAXACE["SPEKTRUM RELAXACE"]
+    node_LehkrelaxaceHlubokse["Lehká relaxace  Hluboká sedace"]
+    node_23anxiolza1sedaceamn["α2/α3 anxiolýza              α1 sedace + amnézie"]
+    node_ZachovanbdlostOneiro["Zachovaná bdělost            Oneirogenní stavy"]
+
+    node_SPEKTRUMRELAXACE --> node_LehkrelaxaceHlubokse
+    node_LehkrelaxaceHlubokse --> node_23anxiolza1sedaceamn
+    node_23anxiolza1sedaceamn --> node_ZachovanbdlostOneiro
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SPEKTRUM RELAXACE
 
@@ -85,6 +141,8 @@ Lehká relaxace ←──────────────────→ Hlu
      |                                    |
   Zachovaná bdělost            Oneirogenní stavy
 ```
+
+</details>
 
 | Stupeň | Dávka (sušená Amanita) | Subjektivní popis |
 |--------|------------------------|-------------------|
@@ -114,6 +172,29 @@ Lehká relaxace ←──────────────────→ Hlu
 
 **Mechanismus**: Disinhibice reward okruhů, modulace dopaminergních drah
 
+```mermaid
+flowchart TD
+    node_GABAergnEUFORIEvsPSY["GABAergní EUFORIE vs PSYCHEDELICKÁ EUFORIE"]
+    node_MUSCIMOLPSILOCYBIN["MUSCIMOL                          PSILOCYBIN"]
+    node_GABAAinhibice5HT2Aak["GABA-A inhibice              5-HT2A aktivace"]
+    node_DisinhibiceVTAKortik["Disinhibice VTA              Kortikální excitace"]
+    node_TepleuforieJasnextze["'Teplá' euforie              'Jasná' extáze"]
+    node_SedativnStimulujc["Sedativní                    Stimulující"]
+    node_IntrospektivnExpansi["Introspektivní               Expansivní"]
+
+    node_GABAergnEUFORIEvsPSY --> node_MUSCIMOLPSILOCYBIN
+    node_MUSCIMOLPSILOCYBIN --> node_GABAAinhibice5HT2Aak
+    node_GABAAinhibice5HT2Aak --> node_DisinhibiceVTAKortik
+    node_DisinhibiceVTAKortik --> node_TepleuforieJasnextze
+    node_TepleuforieJasnextze --> node_SedativnStimulujc
+    node_SedativnStimulujc --> node_IntrospektivnExpansi
+
+    click node_MUSCIMOLPSILOCYBIN "/alkaloids/psilocybin/" "MUSCIMOL                          PSILOCYBIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 GABAergní EUFORIE vs PSYCHEDELICKÁ EUFORIE
 
@@ -127,6 +208,8 @@ Disinhibice VTA              Kortikální excitace
 Sedativní                    Stimulující
 Introspektivní               Expansivní
 ```
+
+</details>
 
 **Charakteristika muscimolové euforie**:
 - "Teplý" pocit spokojenosti
@@ -167,6 +250,29 @@ Plná bdělost → Hypnagogie → Oneirický stav → Lucidní sen → REM spán
 
 **Historický kontext**: Amanita muscaria v sibiřském a severském šamanismu
 
+```mermaid
+flowchart TD
+    node_SPIRITULNDIMENZEMUSC["SPIRITUÁLNÍ DIMENZE MUSCIMOLU"]
+    node_AMANISTICKVYUIT["ŠAMANISTICKÉ VYUŽITÍ"]
+    node_SibitshamaniKorjaciu["- Sibiřští shamani Korjaci, Čukčové"]
+    node_Komunikacesduchypedk["- Komunikace s duchy předků"]
+    node_Divinaceavtn["- Divinace a věštění"]
+    node_Lenritulnkontext["- Léčení rituální kontext"]
+    node_Inicianrituly["- Iniciační rituály"]
+
+    node_SPIRITULNDIMENZEMUSC --> node_AMANISTICKVYUIT
+    node_AMANISTICKVYUIT --> node_SibitshamaniKorjaciu
+    node_SibitshamaniKorjaciu --> node_Komunikacesduchypedk
+    node_Komunikacesduchypedk --> node_Divinaceavtn
+    node_Divinaceavtn --> node_Lenritulnkontext
+    node_Lenritulnkontext --> node_Inicianrituly
+
+    click node_SPIRITULNDIMENZEMUSC "/alkaloids/muscimol/" "SPIRITUÁLNÍ DIMENZE MUSCIMOLU"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SPIRITUÁLNÍ DIMENZE MUSCIMOLU
 
@@ -181,6 +287,8 @@ SPIRITUÁLNÍ DIMENZE MUSCIMOLU
 └─────────────────────────────────────────────┘
 ```
 
+</details>
+
 **Fenomenologie spirituálních aspektů**:
 - Pocit spojení s přírodou
 - Animistické vjemy
@@ -190,6 +298,23 @@ SPIRITUÁLNÍ DIMENZE MUSCIMOLU
 #### Lucidní sny (následný efekt)
 
 **Mechanismus**: Rebound REM spánku po GABAergní supresi
+
+```mermaid
+flowchart TD
+    node_ASOVPRBH["ČASOVÝ PRŮBĚH"]
+    node_Akutnfze06hReboundfz["Akutní fáze 0-6h          Rebound fáze 6-24h"]
+    node_GABAergnsedaceZvenRE["GABAergní sedace           Zvýšená REM aktivita"]
+    node_SupreseREMIntenzivns["Suprese REM               Intenzivní snění"]
+    node_SnensnovaktivitaLUCI["Snížená snová aktivita    LUCIDNÍ SNY"]
+
+    node_ASOVPRBH --> node_Akutnfze06hReboundfz
+    node_Akutnfze06hReboundfz --> node_GABAergnsedaceZvenRE
+    node_GABAergnsedaceZvenRE --> node_SupreseREMIntenzivns
+    node_SupreseREMIntenzivns --> node_SnensnovaktivitaLUCI
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ČASOVÝ PRŮBĚH
@@ -202,6 +327,8 @@ Akutní fáze (0-6h)          Rebound fáze (6-24h)
         ↓                           ↓
   Snížená snová aktivita    LUCIDNÍ SNY
 ```
+
+</details>
 
 **Praktická doporučení pro indukci lucidních snů**:
 1. Nízká až střední dávka (1-3 g sušené Amanity)
@@ -224,6 +351,39 @@ Akutní fáze (0-6h)          Rebound fáze (6-24h)
 | **Silná** | Obtížné udržet bdělost | Výrazný |
 
 **Dávková závislost**:
+```mermaid
+flowchart TD
+    node_SEDACEvsDVKA["SEDACE vs DÁVKA"]
+    node_Intenzita["Intenzita"]
+    node_sedace["sedace"]
+    node_6a7a915c["██                           ████████"]
+    node_96eceadb["██                      ████████████████"]
+    node_336ece54["██                  ████████████████████"]
+    node_8e83b2e4["██              ████████████████████████"]
+    node_ad0bdc00["██          ████████████████████████████"]
+    node_a9fadc48["██      ████████████████████████████████"]
+    node_17d9112d["██  ████████████████████████████████████"]
+    node_c71ca167["██"]
+    node_1g3g5g7g10g15g["1g   3g   5g   7g   10g   15g"]
+    node_DvkasuenAmanita["Dávka sušená Amanita"]
+
+    node_SEDACEvsDVKA --> node_Intenzita
+    node_Intenzita --> node_sedace
+    node_sedace --> node_6a7a915c
+    node_6a7a915c --> node_96eceadb
+    node_96eceadb --> node_336ece54
+    node_336ece54 --> node_8e83b2e4
+    node_8e83b2e4 --> node_ad0bdc00
+    node_ad0bdc00 --> node_a9fadc48
+    node_a9fadc48 --> node_17d9112d
+    node_17d9112d --> node_c71ca167
+    node_c71ca167 --> node_1g3g5g7g10g15g
+    node_1g3g5g7g10g15g --> node_DvkasuenAmanita
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SEDACE vs DÁVKA
 
@@ -241,6 +401,8 @@ sedace
         1g   3g   5g   7g   10g   15g
               Dávka (sušená Amanita)
 ```
+
+</details>
 
 #### Změny vnímání velikosti (makro/mikropsie)
 
@@ -493,9 +655,8 @@ Typická pro muscimol        Méně častá
 ## Viz také
 
 ### Farmakologie
-- [Muscimol](@/alkaloids/muscimol.md) - **Hlavní alkaloid**
 - [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - Neurotoxický prekurzor
-- [GABA-A receptor](@/receptors/gaba-a.md) - **Primární cíl**
+- GABA-A receptor - **Primární cíl**
 
 ### Zdroje
 - [Amanita muscaria](@/shrooms/amanita-muscaria.md) - **Přírodní zdroj**

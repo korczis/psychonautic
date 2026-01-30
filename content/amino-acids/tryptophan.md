@@ -129,6 +129,29 @@ Indolový kruh = základ všech tryptaminů
 
 ### "Turkey myth" - krůtí a ospalost
 
+```mermaid
+flowchart TD
+    node_MTUSKrtmasozpsobujeo["MÝTUS: Krůtí maso způsobuje ospalost kvůli tryptofanu"]
+    node_REALITA["REALITA:"]
+    node_MECHANISMUSpokudbypl["MECHANISMUS pokud by platil:"]
+    node_TrppechodHEB5HTPSero["Trp  přechod HEB  5-HTP  Serotonin  Melatonin"]
+    node_OSPALOST["OSPALOST"]
+    node_ALETrpsoutsostatnmia["ALE: Trp soutěží s ostatními aminokyselinami"]
+    node_otransportpesHEBLNAA["o transport přes HEB LNAA transporter"]
+
+    node_MTUSKrtmasozpsobujeo --> node_REALITA
+    node_REALITA --> node_MECHANISMUSpokudbypl
+    node_MECHANISMUSpokudbypl --> node_TrppechodHEB5HTPSero
+    node_TrppechodHEB5HTPSero --> node_OSPALOST
+    node_OSPALOST --> node_ALETrpsoutsostatnmia
+    node_ALETrpsoutsostatnmia --> node_otransportpesHEBLNAA
+
+    click node_TrppechodHEB5HTPSero "/glossary/serotonin/" "Trp  přechod HEB  5-HTP  Serotonin  Melatonin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MÝTUS: Krůtí maso způsobuje ospalost kvůli tryptofanu
 
@@ -150,11 +173,46 @@ ALE: Trp soutěží s ostatními aminokyselinami
      o transport přes HEB (LNAA transporter)
 ```
 
+</details>
+
 ---
 
 ## Metabolismus tryptofanu
 
 ### Tři hlavní metabolické dráhy
+
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_9e7f046a["+-----------------+------------------+"]
+    node_SEROTONINOVKYNURENIN["SEROTONINOVÁ       KYNURENINOVÁ        INDOLOVÁ"]
+    node_DRHADRHADRHA["DRÁHA              DRÁHA             DRÁHA"]
+    node_5951["5%               95%             &lt;1%"]
+    node_SerotoninKynureninyI["Serotonin        Kynureniny         Indol-3-acetát"]
+    node_bakteriln["bakteriální"]
+    node_Melatonin["Melatonin"]
+    node_56642846["+-----------------+"]
+    node_KynurenovkQuinolinov["Kynurenová k.      Quinolinová k."]
+    node_neuroprotektivnneuro["neuroprotektivní  neurotoxická"]
+
+    node_LTRYPTOFAN --> node_9e7f046a
+    node_9e7f046a --> node_SEROTONINOVKYNURENIN
+    node_SEROTONINOVKYNURENIN --> node_DRHADRHADRHA
+    node_DRHADRHADRHA --> node_5951
+    node_5951 --> node_SerotoninKynureninyI
+    node_SerotoninKynureninyI --> node_bakteriln
+    node_bakteriln --> node_Melatonin
+    node_Melatonin --> node_56642846
+    node_56642846 --> node_KynurenovkQuinolinov
+    node_KynurenovkQuinolinov --> node_neuroprotektivnneuro
+
+    click node_SEROTONINOVKYNURENIN "/glossary/serotonin/" "SEROTONINOVÁ       KYNURENINOVÁ        INDOLOVÁ"
+    click node_SerotoninKynureninyI "/glossary/serotonin/" "Serotonin        Kynureniny         Indol-3-acetát"
+    click node_Melatonin "/molecules/melatonin/" "Melatonin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                         L-TRYPTOFAN
@@ -179,7 +237,49 @@ ALE: Trp soutěží s ostatními aminokyselinami
     (neuroprotektivní)  (neurotoxická)
 ```
 
+</details>
+
 ### Serotoninová dráha (detailně)
+
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_TPHtryptofanhydroxyl["TPH - tryptofan hydroxylaza"]
+    node_KofaktoryO2BH4tetrah["Kofaktory: O2, BH4 tetrahydrobiopterin, Fe2+"]
+    node_LIMITUJCKROK["LIMITUJÍCÍ KROK!"]
+    node_5HYDROXYTRYPTOFAN5HT["5-HYDROXYTRYPTOFAN 5-HTP"]
+    node_AADCaromatickLaminok["AADC - aromatická L-aminokyselina dekarboxyláza"]
+    node_KofaktorPLPvitaminB6["Kofaktor: PLP vitamin B6"]
+    node_SEROTONIN5HT["SEROTONIN 5-HT"]
+    node_MAOA5HIAAexkrece["+---&gt; MAO-A ---&gt; 5-HIAA exkrece"]
+    node_AANATaralkylaminNace["AANAT - aralkylamin N-acetyltransferáza"]
+    node_epifzenonregulace["epifýze, noční regulace"]
+    node_NACETYLSEROTONIN["N-ACETYLSEROTONIN"]
+    node_HIOMThydroxyindolOme["HIOMT - hydroxyindol-O-methyltransferáza"]
+    node_MELATONIN["MELATONIN"]
+
+    node_LTRYPTOFAN --> node_TPHtryptofanhydroxyl
+    node_TPHtryptofanhydroxyl --> node_KofaktoryO2BH4tetrah
+    node_KofaktoryO2BH4tetrah --> node_LIMITUJCKROK
+    node_LIMITUJCKROK --> node_5HYDROXYTRYPTOFAN5HT
+    node_5HYDROXYTRYPTOFAN5HT --> node_AADCaromatickLaminok
+    node_AADCaromatickLaminok --> node_KofaktorPLPvitaminB6
+    node_KofaktorPLPvitaminB6 --> node_SEROTONIN5HT
+    node_SEROTONIN5HT --> node_MAOA5HIAAexkrece
+    node_MAOA5HIAAexkrece --> node_AANATaralkylaminNace
+    node_AANATaralkylaminNace --> node_epifzenonregulace
+    node_epifzenonregulace --> node_NACETYLSEROTONIN
+    node_NACETYLSEROTONIN --> node_HIOMThydroxyindolOme
+    node_HIOMThydroxyindolOme --> node_MELATONIN
+
+    click node_5HYDROXYTRYPTOFAN5HT "/supplements/5-htp/" "5-HYDROXYTRYPTOFAN 5-HTP"
+    click node_SEROTONIN5HT "/glossary/serotonin/" "SEROTONIN 5-HT"
+    click node_NACETYLSEROTONIN "/glossary/serotonin/" "N-ACETYLSEROTONIN"
+    click node_MELATONIN "/molecules/melatonin/" "MELATONIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 L-TRYPTOFAN
@@ -211,7 +311,44 @@ N-ACETYLSEROTONIN
 MELATONIN
 ```
 
+</details>
+
 ### Kynureninová dráha (95% tryptofanu)
+
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_IDOTDO["IDO/TDO"]
+    node_IDOindolamin23dioxyg["IDO = indolamin-2,3-dioxygenáza zánět, imunita"]
+    node_TDOtryptofan23dioxyg["TDO = tryptofan-2,3-dioxygenáza játra, kortizol"]
+    node_NFORMYLKYNURENIN["N-FORMYLKYNURENIN"]
+    node_Formamidza["Formamidáza"]
+    node_KYNURENIN["KYNURENIN"]
+    node_e0a54b3b["+---------------------+"]
+    node_KATKMO["KAT               | KMO"]
+    node_KYNURENOVKYSELINA3HY["KYNURENOVÁ KYSELINA    3-HYDROXYKYNURENIN"]
+    node_KYNA["KYNA"]
+    node_QUINOLINOVKYSELINA["QUINOLINOVÁ KYSELINA"]
+    node_QUIN["QUIN"]
+    node_NAD["NAD+"]
+
+    node_LTRYPTOFAN --> node_IDOTDO
+    node_IDOTDO --> node_IDOindolamin23dioxyg
+    node_IDOindolamin23dioxyg --> node_TDOtryptofan23dioxyg
+    node_TDOtryptofan23dioxyg --> node_NFORMYLKYNURENIN
+    node_NFORMYLKYNURENIN --> node_Formamidza
+    node_Formamidza --> node_KYNURENIN
+    node_KYNURENIN --> node_e0a54b3b
+    node_e0a54b3b --> node_KATKMO
+    node_KATKMO --> node_KYNURENOVKYSELINA3HY
+    node_KYNURENOVKYSELINA3HY --> node_KYNA
+    node_KYNA --> node_QUINOLINOVKYSELINA
+    node_QUINOLINOVKYSELINA --> node_QUIN
+    node_QUIN --> node_NAD
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 L-TRYPTOFAN
@@ -248,6 +385,8 @@ KYNURENOVÁ KYSELINA    3-HYDROXYKYNURENIN
                         NAD+
 ```
 
+</details>
+
 ### Klíčové enzymy
 
 | Enzym | Gen | Funkce | Regulace |
@@ -263,6 +402,42 @@ KYNURENOVÁ KYSELINA    3-HYDROXYKYNURENIN
 ## Kynureniny a neuropsychiatrie
 
 ### Kynurenin/tryptofan poměr
+
+```mermaid
+flowchart TD
+    node_ZNTADEPRESEKYNURENIN["ZÁNĚT A DEPRESE - KYNURENINOVÁ HYPOTÉZA"]
+    node_ZNTinfekcechronickst["ZÁNĚT infekce, chronický stres, obezita"]
+    node_Prozntlivcytokiny["Prozánětlivé cytokiny"]
+    node_IFNTNFIL1IL6["IFN-γ, TNF-α, IL-1, IL-6"]
+    node_IDO1aktivace["IDO1 aktivace"]
+    node_KYNURENINOVDRHA["KYNURENINOVÁ DRÁHA"]
+    node_SEROTONINOVDRHA["SEROTONINOVÁ DRÁHA"]
+    node_81ebf11d["+---------+---------+"]
+    node_QuinolinovkSerotonin["Quinolinová k.    Serotonin"]
+    node_neurotoxickneurotran["neurotoxická     neurotransmiter"]
+    node_EXCITOTOXICITADEPRES["EXCITOTOXICITA     DEPRESIVNÍ"]
+    node_NMDAaktivaceSYMPTOMY["NMDA aktivace    SYMPTOMY"]
+    node_NEURODEGENERACE["NEURODEGENERACE?"]
+
+    node_ZNTADEPRESEKYNURENIN --> node_ZNTinfekcechronickst
+    node_ZNTinfekcechronickst --> node_Prozntlivcytokiny
+    node_Prozntlivcytokiny --> node_IFNTNFIL1IL6
+    node_IFNTNFIL1IL6 --> node_IDO1aktivace
+    node_IDO1aktivace --> node_KYNURENINOVDRHA
+    node_KYNURENINOVDRHA --> node_SEROTONINOVDRHA
+    node_SEROTONINOVDRHA --> node_81ebf11d
+    node_81ebf11d --> node_QuinolinovkSerotonin
+    node_QuinolinovkSerotonin --> node_neurotoxickneurotran
+    node_neurotoxickneurotran --> node_EXCITOTOXICITADEPRES
+    node_EXCITOTOXICITADEPRES --> node_NMDAaktivaceSYMPTOMY
+    node_NMDAaktivaceSYMPTOMY --> node_NEURODEGENERACE
+
+    click node_SEROTONINOVDRHA "/glossary/serotonin/" "SEROTONINOVÁ DRÁHA"
+    click node_QuinolinovkSerotonin "/glossary/serotonin/" "Quinolinová k.    Serotonin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ZÁNĚT A DEPRESE - KYNURENINOVÁ HYPOTÉZA
@@ -294,6 +469,8 @@ EXCITOTOXICITA     DEPRESIVNÍ
 NEURODEGENERACE?
 ```
 
+</details>
+
 ### Klinické asociace
 
 | Stav | Kynureninový profil |
@@ -310,6 +487,40 @@ NEURODEGENERACE?
 ## Tryptofan a psychedelika
 
 ### Tryptofan jako prekurzor tryptaminů
+
+```mermaid
+flowchart TD
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_VhoubchPsiD["V houbách: PsiD"]
+    node_Vrostlinchrzndekarbo["V rostlinách: různé dekarboxylázy"]
+    node_TRYPTAMIN["TRYPTAMIN"]
+    node_DMTbiosyntza["+---&gt; DMT biosyntéza"]
+    node_INMTNmethylace2x["- INMT N-methylace 2x"]
+    node_DMT["DMT"]
+    node_Psilocybinbiosyntza["+---&gt; Psilocybin biosyntéza"]
+    node_Psilocybin["Psilocybin"]
+    node_VIZBiosyntzapsilocyb["VIZ: Biosyntéza psilocybinu@/biosynthesis/psilocybin.md"]
+
+    node_LTRYPTOFAN --> node_VhoubchPsiD
+    node_VhoubchPsiD --> node_Vrostlinchrzndekarbo
+    node_Vrostlinchrzndekarbo --> node_TRYPTAMIN
+    node_TRYPTAMIN --> node_DMTbiosyntza
+    node_DMTbiosyntza --> node_INMTNmethylace2x
+    node_INMTNmethylace2x --> node_DMT
+    node_DMT --> node_Psilocybinbiosyntza
+    node_Psilocybinbiosyntza --> node_Psilocybin
+    node_Psilocybin --> node_VIZBiosyntzapsilocyb
+
+    click node_TRYPTAMIN "/glossary/tryptamin/" "TRYPTAMIN"
+    click node_DMTbiosyntza "/alkaloids/dmt/" "+---> DMT biosyntéza"
+    click node_DMT "/alkaloids/dmt/" "DMT"
+    click node_Psilocybinbiosyntza "/alkaloids/psilocybin/" "+---> Psilocybin biosyntéza"
+    click node_Psilocybin "/alkaloids/psilocybin/" "Psilocybin"
+    click node_VIZBiosyntzapsilocyb "/alkaloids/psilocybin/" "VIZ: Biosyntéza psilocybinu@/biosynthesis/psilocybin.md"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 L-TRYPTOFAN
@@ -333,6 +544,8 @@ TRYPTAMIN
 VIZ: [Biosyntéza psilocybinu](@/biosynthesis/psilocybin.md)
 ```
 
+</details>
+
 ### Strukturní vztahy
 
 | Sloučenina | Modifikace tryptaminu |
@@ -348,6 +561,37 @@ VIZ: [Biosyntéza psilocybinu](@/biosynthesis/psilocybin.md)
 ### TRYPTOFAN DEPLETION TEST
 
 Výzkumná metoda pro studium serotoninu:
+
+```mermaid
+flowchart TD
+    node_AKUTNTRYPTOFANOVDEPL["AKUTNÍ TRYPTOFANOVÁ DEPLECE ATD"]
+    node_PROTOKOL["PROTOKOL:"]
+    node_Den0Baselinemen["Den 0: Baseline měření"]
+    node_Den1Aminokyselinovnp["Den 1: Aminokyselinový nápoj BEZ tryptofanu"]
+    node_obsahujeostatnLNAA["obsahuje ostatní LNAA"]
+    node_KompeticenaLNAAtrans["Kompetice na LNAA transporteru"]
+    node_Plazmaticktryptofan8["Plazmatický tryptofan -80-90%"]
+    node_Mozkovsyntzaserotoni["Mozková syntéza serotoninu"]
+    node_DOASNSYMPTOMY["DOČASNÉ SYMPTOMY"]
+    node_uvulnerabilnchjedinc["u vulnerabilních jedinců:"]
+    node_NVRATKNORMLU24hodin["NÁVRAT K NORMÁLU: 24 hodin"]
+
+    node_AKUTNTRYPTOFANOVDEPL --> node_PROTOKOL
+    node_PROTOKOL --> node_Den0Baselinemen
+    node_Den0Baselinemen --> node_Den1Aminokyselinovnp
+    node_Den1Aminokyselinovnp --> node_obsahujeostatnLNAA
+    node_obsahujeostatnLNAA --> node_KompeticenaLNAAtrans
+    node_KompeticenaLNAAtrans --> node_Plazmaticktryptofan8
+    node_Plazmaticktryptofan8 --> node_Mozkovsyntzaserotoni
+    node_Mozkovsyntzaserotoni --> node_DOASNSYMPTOMY
+    node_DOASNSYMPTOMY --> node_uvulnerabilnchjedinc
+    node_uvulnerabilnchjedinc --> node_NVRATKNORMLU24hodin
+
+    click node_Mozkovsyntzaserotoni "/glossary/serotonin/" "Mozková syntéza serotoninu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 AKUTNÍ TRYPTOFANOVÁ DEPLECE (ATD)
@@ -376,6 +620,8 @@ DOČASNÉ SYMPTOMY
 
 NÁVRAT K NORMÁLU: 24 hodin
 ```
+
+</details>
 
 ---
 
@@ -464,6 +710,37 @@ PO:
 
 ### Tryptofan a "afterglow"
 
+```mermaid
+flowchart TD
+    node_PSYCHEDELICKAFTERGLO["PSYCHEDELICKÝ AFTERGLOW - HYPOTÉZA"]
+    node_Sezenpsilocybin["Sezení psilocybin"]
+    node_5HT2Aaktivace["5-HT2A aktivace"]
+    node_Akutnzmnyv5HTsignali["Akutní změny v 5-HT signalizaci"]
+    node_5HTakutndeplece["+---&gt;  5-HT akutně, deplece?"]
+    node_Kompenzanmechanismy["Kompenzační mechanismy"]
+    node_5HTreceptorovsenziti["+---&gt;  5-HT receptorová senzitivita?"]
+    node_BDNFneuroplasticita["+---&gt;  BDNF, neuroplasticita"]
+    node_Rebalancovnst["+---&gt; Rebalancování sítí"]
+    node_AFTERGLOWPERIODA["'AFTERGLOW' PERIODA"]
+    node_Trvndnyatdny["Trvání: dny až týdny"]
+
+    node_PSYCHEDELICKAFTERGLO --> node_Sezenpsilocybin
+    node_Sezenpsilocybin --> node_5HT2Aaktivace
+    node_5HT2Aaktivace --> node_Akutnzmnyv5HTsignali
+    node_Akutnzmnyv5HTsignali --> node_5HTakutndeplece
+    node_5HTakutndeplece --> node_Kompenzanmechanismy
+    node_Kompenzanmechanismy --> node_5HTreceptorovsenziti
+    node_5HTreceptorovsenziti --> node_BDNFneuroplasticita
+    node_BDNFneuroplasticita --> node_Rebalancovnst
+    node_Rebalancovnst --> node_AFTERGLOWPERIODA
+    node_AFTERGLOWPERIODA --> node_Trvndnyatdny
+
+    click node_Sezenpsilocybin "/alkaloids/psilocybin/" "Sezení psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSYCHEDELICKÝ AFTERGLOW - HYPOTÉZA
 
@@ -493,6 +770,8 @@ Kompenzační mechanismy
         v
 Trvání: dny až týdny
 ```
+
+</details>
 
 ---
 

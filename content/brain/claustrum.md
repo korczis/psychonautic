@@ -32,6 +32,27 @@ Claustrum je casto oznacovano jako potencialni "sede vedomi" nebo integrator kor
 
 ### Anatomicke vztahy
 
+```mermaid
+flowchart TD
+    node_KORONALNIREZSKRZECLA["KORONALNI REZ SKRZE CLAUSTRUM"]
+    node_Corpuscallosum["Corpus callosum"]
+    node_KortexKortex["Kortex            Kortex"]
+    node_INZULA["INZULA"]
+    node_CLAUSTRUMTenkvrstva["CLAUSTRUM             Tenká vrstva"]
+    node_Putamen["Putamen"]
+    node_Globuspallidus["Globus pallidus"]
+
+    node_KORONALNIREZSKRZECLA --> node_Corpuscallosum
+    node_Corpuscallosum --> node_KortexKortex
+    node_KortexKortex --> node_INZULA
+    node_INZULA --> node_CLAUSTRUMTenkvrstva
+    node_CLAUSTRUMTenkvrstva --> node_Putamen
+    node_Putamen --> node_Globuspallidus
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KORONALNI REZ SKRZE CLAUSTRUM
 
@@ -61,6 +82,8 @@ KORONALNI REZ SKRZE CLAUSTRUM
     └─────────────────────────────┘
 ```
 
+</details>
+
 ### Hranice
 
 | Hranice | Struktura | Oddeleni |
@@ -82,6 +105,31 @@ KORONALNI REZ SKRZE CLAUSTRUM
 | **Interneurony (Type II)** | ~15% | GABA | Lokalni |
 
 ### Morfologie
+
+```mermaid
+flowchart TD
+    node_TYPYNEURONUVCLAUSTRU["TYPY NEURONU V CLAUSTRU"]
+    node_PROJEKCNINEURONTypeI["PROJEKCNI NEURON Type I:"]
+    node_Apiklndendrity["○○○   Apikální dendrity"]
+    node_Bazlndendrity["Bazální dendrity"]
+    node_Soma["Soma"]
+    node_AxonKortexirokprojek["Axon  Kortex široká projekce"]
+    node_INTERNEURONTypeII["INTERNEURON Type II:"]
+    node_Loklndendrity["○ ○ ○   Lokální dendrity"]
+    node_Loklninhibice["Lokální inhibice"]
+
+    node_TYPYNEURONUVCLAUSTRU --> node_PROJEKCNINEURONTypeI
+    node_PROJEKCNINEURONTypeI --> node_Apiklndendrity
+    node_Apiklndendrity --> node_Bazlndendrity
+    node_Bazlndendrity --> node_Soma
+    node_Soma --> node_AxonKortexirokprojek
+    node_AxonKortexirokprojek --> node_INTERNEURONTypeII
+    node_INTERNEURONTypeII --> node_Loklndendrity
+    node_Loklndendrity --> node_Loklninhibice
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TYPY NEURONU V CLAUSTRU
@@ -116,6 +164,8 @@ INTERNEURON (Type II):
            ↓ Lokální inhibice
 ```
 
+</details>
+
 ### Neurotransmiterova exprese
 
 | Marker | Exprese | Funkce |
@@ -141,6 +191,43 @@ Claustrum ma **jednu z nejvyssich hustot [5-HT2A receptoru](@/receptors/5-ht2a.m
 | **Hippocampus** | Stredni (+++) |
 
 ### Implikace pro psychedelika
+
+```mermaid
+flowchart TD
+    node_5HT2AVCLAUSTRUAPSYCH["5-HT2A V CLAUSTRU A PSYCHEDELIKA"]
+    node_ClaustrumNejvyssi5HT["Claustrum = Nejvyssi 5-HT2A hustota"]
+    node_PsychedelikumLSDpsil["Psychedelikum LSD, psilocybin"]
+    node_Masivni5HT2Aaktivace["Masivni 5-HT2A aktivace"]
+    node_Hypotzy["Hypotézy:"]
+    node_1Vypnutclaustru["1. 'Vypnutí' claustru"]
+    node_Dezintegracevdom["Dezintegrace vědomí"]
+    node_Egodissolution["Ego dissolution"]
+    node_2Hyperaktivaceclaust["2. 'Hyperaktivace' claustru"]
+    node_Abnormlnintegrace["Abnormální integrace"]
+    node_Synestzie["Synestézie"]
+    node_3Zmnnkonektivita["3. Změněná konektivita"]
+    node_Novkortiklnspojen["Nové kortikální spojení"]
+    node_Mindexpansion["'Mind expansion'"]
+
+    node_5HT2AVCLAUSTRUAPSYCH --> node_ClaustrumNejvyssi5HT
+    node_ClaustrumNejvyssi5HT --> node_PsychedelikumLSDpsil
+    node_PsychedelikumLSDpsil --> node_Masivni5HT2Aaktivace
+    node_Masivni5HT2Aaktivace --> node_Hypotzy
+    node_Hypotzy --> node_1Vypnutclaustru
+    node_1Vypnutclaustru --> node_Dezintegracevdom
+    node_Dezintegracevdom --> node_Egodissolution
+    node_Egodissolution --> node_2Hyperaktivaceclaust
+    node_2Hyperaktivaceclaust --> node_Abnormlnintegrace
+    node_Abnormlnintegrace --> node_Synestzie
+    node_Synestzie --> node_3Zmnnkonektivita
+    node_3Zmnnkonektivita --> node_Novkortiklnspojen
+    node_Novkortiklnspojen --> node_Mindexpansion
+
+    click node_PsychedelikumLSDpsil "/alkaloids/psilocybin/" "Psychedelikum LSD, psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 5-HT2A V CLAUSTRU A PSYCHEDELIKA
@@ -170,6 +257,8 @@ Claustrum = Nejvyssi 5-HT2A hustota
         │ └─────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Konektivita
@@ -177,6 +266,39 @@ Claustrum = Nejvyssi 5-HT2A hustota
 ### Kortikalni spojeni
 
 Claustrum ma reciprocni spojeni s **prakticky vsemi oblastmi kortexu**:
+
+```mermaid
+flowchart TD
+    node_CLAUSTRUMKORTIKALNIK["CLAUSTRUM - KORTIKALNI KONEKTIVITA"]
+    node_NEOKORTEX["NEOKORTEX"]
+    node_Frontalni["Frontalni"]
+    node_Parietalni["Parietalni"]
+    node_Temporalni["Temporalni"]
+    node_Occipitalni["Occipitalni"]
+    node_Limbick["Limbický"]
+    node_Inzula["Inzula"]
+    node_CLAUSTRUM["CLAUSTRUM"]
+    node_Conductorof["'Conductor of"]
+    node_thecortical["the cortical"]
+    node_orchestra["orchestra'"]
+    node_Vlastnostispojeni["Vlastnosti spojeni:"]
+
+    node_CLAUSTRUMKORTIKALNIK --> node_NEOKORTEX
+    node_NEOKORTEX --> node_Frontalni
+    node_Frontalni --> node_Parietalni
+    node_Parietalni --> node_Temporalni
+    node_Temporalni --> node_Occipitalni
+    node_Occipitalni --> node_Limbick
+    node_Limbick --> node_Inzula
+    node_Inzula --> node_CLAUSTRUM
+    node_CLAUSTRUM --> node_Conductorof
+    node_Conductorof --> node_thecortical
+    node_thecortical --> node_orchestra
+    node_orchestra --> node_Vlastnostispojeni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CLAUSTRUM - KORTIKALNI KONEKTIVITA
@@ -209,6 +331,8 @@ Vlastnosti spojeni:
 - Jedna z nejhustejsi konektivit v mozku
 ```
 
+</details>
+
 ### Specificka spojeni
 
 | Oblast | Funkce spojeni |
@@ -238,6 +362,35 @@ Vlastnosti spojeni:
 
 Francis Crick a Christof Koch (2005) navrhli, ze claustrum muze byt klicove pro **integraci vedomi**:
 
+```mermaid
+flowchart TD
+    node_CRICKKOCHHYPOTEZA["CRICK-KOCH HYPOTEZA"]
+    node_Conductorofthecortic["'Conductor of the cortical orchestra'"]
+    node_JednotlivmodalityInt["Jednotlivé modality:        Integrace:"]
+    node_VIZUALNI["VIZUALNI"]
+    node_SLUCHOVA["SLUCHOVA"]
+    node_CLAUSTRUM["CLAUSTRUM"]
+    node_IntegrujeVDOM["'Integruje      VĚDOMÁ"]
+    node_SOMATOSENZmultimodln["SOMATOSENZ.   multimodální       ZKUŠENOST"]
+    node_informace["informace'"]
+    node_MOTORICKA["MOTORICKA"]
+    node_Analogie["Analogie:"]
+
+    node_CRICKKOCHHYPOTEZA --> node_Conductorofthecortic
+    node_Conductorofthecortic --> node_JednotlivmodalityInt
+    node_JednotlivmodalityInt --> node_VIZUALNI
+    node_VIZUALNI --> node_SLUCHOVA
+    node_SLUCHOVA --> node_CLAUSTRUM
+    node_CLAUSTRUM --> node_IntegrujeVDOM
+    node_IntegrujeVDOM --> node_SOMATOSENZmultimodln
+    node_SOMATOSENZmultimodln --> node_informace
+    node_informace --> node_MOTORICKA
+    node_MOTORICKA --> node_Analogie
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 CRICK-KOCH HYPOTEZA
 
@@ -266,6 +419,8 @@ Analogie:
 - Vědomí = hudba (integrovaný výstup)
 ```
 
+</details>
+
 ### Salience a pozornost
 
 | Funkce | Mechanismus |
@@ -275,6 +430,31 @@ Analogie:
 | **Prepinani mezi sitemi** | DMN ↔ Task-positive |
 
 ### Senzomotorická integrace
+
+```mermaid
+flowchart TD
+    node_SENZOMOTORICKINTEGRA["SENZOMOTORICKÁ INTEGRACE V CLAUSTRU"]
+    node_SENZORICKVSTUPMOTORI["SENZORICKÝ VSTUP           MOTORICKÝ VÝSTUP"]
+    node_VizulnMotorick["Vizuální                  Motorický"]
+    node_Sluchovkortex["Sluchový                  kortex"]
+    node_Somatosenzplnovn["Somatosenz.               plánování"]
+    node_CLAUSTRUM["CLAUSTRUM"]
+    node_Integrace["Integrace"]
+    node_senzomotor["senzo-motor"]
+    node_PkladRychlreakcenane["Příklad: Rychlé reakce na neočekávané podněty"]
+
+    node_SENZOMOTORICKINTEGRA --> node_SENZORICKVSTUPMOTORI
+    node_SENZORICKVSTUPMOTORI --> node_VizulnMotorick
+    node_VizulnMotorick --> node_Sluchovkortex
+    node_Sluchovkortex --> node_Somatosenzplnovn
+    node_Somatosenzplnovn --> node_CLAUSTRUM
+    node_CLAUSTRUM --> node_Integrace
+    node_Integrace --> node_senzomotor
+    node_senzomotor --> node_PkladRychlreakcenane
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SENZOMOTORICKÁ INTEGRACE V CLAUSTRU
@@ -300,6 +480,8 @@ SENZOMOTORICKÁ INTEGRACE V CLAUSTRU
 Příklad: Rychlé reakce na neočekávané podněty
 ```
 
+</details>
+
 ---
 
 ## Claustrum a psychedelika
@@ -313,6 +495,47 @@ Příklad: Rychlé reakce na neočekávané podněty
 | Doss (2021) | Claustrum "vypnuti" koreluje s ego dissolution |
 
 ### Mechanismus
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAACLAUSTR["PSYCHEDELIKA A CLAUSTRUM"]
+    node_NORMLNSTAV["NORMÁLNÍ STAV:"]
+    node_Claustrumaktivninteg["Claustrum aktivně integruje kortikální informace"]
+    node_5HT2Aaktivacepsyched["5-HT2A aktivace psychedelikum"]
+    node_PSYCHEDELICKSTAV["PSYCHEDELICKÝ STAV:"]
+    node_Monost1Desintegrace["Možnost 1: 'Desintegrace'"]
+    node_Claustrumoffline["- Claustrum 'offline'"]
+    node_Kortiklnoblastinekoo["- Kortikální oblasti nekoordiované"]
+    node_Egodissolution["- Ego dissolution"]
+    node_Monost2Hyperintegrac["Možnost 2: 'Hyperintegrace'"]
+    node_Abnormlncrossmodalsp["- Abnormální cross-modal spojení"]
+    node_Synestzie["- Synestézie"]
+    node_Oceanicboundlessness["- 'Oceanic boundlessness'"]
+    node_Monost3Reorganizace["Možnost 3: 'Reorganizace'"]
+    node_Novkonektivityvzory["- Nové konektivity vzory"]
+    node_Breakdownhierarchie["- Breakdown hierarchie"]
+    node_Entropickmozkovhypot["- Entropická mozková hypotéza"]
+
+    node_PSYCHEDELIKAACLAUSTR --> node_NORMLNSTAV
+    node_NORMLNSTAV --> node_Claustrumaktivninteg
+    node_Claustrumaktivninteg --> node_5HT2Aaktivacepsyched
+    node_5HT2Aaktivacepsyched --> node_PSYCHEDELICKSTAV
+    node_PSYCHEDELICKSTAV --> node_Monost1Desintegrace
+    node_Monost1Desintegrace --> node_Claustrumoffline
+    node_Claustrumoffline --> node_Kortiklnoblastinekoo
+    node_Kortiklnoblastinekoo --> node_Egodissolution
+    node_Egodissolution --> node_Monost2Hyperintegrac
+    node_Monost2Hyperintegrac --> node_Abnormlncrossmodalsp
+    node_Abnormlncrossmodalsp --> node_Synestzie
+    node_Synestzie --> node_Oceanicboundlessness
+    node_Oceanicboundlessness --> node_Monost3Reorganizace
+    node_Monost3Reorganizace --> node_Novkonektivityvzory
+    node_Novkonektivityvzory --> node_Breakdownhierarchie
+    node_Breakdownhierarchie --> node_Entropickmozkovhypot
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELIKA A CLAUSTRUM
@@ -344,6 +567,8 @@ PSYCHEDELICKÝ STAV:
 └────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Korelace s subjektivnimi efekty
 
 | Efekt | Claustrum zmena |
@@ -358,6 +583,35 @@ PSYCHEDELICKÝ STAV:
 ## Claustrum a vedomi
 
 ### Global Workspace Theory
+
+```mermaid
+flowchart TD
+    node_CLAUSTRUMVGLOBALWORK["CLAUSTRUM V GLOBAL WORKSPACE"]
+    node_KlasickGWTClaustrumm["Klasická GWT:               Claustrum modifikace:"]
+    node_GlobalGlobal["Global                   Global"]
+    node_WorkspaceWorkspace["Workspace                Workspace"]
+    node_frontoparietal["frontoparietal"]
+    node_Claustrum["Claustrum"]
+    node_integruje["integruje"]
+    node_BroadcastingproGW["Broadcasting              pro GW"]
+    node_dovsechoblast["do vsech oblastí"]
+    node_Broadcasting["Broadcasting"]
+    node_Claustrummebtvstupnf["Claustrum může být 'vstupní filtr' do Global Workspace"]
+
+    node_CLAUSTRUMVGLOBALWORK --> node_KlasickGWTClaustrumm
+    node_KlasickGWTClaustrumm --> node_GlobalGlobal
+    node_GlobalGlobal --> node_WorkspaceWorkspace
+    node_WorkspaceWorkspace --> node_frontoparietal
+    node_frontoparietal --> node_Claustrum
+    node_Claustrum --> node_integruje
+    node_integruje --> node_BroadcastingproGW
+    node_BroadcastingproGW --> node_dovsechoblast
+    node_dovsechoblast --> node_Broadcasting
+    node_Broadcasting --> node_Claustrummebtvstupnf
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CLAUSTRUM V GLOBAL WORKSPACE
@@ -379,6 +633,8 @@ Klasická GWT:               Claustrum modifikace:
 
 Claustrum může být "vstupní filtr" do Global Workspace
 ```
+
+</details>
 
 ### Prediktivni kodovani
 

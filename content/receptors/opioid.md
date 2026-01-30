@@ -63,6 +63,35 @@ tags = ["mu", "delta", "kappa", "endorfiny", "bolest", "ibogain", "zavislost"]
 
 ### Signalizace MOR
 
+```mermaid
+flowchart TD
+    node_AGONISTAmorfinheroin["AGONISTA morfin, heroin, fentanyl"]
+    node_MUOPIOIDNRECEPTOR["MU OPIOIDNÍ RECEPTOR"]
+    node_Gioproteinaktivace["Gi/o protein aktivace"]
+    node_6bfe3729["+----+----+----+"]
+    node_cAMPGIRKCa2arrestin["cAMP    GIRK    Ca2+   β-arrestin"]
+    node_Kkanly["K+       kanály"]
+    node_SnenHyperSnenRecepto["Snížená  Hyper-    Snížené   Receptor"]
+    node_excitapolariuvolnnin["excita-  polari-   uvolnění  internali-"]
+    node_bilitazaceNTzace["bilita   zace      NT        zace"]
+    node_b1958543["+------+-----+-----+"]
+    node_ANALGEZIETOLERANCE["ANALGEZIE      TOLERANCE"]
+
+    node_AGONISTAmorfinheroin --> node_MUOPIOIDNRECEPTOR
+    node_MUOPIOIDNRECEPTOR --> node_Gioproteinaktivace
+    node_Gioproteinaktivace --> node_6bfe3729
+    node_6bfe3729 --> node_cAMPGIRKCa2arrestin
+    node_cAMPGIRKCa2arrestin --> node_Kkanly
+    node_Kkanly --> node_SnenHyperSnenRecepto
+    node_SnenHyperSnenRecepto --> node_excitapolariuvolnnin
+    node_excitapolariuvolnnin --> node_bilitazaceNTzace
+    node_bilitazaceNTzace --> node_b1958543
+    node_b1958543 --> node_ANALGEZIETOLERANCE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 AGONISTA (morfin, heroin, fentanyl)
          |
@@ -91,7 +120,44 @@ bilita   zace      NT        zace
            ANALGEZIE      TOLERANCE
 ```
 
+</details>
+
 ### Distribuce v mozku
+
+```mermaid
+flowchart TD
+    node_MURECEPTORDISTRIBUCE["MU RECEPTOR DISTRIBUCE"]
+    node_SUPRASPINLN["SUPRASPINÁLNÍ:"]
+    node_ThalamusSenzorickrel["Thalamus  Senzorický relay"]
+    node_PAGperiaqueduktlneMo["PAG periaqueduktální šeď  Modulace"]
+    node_bolesti["bolesti"]
+    node_LocuscoeruleusNoradr["Locus coeruleus  Noradrenergní"]
+    node_modulace["modulace"]
+    node_VTANAcOdmnaeuforie["VTA/NAc  Odměna, euforie"]
+    node_SPINLN["SPINÁLNÍ:"]
+    node_Substantiagelatinosa["Substantia gelatinosa lamina II"]
+    node_Presynaptickinhibice["Presynaptická inhibice nociceptorů"]
+    node_Postsynaptickhyperpo["Postsynaptická hyperpolarizace"]
+    node_PERIFERN["PERIFERNÍ:"]
+
+    node_MURECEPTORDISTRIBUCE --> node_SUPRASPINLN
+    node_SUPRASPINLN --> node_ThalamusSenzorickrel
+    node_ThalamusSenzorickrel --> node_PAGperiaqueduktlneMo
+    node_PAGperiaqueduktlneMo --> node_bolesti
+    node_bolesti --> node_LocuscoeruleusNoradr
+    node_LocuscoeruleusNoradr --> node_modulace
+    node_modulace --> node_VTANAcOdmnaeuforie
+    node_VTANAcOdmnaeuforie --> node_SPINLN
+    node_SPINLN --> node_Substantiagelatinosa
+    node_Substantiagelatinosa --> node_Presynaptickinhibice
+    node_Presynaptickinhibice --> node_Postsynaptickhyperpo
+    node_Postsynaptickhyperpo --> node_PERIFERN
+
+    click node_bolesti "/conditions/pain/" "bolesti"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MU RECEPTOR DISTRIBUCE
@@ -128,6 +194,8 @@ PERIFERNÍ:
 - GIT (plexus myentericus)
 - Imunitní buňky
 ```
+
+</details>
 
 ### Farmakologie MOR
 
@@ -247,6 +315,33 @@ ZVÝŠENÍ                          SNÍŽENÍ
 
 ### Salvinorin A - unikátní KOR agonista
 
+```mermaid
+flowchart TD
+    node_SALVINORINAzSalviadi["SALVINORIN A z Salvia divinorum"]
+    node_StrukturaDiterpenoid["Struktura: Diterpenoid NE alkaloid!"]
+    node_KiKOR1nMextrmnpotent["Ki KOR: ~1 nM extrémně potentní"]
+    node_KiMOR10000nMselektiv["Ki MOR: &gt;10,000 nM selektivní"]
+    node_KiDOR10000nM["Ki DOR: &gt;10,000 nM"]
+    node_Efekty["Efekty:"]
+    node_Mechanismushalucinac["Mechanismus halucinací:"]
+    node_KORaktivaceKortiklnm["KOR aktivace  Kortikální modulace"]
+    node_Senzorickdistorze["Senzorická distorze"]
+
+    node_SALVINORINAzSalviadi --> node_StrukturaDiterpenoid
+    node_StrukturaDiterpenoid --> node_KiKOR1nMextrmnpotent
+    node_KiKOR1nMextrmnpotent --> node_KiMOR10000nMselektiv
+    node_KiMOR10000nMselektiv --> node_KiDOR10000nM
+    node_KiDOR10000nM --> node_Efekty
+    node_Efekty --> node_Mechanismushalucinac
+    node_Mechanismushalucinac --> node_KORaktivaceKortiklnm
+    node_KORaktivaceKortiklnm --> node_Senzorickdistorze
+
+    click node_SALVINORINAzSalviadi "/alkaloids/salvinorin/" "SALVINORIN A z Salvia divinorum"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SALVINORIN A (z Salvia divinorum)
 
@@ -269,6 +364,8 @@ KOR aktivace → Kortikální modulace
               → Senzorická distorze
 ```
 
+</details>
+
 ---
 
 ## Endogenní opioidní systém
@@ -283,6 +380,29 @@ KOR aktivace → Kortikální modulace
 | **Pronociceptin** | Nociceptin/OFQ | NOP |
 
 ### Biosyntéza a uvolnění
+
+```mermaid
+flowchart TD
+    node_ENDORFINOVSYSTM["ENDORFINOVÝ SYSTÉM"]
+    node_POMCsyntzahypofzahyp["POMC syntéza hypofýza, hypothalamus"]
+    node_Proteolyticktpen["Proteolytické štěpení"]
+    node_6bfe3729["+----+----+----+"]
+    node_ACTHMSHLPHendorfin["ACTH  MSH  β-LPH  β-endorfin"]
+    node_Uvolnnpi["Uvolnění při:"]
+    node_MUreceptoraktivace["MU receptor aktivace"]
+    node_ANALGEZIEEUFORIE["ANALGEZIE + EUFORIE"]
+
+    node_ENDORFINOVSYSTM --> node_POMCsyntzahypofzahyp
+    node_POMCsyntzahypofzahyp --> node_Proteolyticktpen
+    node_Proteolyticktpen --> node_6bfe3729
+    node_6bfe3729 --> node_ACTHMSHLPHendorfin
+    node_ACTHMSHLPHendorfin --> node_Uvolnnpi
+    node_Uvolnnpi --> node_MUreceptoraktivace
+    node_MUreceptoraktivace --> node_ANALGEZIEEUFORIE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ENDORFINOVÝ SYSTÉM
@@ -311,6 +431,8 @@ ACTH  MSH  β-LPH  β-endorfin
                        v
               ANALGEZIE + EUFORIE
 ```
+
+</details>
 
 ### Fyziologické role
 
@@ -440,6 +562,39 @@ Adaptace:
 
 ### Neurobiologie závislosti
 
+```mermaid
+flowchart TD
+    node_OPIOIDNZVISLOSTMECHA["OPIOIDNÍ ZÁVISLOST - MECHANISMUS"]
+    node_AKUTNUIT["AKUTNÍ UŽITÍ:"]
+    node_MORaktivaceDAvNAcEuf["MOR aktivace   DA v NAc  Euforie, odměna"]
+    node_CHRONICKUIT["CHRONICKÉ UŽITÍ:"]
+    node_MORdownregulaceSnenb["MOR downregulace  Snížený bazální DA  Anhedonie"]
+    node_StresovdysfunkceNega["Stresová dysfunkce  Negativní emoce"]
+    node_CravingKompulzivnuvn["Craving  Kompulzivní užívání"]
+    node_ABSTINENNSTAV["ABSTINENČNÍ STAV:"]
+    node_MORnemagonistyHypera["MOR 'nemá' agonisty  Hyperaktivace cAMP"]
+    node_NoradrenergnboueLC["Noradrenergní 'bouře' LC"]
+    node_Fyzickpznaky["Fyzické příznaky"]
+    node_DysforieKORaktivace["Dysforie KOR aktivace?"]
+
+    node_OPIOIDNZVISLOSTMECHA --> node_AKUTNUIT
+    node_AKUTNUIT --> node_MORaktivaceDAvNAcEuf
+    node_MORaktivaceDAvNAcEuf --> node_CHRONICKUIT
+    node_CHRONICKUIT --> node_MORdownregulaceSnenb
+    node_MORdownregulaceSnenb --> node_StresovdysfunkceNega
+    node_StresovdysfunkceNega --> node_CravingKompulzivnuvn
+    node_CravingKompulzivnuvn --> node_ABSTINENNSTAV
+    node_ABSTINENNSTAV --> node_MORnemagonistyHypera
+    node_MORnemagonistyHypera --> node_NoradrenergnboueLC
+    node_NoradrenergnboueLC --> node_Fyzickpznaky
+    node_Fyzickpznaky --> node_DysforieKORaktivace
+
+    click node_OPIOIDNZVISLOSTMECHA "/conditions/addiction/" "OPIOIDNÍ ZÁVISLOST - MECHANISMUS"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 OPIOIDNÍ ZÁVISLOST - MECHANISMUS
 
@@ -457,6 +612,8 @@ MOR "nemá" agonisty → Hyperaktivace cAMP
                     → Fyzické příznaky
                     → Dysforie (KOR aktivace?)
 ```
+
+</details>
 
 ---
 

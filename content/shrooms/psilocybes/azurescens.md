@@ -96,6 +96,27 @@ P. azurescens náleží do sekce **Cyanescens** (dříve Stuntzii), která zahrn
 | **Lupeny (okraj)** | Střední (3/5) | < 120 sekund |
 
 **Mechanismus modření**:
+```mermaid
+flowchart TD
+    node_Psilocinbezbarv["Psilocin bezbarvý"]
+    node_Oenzympsilocinoxidza["O₂ + enzym psilocin oxidáza"]
+    node_Psilocinochinonmodr["Psilocin-o-chinon modrý"]
+    node_Polymerizace["Polymerizace"]
+    node_Modrpolymerystabiln["Modré polymery stabilní"]
+
+    node_Psilocinbezbarv --> node_Oenzympsilocinoxidza
+    node_Oenzympsilocinoxidza --> node_Psilocinochinonmodr
+    node_Psilocinochinonmodr --> node_Polymerizace
+    node_Polymerizace --> node_Modrpolymerystabiln
+
+    click node_Psilocinbezbarv "/alkaloids/psilocin/" "Psilocin bezbarvý"
+    click node_Oenzympsilocinoxidza "/alkaloids/psilocin/" "O₂ + enzym psilocin oxidáza"
+    click node_Psilocinochinonmodr "/alkaloids/psilocin/" "Psilocin-o-chinon modrý"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocin (bezbarvý)
     ↓ [O₂ + enzym psilocin oxidáza]
@@ -103,6 +124,8 @@ Psilocin-o-chinon (modrý)
     ↓ [Polymerizace]
 Modré polymery (stabilní)
 ```
+
+</details>
 
 **Poznámka**: Intenzita modření koreluje s obsahem psilocinu. P. azurescens má nejintenzivnější modření ze všech známých druhů.
 
@@ -144,6 +167,31 @@ Modré polymery (stabilní)
 
 Barva výtrusového prachu je kritický determinační znak:
 
+```mermaid
+flowchart TD
+    node_VTRUSOVOTISKPazuresc["VÝTRUSOVÝ OTISK - P. azurescens"]
+    node_BarvaTmavpurpurovhnd["Barva: Tmavě purpurově hnědá"]
+    node_c755b6f9["████████████████████████████████"]
+    node_Munsell5P22a10P21["Munsell: 5P 2/2 až 10P 2/1"]
+    node_Srovnn["Srovnání:"]
+    node_GalerinamarginataRez["Galerina marginata: Rezavě hnědá SMRTELNÁ!"]
+    node_7c1457fa["░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"]
+    node_Munsell75YR46["Munsell: 7.5YR 4/6"]
+    node_VDYPROVETEOTISKPEDKO["VŽDY PROVEĎTE OTISK PŘED KONZUMACÍ!"]
+
+    node_VTRUSOVOTISKPazuresc --> node_BarvaTmavpurpurovhnd
+    node_BarvaTmavpurpurovhnd --> node_c755b6f9
+    node_c755b6f9 --> node_Munsell5P22a10P21
+    node_Munsell5P22a10P21 --> node_Srovnn
+    node_Srovnn --> node_GalerinamarginataRez
+    node_GalerinamarginataRez --> node_7c1457fa
+    node_7c1457fa --> node_Munsell75YR46
+    node_Munsell75YR46 --> node_VDYPROVETEOTISKPEDKO
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ┌─────────────────────────────────────────────────┐
 │   VÝTRUSOVÝ OTISK - P. azurescens               │
@@ -160,6 +208,8 @@ Barva výtrusového prachu je kritický determinační znak:
 │   VŽDY PROVEĎTE OTISK PŘED KONZUMACÍ!          │
 └─────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -249,6 +299,49 @@ P. mexicana      █████                            0,40%
 
 ### Geografické rozšíření
 
+```mermaid
+flowchart TD
+    node_PACIFICKPOBESEVERNAM["PACIFICKÉ POBŘEŽÍ SEVERNÍ AMERIKY - ROZŠÍŘENÍ P. azurescens"]
+    node_BRITISHCOLUMBIA["BRITISH COLUMBIA ?"]
+    node_SEATTLEWASHINGTON["SEATTLE   WASHINGTON"]
+    node_45N["45°N"]
+    node_OLYMPIALongBeachPeni["OLYMPIA          Long Beach Peninsula"]
+    node_HLAVNPOPULACE["★ HLAVNÍ POPULACE"]
+    node_ASTORIAColumbiaRiver["ASTORIA   ★ Columbia River Delta"]
+    node_HammondWarrenton["★ Hammond, Warrenton"]
+    node_44N["44°N"]
+    node_OREGON["OREGON"]
+    node_TillamookRoziujcsepo["Tillamook ★     Rozšiřující se populace"]
+    node_43N["43°N"]
+    node_Newport["Newport"]
+    node_FlorenceSporadicknle["Florence        Sporadické nálezy"]
+    node_42N["42°N"]
+    node_CALIFORNIANejistnepo["CALIFORNIA ?   Nejisté/nepotvrzené"]
+    node_124W123W122W["124°W           123°W           122°W"]
+    node_Potvrzenlokality["★ = Potvrzené lokality"]
+
+    node_PACIFICKPOBESEVERNAM --> node_BRITISHCOLUMBIA
+    node_BRITISHCOLUMBIA --> node_SEATTLEWASHINGTON
+    node_SEATTLEWASHINGTON --> node_45N
+    node_45N --> node_OLYMPIALongBeachPeni
+    node_OLYMPIALongBeachPeni --> node_HLAVNPOPULACE
+    node_HLAVNPOPULACE --> node_ASTORIAColumbiaRiver
+    node_ASTORIAColumbiaRiver --> node_HammondWarrenton
+    node_HammondWarrenton --> node_44N
+    node_44N --> node_OREGON
+    node_OREGON --> node_TillamookRoziujcsepo
+    node_TillamookRoziujcsepo --> node_43N
+    node_43N --> node_Newport
+    node_Newport --> node_FlorenceSporadicknle
+    node_FlorenceSporadicknle --> node_42N
+    node_42N --> node_CALIFORNIANejistnepo
+    node_CALIFORNIANejistnepo --> node_124W123W122W
+    node_124W123W122W --> node_Potvrzenlokality
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PACIFICKÉ POBŘEŽÍ SEVERNÍ AMERIKY - ROZŠÍŘENÍ P. azurescens
 
@@ -280,6 +373,8 @@ PACIFICKÉ POBŘEŽÍ SEVERNÍ AMERIKY - ROZŠÍŘENÍ P. azurescens
 
         ★ = Potvrzené lokality
 ```
+
+</details>
 
 ### Konkrétní lokality a biotopy
 
@@ -365,6 +460,31 @@ P. azurescens je **NEJOBTÍŽNĚJŠÍ** běžně kultivovaný druh Psilocybe:
 
 #### Rozměry záhonu
 
+```mermaid
+flowchart TD
+    node_SCHMAVENKOVNHOZHONU["SCHÉMA VENKOVNÍHO ZÁHONU"]
+    node_64292263["░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"]
+    node_POVRCHOVVRSTVA5cmneo["░░░ POVRCHOVÁ VRSTVA ░░░░░░░░    5 cm - neočkované štěpky"]
+    node_1a29ee84["▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"]
+    node_INOKULOVANVRSTVA10cm["▓▓▓ INOKULOVANÁ VRSTVA ▓▓▓▓▓▓    10 cm - spawn + štěpky"]
+    node_SPODNVRSTVA10cmspawn["▓▓▓ SPODNÍ VRSTVA ▓▓▓▓▓▓▓▓▓▓    10 cm - spawn + štěpky"]
+    node_PDAPSEKDren["▒▒▒▒▒ PŮDA / PÍSEK ▒▒▒▒▒▒▒▒▒▒    Drenáž"]
+    node_Rozmry1mx1mminimumhl["Rozměry: 1m x 1m minimum, hloubka 25 cm"]
+    node_UmstnSeverseverovcho["Umístění: Sever/severovýchod, stín, vlhko"]
+
+    node_SCHMAVENKOVNHOZHONU --> node_64292263
+    node_64292263 --> node_POVRCHOVVRSTVA5cmneo
+    node_POVRCHOVVRSTVA5cmneo --> node_1a29ee84
+    node_1a29ee84 --> node_INOKULOVANVRSTVA10cm
+    node_INOKULOVANVRSTVA10cm --> node_SPODNVRSTVA10cmspawn
+    node_SPODNVRSTVA10cmspawn --> node_PDAPSEKDren
+    node_PDAPSEKDren --> node_Rozmry1mx1mminimumhl
+    node_Rozmry1mx1mminimumhl --> node_UmstnSeverseverovcho
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SCHÉMA VENKOVNÍHO ZÁHONU
 
@@ -388,6 +508,8 @@ SCHÉMA VENKOVNÍHO ZÁHONU
         Rozměry: 1m x 1m minimum, hloubka 25 cm
         Umístění: Sever/severovýchod, stín, vlhko
 ```
+
+</details>
 
 ### Kultivační parametry
 
@@ -418,6 +540,31 @@ Možná pouze s specializovaným vybavením:
 
 ### Metabolismus alkaloidů
 
+```mermaid
+flowchart TD
+    node_METABOLICKDRHAPSILOC["METABOLICKÁ DRÁHA PSILOCYBINU V ORGANISMU"]
+    node_Psilocybinprodrugnea["Psilocybin prodrug, neaktivní"]
+    node_Alkalickfosfatzastev["Alkalická fosfatáza - střevo, játra, plazma"]
+    node_Psilocin4HODMTaktivn["Psilocin 4-HO-DMT, aktivní"]
+    node_PrnikBBB5HT2A2Crecep["Průnik BBB  5-HT2A/2C receptory  ÚČINKY"]
+    node_UGTMAOAMetabolityEli["UGT, MAO-A  Metabolity  Eliminace moč"]
+    node_asovprbh["Časový průběh:"]
+
+    node_METABOLICKDRHAPSILOC --> node_Psilocybinprodrugnea
+    node_Psilocybinprodrugnea --> node_Alkalickfosfatzastev
+    node_Alkalickfosfatzastev --> node_Psilocin4HODMTaktivn
+    node_Psilocin4HODMTaktivn --> node_PrnikBBB5HT2A2Crecep
+    node_PrnikBBB5HT2A2Crecep --> node_UGTMAOAMetabolityEli
+    node_UGTMAOAMetabolityEli --> node_asovprbh
+
+    click node_METABOLICKDRHAPSILOC "/alkaloids/psilocybin/" "METABOLICKÁ DRÁHA PSILOCYBINU V ORGANISMU"
+    click node_Psilocybinprodrugnea "/alkaloids/psilocybin/" "Psilocybin prodrug, neaktivní"
+    click node_Psilocin4HODMTaktivn "/alkaloids/psilocin/" "Psilocin 4-HO-DMT, aktivní"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 METABOLICKÁ DRÁHA PSILOCYBINU V ORGANISMU
 
@@ -437,6 +584,8 @@ Psilocin (4-HO-DMT, aktivní)
 - T1/2: 2-3 hodiny
 - Eliminace: 6-8 hodin
 ```
+
+</details>
 
 ### Farmakokinetika specifická pro P. azurescens
 
@@ -513,6 +662,31 @@ Wood Lover's Paralysis (WLP) je dočasný neurologický syndrom specificky asoci
 
 ### Časový průběh
 
+```mermaid
+flowchart TD
+    node_TYPICKPRBHWLP["TYPICKÝ PRŮBĚH WLP"]
+    node_ashodiny012345678["Čas hodiny:     0    1    2    3    4    5    6    7    8"]
+    node_Konzumace["Konzumace     ●"]
+    node_Nstuptripu["Nástup tripu      ●"]
+    node_NstupWLP["Nástup WLP             ●●●"]
+    node_MaximumWLP["Maximum WLP                      ████████"]
+    node_stupWLP["Ústup WLP                             ●●"]
+    node_Plnobnova["Plná obnova                                      ●"]
+    node_Obdobmaximlnsvalovsl["████ = Období maximální svalové slabosti"]
+
+    node_TYPICKPRBHWLP --> node_ashodiny012345678
+    node_ashodiny012345678 --> node_Konzumace
+    node_Konzumace --> node_Nstuptripu
+    node_Nstuptripu --> node_NstupWLP
+    node_NstupWLP --> node_MaximumWLP
+    node_MaximumWLP --> node_stupWLP
+    node_stupWLP --> node_Plnobnova
+    node_Plnobnova --> node_Obdobmaximlnsvalovsl
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPICKÝ PRŮBĚH WLP
 
@@ -527,6 +701,8 @@ Plná obnova                                      └────●────
 
 ████ = Období maximální svalové slabosti
 ```
+
+</details>
 
 ### Hypotetické příčiny
 
@@ -614,6 +790,29 @@ Plná obnova                                      └────●────
 | **Chuť** | Moučná | Moučná (nelze rozlišit!) |
 | **Toxicita** | Žádná | SMRTELNÁ |
 
+```mermaid
+flowchart TD
+    node_VAROVNKRITICKZMNA["VAROVÁNÍ - KRITICKÁ ZÁMĚNA"]
+    node_Galerinamarginataobs["Galerina marginata obsahuje AMATOXINY"]
+    node_StejntoxinyjakoAmani["- Stejné toxiny jako Amanita phalloides muchomůrka zelená"]
+    node_Smrtelndvka01mgkgnko["- Smrtelná dávka: 0,1 mg/kg několik plodnic"]
+    node_Symptomy624hodinpopo["- Symptomy: 6-24 hodin po požití"]
+    node_Mortalita1030ipilb["- Mortalita: 10-30% i při léčbě"]
+    node_VDYPROVETEVTRUSOVOTI["VŽDY PROVEĎTE VÝTRUSOVÝ OTISK!"]
+    node_PURPUROVbezpenREZAVS["PURPUROVÝ = bezpečné | REZAVÝ = SMRTELNÉ"]
+
+    node_VAROVNKRITICKZMNA --> node_Galerinamarginataobs
+    node_Galerinamarginataobs --> node_StejntoxinyjakoAmani
+    node_StejntoxinyjakoAmani --> node_Smrtelndvka01mgkgnko
+    node_Smrtelndvka01mgkgnko --> node_Symptomy624hodinpopo
+    node_Symptomy624hodinpopo --> node_Mortalita1030ipilb
+    node_Mortalita1030ipilb --> node_VDYPROVETEVTRUSOVOTI
+    node_VDYPROVETEVTRUSOVOTI --> node_PURPUROVbezpenREZAVS
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 VAROVÁNÍ - KRITICKÁ ZÁMĚNA
 
@@ -631,6 +830,8 @@ VAROVÁNÍ - KRITICKÁ ZÁMĚNA
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ### Determinační klíč pro lignikolní Psilocybe
 

@@ -29,6 +29,33 @@ tags = ["antagonista", "receptor", "blokada", "kompetitivni", "nekompetitivni", 
 
 ### Klicove charakteristiky
 
+```mermaid
+flowchart TD
+    node_ANTAGONISTAZAKLADNIP["ANTAGONISTA - ZAKLADNI PRINCIP"]
+    node_BezantagonistySantag["Bez antagonisty:              S antagonistou:"]
+    node_AgonistaAgonistaAnta["Agonista                      Agonista    Antagonista"]
+    node_8fa79418["▼                             ▼            ▼"]
+    node_RECEPTORRECEPTOR["RECEPTOR                          RECEPTOR"]
+    node_43c48985["●                           ●        ○"]
+    node_obsazeno["obsazeno"]
+    node_AKTIVACEBLOKOVANO["AKTIVACE                         BLOKOVANO"]
+    node_signalnikaskadazadna["signalni kaskada              zadna odpoved"]
+
+    node_ANTAGONISTAZAKLADNIP --> node_BezantagonistySantag
+    node_BezantagonistySantag --> node_AgonistaAgonistaAnta
+    node_AgonistaAgonistaAnta --> node_8fa79418
+    node_8fa79418 --> node_RECEPTORRECEPTOR
+    node_RECEPTORRECEPTOR --> node_43c48985
+    node_43c48985 --> node_obsazeno
+    node_obsazeno --> node_AKTIVACEBLOKOVANO
+    node_AKTIVACEBLOKOVANO --> node_signalnikaskadazadna
+
+    click node_RECEPTORRECEPTOR "/glossary/receptor/" "RECEPTOR                          RECEPTOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ANTAGONISTA - ZAKLADNI PRINCIP
 
@@ -47,6 +74,8 @@ ANTAGONISTA - ZAKLADNI PRINCIP
    (signalni kaskada)              (zadna odpoved)
 ```
 
+</details>
+
 ---
 
 ## Klasifikace antagonistu
@@ -64,6 +93,37 @@ Souteži s agonistou o stejne (orthostericke) vazebne misto na receptoru.
 | **Efekt na Emax** | Beze zmeny (pri vysoke davce agonisty) |
 | **Prekonatelnost** | Ano - zvysenim koncentrace agonisty |
 | **Priklad** | Ketanserin (5-HT2A), Naloxon (opioidni) |
+
+```mermaid
+flowchart TD
+    node_KOMPETITIVNIANTAGONI["KOMPETITIVNI ANTAGONISMUS"]
+    node_Odpoved["Odpoved"]
+    node_100Agonistasamotny["100                      Agonista samotny"]
+    node_75["75                 ╱"]
+    node_Antagonistaposundopr["╱      ╭ + Antagonista posun doprava"]
+    node_50["50 ╱╱"]
+    node_829fc43e["╱       ╱"]
+    node_25["25         ╱       ╱"]
+    node_0LogAgonista["0  Log Agonista"]
+    node_EC50EC50["EC50   EC50'"]
+    node_zvysene["zvysene"]
+    node_Charakteristika["Charakteristika:"]
+
+    node_KOMPETITIVNIANTAGONI --> node_Odpoved
+    node_Odpoved --> node_100Agonistasamotny
+    node_100Agonistasamotny --> node_75
+    node_75 --> node_Antagonistaposundopr
+    node_Antagonistaposundopr --> node_50
+    node_50 --> node_829fc43e
+    node_829fc43e --> node_25
+    node_25 --> node_0LogAgonista
+    node_0LogAgonista --> node_EC50EC50
+    node_EC50EC50 --> node_zvysene
+    node_zvysene --> node_Charakteristika
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KOMPETITIVNI ANTAGONISMUS
@@ -88,6 +148,8 @@ Charakteristika:
 - Schild rovnice: dose ratio = 1 + [B]/KB
 ```
 
+</details>
+
 #### Nekompetitivni antagoniste
 
 Vazi se na jine misto nez agonista (alostericke) nebo ireverzibilne bloky receptor.
@@ -99,6 +161,33 @@ Vazi se na jine misto nez agonista (alostericke) nebo ireverzibilne bloky recept
 | **Efekt na EC50** | Typicky beze zmeny nebo mirne zvyseni |
 | **Prekonatelnost** | Ne - ani vysokou davkou agonisty |
 | **Priklad** | Ketamin (NMDA kanalovy blokator) |
+
+```mermaid
+flowchart TD
+    node_NEKOMPETITIVNIANTAGO["NEKOMPETITIVNI ANTAGONISMUS"]
+    node_Odpoved["Odpoved"]
+    node_100Agonistasamotny["100                Agonista samotny"]
+    node_75Antagonistasnizeni["75           ╱    + Antagonista snizeni Emax"]
+    node_a00e5021["╱   ╱"]
+    node_50["50 ╱╱"]
+    node_25["25   ╱   ╱"]
+    node_0LogAgonista["0  Log Agonista"]
+    node_EC50nezmeneno["EC50 nezmeneno"]
+    node_Charakteristika["Charakteristika:"]
+
+    node_NEKOMPETITIVNIANTAGO --> node_Odpoved
+    node_Odpoved --> node_100Agonistasamotny
+    node_100Agonistasamotny --> node_75Antagonistasnizeni
+    node_75Antagonistasnizeni --> node_a00e5021
+    node_a00e5021 --> node_50
+    node_50 --> node_25
+    node_25 --> node_0LogAgonista
+    node_0LogAgonista --> node_EC50nezmeneno
+    node_EC50nezmeneno --> node_Charakteristika
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NEKOMPETITIVNI ANTAGONISMUS
@@ -122,6 +211,8 @@ Charakteristika:
 - Nelze preklonat zvysenim davky agonisty
 ```
 
+</details>
+
 ### 2. Podle reverzibility
 
 #### Reverzibilni antagoniste
@@ -133,6 +224,33 @@ Charakteristika:
 | **Trvani ucinku** | Zavisle na biologickem polocase |
 | **Obnoveni funkce** | Po eliminaci latky z organismu |
 | **Priklady** | Naloxon, ketanserin, atropin |
+
+```mermaid
+flowchart TD
+    node_REVERZIBILNIVAZBA["REVERZIBILNI VAZBA"]
+    node_Cas["Cas"]
+    node_Vazba["Vazba       ╭╮"]
+    node_dfb6f68f["%        ╱        ╲"]
+    node_f54df8a9["╱          ╲"]
+    node_00857c7a["╱            ╲"]
+    node_4688e39d["╱              ╲"]
+    node_PodaniEliminaceObnov["Podani    Eliminace   Obnoveni"]
+    node_latkylatkyfunkce["latky     latky       funkce"]
+    node_Charakteristika["Charakteristika:"]
+
+    node_REVERZIBILNIVAZBA --> node_Cas
+    node_Cas --> node_Vazba
+    node_Vazba --> node_dfb6f68f
+    node_dfb6f68f --> node_f54df8a9
+    node_f54df8a9 --> node_00857c7a
+    node_00857c7a --> node_4688e39d
+    node_4688e39d --> node_PodaniEliminaceObnov
+    node_PodaniEliminaceObnov --> node_latkylatkyfunkce
+    node_latkylatkyfunkce --> node_Charakteristika
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 REVERZIBILNI VAZBA
@@ -155,6 +273,8 @@ Charakteristika:
 - Po eliminaci - uplne obnoveni receptorove funkce
 ```
 
+</details>
+
 #### Ireverzibilni antagoniste
 
 | Vlastnost | Hodnota |
@@ -164,6 +284,32 @@ Charakteristika:
 | **Trvani ucinku** | Az do resyntézy receptoru |
 | **Obnoveni funkce** | Vyzaduje nove receptory |
 | **Priklady** | Fenoxybenzamin (alpha-1), EEDQ (vyzkumny) |
+
+```mermaid
+flowchart TD
+    node_IREVERZIBILNIVAZBA["IREVERZIBILNI VAZBA"]
+    node_Cas["Cas"]
+    node_Vazba["Vazba       ╭"]
+    node_d5a9feb7["%        ╱"]
+    node_trvalablokada["╱    trvala blokada"]
+    node_PodaniFunkcnirecepto["Podani   Funkcni receptory se"]
+    node_latkyobnovujiazresyn["latky    obnovuji az resyntezou"]
+    node_Dobaobnovenihodinyaz["Doba obnoveni: hodiny az dny resynteza receptoru"]
+
+    node_IREVERZIBILNIVAZBA --> node_Cas
+    node_Cas --> node_Vazba
+    node_Vazba --> node_d5a9feb7
+    node_d5a9feb7 --> node_trvalablokada
+    node_trvalablokada --> node_PodaniFunkcnirecepto
+    node_PodaniFunkcnirecepto --> node_latkyobnovujiazresyn
+    node_latkyobnovujiazresyn --> node_Dobaobnovenihodinyaz
+
+    click node_PodaniFunkcnirecepto "/glossary/receptor/" "Podani   Funkcni receptory se"
+    click node_Dobaobnovenihodinyaz "/glossary/receptor/" "Doba obnoveni: hodiny az dny resynteza receptoru"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 IREVERZIBILNI VAZBA
@@ -182,6 +328,8 @@ Vazba   │    ╭────────────────────�
 
 Doba obnoveni: hodiny az dny (resynteza receptoru)
 ```
+
+</details>
 
 ### 3. Tabulka srovnani typu antagonismu
 
@@ -206,6 +354,59 @@ Receptory mohou mit bazalni (konstitutivni) aktivitu i bez pritomnosti agonisty.
 | **Parcialni agonista** | α = 0.2-0.8 | Castecna aktivace |
 | **Neutralni antagonista** | α = 0 | Zadny efekt na bazal |
 | **Inverzni agonista** | α < 0 | Snizeni bazalni aktivity |
+
+```mermaid
+flowchart TD
+    node_SPEKTRUMLIGANDU["SPEKTRUM LIGANDU"]
+    node_Vnitrniaktivita["Vnitrni aktivita"]
+    node_10Plnyagonista["+1.0   Plny agonista"]
+    node_muscimolserotonin["muscimol, serotonin"]
+    node_05Parcialniagonista["+0.5   Parcialni agonista"]
+    node_psilocinbuprenorfin["psilocin, buprenorfin"]
+    node_00NEUTRALNIANTAGONIS["0.0   NEUTRALNI ANTAGONISTA"]
+    node_ketanserinnaloxon["ketanserin, naloxon"]
+    node_pimavanserinDMCM["pimavanserin, DMCM"]
+    node_NARECEPTORUSKONSTITU["NA RECEPTORU S KONSTITUTIVNI AKTIVITOU:"]
+    node_Bazalni["Bazalni"]
+    node_aktivita["aktivita"]
+    node_100Plnyagonista["100                              Plny agonista"]
+    node_75["75      ╱"]
+    node_Neutralniantagonista["╱    Neutralni antagonista"]
+    node_50["50"]
+    node_zadnazmenabazalu["zadna zmena bazalu"]
+    node_25["25"]
+    node_Inverzniagonista["╲     Inverzni agonista"]
+    node_0["0     ╲"]
+    node_Ligand["Ligand"]
+
+    node_SPEKTRUMLIGANDU --> node_Vnitrniaktivita
+    node_Vnitrniaktivita --> node_10Plnyagonista
+    node_10Plnyagonista --> node_muscimolserotonin
+    node_muscimolserotonin --> node_05Parcialniagonista
+    node_05Parcialniagonista --> node_psilocinbuprenorfin
+    node_psilocinbuprenorfin --> node_00NEUTRALNIANTAGONIS
+    node_00NEUTRALNIANTAGONIS --> node_ketanserinnaloxon
+    node_ketanserinnaloxon --> node_pimavanserinDMCM
+    node_pimavanserinDMCM --> node_NARECEPTORUSKONSTITU
+    node_NARECEPTORUSKONSTITU --> node_Bazalni
+    node_Bazalni --> node_aktivita
+    node_aktivita --> node_100Plnyagonista
+    node_100Plnyagonista --> node_75
+    node_75 --> node_Neutralniantagonista
+    node_Neutralniantagonista --> node_50
+    node_50 --> node_zadnazmenabazalu
+    node_zadnazmenabazalu --> node_25
+    node_25 --> node_Inverzniagonista
+    node_Inverzniagonista --> node_0
+    node_0 --> node_Ligand
+
+    click node_muscimolserotonin "/alkaloids/muscimol/" "muscimol, serotonin"
+    click node_psilocinbuprenorfin "/alkaloids/psilocin/" "psilocin, buprenorfin"
+    click node_NARECEPTORUSKONSTITU "/glossary/receptor/" "NA RECEPTORU S KONSTITUTIVNI AKTIVITOU:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SPEKTRUM LIGANDU
@@ -242,6 +443,8 @@ aktivita
                     [Ligand]
 ```
 
+</details>
+
 ### Neutralni antagonista - charakteristiky
 
 | Vlastnost | Popis |
@@ -267,6 +470,35 @@ aktivita
 
 ### Orthostericka blokada
 
+```mermaid
+flowchart TD
+    node_ORTHOSTERICKAKOMPETI["ORTHOSTERICKA KOMPETICE"]
+    node_AgonistaAAntagonista["Agonista A        Antagonista B"]
+    node_dff2fea1["▼                     ▼"]
+    node_RECEPTOR["RECEPTOR"]
+    node_ORTHOSTERICKEMISTO["ORTHOSTERICKE MISTO"]
+    node_AneboB["A ●    nebo    ○ B"]
+    node_aktivaceblokada["aktivace  blokada"]
+    node_Pouzejedenligandmuze["Pouze jeden ligand muze obsadit misto v dany okamzik"]
+    node_Kompeticeovazbu["Kompetice o vazbu"]
+    node_Pomerobsazenostizavi["Pomer obsazenosti zavisi na koncentraci a afinite"]
+
+    node_ORTHOSTERICKAKOMPETI --> node_AgonistaAAntagonista
+    node_AgonistaAAntagonista --> node_dff2fea1
+    node_dff2fea1 --> node_RECEPTOR
+    node_RECEPTOR --> node_ORTHOSTERICKEMISTO
+    node_ORTHOSTERICKEMISTO --> node_AneboB
+    node_AneboB --> node_aktivaceblokada
+    node_aktivaceblokada --> node_Pouzejedenligandmuze
+    node_Pouzejedenligandmuze --> node_Kompeticeovazbu
+    node_Kompeticeovazbu --> node_Pomerobsazenostizavi
+
+    click node_RECEPTOR "/glossary/receptor/" "RECEPTOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ORTHOSTERICKA KOMPETICE
 
@@ -290,7 +522,40 @@ Pouze jeden ligand muze obsadit misto v dany okamzik
 → Pomer obsazenosti zavisi na koncentraci a afinite
 ```
 
+</details>
+
 ### Alostericka modulace
+
+```mermaid
+flowchart TD
+    node_ALOSTERICKAINHIBICE["ALOSTERICKA INHIBICE"]
+    node_Agonista["Agonista"]
+    node_RECEPTOR["RECEPTOR"]
+    node_ORTHOALOST["ORTHO-       ALOST-"]
+    node_STERICKEERICKE["STERICKE     ERICKE"]
+    node_1228436e["●            ○"]
+    node_agonistaantagonist["agonista  antagonist"]
+    node_snizuje["snizuje"]
+    node_afinitu["afinitu/"]
+    node_eficaci["eficaci"]
+    node_Alosterickyantagonis["Alostericky antagonista:"]
+
+    node_ALOSTERICKAINHIBICE --> node_Agonista
+    node_Agonista --> node_RECEPTOR
+    node_RECEPTOR --> node_ORTHOALOST
+    node_ORTHOALOST --> node_STERICKEERICKE
+    node_STERICKEERICKE --> node_1228436e
+    node_1228436e --> node_agonistaantagonist
+    node_agonistaantagonist --> node_snizuje
+    node_snizuje --> node_afinitu
+    node_afinitu --> node_eficaci
+    node_eficaci --> node_Alosterickyantagonis
+
+    click node_RECEPTOR "/glossary/receptor/" "RECEPTOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ALOSTERICKA INHIBICE
@@ -320,7 +585,38 @@ Alostericky antagonista:
 - Oba ligandy mohou byt soucasne navazany
 ```
 
+</details>
+
 ### Kanalova blokada (specialni pripad)
+
+```mermaid
+flowchart TD
+    node_KANALOVYBLOKATORnapr["KANALOVY BLOKATOR napr. ketamin na NMDA"]
+    node_BezblokatoruSblokato["Bez blokatoru:                  S blokatorem:"]
+    node_GlutamatGlycinGlutam["Glutamat + Glycin               Glutamat + Glycin"]
+    node_82550aeb["▼                               ▼"]
+    node_NMDAreceptorNMDArece["NMDA receptor                 NMDA receptor"]
+    node_XXXXX["XXXXX"]
+    node_XXXXXKetaminvkanalu["XXXXX  Ketamin v kanalu"]
+    node_CaNainfluxBLOKOVANO["Ca²⁺, Na⁺ influx              BLOKOVANO"]
+    node_usedependent["use-dependent"]
+    node_Charakteristikausede["Charakteristika use-dependent blokady:"]
+
+    node_KANALOVYBLOKATORnapr --> node_BezblokatoruSblokato
+    node_BezblokatoruSblokato --> node_GlutamatGlycinGlutam
+    node_GlutamatGlycinGlutam --> node_82550aeb
+    node_82550aeb --> node_NMDAreceptorNMDArece
+    node_NMDAreceptorNMDArece --> node_XXXXX
+    node_XXXXX --> node_XXXXXKetaminvkanalu
+    node_XXXXXKetaminvkanalu --> node_CaNainfluxBLOKOVANO
+    node_CaNainfluxBLOKOVANO --> node_usedependent
+    node_usedependent --> node_Charakteristikausede
+
+    click node_NMDAreceptorNMDArece "/glossary/receptor/" "NMDA receptor                 NMDA receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KANALOVY BLOKATOR (napr. ketamin na NMDA)
@@ -348,6 +644,8 @@ Charakteristika use-dependent blokady:
 - Vyssi frekvence aktivace = silnejsi blokada
 - Priklad: MK-801, ketamin, memantín
 ```
+
+</details>
 
 ---
 
@@ -396,6 +694,35 @@ Charakteristika use-dependent blokady:
 
 #### Interakce s psychedeliky
 
+```mermaid
+flowchart TD
+    node_BLOKADAPSYCHEDELICKE["BLOKADA PSYCHEDELICKEHO UCINKU"]
+    node_PsychedelikumLSDPsil["Psychedelikum LSD, Psilocin"]
+    node_5HT2ARECEPTOR["5-HT2A RECEPTOR"]
+    node_ORTHOSTERICKEMISTO["ORTHOSTERICKE MISTO"]
+    node_KetanserinVysokaafin["Ketanserin ○○     Vysoka afinita"]
+    node_blokada["blokada"]
+    node_PsilocinXNemzesenava["Psilocin ○X             Nemůze se navazat"]
+    node_ytlacen["ytlacen"]
+    node_Klinickyvyznam["Klinicky vyznam:"]
+
+    node_BLOKADAPSYCHEDELICKE --> node_PsychedelikumLSDPsil
+    node_PsychedelikumLSDPsil --> node_5HT2ARECEPTOR
+    node_5HT2ARECEPTOR --> node_ORTHOSTERICKEMISTO
+    node_ORTHOSTERICKEMISTO --> node_KetanserinVysokaafin
+    node_KetanserinVysokaafin --> node_blokada
+    node_blokada --> node_PsilocinXNemzesenava
+    node_PsilocinXNemzesenava --> node_ytlacen
+    node_ytlacen --> node_Klinickyvyznam
+
+    click node_PsychedelikumLSDPsil "/alkaloids/lsd/" "Psychedelikum LSD, Psilocin"
+    click node_5HT2ARECEPTOR "/glossary/receptor/" "5-HT2A RECEPTOR"
+    click node_PsilocinXNemzesenava "/alkaloids/psilocin/" "Psilocin ○X             Nemůze se navazat"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BLOKADA PSYCHEDELICKEHO UCINKU
 
@@ -422,6 +749,8 @@ Klinicky vyznam:
 - Zachranna terapie pri tezkem "bad tripu"
 ```
 
+</details>
+
 ### Opioidni antagoniste
 
 | Latka | Selektivita | Pouziti | Farmakokineticka |
@@ -430,6 +759,37 @@ Klinicky vyznam:
 | **Naltrexon** | mu > kappa, delta | Udrzovaci lecba | T1/2 = 4 h, p.o. |
 | **Nalmefén** | mu > kappa, delta | Predavkovani, alkohol | T1/2 = 10-13 h |
 | **Methylnaltrexon** | Periferní mu | Opioidni zapca | Neprostupuje BBB |
+
+```mermaid
+flowchart TD
+    node_NALOXONMECHANISMUSZA["NALOXON - MECHANISMUS ZACHRANY"]
+    node_PredavkovaniopioidyP["Predavkovani opioidy:             Po podani naloxonu:"]
+    node_MorfinHeroinNaloxonv["Morfin/Heroin                     Naloxon vysoka afinita"]
+    node_73170e4a["▼                                 ▼"]
+    node_muOPIOIDNImuOPIOIDNI["mu-OPIOIDNI                    mu-OPIOIDNI"]
+    node_RECEPTORRECEPTOR["RECEPTOR                       RECEPTOR"]
+    node_Naloxonvytlacuje["●                              ○           Naloxon vytlacuje"]
+    node_aktivovanblokovanopi["aktivovan                     blokovan      opioid"]
+    node_RespiracnidepreseOBN["Respiracni deprese              OBNOVENI DYCHANI"]
+    node_Miozasedacebehem12mi["Mioza, sedace                   behem 1-2 minut"]
+    node_VAROVANIMoznaprecipi["VAROVANI: Mozna precipitace abstinenčniho syndromu"]
+
+    node_NALOXONMECHANISMUSZA --> node_PredavkovaniopioidyP
+    node_PredavkovaniopioidyP --> node_MorfinHeroinNaloxonv
+    node_MorfinHeroinNaloxonv --> node_73170e4a
+    node_73170e4a --> node_muOPIOIDNImuOPIOIDNI
+    node_muOPIOIDNImuOPIOIDNI --> node_RECEPTORRECEPTOR
+    node_RECEPTORRECEPTOR --> node_Naloxonvytlacuje
+    node_Naloxonvytlacuje --> node_aktivovanblokovanopi
+    node_aktivovanblokovanopi --> node_RespiracnidepreseOBN
+    node_RespiracnidepreseOBN --> node_Miozasedacebehem12mi
+    node_Miozasedacebehem12mi --> node_VAROVANIMoznaprecipi
+
+    click node_RECEPTORRECEPTOR "/glossary/receptor/" "RECEPTOR                       RECEPTOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NALOXON - MECHANISMUS ZACHRANY
@@ -453,6 +813,8 @@ Mioza, sedace                   (behem 1-2 minut)
 VAROVANI: Mozna precipitace abstinenčniho syndromu
 ```
 
+</details>
+
 ### GABAergni antagoniste
 
 | Latka | Receptor/Misto | Pouziti | Typ |
@@ -472,6 +834,33 @@ VAROVANI: Mozna precipitace abstinenčniho syndromu
 | **PCP** | 50-100 | (Zneuzivana) | Disociativni anestetikum |
 | **Dextrometorfan** | 1000+ | Antitusivum | Nizka afinita |
 
+```mermaid
+flowchart TD
+    node_NMDAANTAGONISTESPEKT["NMDA ANTAGONISTE - SPEKTRUM AFINITY"]
+    node_AfinitaKi["Afinita Ki"]
+    node_nizkavysoka["nizka  vysoka"]
+    node_MemantnKetaminPCPMK8["Memantín    Ketamin    PCP    MK-801"]
+    node_500100050010005023["500-1000  500-1000 50   2-3"]
+    node_eb7c99e1["▼           ▼        ▼       ▼"]
+    node_AlzheimerAnestezieZn["Alzheimer  Anestezie  Zneuz.  Pouze"]
+    node_DepreseDepresevyzkum["Deprese    Deprese            vyzkum"]
+    node_Nizsiafinitabezpecne["Nizsi afinita = bezpecnejsi mene neurotoxicity"]
+    node_Vyssiafinitasilnejsi["Vyssi afinita = silnejsi efekt ale vice NÚ"]
+
+    node_NMDAANTAGONISTESPEKT --> node_AfinitaKi
+    node_AfinitaKi --> node_nizkavysoka
+    node_nizkavysoka --> node_MemantnKetaminPCPMK8
+    node_MemantnKetaminPCPMK8 --> node_500100050010005023
+    node_500100050010005023 --> node_eb7c99e1
+    node_eb7c99e1 --> node_AlzheimerAnestezieZn
+    node_AlzheimerAnestezieZn --> node_DepreseDepresevyzkum
+    node_DepreseDepresevyzkum --> node_Nizsiafinitabezpecne
+    node_Nizsiafinitabezpecne --> node_Vyssiafinitasilnejsi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NMDA ANTAGONISTE - SPEKTRUM AFINITY
 
@@ -489,11 +878,44 @@ Nizsi afinita = bezpecnejsi (mene neurotoxicity)
 Vyssi afinita = silnejsi efekt ale vice NÚ
 ```
 
+</details>
+
 ---
 
 ## Schild analýza
 
 ### Kvantifikace kompetitivniho antagonismu
+
+```mermaid
+flowchart TD
+    node_SCHILDROVNICE["SCHILD ROVNICE"]
+    node_DoseratioDREC50EC501["Dose ratio DR = EC50' / EC50 = 1 + B/KB"]
+    node_Kde["Kde:"]
+    node_SCHILDPLOT["SCHILD PLOT:"]
+    node_logDR1["logDR-1"]
+    node_3["3                     ╱"]
+    node_2["2                 ╱"]
+    node_1["1             ╱"]
+    node_0logAntagonista["0 ● logAntagonista"]
+    node_pA2["pA2"]
+    node_pA2logKBafinitaantag["pA2 = -log KB = afinita antagonisty"]
+    node_Smernice1procistekom["Smernice = 1 pro ciste kompetitivni antagonismus"]
+
+    node_SCHILDROVNICE --> node_DoseratioDREC50EC501
+    node_DoseratioDREC50EC501 --> node_Kde
+    node_Kde --> node_SCHILDPLOT
+    node_SCHILDPLOT --> node_logDR1
+    node_logDR1 --> node_3
+    node_3 --> node_2
+    node_2 --> node_1
+    node_1 --> node_0logAntagonista
+    node_0logAntagonista --> node_pA2
+    node_pA2 --> node_pA2logKBafinitaantag
+    node_pA2logKBafinitaantag --> node_Smernice1procistekom
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SCHILD ROVNICE
@@ -526,6 +948,8 @@ pA2 = -log KB = afinita antagonisty
 Smernice = 1 pro ciste kompetitivni antagonismus
 ```
 
+</details>
+
 ### Interpretace pA2
 
 | pA2 hodnota | Afinita | Priklad |
@@ -541,6 +965,25 @@ Smernice = 1 pro ciste kompetitivni antagonismus
 ## Klinicke uvahy
 
 ### Terapeuticky index antagonistu
+
+```mermaid
+flowchart TD
+    node_TERAPEUTICKYINDEX["TERAPEUTICKY INDEX"]
+    node_TD50toxickadavka50["TD50 toxicka davka 50%"]
+    node_TI["TI ="]
+    node_ED50efektivnidavka50["ED50 efektivni davka 50%"]
+    node_Priklady["Priklady:"]
+    node_Cilemjemaximalizovat["Cilem je maximalizovat:"]
+
+    node_TERAPEUTICKYINDEX --> node_TD50toxickadavka50
+    node_TD50toxickadavka50 --> node_TI
+    node_TI --> node_ED50efektivnidavka50
+    node_ED50efektivnidavka50 --> node_Priklady
+    node_Priklady --> node_Cilemjemaximalizovat
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TERAPEUTICKY INDEX
@@ -559,6 +1002,8 @@ Cilem je maximalizovat:
 - Minimalizovat off-target ucinky
 ```
 
+</details>
+
 ### Selektivita antagonistu
 
 | Antagonista | Primarni cil | Sekundarni cile | Dusledek |
@@ -569,6 +1014,33 @@ Cilem je maximalizovat:
 | **M100907** | 5-HT2A | (minimalni) | Vysoka selektivita |
 
 ### Rebound fenomén
+
+```mermaid
+flowchart TD
+    node_REBOUNDPOVYSAZENIANT["REBOUND PO VYSAZENI ANTAGONISTY"]
+    node_Dlouhodobablokadarec["Dlouhodoba blokada receptoru"]
+    node_Upregulacereceptoruk["Up-regulace receptoru kompenzacni"]
+    node_Nahlvysazeniantagoni["Nahlé vysazeni antagonisty"]
+    node_ZVYSENYPOCETSENZITIV["ZVYSENY POCET + SENZITIVITA RECEPTORU"]
+    node_NORMALNIHLADINAENDOG["NORMALNI HLADINA ENDOGENNIHO LIGANDU"]
+    node_PRILISSILNASIGNALIZA["PRILIS SILNA SIGNALIZACE = REBOUND"]
+    node_Priklady["Priklady:"]
+
+    node_REBOUNDPOVYSAZENIANT --> node_Dlouhodobablokadarec
+    node_Dlouhodobablokadarec --> node_Upregulacereceptoruk
+    node_Upregulacereceptoruk --> node_Nahlvysazeniantagoni
+    node_Nahlvysazeniantagoni --> node_ZVYSENYPOCETSENZITIV
+    node_ZVYSENYPOCETSENZITIV --> node_NORMALNIHLADINAENDOG
+    node_NORMALNIHLADINAENDOG --> node_PRILISSILNASIGNALIZA
+    node_PRILISSILNASIGNALIZA --> node_Priklady
+
+    click node_Dlouhodobablokadarec "/glossary/receptor/" "Dlouhodoba blokada receptoru"
+    click node_Upregulacereceptoruk "/glossary/receptor/" "Up-regulace receptoru kompenzacni"
+    click node_ZVYSENYPOCETSENZITIV "/glossary/receptor/" "ZVYSENY POCET + SENZITIVITA RECEPTORU"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 REBOUND PO VYSAZENI ANTAGONISTY
@@ -597,6 +1069,8 @@ Priklady:
 - Antipsychotika: supersenzitivní psychóza
 ```
 
+</details>
+
 ---
 
 ## Vyzkumne aplikace
@@ -612,6 +1086,32 @@ Priklady:
 | **Naltrindole** | Delta-opioidní | Opioidni farmakologie |
 
 ### Radioligandy pro PET
+
+```mermaid
+flowchart TD
+    node_PETIMAGINGSANTAGONIS["PET IMAGING S ANTAGONISTY"]
+    node_Radioaktivniantagoni["Radioaktivni antagonista"]
+    node_napr11Craclopride["napr. 11Craclopride"]
+    node_D2RECEPTOR["D2 RECEPTOR"]
+    node_DetekcepozitronuPET["Detekce pozitronu PET"]
+    node_Kvantifikacereceptor["Kvantifikace receptorove"]
+    node_dostupnostibindingpo["dostupnosti binding potential"]
+    node_Prikladyradioligandu["Priklady radioligandu antagoniste:"]
+
+    node_PETIMAGINGSANTAGONIS --> node_Radioaktivniantagoni
+    node_Radioaktivniantagoni --> node_napr11Craclopride
+    node_napr11Craclopride --> node_D2RECEPTOR
+    node_D2RECEPTOR --> node_DetekcepozitronuPET
+    node_DetekcepozitronuPET --> node_Kvantifikacereceptor
+    node_Kvantifikacereceptor --> node_dostupnostibindingpo
+    node_dostupnostibindingpo --> node_Prikladyradioligandu
+
+    click node_D2RECEPTOR "/glossary/receptor/" "D2 RECEPTOR"
+    click node_Kvantifikacereceptor "/glossary/receptor/" "Kvantifikace receptorove"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PET IMAGING S ANTAGONISTY
@@ -640,6 +1140,8 @@ Priklady radioligandu (antagoniste):
 - [11C]Flumazenil (GABA-A BZ site)
 - [11C]Carfentanil (mu-opioidni)
 ```
+
+</details>
 
 ---
 
@@ -685,7 +1187,6 @@ Priklady radioligandu (antagoniste):
 
 - [LSD](@/alkaloids/lsd.md) - Blokovatelny ketanserinem
 - [Psilocybin](@/alkaloids/psilocybin.md) / [Psilocin](@/alkaloids/psilocin.md) - 5-HT2A agoniste
-- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista (antagoniste: bikukullin)
 
 ### Houby
 

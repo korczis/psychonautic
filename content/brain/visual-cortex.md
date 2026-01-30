@@ -31,6 +31,27 @@ Vizualni kortex je klicovym mistem pusobeni psychedelik, kde aktivace [5-HT2A re
 
 ### Retinotopicka organizace
 
+```mermaid
+flowchart TD
+    node_VIZUALNIPOLEAKORTEX["VIZUALNI POLE A KORTEX"]
+    node_VizulnpoleVizulnkort["Vizuální pole:              Vizuální kortex V1:"]
+    node_HorniSpodni["Horni                     Spodni"]
+    node_LevePravePraveLeve["Leve  Prave           Prave  Leve"]
+    node_SpodniHorni["Spodni                    Horni"]
+    node_Kontralateralnirepre["Kontralateralni reprezentace"]
+    node_levepolepravykortex["leve pole  pravy kortex"]
+
+    node_VIZUALNIPOLEAKORTEX --> node_VizulnpoleVizulnkort
+    node_VizulnpoleVizulnkort --> node_HorniSpodni
+    node_HorniSpodni --> node_LevePravePraveLeve
+    node_LevePravePraveLeve --> node_SpodniHorni
+    node_SpodniHorni --> node_Kontralateralnirepre
+    node_Kontralateralnirepre --> node_levepolepravykortex
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 VIZUALNI POLE A KORTEX
 
@@ -46,6 +67,8 @@ Vizuální pole:              Vizuální kortex (V1):
   Kontralateralni reprezentace
   (leve pole → pravy kortex)
 ```
+
+</details>
 
 ---
 
@@ -64,6 +87,35 @@ Vizuální pole:              Vizuální kortex (V1):
 | **IT** | 20, 21 | Objekty | Rozpoznavani, tvare |
 
 ### Hierarchicke zpracovani
+
+```mermaid
+flowchart TD
+    node_VIZUALNIHIERARCHIE["VIZUALNI HIERARCHIE"]
+    node_RetinaLGNV1V2V4ITPFC["Retina  LGN  V1  V2  V4  IT  PFC"]
+    node_Rozhodnutipamet["Rozhodnuti, pamet"]
+    node_Objektytvare["Objekty, tvare"]
+    node_Barvaforma["Barva, forma"]
+    node_Kontury["Kontury"]
+    node_Orientacehrany["Orientace, hrany"]
+    node_VENTRALSTREAMCo["VENTRAL STREAM 'Co'"]
+    node_Rozpoznavaniobjektu["Rozpoznavani objektu"]
+    node_DORSALSTREAMKdeJak["DORSAL STREAM 'Kde/Jak'"]
+    node_Prostorovalokalizace["Prostorova lokalizace, akce"]
+
+    node_VIZUALNIHIERARCHIE --> node_RetinaLGNV1V2V4ITPFC
+    node_RetinaLGNV1V2V4ITPFC --> node_Rozhodnutipamet
+    node_Rozhodnutipamet --> node_Objektytvare
+    node_Objektytvare --> node_Barvaforma
+    node_Barvaforma --> node_Kontury
+    node_Kontury --> node_Orientacehrany
+    node_Orientacehrany --> node_VENTRALSTREAMCo
+    node_VENTRALSTREAMCo --> node_Rozpoznavaniobjektu
+    node_Rozpoznavaniobjektu --> node_DORSALSTREAMKdeJak
+    node_DORSALSTREAMKdeJak --> node_Prostorovalokalizace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 VIZUALNI HIERARCHIE
@@ -84,6 +136,8 @@ Retina → LGN → V1 → V2 → V4 → IT → PFC
               │
               └── Prostorova lokalizace, akce
 ```
+
+</details>
 
 ### Dva proudy zpracovani
 
@@ -110,6 +164,35 @@ Retina → LGN → V1 → V2 → V4 → IT → PFC
 
 ### Funkcni architektura
 
+```mermaid
+flowchart TD
+    node_V1FUNKCNIORGANIZACE["V1 FUNKCNI ORGANIZACE"]
+    node_ORIENTACNISLOUPCE["ORIENTACNI SLOUPCE:"]
+    node_6f67633b["/  \"]
+    node_Kadsloupecpreferujes["Každý sloupec preferuje specifickou orientaci hrany."]
+    node_OKULRNDOMINANNSLOUPC["OKULÁRNÍ DOMINANČNÍ SLOUPCE:"]
+    node_LRLRLR["L  R  L  R  L  R"]
+    node_Stidanilevhopravhook["Střidani levého/pravého oka."]
+    node_BLOBINTERBLOB["BLOB/INTERBLOB:"]
+    node_Blobbarva["○    ○    ○    ○     Blob = barva"]
+    node_Interbloborientace["Interblob = orientace"]
+    node_2748e4e9["○    ○    ○    ○"]
+
+    node_V1FUNKCNIORGANIZACE --> node_ORIENTACNISLOUPCE
+    node_ORIENTACNISLOUPCE --> node_6f67633b
+    node_6f67633b --> node_Kadsloupecpreferujes
+    node_Kadsloupecpreferujes --> node_OKULRNDOMINANNSLOUPC
+    node_OKULRNDOMINANNSLOUPC --> node_LRLRLR
+    node_LRLRLR --> node_Stidanilevhopravhook
+    node_Stidanilevhopravhook --> node_BLOBINTERBLOB
+    node_BLOBINTERBLOB --> node_Blobbarva
+    node_Blobbarva --> node_Interbloborientace
+    node_Interbloborientace --> node_2748e4e9
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 V1 FUNKCNI ORGANIZACE
 
@@ -131,6 +214,8 @@ BLOB/INTERBLOB:
 │  ○    ○    ○    ○   │
 └─────────────────────┘
 ```
+
+</details>
 
 ### Receptivni pole
 
@@ -159,6 +244,57 @@ Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md)
 | **Oslabeny top-down** | Snizene predikce | Nestabilni percepce |
 
 ### Typy vizualnich fenomenu
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELICKEVIZUALN["PSYCHEDELICKE VIZUALNI FENOMENY"]
+    node_UROVEN1nizkadoza["UROVEN 1 nizka doza:"]
+    node_Zvyraznenebarvy["• Zvyraznene barvy"]
+    node_Ostrejsikontury["• Ostrejsi kontury"]
+    node_Dychanipovrchu["• 'Dychani' povrchu"]
+    node_Afterimages["• Afterimages"]
+    node_Vizualnisumasnow["• Vizualni suma snow"]
+    node_UROVEN2strednidoza["UROVEN 2 stredni doza:"]
+    node_Geometrickevzory["• Geometricke vzory"]
+    node_Spiralytunel["- Spiraly, tunel"]
+    node_Mrzkytesselace["- Mrízky, tesselace"]
+    node_Fraktaly["- Fraktaly"]
+    node_Barevneproudy["• Barevne proudy"]
+    node_Vizualnitrailing["• Vizualni trailing"]
+    node_Morphingobjektu["• Morphing objektu"]
+    node_UROVEN3vysokadoza["UROVEN 3 vysoka doza:"]
+    node_Komplexnihalucinace["• Komplexni halucinace"]
+    node_Objektybytosti["- Objekty, bytosti"]
+    node_Krajinyarchitektury["- Krajiny, architektury"]
+    node_Egodissolution["• Ego dissolution"]
+    node_Synestezie["• Synestezie"]
+    node_Outofbodyexperience["• Out-of-body experience"]
+
+    node_PSYCHEDELICKEVIZUALN --> node_UROVEN1nizkadoza
+    node_UROVEN1nizkadoza --> node_Zvyraznenebarvy
+    node_Zvyraznenebarvy --> node_Ostrejsikontury
+    node_Ostrejsikontury --> node_Dychanipovrchu
+    node_Dychanipovrchu --> node_Afterimages
+    node_Afterimages --> node_Vizualnisumasnow
+    node_Vizualnisumasnow --> node_UROVEN2strednidoza
+    node_UROVEN2strednidoza --> node_Geometrickevzory
+    node_Geometrickevzory --> node_Spiralytunel
+    node_Spiralytunel --> node_Mrzkytesselace
+    node_Mrzkytesselace --> node_Fraktaly
+    node_Fraktaly --> node_Barevneproudy
+    node_Barevneproudy --> node_Vizualnitrailing
+    node_Vizualnitrailing --> node_Morphingobjektu
+    node_Morphingobjektu --> node_UROVEN3vysokadoza
+    node_UROVEN3vysokadoza --> node_Komplexnihalucinace
+    node_Komplexnihalucinace --> node_Objektybytosti
+    node_Objektybytosti --> node_Krajinyarchitektury
+    node_Krajinyarchitektury --> node_Egodissolution
+    node_Egodissolution --> node_Synestezie
+    node_Synestezie --> node_Outofbodyexperience
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELICKE VIZUALNI FENOMENY
@@ -194,6 +330,8 @@ UROVEN 3 (vysoka doza):
 └─────────────────────────────────┘
 ```
 
+</details>
+
 ### Formove konstanty
 
 Heinrich Klüver identifikoval 4 zakladni formy halucinaci:
@@ -205,6 +343,27 @@ Heinrich Klüver identifikoval 4 zakladni formy halucinaci:
 | **Mrizka/sachocnice** | Pravidelna tesselace | Periodicka aktivita V1 |
 | **Cobweb** | Paprsky od centra | Radialni organizace |
 
+```mermaid
+flowchart TD
+    node_FORMOVEKONSTANTYKlve["FORMOVE KONSTANTY Klüver"]
+    node_TUNELSPIRALAMRIZKACO["TUNEL           SPIRALA          MRIZKA          COBWEB"]
+    node_013dcc74["___              @@                         \ | /"]
+    node_d7e76c58["/   \            @  @                       ●"]
+    node_68d8f76f["●            @ ● @                      / | \"]
+    node_85515f1a["\___/            @  @"]
+    node_2058c65b["@@"]
+
+    node_FORMOVEKONSTANTYKlve --> node_TUNELSPIRALAMRIZKACO
+    node_TUNELSPIRALAMRIZKACO --> node_013dcc74
+    node_013dcc74 --> node_d7e76c58
+    node_d7e76c58 --> node_68d8f76f
+    node_68d8f76f --> node_85515f1a
+    node_85515f1a --> node_2058c65b
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FORMOVE KONSTANTY (Klüver)
 
@@ -215,6 +374,8 @@ FORMOVE KONSTANTY (Klüver)
    \___/            @  @           ─┼─┼─┼─
                      @@
 ```
+
+</details>
 
 ### Neuronalni zaklad formovych konstant
 
@@ -240,6 +401,44 @@ FORMOVE KONSTANTY (Klüver)
 | **V5/MT** | Nizka | Pohyb |
 
 ### Bunecna lokalizace
+
+```mermaid
+flowchart TD
+    node_5HT2AVPYRAMIDOVEMNEU["5-HT2A V PYRAMIDOVEM NEURONU V1"]
+    node_Apikalnidendrity["Apikalni dendrity"]
+    node_VrstvaI["Vrstva I"]
+    node_5HT2A["5-HT2A++++"]
+    node_Soma["Soma"]
+    node_VrstvaV["Vrstva V"]
+    node_Bazalnidendrity["Bazalni dendrity"]
+    node_5HT2A["5-HT2A++"]
+    node_Axonvystup["Axon vystup"]
+    node_Dojinychoblasti["Do jinych oblasti"]
+    node_5HT2Areceptorkoncent["5-HT2A receptor koncentrovan na apikalnich dendritech"]
+    node_Modulacetopdownvstup["Modulace top-down vstupu"]
+    node_Klicovepropsychedeli["Klicove pro psychedelicke efekty"]
+
+    node_5HT2AVPYRAMIDOVEMNEU --> node_Apikalnidendrity
+    node_Apikalnidendrity --> node_VrstvaI
+    node_VrstvaI --> node_5HT2A
+    node_5HT2A --> node_Soma
+    node_Soma --> node_VrstvaV
+    node_VrstvaV --> node_Bazalnidendrity
+    node_Bazalnidendrity --> node_5HT2A
+    node_5HT2A --> node_Axonvystup
+    node_Axonvystup --> node_Dojinychoblasti
+    node_Dojinychoblasti --> node_5HT2Areceptorkoncent
+    node_5HT2Areceptorkoncent --> node_Modulacetopdownvstup
+    node_Modulacetopdownvstup --> node_Klicovepropsychedeli
+
+    click node_5HT2AVPYRAMIDOVEMNEU "/receptors/5-ht2a/" "5-HT2A V PYRAMIDOVEM NEURONU V1"
+    click node_5HT2A "/receptors/5-ht2a/" "5-HT2A++++"
+    click node_5HT2A "/receptors/5-ht2a/" "5-HT2A++"
+    click node_5HT2Areceptorkoncent "/receptors/5-ht2a/" "5-HT2A receptor koncentrovan na apikalnich dendritech"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 5-HT2A V PYRAMIDOVEM NEURONU V1
@@ -269,6 +468,8 @@ FORMOVE KONSTANTY (Klüver)
 → Modulace top-down vstupu
 → Klicove pro psychedelicke efekty
 ```
+
+</details>
 
 ---
 
@@ -301,6 +502,39 @@ Interpretace:
 
 ### Model prediktivniho kodovani
 
+```mermaid
+flowchart TD
+    node_PREDIKTIVNIKODOVANIV["PREDIKTIVNI KODOVANI V VIZUALNIM KORTEXU"]
+    node_NORMALNISTAV["NORMALNI STAV:"]
+    node_Vyssioblastiexpectat["Vyssi oblasti expectations"]
+    node_Strongtopdown["Strong top-down"]
+    node_V1["V1"]
+    node_VstupFiltrovanStabil["Vstup      Filtrovaný         Stabilni percepce"]
+    node_predictionerror["prediction-error"]
+    node_PSYCHEDELICKYSTAV["PSYCHEDELICKY STAV:"]
+    node_Vyssioblastioslabene["Vyssi oblasti oslabene"]
+    node_Weaktopdown["Weak top-down"]
+    node_VstupNefiltrovanHalu["Vstup      Nefiltrovaný       Halucinace"]
+    node_spontanniaktivita["+ spontanni aktivita"]
+    node_REBUSmodelRelaxedBel["REBUS model: Relaxed Beliefs Under Psychedelics"]
+
+    node_PREDIKTIVNIKODOVANIV --> node_NORMALNISTAV
+    node_NORMALNISTAV --> node_Vyssioblastiexpectat
+    node_Vyssioblastiexpectat --> node_Strongtopdown
+    node_Strongtopdown --> node_V1
+    node_V1 --> node_VstupFiltrovanStabil
+    node_VstupFiltrovanStabil --> node_predictionerror
+    node_predictionerror --> node_PSYCHEDELICKYSTAV
+    node_PSYCHEDELICKYSTAV --> node_Vyssioblastioslabene
+    node_Vyssioblastioslabene --> node_Weaktopdown
+    node_Weaktopdown --> node_VstupNefiltrovanHalu
+    node_VstupNefiltrovanHalu --> node_spontanniaktivita
+    node_spontanniaktivita --> node_REBUSmodelRelaxedBel
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PREDIKTIVNI KODOVANI V VIZUALNIM KORTEXU
 
@@ -329,6 +563,8 @@ REBUS model: Relaxed Beliefs Under Psychedelics
 - Zvysena senzorická váha (bottom-up)
 - Spontanni aktivita → halucinace
 ```
+
+</details>
 
 ---
 
@@ -378,6 +614,33 @@ REBUS model: Relaxed Beliefs Under Psychedelics
 
 ### Inhibicni okruhy
 
+```mermaid
+flowchart TD
+    node_INHIBICEVEV1["INHIBICE VE V1"]
+    node_Pyramidovyneuron["Pyramidovy neuron"]
+    node_Feedbackinhibice["Feedback inhibice"]
+    node_PVinterneuronRychlai["PV+ interneuron      Rychla inhibice"]
+    node_parvalbuminGaincontr["parvalbumin         Gain control"]
+    node_SOMinterneuronDendri["SOM+ interneuron     Dendriticka inhibice"]
+    node_somatostatinSurround["somatostatin        Surround suppression"]
+    node_VIPinterneuronDisinh["VIP+ interneuron     Dis-inhibice"]
+    node_VIPinhibujeinhibici["VIP                 inhibuje inhibici"]
+    node_Psychedelika["Psychedelika:"]
+
+    node_INHIBICEVEV1 --> node_Pyramidovyneuron
+    node_Pyramidovyneuron --> node_Feedbackinhibice
+    node_Feedbackinhibice --> node_PVinterneuronRychlai
+    node_PVinterneuronRychlai --> node_parvalbuminGaincontr
+    node_parvalbuminGaincontr --> node_SOMinterneuronDendri
+    node_SOMinterneuronDendri --> node_somatostatinSurround
+    node_somatostatinSurround --> node_VIPinterneuronDisinh
+    node_VIPinterneuronDisinh --> node_VIPinhibujeinhibici
+    node_VIPinhibujeinhibici --> node_Psychedelika
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 INHIBICE VE V1
 
@@ -405,6 +668,8 @@ Psychedelika:
 - Snizená lateralni inhibice
 - "Rozmyti" receptivnich poli
 ```
+
+</details>
 
 ---
 

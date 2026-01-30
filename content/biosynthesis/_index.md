@@ -154,6 +154,21 @@ LSD (Lysergamid)
 
 ### Psilocybinovy cluster
 
+```mermaid
+flowchart TD
+    node_5psiDpsiMpsiHpsiK3["5'psiDpsiMpsiHpsiK3'"]
+    node_Velikost25kbp["Velikost: ~25 kbp"]
+    node_OrganismyPsilocybePa["Organismy: Psilocybe, Panaeolus, Gymnopilus"]
+    node_Evoluce["Evoluce:"]
+
+    node_5psiDpsiMpsiHpsiK3 --> node_Velikost25kbp
+    node_Velikost25kbp --> node_OrganismyPsilocybePa
+    node_OrganismyPsilocybePa --> node_Evoluce
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5'───[psiD]──[psiM]──[psiH]──[psiK]───3'
 
@@ -164,6 +179,8 @@ Evoluce:
 - Pravdepodobny horizontalni genovy prenos
 - Vysoka sekvenční homologie mezi vzdálenými rody
 ```
+
+</details>
 
 ---
 

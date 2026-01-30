@@ -30,6 +30,33 @@ tags = ["5-HT1A", "anxiolytika", "autoreceptor", "buspiron", "antidepresiva"]
 
 ### Struktura
 
+```mermaid
+flowchart TD
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_Nterminusvazebnmsto["N-terminus  vazebné místo"]
+    node_TM1TM7ortosterick["TM1    TM7       ortosterické"]
+    node_MembrnaTM2TM3TM6TM5["Membrána   TM2     TM3     TM6     TM5"]
+    node_TM4["TM4"]
+    node_GiGo["Gi/Go"]
+    node_Cterminuspalmitoylac["C-terminus  palmitoylace"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+    node_TMtransmembrnovdomna["TM = transmembránová doména celkem 7"]
+    node_Tetintracelulrnsmyka["Třetí intracelulární smyčka - vazba G-proteinu"]
+
+    node_Extracelulrnprostor --> node_Nterminusvazebnmsto
+    node_Nterminusvazebnmsto --> node_TM1TM7ortosterick
+    node_TM1TM7ortosterick --> node_MembrnaTM2TM3TM6TM5
+    node_MembrnaTM2TM3TM6TM5 --> node_TM4
+    node_TM4 --> node_GiGo
+    node_GiGo --> node_Cterminuspalmitoylac
+    node_Cterminuspalmitoylac --> node_Intracelulrnprostor
+    node_Intracelulrnprostor --> node_TMtransmembrnovdomna
+    node_TMtransmembrnovdomna --> node_Tetintracelulrnsmyka
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     Extracelulární prostor
                            │
@@ -47,11 +74,40 @@ TM = transmembránová doména (celkem 7)
 Třetí intracelulární smyčka - vazba G-proteinu
 ```
 
+</details>
+
 ---
 
 ## Duální funkce: Autoreceptor vs postsynaptický
 
 ### Somatodendritický autoreceptor (presynaptický)
+
+```mermaid
+flowchart TD
+    node_Raphnucleiserotonine["Raphé nuclei serotoninergní neurony"]
+    node_Tloneuronu["Tělo neuronu"]
+    node_5HT1AAutoreceptor["5-HT1A    Autoreceptor"]
+    node_presynap["presynap"]
+    node_5HTuvolnn["5-HT uvolnění"]
+    node_Negativnzptnvazba["Negativní zpětná vazba"]
+    node_Inhibicefiringrate["Inhibice firing rate"]
+    node_Snen["Snížení"]
+    node_aktivity["aktivity"]
+    node_Aktivaceautoreceptor["Aktivace autoreceptoru   uvolňování 5-HT"]
+
+    node_Raphnucleiserotonine --> node_Tloneuronu
+    node_Tloneuronu --> node_5HT1AAutoreceptor
+    node_5HT1AAutoreceptor --> node_presynap
+    node_presynap --> node_5HTuvolnn
+    node_5HTuvolnn --> node_Negativnzptnvazba
+    node_Negativnzptnvazba --> node_Inhibicefiringrate
+    node_Inhibicefiringrate --> node_Snen
+    node_Snen --> node_aktivity
+    node_aktivity --> node_Aktivaceautoreceptor
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Raphé nuclei (serotoninergní neurony)
@@ -77,7 +133,30 @@ Raphé nuclei (serotoninergní neurony)
 Aktivace autoreceptoru → ↓ uvolňování 5-HT
 ```
 
+</details>
+
 ### Postsynaptický receptor
+
+```mermaid
+flowchart TD
+    node_Limbicksystmhippocam["Limbický systém hippocampus, amygdala, kortex"]
+    node_5HTzraphSynapticktrb["5-HT z raphé   Synaptická štěrbina"]
+    node_5HT1A["5-HT1A"]
+    node_postsynap["postsynap"]
+    node_GiGoaktivace["Gi/Go aktivace"]
+    node_Hyperpolarizace["Hyperpolarizace"]
+    node_ANXIOLZA["ANXIOLÝZA"]
+
+    node_Limbicksystmhippocam --> node_5HTzraphSynapticktrb
+    node_5HTzraphSynapticktrb --> node_5HT1A
+    node_5HT1A --> node_postsynap
+    node_postsynap --> node_GiGoaktivace
+    node_GiGoaktivace --> node_Hyperpolarizace
+    node_Hyperpolarizace --> node_ANXIOLZA
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Limbický systém (hippocampus, amygdala, kortex)
@@ -102,6 +181,8 @@ Limbický systém (hippocampus, amygdala, kortex)
 │                                                 │
 └─────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -134,6 +215,31 @@ Limbický systém (hippocampus, amygdala, kortex)
 
 ### Primární kaskáda (Gi/Go)
 
+```mermaid
+flowchart TD
+    node_5HTAgonista["5-HT / Agonista"]
+    node_5HT1Areceptor["5-HT1A receptor"]
+    node_GiGoprotein["Gi/Go protein"]
+    node_i["αi              βγ"]
+    node_InhibiceACAktivaceGI["Inhibice AC     Aktivace GIRK"]
+    node_cAMPKeflux["cAMP          K⁺ eflux"]
+    node_PKAHyperpolarizace["PKA           Hyperpolarizace"]
+    node_CREBexcitabilita["CREB           excitabilita"]
+    node_GenovexpreseInhibice["Genová exprese  Inhibice neuronu"]
+
+    node_5HTAgonista --> node_5HT1Areceptor
+    node_5HT1Areceptor --> node_GiGoprotein
+    node_GiGoprotein --> node_i
+    node_i --> node_InhibiceACAktivaceGI
+    node_InhibiceACAktivaceGI --> node_cAMPKeflux
+    node_cAMPKeflux --> node_PKAHyperpolarizace
+    node_PKAHyperpolarizace --> node_CREBexcitabilita
+    node_CREBexcitabilita --> node_GenovexpreseInhibice
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT / Agonista
         ↓
@@ -156,6 +262,8 @@ Inhibice AC     Aktivace GIRK
 Genová exprese  Inhibice neuronu
 ```
 
+</details>
+
 ### Sekundární dráhy
 
 | Dráha | Mediátor | Efekt |
@@ -166,6 +274,23 @@ Genová exprese  Inhibice neuronu
 | **Akt/GSK-3β** | PI3K | Neuroprotekce |
 
 ### GIRK (G-protein-gated Inwardly Rectifying K⁺) kanály
+
+```mermaid
+flowchart TD
+    node_KlidovstavAktivovans["Klidový stav              Aktivovaný sta"]
+    node_KK["K⁺                        K⁺"]
+    node_GIRK5HT1AGIRK["GIRK       5-HT1A      GIRK"]
+    node_zavenoteven["zavřený     otevřený"]
+    node_klidovhyperpolarizac["klidový              hyperpolarizace"]
+
+    node_KlidovstavAktivovans --> node_KK
+    node_KK --> node_GIRK5HT1AGIRK
+    node_GIRK5HT1AGIRK --> node_zavenoteven
+    node_zavenoteven --> node_klidovhyperpolarizac
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Klidový stav              Aktivovaný stav
@@ -181,6 +306,8 @@ Klidový stav              Aktivovaný stav
   -65 mV      →             -80 mV
 (klidový)              (hyperpolarizace)
 ```
+
+</details>
 
 ---
 
@@ -222,6 +349,31 @@ Klidový stav              Aktivovaný stav
 
 ### Úzkostné poruchy
 
+```mermaid
+flowchart TD
+    node_Anxiolytickmechanism["Anxiolytický mechanismus buspironu"]
+    node_Buspironparciln5HT1A["Buspiron parciální 5-HT1A agonista"]
+    node_RaphLimbicksystm["Raphé               Limbický systém"]
+    node_autoreceptorpostsyna["autoreceptor      postsynaptický"]
+    node_DesenzitizacePmaktiv["Desenzitizace       Přímá aktivace"]
+    node_tdnyokamit["týdny             okamžitá"]
+    node_5HTtonusHyperpolariz["5-HT tonus        Hyperpolarizace"]
+    node_ANXIOLZA["ANXIOLÝZA"]
+    node_bezsedacebezzvislost["bez sedace, bez závislosti"]
+
+    node_Anxiolytickmechanism --> node_Buspironparciln5HT1A
+    node_Buspironparciln5HT1A --> node_RaphLimbicksystm
+    node_RaphLimbicksystm --> node_autoreceptorpostsyna
+    node_autoreceptorpostsyna --> node_DesenzitizacePmaktiv
+    node_DesenzitizacePmaktiv --> node_tdnyokamit
+    node_tdnyokamit --> node_5HTtonusHyperpolariz
+    node_5HTtonusHyperpolariz --> node_ANXIOLZA
+    node_ANXIOLZA --> node_bezsedacebezzvislost
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Anxiolytický mechanismus buspironu
 ┌─────────────────────────────────────────────────┐
@@ -248,6 +400,8 @@ Anxiolytický mechanismus buspironu
 └─────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Srovnání anxiolytik
 
 | Vlastnost | Buspiron (5-HT1A) | Benzodiazepiny (GABA-A) |
@@ -260,6 +414,35 @@ Anxiolytický mechanismus buspironu
 | Interakce s alkoholem | Minimální | Nebezpečná |
 
 ### Deprese a SSRI augmentace
+
+```mermaid
+flowchart TD
+    node_ProblmzpodnhonstupuS["Problém zpožděného nástupu SSRI"]
+    node_SSRIsynaptick5HT["SSRI   synaptický 5-HT"]
+    node_Aktivace5HT1Aautorec["Aktivace 5-HT1A autoreceptorů"]
+    node_firingrateraphneuron["firing rate raphé neuronů"]
+    node_Kompenzace5HTtdny["Kompenzace  5-HT týdny"]
+    node_Desenzitizaceautorec["Desenzitizace autoreceptorů"]
+    node_TERAPEUTICKINEK24tdn["TERAPEUTICKÝ ÚČINEK 2-4 týdny"]
+    node_eenPindolol5HT1Aanta["Řešení: Pindolol 5-HT1A antagonista"]
+    node_Blokujeautoreceptory["Blokuje autoreceptory"]
+    node_RychlejnstupSSRIinku["Rychlejší nástup SSRI účinku"]
+
+    node_ProblmzpodnhonstupuS --> node_SSRIsynaptick5HT
+    node_SSRIsynaptick5HT --> node_Aktivace5HT1Aautorec
+    node_Aktivace5HT1Aautorec --> node_firingrateraphneuron
+    node_firingrateraphneuron --> node_Kompenzace5HTtdny
+    node_Kompenzace5HTtdny --> node_Desenzitizaceautorec
+    node_Desenzitizaceautorec --> node_TERAPEUTICKINEK24tdn
+    node_TERAPEUTICKINEK24tdn --> node_eenPindolol5HT1Aanta
+    node_eenPindolol5HT1Aanta --> node_Blokujeautoreceptory
+    node_Blokujeautoreceptory --> node_RychlejnstupSSRIinku
+
+    click node_Blokujeautoreceptory "/receptors/_index/" "Blokuje autoreceptory"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Problém zpožděného nástupu SSRI
@@ -289,6 +472,8 @@ Problém zpožděného nástupu SSRI
         → Rychlejší nástup SSRI účinku
 ```
 
+</details>
+
 ---
 
 ## Neuroplasticita a neuroprotekce
@@ -303,6 +488,29 @@ Problém zpožděného nástupu SSRI
 | **Hippocampální neurogeneze** | BDNF, 5-HT | Antidepresivní |
 
 ### Neuroprotekce
+
+```mermaid
+flowchart TD
+    node_5HT1Aaktivace["5-HT1A aktivace"]
+    node_NEUROPROTEKCE["NEUROPROTEKCE"]
+    node_Glutamtexcitotoxicit["Glutamát excitotoxicita"]
+    node_Oxidativnstres["Oxidativní stres"]
+    node_Apoptza["Apoptóza"]
+    node_NeurotrofinyBDNF["Neurotrofiny BDNF"]
+    node_Hippocamplnneurogene["Hippocampální neurogeneze"]
+    node_Potencilnindikace["Potenciální indikace:"]
+
+    node_5HT1Aaktivace --> node_NEUROPROTEKCE
+    node_NEUROPROTEKCE --> node_Glutamtexcitotoxicit
+    node_Glutamtexcitotoxicit --> node_Oxidativnstres
+    node_Oxidativnstres --> node_Apoptza
+    node_Apoptza --> node_NeurotrofinyBDNF
+    node_NeurotrofinyBDNF --> node_Hippocamplnneurogene
+    node_Hippocamplnneurogene --> node_Potencilnindikace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 5-HT1A aktivace
@@ -324,6 +532,8 @@ Potenciální indikace:
 - Neurodegenerativní onemocnění
 - Traumatické poškození mozku
 ```
+
+</details>
 
 ---
 
@@ -347,6 +557,27 @@ Potenciální indikace:
 
 ### Implikace pro farmakogenetiku
 
+```mermaid
+flowchart TD
+    node_GenotypC1019Gaodpovn["Genotyp C-1019G a odpověď na léčbu"]
+    node_CCgenotypGGgenotyp["CC genotyp              GG genotyp"]
+    node_5HT1Aexprese5HT1Aexp["5-HT1A exprese         5-HT1A exprese"]
+    node_DobrodpovnaHorodpovn["Dobrá odpověď na        Horší odpověď na"]
+    node_SSRIbuspironSSRI["SSRI, buspiron          SSRI"]
+    node_StandardnlbaAugmenta["Standardní léčba        Augmentace,"]
+    node_alternativnstrategie["alternativní strategie"]
+
+    node_GenotypC1019Gaodpovn --> node_CCgenotypGGgenotyp
+    node_CCgenotypGGgenotyp --> node_5HT1Aexprese5HT1Aexp
+    node_5HT1Aexprese5HT1Aexp --> node_DobrodpovnaHorodpovn
+    node_DobrodpovnaHorodpovn --> node_SSRIbuspironSSRI
+    node_SSRIbuspironSSRI --> node_StandardnlbaAugmenta
+    node_StandardnlbaAugmenta --> node_alternativnstrategie
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Genotyp C-1019G a odpověď na léčbu
 
@@ -363,6 +594,8 @@ SSRI, buspiron          SSRI
 Standardní léčba        Augmentace,
                         alternativní strategie
 ```
+
+</details>
 
 ---
 
@@ -391,6 +624,29 @@ Standardní léčba        Augmentace,
 
 ### 5-HT1A a dopamin
 
+```mermaid
+flowchart TD
+    node_RaphnucleiVTASubstan["Raphé nuclei  VTA/Substantia nigra"]
+    node_5HTneurony5HT1AnaDAn["5-HT neurony  5-HT1A na DA neuronech"]
+    node_InhibiceDAfiring["Inhibice DA firing"]
+    node_DAuvolovn["DA uvolňování"]
+    node_Implikace["Implikace:"]
+    node_Modulaceodmny["- Modulace odměny"]
+    node_Interakcepsychedelik["- Interakce psychedelik s DA systémem"]
+    node_Antipsychotickinky["- Antipsychotické účinky"]
+
+    node_RaphnucleiVTASubstan --> node_5HTneurony5HT1AnaDAn
+    node_5HTneurony5HT1AnaDAn --> node_InhibiceDAfiring
+    node_InhibiceDAfiring --> node_DAuvolovn
+    node_DAuvolovn --> node_Implikace
+    node_Implikace --> node_Modulaceodmny
+    node_Modulaceodmny --> node_Interakcepsychedelik
+    node_Interakcepsychedelik --> node_Antipsychotickinky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Raphé nuclei → VTA/Substantia nigra
 ┌─────────────────────────────────────────────────┐
@@ -410,6 +666,8 @@ Raphé nuclei → VTA/Substantia nigra
 │                                                 │
 └─────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ### 5-HT1A a HPA osa
 

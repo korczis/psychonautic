@@ -26,6 +26,31 @@ insert_anchor_links = "right"
 
 ### Struktura
 
+```mermaid
+flowchart TD
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_Nterminusvazebnmsto["N-terminus  vazebné místo"]
+    node_TM1TM7["TM1    TM7"]
+    node_MembrnaTM2TM3TM6TM5["Membrána   TM2     TM3     TM6     TM5"]
+    node_TM4ve["TM4    váže"]
+    node_Gq11["Gq/11"]
+    node_Cterminusfosforylace["C-terminus  fosforylace"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+    node_TMtransmembrnovdomna["TM = transmembránová doména celkem 7"]
+
+    node_Extracelulrnprostor --> node_Nterminusvazebnmsto
+    node_Nterminusvazebnmsto --> node_TM1TM7
+    node_TM1TM7 --> node_MembrnaTM2TM3TM6TM5
+    node_MembrnaTM2TM3TM6TM5 --> node_TM4ve
+    node_TM4ve --> node_Gq11
+    node_Gq11 --> node_Cterminusfosforylace
+    node_Cterminusfosforylace --> node_Intracelulrnprostor
+    node_Intracelulrnprostor --> node_TMtransmembrnovdomna
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     Extracelulární prostor
                            │
@@ -41,6 +66,8 @@ Membrána │  TM2   │  TM3   │  TM6   │  TM5   │
 
 TM = transmembránová doména (celkem 7)
 ```
+
+</details>
 
 ---
 
@@ -72,6 +99,36 @@ TM = transmembránová doména (celkem 7)
 
 ### Primární kaskáda (Gq/11)
 
+```mermaid
+flowchart TD
+    node_5HTPsychedelikum["5-HT/Psychedelikum"]
+    node_5HT2Areceptor["5-HT2A receptor"]
+    node_Gq11protein["Gq/11 protein"]
+    node_FosfolipzaCPLC["Fosfolipáza C PLCβ"]
+    node_IPDAG["IP₃             DAG"]
+    node_CazERProteinkinzaCPK["Ca²⁺ z ER    Protein kináza C PKC"]
+    node_CalmodulinFosforylac["Calmodulin   Fosforylace substrátů"]
+    node_CaMKIIERK12aktivace["CaMKII       ERK1/2 aktivace"]
+    node_CREBGenovexprese["CREB         Genová exprese"]
+    node_Neuroplasticita["Neuroplasticita"]
+
+    node_5HTPsychedelikum --> node_5HT2Areceptor
+    node_5HT2Areceptor --> node_Gq11protein
+    node_Gq11protein --> node_FosfolipzaCPLC
+    node_FosfolipzaCPLC --> node_IPDAG
+    node_IPDAG --> node_CazERProteinkinzaCPK
+    node_CazERProteinkinzaCPK --> node_CalmodulinFosforylac
+    node_CalmodulinFosforylac --> node_CaMKIIERK12aktivace
+    node_CaMKIIERK12aktivace --> node_CREBGenovexprese
+    node_CREBGenovexprese --> node_Neuroplasticita
+
+    click node_5HTPsychedelikum "/glossary/psychedelikum/" "5-HT/Psychedelikum"
+    click node_Neuroplasticita "/glossary/neuroplasticita/" "Neuroplasticita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT/Psychedelikum
         ↓
@@ -95,6 +152,8 @@ CREB         Genová exprese
 ↓               ↓
 Neuroplasticita
 ```
+
+</details>
 
 ### Sekundární dráhy
 
@@ -125,6 +184,31 @@ Různé ligandy aktivují různé signální dráhy:
 
 **REBUS** (Relaxed Beliefs Under Psychedelics) model:
 
+```mermaid
+flowchart TD
+    node_NormlnstavPsychedeli["Normální stav                    Psychedelický sta"]
+    node_TopdownTopdown["Top-down                       Top-down"]
+    node_predikce5HT2Apredikc["predikce         5-HT2A        predikce"]
+    node_df3099a6["▼▼▼▼▼▼▼▼▼          ▽▽▽▽▽▽▽▽▽"]
+    node_SilnprioryaktivaceOs["Silné priory    aktivace       Oslabené"]
+    node_BottomupBottomup["Bottom-up                      Bottom-up"]
+    node_senzoricksenzorick["senzorický                     senzorický"]
+    node_cfafa716["△△△△△△△△△                      ▲▲▲▲▲▲▲▲▲"]
+    node_NormlnZeslen["Normální                       Zesílený"]
+
+    node_NormlnstavPsychedeli --> node_TopdownTopdown
+    node_TopdownTopdown --> node_predikce5HT2Apredikc
+    node_predikce5HT2Apredikc --> node_df3099a6
+    node_df3099a6 --> node_SilnprioryaktivaceOs
+    node_SilnprioryaktivaceOs --> node_BottomupBottomup
+    node_BottomupBottomup --> node_senzoricksenzorick
+    node_senzoricksenzorick --> node_cfafa716
+    node_cfafa716 --> node_NormlnZeslen
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Normální stav                    Psychedelický stav
 ┌─────────────────┐              ┌─────────────────┐
@@ -143,6 +227,8 @@ Normální stav                    Psychedelický stav
 └─────────────────┘              └─────────────────┘
 ```
 
+</details>
+
 ### Neuronální efekty
 
 | Efekt | Mechanismus | Důsledek |
@@ -153,6 +239,38 @@ Normální stav                    Psychedelický stav
 | **DMN suprese** | Snížení connectivity | Ego-dissoluce |
 
 ### Default Mode Network (DMN)
+
+```mermaid
+flowchart TD
+    node_NORMLNSTAV["NORMÁLNÍ STAV"]
+    node_mPFCPCC["mPFC  PCC"]
+    node_Silnkonektivita["Silná konektivita"]
+    node_AngularLateraltempor["Angular  Lateral temporal"]
+    node_DMNEgoSelfreference["DMN = Ego, Self-reference"]
+    node_PSYCHEDELICKSTAV["PSYCHEDELICKÝ STAV"]
+    node_mPFCPCC["mPFC ·  ·  ·  ·  ·  ·  PCC"]
+    node_d2fc6384["·                     ·"]
+    node_Oslabenkonektivita["·   Oslabená konektivita"]
+    node_AngularLateraltempor["Angular ·  ·  ·  ·  ·  Lateral temporal"]
+    node_DMNsupreseEgodissolu["DMN suprese = Ego dissolution"]
+
+    node_NORMLNSTAV --> node_mPFCPCC
+    node_mPFCPCC --> node_Silnkonektivita
+    node_Silnkonektivita --> node_AngularLateraltempor
+    node_AngularLateraltempor --> node_DMNEgoSelfreference
+    node_DMNEgoSelfreference --> node_PSYCHEDELICKSTAV
+    node_PSYCHEDELICKSTAV --> node_mPFCPCC
+    node_mPFCPCC --> node_d2fc6384
+    node_d2fc6384 --> node_Oslabenkonektivita
+    node_Oslabenkonektivita --> node_AngularLateraltempor
+    node_AngularLateraltempor --> node_DMNsupreseEgodissolu
+
+    click node_DMNEgoSelfreference "/circuits/dmn/" "DMN = Ego, Self-reference"
+    click node_DMNsupreseEgodissolu "/circuits/dmn/" "DMN suprese = Ego dissolution"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -179,6 +297,8 @@ Normální stav                    Psychedelický stav
 │        DMN suprese = Ego dissolution            │
 └─────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -219,6 +339,29 @@ Normální stav                    Psychedelický stav
 
 ### Klíčové aminokyseliny
 
+```mermaid
+flowchart TD
+    node_Vazebnmsto5HT2Aortho["Vazebné místo 5-HT2A orthosterické"]
+    node_Asp155Iontovvazba["Asp155  Iontová vazba"]
+    node_protonovanamin["protonovaný amin"]
+    node_Ser239Hbond["Ser239  H-bond"]
+    node_5OHindolu["5-OH indolu"]
+    node_Phe339stacking["Phe339  π-π stacking"]
+    node_Phe340aromatickkruh["Phe340     aromatický kruh"]
+    node_Trp336Hydrofobninter["Trp336  Hydrofobní interakce"]
+
+    node_Vazebnmsto5HT2Aortho --> node_Asp155Iontovvazba
+    node_Asp155Iontovvazba --> node_protonovanamin
+    node_protonovanamin --> node_Ser239Hbond
+    node_Ser239Hbond --> node_5OHindolu
+    node_5OHindolu --> node_Phe339stacking
+    node_Phe339stacking --> node_Phe340aromatickkruh
+    node_Phe340aromatickkruh --> node_Trp336Hydrofobninter
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Vazebné místo 5-HT2A (orthosterické)
 ┌────────────────────────────────────┐
@@ -237,6 +380,8 @@ Vazebné místo 5-HT2A (orthosterické)
 └────────────────────────────────────┘
 ```
 
+</details>
+
 ### Konformační stavy
 
 | Stav | Ligand | Signalizace |
@@ -252,6 +397,27 @@ Vazebné místo 5-HT2A (orthosterické)
 ## Regulace a desenzitizace
 
 ### Mechanismy tolerance
+
+```mermaid
+flowchart TD
+    node_Opakovanaktivace5HT2["Opakovaná aktivace 5-HT2A"]
+    node_1FosforylaceGRK["1. Fosforylace GRK"]
+    node_2arrestinvazba["2. β-arrestin vazba"]
+    node_3Internalizaceendocy["3. Internalizace endocytóza"]
+    node_4Downregulaceexprese["4. Downregulace exprese"]
+    node_TOLERANCE["TOLERANCE"]
+    node_snenodpov["snížená odpověď"]
+
+    node_Opakovanaktivace5HT2 --> node_1FosforylaceGRK
+    node_1FosforylaceGRK --> node_2arrestinvazba
+    node_2arrestinvazba --> node_3Internalizaceendocy
+    node_3Internalizaceendocy --> node_4Downregulaceexprese
+    node_4Downregulaceexprese --> node_TOLERANCE
+    node_TOLERANCE --> node_snenodpov
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Opakovaná aktivace 5-HT2A
@@ -269,6 +435,8 @@ Opakovaná aktivace 5-HT2A
       TOLERANCE
    (snížená odpověď)
 ```
+
+</details>
 
 ### Časový průběh tolerance
 

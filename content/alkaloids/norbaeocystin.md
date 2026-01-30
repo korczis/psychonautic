@@ -52,6 +52,36 @@ zdroje = ["Houby"]
 
 ### Strukturni diagram
 
+```mermaid
+flowchart TD
+    node_Biosyntetickadafosfo["Biosyntetická řada fosforylovaných tryptaminů:"]
+    node_OPO3H2OPO3H2OPO3H2["OPO3H2                  OPO3H2                  OPO3H2"]
+    node_IndolIndolIndol["Indol                Indol                Indol"]
+    node_CH2CH2CH2["CH2                    CH2                    CH2"]
+    node_NH2NHCH3NCH32["NH2                   NHCH3                 NCH32"]
+    node_NORBAEOCYSTINBAEOCYS["NORBAEOCYSTIN          BAEOCYSTIN             PSILOCYBIN"]
+    node_4POT4PONMT4PODMT["4-PO-T             4-PO-NMT             4-PO-DMT"]
+    node_256gmol270gmol284gmo["256 g/mol            270 g/mol              284 g/mol"]
+    node_PsiMPsiM["PsiM               PsiM"]
+    node_14Da14Da["+14 Da              +14 Da"]
+
+    node_Biosyntetickadafosfo --> node_OPO3H2OPO3H2OPO3H2
+    node_OPO3H2OPO3H2OPO3H2 --> node_IndolIndolIndol
+    node_IndolIndolIndol --> node_CH2CH2CH2
+    node_CH2CH2CH2 --> node_NH2NHCH3NCH32
+    node_NH2NHCH3NCH32 --> node_NORBAEOCYSTINBAEOCYS
+    node_NORBAEOCYSTINBAEOCYS --> node_4POT4PONMT4PODMT
+    node_4POT4PONMT4PODMT --> node_256gmol270gmol284gmo
+    node_256gmol270gmol284gmo --> node_PsiMPsiM
+    node_PsiMPsiM --> node_14Da14Da
+
+    click node_NORBAEOCYSTINBAEOCYS "/alkaloids/baeocystin/" "NORBAEOCYSTIN          BAEOCYSTIN             PSILOCYBIN"
+    click node_4POT4PONMT4PODMT "/alkaloids/dmt/" "4-PO-T             4-PO-NMT             4-PO-DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Biosyntetická řada fosforylovaných tryptaminů:
 
@@ -71,6 +101,8 @@ Biosyntetická řada fosforylovaných tryptaminů:
         ↓ [PsiM]              ↓ [PsiM]
       (+14 Da)              (+14 Da)
 ```
+
+</details>
 
 ### Detailni 2D struktura
 
@@ -237,6 +269,25 @@ PSILOCYBIN (4-PO-DMT)
 
 Biosynteticke geny jsou organizovany v klastru (~25 kbp):
 
+```mermaid
+flowchart TD
+    node_Genovklastrpsilocybi["Genový klastr psilocybinu"]
+    node_psiDpsiHpsiKpsiMregu["psiD  |  psiH  |  psiK  |  psiM  | regulacni"]
+    node_c9a51933["--------|--------|--------|--------|-----------"]
+    node_14kb17kb10kb09kb1kb["1.4 kb | 1.7 kb | 1.0 kb | 0.9 kb |  ~ 1 kb"]
+    node_TrpDCP450KinazaMeT["TrpDC    P450     Kinaza   MeT"]
+
+    node_Genovklastrpsilocybi --> node_psiDpsiHpsiKpsiMregu
+    node_psiDpsiHpsiKpsiMregu --> node_c9a51933
+    node_c9a51933 --> node_14kb17kb10kb09kb1kb
+    node_14kb17kb10kb09kb1kb --> node_TrpDCP450KinazaMeT
+
+    click node_Genovklastrpsilocybi "/alkaloids/psilocybin/" "Genový klastr psilocybinu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     Genový klastr psilocybinu
     ====================================================
@@ -247,6 +298,8 @@ Biosynteticke geny jsou organizovany v klastru (~25 kbp):
            ↓        ↓        ↓        ↓
         TrpDC    P450     Kinaza   MeT
 ```
+
+</details>
 
 ### Regulace hromadeni norbaeocystinu
 
@@ -319,12 +372,29 @@ Psychoaktivni ucinky (?)
 
 Norbaeocystin může přispívat k celkovému účinku psilocybinových hub jako součast "entourage efektu":
 
+```mermaid
+flowchart TD
+    node_CelkovyucinekhubPsil["Celkovy ucinek hub = Psilocybin + Psilocin + Baeocystin + Norbaeocystin + ?"]
+    node_HlavniRychlyModulace["Hlavni      Rychly     Modulace      Modulace?"]
+    node_ucinekonset["ucinek      onset"]
+
+    node_CelkovyucinekhubPsil --> node_HlavniRychlyModulace
+    node_HlavniRychlyModulace --> node_ucinekonset
+
+    click node_CelkovyucinekhubPsil "/alkaloids/baeocystin/" "Celkovy ucinek hub = Psilocybin + Psilocin + Baeocystin + Norbaeocystin + ?"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Celkovy ucinek hub = Psilocybin + Psilocin + Baeocystin + Norbaeocystin + ?
                             ↓           ↓           ↓              ↓
                          Hlavni      Rychly     Modulace      Modulace?
                          ucinek      onset
 ```
+
+</details>
 
 **Status**: Hypotéza, neprokázáno.
 
@@ -345,6 +415,30 @@ Celkovy ucinek hub = Psilocybin + Psilocin + Baeocystin + Norbaeocystin + ?
 
 ### Metabolismus
 
+```mermaid
+flowchart TD
+    node_Norbaeocystinpo["Norbaeocystin p.o."]
+    node_Intestinlnabsorpce["Intestinální absorpce"]
+    node_Systemovcirkulace["Systemová cirkulace"]
+    node_Alkalickfosfatza4Hyd["+--Alkalická fosfatáza---&gt; 4-Hydroxytryptamin 4-HT"]
+    node_MAOANeaktivnmetaboli["+--MAO-A---&gt; Neaktivní metabolity"]
+    node_UGT4HTglukuronid["+--UGT----&gt; 4-HT glukuronid"]
+    node_RenlnexkreceNezmenen["+--Renální exkrece---&gt; Nezmenený norbaeocystin ?"]
+
+    node_Norbaeocystinpo --> node_Intestinlnabsorpce
+    node_Intestinlnabsorpce --> node_Systemovcirkulace
+    node_Systemovcirkulace --> node_Alkalickfosfatza4Hyd
+    node_Alkalickfosfatza4Hyd --> node_MAOANeaktivnmetaboli
+    node_MAOANeaktivnmetaboli --> node_UGT4HTglukuronid
+    node_UGT4HTglukuronid --> node_RenlnexkreceNezmenen
+
+    click node_Norbaeocystinpo "/alkaloids/baeocystin/" "Norbaeocystin p.o."
+    click node_RenlnexkreceNezmenen "/alkaloids/baeocystin/" "+--Renální exkrece---> Nezmenený norbaeocystin ?"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Norbaeocystin (p.o.)
     |
@@ -360,6 +454,8 @@ Systemová cirkulace
     |
     +--[Renální exkrece]---> Nezmenený norbaeocystin (?)
 ```
+
+</details>
 
 ---
 

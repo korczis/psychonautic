@@ -201,6 +201,55 @@ Významné analytické práce:
 
 ### Mapa rozšíření
 
+```mermaid
+flowchart TD
+    node_GLOBLNROZENPCYANESCE["GLOBÁLNÍ ROZŠÍŘENÍ P. CYANESCENS"]
+    node_SEVERNAMERIKA["SEVERNÍ AMERIKA"]
+    node_PacifickSZVelmihojnp["Pacifický SZ ████████████████ Velmi hojný původní"]
+    node_KalifornieHojn["Kalifornie   ████████████     Hojný"]
+    node_VchodnUSAPtomncse["Východní USA ████████         Přítomný šířící se"]
+    node_EVROPA["EVROPA"]
+    node_BritnieVelmihojnprvn["Británie     ████████████████ Velmi hojný první popis"]
+    node_NizozemskoVelmihojn["Nizozemsko   ████████████████ Velmi hojný"]
+    node_NmeckoHojn["Německo      ████████████     Hojný"]
+    node_FrancieStednhojn["Francie      ██████████       Středně hojný"]
+    node_BelgieHojn["Belgie       ████████████     Hojný"]
+    node_eskoPtomn["Česko        ████████         Přítomný"]
+    node_SkandinvieVzcnj["Skandinávie  ██████           Vzácnější"]
+    node_JINPOLOKOULE["JIŽNÍ POLOKOULE"]
+    node_AustrlieHojnintroduk["Austrálie    ████████████     Hojný introdukovaný"]
+    node_NovZlandStednhojnint["Nový Zéland  ██████████       Středně hojný introdukovaný"]
+    node_ChileLoklnptomn["Chile        ████             Lokálně přítomný"]
+    node_ASIE["ASIE"]
+    node_JaponskoPtomn["Japonsko     ████████         Přítomný"]
+    node_JinKoreaLokln["Jižní Korea  ████             Lokálně"]
+    node_Legendarelativnabund["Legenda: ████ = relativní abundance"]
+
+    node_GLOBLNROZENPCYANESCE --> node_SEVERNAMERIKA
+    node_SEVERNAMERIKA --> node_PacifickSZVelmihojnp
+    node_PacifickSZVelmihojnp --> node_KalifornieHojn
+    node_KalifornieHojn --> node_VchodnUSAPtomncse
+    node_VchodnUSAPtomncse --> node_EVROPA
+    node_EVROPA --> node_BritnieVelmihojnprvn
+    node_BritnieVelmihojnprvn --> node_NizozemskoVelmihojn
+    node_NizozemskoVelmihojn --> node_NmeckoHojn
+    node_NmeckoHojn --> node_FrancieStednhojn
+    node_FrancieStednhojn --> node_BelgieHojn
+    node_BelgieHojn --> node_eskoPtomn
+    node_eskoPtomn --> node_SkandinvieVzcnj
+    node_SkandinvieVzcnj --> node_JINPOLOKOULE
+    node_JINPOLOKOULE --> node_AustrlieHojnintroduk
+    node_AustrlieHojnintroduk --> node_NovZlandStednhojnint
+    node_NovZlandStednhojnint --> node_ChileLoklnptomn
+    node_ChileLoklnptomn --> node_ASIE
+    node_ASIE --> node_JaponskoPtomn
+    node_JaponskoPtomn --> node_JinKoreaLokln
+    node_JinKoreaLokln --> node_Legendarelativnabund
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 GLOBÁLNÍ ROZŠÍŘENÍ P. CYANESCENS
 ================================
@@ -234,6 +283,8 @@ ASIE
 
 Legenda: ████ = relativní abundance
 ```
+
+</details>
 
 ### Detailní regionální rozšíření
 
@@ -327,6 +378,25 @@ P. cyanescens je striktně **saprofytická lignikolní** houba:
 
 #### Fáze kolonizace substrátu
 
+```mermaid
+flowchart TD
+    node_KOLONIZACEDEVNHOSUBS["KOLONIZACE DŘEVNÍHO SUBSTRÁTU"]
+    node_Fze1Inokulace02tdny["Fáze 1: Inokulace 0-2 týdny"]
+    node_Fze2Primrnkolonizace["Fáze 2: Primární kolonizace 2-8 týdnů"]
+    node_Fze3Sekundrnkoloniza["Fáze 3: Sekundární kolonizace 2-6 měsíců"]
+    node_Fze4Maturace612msc["Fáze 4: Maturace 6-12 měsíců"]
+    node_Fze5Fruktifikacesezn["Fáze 5: Fruktifikace sezónně"]
+
+    node_KOLONIZACEDEVNHOSUBS --> node_Fze1Inokulace02tdny
+    node_Fze1Inokulace02tdny --> node_Fze2Primrnkolonizace
+    node_Fze2Primrnkolonizace --> node_Fze3Sekundrnkoloniza
+    node_Fze3Sekundrnkoloniza --> node_Fze4Maturace612msc
+    node_Fze4Maturace612msc --> node_Fze5Fruktifikacesezn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KOLONIZACE DŘEVNÍHO SUBSTRÁTU
 =============================
@@ -361,6 +431,8 @@ Fáze 5: Fruktifikace (sezónně)
 - Tvorba primordií
 - Vývoj plodnic
 ```
+
+</details>
 
 ### Enzymatický aparát
 
@@ -397,6 +469,39 @@ P. cyanescens plní důležité ekologické funkce:
 
 ### Sezónní kalendář podle regionu
 
+```mermaid
+flowchart TD
+    node_FRUKTIFIKANKALENDPCY["FRUKTIFIKAČNÍ KALENDÁŘ P. CYANESCENS"]
+    node_SEVERNPOLOKOULE["SEVERNÍ POLOKOULE:"]
+    node_JFMAMJJASOND["J   F   M   A   M   J   J   A   S   O   N   D"]
+    node_e273fd62["---|---|---|---|---|---|---|---|---|---|---"]
+    node_PNWUSA["PNW USA     .   .   .   .   .   .   .   .   ██  ██████████"]
+    node_Britnie["Británie      .   .   .   .   .   .   .   .   .   █████████"]
+    node_Nizozemsko["Nizozemsko    .   .   .   .   .   .   .   .   .   █████████"]
+    node_Nmecko["Německo       .   .   .   .   .   .   .   .   .   .   ██████"]
+    node_esko["Česko         .   .   .   .   .   .   .   .   .   .   █████"]
+    node_JINPOLOKOULE["JIŽNÍ POLOKOULE:"]
+    node_Austrlie["Austrálie     .   .   .   ██  ██████████████   .   .   .   ."]
+    node_NovZland["Nový Zéland   .   .   .   .   ██████████████   .   .   .   ."]
+    node_Legendaobdobfruktifi["Legenda: █ = období fruktifikace, . = bez fruktifikace"]
+
+    node_FRUKTIFIKANKALENDPCY --> node_SEVERNPOLOKOULE
+    node_SEVERNPOLOKOULE --> node_JFMAMJJASOND
+    node_JFMAMJJASOND --> node_e273fd62
+    node_e273fd62 --> node_PNWUSA
+    node_PNWUSA --> node_Britnie
+    node_Britnie --> node_Nizozemsko
+    node_Nizozemsko --> node_Nmecko
+    node_Nmecko --> node_esko
+    node_esko --> node_JINPOLOKOULE
+    node_JINPOLOKOULE --> node_Austrlie
+    node_Austrlie --> node_NovZland
+    node_NovZland --> node_Legendaobdobfruktifi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FRUKTIFIKAČNÍ KALENDÁŘ P. CYANESCENS
 ====================================
@@ -420,6 +525,8 @@ Nový Zéland   .   .   .   .   ██████████████   .  
 
 Legenda: █ = období fruktifikace, . = bez fruktifikace
 ```
+
+</details>
 
 ### Teplotní požadavky
 
@@ -465,6 +572,33 @@ P. cyanescens je primárně outdoorový druh vyžadující přirozené klimatick
 
 **Postup:**
 
+```mermaid
+flowchart TD
+    node_ZALOENVENKOVNHOZHONU["ZALOŽENÍ VENKOVNÍHO ZÁHONU"]
+    node_Krok1Vbrlokality["Krok 1: Výběr lokality"]
+    node_Krok2Ppravapodlo["Krok 2: Příprava podloží"]
+    node_Krok3Vrstvensubstrtu["Krok 3: Vrstvení substrátu"]
+    node_Vrstva1tpky5cm["Vrstva 1: Štěpky 5 cm"]
+    node_Vrstva2Spawnrozptlen["Vrstva 2: Spawn rozptýlený rovnoměrně"]
+    node_Vrstva3tpky5cm["Vrstva 3: Štěpky 5 cm"]
+    node_Vrstva4Spawn["Vrstva 4: Spawn"]
+    node_Vrstva5tpky23cmkrycv["Vrstva 5: Štěpky 2-3 cm krycí vrstva"]
+    node_Krok4Finalizace["Krok 4: Finalizace"]
+
+    node_ZALOENVENKOVNHOZHONU --> node_Krok1Vbrlokality
+    node_Krok1Vbrlokality --> node_Krok2Ppravapodlo
+    node_Krok2Ppravapodlo --> node_Krok3Vrstvensubstrtu
+    node_Krok3Vrstvensubstrtu --> node_Vrstva1tpky5cm
+    node_Vrstva1tpky5cm --> node_Vrstva2Spawnrozptlen
+    node_Vrstva2Spawnrozptlen --> node_Vrstva3tpky5cm
+    node_Vrstva3tpky5cm --> node_Vrstva4Spawn
+    node_Vrstva4Spawn --> node_Vrstva5tpky23cmkrycv
+    node_Vrstva5tpky23cmkrycv --> node_Krok4Finalizace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ZALOŽENÍ VENKOVNÍHO ZÁHONU
 ==========================
@@ -496,6 +630,8 @@ Krok 4: Finalizace
 - Mulčování listím (volitelně)
 - Značení lokality
 ```
+
+</details>
 
 #### Timeline kultivace
 
@@ -582,6 +718,31 @@ Fáze sběru:
 
 ### Časový průběh
 
+```mermaid
+flowchart TD
+    node_TYPICKPRBHWLP["TYPICKÝ PRŮBĚH WLP"]
+    node_asSymptomy["Čas       Symptomy"]
+    node_0hPoithub["0h        Požití hub"]
+    node_12hNstuppsychoaktivn["1-2h      Nástup psychoaktivních účinků"]
+    node_24hPrvnznmkysvalovsl["2-4h      První známky svalové slabosti pokud nastane"]
+    node_46hMaximumsymptomWLP["4-6h      Maximum symptomů WLP"]
+    node_612hPostupnodeznvn["6-12h     Postupné odeznívání"]
+    node_1224hplnvymizen["12-24h    Úplné vymizení"]
+    node_PoznmkaWLPpostihujep["Poznámka: WLP postihuje pouze menšinu konzumentů &lt;5-10%"]
+
+    node_TYPICKPRBHWLP --> node_asSymptomy
+    node_asSymptomy --> node_0hPoithub
+    node_0hPoithub --> node_12hNstuppsychoaktivn
+    node_12hNstuppsychoaktivn --> node_24hPrvnznmkysvalovsl
+    node_24hPrvnznmkysvalovsl --> node_46hMaximumsymptomWLP
+    node_46hMaximumsymptomWLP --> node_612hPostupnodeznvn
+    node_612hPostupnodeznvn --> node_1224hplnvymizen
+    node_1224hplnvymizen --> node_PoznmkaWLPpostihujep
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPICKÝ PRŮBĚH WLP
 ==================
@@ -597,6 +758,8 @@ TYPICKÝ PRŮBĚH WLP
 
 Poznámka: WLP postihuje pouze menšinu konzumentů (<5-10%)
 ```
+
+</details>
 
 ### Hypotetické mechanismy
 
@@ -965,6 +1128,21 @@ Pro spolehlivou dokumentaci fotografovat:
 
 ### Časová série modření
 
+```mermaid
+flowchart TD
+    node_DOKUMENTACEMODEN["DOKUMENTACE MODŘENÍ"]
+    node_0min5min15min30min["0 min     5 min     15 min    30 min"]
+    node_blzelenmodrindigo["bílá -&gt; zelená-&gt; modrá -&gt; indigo"]
+    node_Fotografovaterstvezv["Fotografovat čerstvý řez v intervalech 0, 5, 15, 30 minut"]
+
+    node_DOKUMENTACEMODEN --> node_0min5min15min30min
+    node_0min5min15min30min --> node_blzelenmodrindigo
+    node_blzelenmodrindigo --> node_Fotografovaterstvezv
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DOKUMENTACE MODŘENÍ
 ===================
@@ -975,6 +1153,8 @@ DOKUMENTACE MODŘENÍ
 
 Fotografovat čerstvý řez v intervalech 0, 5, 15, 30 minut
 ```
+
+</details>
 
 ---
 

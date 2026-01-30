@@ -215,6 +215,38 @@ Rick Strassman teoretizoval, ze DMT muze byt uvolnovano:
 
 ### 5-HT2A signalni kaskada
 
+```mermaid
+flowchart TD
+    node_DMT5HT2Areceptor["DMT + 5-HT2A receptor"]
+    node_Gqproteinaktivace["Gq protein aktivace"]
+    node_c1098c42["+----------------+"]
+    node_PLCbetabetaarrestin2["PLC-beta         beta-arrestin2"]
+    node_IP3DAGInternalizace["IP3 + DAG         Internalizace"]
+    node_c0cc21db["+---+---+"]
+    node_Ca2PKC["Ca2+   PKC"]
+    node_NMDAERK12["NMDA     ERK1/2"]
+    node_modulace["modulace"]
+    node_Genovaexprese["Genova exprese"]
+    node_BDNFArcEgr["BDNF, Arc, Egr"]
+
+    node_DMT5HT2Areceptor --> node_Gqproteinaktivace
+    node_Gqproteinaktivace --> node_c1098c42
+    node_c1098c42 --> node_PLCbetabetaarrestin2
+    node_PLCbetabetaarrestin2 --> node_IP3DAGInternalizace
+    node_IP3DAGInternalizace --> node_c0cc21db
+    node_c0cc21db --> node_Ca2PKC
+    node_Ca2PKC --> node_NMDAERK12
+    node_NMDAERK12 --> node_modulace
+    node_modulace --> node_Genovaexprese
+    node_Genovaexprese --> node_BDNFArcEgr
+
+    click node_DMT5HT2Areceptor "/receptors/5-ht2a/" "DMT + 5-HT2A receptor"
+    click node_BDNFArcEgr "/molecules/bdnf/" "BDNF, Arc, Egr"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DMT + 5-HT2A receptor
         |
@@ -242,6 +274,8 @@ modulace   |
     (BDNF, Arc, Egr)
 ```
 
+</details>
+
 ### Bias signalizace
 
 DMT vykazuje **biased agonism** na 5-HT2A:
@@ -265,6 +299,28 @@ Trace amine-associated receptor 1:
 
 ### Sigma-1 mechanismus
 
+```mermaid
+flowchart TD
+    node_DMTSigma1receptorERm["DMT + Sigma-1 receptor ER membrana"]
+    node_Chaperonaktivace["Chaperon aktivace"]
+    node_c1098c42["+----------------+"]
+    node_IP3RmodulaceBiPdisoc["IP3R modulace    BiP disociace"]
+    node_Ca2signalingStresova["Ca2+ signaling   Stresova odpoved"]
+    node_NeuroplasticitaNeuro["Neuroplasticita   Neuroprotekce"]
+
+    node_DMTSigma1receptorERm --> node_Chaperonaktivace
+    node_Chaperonaktivace --> node_c1098c42
+    node_c1098c42 --> node_IP3RmodulaceBiPdisoc
+    node_IP3RmodulaceBiPdisoc --> node_Ca2signalingStresova
+    node_Ca2signalingStresova --> node_NeuroplasticitaNeuro
+
+    click node_DMTSigma1receptorERm "/receptors/sigma-1/" "DMT + Sigma-1 receptor ER membrana"
+    click node_NeuroplasticitaNeuro "/glossary/neuroplasticita/" "Neuroplasticita   Neuroprotekce"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DMT + Sigma-1 receptor (ER membrana)
         |
@@ -282,6 +338,8 @@ Chaperon aktivace
         v                v
   Neuroplasticita   Neuroprotekce
 ```
+
+</details>
 
 ---
 
@@ -303,6 +361,23 @@ Chaperon aktivace
 
 #### Primarni metabolicke drahy
 
+```mermaid
+flowchart TD
+    node_DMT["DMT"]
+    node_MAOAIndol3acetaldehy["+--MAO-A-----&gt; Indol-3-acetaldehyd IAA"]
+    node_Indol3octovakyselina["Indol-3-octova kyselina"]
+    node_CYP2D6DMTNoxid["+--CYP2D6----&gt; DMT-N-oxid"]
+    node_INMTreverzniNMTTrypt["+--INMT reverzni--&gt; NMT --&gt; Tryptamin"]
+
+    node_DMT --> node_MAOAIndol3acetaldehy
+    node_MAOAIndol3acetaldehy --> node_Indol3octovakyselina
+    node_Indol3octovakyselina --> node_CYP2D6DMTNoxid
+    node_CYP2D6DMTNoxid --> node_INMTreverzniNMTTrypt
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DMT
   |
@@ -315,6 +390,8 @@ DMT
   |
   +--[INMT reverzni]--> NMT --> Tryptamin
 ```
+
+</details>
 
 #### Enzymaticka kinetika MAO-A
 
@@ -988,6 +1065,42 @@ Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md) | [Signaln
 
 DMT ma **unikatni PK profil** definovany MAO-A metabolismem:
 
+```mermaid
+flowchart TD
+    node_BEZMAOIinhalacneIVSM["BEZ MAOI inhalacne/IV:     S MAOI ayahuasca:"]
+    node_Tmax25minTmax90120mi["Tmax = 2-5 min               Tmax = 90-120 min"]
+    node_T125minT122h["T1/2 = ~5 min                T1/2 = ~2 h"]
+    node_Trvani1530minTrvani4["Trvani = 15-30 min           Trvani = 4-6 h"]
+    node_MAOAKm137uM["MAO-A Km = 13.7 uM"]
+    node_MAOAVmax23nmolminmg["MAO-A Vmax = 2.3 nmol/min/mg"]
+    node_DMTbezMAOIDMTharminM["DMT bez MAOI:                DMT + harmin MAOI:"]
+    node_e42fb6dd["/\                           |    ___"]
+    node_c068a3eb["\                          |   /   \"]
+    node_eea7a3af["\                         |  /     \"]
+    node_3427f05a["\_                       | /       \___"]
+    node_b713fd86["+--------&gt;                    +------------&gt;"]
+    node_01530min0246h["0  15  30 min                 0   2   4   6 h"]
+
+    node_BEZMAOIinhalacneIVSM --> node_Tmax25minTmax90120mi
+    node_Tmax25minTmax90120mi --> node_T125minT122h
+    node_T125minT122h --> node_Trvani1530minTrvani4
+    node_Trvani1530minTrvani4 --> node_MAOAKm137uM
+    node_MAOAKm137uM --> node_MAOAVmax23nmolminmg
+    node_MAOAVmax23nmolminmg --> node_DMTbezMAOIDMTharminM
+    node_DMTbezMAOIDMTharminM --> node_e42fb6dd
+    node_e42fb6dd --> node_c068a3eb
+    node_c068a3eb --> node_eea7a3af
+    node_eea7a3af --> node_3427f05a
+    node_3427f05a --> node_b713fd86
+    node_b713fd86 --> node_01530min0246h
+
+    click node_BEZMAOIinhalacneIVSM "/pharmacology/maoi/" "BEZ MAOI inhalacne/IV:     S MAOI ayahuasca:"
+    click node_DMTbezMAOIDMTharminM "/pharmacology/maoi/" "DMT bez MAOI:                DMT + harmin MAOI:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BEZ MAOI (inhalacne/IV):     S MAOI (ayahuasca):
 Tmax = 2-5 min               Tmax = 90-120 min
@@ -1006,6 +1119,8 @@ DMT bez MAOI:                DMT + harmin (MAOI):
     +-------->                    +------------>
     0  15  30 min                 0   2   4   6 h
 ```
+
+</details>
 
 Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 
@@ -1055,4 +1170,3 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md)
 
 ---
 
-Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) | [Muscimol](@/alkaloids/muscimol.md)

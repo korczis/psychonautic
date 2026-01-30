@@ -30,6 +30,31 @@ tags = ["5-HT2B", "kardiotoxicita", "valvulopatie", "fenfluramin", "MDMA"]
 
 ### Struktura
 
+```mermaid
+flowchart TD
+    node_Extracelulrnprostor["Extracelulární prostor"]
+    node_Nterminusvazebnmsto["N-terminus  vazebné místo"]
+    node_TM1TM7["TM1    TM7"]
+    node_MembrnaTM2TM3TM6TM5["Membrána   TM2     TM3     TM6     TM5"]
+    node_TM4["TM4"]
+    node_Gq11["Gq/11"]
+    node_Cterminusfosforylace["C-terminus  fosforylace"]
+    node_Intracelulrnprostor["Intracelulární prostor"]
+    node_TMtransmembrnovdomna["TM = transmembránová doména celkem 7"]
+
+    node_Extracelulrnprostor --> node_Nterminusvazebnmsto
+    node_Nterminusvazebnmsto --> node_TM1TM7
+    node_TM1TM7 --> node_MembrnaTM2TM3TM6TM5
+    node_MembrnaTM2TM3TM6TM5 --> node_TM4
+    node_TM4 --> node_Gq11
+    node_Gq11 --> node_Cterminusfosforylace
+    node_Cterminusfosforylace --> node_Intracelulrnprostor
+    node_Intracelulrnprostor --> node_TMtransmembrnovdomna
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     Extracelulární prostor
                            │
@@ -45,6 +70,8 @@ Membrána │  TM2   │  TM3   │  TM6   │  TM5   │
 
 TM = transmembránová doména (celkem 7)
 ```
+
+</details>
 
 ---
 
@@ -76,6 +103,29 @@ TM = transmembránová doména (celkem 7)
 
 ### Primární kaskáda (Gq/11)
 
+```mermaid
+flowchart TD
+    node_5HTAgonista["5-HT / Agonista"]
+    node_5HT2Breceptor["5-HT2B receptor"]
+    node_Gq11protein["Gq/11 protein"]
+    node_FosfolipzaCPLC["Fosfolipáza C PLCβ"]
+    node_IPDAG["IP₃             DAG"]
+    node_CazERProteinkinzaCPK["Ca²⁺ z ER    Protein kináza C PKC"]
+    node_KontrakceAktivaceERK["Kontrakce    Aktivace ERK1/2"]
+    node_ProliferaceGenovexpr["Proliferace  Genová exprese"]
+
+    node_5HTAgonista --> node_5HT2Breceptor
+    node_5HT2Breceptor --> node_Gq11protein
+    node_Gq11protein --> node_FosfolipzaCPLC
+    node_FosfolipzaCPLC --> node_IPDAG
+    node_IPDAG --> node_CazERProteinkinzaCPK
+    node_CazERProteinkinzaCPK --> node_KontrakceAktivaceERK
+    node_KontrakceAktivaceERK --> node_ProliferaceGenovexpr
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT / Agonista
         ↓
@@ -96,7 +146,34 @@ Kontrakce    Aktivace ERK1/2
 Proliferace  Genová exprese
 ```
 
+</details>
+
 ### Patologická signalizace (valvulopatie)
+
+```mermaid
+flowchart TD
+    node_Chronick5HT2Baktivac["Chronická 5-HT2B aktivace"]
+    node_Valvulrnintersticiln["Valvulární intersticiální buňky"]
+    node_VICs["VICs"]
+    node_TGFaktivace["TGF-β aktivace"]
+    node_Myofibroblastovtrans["Myofibroblastová transformace"]
+    node_KolagenGAGsyntza["Kolagen,  GAG syntéza"]
+    node_FIBRZACHLOPN["FIBRÓZA CHLOPNÍ"]
+    node_VALVULOPATIE["VALVULOPATIE"]
+    node_regurgitace["regurgitace"]
+
+    node_Chronick5HT2Baktivac --> node_Valvulrnintersticiln
+    node_Valvulrnintersticiln --> node_VICs
+    node_VICs --> node_TGFaktivace
+    node_TGFaktivace --> node_Myofibroblastovtrans
+    node_Myofibroblastovtrans --> node_KolagenGAGsyntza
+    node_KolagenGAGsyntza --> node_FIBRZACHLOPN
+    node_FIBRZACHLOPN --> node_VALVULOPATIE
+    node_VALVULOPATIE --> node_regurgitace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Chronická 5-HT2B aktivace
@@ -125,11 +202,38 @@ Chronická 5-HT2B aktivace
 └─────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Kardiovaskulární účinky
 
 ### Srdeční chlopně
+
+```mermaid
+flowchart TD
+    node_NormlnchlopeFibrotic["Normální chlopeň          Fibrotická chlopeň"]
+    node_5HT2Baktivace["5-HT2B aktivace"]
+    node_TenkZtlutl["Tenká                  Ztluštělá"]
+    node_prunrigidn["pružná                rigidní"]
+    node_e6451d4b["███████"]
+    node_NormlnNedostaten["Normální               Nedostatečné"]
+    node_uzavenuzaven["uzavření               uzavření"]
+    node_dnrefluxREGURGITACE["Žádný reflux           REGURGITACE"]
+    node_zptntok["zpětný tok"]
+
+    node_NormlnchlopeFibrotic --> node_5HT2Baktivace
+    node_5HT2Baktivace --> node_TenkZtlutl
+    node_TenkZtlutl --> node_prunrigidn
+    node_prunrigidn --> node_e6451d4b
+    node_e6451d4b --> node_NormlnNedostaten
+    node_NormlnNedostaten --> node_uzavenuzaven
+    node_uzavenuzaven --> node_dnrefluxREGURGITACE
+    node_dnrefluxREGURGITACE --> node_zptntok
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Normální chlopeň          Fibrotická chlopeň
@@ -148,6 +252,8 @@ Normální chlopeň          Fibrotická chlopeň
     Žádný reflux           REGURGITACE
                            (zpětný tok)
 ```
+
+</details>
 
 ### Mechanismus valvulopatie
 
@@ -225,6 +331,29 @@ Prevalence valvulopatie:
 
 ### Mechanismus fen-phen valvulopatie
 
+```mermaid
+flowchart TD
+    node_Fenfluramin["Fenfluramin"]
+    node_Metabolismus["Metabolismus"]
+    node_Norfenfluraminaktivn["Norfenfluramin aktivní metabolit"]
+    node_1SERTinhibicesynapti["1. SERT inhibice   synaptický 5-HT"]
+    node_2Pm5HT2Baktivace["2. Přímá 5-HT2B aktivace"]
+    node_35HTuvolovnztrombocy["3. 5-HT uvolňování z trombocytů"]
+    node_Chronick5HT2Bstimula["Chronická 5-HT2B stimulace chlopní"]
+    node_VALVULOPATIEmitrlnao["VALVULOPATIE mitrální, aortální"]
+
+    node_Fenfluramin --> node_Metabolismus
+    node_Metabolismus --> node_Norfenfluraminaktivn
+    node_Norfenfluraminaktivn --> node_1SERTinhibicesynapti
+    node_1SERTinhibicesynapti --> node_2Pm5HT2Baktivace
+    node_2Pm5HT2Baktivace --> node_35HTuvolovnztrombocy
+    node_35HTuvolovnztrombocy --> node_Chronick5HT2Bstimula
+    node_Chronick5HT2Bstimula --> node_VALVULOPATIEmitrlnao
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Fenfluramin
      │
@@ -250,11 +379,38 @@ Chronická 5-HT2B stimulace chlopní
 VALVULOPATIE (mitrální, aortální)
 ```
 
+</details>
+
 ---
 
 ## MDMA a 5-HT2B
 
 ### Potenciální kardiotoxicita
+
+```mermaid
+flowchart TD
+    node_MDMA["MDMA"]
+    node_MetabolismusCYP2D6["Metabolismus CYP2D6"]
+    node_MDAHMMAHMA["MDA  HMMA/HMA"]
+    node_5HT2Baktivace["5-HT2B aktivace?"]
+    node_Masivn5HTuvolnn["Masivní 5-HT uvolnění"]
+    node_Trombocytrn5HT["Trombocytární 5-HT"]
+    node_Cirkulujc5HT["Cirkulující 5-HT"]
+    node_Chlopovexpozice["Chlopňová expozice"]
+
+    node_MDMA --> node_MetabolismusCYP2D6
+    node_MetabolismusCYP2D6 --> node_MDAHMMAHMA
+    node_MDAHMMAHMA --> node_5HT2Baktivace
+    node_5HT2Baktivace --> node_Masivn5HTuvolnn
+    node_Masivn5HTuvolnn --> node_Trombocytrn5HT
+    node_Trombocytrn5HT --> node_Cirkulujc5HT
+    node_Cirkulujc5HT --> node_Chlopovexpozice
+
+    click node_MDMA "/alkaloids/mdma/" "MDMA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MDMA
@@ -278,6 +434,8 @@ MDA  HMMA/HMA
          ↓
     Chlopňová expozice
 ```
+
+</details>
 
 ### Současný stav znalostí
 
@@ -303,6 +461,25 @@ MDA  HMMA/HMA
 
 ### 5-HT2B a PAH (Pulmonální arteriální hypertenze)
 
+```mermaid
+flowchart TD
+    node_5HT2Baktivacevplicnv["5-HT2B aktivace v plicní vaskulatuře"]
+    node_1Vazokonstrikceplicn["1. Vazokonstrikce plicních arterií"]
+    node_2Proliferacehladksva["2. Proliferace hladké svaloviny"]
+    node_3Remodelacecvnstny["3. Remodelace cévní stěny"]
+    node_4Odporplicncirkulace["4.  Odpor plicní cirkulace"]
+    node_PLICNARTERILNHYPERTE["PLICNÍ ARTERIÁLNÍ HYPERTENZE"]
+
+    node_5HT2Baktivacevplicnv --> node_1Vazokonstrikceplicn
+    node_1Vazokonstrikceplicn --> node_2Proliferacehladksva
+    node_2Proliferacehladksva --> node_3Remodelacecvnstny
+    node_3Remodelacecvnstny --> node_4Odporplicncirkulace
+    node_4Odporplicncirkulace --> node_PLICNARTERILNHYPERTE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-HT2B aktivace v plicní vaskulatuře
               │
@@ -322,6 +499,8 @@ MDA  HMMA/HMA
               ↓
     PLICNÍ ARTERIÁLNÍ HYPERTENZE
 ```
+
+</details>
 
 ### Látky asociované s PAH
 
@@ -346,6 +525,29 @@ MDA  HMMA/HMA
 
 ### Jaterní regenerace
 
+```mermaid
+flowchart TD
+    node_Parcilnhepatektomie["Parciální hepatektomie"]
+    node_Trombocytrn5HTuvolnn["Trombocytární 5-HT uvolnění"]
+    node_5HT2Baktivacehepatoc["5-HT2B aktivace hepatocytů"]
+    node_Proliferativnsignali["Proliferativní signalizace"]
+    node_ERK12aktivace["- ERK1/2 aktivace"]
+    node_CyclinD1indukce["- Cyclin D1 indukce"]
+    node_Bunndlen["- Buněčné dělení"]
+    node_JATERNREGENERACE["JATERNÍ REGENERACE"]
+
+    node_Parcilnhepatektomie --> node_Trombocytrn5HTuvolnn
+    node_Trombocytrn5HTuvolnn --> node_5HT2Baktivacehepatoc
+    node_5HT2Baktivacehepatoc --> node_Proliferativnsignali
+    node_Proliferativnsignali --> node_ERK12aktivace
+    node_ERK12aktivace --> node_CyclinD1indukce
+    node_CyclinD1indukce --> node_Bunndlen
+    node_Bunndlen --> node_JATERNREGENERACE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Parciální hepatektomie
          │
@@ -368,6 +570,8 @@ Parciální hepatektomie
          ↓
     JATERNÍ REGENERACE
 ```
+
+</details>
 
 ### Vývojová role
 
@@ -403,6 +607,41 @@ Parciální hepatektomie
 
 ### Pro vývoj léčiv
 
+```mermaid
+flowchart TD
+    node_Novserotoninergnlivo["Nové serotoninergní léčivo"]
+    node_POVINN5HT2BSCREENING["POVINNÝ 5-HT2B SCREENING"]
+    node_1VazebnafinitaKi["1. Vazebná afinita Ki"]
+    node_100nMRizikov["- &lt; 100 nM = Rizikové"]
+    node_1000nMAkceptovateln["- &gt; 1000 nM = Akceptovatelné"]
+    node_2Funknaktivita["2. Funkční aktivita"]
+    node_AgonistaVysokriziko["- Agonista = Vysoké riziko"]
+    node_AntagonistaProtektiv["- Antagonista = Protektivní"]
+    node_3Metabolity["3. Metabolity"]
+    node_Aktivnmetabolitytest["- Aktivní metabolity testovat"]
+    node_Kumulativnexpozice["- Kumulativní expozice"]
+    node_4Klinickstudie["4. Klinické studie"]
+    node_Echokardiografie["- Echokardiografie"]
+    node_Dlouhodobsledovn["- Dlouhodobé sledování"]
+
+    node_Novserotoninergnlivo --> node_POVINN5HT2BSCREENING
+    node_POVINN5HT2BSCREENING --> node_1VazebnafinitaKi
+    node_1VazebnafinitaKi --> node_100nMRizikov
+    node_100nMRizikov --> node_1000nMAkceptovateln
+    node_1000nMAkceptovateln --> node_2Funknaktivita
+    node_2Funknaktivita --> node_AgonistaVysokriziko
+    node_AgonistaVysokriziko --> node_AntagonistaProtektiv
+    node_AntagonistaProtektiv --> node_3Metabolity
+    node_3Metabolity --> node_Aktivnmetabolitytest
+    node_Aktivnmetabolitytest --> node_Kumulativnexpozice
+    node_Kumulativnexpozice --> node_4Klinickstudie
+    node_4Klinickstudie --> node_Echokardiografie
+    node_Echokardiografie --> node_Dlouhodobsledovn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Nové serotoninergní léčivo
             │
@@ -428,6 +667,8 @@ Nové serotoninergní léčivo
 │                                           │
 └───────────────────────────────────────────┘
 ```
+
+</details>
 
 ### Regulatorní požadavky (FDA/EMA)
 

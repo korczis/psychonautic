@@ -130,6 +130,49 @@ Salvinorin A je **vysoke selektivni** pro kappa opioidni receptory - afinita k o
 
 ### Mechanismus disociativnich ucinku
 
+```mermaid
+flowchart TD
+    node_SALVINORINAinhalace["SALVINORIN A inhalace"]
+    node_Kappaopioidnirecepto["Kappa opioidni receptor KOR"]
+    node_Giocoupling["Gi/o coupling"]
+    node_ddb739e1["+------------------+"]
+    node_InhibiceAktivace["Inhibice          Aktivace"]
+    node_adenylatMAPkinas["adenylat          MAP kinas"]
+    node_cyklazy["cyklazy"]
+    node_SnizeniNeuroplastici["Snizeni           ?Neuroplasticita"]
+    node_cAMP["cAMP"]
+    node_Inhibicedopaminergni["Inhibice dopaminergni transmise"]
+    node_VTANAcPFC["VTA, NAc, PFC"]
+    node_741f2676["+----------------------------+"]
+    node_FENOMENOLOGIE["FENOMENOLOGIE:"]
+    node_Dysforickyhalucinacn["- Dysforicky halucinacni"]
+    node_Depersonalizace["- Depersonalizace"]
+    node_Derealizace["- Derealizace"]
+    node_Bizarnitelesnevniman["- Bizarni telesne vnimani"]
+
+    node_SALVINORINAinhalace --> node_Kappaopioidnirecepto
+    node_Kappaopioidnirecepto --> node_Giocoupling
+    node_Giocoupling --> node_ddb739e1
+    node_ddb739e1 --> node_InhibiceAktivace
+    node_InhibiceAktivace --> node_adenylatMAPkinas
+    node_adenylatMAPkinas --> node_cyklazy
+    node_cyklazy --> node_SnizeniNeuroplastici
+    node_SnizeniNeuroplastici --> node_cAMP
+    node_cAMP --> node_Inhibicedopaminergni
+    node_Inhibicedopaminergni --> node_VTANAcPFC
+    node_VTANAcPFC --> node_741f2676
+    node_741f2676 --> node_FENOMENOLOGIE
+    node_FENOMENOLOGIE --> node_Dysforickyhalucinacn
+    node_Dysforickyhalucinacn --> node_Depersonalizace
+    node_Depersonalizace --> node_Derealizace
+    node_Derealizace --> node_Bizarnitelesnevniman
+
+    click node_Kappaopioidnirecepto "/receptors/opioid/" "Kappa opioidni receptor KOR"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SALVINORIN A (inhalace)
         |
@@ -162,6 +205,8 @@ Inhibice dopaminergni transmise
 | - Bizarni telesne vnimani  |
 +----------------------------+
 ```
+
+</details>
 
 ### Srovnani s mu a delta opioidy
 

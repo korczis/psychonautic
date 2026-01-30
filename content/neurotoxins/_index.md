@@ -76,6 +76,25 @@ Sodíkové kanály jsou klíčové pro generování a propagaci akčních potenc
 
 **Mechanismus**: Vysoce selektivní blokáda napěťově řízených sodíkových kanálů (Nav) vazbou na místo 1 v póru kanálu.
 
+```mermaid
+flowchart TD
+    node_AfinitaTTXkNavsubtyp["Afinita TTX k Nav subtypům:"]
+    node_Nav1114Vysokcitlivos["Nav1.1-1.4: Vysoká citlivost IC₅₀ ~ 1-10 nM"]
+    node_Nav15Rezistencesrden["Nav1.5: Rezistence srdeční izoforma"]
+    node_Nav16Vysokcitlivost["Nav1.6: Vysoká citlivost"]
+    node_Nav17Vysokcitlivostb["Nav1.7: Vysoká citlivost bolest"]
+    node_Nav1819Rezistencesen["Nav1.8-1.9: Rezistence senzorické neurony"]
+
+    node_AfinitaTTXkNavsubtyp --> node_Nav1114Vysokcitlivos
+    node_Nav1114Vysokcitlivos --> node_Nav15Rezistencesrden
+    node_Nav15Rezistencesrden --> node_Nav16Vysokcitlivost
+    node_Nav16Vysokcitlivost --> node_Nav17Vysokcitlivostb
+    node_Nav17Vysokcitlivostb --> node_Nav1819Rezistencesen
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Afinita TTX k Nav subtypům:
 ├── Nav1.1-1.4: Vysoká citlivost (IC₅₀ ~ 1-10 nM)
@@ -84,6 +103,8 @@ Afinita TTX k Nav subtypům:
 ├── Nav1.7: Vysoká citlivost (bolest)
 └── Nav1.8-1.9: Rezistence (senzorické neurony)
 ```
+
+</details>
 
 **Toxikologie**:
 - LD₅₀ (myš, i.p.): 8-12 μg/kg
@@ -130,6 +151,25 @@ Afinita TTX k Nav subtypům:
 
 **Terapeutické využití**: Ziconotid (syntetický ω-konotoxin MVIIA) - léčba chronické bolesti
 
+```mermaid
+flowchart TD
+    node_Konotoxinypehled["Konotoxiny - přehled:"]
+    node_konotoxinyCakanly["ω-konotoxiny: Ca²⁺ kanály"]
+    node_konotoxinynAChR["α-konotoxiny: nAChR"]
+    node_konotoxinyNakanly["μ-konotoxiny: Na⁺ kanály"]
+    node_konotoxinyKkanly["κ-konotoxiny: K⁺ kanály"]
+    node_konotoxinyNakanlyina["δ-konotoxiny: Na⁺ kanály inaktivace"]
+
+    node_Konotoxinypehled --> node_konotoxinyCakanly
+    node_konotoxinyCakanly --> node_konotoxinynAChR
+    node_konotoxinynAChR --> node_konotoxinyNakanly
+    node_konotoxinyNakanly --> node_konotoxinyKkanly
+    node_konotoxinyKkanly --> node_konotoxinyNakanlyina
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Konotoxiny - přehled:
 ├── ω-konotoxiny: Ca²⁺ kanály
@@ -138,6 +178,8 @@ Konotoxiny - přehled:
 ├── κ-konotoxiny: K⁺ kanály
 └── δ-konotoxiny: Na⁺ kanály (inaktivace)
 ```
+
+</details>
 
 ### Modulátory cholinergního systému
 
@@ -175,6 +217,29 @@ Konotoxiny - přehled:
 
 **Mechanismus**: Proteolytické štěpení SNARE proteinů (synaptobrevin, SNAP-25, syntaxin)
 
+```mermaid
+flowchart TD
+    node_Srotypybotulotoxinu["Sérotypy botulotoxinu:"]
+    node_BoNTAtpSNAP25nejastj["BoNT/A: Štěpí SNAP-25 nejčastěji terapeuticky"]
+    node_BoNTBtpsynaptobrevin["BoNT/B: Štěpí synaptobrevin VAMP"]
+    node_BoNTCtpsyntaxinaSNAP["BoNT/C: Štěpí syntaxin a SNAP-25"]
+    node_BoNTDtpsynaptobrevin["BoNT/D: Štěpí synaptobrevin"]
+    node_BoNTEtpSNAP25["BoNT/E: Štěpí SNAP-25"]
+    node_BoNTFtpsynaptobrevin["BoNT/F: Štěpí synaptobrevin"]
+    node_BoNTGtpsynaptobrevin["BoNT/G: Štěpí synaptobrevin"]
+
+    node_Srotypybotulotoxinu --> node_BoNTAtpSNAP25nejastj
+    node_BoNTAtpSNAP25nejastj --> node_BoNTBtpsynaptobrevin
+    node_BoNTBtpsynaptobrevin --> node_BoNTCtpsyntaxinaSNAP
+    node_BoNTCtpsyntaxinaSNAP --> node_BoNTDtpsynaptobrevin
+    node_BoNTDtpsynaptobrevin --> node_BoNTEtpSNAP25
+    node_BoNTEtpSNAP25 --> node_BoNTFtpsynaptobrevin
+    node_BoNTFtpsynaptobrevin --> node_BoNTGtpsynaptobrevin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Sérotypy botulotoxinu:
 ├── BoNT/A: Štěpí SNAP-25 (nejčastěji terapeuticky)
@@ -185,6 +250,8 @@ Sérotypy botulotoxinu:
 ├── BoNT/F: Štěpí synaptobrevin
 └── BoNT/G: Štěpí synaptobrevin
 ```
+
+</details>
 
 **Toxicita**:
 - Nejjedovatější známá látka
@@ -277,6 +344,29 @@ Hadí jedy obsahují komplexní směs neurotoxických peptidů:
 **Mechanismus**: Agonista nikotinových acetylcholinových receptorů
 
 **Farmakodynamika**:
+```mermaid
+flowchart TD
+    node_Nzkdvky["Nízké dávky:"]
+    node_AktivacenAChR["Aktivace nAChR"]
+    node_Uvolnndopaminu["Uvolnění dopaminu"]
+    node_Stimulaceeuforie["Stimulace, euforie"]
+    node_Vysokdvky["Vysoké dávky:"]
+    node_Depolarizanblokda["Depolarizační blokáda"]
+    node_Desenzitizacerecepto["Desenzitizace receptorů"]
+    node_Paralzasmrt["Paralýza, smrt"]
+
+    node_Nzkdvky --> node_AktivacenAChR
+    node_AktivacenAChR --> node_Uvolnndopaminu
+    node_Uvolnndopaminu --> node_Stimulaceeuforie
+    node_Stimulaceeuforie --> node_Vysokdvky
+    node_Vysokdvky --> node_Depolarizanblokda
+    node_Depolarizanblokda --> node_Desenzitizacerecepto
+    node_Desenzitizacerecepto --> node_Paralzasmrt
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Nízké dávky:
 ├── Aktivace nAChR
@@ -288,6 +378,8 @@ Vysoké dávky:
 ├── Desenzitizace receptorů
 └── Paralýza, smrt
 ```
+
+</details>
 
 **Toxikologie**:
 - LD₅₀ (člověk): ~40-60 mg
@@ -327,6 +419,29 @@ Excitotoxicita je patologický proces, při kterém nadměrná aktivace glutamá
 
 ### Mechanismus
 
+```mermaid
+flowchart TD
+    node_Excitotoxickkaskda["Excitotoxická kaskáda:"]
+    node_1Nadmrnuvolnnglutamt["1. Nadměrné uvolnění glutamátu"]
+    node_2AktivaceNMDAAMPArec["2. Aktivace NMDA/AMPA receptorů"]
+    node_3MasivninfluxCa["3. Masivní influx Ca²⁺"]
+    node_4Aktivaceprotezlipze["4. Aktivace proteáz, lipáz, endonukleáz"]
+    node_5Mitochondrilndysfun["5. Mitochondriální dysfunkce"]
+    node_6ProdukceROS["6. Produkce ROS"]
+    node_7Bunnsmrtnekrzaapopt["7. Buněčná smrt nekróza/apoptóza"]
+
+    node_Excitotoxickkaskda --> node_1Nadmrnuvolnnglutamt
+    node_1Nadmrnuvolnnglutamt --> node_2AktivaceNMDAAMPArec
+    node_2AktivaceNMDAAMPArec --> node_3MasivninfluxCa
+    node_3MasivninfluxCa --> node_4Aktivaceprotezlipze
+    node_4Aktivaceprotezlipze --> node_5Mitochondrilndysfun
+    node_5Mitochondrilndysfun --> node_6ProdukceROS
+    node_6ProdukceROS --> node_7Bunnsmrtnekrzaapopt
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Excitotoxická kaskáda:
 ├── 1. Nadměrné uvolnění glutamátu
@@ -337,6 +452,8 @@ Excitotoxická kaskáda:
 ├── 6. Produkce ROS
 └── 7. Buněčná smrt (nekróza/apoptóza)
 ```
+
+</details>
 
 ### Excitotoxiny v přírodě
 
@@ -372,6 +489,39 @@ Neurotoxiny slouží jako nástroje pro mapování nervových drah:
 
 ### Farmakologické nástroje
 
+```mermaid
+flowchart TD
+    node_Vyuitneurotoxinvevzk["Využití neurotoxinů ve výzkumu:"]
+    node_Charakterizaceiontov["Charakterizace iontových kanálů"]
+    node_SelektivitaTTXSvsTTX["Selektivita TTX-S vs TTX-R"]
+    node_Kinetika["Kinetika"]
+    node_Farmakologie["Farmakologie"]
+    node_Studiumsynaptickhope["Studium synaptického přenosu"]
+    node_Kvantovuvolovn["Kvantové uvolňování"]
+    node_SNAREmechanismus["SNARE mechanismus"]
+    node_Presynaptickprocesy["Presynaptické procesy"]
+    node_Modelyonemocnn["Modely onemocnění"]
+    node_MPTPParkinsonismus["MPTP  Parkinsonismus"]
+    node_KaintyEpilepsie["Kaináty  Epilepsie"]
+    node_ExcitotoxinyNeurodeg["Excitotoxiny  Neurodegenerace"]
+
+    node_Vyuitneurotoxinvevzk --> node_Charakterizaceiontov
+    node_Charakterizaceiontov --> node_SelektivitaTTXSvsTTX
+    node_SelektivitaTTXSvsTTX --> node_Kinetika
+    node_Kinetika --> node_Farmakologie
+    node_Farmakologie --> node_Studiumsynaptickhope
+    node_Studiumsynaptickhope --> node_Kvantovuvolovn
+    node_Kvantovuvolovn --> node_SNAREmechanismus
+    node_SNAREmechanismus --> node_Presynaptickprocesy
+    node_Presynaptickprocesy --> node_Modelyonemocnn
+    node_Modelyonemocnn --> node_MPTPParkinsonismus
+    node_MPTPParkinsonismus --> node_KaintyEpilepsie
+    node_KaintyEpilepsie --> node_ExcitotoxinyNeurodeg
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Využití neurotoxinů ve výzkumu:
 ├── Charakterizace iontových kanálů
@@ -387,6 +537,8 @@ Využití neurotoxinů ve výzkumu:
     ├── Kaináty → Epilepsie
     └── Excitotoxiny → Neurodegenerace
 ```
+
+</details>
 
 ### Vývoj léčiv
 
@@ -434,6 +586,27 @@ Nejúspěšnější terapeutická aplikace neurotoxinů:
 
 ### Vývoj analgetik z toxinů
 
+```mermaid
+flowchart TD
+    node_Strategievvoje["Strategie vývoje:"]
+    node_Identifikacetoxinusa["Identifikace toxinu s analgetickým potenciálem"]
+    node_Urenmolekulrnhocle["Určení molekulárního cíle"]
+    node_Strukturaaktivitavzt["Struktura-aktivita vztahy SAR"]
+    node_Optimalizacefarmakok["Optimalizace farmakokinetiky"]
+    node_Snentoxicity["Snížení toxicity"]
+    node_Klinicktestovn["Klinické testování"]
+
+    node_Strategievvoje --> node_Identifikacetoxinusa
+    node_Identifikacetoxinusa --> node_Urenmolekulrnhocle
+    node_Urenmolekulrnhocle --> node_Strukturaaktivitavzt
+    node_Strukturaaktivitavzt --> node_Optimalizacefarmakok
+    node_Optimalizacefarmakok --> node_Snentoxicity
+    node_Snentoxicity --> node_Klinicktestovn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Strategie vývoje:
 ├── Identifikace toxinu s analgetickým potenciálem
@@ -443,6 +616,8 @@ Strategie vývoje:
 ├── Snížení toxicity
 └── Klinické testování
 ```
+
+</details>
 
 ---
 

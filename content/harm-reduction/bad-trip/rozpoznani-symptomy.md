@@ -104,6 +104,31 @@ Postoj tela:
 
 ## Casova Osa Progrese
 
+```mermaid
+flowchart TD
+    node_TYPICKYPRUBEHBADTRIP["TYPICKY PRUBEH BAD TRIPU:"]
+    node_Caspouziti["Cas po uziti"]
+    node_OnsetPeakPlateauCome["Onset     Peak        Plateau     Comedown"]
+    node_02h24h46h612h["0-2h        2-4h          4-6h          6-12h"]
+    node_VYSSINEJVYSSISNIZUJI["VYSSI      NEJVYSSI      SNIZUJICI    ODEZNEVAJICI"]
+    node_RIZIKORIZIKOSERIZIKO["RIZIKO     RIZIKO        SE RIZIKO    RIZIKO"]
+    node_KRITICKOKNOPROINTERV["KRITICKÉ OKNO PRO INTERVENCI"]
+    node_prvnich30minutodzaca["prvnich 30 minut od zacatku symptomu"]
+
+    node_TYPICKYPRUBEHBADTRIP --> node_Caspouziti
+    node_Caspouziti --> node_OnsetPeakPlateauCome
+    node_OnsetPeakPlateauCome --> node_02h24h46h612h
+    node_02h24h46h612h --> node_VYSSINEJVYSSISNIZUJI
+    node_VYSSINEJVYSSISNIZUJI --> node_RIZIKORIZIKOSERIZIKO
+    node_RIZIKORIZIKOSERIZIKO --> node_KRITICKOKNOPROINTERV
+    node_KRITICKOKNOPROINTERV --> node_prvnich30minutodzaca
+
+    click node_TYPICKYPRUBEHBADTRIP "/harm-reduction/bad-trip/_index/" "TYPICKY PRUBEH BAD TRIPU:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPICKY PRUBEH BAD TRIPU:
 =========================
@@ -122,6 +147,8 @@ RIZIKO     RIZIKO        SE RIZIKO    RIZIKO
         KRITICKÉ OKNO PRO INTERVENCI
         (prvnich 30 minut od zacatku symptomu)
 ```
+
+</details>
 
 ### Trvání Dle Latky
 
@@ -197,6 +224,61 @@ RIZIKO     RIZIKO        SE RIZIKO    RIZIKO
 
 ### Serotonin Syndrom - ROZPOZNANI
 
+```mermaid
+flowchart TD
+    node_SEROTONINSYNDROMVARO["SEROTONIN SYNDROM - VAROVNE ZNAKY:"]
+    node_TriadaKogniceAutonom["Triada: Kognice + Autonomni + Neuromuskulární"]
+    node_KOGNITIVN["KOGNITIVNÍ:"]
+    node_Agitace["• Agitace"]
+    node_Zmatenost["• Zmatenost"]
+    node_Hypomanie["• Hypo/manie"]
+    node_AUTONOMNI["AUTONOMNI:"]
+    node_Tachykardie["• Tachykardie"]
+    node_Hypertermie38C["• Hypertermie &gt;38°C"]
+    node_Mydriazarozsirenezor["• Mydriaza rozsirene zornice"]
+    node_Poceni["• Poceni"]
+    node_Prujem["• Prujem"]
+    node_NEUROMUSKULARNI["NEUROMUSKULARNI:"]
+    node_Tremor["• Tremor"]
+    node_Hyperreflexie["• Hyperreflexie"]
+    node_Klonusrhythmickkontr["• Klonus rhythmické kontrakce"]
+    node_Rigiditaztuhlost["• Rigidita ztuhlost"]
+    node_Myoklonus["• Myoklonus"]
+    node_VYSOKERIZIKOPRIKOMBI["⚠️ VYSOKE RIZIKO PRI KOMBINACI:"]
+    node_MAOITryptaminyDMTPsi["MAOI + Tryptaminy DMT, Psilocybin"]
+    node_MAOIMDMA["MAOI + MDMA"]
+    node_SSRIMDMA["SSRI + MDMA"]
+    node_Lithiumpsychedelika["Lithium + psychedelika"]
+    node_PRIPODEZRENIOKAMZITE["PRI PODEZRENI OKAMZITE VOLAT 155"]
+
+    node_SEROTONINSYNDROMVARO --> node_TriadaKogniceAutonom
+    node_TriadaKogniceAutonom --> node_KOGNITIVN
+    node_KOGNITIVN --> node_Agitace
+    node_Agitace --> node_Zmatenost
+    node_Zmatenost --> node_Hypomanie
+    node_Hypomanie --> node_AUTONOMNI
+    node_AUTONOMNI --> node_Tachykardie
+    node_Tachykardie --> node_Hypertermie38C
+    node_Hypertermie38C --> node_Mydriazarozsirenezor
+    node_Mydriazarozsirenezor --> node_Poceni
+    node_Poceni --> node_Prujem
+    node_Prujem --> node_NEUROMUSKULARNI
+    node_NEUROMUSKULARNI --> node_Tremor
+    node_Tremor --> node_Hyperreflexie
+    node_Hyperreflexie --> node_Klonusrhythmickkontr
+    node_Klonusrhythmickkontr --> node_Rigiditaztuhlost
+    node_Rigiditaztuhlost --> node_Myoklonus
+    node_Myoklonus --> node_VYSOKERIZIKOPRIKOMBI
+    node_VYSOKERIZIKOPRIKOMBI --> node_MAOITryptaminyDMTPsi
+    node_MAOITryptaminyDMTPsi --> node_MAOIMDMA
+    node_MAOIMDMA --> node_SSRIMDMA
+    node_SSRIMDMA --> node_Lithiumpsychedelika
+    node_Lithiumpsychedelika --> node_PRIPODEZRENIOKAMZITE
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SEROTONIN SYNDROM - VAROVNE ZNAKY:
 ==================================
@@ -230,6 +312,8 @@ NEUROMUSKULARNI:
 
 → PRI PODEZRENI OKAMZITE VOLAT 155
 ```
+
+</details>
 
 ---
 

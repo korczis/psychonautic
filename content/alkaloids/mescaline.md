@@ -149,6 +149,23 @@ Kniha inspirovala:
 
 ### Mechanismus účinku
 
+```mermaid
+flowchart TD
+    node_Meskalin["Meskalin"]
+    node_5HT2AreceptorvrstvaV["5-HT2A receptor vrstva V kortexu"]
+    node_Gq11PLCIPDAG["Gq/11  PLC  IP₃ + DAG"]
+    node_Zmnyvneuronlnaktivit["Změny v neuronální aktivitě"]
+    node_Psychedelickinky["Psychedelické účinky"]
+
+    node_Meskalin --> node_5HT2AreceptorvrstvaV
+    node_5HT2AreceptorvrstvaV --> node_Gq11PLCIPDAG
+    node_Gq11PLCIPDAG --> node_Zmnyvneuronlnaktivit
+    node_Zmnyvneuronlnaktivit --> node_Psychedelickinky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Meskalin
     ↓
@@ -160,6 +177,8 @@ Změny v neuronální aktivitě
     ↓
 Psychedelické účinky
 ```
+
+</details>
 
 ### Doplňkové mechanismy
 
@@ -181,6 +200,25 @@ Psychedelické účinky
 
 ### Metabolické dráhy
 
+```mermaid
+flowchart TD
+    node_Meskalin["Meskalin"]
+    node_MAOA345trimethoxyfen["MAO-A  3,4,5-trimethoxyfenylacetald"]
+    node_345TMAkyselina["3,4,5-TMA kyselina"]
+    node_Nacetyltransferza["N-acetyltransferáza"]
+    node_Nacetylmeskalin["N-acetylmeskalin"]
+    node_Renlneliminace["Renální eliminace"]
+
+    node_Meskalin --> node_MAOA345trimethoxyfen
+    node_MAOA345trimethoxyfen --> node_345TMAkyselina
+    node_345TMAkyselina --> node_Nacetyltransferza
+    node_Nacetyltransferza --> node_Nacetylmeskalin
+    node_Nacetylmeskalin --> node_Renlneliminace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Meskalin
     ↓
@@ -194,6 +232,8 @@ Meskalin
     ↓
 Renální eliminace
 ```
+
+</details>
 
 ## Dávkování
 
@@ -308,6 +348,31 @@ Meskalin byl syntetizován mnoha cestami:
 
 ### Biosyntéza v kaktusech
 
+```mermaid
+flowchart TD
+    node_LTyrosin["L-Tyrosin"]
+    node_Tyrosindekarboxylza["Tyrosin dekarboxyláza"]
+    node_Tyramin["Tyramin"]
+    node_Hydroxylace["Hydroxylace"]
+    node_Dopamin["Dopamin"]
+    node_Omethylace["O-methylace"]
+    node_3Methoxytyramin["3-Methoxytyramin"]
+    node_Hydroxylacemethylace["Hydroxylace + methylace"]
+    node_Meskalin["Meskalin"]
+
+    node_LTyrosin --> node_Tyrosindekarboxylza
+    node_Tyrosindekarboxylza --> node_Tyramin
+    node_Tyramin --> node_Hydroxylace
+    node_Hydroxylace --> node_Dopamin
+    node_Dopamin --> node_Omethylace
+    node_Omethylace --> node_3Methoxytyramin
+    node_3Methoxytyramin --> node_Hydroxylacemethylace
+    node_Hydroxylacemethylace --> node_Meskalin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-Tyrosin
     ↓ [Tyrosin dekarboxyláza]
@@ -319,6 +384,8 @@ Dopamin
     ↓ [Hydroxylace + methylace]
 Meskalin
 ```
+
+</details>
 
 ## Bezpečnost
 
@@ -438,6 +505,5 @@ Viz také:
 - [LSD](@/alkaloids/lsd.md) - ergolinové psychedelikum
 - [Psilocybin](@/alkaloids/psilocybin.md) - tryptaminové psychedelikum
 - [DMT](@/alkaloids/dmt.md) - "Spirit Molecule"
-- [Muscimol](@/alkaloids/muscimol.md) - GABAergní psychoaktivum
 
 ← Zpět na [Alkaloidy](@/alkaloids/_index.md) | [LSD](@/alkaloids/lsd.md) | [DMT](@/alkaloids/dmt.md) →

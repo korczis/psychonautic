@@ -29,6 +29,26 @@ Latky pusobici primarne jako antagoniste [NMDA receptoru](@/receptors/nmda.md):
 
 ### NMDA antagoniste
 
+```mermaid
+flowchart TD
+    node_NMDARECEPTOROVBLOKDA["NMDA RECEPTOROVÁ BLOKÁDA"]
+    node_8f2e3ec4["+----+----+----+----+"]
+    node_PCPMXEDXMKetaminEske["PCP   MXE  DXM  Ketamin  Esketamin"]
+    node_50nM3002000500100030["50nM 300 2000 500-1000 300-500"]
+    node_KihodnotynMnizsivyss["Ki hodnoty nM - nizsi = vyssi afinita"]
+
+    node_NMDARECEPTOROVBLOKDA --> node_8f2e3ec4
+    node_8f2e3ec4 --> node_PCPMXEDXMKetaminEske
+    node_PCPMXEDXMKetaminEske --> node_50nM3002000500100030
+    node_50nM3002000500100030 --> node_KihodnotynMnizsivyss
+
+    click node_NMDARECEPTOROVBLOKDA "/receptors/nmda/" "NMDA RECEPTOROVÁ BLOKÁDA"
+    click node_PCPMXEDXMKetaminEske "/substances/dxm/" "PCP   MXE  DXM  Ketamin  Esketamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NMDA RECEPTOROVÁ BLOKÁDA
          |
@@ -40,6 +60,8 @@ NMDA RECEPTOROVÁ BLOKÁDA
 
 Ki hodnoty (nM) - nizsi = vyssi afinita
 ```
+
+</details>
 
 ### Serotoninergni komponenta
 

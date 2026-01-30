@@ -4,9 +4,6 @@ description = "5-Hydroxytryptofan - prekurzor serotoninu, suplement pro naladu a
 weight = 1
 insert_anchor_links = "right"
 
-[taxonomies]
-categories = ["suplementy", "prekurzory"]
-tags = ["5-HTP", "serotonin", "prekurzor", "deprese", "spanek", "interakce", "serotonin-syndrom"]
 +++
 
 # 5-HTP - Prekurzor serotoninu
@@ -63,6 +60,41 @@ SEROTONIN (5-HT)
 
 ### Centralni vs. periferni konverze
 
+```mermaid
+flowchart TD
+    node_PROBLEMPERIFERNIKONV["PROBLEM PERIFERNI KONVERZE"]
+    node_5HTPoralne["5-HTP oralne"]
+    node_ddb739e1["+------------------+"]
+    node_PERIFERIECNS["PERIFERIE           CNS"]
+    node_strevojatramozek["strevo, jatra     mozek"]
+    node_AADCAADC["AADC           | AADC"]
+    node_PerifernCentrln["Periferní          Centrální"]
+    node_SEROTONINSEROTONIN["SEROTONIN          SEROTONIN"]
+    node_NEmeprojtTerapeutick["NEmůže projít      Terapeuticky"]
+    node_HEBucinek["HEB!               ucinek"]
+    node_Nedouccinky["Nežádoucí úcinky:"]
+    node_RESENI["RESENI:"]
+    node_Aletojelknesuplement["Ale to je lék, ne suplement!"]
+
+    node_PROBLEMPERIFERNIKONV --> node_5HTPoralne
+    node_5HTPoralne --> node_ddb739e1
+    node_ddb739e1 --> node_PERIFERIECNS
+    node_PERIFERIECNS --> node_strevojatramozek
+    node_strevojatramozek --> node_AADCAADC
+    node_AADCAADC --> node_PerifernCentrln
+    node_PerifernCentrln --> node_SEROTONINSEROTONIN
+    node_SEROTONINSEROTONIN --> node_NEmeprojtTerapeutick
+    node_NEmeprojtTerapeutick --> node_HEBucinek
+    node_HEBucinek --> node_Nedouccinky
+    node_Nedouccinky --> node_RESENI
+    node_RESENI --> node_Aletojelknesuplement
+
+    click node_SEROTONINSEROTONIN "/glossary/serotonin/" "SEROTONIN          SEROTONIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PROBLEM PERIFERNI KONVERZE
 
@@ -92,7 +124,131 @@ RESENI:
 - Nizsi davky
 - Kombinace s periferni inhibitorem AADC (carbidopa)
   [Ale to je lék, ne suplement!]
+```mermaid
+flowchart TD
+    node_details["&lt;/details&gt;"]
+    node_Pouzitiadavkovani["## Pouziti a davkovani"]
+    node_Indikacesuplementace["### Indikace suplementace"]
+    node_IndikaceEvidenceDavk["Indikace | Evidence | Davka"]
+    node_c5c63a54["----------|----------|-------"]
+    node_DepreseSlabastredni1["**Deprese** | Slaba-stredni | 150-300 mg/den"]
+    node_UzkostSlaba50200mgde["**Uzkost** | Slaba | 50-200 mg/den"]
+    node_InsomnieStredni10030["**Insomnie** | Stredni | 100-300 mg pred spankem"]
+    node_MigrnaSlabastredni10["**Migréna** | Slaba-stredni | 100-600 mg/den"]
+    node_FibromyalgieSlaba100["**Fibromyalgie** | Slaba | 100 mg 3x denne"]
+    node_ObezitaSlaba250900mg["**Obezita** | Slaba | 250-900 mg/den"]
+    node_Davkovacischema["### Davkovaci schema"]
+    node_UrovenDavkaFrekvence["Uroven | Davka | Frekvence"]
+    node_7c034496["--------|-------|-----------"]
+    node_Zacinajici50mg12xden["**Zacinajici** | 50 mg | 1-2x denne"]
+    node_Stredni100mg23xdenne["**Stredni** | 100 mg | 2-3x denne"]
+    node_Vyssi150200mg23xdenn["**Vyssi** | 150-200 mg | 2-3x denne"]
+    node_Maximum300mgDenneroz["**Maximum** | 300 mg | Denne rozdelene"]
+    node_Formy["### Formy"]
+    node_FormaPoznamka["Forma | Poznamka"]
+    node_92f0e563["-------|----------"]
+    node_TobolkyNejbeznejsi50["**Tobolky** | Nejbeznejsi, 50-100 mg"]
+    node_TabletySprodlouzenym["**Tablety** | S prodlouzenym uvolnovanim"]
+    node_PrasekPropresnejsida["**Prasek** | Pro presnejsi davkovani"]
+    node_SB6Nekterproduktyobs["**S B6** | Nekteré produkty obsahuji B6"]
+    node_Vedlejsiucinky["## Vedlejsi ucinky"]
+    node_Cast["### Casté"]
+    node_UcinekMechanismusMan["Ucinek | Mechanismus | Management"]
+    node_4a9aff83["--------|-------------|------------"]
+    node_NauseaPerifernseroto["**Nausea** | Periferní serotonin GI | Snizit davku, s jidlem"]
+    node_PrujemGImotilitaSniz["**Prujem** | GI motilita | Snizit davku"]
+    node_ZivesnyCentrlnseroto["**Zive sny** | Centrální serotonin | -"]
+    node_OspalostSerotoninmel["**Ospalost** | Serotonin  melatonin | Podavat vecer"]
+    node_Vzacnalezvazne["### Vzacné ale závazne"]
+    node_UcinekRizikoPoznamka["Ucinek | Riziko | Poznamka"]
+    node_044b3c3d["--------|--------|----------"]
+    node_Eosinofiliamyalgiasy["**Eosinofilia-myalgia syndrom EMS** | Historicky | Kontaminace L-tryptofanu 1989"]
+    node_KardiovaskularniTeor["**Kardiovaskularni** | Teoreticke | Periferni serotonin  fibróza chlopni?"]
+    node_Serotoninovsyndromco["**Serotoninový syndrom@/conditions/serotonin-syndrome.md** | Pri kombinacích | Viz níze"]
+    node_Interakceakontraindi["## Interakce a kontraindikace"]
+    node_KRITICKESerotoninovy["### KRITICKE: Serotoninovy syndrom"]
+    node_5HTPzvysujeserotonin["**5-HTP zvysuje serotonin a muze zpusobit serotoninovy syndrom pri kombinaci s jinými serotonergiky!**"]
+    node_KombinaceRizikoDopor["Kombinace | Riziko | Doporuceni"]
+    node_4cb394f3["-----------|--------|------------"]
+    node_5HTPSSRIVYSOKEKONTRA["**5-HTP + SSRI** | VYSOKE | **KONTRAINDIKOVANO**"]
+    node_5HTPSNRIVYSOKEKONTRA["**5-HTP + SNRI** | VYSOKE | **KONTRAINDIKOVANO**"]
+    node_5HTPMAOiKRITICKEABSO["**5-HTP + MAOi** | KRITICKE | **ABSOLUTNE KONTRAINDIKOVANO**"]
+    node_5HTPTramadolVYSOKEVy["**5-HTP + Tramadol** | VYSOKE | Vynechat"]
+    node_5HTPMDMAVYSOKEVizhar["**5-HTP + MDMA** | VYSOKE | Viz harm reduction"]
+    node_5HTPTriptanySTREDNIO["**5-HTP + Triptany** | STREDNI | Opatrnost"]
+    node_5HTPLtryptofanSTREDN["**5-HTP + L-tryptofan** | STREDNI | Redundantni"]
+    node_Priznakyserotoninovh["### Priznaky serotoninového syndromu"]
+
+    node_details --> node_Pouzitiadavkovani
+    node_Pouzitiadavkovani --> node_Indikacesuplementace
+    node_Indikacesuplementace --> node_IndikaceEvidenceDavk
+    node_IndikaceEvidenceDavk --> node_c5c63a54
+    node_c5c63a54 --> node_DepreseSlabastredni1
+    node_DepreseSlabastredni1 --> node_UzkostSlaba50200mgde
+    node_UzkostSlaba50200mgde --> node_InsomnieStredni10030
+    node_InsomnieStredni10030 --> node_MigrnaSlabastredni10
+    node_MigrnaSlabastredni10 --> node_FibromyalgieSlaba100
+    node_FibromyalgieSlaba100 --> node_ObezitaSlaba250900mg
+    node_ObezitaSlaba250900mg --> node_Davkovacischema
+    node_Davkovacischema --> node_UrovenDavkaFrekvence
+    node_UrovenDavkaFrekvence --> node_7c034496
+    node_7c034496 --> node_Zacinajici50mg12xden
+    node_Zacinajici50mg12xden --> node_Stredni100mg23xdenne
+    node_Stredni100mg23xdenne --> node_Vyssi150200mg23xdenn
+    node_Vyssi150200mg23xdenn --> node_Maximum300mgDenneroz
+    node_Maximum300mgDenneroz --> node_Formy
+    node_Formy --> node_FormaPoznamka
+    node_FormaPoznamka --> node_92f0e563
+    node_92f0e563 --> node_TobolkyNejbeznejsi50
+    node_TobolkyNejbeznejsi50 --> node_TabletySprodlouzenym
+    node_TabletySprodlouzenym --> node_PrasekPropresnejsida
+    node_PrasekPropresnejsida --> node_SB6Nekterproduktyobs
+    node_SB6Nekterproduktyobs --> node_Vedlejsiucinky
+    node_Vedlejsiucinky --> node_Cast
+    node_Cast --> node_UcinekMechanismusMan
+    node_UcinekMechanismusMan --> node_4a9aff83
+    node_4a9aff83 --> node_NauseaPerifernseroto
+    node_NauseaPerifernseroto --> node_PrujemGImotilitaSniz
+    node_PrujemGImotilitaSniz --> node_ZivesnyCentrlnseroto
+    node_ZivesnyCentrlnseroto --> node_OspalostSerotoninmel
+    node_OspalostSerotoninmel --> node_Vzacnalezvazne
+    node_Vzacnalezvazne --> node_UcinekRizikoPoznamka
+    node_UcinekRizikoPoznamka --> node_044b3c3d
+    node_044b3c3d --> node_Eosinofiliamyalgiasy
+    node_Eosinofiliamyalgiasy --> node_KardiovaskularniTeor
+    node_KardiovaskularniTeor --> node_Serotoninovsyndromco
+    node_Serotoninovsyndromco --> node_Interakceakontraindi
+    node_Interakceakontraindi --> node_KRITICKESerotoninovy
+    node_KRITICKESerotoninovy --> node_5HTPzvysujeserotonin
+    node_5HTPzvysujeserotonin --> node_KombinaceRizikoDopor
+    node_KombinaceRizikoDopor --> node_4cb394f3
+    node_4cb394f3 --> node_5HTPSSRIVYSOKEKONTRA
+    node_5HTPSSRIVYSOKEKONTRA --> node_5HTPSNRIVYSOKEKONTRA
+    node_5HTPSNRIVYSOKEKONTRA --> node_5HTPMAOiKRITICKEABSO
+    node_5HTPMAOiKRITICKEABSO --> node_5HTPTramadolVYSOKEVy
+    node_5HTPTramadolVYSOKEVy --> node_5HTPMDMAVYSOKEVizhar
+    node_5HTPMDMAVYSOKEVizhar --> node_5HTPTriptanySTREDNIO
+    node_5HTPTriptanySTREDNIO --> node_5HTPLtryptofanSTREDN
+    node_5HTPLtryptofanSTREDN --> node_Priznakyserotoninovh
+
+    click node_NauseaPerifernseroto "/glossary/serotonin/" "**Nausea** | Periferní serotonin GI | Snizit davku, s jidlem"
+    click node_ZivesnyCentrlnseroto "/glossary/serotonin/" "**Zive sny** | Centrální serotonin | -"
+    click node_OspalostSerotoninmel "/glossary/serotonin/" "**Ospalost** | Serotonin  melatonin | Podavat vecer"
+    click node_Eosinofiliamyalgiasy "/amino-acids/tryptophan/" "**Eosinofilia-myalgia syndrom EMS** | Historicky | Kontaminace L-tryptofanu 1989"
+    click node_KardiovaskularniTeor "/glossary/serotonin/" "**Kardiovaskularni** | Teoreticke | Periferni serotonin  fibróza chlopni?"
+    click node_Serotoninovsyndromco "/conditions/serotonin-syndrome/" "**Serotoninový syndrom@/conditions/serotonin-syndrome.md** | Pri kombinacích | Viz níze"
+    click node_KRITICKESerotoninovy "/conditions/serotonin-syndrome/" "### KRITICKE: Serotoninovy syndrom"
+    click node_5HTPzvysujeserotonin "/conditions/serotonin-syndrome/" "**5-HTP zvysuje serotonin a muze zpusobit serotoninovy syndrom pri kombinaci s jinými serotonergiky!**"
+    click node_5HTPMDMAVYSOKEVizhar "/alkaloids/mdma/" "**5-HTP + MDMA** | VYSOKE | Viz harm reduction"
+    click node_5HTPLtryptofanSTREDN "/amino-acids/tryptophan/" "**5-HTP + L-tryptofan** | STREDNI | Redundantni"
+    click node_Priznakyserotoninovh "/glossary/serotonin/" "### Priznaky serotoninového syndromu"
 ```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
+```
+</details>
 
 ---
 
@@ -169,6 +325,8 @@ RESENI:
 ### Priznaky serotoninového syndromu
 
 ```
+
+</details>
 VAROVNE PRIZNAKY
 
 Pri kombinaci 5-HTP s serotonergiky sledujte:
@@ -191,8 +349,37 @@ ZAVAZNE (URGENTNI!):
 - Zmatenost
 
 -> Pri zavaznych priznacích OKAMZITE vyhledat lékařskou pomoc!
+```mermaid
+flowchart TD
+    node_Kontraindikace["### Kontraindikace"]
+    node_AbsolutniRelativni["Absolutni | Relativni"]
+    node_ca238cbb["-----------|-----------"]
+    node_SoucasnaterapieSSRIS["Soucasna terapie SSRI/SNRI | Kardiální onemocneni"]
+    node_SoucasnaterapieMAOiD["Soucasna terapie MAOi | Downův syndrom snizeny metabolismus"]
+    node_KarcinoidsyndromTeho["Karcinoid syndrom | Tehotenstvi/kojeni"]
+    node_Planovanaoperacevysa["Planovana operace vysadit 2 tydny pred"]
+    node_5HTPapsychedelika["## 5-HTP a psychedelika"]
+    node_MDMAa5HTPharmreducti["### MDMA a 5-HTP - harm reduction"]
+    node_Vharmreductionkomuni["V harm reduction komunitě existuje praxe uzivani 5-HTP po MDMA k 'doplneni serotoninu':"]
+
+    node_Kontraindikace --> node_AbsolutniRelativni
+    node_AbsolutniRelativni --> node_ca238cbb
+    node_ca238cbb --> node_SoucasnaterapieSSRIS
+    node_SoucasnaterapieSSRIS --> node_SoucasnaterapieMAOiD
+    node_SoucasnaterapieMAOiD --> node_KarcinoidsyndromTeho
+    node_KarcinoidsyndromTeho --> node_Planovanaoperacevysa
+    node_Planovanaoperacevysa --> node_5HTPapsychedelika
+    node_5HTPapsychedelika --> node_MDMAa5HTPharmreducti
+    node_MDMAa5HTPharmreducti --> node_Vharmreductionkomuni
+
+    click node_MDMAa5HTPharmreducti "/alkaloids/mdma/" "### MDMA a 5-HTP - harm reduction"
+    click node_Vharmreductionkomuni "/alkaloids/mdma/" "V harm reduction komunitě existuje praxe uzivani 5-HTP po MDMA k "doplneni serotoninu":"
 ```
 
+<details>
+<summary>ASCII verze diagramu</summary>
+
+```
 ### Kontraindikace
 
 | Absolutni | Relativni |
@@ -211,6 +398,8 @@ ZAVAZNE (URGENTNI!):
 V harm reduction komunitě existuje praxe uzivani 5-HTP po MDMA k "doplneni serotoninu":
 
 ```
+
+</details>
 MDMA A 5-HTP - HARM REDUCTION PROTOKOL
 
 PRED MDMA:

@@ -76,11 +76,9 @@ Rod **Amanita** obsahuje houby s odlišným mechanismem účinku. Aktivní látk
 
 #### Amanita (Muchomůrky)
 
-Houby obsahující [muscimol](@/alkaloids/muscimol.md) a kyselinu ibotenovou.
 
 | Druh | České jméno | Aktivní látka | Potence |
 |------|-------------|---------------|---------|
-| [A. muscaria](@/shrooms/amanita-muscaria.md) | Muchomůrka červená | [Muscimol](@/alkaloids/muscimol.md) | Střední |
 | [A. pantherina](@/shrooms/amanita-pantherina.md) | Muchomůrka tygrovaná | Muscimol | Vysoká |
 | [A. regalis](@/shrooms/amanita-regalis.md) | Muchomůrka královská | Muscimol | Střední-vysoká |
 
@@ -164,7 +162,6 @@ Muchomůrky obsahují odlišnou skupinu aktivních látek.
 
 | Alkaloid | Mechanismus | Účinky |
 |----------|-------------|--------|
-| [Muscimol](@/alkaloids/muscimol.md) | GABA-A agonista | Sedativní, halucinogenní |
 | Kyselina ibotenová | NMDA agonista | Stimulační, neurotoxická |
 | Muscazon | Neznámý | Minimální aktivita |
 
@@ -538,6 +535,5 @@ Kultivace psychoaktivních hub je ve většině zemí nelegální. Následujíc�
 
 - [Alkaloidy](@/alkaloids/_index.md) - Chemie aktivních látek
 - [Psilocybin](@/alkaloids/psilocybin.md) - Hlavní aktivní látka lysohlávek
-- [Muscimol](@/alkaloids/muscimol.md) - Aktivní látka muchomůrek
 - [Bezpečnost](@/harm-reduction/_index.md) - Harm reduction průvodce
 - [Výzkum](@/research/_index.md) - Aktuální vědecké studie

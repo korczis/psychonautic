@@ -53,6 +53,47 @@ Leary definoval set and setting takto:
 
 **Set** (z anglickeho "mindset") oznacuje vnitrni psychologicky stav jedince vstupujiciho do psychedelicke zkusenosti. Zahrnuje:
 
+```mermaid
+flowchart TD
+    node_SETMindsetVnitrnifak["SET Mindset - Vnitrni faktory"]
+    node_AKUTNISTAV["+-- AKUTNI STAV"]
+    node_Aktualninalada["-- Aktualni nalada"]
+    node_Uzkostvsklid["-- Uzkost vs klid"]
+    node_Ocekavani["-- Ocekavani"]
+    node_Zamerintence["+-- Zamer/intence"]
+    node_STABILNICHARAKTERIST["+-- STABILNI CHARAKTERISTIKY"]
+    node_Osobnostnirysy["-- Osobnostni rysy"]
+    node_Psychiatrickaanamnez["-- Psychiatricka anamneza"]
+    node_Zkusenostispsychedel["-- Zkusenosti s psychedeliky"]
+    node_Copingovestrategie["+-- Copingove strategie"]
+    node_PRIPRAVA["+-- PRIPRAVA"]
+    node_Psychoedukace["-- Psychoedukace"]
+    node_Terapeutickyvztah["-- Terapeuticky vztah"]
+    node_Intencniprace["-- Intencni prace"]
+    node_Telesnapriprava["+-- Telesna priprava"]
+
+    node_SETMindsetVnitrnifak --> node_AKUTNISTAV
+    node_AKUTNISTAV --> node_Aktualninalada
+    node_Aktualninalada --> node_Uzkostvsklid
+    node_Uzkostvsklid --> node_Ocekavani
+    node_Ocekavani --> node_Zamerintence
+    node_Zamerintence --> node_STABILNICHARAKTERIST
+    node_STABILNICHARAKTERIST --> node_Osobnostnirysy
+    node_Osobnostnirysy --> node_Psychiatrickaanamnez
+    node_Psychiatrickaanamnez --> node_Zkusenostispsychedel
+    node_Zkusenostispsychedel --> node_Copingovestrategie
+    node_Copingovestrategie --> node_PRIPRAVA
+    node_PRIPRAVA --> node_Psychoedukace
+    node_Psychoedukace --> node_Terapeutickyvztah
+    node_Terapeutickyvztah --> node_Intencniprace
+    node_Intencniprace --> node_Telesnapriprava
+
+    click node_Zkusenostispsychedel "/alkaloids/_index/" "-- Zkusenosti s psychedeliky"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SET (Mindset) - Vnitrni faktory
     |
@@ -74,6 +115,8 @@ SET (Mindset) - Vnitrni faktory
             |-- Intencni prace
             +-- Telesna priprava
 ```
+
+</details>
 
 ### Komponenty setu
 
@@ -103,6 +146,31 @@ Ocekavani zasadne moduluji psychedelickou zkusenost:
 
 Jasna intence je klicovym prediktorem terapeutickeho vysledku:
 
+```mermaid
+flowchart TD
+    node_FORMULACEINTENCE["FORMULACE INTENCE"]
+    node_NECOCOCHCIPROZKOUMAT["+-- NECO, CO CHCI PROZKOUMAT"]
+    node_Procjsemuvizlyvtomto["'Proc jsem uvizly v tomto vztahu?'"]
+    node_NECOCOCHCIUVOLNIT["+-- NECO, CO CHCI UVOLNIT"]
+    node_Chciseosvoboditodstr["'Chci se osvobodit od strachu ze smrti'"]
+    node_NECOCOCHCIZISKAT["+-- NECO, CO CHCI ZISKAT"]
+    node_Chcinajithlubsismysl["'Chci najit hlubsi smysl zivota'"]
+    node_NECOCOCHCIPRIJMOUT["+-- NECO, CO CHCI PRIJMOUT"]
+    node_Chcisesmiritsminulos["'Chci se smirit s minulosti'"]
+
+    node_FORMULACEINTENCE --> node_NECOCOCHCIPROZKOUMAT
+    node_NECOCOCHCIPROZKOUMAT --> node_Procjsemuvizlyvtomto
+    node_Procjsemuvizlyvtomto --> node_NECOCOCHCIUVOLNIT
+    node_NECOCOCHCIUVOLNIT --> node_Chciseosvoboditodstr
+    node_Chciseosvoboditodstr --> node_NECOCOCHCIZISKAT
+    node_NECOCOCHCIZISKAT --> node_Chcinajithlubsismysl
+    node_Chcinajithlubsismysl --> node_NECOCOCHCIPRIJMOUT
+    node_NECOCOCHCIPRIJMOUT --> node_Chcisesmiritsminulos
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FORMULACE INTENCE
     |
@@ -118,6 +186,8 @@ FORMULACE INTENCE
     +-- NECO, CO CHCI PRIJMOUT
             "Chci se smirit s minulosti"
 ```
+
+</details>
 
 #### 4. Osobnostni faktory
 
@@ -148,6 +218,47 @@ FORMULACE INTENCE
 
 **Setting** oznacuje veskere vnejsi faktory ovlivnujici psychedelickou zkusenost, vcetne fyzickeho, socialniho a kulturniho prostredi.
 
+```mermaid
+flowchart TD
+    node_SETTINGVnejsifaktory["SETTING - Vnejsi faktory"]
+    node_FYZICKEPROSTREDI["+-- FYZICKE PROSTREDI"]
+    node_Mistnostprostor["-- Mistnost/prostor"]
+    node_Osvetleni["-- Osvetleni"]
+    node_Teplota["-- Teplota"]
+    node_Zvukyhudba["-- Zvuky/hudba"]
+    node_Bezpecnost["+-- Bezpecnost"]
+    node_SOCIALNIPROSTREDI["+-- SOCIALNI PROSTREDI"]
+    node_Pritomneosoby["-- Pritomne osoby"]
+    node_Terapeutpruvodce["-- Terapeut/pruvodce"]
+    node_Skupinovadynamika["-- Skupinova dynamika"]
+    node_Duvernost["+-- Duvernost"]
+    node_KULTURNIKONTEXT["+-- KULTURNI KONTEXT"]
+    node_Legalnistatus["-- Legalni status"]
+    node_Spolecenskevnimani["-- Spolecenske vnimani"]
+    node_Ritualniramec["-- Ritualni ramec"]
+    node_Vyznamovysystem["+-- Vyznamovy system"]
+
+    node_SETTINGVnejsifaktory --> node_FYZICKEPROSTREDI
+    node_FYZICKEPROSTREDI --> node_Mistnostprostor
+    node_Mistnostprostor --> node_Osvetleni
+    node_Osvetleni --> node_Teplota
+    node_Teplota --> node_Zvukyhudba
+    node_Zvukyhudba --> node_Bezpecnost
+    node_Bezpecnost --> node_SOCIALNIPROSTREDI
+    node_SOCIALNIPROSTREDI --> node_Pritomneosoby
+    node_Pritomneosoby --> node_Terapeutpruvodce
+    node_Terapeutpruvodce --> node_Skupinovadynamika
+    node_Skupinovadynamika --> node_Duvernost
+    node_Duvernost --> node_KULTURNIKONTEXT
+    node_KULTURNIKONTEXT --> node_Legalnistatus
+    node_Legalnistatus --> node_Spolecenskevnimani
+    node_Spolecenskevnimani --> node_Ritualniramec
+    node_Ritualniramec --> node_Vyznamovysystem
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SETTING - Vnejsi faktory
     |
@@ -170,6 +281,8 @@ SETTING - Vnejsi faktory
             |-- Ritualni ramec
             +-- Vyznamovy system
 ```
+
+</details>
 
 ### Fyzicke prostredi
 
@@ -228,6 +341,41 @@ Hudba je mocnym nastrojem modulace zkusenosti:
 
 Kvalita vztahu mezi klientem a pruvodcem je klicovym prediktorem vysledku:
 
+```mermaid
+flowchart TD
+    node_TERAPEUTICKYVZTAH["TERAPEUTICKY VZTAH"]
+    node_DUVERA["+-- DUVERA"]
+    node_Klientsecitibezpecne["Klient se citi bezpecne"]
+    node_Otevrenostkzraniteln["Otevrenost k zranitelnosti"]
+    node_RESPEKT["+-- RESPEKT"]
+    node_Nehodnoticpristup["Nehodnoticí pristup"]
+    node_Autonomieklienta["Autonomie klienta"]
+    node_KOMPETENCE["+-- KOMPETENCE"]
+    node_Zkusenostterapeuta["Zkusenost terapeuta"]
+    node_Znalostpsychedelik["Znalost psychedelik"]
+    node_PRITOMNOST["+-- PRITOMNOST"]
+    node_Plnapozornost["Plna pozornost"]
+    node_Empatickeladeni["Empaticke ladeni"]
+
+    node_TERAPEUTICKYVZTAH --> node_DUVERA
+    node_DUVERA --> node_Klientsecitibezpecne
+    node_Klientsecitibezpecne --> node_Otevrenostkzraniteln
+    node_Otevrenostkzraniteln --> node_RESPEKT
+    node_RESPEKT --> node_Nehodnoticpristup
+    node_Nehodnoticpristup --> node_Autonomieklienta
+    node_Autonomieklienta --> node_KOMPETENCE
+    node_KOMPETENCE --> node_Zkusenostterapeuta
+    node_Zkusenostterapeuta --> node_Znalostpsychedelik
+    node_Znalostpsychedelik --> node_PRITOMNOST
+    node_PRITOMNOST --> node_Plnapozornost
+    node_Plnapozornost --> node_Empatickeladeni
+
+    click node_Znalostpsychedelik "/alkaloids/_index/" "Znalost psychedelik"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TERAPEUTICKY VZTAH
     |
@@ -247,6 +395,8 @@ TERAPEUTICKY VZTAH
             Plna pozornost
             Empaticke ladeni
 ```
+
+</details>
 
 #### 3. Skupinova vs individualni zkusenost
 
@@ -287,6 +437,29 @@ To, jak jedinec interpretuje zkusenost, je ovlivneno jeho vyznamovym systemem:
 
 Set a setting neexistuji izolovaně, ale interaguji komplexne:
 
+```mermaid
+flowchart TD
+    node_SET["SET"]
+    node_a8510f68["+-----------+-----------+"]
+    node_PozitivniNegativni["Pozitivni               Negativni"]
+    node_aef8b9c7["+----+----+             +----+----+"]
+    node_SETTINGSETTINGSETTIN["SETTING    SETTING      SETTING    SETTING"]
+    node_PozitNegatPozitNegat["Pozit.    Negat.        Pozit.    Negat."]
+    node_OPTIMALNISMISENASMIS["OPTIMALNI  SMISENA     SMISENA   VYSOKO"]
+    node_ZKUSENOSTZKUSENOSTZK["ZKUSENOST  ZKUSENOST   ZKUSENOST RIZIKOVA"]
+
+    node_SET --> node_a8510f68
+    node_a8510f68 --> node_PozitivniNegativni
+    node_PozitivniNegativni --> node_aef8b9c7
+    node_aef8b9c7 --> node_SETTINGSETTINGSETTIN
+    node_SETTINGSETTINGSETTIN --> node_PozitNegatPozitNegat
+    node_PozitNegatPozitNegat --> node_OPTIMALNISMISENASMIS
+    node_OPTIMALNISMISENASMIS --> node_ZKUSENOSTZKUSENOSTZK
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     SET
                      |
@@ -303,6 +476,8 @@ Pozit.    Negat.        Pozit.    Negat.
 OPTIMALNI  SMISENA     SMISENA   VYSOKO
 ZKUSENOST  ZKUSENOST   ZKUSENOST RIZIKOVA
 ```
+
+</details>
 
 ### Predikce vysledku
 
@@ -613,7 +788,6 @@ Optimalni set and setting zvysuji pravdepodobnost:
 - [LSD](@/alkaloids/lsd.md) - Dalsi klasicke psychedelikum
 - [DMT](@/alkaloids/dmt.md) - Kratce pusobici psychedelikum
 - [Meskalin](@/alkaloids/mescaline.md) - Tradicni kaktusove psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - GABAergni deliriant
 
 ### Receptory a mechanismy
 

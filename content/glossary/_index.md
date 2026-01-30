@@ -51,6 +51,42 @@ Pojmy tykajici se bunecnych receptoru a signalnich drah.
 
 #### Typy receptoru
 
+```mermaid
+flowchart TD
+    node_RECEPTORYpodlemechan["RECEPTORY podle mechanismu"]
+    node_IONOTROPNIligandemri["+-- IONOTROPNI ligandem rizene kanaly"]
+    node_GABAAreceptorCl["-- GABA-A receptor Cl-"]
+    node_NMDAreceptorCa2Na["-- NMDA receptor Ca2+, Na+"]
+    node_AMPAreceptorNa["+-- AMPA receptor Na+"]
+    node_METABOTROPNIGPCR["+-- METABOTROPNI GPCR"]
+    node_5HT2AGq11psychedelik["-- 5-HT2A Gq/11 - psychedelika"]
+    node_5HT1AGioanxiolyticky["-- 5-HT1A Gi/o - anxiolyticky"]
+    node_D2Giodopaminergni["+-- D2 Gi/o - dopaminergni"]
+    node_INTRACELULARNI["+-- INTRACELULARNI"]
+    node_Steroidnireceptory["+-- Steroidni receptory"]
+
+    node_RECEPTORYpodlemechan --> node_IONOTROPNIligandemri
+    node_IONOTROPNIligandemri --> node_GABAAreceptorCl
+    node_GABAAreceptorCl --> node_NMDAreceptorCa2Na
+    node_NMDAreceptorCa2Na --> node_AMPAreceptorNa
+    node_AMPAreceptorNa --> node_METABOTROPNIGPCR
+    node_METABOTROPNIGPCR --> node_5HT2AGq11psychedelik
+    node_5HT2AGq11psychedelik --> node_5HT1AGioanxiolyticky
+    node_5HT1AGioanxiolyticky --> node_D2Giodopaminergni
+    node_D2Giodopaminergni --> node_INTRACELULARNI
+    node_INTRACELULARNI --> node_Steroidnireceptory
+
+    click node_RECEPTORYpodlemechan "/glossary/receptor/" "RECEPTORY podle mechanismu"
+    click node_GABAAreceptorCl "/glossary/receptor/" "-- GABA-A receptor Cl-"
+    click node_NMDAreceptorCa2Na "/glossary/receptor/" "-- NMDA receptor Ca2+, Na+"
+    click node_AMPAreceptorNa "/glossary/receptor/" "+-- AMPA receptor Na+"
+    click node_5HT2AGq11psychedelik "/receptors/5-ht2a/" "-- 5-HT2A Gq/11 - psychedelika"
+    click node_Steroidnireceptory "/glossary/receptor/" "+-- Steroidni receptory"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RECEPTORY (podle mechanismu)
     |
@@ -68,13 +104,14 @@ RECEPTORY (podle mechanismu)
             +-- Steroidni receptory
 ```
 
+</details>
+
 ### 2. Neurotransmitery
 
 Endogenni signalni molekuly nervoveho systemu.
 
 | Pojem | Definice | Souvisejici obsah |
 |-------|----------|-------------------|
-| [GABA](@/glossary/gaba.md) | Hlavni inhibicni neurotransmiter | [GABA-A](@/receptors/gaba-a.md), [Muscimol](@/alkaloids/muscimol.md) |
 | Serotonin (5-HT) | Modulacni neurotransmiter | [5-HT2A](@/receptors/5-ht2a.md), psychedelika |
 | Glutamat | Hlavni excitacni neurotransmiter | [NMDA](@/receptors/nmda.md), plasticita |
 | Dopamin | Neurotransmiter odmeny | D2 receptory, LSD |
@@ -111,6 +148,36 @@ Zakladni chemicke a biochemicke terminy.
 
 #### Hierarchie biomolekul
 
+```mermaid
+flowchart TD
+    node_BIOMOLEKULY["BIOMOLEKULY"]
+    node_MALEMOLEKULY["+-- MALE MOLEKULY"]
+    node_Aminokyseliny20zakla["-- Aminokyseliny 20 zakladnich"]
+    node_NukleotidyATPGTPcAMP["-- Nukleotidy ATP, GTP, cAMP..."]
+    node_Lipidyfosfolipidyste["-- Lipidy fosfolipidy, steroidy"]
+    node_Sacharidyglukozaribo["+-- Sacharidy glukoza, riboza"]
+    node_MAKROMOLEKULY["+-- MAKROMOLEKULY"]
+    node_Proteinyreceptoryenz["-- Proteiny receptory, enzymy"]
+    node_NukleovekyselinyDNAR["-- Nukleove kyseliny DNA, RNA"]
+    node_Polysacharidyglykoge["+-- Polysacharidy glykogen"]
+
+    node_BIOMOLEKULY --> node_MALEMOLEKULY
+    node_MALEMOLEKULY --> node_Aminokyseliny20zakla
+    node_Aminokyseliny20zakla --> node_NukleotidyATPGTPcAMP
+    node_NukleotidyATPGTPcAMP --> node_Lipidyfosfolipidyste
+    node_Lipidyfosfolipidyste --> node_Sacharidyglukozaribo
+    node_Sacharidyglukozaribo --> node_MAKROMOLEKULY
+    node_MAKROMOLEKULY --> node_Proteinyreceptoryenz
+    node_Proteinyreceptoryenz --> node_NukleovekyselinyDNAR
+    node_NukleovekyselinyDNAR --> node_Polysacharidyglykoge
+
+    click node_NukleotidyATPGTPcAMP "/glossary/nukleotid/" "-- Nukleotidy ATP, GTP, cAMP..."
+    click node_Proteinyreceptoryenz "/glossary/receptor/" "-- Proteiny receptory, enzymy"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BIOMOLEKULY
     |
@@ -125,6 +192,8 @@ BIOMOLEKULY
             |-- Nukleove kyseliny (DNA, RNA)
             +-- Polysacharidy (glykogen)
 ```
+
+</details>
 
 ### 4. Farmakologicke pojmy
 
@@ -170,6 +239,46 @@ Chemicke struktury a jejich klasifikace.
 
 #### Strukturni hierarchie psychoaktivnich alkaloidu
 
+```mermaid
+flowchart TD
+    node_BAZOVESTRUKTURY["BAZOVE STRUKTURY"]
+    node_INDOLOVEJADRO["+-- INDOLOVE JADRO"]
+    node_TRYPTAMINYindolethyl["+-- TRYPTAMINY indol + ethylamin"]
+    node_Psilocybin4PODMT["-- Psilocybin 4-PO-DMT"]
+    node_Psilocin4HODMT["-- Psilocin 4-HO-DMT"]
+    node_DMTNNDMT["-- DMT N,N-DMT"]
+    node_Baeocystin4PONMT["+-- Baeocystin 4-PO-NMT"]
+    node_ERGOLINYtetracyklick["+-- ERGOLINY tetracyklicke"]
+    node_LSD["+-- LSD"]
+    node_FENETHYLAMINOVEJADRO["+-- FENETHYLAMINOVE JADRO"]
+    node_Meskalin345trimethox["+-- Meskalin 3,4,5-trimethoxy"]
+    node_ISOXAZOLOVEJADRO["+-- ISOXAZOLOVE JADRO"]
+    node_Muscimol["+-- Muscimol"]
+    node_Kyselinaibotenova["+-- Kyselina ibotenova"]
+
+    node_BAZOVESTRUKTURY --> node_INDOLOVEJADRO
+    node_INDOLOVEJADRO --> node_TRYPTAMINYindolethyl
+    node_TRYPTAMINYindolethyl --> node_Psilocybin4PODMT
+    node_Psilocybin4PODMT --> node_Psilocin4HODMT
+    node_Psilocin4HODMT --> node_DMTNNDMT
+    node_DMTNNDMT --> node_Baeocystin4PONMT
+    node_Baeocystin4PONMT --> node_ERGOLINYtetracyklick
+    node_ERGOLINYtetracyklick --> node_LSD
+    node_LSD --> node_FENETHYLAMINOVEJADRO
+    node_FENETHYLAMINOVEJADRO --> node_Meskalin345trimethox
+    node_Meskalin345trimethox --> node_ISOXAZOLOVEJADRO
+    node_ISOXAZOLOVEJADRO --> node_Muscimol
+    node_Muscimol --> node_Kyselinaibotenova
+
+    click node_Psilocybin4PODMT "/alkaloids/psilocybin/" "-- Psilocybin 4-PO-DMT"
+    click node_Psilocin4HODMT "/alkaloids/psilocin/" "-- Psilocin 4-HO-DMT"
+    click node_LSD "/alkaloids/lsd/" "+-- LSD"
+    click node_Muscimol "/alkaloids/muscimol/" "+-- Muscimol"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BAZOVE STRUKTURY
     |
@@ -192,6 +301,8 @@ BAZOVE STRUKTURY
             +-- Kyselina ibotenova
 ```
 
+</details>
+
 ---
 
 ## Jak pouzivat glosar
@@ -205,6 +316,31 @@ BAZOVE STRUKTURY
 ### Struktura hesel
 
 Kazde heslo v glosari dodrzuje jednotnou strukturu:
+
+```mermaid
+flowchart TD
+    node_NAZEVPOJMU["NAZEV POJMU"]
+    node_Zakladnidefinice12ve["+-- Zakladni definice 1-2 vety"]
+    node_Podrobnypopis["+-- Podrobny popis"]
+    node_Chemickevlastnosti["-- Chemicke vlastnosti"]
+    node_Biologickafunkce["-- Biologicka funkce"]
+    node_Klinickyvyznam["+-- Klinicky vyznam"]
+    node_Tabulkyadiagramy["+-- Tabulky a diagramy"]
+    node_Souvisejicipojmykriz["+-- Souvisejici pojmy krizove reference"]
+    node_Odkazynahlavniobsah["+-- Odkazy na hlavni obsah"]
+
+    node_NAZEVPOJMU --> node_Zakladnidefinice12ve
+    node_Zakladnidefinice12ve --> node_Podrobnypopis
+    node_Podrobnypopis --> node_Chemickevlastnosti
+    node_Chemickevlastnosti --> node_Biologickafunkce
+    node_Biologickafunkce --> node_Klinickyvyznam
+    node_Klinickyvyznam --> node_Tabulkyadiagramy
+    node_Tabulkyadiagramy --> node_Souvisejicipojmykriz
+    node_Souvisejicipojmykriz --> node_Odkazynahlavniobsah
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NAZEV POJMU
@@ -222,6 +358,8 @@ NAZEV POJMU
 |
 +-- Odkazy na hlavni obsah
 ```
+
+</details>
 
 ### Doporuceny postup studia
 
@@ -251,7 +389,6 @@ NAZEV POJMU
 
 | Glosarovy pojem | Souvisejici receptor | Psychoaktivni latka |
 |-----------------|---------------------|---------------------|
-| [GABA](@/glossary/gaba.md) | [GABA-A](@/receptors/gaba-a.md) | [Muscimol](@/alkaloids/muscimol.md) |
 | Serotonin | [5-HT2A](@/receptors/5-ht2a.md) | [LSD](@/alkaloids/lsd.md), [Psilocin](@/alkaloids/psilocin.md) |
 | Glutamat | [NMDA](@/receptors/nmda.md) | [Kys. ibotenova](@/neurotoxins/ibotenic-acid.md) |
 
@@ -420,7 +557,6 @@ Kazde heslo splnuje nasledujici kriteria:
 - [NMDA receptor](@/receptors/nmda.md) - Cil disociativ a excitotoxicka signalizace
 - [LSD](@/alkaloids/lsd.md) - Nejpotentnejsi psychedelikum
 - [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - GABA-A agonista z Amanita muscaria
 
 ---
 

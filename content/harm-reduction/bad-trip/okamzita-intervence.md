@@ -59,6 +59,25 @@ Tento protokol poskytuje **strukturovany pristup** k intervenci pri bad tripu. N
 
 ### Prehled
 
+```mermaid
+flowchart TD
+    node_SAFERPROTOKOL["SAFER PROTOKOL:"]
+    node_SSafetyBezpecnost["S - Safety Bezpecnost"]
+    node_AAssessmentHodnoceni["A - Assessment Hodnoceni"]
+    node_FFacilitationUsnadne["F - Facilitation Usnadneni"]
+    node_EEnvironmentProstred["E - Environment Prostredi"]
+    node_RReassuranceUjisteni["R - Reassurance Ujisteni"]
+
+    node_SAFERPROTOKOL --> node_SSafetyBezpecnost
+    node_SSafetyBezpecnost --> node_AAssessmentHodnoceni
+    node_AAssessmentHodnoceni --> node_FFacilitationUsnadne
+    node_FFacilitationUsnadne --> node_EEnvironmentProstred
+    node_EEnvironmentProstred --> node_RReassuranceUjisteni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SAFER PROTOKOL:
 ===============
@@ -73,6 +92,8 @@ E - Environment (Prostredi)
     ↓
 R - Reassurance (Ujisteni)
 ```
+
+</details>
 
 ---
 
@@ -176,6 +197,35 @@ RYCHLA KONTROLA:
 
 ##### Box Breathing (4-4-4-4)
 
+```mermaid
+flowchart TD
+    node_BOXBREATHING["BOX BREATHING:"]
+    node_NADECH4s["NADECH 4s"]
+    node_ZDRZZDRZ["ZDRZ               ZDRZ"]
+    node_4sOPAKUJ4s["4s   OPAKUJ     4s"]
+    node_VYDECH4s["VYDECH 4s"]
+    node_Instrukce["Instrukce:"]
+    node_Dychejsemnou["'Dychej se mnou."]
+    node_Nadechdvatrictyri["Nadech... dva... tri... ctyri..."]
+    node_Drzdvatrictyri["Drz... dva... tri... ctyri..."]
+    node_Vydechdvatrictyri["Vydech... dva... tri... ctyri..."]
+    node_Znovu["Znovu...'"]
+
+    node_BOXBREATHING --> node_NADECH4s
+    node_NADECH4s --> node_ZDRZZDRZ
+    node_ZDRZZDRZ --> node_4sOPAKUJ4s
+    node_4sOPAKUJ4s --> node_VYDECH4s
+    node_VYDECH4s --> node_Instrukce
+    node_Instrukce --> node_Dychejsemnou
+    node_Dychejsemnou --> node_Nadechdvatrictyri
+    node_Nadechdvatrictyri --> node_Drzdvatrictyri
+    node_Drzdvatrictyri --> node_Vydechdvatrictyri
+    node_Vydechdvatrictyri --> node_Znovu
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BOX BREATHING:
 ==============
@@ -199,6 +249,8 @@ Vydech... dva... tri... ctyri...
 Drz... dva... tri... ctyri...
 Znovu..."
 ```
+
+</details>
 
 ##### 4-7-8 Technika (Pro Zklidneni)
 

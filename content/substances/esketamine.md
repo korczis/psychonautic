@@ -33,6 +33,29 @@ zdroje = ["Synteticke", "Registrovany lek"]
 
 ### Stereochemie - vztah k racematu
 
+```mermaid
+flowchart TD
+    node_KETAMINRACEMT["KETAMIN RACEMÁT"]
+    node_SKetaminEsketamin["+---&gt; S-Ketamin Esketamin"]
+    node_34xvyssiafinitakNMDA["- 3-4x vyssi afinita k NMDA"]
+    node_Silnejsidisociativni["- Silnejsi disociativni ucinek"]
+    node_FDAschvalenoSpravato["- FDA schvaleno Spravato"]
+    node_RKetaminArketamin["+---&gt; R-Ketamin Arketamin"]
+
+    node_KETAMINRACEMT --> node_SKetaminEsketamin
+    node_SKetaminEsketamin --> node_34xvyssiafinitakNMDA
+    node_34xvyssiafinitakNMDA --> node_Silnejsidisociativni
+    node_Silnejsidisociativni --> node_FDAschvalenoSpravato
+    node_FDAschvalenoSpravato --> node_RKetaminArketamin
+
+    click node_KETAMINRACEMT "/alkaloids/ketamin/" "KETAMIN RACEMÁT"
+    click node_SKetaminEsketamin "/alkaloids/ketamin/" "+---> S-Ketamin Esketamin"
+    click node_RKetaminArketamin "/alkaloids/ketamin/" "+---> R-Ketamin Arketamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KETAMIN RACEMÁT
        |
@@ -46,6 +69,8 @@ KETAMIN RACEMÁT
              - Mozna lepsi tolerance
              - Ve vyzkumu (Phase II)
 ```
+
+</details>
 
 ### Srovnani enantiomeru
 
@@ -143,6 +168,44 @@ HISTORIE KETAMINU V PSYCHIATRII
 
 ### Mechanismus antidepresivniho ucinku
 
+```mermaid
+flowchart TD
+    node_ESKETAMIN["ESKETAMIN"]
+    node_NMDAreceptorblokda["NMDA receptor blokáda"]
+    node_preferennextrasynapt["preferenčně extrasynaptické receptory na GABA interneuronech"]
+    node_Disinhibicepyramidln["Disinhibice pyramidálních neuronu"]
+    node_Burstglutamtovaktivi["Burst glutamátové aktivity"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace"]
+    node_BDNFuvolnn["+---&gt; BDNF uvolnění"]
+    node_TrkBreceptoraktivace["TrkB receptor aktivace"]
+    node_mTORC1signalizace["+---&gt; mTORC1 signalizace"]
+    node_Proteosyntza["Proteosyntéza"]
+    node_SynaptogenezeDendrit["Synaptogeneze / Dendritický růst"]
+    node_RYCHLANTIDEPRESIVNIN["RYCHLÝ ANTIDEPRESIVNÍ ÚČINEK"]
+    node_hodinyadny["hodiny až dny"]
+
+    node_ESKETAMIN --> node_NMDAreceptorblokda
+    node_NMDAreceptorblokda --> node_preferennextrasynapt
+    node_preferennextrasynapt --> node_Disinhibicepyramidln
+    node_Disinhibicepyramidln --> node_Burstglutamtovaktivi
+    node_Burstglutamtovaktivi --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_BDNFuvolnn
+    node_BDNFuvolnn --> node_TrkBreceptoraktivace
+    node_TrkBreceptoraktivace --> node_mTORC1signalizace
+    node_mTORC1signalizace --> node_Proteosyntza
+    node_Proteosyntza --> node_SynaptogenezeDendrit
+    node_SynaptogenezeDendrit --> node_RYCHLANTIDEPRESIVNIN
+    node_RYCHLANTIDEPRESIVNIN --> node_hodinyadny
+
+    click node_ESKETAMIN "/alkaloids/ketamin/" "ESKETAMIN"
+    click node_NMDAreceptorblokda "/receptors/nmda/" "NMDA receptor blokáda"
+    click node_AMPAreceptoraktivace "/receptors/ampa/" "AMPA receptor aktivace"
+    click node_BDNFuvolnn "/molecules/bdnf/" "+---> BDNF uvolnění"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ESKETAMIN
      |
@@ -178,6 +241,8 @@ AMPA receptor aktivace
      (hodiny až dny)
 ```
 
+</details>
+
 ### Rozdíl od klasických antidepresiv
 
 | Aspekt | Esketamin | SSRI/SNRI |
@@ -190,6 +255,41 @@ AMPA receptor aktivace
 | **Frekvence** | 2x/týden → 1x/2 týdny | Denně |
 
 ### AMPA potenciace - klíčový downstream efekt
+
+```mermaid
+flowchart TD
+    node_ESKETAMINNMDAblokda["ESKETAMIN NMDA blokáda"]
+    node_Zvenextracelulrnglut["Zvýšené extracelulární glutamát"]
+    node_paradoxnefektpiblokd["paradoxní efekt při blokádě NMDA na interneuronech"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace"]
+    node_dc692126["+----+----+"]
+    node_DepolarizaceBDNFuvol["Depolarizace   BDNF uvolnění"]
+    node_Ca2influxTrkBmTOR["Ca2+ influx   TrkB  mTOR"]
+    node_SynaptickProteosyntz["Synaptická   Proteosyntéza"]
+    node_aktivita["aktivita"]
+    node_4f76f3cc["+------+------+"]
+    node_SYNAPTICKPLASTICITA["SYNAPTICKÁ PLASTICITA"]
+    node_novsynapsedendrity["nové synapse, dendrity"]
+
+    node_ESKETAMINNMDAblokda --> node_Zvenextracelulrnglut
+    node_Zvenextracelulrnglut --> node_paradoxnefektpiblokd
+    node_paradoxnefektpiblokd --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_dc692126
+    node_dc692126 --> node_DepolarizaceBDNFuvol
+    node_DepolarizaceBDNFuvol --> node_Ca2influxTrkBmTOR
+    node_Ca2influxTrkBmTOR --> node_SynaptickProteosyntz
+    node_SynaptickProteosyntz --> node_aktivita
+    node_aktivita --> node_4f76f3cc
+    node_4f76f3cc --> node_SYNAPTICKPLASTICITA
+    node_SYNAPTICKPLASTICITA --> node_novsynapsedendrity
+
+    click node_ESKETAMINNMDAblokda "/alkaloids/ketamin/" "ESKETAMIN NMDA blokáda"
+    click node_AMPAreceptoraktivace "/receptors/ampa/" "AMPA receptor aktivace"
+    click node_DepolarizaceBDNFuvol "/molecules/bdnf/" "Depolarizace   BDNF uvolnění"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ESKETAMIN (NMDA blokáda)
@@ -219,6 +319,8 @@ aktivita          |
    SYNAPTICKÁ PLASTICITA
    (nové synapse, dendrity)
 ```
+
+</details>
 
 ---
 

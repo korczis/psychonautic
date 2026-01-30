@@ -19,6 +19,43 @@ tags = ["euforie", "dopamin", "serotonin", "GABA", "reward", "endorfiny", "ště
 
 ### Hlavní systémy
 
+```mermaid
+flowchart TD
+    node_NEUROBIOLOGICKSUBSTR["NEUROBIOLOGICKÉ SUBSTRÁTY EUFORIE"]
+    node_DOPAMINOVSYSTM["DOPAMINOVÝ SYSTÉM"]
+    node_VTANAcPFC["VTA  NAc  PFC"]
+    node_Wantingmotivansalien["'Wanting' - motivační salience"]
+    node_OPIOIDNSYSTM["OPIOIDNÍ SYSTÉM"]
+    node_Endorfinyenkefaliny["Endorfiny, enkefaliny"]
+    node_Likinghedonickdopad["'Liking' - hedonický dopad"]
+    node_SEROTONINOVSYSTM["SEROTONINOVÝ SYSTÉM"]
+    node_Raphekortexlimbicksy["Raphe  kortex, limbický systém"]
+    node_Emonpohodaspokojenos["Emoční pohoda, spokojenost"]
+    node_GABAergnSYSTM["GABAergní SYSTÉM"]
+    node_Disinhibicerewardokr["Disinhibice reward okruhů"]
+    node_Anxiolzasubjektivnpo["Anxiolýza  subjektivní pohoda"]
+
+    node_NEUROBIOLOGICKSUBSTR --> node_DOPAMINOVSYSTM
+    node_DOPAMINOVSYSTM --> node_VTANAcPFC
+    node_VTANAcPFC --> node_Wantingmotivansalien
+    node_Wantingmotivansalien --> node_OPIOIDNSYSTM
+    node_OPIOIDNSYSTM --> node_Endorfinyenkefaliny
+    node_Endorfinyenkefaliny --> node_Likinghedonickdopad
+    node_Likinghedonickdopad --> node_SEROTONINOVSYSTM
+    node_SEROTONINOVSYSTM --> node_Raphekortexlimbicksy
+    node_Raphekortexlimbicksy --> node_Emonpohodaspokojenos
+    node_Emonpohodaspokojenos --> node_GABAergnSYSTM
+    node_GABAergnSYSTM --> node_Disinhibicerewardokr
+    node_Disinhibicerewardokr --> node_Anxiolzasubjektivnpo
+
+    click node_DOPAMINOVSYSTM "/glossary/dopamin/" "DOPAMINOVÝ SYSTÉM"
+    click node_SEROTONINOVSYSTM "/glossary/serotonin/" "SEROTONINOVÝ SYSTÉM"
+    click node_GABAergnSYSTM "/glossary/gaba/" "GABAergní SYSTÉM"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NEUROBIOLOGICKÉ SUBSTRÁTY EUFORIE
 
@@ -49,7 +86,33 @@ NEUROBIOLOGICKÉ SUBSTRÁTY EUFORIE
 └─────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Reward circuit
+
+```mermaid
+flowchart TD
+    node_MESOLIMBICKDRHA["MESOLIMBICKÁ DRÁHA"]
+    node_VTAVentralTegmentalA["VTA Ventral Tegmental Area"]
+    node_Dopamin["Dopamin"]
+    node_NAcNucleusAccumbens["NAc Nucleus Accumbens"]
+    node_Projekce["Projekce"]
+    node_AmygdalaPFC["Amygdala    PFC"]
+    node_emocekognice["emoce   kognice"]
+
+    node_MESOLIMBICKDRHA --> node_VTAVentralTegmentalA
+    node_VTAVentralTegmentalA --> node_Dopamin
+    node_Dopamin --> node_NAcNucleusAccumbens
+    node_NAcNucleusAccumbens --> node_Projekce
+    node_Projekce --> node_AmygdalaPFC
+    node_AmygdalaPFC --> node_emocekognice
+
+    click node_Dopamin "/glossary/dopamin/" "Dopamin"
+    click node_AmygdalaPFC "/brain/amygdala/" "Amygdala    PFC"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MESOLIMBICKÁ DRÁHA
@@ -68,6 +131,8 @@ Amygdala    PFC
 (emoce)   (kognice)
 ```
 
+</details>
+
 ---
 
 ## Typy euforie
@@ -83,6 +148,27 @@ Amygdala    PFC
 | **Motivace** | Zvýšená, goal-directed |
 | **Typické látky** | Kokain, amfetaminy, metamfetamin |
 
+```mermaid
+flowchart TD
+    node_DOPAMINERGNEUFORIE["DOPAMINERGNÍ EUFORIE"]
+    node_NormlnStimulant["Normální      Stimulant"]
+    node_DADA["DA         DA ████"]
+    node_BaselineRushHigh["Baseline      Rush/High"]
+    node_SpokojenostIntenzivn["Spokojenost   Intenzivní euforie"]
+    node_energie["+ energie"]
+
+    node_DOPAMINERGNEUFORIE --> node_NormlnStimulant
+    node_NormlnStimulant --> node_DADA
+    node_DADA --> node_BaselineRushHigh
+    node_BaselineRushHigh --> node_SpokojenostIntenzivn
+    node_SpokojenostIntenzivn --> node_energie
+
+    click node_DOPAMINERGNEUFORIE "/glossary/dopamin/" "DOPAMINERGNÍ EUFORIE"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DOPAMINERGNÍ EUFORIE
 
@@ -96,6 +182,8 @@ Spokojenost   Intenzivní euforie
                 + energie
 ```
 
+</details>
+
 ### Opioidní euforie
 
 **Mechanismus**: Aktivace μ-opioidních receptorů
@@ -106,6 +194,25 @@ Spokojenost   Intenzivní euforie
 | **Tělesná** | Výrazná tělesná složka |
 | **Anxiolýza** | Silná |
 | **Typické látky** | Heroin, morfin, oxykodon |
+
+```mermaid
+flowchart TD
+    node_OPIOIDNEUFORIE["OPIOIDNÍ EUFORIE"]
+    node_Teplvlna["'Teplá vlna'"]
+    node_Tlesnrelaxace["Tělesná relaxace"]
+    node_Emonpohoda["Emoční pohoda"]
+    node_Absencebolestizkosti["Absence bolesti/úzkosti"]
+    node_Contentment["Contentment"]
+
+    node_OPIOIDNEUFORIE --> node_Teplvlna
+    node_Teplvlna --> node_Tlesnrelaxace
+    node_Tlesnrelaxace --> node_Emonpohoda
+    node_Emonpohoda --> node_Absencebolestizkosti
+    node_Absencebolestizkosti --> node_Contentment
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 OPIOIDNÍ EUFORIE
@@ -120,6 +227,8 @@ Absence bolesti/úzkosti
     ↓
 Contentment
 ```
+
+</details>
 
 ### Serotoninová euforie
 
@@ -141,7 +250,30 @@ Contentment
 | **Kvalita** | Klidná, relaxovaná |
 | **Anxiolýza** | Výrazná |
 | **Tělesná** | Svalová relaxace |
-| **Typické látky** | [Muscimol](@/alkaloids/muscimol.md), alkohol, benzodiazepiny |
+
+```mermaid
+flowchart TD
+    node_GABAergnEUFORIE["GABAergní EUFORIE"]
+    node_GABAAaktivace["GABA-A aktivace"]
+    node_Kortiklninhibice["Kortikální inhibice"]
+    node_Snenzkost["Snížená úzkost"]
+    node_DisinhibiceVTASubjek["Disinhibice VTA     Subjektivní"]
+    node_pohoda["pohoda"]
+    node_Tepleuforie["'Teplá' euforie"]
+
+    node_GABAergnEUFORIE --> node_GABAAaktivace
+    node_GABAAaktivace --> node_Kortiklninhibice
+    node_Kortiklninhibice --> node_Snenzkost
+    node_Snenzkost --> node_DisinhibiceVTASubjek
+    node_DisinhibiceVTASubjek --> node_pohoda
+    node_pohoda --> node_Tepleuforie
+
+    click node_GABAergnEUFORIE "/glossary/gaba/" "GABAergní EUFORIE"
+    click node_GABAAaktivace "/glossary/gaba/" "GABA-A aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GABAergní EUFORIE
@@ -158,6 +290,8 @@ Disinhibice VTA     Subjektivní
       ↓
 "Teplá" euforie
 ```
+
+</details>
 
 ---
 
@@ -188,7 +322,6 @@ Disinhibice VTA     Subjektivní
 
 | Látka | Charakteristika |
 |-------|-----------------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | Klidná, introspektivní, sedativní |
 | **Alkohol** | Disinhibiční, sociální |
 | **GHB** | Podobná MDMA při nízkých dávkách |
 
@@ -214,6 +347,25 @@ Disinhibice VTA     Subjektivní
 
 ### Euforie a závislost
 
+```mermaid
+flowchart TD
+    node_EUFORIEZVISLOST["EUFORIE  ZÁVISLOST"]
+    node_Pozitivnreinforcemen["Pozitivní reinforcement"]
+    node_Euforie["Euforie"]
+    node_OpakovnTolerance["Opakování          Tolerance"]
+    node_Eskalace["Eskalace"]
+    node_Zvislost["Závislost"]
+
+    node_EUFORIEZVISLOST --> node_Pozitivnreinforcemen
+    node_Pozitivnreinforcemen --> node_Euforie
+    node_Euforie --> node_OpakovnTolerance
+    node_OpakovnTolerance --> node_Eskalace
+    node_Eskalace --> node_Zvislost
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 EUFORIE → ZÁVISLOST
 
@@ -227,6 +379,8 @@ Pozitivní reinforcement
         |
    Závislost
 ```
+
+</details>
 
 | Faktor | Vliv na závislostní potenciál |
 |--------|-------------------------------|
@@ -245,7 +399,6 @@ Pozitivní reinforcement
 - [GABA](@/glossary/gaba.md) - Anxiolýza
 
 ### Látky
-- [Muscimol](@/alkaloids/muscimol.md) - GABAergní euforie
 - [Psilocybin](@/alkaloids/psilocybin.md) - Mystická extáze
 - [MDMA](@/alkaloids/mdma.md) - Entaktogenní euforie
 

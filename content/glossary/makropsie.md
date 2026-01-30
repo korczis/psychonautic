@@ -50,6 +50,23 @@ Syndrom pojmenoval v roce 1955 psychiatr **John Todd** podle románu Lewise Carr
 
 ### Komponenty AIWS
 
+```mermaid
+flowchart TD
+    node_ALICEINWONDERLANDSYN["ALICE IN WONDERLAND SYNDROME"]
+    node_AIWS["AIWS"]
+    node_SOMATICKVIZULNTEMPOR["SOMATICKÉ      VIZUÁLNÍ     TEMPORÁLNÍ"]
+    node_MakromikroMakromikro["Makro/mikro-   Makro/mikro-   Zpomalení/"]
+    node_somatognoziepsiezryc["somatognozie   psie           zrychlení času"]
+
+    node_ALICEINWONDERLANDSYN --> node_AIWS
+    node_AIWS --> node_SOMATICKVIZULNTEMPOR
+    node_SOMATICKVIZULNTEMPOR --> node_MakromikroMakromikro
+    node_MakromikroMakromikro --> node_somatognoziepsiezryc
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ALICE IN WONDERLAND SYNDROME
 
@@ -62,6 +79,8 @@ ALICE IN WONDERLAND SYNDROME
   Makro/mikro-   Makro/mikro-   Zpomalení/
   somatognozie   psie           zrychlení času
 ```
+
+</details>
 
 | Typ | Podtypy | Příklad |
 |-----|---------|---------|
@@ -78,6 +97,27 @@ ALICE IN WONDERLAND SYNDROME
 
 ### Neuroanatomie
 
+```mermaid
+flowchart TD
+    node_PERCEPNINTEGRACE["PERCEPČNÍ INTEGRACE"]
+    node_VizulnkortexParietln["Vizuální kortex  Parietální kortex  Thalamus"]
+    node_ZkladnProstorovSenzo["Základní           Prostorová      Senzorická"]
+    node_zpracovnintegracefil["zpracování         integrace       filtrace"]
+    node_PERCEPNGESTALT["PERCEPČNÍ GESTALT"]
+    node_DysfunkceAIWS["Dysfunkce = AIWS"]
+
+    node_PERCEPNINTEGRACE --> node_VizulnkortexParietln
+    node_VizulnkortexParietln --> node_ZkladnProstorovSenzo
+    node_ZkladnProstorovSenzo --> node_zpracovnintegracefil
+    node_zpracovnintegracefil --> node_PERCEPNGESTALT
+    node_PERCEPNGESTALT --> node_DysfunkceAIWS
+
+    click node_VizulnkortexParietln "/brain/thalamus/" "Vizuální kortex  Parietální kortex  Thalamus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PERCEPČNÍ INTEGRACE
 
@@ -93,6 +133,8 @@ Vizuální kortex → Parietální kortex → Thalamus
               Dysfunkce = AIWS
 ```
 
+</details>
+
 ### Zapojené struktury
 
 | Oblast | Funkce | Dysfunkce |
@@ -105,7 +147,6 @@ Vizuální kortex → Parietální kortex → Thalamus
 
 | Systém | Látky | Mechanismus |
 |--------|-------|-------------|
-| **GABAergní** | [Muscimol](@/alkaloids/muscimol.md) | Thalamická modulace |
 | **Serotoninový** | [Psilocybin](@/alkaloids/psilocybin.md) | Kortikální excitace |
 | **Glutamátový** | [Ketamin](@/alkaloids/ketamin.md) | NMDA blokáda |
 
@@ -126,7 +167,6 @@ Vizuální kortex → Parietální kortex → Thalamus
 
 | Látka | Typ | Frekvence |
 |-------|-----|-----------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | Somatická i vizuální | **Velmi častá** |
 | **[LSD](@/alkaloids/lsd.md)** | Vizuální | Častá |
 | **[Psilocybin](@/alkaloids/psilocybin.md)** | Vizuální | Střední |
 | **Cannabis** | Somatická | Méně častá |
@@ -138,7 +178,31 @@ Vizuální kortex → Parietální kortex → Thalamus
 
 ### Specifické charakteristiky
 
-[Muscimol](@/alkaloids/muscimol.md) je známý vysokou incidencí AIWS symptomů:
+
+```mermaid
+flowchart TD
+    node_MUSCIMOLAAIWS["MUSCIMOL A AIWS"]
+    node_DvkaTypsymptom["Dávka             Typ symptomů"]
+    node_NzkMrnsomatickmakrom["Nízká  Mírná somatická makro/mikropsie"]
+    node_Rucesezdajjin["'Ruce se zdají jiné'"]
+    node_StednVraznsomatickdi["Střední  Výrazná somatická distorze"]
+    node_mrnvizuln["+ mírná vizuální"]
+    node_VysokKomplexnAIWS["Vysoká  Komplexní AIWS"]
+    node_oneirickobsahy["+ oneirické obsahy"]
+
+    node_MUSCIMOLAAIWS --> node_DvkaTypsymptom
+    node_DvkaTypsymptom --> node_NzkMrnsomatickmakrom
+    node_NzkMrnsomatickmakrom --> node_Rucesezdajjin
+    node_Rucesezdajjin --> node_StednVraznsomatickdi
+    node_StednVraznsomatickdi --> node_mrnvizuln
+    node_mrnvizuln --> node_VysokKomplexnAIWS
+    node_VysokKomplexnAIWS --> node_oneirickobsahy
+
+    click node_MUSCIMOLAAIWS "/alkaloids/muscimol/" "MUSCIMOL A AIWS"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MUSCIMOL A AIWS
@@ -154,6 +218,8 @@ Střední ──────── Výrazná somatická distorze
 Vysoká ────────── Komplexní AIWS
                  + oneirické obsahy
 ```
+
+</details>
 
 ### Subjektivní popisy
 
@@ -191,7 +257,6 @@ Vysoká ────────── Komplexní AIWS
 ## Viz také
 
 ### Látky
-- [Muscimol](@/alkaloids/muscimol.md) - **Nejvyšší incidence AIWS**
 - [Účinky muscimolu](@/phenomenology/muscimol-effects.md) - Detailní fenomenologie
 - [LSD](@/alkaloids/lsd.md) - Vizuální makro/mikropsie
 

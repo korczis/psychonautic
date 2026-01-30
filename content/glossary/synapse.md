@@ -33,6 +33,43 @@ tags = ["synapse", "neurotransmise", "neuroplasticita", "LTP", "LTD", "synaptick
 
 Chemicke synapse jsou nejrozsirenejsim typem synaptickeho spojeni v centralnm nervovem systemu. Prenos signalu je zprostredkovan uvolnenim neurotransmiteru.
 
+```mermaid
+flowchart TD
+    node_CHEMICKASYNAPSE["CHEMICKA SYNAPSE"]
+    node_PRESYNAPTICKYNEURON["PRESYNAPTICKY NEURON"]
+    node_c1098c42["+----------------+"]
+    node_Presynapticky["Presynapticky"]
+    node_terminal["terminal"]
+    node_bouton["bouton"]
+    node_OOOSynaptickevezikul["O O O   |  &lt;-- Synapticke vezikuly"]
+    node_OOsneurotransmiterem["O O      |      s neurotransmiterem"]
+    node_447d0321["+-------||-------+"]
+    node_Synaptickasterbina20["~~~~~~~~||~~~~~~~~  &lt;-- Synapticka sterbina 20-40 nm"]
+    node_RRRReceptory["R R R  |  &lt;-- Receptory"]
+    node_Postsynapticka["Postsynapticka"]
+    node_membrna["membrána"]
+    node_POSTSYNAPTICKYNEURON["POSTSYNAPTICKY NEURON"]
+
+    node_CHEMICKASYNAPSE --> node_PRESYNAPTICKYNEURON
+    node_PRESYNAPTICKYNEURON --> node_c1098c42
+    node_c1098c42 --> node_Presynapticky
+    node_Presynapticky --> node_terminal
+    node_terminal --> node_bouton
+    node_bouton --> node_OOOSynaptickevezikul
+    node_OOOSynaptickevezikul --> node_OOsneurotransmiterem
+    node_OOsneurotransmiterem --> node_447d0321
+    node_447d0321 --> node_Synaptickasterbina20
+    node_Synaptickasterbina20 --> node_RRRReceptory
+    node_RRRReceptory --> node_Postsynapticka
+    node_Postsynapticka --> node_membrna
+    node_membrna --> node_POSTSYNAPTICKYNEURON
+
+    click node_RRRReceptory "/glossary/receptor/" "R R R  |  <-- Receptory"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                 CHEMICKA SYNAPSE
 
@@ -63,6 +100,8 @@ Chemicke synapse jsou nejrozsirenejsim typem synaptickeho spojeni v centralnm ne
     POSTSYNAPTICKY NEURON
 ```
 
+</details>
+
 #### Charakteristiky chemicke synapse
 
 | Vlastnost | Popis |
@@ -76,6 +115,31 @@ Chemicke synapse jsou nejrozsirenejsim typem synaptickeho spojeni v centralnm ne
 ### Elektricka synapse (Gap junction)
 
 Elektricke synapse umoznuji primy tok iontu mezi neurony prostrednictvim kanalu tvorenych konexiny.
+
+```mermaid
+flowchart TD
+    node_ELEKTRICKASYNAPSE["ELEKTRICKA SYNAPSE"]
+    node_NEURON1["NEURON 1"]
+    node_4f76f3cc["+------+------+"]
+    node_Membrna["Membrána"]
+    node_Konexony["===      |  &lt;-- Konexony"]
+    node_hemikanaly["hemikanaly"]
+    node_7ce4f5cc["==="]
+    node_Iontyproudiprimo["&lt;-- Ionty proudi primo"]
+    node_NEURON2["NEURON 2"]
+
+    node_ELEKTRICKASYNAPSE --> node_NEURON1
+    node_NEURON1 --> node_4f76f3cc
+    node_4f76f3cc --> node_Membrna
+    node_Membrna --> node_Konexony
+    node_Konexony --> node_hemikanaly
+    node_hemikanaly --> node_7ce4f5cc
+    node_7ce4f5cc --> node_Iontyproudiprimo
+    node_Iontyproudiprimo --> node_NEURON2
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                 ELEKTRICKA SYNAPSE
@@ -100,6 +164,8 @@ Elektricke synapse umoznuji primy tok iontu mezi neurony prostrednictvim kanalu 
            |
     NEURON 2
 ```
+
+</details>
 
 #### Charakteristiky elektricke synapse
 
@@ -130,6 +196,55 @@ Elektricke synapse umoznuji primy tok iontu mezi neurony prostrednictvim kanalu 
 ### Presynapticky terminal (bouton)
 
 Presynapticky terminal je specializovana struktura na konci axonu obsahujici veskery aparát pro uvolneni neurotransmiteru.
+
+```mermaid
+flowchart TD
+    node_PRESYNAPTICKYTERMINA["PRESYNAPTICKY TERMINAL - DETAIL"]
+    node_e8142ab8["+------------------------------------------------+"]
+    node_MitochondrieEndoplaz["Mitochondrie          Endoplazmaticke"]
+    node_reticulum["====                reticulum"]
+    node_22fd7366["====                ~~~~~~~~"]
+    node_Rezervnipoolvezikul["Rezervni pool vezikul"]
+    node_OOOO["OOOO"]
+    node_OOOOO["OOOOO"]
+    node_Mobilizace["Mobilizace"]
+    node_Recyklovanypool["Recyklovany pool"]
+    node_OOO["OOO"]
+    node_Dokovn["Dokování"]
+    node_AktivnizonaAZ["Aktivni zona AZ"]
+    node_d06d1fef["+=====================================+"]
+    node_OOORRP["O  O  O  &lt;-- RRP"]
+    node_readily["readily"]
+    node_SNAREproteinyreleasa["SNARE proteiny      releasable pool"]
+    node_syntaxinSNAP25synapt["syntaxin, SNAP-25, synaptobrevin"]
+    node_Fze["Fúze"]
+    node_e282ef30["+--------------||------------------------------+"]
+    node_Synaptickasterbina["~~~~~~~~~~~~~~~||~~~~~~~~~~~~~~~  Synapticka sterbina"]
+
+    node_PRESYNAPTICKYTERMINA --> node_e8142ab8
+    node_e8142ab8 --> node_MitochondrieEndoplaz
+    node_MitochondrieEndoplaz --> node_reticulum
+    node_reticulum --> node_22fd7366
+    node_22fd7366 --> node_Rezervnipoolvezikul
+    node_Rezervnipoolvezikul --> node_OOOO
+    node_OOOO --> node_OOOOO
+    node_OOOOO --> node_Mobilizace
+    node_Mobilizace --> node_Recyklovanypool
+    node_Recyklovanypool --> node_OOO
+    node_OOO --> node_Dokovn
+    node_Dokovn --> node_AktivnizonaAZ
+    node_AktivnizonaAZ --> node_d06d1fef
+    node_d06d1fef --> node_OOORRP
+    node_OOORRP --> node_readily
+    node_readily --> node_SNAREproteinyreleasa
+    node_SNAREproteinyreleasa --> node_syntaxinSNAP25synapt
+    node_syntaxinSNAP25synapt --> node_Fze
+    node_Fze --> node_e282ef30
+    node_e282ef30 --> node_Synaptickasterbina
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
             PRESYNAPTICKY TERMINAL - DETAIL
@@ -163,6 +278,8 @@ Presynapticky terminal je specializovana struktura na konci axonu obsahujici ves
     ~~~~~~~~~~~~~~~||~~~~~~~~~~~~~~~  Synapticka sterbina
 ```
 
+</details>
+
 #### Synapticke vezikuly
 
 | Typ vezikulu | Obsah | Prumer | Funkcni charakteristika |
@@ -172,6 +289,35 @@ Presynapticky terminal je specializovana struktura na konci axonu obsahujici ves
 | **Velke dense-core** | Neuropeptidy | 80-120 nm | Pomalý prenos |
 
 #### SNARE komplex a exocytoza
+
+```mermaid
+flowchart TD
+    node_SNAREMEDIOVANFZE["SNARE-MEDIOVANÁ FÚZE"]
+    node_1Dokovn2Priming["1. Dokování                    2. Priming"]
+    node_VezikulOVezikulO["Vezikul O                   Vezikul O"]
+    node_SynaptobrevinSynapto["Synaptobrevin                 Synaptobrevin"]
+    node_SyntaxinSNAP25stenSN["Syntaxin  SNAP-25           Částečný SNARE komplex"]
+    node_3Ca2vstup4Fze["3. Ca2+ vstup                 4. Fúze"]
+    node_Ca2Ca2["Ca2+Ca2+                       ~~"]
+    node_6f67633b["/  \"]
+    node_Synaptotagmin["Synaptotagmin"]
+    node_AktivacekomplexuUvol["Aktivace komplexu            Uvolnění NT"]
+    node_KompletniSNAREFznpr["Kompletni SNARE              Fúzní pór"]
+
+    node_SNAREMEDIOVANFZE --> node_1Dokovn2Priming
+    node_1Dokovn2Priming --> node_VezikulOVezikulO
+    node_VezikulOVezikulO --> node_SynaptobrevinSynapto
+    node_SynaptobrevinSynapto --> node_SyntaxinSNAP25stenSN
+    node_SyntaxinSNAP25stenSN --> node_3Ca2vstup4Fze
+    node_3Ca2vstup4Fze --> node_Ca2Ca2
+    node_Ca2Ca2 --> node_6f67633b
+    node_6f67633b --> node_Synaptotagmin
+    node_Synaptotagmin --> node_AktivacekomplexuUvol
+    node_AktivacekomplexuUvol --> node_KompletniSNAREFznpr
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                 SNARE-MEDIOVANÁ FÚZE
@@ -197,6 +343,8 @@ Presynapticky terminal je specializovana struktura na konci axonu obsahujici ves
     =====================        =====================
     Kompletni SNARE              Fúzní pór
 ```
+
+</details>
 
 #### Klicove proteiny presynaptickeho terminalu
 
@@ -252,6 +400,40 @@ Synapticka sterbina je extracelularni prostor mezi pre- a postsynaptickou membra
 
 Postsynapticka hustota je elektronove densa oblast na postsynapticke membrane obsahujici receptory a signalni proteiny.
 
+```mermaid
+flowchart TD
+    node_POSTSYNAPTICKAHUSTOT["POSTSYNAPTICKA HUSTOTA PSD"]
+    node_Synaptickasterbina["Synapticka sterbina"]
+    node_714a504d["~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"]
+    node_RRRRReceptory["R    R    R    R    &lt;-- Receptory"]
+    node_ionotropni["ionotropni,"]
+    node_metabotropni["metabotropni"]
+    node_SSSSScaffoldproteiny["S    S    S    S    &lt;-- Scaffold proteiny"]
+    node_PSD95Homer["PSD-95, Homer,"]
+    node_ShankGKAP["------|------|------|         Shank, GKAP"]
+    node_CaMKIIPKAPKCKinazy["CaMKII PKA PKC       &lt;-- Kinazy"]
+    node_PP1PP2AFosfatazy["PP1 PP2A          &lt;-- Fosfatazy"]
+    node_Cytoskeletaktin["Cytoskelet aktin"]
+
+    node_POSTSYNAPTICKAHUSTOT --> node_Synaptickasterbina
+    node_Synaptickasterbina --> node_714a504d
+    node_714a504d --> node_RRRRReceptory
+    node_RRRRReceptory --> node_ionotropni
+    node_ionotropni --> node_metabotropni
+    node_metabotropni --> node_SSSSScaffoldproteiny
+    node_SSSSScaffoldproteiny --> node_PSD95Homer
+    node_PSD95Homer --> node_ShankGKAP
+    node_ShankGKAP --> node_CaMKIIPKAPKCKinazy
+    node_CaMKIIPKAPKCKinazy --> node_PP1PP2AFosfatazy
+    node_PP1PP2AFosfatazy --> node_Cytoskeletaktin
+
+    click node_RRRRReceptory "/glossary/receptor/" "R    R    R    R    <-- Receptory"
+    click node_PP1PP2AFosfatazy "/glossary/fosfat/" "PP1 PP2A          <-- Fosfatazy"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
             POSTSYNAPTICKA HUSTOTA (PSD)
 
@@ -273,6 +455,8 @@ Postsynapticka hustota je elektronove densa oblast na postsynapticke membrane ob
            |
     Cytoskelet (aktin)
 ```
+
+</details>
 
 #### Hlavni komponenty PSD
 
@@ -654,6 +838,35 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 
 ### Spike-Timing Dependent Plasticity (STDP)
 
+```mermaid
+flowchart TD
+    node_SPIKETIMINGDEPENDENT["SPIKE-TIMING DEPENDENT PLASTICITY"]
+    node_Casoveoknoproplastic["Casove okno pro plasticitu:"]
+    node_LTPLTD["LTP                              LTD"]
+    node_d559e544["+                              -"]
+    node_eff53707["\                      /"]
+    node_17ebcd18["\                    /"]
+    node_cd282805["\__________________/"]
+    node_Dttposttpre["Dt = t_post - t_pre"]
+    node_Dt0Postsynaptickyspi["Dt &lt; 0: Postsynapticky spike PRED presynaptickym"]
+    node_Dt0Presynaptickyspik["Dt &gt; 0: Presynapticky spike PRED postsynaptickym"]
+    node_wiretogether["wire together'"]
+
+    node_SPIKETIMINGDEPENDENT --> node_Casoveoknoproplastic
+    node_Casoveoknoproplastic --> node_LTPLTD
+    node_LTPLTD --> node_d559e544
+    node_d559e544 --> node_eff53707
+    node_eff53707 --> node_17ebcd18
+    node_17ebcd18 --> node_cd282805
+    node_cd282805 --> node_Dttposttpre
+    node_Dttposttpre --> node_Dt0Postsynaptickyspi
+    node_Dt0Postsynaptickyspi --> node_Dt0Presynaptickyspik
+    node_Dt0Presynaptickyspik --> node_wiretogether
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     SPIKE-TIMING DEPENDENT PLASTICITY
 
@@ -678,6 +891,8 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
             --> LTP (Hebbovska: "cells that fire together,
                                  wire together")
 ```
+
+</details>
 
 ---
 
@@ -734,7 +949,6 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 | **MAO inhibice** | Selegilin, Moclobemid | Deprese, Parkinson |
 | **SERT inhibice** | Fluoxetin | Deprese, úzkost |
 | **DAT inhibice** | Methylfenidat | ADHD |
-| **Receptor agonismus** | [Muscimol](@/alkaloids/muscimol.md) | - (vyzkum) |
 | **Receptor antagonismus** | Ketanserin | - (vyzkum) |
 | **PAM** | Benzodiazepiny | Úzkost, nespavost |
 
@@ -745,7 +959,6 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 | [**LSD**](@/alkaloids/lsd.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) | Parcialni agonista |
 | [**Psilocybin**](@/alkaloids/psilocybin.md) | [5-HT2A receptor](@/receptors/5-ht2a.md) | Agonista (via psilocin) |
 | [**DMT**](@/alkaloids/dmt.md) | [5-HT2A](@/receptors/5-ht2a.md), sigma-1 | Agonista |
-| [**Muscimol**](@/alkaloids/muscimol.md) | [GABA-A receptor](@/receptors/gaba-a.md) | Primy agonista |
 | **Ketamin** | [NMDA receptor](@/receptors/nmda.md) | Kanalovy blokator |
 | **MDMA** | SERT, DAT, NET | Reverzi transporteru |
 | **Kokain** | DAT, SERT, NET | Blokáda reuptake |
@@ -836,7 +1049,6 @@ Synaptická plasticita je schopnost synapsi menit svou silu v zavislosti na akti
 - [LSD](@/alkaloids/lsd.md) - 5-HT2A agonista s vysokou afinitou
 - [Psilocybin](@/alkaloids/psilocybin.md) - Houbove psychedelikum
 - [DMT](@/alkaloids/dmt.md) - Endogenni psychedelikum
-- [Muscimol](@/alkaloids/muscimol.md) - Primy GABA-A agonista
 
 ### Zdroje psychoaktivnich latek
 - [Psilocybe houby](@/shrooms/psilocybes/_index.md) - Zdroj psilocybinu

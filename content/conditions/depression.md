@@ -89,6 +89,49 @@ Pro diagnozu je nutna pritomnost alespon **5 z 9 symptomu** po dobu **2+ tydnu**
 
 ### Evoluce hypotez
 
+```mermaid
+flowchart TD
+    node_HISTORICKYVYVOJHYPOT["HISTORICKY VYVOJ HYPOTEZ DEPRESE"]
+    node_1960s1990sMONOAMINOV["1960s-1990s: MONOAMINOVA HYPOTEZA"]
+    node_34de3209["+----------------------------------------+"]
+    node_Depresedeficitseroto["Deprese = deficit serotoninu/NA"]
+    node_Lecbazvysenimonoamin["Lecba = zvyseni monoaminu"]
+    node_Problem24tydnylatenc["Problem: 2-4 tydny latence ucinku"]
+    node_2000sNEUROPLASTICKAH["2000s: NEUROPLASTICKA HYPOTEZA"]
+    node_Depresesnizenaneurop["Deprese = snizena neuroplasticita"]
+    node_KlicoveBDNFsynaptoge["Klicove: BDNF, synaptogeneze"]
+    node_Podporenoketaminpsyc["Podporeno: ketamin, psychedelika"]
+    node_2010sINTEGRATIVNIMOD["2010s: INTEGRATIVNI MODEL"]
+    node_ZntHPAdysregulace["Zánět + HPA dysregulace"]
+    node_GlutamtGABAnerovnovh["Glutamát/GABA nerovnováha"]
+    node_SovdysfunkceDMNhyper["Síťová dysfunkce DMN hyperaktivita"]
+    node_Individulnvariabilit["Individuální variabilita"]
+
+    node_HISTORICKYVYVOJHYPOT --> node_1960s1990sMONOAMINOV
+    node_1960s1990sMONOAMINOV --> node_34de3209
+    node_34de3209 --> node_Depresedeficitseroto
+    node_Depresedeficitseroto --> node_Lecbazvysenimonoamin
+    node_Lecbazvysenimonoamin --> node_Problem24tydnylatenc
+    node_Problem24tydnylatenc --> node_2000sNEUROPLASTICKAH
+    node_2000sNEUROPLASTICKAH --> node_Depresesnizenaneurop
+    node_Depresesnizenaneurop --> node_KlicoveBDNFsynaptoge
+    node_KlicoveBDNFsynaptoge --> node_Podporenoketaminpsyc
+    node_Podporenoketaminpsyc --> node_2010sINTEGRATIVNIMOD
+    node_2010sINTEGRATIVNIMOD --> node_ZntHPAdysregulace
+    node_ZntHPAdysregulace --> node_GlutamtGABAnerovnovh
+    node_GlutamtGABAnerovnovh --> node_SovdysfunkceDMNhyper
+    node_SovdysfunkceDMNhyper --> node_Individulnvariabilit
+
+    click node_Depresedeficitseroto "/glossary/serotonin/" "Deprese = deficit serotoninu/NA"
+    click node_Depresesnizenaneurop "/glossary/neuroplasticita/" "Deprese = snizena neuroplasticita"
+    click node_KlicoveBDNFsynaptoge "/molecules/bdnf/" "Klicove: BDNF, synaptogeneze"
+    click node_Podporenoketaminpsyc "/alkaloids/ketamin/" "Podporeno: ketamin, psychedelika"
+    click node_SovdysfunkceDMNhyper "/circuits/dmn/" "Síťová dysfunkce DMN hyperaktivita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 HISTORICKY VYVOJ HYPOTEZ DEPRESE
 
@@ -117,6 +160,8 @@ HISTORICKY VYVOJ HYPOTEZ DEPRESE
 +----------------------------------------+
 ```
 
+</details>
+
 ### Monoaminova hypoteza
 
 | Neurotransmiter | Zmena u deprese | Dukaz |
@@ -131,6 +176,42 @@ HISTORICKY VYVOJ HYPOTEZ DEPRESE
 - Rychly ucinek ketaminu
 
 ### Neuroplasticka hypoteza
+
+```mermaid
+flowchart TD
+    node_NEUROPLASTICKAHYPOTE["NEUROPLASTICKA HYPOTEZA"]
+    node_ZDRAVYMOZEKDEPRESE["ZDRAVY MOZEK                  DEPRESE"]
+    node_fc3e3546["+------------------+          +------------------+"]
+    node_BDNFBDNF["BDNF: ======== |          | BDNF: =="]
+    node_DendrityDendrity["Dendrity:        |          | Dendrity:"]
+    node_508e81db["/\  /\  /\"]
+    node_b3bcb335["/\/\/\/\/\/\"]
+    node_SynapseSynapse["Synapse: ####### |          | Synapse: ##"]
+    node_HippocampusHippocamp["Hippocampus:     |          | Hippocampus:"]
+    node_NormalniobjemAtrofie["Normalni objem   |          | Atrofie"]
+    node_AdaptivniplasticitaM["Adaptivni plasticita        Maladaptivni rigidita"]
+    node_ResilienceRuminace["Resilience                  Ruminace"]
+    node_Kognitvniflexibilita["Kognitívni flexibilita      Negativni bias"]
+
+    node_NEUROPLASTICKAHYPOTE --> node_ZDRAVYMOZEKDEPRESE
+    node_ZDRAVYMOZEKDEPRESE --> node_fc3e3546
+    node_fc3e3546 --> node_BDNFBDNF
+    node_BDNFBDNF --> node_DendrityDendrity
+    node_DendrityDendrity --> node_508e81db
+    node_508e81db --> node_b3bcb335
+    node_b3bcb335 --> node_SynapseSynapse
+    node_SynapseSynapse --> node_HippocampusHippocamp
+    node_HippocampusHippocamp --> node_NormalniobjemAtrofie
+    node_NormalniobjemAtrofie --> node_AdaptivniplasticitaM
+    node_AdaptivniplasticitaM --> node_ResilienceRuminace
+    node_ResilienceRuminace --> node_Kognitvniflexibilita
+
+    click node_BDNFBDNF "/molecules/bdnf/" "BDNF: ======== |          | BDNF: =="
+    click node_HippocampusHippocamp "/brain/hippocampus/" "Hippocampus:     |          | Hippocampus:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NEUROPLASTICKA HYPOTEZA
@@ -156,6 +237,8 @@ NEUROPLASTICKA HYPOTEZA
   Kognitívni flexibilita      Negativni bias
 ```
 
+</details>
+
 ### Klicove zmeny u deprese
 
 | Oblast | Zmena | Mechanismus |
@@ -167,6 +250,48 @@ NEUROPLASTICKA HYPOTEZA
 | **HPA osa** | Hyperaktivita | Chronicky zvyseny kortizol |
 
 ### Glutamátergni dysregulace
+
+```mermaid
+flowchart TD
+    node_GLUTAMATADEPRESE["GLUTAMAT A DEPRESE"]
+    node_Normalnistav["Normalni stav:"]
+    node_56642846["+-----------------+"]
+    node_GlutamtRovnovhaexcit["Glutamát        |  Rovnováha excitace/inhibice"]
+    node_ccbfc51b["===="]
+    node_GABA["GABA"]
+    node_Deprese["Deprese:"]
+    node_GlutamtDysbalance["Glutamát        |  Dysbalance"]
+    node_Extrasynaptickygluta["======        |  Extrasynapticky glutamát"]
+    node_NMDAhyperaktivace["NMDA hyperaktivace"]
+    node_Snizenainhibice["==            |  Snizena inhibice"]
+    node_Ketamin["Ketamin:"]
+    node_NMDAblokadaObnovenir["NMDA blokada    |  Obnoveni rovnovahy"]
+    node_XSynaptogeneze["X          |  Synaptogeneze"]
+    node_AMPAburstBDNFindukce["AMPA burst      |  BDNF indukce"]
+
+    node_GLUTAMATADEPRESE --> node_Normalnistav
+    node_Normalnistav --> node_56642846
+    node_56642846 --> node_GlutamtRovnovhaexcit
+    node_GlutamtRovnovhaexcit --> node_ccbfc51b
+    node_ccbfc51b --> node_GABA
+    node_GABA --> node_Deprese
+    node_Deprese --> node_GlutamtDysbalance
+    node_GlutamtDysbalance --> node_Extrasynaptickygluta
+    node_Extrasynaptickygluta --> node_NMDAhyperaktivace
+    node_NMDAhyperaktivace --> node_Snizenainhibice
+    node_Snizenainhibice --> node_Ketamin
+    node_Ketamin --> node_NMDAblokadaObnovenir
+    node_NMDAblokadaObnovenir --> node_XSynaptogeneze
+    node_XSynaptogeneze --> node_AMPAburstBDNFindukce
+
+    click node_NMDAhyperaktivace "/receptors/nmda/" "NMDA hyperaktivace"
+    click node_Ketamin "/alkaloids/ketamin/" "Ketamin:"
+    click node_NMDAblokadaObnovenir "/receptors/nmda/" "NMDA blokada    |  Obnoveni rovnovahy"
+    click node_AMPAburstBDNFindukce "/molecules/bdnf/" "AMPA burst      |  BDNF indukce"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GLUTAMAT A DEPRESE
@@ -197,6 +322,8 @@ Ketamin:
 | [====]          |
 +-----------------+
 ```
+
+</details>
 
 ### Zanetova hypoteza
 
@@ -248,6 +375,45 @@ Ketamin:
 
 ### Mechanismus ucinku psychedelik
 
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAVLECBEDE["PSYCHEDELIKA V LECBE DEPRESE"]
+    node_PsilocybinLSDDMT["Psilocybin/LSD/DMT"]
+    node_5HT2Areceptoraktivac["5-HT2A receptor aktivace"]
+    node_c0cc21db["+---+---+"]
+    node_AkutniNeuroplasticke["Akutni     Neuroplasticke"]
+    node_efektyefekty["efekty     efekty"]
+    node_DMNdezintegraceBDNFz["DMN dezintegrace   BDNF zvyseni"]
+    node_EgodisolucemTORaktiv["Ego disoluce       mTOR aktivace"]
+    node_MystickezazitkySynap["Mysticke zazitky   Synaptogeneze"]
+    node_PsychologickStruktur["Psychologický      Strukturalni"]
+    node_insightzmeny["insight           zmeny"]
+    node_4037099c["+-----+-----+"]
+    node_ANTIDEPRESIVNIUCINEK["ANTIDEPRESIVNI UCINEK"]
+    node_tydnyazmesice["tydny az mesice"]
+
+    node_PSYCHEDELIKAVLECBEDE --> node_PsilocybinLSDDMT
+    node_PsilocybinLSDDMT --> node_5HT2Areceptoraktivac
+    node_5HT2Areceptoraktivac --> node_c0cc21db
+    node_c0cc21db --> node_AkutniNeuroplasticke
+    node_AkutniNeuroplasticke --> node_efektyefekty
+    node_efektyefekty --> node_DMNdezintegraceBDNFz
+    node_DMNdezintegraceBDNFz --> node_EgodisolucemTORaktiv
+    node_EgodisolucemTORaktiv --> node_MystickezazitkySynap
+    node_MystickezazitkySynap --> node_PsychologickStruktur
+    node_PsychologickStruktur --> node_insightzmeny
+    node_insightzmeny --> node_4037099c
+    node_4037099c --> node_ANTIDEPRESIVNIUCINEK
+    node_ANTIDEPRESIVNIUCINEK --> node_tydnyazmesice
+
+    click node_PsilocybinLSDDMT "/alkaloids/psilocybin/" "Psilocybin/LSD/DMT"
+    click node_5HT2Areceptoraktivac "/receptors/5-ht2a/" "5-HT2A receptor aktivace"
+    click node_DMNdezintegraceBDNFz "/circuits/dmn/" "DMN dezintegrace   BDNF zvyseni"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSYCHEDELIKA V LECBE DEPRESE
 
@@ -277,6 +443,8 @@ insight           zmeny
     ANTIDEPRESIVNI UCINEK
     (tydny az mesice)
 ```
+
+</details>
 
 ### Klinicke studie s psilocybinem
 
@@ -319,6 +487,31 @@ insight           zmeny
 
 ### Mysticka zkusenost jako prediktor
 
+```mermaid
+flowchart TD
+    node_MYSTICKAZKUSENOSTATE["MYSTICKA ZKUSENOST A TERAPEUTICKY VYSLEDEK"]
+    node_Intenzitamystickehoz["Intenzita mystickeho zazitku MEQ30 skore"]
+    node_5272f959["*   *"]
+    node_5a2bf9e8["*       *"]
+    node_95d58a1b["*           *"]
+    node_59329965["*               *"]
+    node_Snizenidepresivnichs["+--------------------&gt; Snizeni depresivnich symptomu"]
+    node_Korelacer0406["Korelace: r = 0.4-0.6"]
+    node_MediaceParcialni["Mediace: Parcialni"]
+
+    node_MYSTICKAZKUSENOSTATE --> node_Intenzitamystickehoz
+    node_Intenzitamystickehoz --> node_5272f959
+    node_5272f959 --> node_5a2bf9e8
+    node_5a2bf9e8 --> node_95d58a1b
+    node_95d58a1b --> node_59329965
+    node_59329965 --> node_Snizenidepresivnichs
+    node_Snizenidepresivnichs --> node_Korelacer0406
+    node_Korelacer0406 --> node_MediaceParcialni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MYSTICKA ZKUSENOST A TERAPEUTICKY VYSLEDEK
 
@@ -334,6 +527,8 @@ Intenzita mystickeho zazitku (MEQ30 skore)
 Korelace: r = 0.4-0.6
 Mediace: Parcialni
 ```
+
+</details>
 
 | Studie | Korelace MEQ-outcome | Interpretace |
 |--------|----------------------|--------------|
@@ -369,6 +564,50 @@ Viz detailne: [Mysticke zkusenosti](@/phenomenology/mystical-experiences.md)
 
 ### Terapeuticky protokol
 
+```mermaid
+flowchart TD
+    node_TYPICKYPROTOKOLPSILO["TYPICKY PROTOKOL PSILOCYBINOVE TERAPIE"]
+    node_FAZE1PRIPRAVA13sezen["FAZE 1: PRIPRAVA 1-3 sezení"]
+    node_1343fde7["+--------------------------------+"]
+    node_Anamnezascreening["Anamneza, screening"]
+    node_Budovaniterapeuticke["Budovani terapeutickeho vztahu"]
+    node_Psychoedukace["Psychoedukace"]
+    node_Formulaceintence["Formulace intence"]
+    node_FAZE2DOSINGSESSION1d["FAZE 2: DOSING SESSION 1 den"]
+    node_Podanipsilocybinu25m["Podani psilocybinu 25mg"]
+    node_68hodinsterapeuty["6-8 hodin s terapeuty"]
+    node_Minimalniverbalniint["Minimalni verbalni intervence"]
+    node_Hudbaklidneprostredi["Hudba, klidne prostredi"]
+    node_FAZE3INTEGRACE24seze["FAZE 3: INTEGRACE 2-4 sezeni"]
+    node_Zpracovanizazitku["Zpracovani zazitku"]
+    node_Identifikaceinsights["Identifikace insights"]
+    node_Implementacezmen["Implementace zmen"]
+    node_Dlouhodobyfollowup["Dlouhodoby follow-up"]
+
+    node_TYPICKYPROTOKOLPSILO --> node_FAZE1PRIPRAVA13sezen
+    node_FAZE1PRIPRAVA13sezen --> node_1343fde7
+    node_1343fde7 --> node_Anamnezascreening
+    node_Anamnezascreening --> node_Budovaniterapeuticke
+    node_Budovaniterapeuticke --> node_Psychoedukace
+    node_Psychoedukace --> node_Formulaceintence
+    node_Formulaceintence --> node_FAZE2DOSINGSESSION1d
+    node_FAZE2DOSINGSESSION1d --> node_Podanipsilocybinu25m
+    node_Podanipsilocybinu25m --> node_68hodinsterapeuty
+    node_68hodinsterapeuty --> node_Minimalniverbalniint
+    node_Minimalniverbalniint --> node_Hudbaklidneprostredi
+    node_Hudbaklidneprostredi --> node_FAZE3INTEGRACE24seze
+    node_FAZE3INTEGRACE24seze --> node_Zpracovanizazitku
+    node_Zpracovanizazitku --> node_Identifikaceinsights
+    node_Identifikaceinsights --> node_Implementacezmen
+    node_Implementacezmen --> node_Dlouhodobyfollowup
+
+    click node_TYPICKYPROTOKOLPSILO "/alkaloids/psilocybin/" "TYPICKY PROTOKOL PSILOCYBINOVE TERAPIE"
+    click node_Podanipsilocybinu25m "/alkaloids/psilocybin/" "Podani psilocybinu 25mg"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYPICKY PROTOKOL PSILOCYBINOVE TERAPIE
 
@@ -398,6 +637,8 @@ FAZE 3: INTEGRACE (2-4 sezeni)
 | Dlouhodoby follow-up           |
 +--------------------------------+
 ```
+
+</details>
 
 ---
 

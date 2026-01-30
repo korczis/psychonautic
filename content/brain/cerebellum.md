@@ -19,6 +19,27 @@ tags = ["cerebellum", "mozeček", "koordinace", "ataxie", "GABA", "Purkyňovy bu
 
 ### Makroskopická anatomie
 
+```mermaid
+flowchart TD
+    node_CEREBELLUMPOHLED["CEREBELLUM - POHLED"]
+    node_VERMISstednst["VERMIS střední část"]
+    node_LEVPRAV["LEVÁ             PRAVÁ"]
+    node_HEMISFRAHEMISFRA["HEMISFÉRA        HEMISFÉRA"]
+    node_PEDUNCULI["PEDUNCULI"]
+    node_stopky["stopky"]
+    node_MOZKOVKMEN["MOZKOVÝ KMEN"]
+
+    node_CEREBELLUMPOHLED --> node_VERMISstednst
+    node_VERMISstednst --> node_LEVPRAV
+    node_LEVPRAV --> node_HEMISFRAHEMISFRA
+    node_HEMISFRAHEMISFRA --> node_PEDUNCULI
+    node_PEDUNCULI --> node_stopky
+    node_stopky --> node_MOZKOVKMEN
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 CEREBELLUM - POHLED
 
@@ -38,6 +59,8 @@ HEMISFÉRA│    └───┘    │HEMISFÉRA
        MOZKOVÝ KMEN
 ```
 
+</details>
+
 ### Dělení
 
 | Část | Funkce | Afference |
@@ -47,6 +70,29 @@ HEMISFÉRA│    └───┘    │HEMISFÉRA
 | **Cerebrocerebellum** | Plánování pohybů, kognice | Kortex (přes pons) |
 
 ### Buněčné typy
+
+```mermaid
+flowchart TD
+    node_KORTEXCEREBELLAVRSTV["KORTEX CEREBELLA - VRSTVY"]
+    node_MOLEKULRNVRSTVAParal["MOLEKULÁRNÍ VRSTVA            Paralelní vlákna"]
+    node_Hvzdicovbuky["Hvězdicové buňky"]
+    node_Kokovbuky["Košíčkové buňky"]
+    node_PURKYOVAVRSTVAPURKYO["PURKYŇOVA VRSTVA              PURKYŇOVY BUŇKY"]
+    node_GABAergnvstup["GABAergní výstup"]
+    node_GRANULRNVRSTVAGranul["GRANULÁRNÍ VRSTVA             Granulární buňky"]
+    node_Golgihobuky["Golgiho buňky"]
+
+    node_KORTEXCEREBELLAVRSTV --> node_MOLEKULRNVRSTVAParal
+    node_MOLEKULRNVRSTVAParal --> node_Hvzdicovbuky
+    node_Hvzdicovbuky --> node_Kokovbuky
+    node_Kokovbuky --> node_PURKYOVAVRSTVAPURKYO
+    node_PURKYOVAVRSTVAPURKYO --> node_GABAergnvstup
+    node_GABAergnvstup --> node_GRANULRNVRSTVAGranul
+    node_GRANULRNVRSTVAGranul --> node_Golgihobuky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 KORTEX CEREBELLA - VRSTVY
@@ -65,6 +111,8 @@ KORTEX CEREBELLA - VRSTVY
 └─────────────────────────────────┘
 ```
 
+</details>
+
 | Buněčný typ | Neurotransmiter | Funkce |
 |-------------|-----------------|--------|
 | **Purkyňovy buňky** | **GABA** | Jediný výstup z kortexu, inhibiční |
@@ -77,6 +125,25 @@ KORTEX CEREBELLA - VRSTVY
 ## Receptorové vybavení
 
 ### GABA-A receptory v cerebelu
+
+```mermaid
+flowchart TD
+    node_GABAASUBTYPYVCEREBEL["GABA-A SUBTYPY V CEREBELU"]
+    node_Purkyovybuky122hlavn["Purkyňovy buňky: α1β2γ2 hlavní"]
+    node_6extrasynaptick["α6βδ  extrasynaptické"]
+    node_TONICKINHIBICE["TONICKÁ INHIBICE"]
+    node_Granulrnbuky623extra["Granulární buňky: α6β2/3δ extrasynaptické"]
+    node_REGULACEEXCITABILITY["REGULACE EXCITABILITY"]
+
+    node_GABAASUBTYPYVCEREBEL --> node_Purkyovybuky122hlavn
+    node_Purkyovybuky122hlavn --> node_6extrasynaptick
+    node_6extrasynaptick --> node_TONICKINHIBICE
+    node_TONICKINHIBICE --> node_Granulrnbuky623extra
+    node_Granulrnbuky623extra --> node_REGULACEEXCITABILITY
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 GABA-A SUBTYPY V CEREBELU
@@ -92,6 +159,8 @@ Granulární buňky: α6β2/3δ (extrasynaptické)
                      ↓
           REGULACE EXCITABILITY
 ```
+
+</details>
 
 | Subtyp | Lokalizace | Funkce |
 |--------|------------|--------|
@@ -113,6 +182,25 @@ Granulární buňky: α6β2/3δ (extrasynaptické)
 
 ### Motorická koordinace
 
+```mermaid
+flowchart TD
+    node_CEREBELRNKOORDINACE["CEREBELÁRNÍ KOORDINACE"]
+    node_Kortexplnpohybu["Kortex plán pohybu"]
+    node_Cerebellum["Cerebellum"]
+    node_TimingSekvenceSla["Timing   Sekvence   Síla"]
+    node_KOORDINOVAN["KOORDINOVANÝ"]
+    node_POHYB["POHYB"]
+
+    node_CEREBELRNKOORDINACE --> node_Kortexplnpohybu
+    node_Kortexplnpohybu --> node_Cerebellum
+    node_Cerebellum --> node_TimingSekvenceSla
+    node_TimingSekvenceSla --> node_KOORDINOVAN
+    node_KOORDINOVAN --> node_POHYB
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 CEREBELÁRNÍ KOORDINACE
 
@@ -129,6 +217,8 @@ CEREBELÁRNÍ KOORDINACE
        KOORDINOVANÝ
           POHYB
 ```
+
+</details>
 
 ### Motorické učení
 
@@ -153,6 +243,30 @@ CEREBELÁRNÍ KOORDINACE
 
 ### GABAergika a ataxie
 
+```mermaid
+flowchart TD
+    node_GABAergnLTKYCEREBELR["GABAergní LÁTKY  CEREBELÁRNÍ ATAXIE"]
+    node_MuscimolGABAAaktivac["Muscimol  GABA-A aktivace  Inhibice Purkyňových"]
+    node_bunk["buněk"]
+    node_Snenvstupdo["Snížený výstup do"]
+    node_hlubokchjader["hlubokých jader"]
+    node_MOTORICK["MOTORICKÁ"]
+    node_DYSKOORDINACE["DYSKOORDINACE"]
+
+    node_GABAergnLTKYCEREBELR --> node_MuscimolGABAAaktivac
+    node_MuscimolGABAAaktivac --> node_bunk
+    node_bunk --> node_Snenvstupdo
+    node_Snenvstupdo --> node_hlubokchjader
+    node_hlubokchjader --> node_MOTORICK
+    node_MOTORICK --> node_DYSKOORDINACE
+
+    click node_GABAergnLTKYCEREBELR "/glossary/ataxie/" "GABAergní LÁTKY  CEREBELÁRNÍ ATAXIE"
+    click node_MuscimolGABAAaktivac "/alkaloids/muscimol/" "Muscimol  GABA-A aktivace  Inhibice Purkyňových"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 GABAergní LÁTKY → CEREBELÁRNÍ ATAXIE
 
@@ -166,9 +280,10 @@ GABAergní LÁTKY → CEREBELÁRNÍ ATAXIE
                               DYSKOORDINACE
 ```
 
+</details>
+
 | Látka | Mechanismus v cerebelu | Stupeň ataxie |
 |-------|------------------------|---------------|
-| **[Muscimol](@/alkaloids/muscimol.md)** | GABA-A agonista (α6, α1) | **Silná** |
 | **Alkohol** | GABA-A PAM, NMDA antagonista | Silná |
 | **Benzodiazepiny** | GABA-A PAM (α1) | Střední |
 | **Barbituráty** | GABA-A agonista | Silná |
@@ -196,6 +311,31 @@ GABAergní LÁTKY → CEREBELÁRNÍ ATAXIE
 
 ### Cerebelární ataxie
 
+```mermaid
+flowchart TD
+    node_PZNAKYCEREBELRNLZE["PŘÍZNAKY CEREBELÁRNÍ LÉZE"]
+    node_DYSMETRIENepesnclen["DYSMETRIE  Nepřesné cílení"]
+    node_ADIADOCHOKINEZENesch["ADIADOCHOKINEZE  Neschopnost rychlých alternujících pohybů"]
+    node_DYSARTRIESkandovane["DYSARTRIE  Skandovaná řeč"]
+    node_ATAXIECHZEirokbzenes["ATAXIE CHŮZE  Široká báze, nestabilita"]
+    node_INTENCILNTespiclenmp["INTENCIÁLNÍ  Třes při cíleném pohybu"]
+    node_TREMOR["TREMOR"]
+    node_NYSTAGMUSMimovolnpoh["NYSTAGMUS  Mimovolní pohyby očí"]
+
+    node_PZNAKYCEREBELRNLZE --> node_DYSMETRIENepesnclen
+    node_DYSMETRIENepesnclen --> node_ADIADOCHOKINEZENesch
+    node_ADIADOCHOKINEZENesch --> node_DYSARTRIESkandovane
+    node_DYSARTRIESkandovane --> node_ATAXIECHZEirokbzenes
+    node_ATAXIECHZEirokbzenes --> node_INTENCILNTespiclenmp
+    node_INTENCILNTespiclenmp --> node_TREMOR
+    node_TREMOR --> node_NYSTAGMUSMimovolnpoh
+
+    click node_ATAXIECHZEirokbzenes "/glossary/ataxie/" "ATAXIE CHŮZE  Široká báze, nestabilita"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PŘÍZNAKY CEREBELÁRNÍ LÉZE
 
@@ -212,6 +352,8 @@ TREMOR
     │
 NYSTAGMUS ───── Mimovolní pohyby očí
 ```
+
+</details>
 
 ### Hodnocení
 
@@ -258,7 +400,6 @@ NYSTAGMUS ───── Mimovolní pohyby očí
 - [NMDA receptor](@/receptors/nmda.md) - Cerebelární plasticita
 
 ### Látky
-- [Muscimol](@/alkaloids/muscimol.md) - **Silná cerebelární ataxie**
 - [Účinky muscimolu](@/phenomenology/muscimol-effects.md) - Detailní fenomenologie
 - [Ketamin](@/alkaloids/ketamin.md) - NMDA blokáda
 

@@ -146,6 +146,55 @@ ZVYSENE synaptické hladiny 5-HT
 
 ### Mechanismus
 
+```mermaid
+flowchart TD
+    node_TYRAMINVPOTRAVE["TYRAMIN V POTRAVE"]
+    node_fermentovanepotravin["fermentovane potraviny"]
+    node_NORMALNEMAOAvGITmeta["NORMALNE: MAO-A v GIT metabolizuje"]
+    node_Bezpecnaeliminace["Bezpecna eliminace"]
+    node_SMAOI["S MAOI:"]
+    node_MAOAINHIBOVANO["MAO-A INHIBOVANO"]
+    node_Tyraminabsorbovandok["Tyramin absorbovan do krve"]
+    node_Symptatickanervovaza["Symptaticka nervova zakonceni"]
+    node_MasivniuvolneniNORAD["Masivni uvolneni NORADRENALINU"]
+    node_53e1b860["+----------------------------------+"]
+    node_HYPERTENZNIKRIZE["HYPERTENZNI KRIZE"]
+    node_Prudkabolesthlavy["- Prudka bolest hlavy"]
+    node_SystolickyTK200mmHg["- Systolicky TK 200+ mmHg"]
+    node_Tachykardie["- Tachykardie"]
+    node_Poceniflush["- Poceni, flush"]
+    node_Nauzeazvraceni["- Nauzea, zvraceni"]
+    node_KOMPLIKACE["KOMPLIKACE:"]
+    node_Hemorrhagickyiktus["- Hemorrhagicky iktus"]
+    node_Intrakranialnikrvace["- Intrakranialni krvaceni"]
+    node_Infarktmyokardu["- Infarkt myokardu"]
+    node_SMRT["- SMRT"]
+
+    node_TYRAMINVPOTRAVE --> node_fermentovanepotravin
+    node_fermentovanepotravin --> node_NORMALNEMAOAvGITmeta
+    node_NORMALNEMAOAvGITmeta --> node_Bezpecnaeliminace
+    node_Bezpecnaeliminace --> node_SMAOI
+    node_SMAOI --> node_MAOAINHIBOVANO
+    node_MAOAINHIBOVANO --> node_Tyraminabsorbovandok
+    node_Tyraminabsorbovandok --> node_Symptatickanervovaza
+    node_Symptatickanervovaza --> node_MasivniuvolneniNORAD
+    node_MasivniuvolneniNORAD --> node_53e1b860
+    node_53e1b860 --> node_HYPERTENZNIKRIZE
+    node_HYPERTENZNIKRIZE --> node_Prudkabolesthlavy
+    node_Prudkabolesthlavy --> node_SystolickyTK200mmHg
+    node_SystolickyTK200mmHg --> node_Tachykardie
+    node_Tachykardie --> node_Poceniflush
+    node_Poceniflush --> node_Nauzeazvraceni
+    node_Nauzeazvraceni --> node_KOMPLIKACE
+    node_KOMPLIKACE --> node_Hemorrhagickyiktus
+    node_Hemorrhagickyiktus --> node_Intrakranialnikrvace
+    node_Intrakranialnikrvace --> node_Infarktmyokardu
+    node_Infarktmyokardu --> node_SMRT
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TYRAMIN V POTRAVE
 (fermentovane potraviny)
@@ -187,6 +236,8 @@ Masivni uvolneni NORADRENALINU
 | - SMRT                           |
 +----------------------------------+
 ```
+
+</details>
 
 ### Potraviny s vysokym obsahem tyraminu
 

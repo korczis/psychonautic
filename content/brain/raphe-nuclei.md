@@ -30,6 +30,35 @@ Raphe nuclei jsou klicove pro pochopeni mechanismu ucinku antidepresiv i psyched
 
 ### Jednotliva jadra
 
+```mermaid
+flowchart TD
+    node_RAPHENUCLEISAGITALNI["RAPHE NUCLEI - SAGITALNI POHLED"]
+    node_MESENCEFALON["MESENCEFALON"]
+    node_DorslnrapheDR["Dorsální raphe DR"]
+    node_MedilnrapheMR["Mediální raphe MR"]
+    node_PONS["PONS"]
+    node_RaphepontisRPo["Raphe pontis RPo"]
+    node_NraphemagnusNRM["N. raphe magnus NRM"]
+    node_MEDULLA["MEDULLA"]
+    node_NrapheobscurusNRO["N. raphe obscurus NRO"]
+    node_NraphepallidusNRP["N. raphe pallidus NRP"]
+    node_MichaNRPNRO["Micha NRP, NRO"]
+
+    node_RAPHENUCLEISAGITALNI --> node_MESENCEFALON
+    node_MESENCEFALON --> node_DorslnrapheDR
+    node_DorslnrapheDR --> node_MedilnrapheMR
+    node_MedilnrapheMR --> node_PONS
+    node_PONS --> node_RaphepontisRPo
+    node_RaphepontisRPo --> node_NraphemagnusNRM
+    node_NraphemagnusNRM --> node_MEDULLA
+    node_MEDULLA --> node_NrapheobscurusNRO
+    node_NrapheobscurusNRO --> node_NraphepallidusNRP
+    node_NraphepallidusNRP --> node_MichaNRPNRO
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RAPHE NUCLEI - SAGITALNI POHLED
 
@@ -63,6 +92,8 @@ RAPHE NUCLEI - SAGITALNI POHLED
                     Micha (NRP, NRO)
 ```
 
+</details>
+
 ### Hlavni jadra
 
 | Jadro | Zkratka | Lokalizace | Hlavni projekce |
@@ -89,6 +120,34 @@ RAPHE NUCLEI - SAGITALNI POHLED
 
 ### Projekce DR
 
+```mermaid
+flowchart TD
+    node_DORSLNRAPHEPROJEKCE["DORSÁLNÍ RAPHE - PROJEKCE"]
+    node_DORSLNRAPHE["DORSÁLNÍ RAPHE"]
+    node_FrontlnLimbickBazln["Frontální        Limbický       Bazální"]
+    node_kortexsystmganglia["kortex           systém         ganglia"]
+    node_mPFCAmygdalaStriatum["• mPFC          • Amygdala      • Striatum"]
+    node_OFCHippocampusNAc["• OFC           • Hippocampus   • NAc"]
+    node_DLPFCSeptumCaudate["• DLPFC         • Septum        • Caudate"]
+    node_KogniceEmoceOdmna["Kognice         Emoce           Odměna"]
+    node_RozhodovnNladaPohyb["Rozhodování     Nálada          Pohyb"]
+
+    node_DORSLNRAPHEPROJEKCE --> node_DORSLNRAPHE
+    node_DORSLNRAPHE --> node_FrontlnLimbickBazln
+    node_FrontlnLimbickBazln --> node_kortexsystmganglia
+    node_kortexsystmganglia --> node_mPFCAmygdalaStriatum
+    node_mPFCAmygdalaStriatum --> node_OFCHippocampusNAc
+    node_OFCHippocampusNAc --> node_DLPFCSeptumCaudate
+    node_DLPFCSeptumCaudate --> node_KogniceEmoceOdmna
+    node_KogniceEmoceOdmna --> node_RozhodovnNladaPohyb
+
+    click node_mPFCAmygdalaStriatum "/brain/amygdala/" "• mPFC          • Amygdala      • Striatum"
+    click node_OFCHippocampusNAc "/brain/hippocampus/" "• OFC           • Hippocampus   • NAc"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DORSÁLNÍ RAPHE - PROJEKCE
 
@@ -109,6 +168,8 @@ DORSÁLNÍ RAPHE - PROJEKCE
 │  Rozhodování  │ │  Nálada       │ │  Pohyb        │
 └───────────────┘ └───────────────┘ └───────────────┘
 ```
+
+</details>
 
 ### Subregiony DR
 
@@ -141,6 +202,31 @@ DORSÁLNÍ RAPHE - PROJEKCE
 | **Interpeduncular nucleus** | Habénulární okruhy |
 | **Entorhinal cortex** | Prostorová navigace |
 
+```mermaid
+flowchart TD
+    node_MEDILNRAPHEFUNKCE["MEDIÁLNÍ RAPHE - FUNKCE"]
+    node_MRHippocampusThetaos["MR  Hippocampus: Theta oscilace"]
+    node_Prostorovpam["Prostorová paměť"]
+    node_Kontextovuen["Kontextové učení"]
+    node_Neurogeneze["Neurogeneze"]
+    node_MRSeptumCholinergnre["MR  Septum: Cholinergní regulace"]
+    node_Pozornost["Pozornost"]
+    node_Uen["Učení"]
+
+    node_MEDILNRAPHEFUNKCE --> node_MRHippocampusThetaos
+    node_MRHippocampusThetaos --> node_Prostorovpam
+    node_Prostorovpam --> node_Kontextovuen
+    node_Kontextovuen --> node_Neurogeneze
+    node_Neurogeneze --> node_MRSeptumCholinergnre
+    node_MRSeptumCholinergnre --> node_Pozornost
+    node_Pozornost --> node_Uen
+
+    click node_MRHippocampusThetaos "/brain/hippocampus/" "MR  Hippocampus: Theta oscilace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MEDIÁLNÍ RAPHE - FUNKCE
 
@@ -156,11 +242,45 @@ MR → Septum: Cholinergní regulace
          Učení
 ```
 
+</details>
+
 ---
 
 ## Serotoninova synteza
 
 ### Biosynteticka draha
+
+```mermaid
+flowchart TD
+    node_SYNTEZASEROTONINUVRA["SYNTEZA SEROTONINU V RAPHE"]
+    node_LTryptofanesencilnam["L-Tryptofan esenciální aminokyselina z potravy"]
+    node_TPH2tryptofanhydroxy["TPH2 tryptofan hydroxylaza 2"]
+    node_CNSspecifickisoforma["CNS-specifická isoforma"]
+    node_Ratelimitingkrok["Rate-limiting krok"]
+    node_5Hydroxytryptofan5HT["5-Hydroxytryptofan 5-HTP"]
+    node_AADCaromatickaminoky["AADC aromatická aminokyselina dekarboxyláza"]
+    node_KofaktorvitaminB6PLP["Kofaktor: vitamin B6 PLP"]
+    node_SEROTONIN5HT["SEROTONIN 5-HT"]
+    node_Uskladnenivevesiklec["Uskladneni ve vesiklech VMAT2"]
+    node_Uvolnenexocytza["Uvolnení exocytóza"]
+
+    node_SYNTEZASEROTONINUVRA --> node_LTryptofanesencilnam
+    node_LTryptofanesencilnam --> node_TPH2tryptofanhydroxy
+    node_TPH2tryptofanhydroxy --> node_CNSspecifickisoforma
+    node_CNSspecifickisoforma --> node_Ratelimitingkrok
+    node_Ratelimitingkrok --> node_5Hydroxytryptofan5HT
+    node_5Hydroxytryptofan5HT --> node_AADCaromatickaminoky
+    node_AADCaromatickaminoky --> node_KofaktorvitaminB6PLP
+    node_KofaktorvitaminB6PLP --> node_SEROTONIN5HT
+    node_SEROTONIN5HT --> node_Uskladnenivevesiklec
+    node_Uskladnenivevesiklec --> node_Uvolnenexocytza
+
+    click node_SYNTEZASEROTONINUVRA "/glossary/serotonin/" "SYNTEZA SEROTONINU V RAPHE"
+    click node_SEROTONIN5HT "/glossary/serotonin/" "SEROTONIN 5-HT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 SYNTEZA SEROTONINU V RAPHE
@@ -183,6 +303,8 @@ SEROTONIN (5-HT)
           └─→ Uvolnení (exocytóza)
 ```
 
+</details>
+
 ### Klicove enzymy
 
 | Enzym | Gen | Funkce | Regulace |
@@ -199,6 +321,35 @@ SEROTONIN (5-HT)
 ### 5-HT1A autoreceptory
 
 Klicovy mechanismus regulace aktivity raphe neuronu:
+
+```mermaid
+flowchart TD
+    node_5HT1AAUTORECEPTORVDR["5-HT1A AUTORECEPTOR V DR"]
+    node_SerotonergnneuronDR["Serotonergní neuron DR:"]
+    node_Somatloneuronu["Soma tělo neuronu"]
+    node_5HT1AreceptorAutorec["5-HT1A receptor   Autoreceptor"]
+    node_somatodendrit["somatodendrit."]
+    node_Gioprotein["Gi/o protein"]
+    node_cAMPKkanly["cAMP           K+ kanály"]
+    node_firingHyperpolarizac["firing       Hyperpolarizace"]
+    node_NEGATIVNZPTNVAZBA["NEGATIVNÍ ZPĚTNÁ VAZBA"]
+    node_5HTfiring5HTrelease["5-HT   firing   5-HT release"]
+
+    node_5HT1AAUTORECEPTORVDR --> node_SerotonergnneuronDR
+    node_SerotonergnneuronDR --> node_Somatloneuronu
+    node_Somatloneuronu --> node_5HT1AreceptorAutorec
+    node_5HT1AreceptorAutorec --> node_somatodendrit
+    node_somatodendrit --> node_Gioprotein
+    node_Gioprotein --> node_cAMPKkanly
+    node_cAMPKkanly --> node_firingHyperpolarizac
+    node_firingHyperpolarizac --> node_NEGATIVNZPTNVAZBA
+    node_NEGATIVNZPTNVAZBA --> node_5HTfiring5HTrelease
+
+    click node_5HT1AreceptorAutorec "/receptors/5-ht1a/" "5-HT1A receptor   Autoreceptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 5-HT1A AUTORECEPTOR V DR
@@ -228,6 +379,8 @@ Serotonergní neuron (DR):
 └─────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Autoreceptory na terminalech
 
 | Receptor | Lokalizace | Funkce |
@@ -237,6 +390,37 @@ Serotonergní neuron (DR):
 | **5-HT1D** | Axony | Modulace |
 
 ### Desenzitizace pri SSRI lecbe
+
+```mermaid
+flowchart TD
+    node_TERAPEUTICKLATENCESS["TERAPEUTICKÁ LATENCE SSRI"]
+    node_Tden0["Týden 0:"]
+    node_SSRI5HTvsynapsiaktiv["SSRI   5-HT v synapsi  aktivace 5-HT1A auto   firing"]
+    node_Mloklinickhoefektu["'Málo klinického efektu'"]
+    node_Tden24["Týden 2-4:"]
+    node_Chronick5HTdesenziti["Chronická  5-HT  desenzitizace 5-HT1A autoreceptorů"]
+    node_obnovenfiring["obnovený firing"]
+    node_trvalezven5HTvclovch["trvale zvýšený 5-HT v cílových oblastech"]
+    node_Tden46["Týden 4-6:"]
+    node_Nstupantidepresivnho["'Nástup antidepresivního účinku'"]
+    node_Postsynaptickadaptac["Postsynaptické adaptace"]
+    node_Neuroplasticita["Neuroplasticita"]
+
+    node_TERAPEUTICKLATENCESS --> node_Tden0
+    node_Tden0 --> node_SSRI5HTvsynapsiaktiv
+    node_SSRI5HTvsynapsiaktiv --> node_Mloklinickhoefektu
+    node_Mloklinickhoefektu --> node_Tden24
+    node_Tden24 --> node_Chronick5HTdesenziti
+    node_Chronick5HTdesenziti --> node_obnovenfiring
+    node_obnovenfiring --> node_trvalezven5HTvclovch
+    node_trvalezven5HTvclovch --> node_Tden46
+    node_Tden46 --> node_Nstupantidepresivnho
+    node_Nstupantidepresivnho --> node_Postsynaptickadaptac
+    node_Postsynaptickadaptac --> node_Neuroplasticita
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TERAPEUTICKÁ LATENCE SSRI
@@ -256,6 +440,8 @@ Týden 4-6:
        Neuroplasticita
 ```
 
+</details>
+
 ---
 
 ## Raphe a psychedelika
@@ -271,6 +457,36 @@ Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md)
 | **Zmena konektivity** | Modulace DR-kortex | Zmenene vedomi |
 
 ### Mechanismus
+
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAARAPHENU["PSYCHEDELIKA A RAPHE NUCLEI"]
+    node_PSILOCINaktivnmetabo["PSILOCIN aktivní metabolit psilocybinu:"]
+    node_1VRAPHEDR["1. V RAPHE DR:"]
+    node_Psilocin5HT1Aautorec["Psilocin  5-HT1A autoreceptor   DR firing"]
+    node_endogenn5HTrelease["endogenní 5-HT release"]
+    node_2VKORTEXU["2. V KORTEXU:"]
+    node_Psilocin5HT2Arecepto["Psilocin  5-HT2A receptor  depolarizace pyramidových neuronů"]
+    node_zvenglutamtovtransmi["zvýšená glutamátová transmise"]
+    node_PSYCHEDELICKEFEKT["PSYCHEDELICKÝ EFEKT"]
+    node_NETEFEKT["NET EFEKT:"]
+
+    node_PSYCHEDELIKAARAPHENU --> node_PSILOCINaktivnmetabo
+    node_PSILOCINaktivnmetabo --> node_1VRAPHEDR
+    node_1VRAPHEDR --> node_Psilocin5HT1Aautorec
+    node_Psilocin5HT1Aautorec --> node_endogenn5HTrelease
+    node_endogenn5HTrelease --> node_2VKORTEXU
+    node_2VKORTEXU --> node_Psilocin5HT2Arecepto
+    node_Psilocin5HT2Arecepto --> node_zvenglutamtovtransmi
+    node_zvenglutamtovtransmi --> node_PSYCHEDELICKEFEKT
+    node_PSYCHEDELICKEFEKT --> node_NETEFEKT
+
+    click node_PSILOCINaktivnmetabo "/alkaloids/psilocybin/" "PSILOCIN aktivní metabolit psilocybinu:"
+    click node_Psilocin5HT2Arecepto "/receptors/5-ht2a/" "Psilocin  5-HT2A receptor  depolarizace pyramidových neuronů"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PSYCHEDELIKA A RAPHE NUCLEI
@@ -292,6 +508,8 @@ NET EFEKT:
 - = "přepsání" normální serotoninergní signalizace
 ```
 
+</details>
+
 ### Studie mikrodialyzy
 
 | Studie | Nalez |
@@ -312,6 +530,29 @@ NET EFEKT:
 | **NREM** | Snizena | Umoznuje spanek |
 | **REM** | Temer nulova | REM atonie |
 
+```mermaid
+flowchart TD
+    node_RAPHEASPANEK["RAPHE A SPANEK"]
+    node_DRaktivita["DR aktivita"]
+    node_Bdelost["Bdelost █████████████████████████"]
+    node_NREM["NREM ████████████"]
+    node_REM["REM ██"]
+    node_as["Čas"]
+    node_Serotoninergnineuron["Serotoninergni neurony 'vypinaji' behem REM spanku."]
+
+    node_RAPHEASPANEK --> node_DRaktivita
+    node_DRaktivita --> node_Bdelost
+    node_Bdelost --> node_NREM
+    node_NREM --> node_REM
+    node_REM --> node_as
+    node_as --> node_Serotoninergnineuron
+
+    click node_Serotoninergnineuron "/glossary/serotonin/" "Serotoninergni neurony "vypinaji" behem REM spanku."
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RAPHE A SPANEK
 
@@ -329,9 +570,42 @@ REM ────────┤██
 Serotoninergni neurony "vypinaji" behem REM spanku.
 ```
 
+</details>
+
 ### Raphe a bolest
 
 **Nucleus raphe magnus (NRM)** moduluje bolest:
+
+```mermaid
+flowchart TD
+    node_DESCENDENTNIMODULACE["DESCENDENTNI MODULACE BOLESTI"]
+    node_KortexPAGaktivace["Kortex PAG aktivace"]
+    node_Periakveduktalni["Periakveduktalni"]
+    node_sedPAG["sed PAG"]
+    node_Nucleusraphe["Nucleus raphe"]
+    node_magnusNRM["magnus NRM"]
+    node_5HTprojekce["5-HT projekce"]
+    node_Zadnrohymchy["Zadní rohy míchy"]
+    node_laminyIII["laminy I, II"]
+    node_Inhibicebolestiv["Inhibice bolestivé"]
+    node_transmise["transmise"]
+    node_Mechanismus["Mechanismus:"]
+
+    node_DESCENDENTNIMODULACE --> node_KortexPAGaktivace
+    node_KortexPAGaktivace --> node_Periakveduktalni
+    node_Periakveduktalni --> node_sedPAG
+    node_sedPAG --> node_Nucleusraphe
+    node_Nucleusraphe --> node_magnusNRM
+    node_magnusNRM --> node_5HTprojekce
+    node_5HTprojekce --> node_Zadnrohymchy
+    node_Zadnrohymchy --> node_laminyIII
+    node_laminyIII --> node_Inhibicebolestiv
+    node_Inhibicebolestiv --> node_transmise
+    node_transmise --> node_Mechanismus
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DESCENDENTNI MODULACE BOLESTI
@@ -365,6 +639,8 @@ Mechanismus:
 - Snižuje nocicepční transmisi
 - Základ opioidní analgezie
 ```
+
+</details>
 
 ### Raphe a nalada
 

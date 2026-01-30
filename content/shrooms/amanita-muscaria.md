@@ -7,7 +7,6 @@ insert_anchor_links = "right"
 
 # Amanita muscaria - Muchomůrka červená
 
-**Amanita muscaria** (muchomůrka červená) je ikonická psychoaktivní houba s charakteristickým červeným kloboukem a bílými tečkami. Na rozdíl od [psilocybinových hub](@/shrooms/psilocybes/_index.md) obsahuje GABAergní alkaloidy [muscimol](@/alkaloids/muscimol.md) a neurotoxickou [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md).
 
 ---
 
@@ -19,7 +18,6 @@ insert_anchor_links = "right"
 | **České názvy** | Muchomůrka červená, Moucho |
 | **Čeleď** | Amanitaceae |
 | **Rod** | Amanita (Muchomůrky) |
-| **Aktivní látky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergní (disociativní/deliriantní) |
 
 ---
@@ -67,11 +65,30 @@ insert_anchor_links = "right"
 
 | Látka | Obsah (sušená) | Mechanismus | Účinek |
 |-------|----------------|-------------|--------|
-| [**Muscimol**](@/alkaloids/muscimol.md) | 0,03-0,18% | GABA-A agonista | Psychoaktivní |
 | [**Kyselina ibotenová**](@/neurotoxins/ibotenic-acid.md) | 0,03-0,10% | NMDA agonista | **Neurotoxická** |
 | Muscazon | Trace | Neznámý | Neznámý |
 
 ### Konverze při přípravě
+
+```mermaid
+flowchart TD
+    node_KyselinaibotenovTOXI["Kyselina ibotenová TOXICKÁ"]
+    node_Suen8090CFermentaceK["Sušení 80-90°C / Fermentace / Kyselé pH"]
+    node_MuscimolAKTIVN["Muscimol AKTIVNÍ"]
+    node_Pokraujcdegradace["Pokračující degradace"]
+    node_MuscazonINAKTIVN["Muscazon INAKTIVNÍ"]
+
+    node_KyselinaibotenovTOXI --> node_Suen8090CFermentaceK
+    node_Suen8090CFermentaceK --> node_MuscimolAKTIVN
+    node_MuscimolAKTIVN --> node_Pokraujcdegradace
+    node_Pokraujcdegradace --> node_MuscazonINAKTIVN
+
+    click node_KyselinaibotenovTOXI "/neurotoxins/ibotenic-acid/" "Kyselina ibotenová TOXICKÁ"
+    click node_MuscimolAKTIVN "/alkaloids/muscimol/" "Muscimol AKTIVNÍ"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Kyselina ibotenová (TOXICKÁ)
@@ -80,6 +97,8 @@ Muscimol (AKTIVNÍ)
          ↓ [Pokračující degradace]
 Muscazon (INAKTIVNÍ)
 ```
+
+</details>
 
 **Kritické**: Čerstvé houby obsahují převážně **kyselinu ibotenovou** (neurotoxin). Správná příprava je **nezbytná**.
 
@@ -339,7 +358,6 @@ Při předávkování nebo podezření na záměnu:
 ## Křížové odkazy
 
 ### Psychoaktivní alkaloidy
-- [Muscimol](@/alkaloids/muscimol.md) - hlavní psychoaktivní látka, GABA-A agonista
 - [Kyselina ibotenová](@/neurotoxins/ibotenic-acid.md) - neurotoxický prekurzor muscimolu
 - Muscazon - minor alkaloid, degradační produkt kyseliny ibotenové
 
@@ -372,4 +390,3 @@ Při předávkování nebo podezření na záměnu:
 - **Soma hypothesis** - teorie o védském Soma nápoji
 - **Sibiřský šamanismus** - tradiční využití mezi sibiřskými národy
 
-← Zpět na [Houby](@/shrooms/_index.md) | [Muscimol](@/alkaloids/muscimol.md) →

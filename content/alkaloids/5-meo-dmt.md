@@ -37,6 +37,31 @@ weight = 6
 
 ### Strukturni diagram
 
+```mermaid
+flowchart TD
+    node_OCH35methoxyskupina["OCH3 5-methoxy skupina"]
+    node_dc692126["+----+----+"]
+    node_5["/     5     \"]
+    node_64["6             4"]
+    node_7N3["7      N      3"]
+    node_e9766c27["\     |     /"]
+    node_1["+----1----+"]
+    node_CH2["CH2"]
+    node_NCH32dimethylaminosk["NCH32 dimethylamino skupina"]
+
+    node_OCH35methoxyskupina --> node_dc692126
+    node_dc692126 --> node_5
+    node_5 --> node_64
+    node_64 --> node_7N3
+    node_7N3 --> node_e9766c27
+    node_e9766c27 --> node_1
+    node_1 --> node_CH2
+    node_CH2 --> node_NCH32dimethylaminosk
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
         OCH3 (5-methoxy skupina)
          |
@@ -54,6 +79,8 @@ weight = 6
          |
         N(CH3)2 (dimethylamino skupina)
 ```
+
+</details>
 
 ---
 
@@ -145,6 +172,40 @@ weight = 6
 
 ### Signalni kaskada
 
+```mermaid
+flowchart TD
+    node_5MeODMT5HT2Areceptor["5-MeO-DMT + 5-HT2A receptor"]
+    node_Gqproteinaktivace["Gq protein aktivace"]
+    node_c1098c42["+----------------+"]
+    node_PLCbetaBetaarrestin["PLC-beta         Beta-arrestin"]
+    node_IP3DAGInternalizace["IP3/DAG          Internalizace"]
+    node_Ca2intracelularni["Ca2+ intracelularni"]
+    node_Masivnikortikalniakt["Masivni kortikalni aktivace"]
+    node_5MeODMT5HT1Areceptor["5-MeO-DMT + 5-HT1A receptor"]
+    node_Giproteinaktivace["Gi protein aktivace"]
+    node_SnizenicAMP["Snizeni cAMP"]
+    node_Snizenineuronalniexc["Snizeni neuronalni excitability"]
+    node_Anxiolytickesjednocu["Anxiolyticke, sjednocujici ucinky"]
+
+    node_5MeODMT5HT2Areceptor --> node_Gqproteinaktivace
+    node_Gqproteinaktivace --> node_c1098c42
+    node_c1098c42 --> node_PLCbetaBetaarrestin
+    node_PLCbetaBetaarrestin --> node_IP3DAGInternalizace
+    node_IP3DAGInternalizace --> node_Ca2intracelularni
+    node_Ca2intracelularni --> node_Masivnikortikalniakt
+    node_Masivnikortikalniakt --> node_5MeODMT5HT1Areceptor
+    node_5MeODMT5HT1Areceptor --> node_Giproteinaktivace
+    node_Giproteinaktivace --> node_SnizenicAMP
+    node_SnizenicAMP --> node_Snizenineuronalniexc
+    node_Snizenineuronalniexc --> node_Anxiolytickesjednocu
+
+    click node_5MeODMT5HT2Areceptor "/alkaloids/dmt/" "5-MeO-DMT + 5-HT2A receptor"
+    click node_5MeODMT5HT1Areceptor "/alkaloids/dmt/" "5-MeO-DMT + 5-HT1A receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-MeO-DMT + 5-HT2A receptor
         |
@@ -180,6 +241,8 @@ weight = 6
     Anxiolyticke, sjednocujici ucinky
 ```
 
+</details>
+
 ### Dual [5-HT2A](@/receptors/5-ht2a.md)/[5-HT1A](@/receptors/5-ht1a.md) aktivace
 
 Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou [receptoru](@/glossary/receptor.md):
@@ -205,6 +268,29 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou [receptor
 
 ### Metabolismus
 
+```mermaid
+flowchart TD
+    node_5MeODMT["5-MeO-DMT"]
+    node_MAOglossarymaomdA5Me["+--MAO@/glossary/mao.md-A--&gt; 5-Methoxyindolacetaldehyd"]
+    node_ALDH["ALDH"]
+    node_5Methoxyindoloctovak["5-Methoxyindoloctova kyselina"]
+    node_CYP2D65HODMTBufoteni["+--CYP2D6--&gt; 5-HO-DMT Bufotenin"]
+    node_OdemethylaceBufoteni["+--O-demethylace--&gt; Bufotenin --&gt; dalsi metabolismus"]
+
+    node_5MeODMT --> node_MAOglossarymaomdA5Me
+    node_MAOglossarymaomdA5Me --> node_ALDH
+    node_ALDH --> node_5Methoxyindoloctovak
+    node_5Methoxyindoloctovak --> node_CYP2D65HODMTBufoteni
+    node_CYP2D65HODMTBufoteni --> node_OdemethylaceBufoteni
+
+    click node_5MeODMT "/alkaloids/dmt/" "5-MeO-DMT"
+    click node_CYP2D65HODMTBufoteni "/alkaloids/dmt/" "+--CYP2D6--> 5-HO-DMT Bufotenin"
+    click node_OdemethylaceBufoteni "/alkaloids/bufotenin/" "+--O-demethylace--> Bufotenin --> dalsi metabolismus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-MeO-DMT
     |
@@ -217,6 +303,8 @@ Unikatni fenomenologie 5-MeO-DMT je zpusobena simultanni aktivaci obou [receptor
     |
     +--[O-demethylace]--> Bufotenin --> dalsi metabolismus
 ```
+
+</details>
 
 ---
 

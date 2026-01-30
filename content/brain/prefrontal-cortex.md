@@ -30,6 +30,31 @@ PFC je kritickym cilem psychedelickych latek, kde aktivace [5-HT2A receptoru](@/
 
 ### Anatomicke hranice
 
+```mermaid
+flowchart TD
+    node_LATERALNIPOHLED["LATERALNI POHLED"]
+    node_Premotoricky["Premotoricky"]
+    node_kortex["kortex"]
+    node_PREFRONTALNIKORTEX["PREFRONTALNI KORTEX"]
+    node_DLPFCVLPFC["DLPFC        VLPFC"]
+    node_dorsoventro["dorso-      ventro-"]
+    node_laterallateral["lateral.    lateral."]
+    node_Orbitofrontalnikorte["Orbitofrontalni kortex"]
+    node_entralne["entralne"]
+
+    node_LATERALNIPOHLED --> node_Premotoricky
+    node_Premotoricky --> node_kortex
+    node_kortex --> node_PREFRONTALNIKORTEX
+    node_PREFRONTALNIKORTEX --> node_DLPFCVLPFC
+    node_DLPFCVLPFC --> node_dorsoventro
+    node_dorsoventro --> node_laterallateral
+    node_laterallateral --> node_Orbitofrontalnikorte
+    node_Orbitofrontalnikorte --> node_entralne
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     LATERALNI POHLED
 
@@ -55,6 +80,8 @@ PFC je kritickym cilem psychedelickych latek, kde aktivace [5-HT2A receptoru](@/
     └────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Subregiony PFC
@@ -71,6 +98,33 @@ PFC je kritickym cilem psychedelickych latek, kde aktivace [5-HT2A receptoru](@/
 | **Frontopolární kortex** | FPC | 10 | Metakognice |
 
 ### Funkcni organizace
+
+```mermaid
+flowchart TD
+    node_PREFRONTALNIHIERARCH["PREFRONTALNI HIERARCHIE"]
+    node_FRONTOPOLRN["FRONTOPOLÁRNÍ"]
+    node_BA10["BA 10"]
+    node_Metakognicemultitask["Metakognice, multitasking, abstraktni uvazovani"]
+    node_ROSTROLATERLNPFC["ROSTROLATERÁLNÍ PFC"]
+    node_Integracepravidelkom["Integrace pravidel, komplexni planovani"]
+    node_DLPFCVLPFC["DLPFC / VLPFC"]
+    node_Pracovnipametinhibic["Pracovni pamet, inhibice, kognitivni kontrola"]
+    node_PREMOTORICKKORTEX["PREMOTORICKÝ KORTEX"]
+    node_Pripravaaplanovanipo["Priprava a planovani pohybu"]
+
+    node_PREFRONTALNIHIERARCH --> node_FRONTOPOLRN
+    node_FRONTOPOLRN --> node_BA10
+    node_BA10 --> node_Metakognicemultitask
+    node_Metakognicemultitask --> node_ROSTROLATERLNPFC
+    node_ROSTROLATERLNPFC --> node_Integracepravidelkom
+    node_Integracepravidelkom --> node_DLPFCVLPFC
+    node_DLPFCVLPFC --> node_Pracovnipametinhibic
+    node_Pracovnipametinhibic --> node_PREMOTORICKKORTEX
+    node_PREMOTORICKKORTEX --> node_Pripravaaplanovanipo
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PREFRONTALNI HIERARCHIE
@@ -101,6 +155,8 @@ PREFRONTALNI HIERARCHIE
 └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Bunecna architektura
@@ -118,6 +174,31 @@ PREFRONTALNI HIERARCHIE
 
 ### 5-HT2A exprese v PFC
 
+```mermaid
+flowchart TD
+    node_DISTRIBUCE5HT2AVPREF["DISTRIBUCE 5-HT2A V PREFRONTALNIM KORTEXU"]
+    node_VrstvaIApikalnidendr["Vrstva I    ░░░░░░░░░░░░░░░░  Apikalni dendrity"]
+    node_VrstvaIINizka["Vrstva II   ████░░░░░░░░░░░░  Nizka"]
+    node_VrstvaIIIStredni["Vrstva III  ████████░░░░░░░░  Stredni"]
+    node_VrstvaIVNizka["Vrstva IV   ██░░░░░░░░░░░░░░  Nizka"]
+    node_VrstvaVVYSOKApyramid["Vrstva V    ████████████████  **VYSOKA** pyramidove neurony"]
+    node_VrstvaVIStredni["Vrstva VI   ████████░░░░░░░░  Stredni"]
+    node_Hlavnicilpsychedelik["Hlavni cil psychedelik: Vrstva V pyramidove neurony"]
+
+    node_DISTRIBUCE5HT2AVPREF --> node_VrstvaIApikalnidendr
+    node_VrstvaIApikalnidendr --> node_VrstvaIINizka
+    node_VrstvaIINizka --> node_VrstvaIIIStredni
+    node_VrstvaIIIStredni --> node_VrstvaIVNizka
+    node_VrstvaIVNizka --> node_VrstvaVVYSOKApyramid
+    node_VrstvaVVYSOKApyramid --> node_VrstvaVIStredni
+    node_VrstvaVIStredni --> node_Hlavnicilpsychedelik
+
+    click node_DISTRIBUCE5HT2AVPREF "/receptors/5-ht2a/" "DISTRIBUCE 5-HT2A V PREFRONTALNIM KORTEXU"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DISTRIBUCE 5-HT2A V PREFRONTALNIM KORTEXU
 
@@ -130,6 +211,8 @@ Vrstva VI   ████████░░░░░░░░  Stredni
 
 → Hlavni cil psychedelik: Vrstva V pyramidove neurony
 ```
+
+</details>
 
 ---
 
@@ -145,6 +228,25 @@ Vrstva VI   ████████░░░░░░░░  Stredni
 | **Visuospatialni nastenik** | DLPFC (pravy) | Prostorove informace |
 | **Centralni exekutiva** | DLPFC, ACC | Kontrola, koordinace |
 | **Epizodicky buffer** | Frontopolární | Integrace |
+
+```mermaid
+flowchart TD
+    node_MODELPRACOVNIPAMETIB["MODEL PRACOVNI PAMETI Baddeley"]
+    node_Centralniexekutiva["Centralni exekutiva"]
+    node_DLPFC["DLPFC"]
+    node_FonologickaEpizodick["Fonologicka     Epizodicky    Visuospatialni"]
+    node_smyckabuffernastenik["smycka          buffer         nastenik"]
+    node_VLPFCLfrontopolDLPFC["VLPFC L      frontopol.     DLPFC R"]
+
+    node_MODELPRACOVNIPAMETIB --> node_Centralniexekutiva
+    node_Centralniexekutiva --> node_DLPFC
+    node_DLPFC --> node_FonologickaEpizodick
+    node_FonologickaEpizodick --> node_smyckabuffernastenik
+    node_smyckabuffernastenik --> node_VLPFCLfrontopolDLPFC
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 MODEL PRACOVNI PAMETI (Baddeley)
@@ -163,6 +265,8 @@ MODEL PRACOVNI PAMETI (Baddeley)
 └───────────────┘ └───────────────┘ └───────────────┘
 ```
 
+</details>
+
 ### Kognitivni kontrola
 
 | Funkce | Oblast | Popis |
@@ -173,6 +277,37 @@ MODEL PRACOVNI PAMETI (Baddeley)
 | **Monitorovani konfliktu** | ACC | Detekce chyb |
 
 ### Rozhodovani
+
+```mermaid
+flowchart TD
+    node_ROZHODOVACIPROCESVPF["ROZHODOVACI PROCES V PFC"]
+    node_STIMUL["STIMUL"]
+    node_OFCDLPFC["OFC                    DLPFC"]
+    node_HodnotaPravidla["Hodnota                 Pravidla"]
+    node_moznostiStrategie["moznosti                Strategie"]
+    node_ACC["ACC"]
+    node_Konflikt["Konflikt"]
+    node_Evaluace["Evaluace"]
+    node_ROZHODNUTI["ROZHODNUTI"]
+    node_Premotoricky["Premotoricky"]
+    node_kortex["kortex"]
+    node_akce["akce"]
+
+    node_ROZHODOVACIPROCESVPF --> node_STIMUL
+    node_STIMUL --> node_OFCDLPFC
+    node_OFCDLPFC --> node_HodnotaPravidla
+    node_HodnotaPravidla --> node_moznostiStrategie
+    node_moznostiStrategie --> node_ACC
+    node_ACC --> node_Konflikt
+    node_Konflikt --> node_Evaluace
+    node_Evaluace --> node_ROZHODNUTI
+    node_ROZHODNUTI --> node_Premotoricky
+    node_Premotoricky --> node_kortex
+    node_kortex --> node_akce
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ROZHODOVACI PROCES V PFC
@@ -204,6 +339,8 @@ ROZHODOVACI PROCES V PFC
              └───────────────┘
 ```
 
+</details>
+
 ---
 
 ## PFC a psychedelika
@@ -220,6 +357,41 @@ Psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloids/lsd.md)
 | **Zvysena entropie** | Narusena hierarchie | Kreativita |
 
 ### Neurozobrazovaci nalezy
+
+```mermaid
+flowchart TD
+    node_FMRIZMENYPODPSILOCYB["FMRI ZMENY POD PSILOCYBINEM"]
+    node_DLPFC["DLPFC:"]
+    node_NormalniVysokaaktivi["Normalni: ██████████████████  Vysoka aktivita"]
+    node_PodpsilocybinemSnize["Pod psilocybinem: ████████░░░░  **Snizena**"]
+    node_mPFCDMN["mPFC DMN:"]
+    node_NormalniVysokaselfre["Normalni: ████████████████████  Vysoka self-reference"]
+    node_PodpsilocybinemVyraz["Pod psilocybinem: ██████░░░░░░  **Vyrazne snizena**"]
+    node_ACC["ACC:"]
+    node_Normalni["Normalni: ██████████████████"]
+    node_PodpsilocybinemZmene["Pod psilocybinem: ████████████████████  Zmenena"]
+    node_Korelacesesubjektivn["Korelace se subjektivnim 'ego dissolution'"]
+
+    node_FMRIZMENYPODPSILOCYB --> node_DLPFC
+    node_DLPFC --> node_NormalniVysokaaktivi
+    node_NormalniVysokaaktivi --> node_PodpsilocybinemSnize
+    node_PodpsilocybinemSnize --> node_mPFCDMN
+    node_mPFCDMN --> node_NormalniVysokaselfre
+    node_NormalniVysokaselfre --> node_PodpsilocybinemVyraz
+    node_PodpsilocybinemVyraz --> node_ACC
+    node_ACC --> node_Normalni
+    node_Normalni --> node_PodpsilocybinemZmene
+    node_PodpsilocybinemZmene --> node_Korelacesesubjektivn
+
+    click node_FMRIZMENYPODPSILOCYB "/alkaloids/psilocybin/" "FMRI ZMENY POD PSILOCYBINEM"
+    click node_PodpsilocybinemSnize "/alkaloids/psilocybin/" "Pod psilocybinem: ████████░░░░  **Snizena**"
+    click node_mPFCDMN "/circuits/dmn/" "mPFC DMN:"
+    click node_PodpsilocybinemVyraz "/alkaloids/psilocybin/" "Pod psilocybinem: ██████░░░░░░  **Vyrazne snizena**"
+    click node_PodpsilocybinemZmene "/alkaloids/psilocybin/" "Pod psilocybinem: ████████████████████  Zmenena"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 FMRI ZMENY POD PSILOCYBINEM
@@ -239,6 +411,8 @@ Pod psilocybinem: ████████████████████  
 → Korelace se subjektivnim "ego dissolution"
 ```
 
+</details>
+
 ### Default Mode Network
 
 PFC je klicovou soucasti **Default Mode Network** (DMN):
@@ -248,6 +422,32 @@ PFC je klicovou soucasti **Default Mode Network** (DMN):
 | **mPFC** | Medialni PFC | Self-reference |
 | **PCC** | Posteriorni cingularni | Mind-wandering |
 | **Angular gyrus** | Parietalni | Semaaticka pamet |
+
+```mermaid
+flowchart TD
+    node_DMNAPSYCHEDELIKA["DMN A PSYCHEDELIKA"]
+    node_NormalniDMNPsychedel["Normalni DMN:                  Psychedelicky stav:"]
+    node_mPFCmPFC["mPFC                        mPFC"]
+    node_c211cf33["████████                    ░░░░░░"]
+    node_silnaslaba["silna                     · slaba"]
+    node_konektkonekt["konekt.                    konekt."]
+    node_PCCPCC["PCC                         PCC"]
+    node_SilneegoruminaceEgod["Silne ego, ruminace           Ego dissolution, insight"]
+
+    node_DMNAPSYCHEDELIKA --> node_NormalniDMNPsychedel
+    node_NormalniDMNPsychedel --> node_mPFCmPFC
+    node_mPFCmPFC --> node_c211cf33
+    node_c211cf33 --> node_silnaslaba
+    node_silnaslaba --> node_konektkonekt
+    node_konektkonekt --> node_PCCPCC
+    node_PCCPCC --> node_SilneegoruminaceEgod
+
+    click node_DMNAPSYCHEDELIKA "/circuits/dmn/" "DMN A PSYCHEDELIKA"
+    click node_NormalniDMNPsychedel "/circuits/dmn/" "Normalni DMN:                  Psychedelicky stav:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DMN A PSYCHEDELIKA
@@ -266,9 +466,44 @@ Normalni DMN:                  Psychedelicky stav:
 Silne ego, ruminace           Ego dissolution, insight
 ```
 
+</details>
+
 ### REBUS model
 
 **REBUS** (Relaxed Beliefs Under Psychedelics) popisuje efekt psychedelik na PFC:
+
+```mermaid
+flowchart TD
+    node_REBUSMODELVPFC["REBUS MODEL V PFC"]
+    node_NORMALNISTAV["NORMALNI STAV:"]
+    node_PFCgenerujesilnetopd["PFC generuje silne top-down predikce"]
+    node_silnepriory["▼▼▼▼▼▼▼▼▼▼▼▼▼ silne priory"]
+    node_Senzorickyvstup["Senzoricky vstup"]
+    node_Filtrovanapredvidate["Filtrovana, predvidatelna percepce"]
+    node_PSYCHEDELICKYSTAV5HT["PSYCHEDELICKY STAV 5-HT2A aktivace v PFC:"]
+    node_Oslabenetopdownpredi["Oslabene top-down predikce"]
+    node_slabepriory["▽▽▽▽▽▽▽▽▽▽▽▽▽ slabe priory"]
+    node_Senzorickvstup["Senzorický vstup"]
+    node_Nefiltrovannovaperce["Nefiltrovaná, nova percepce"]
+    node_Vidennov["'Viden nově'"]
+
+    node_REBUSMODELVPFC --> node_NORMALNISTAV
+    node_NORMALNISTAV --> node_PFCgenerujesilnetopd
+    node_PFCgenerujesilnetopd --> node_silnepriory
+    node_silnepriory --> node_Senzorickyvstup
+    node_Senzorickyvstup --> node_Filtrovanapredvidate
+    node_Filtrovanapredvidate --> node_PSYCHEDELICKYSTAV5HT
+    node_PSYCHEDELICKYSTAV5HT --> node_Oslabenetopdownpredi
+    node_Oslabenetopdownpredi --> node_slabepriory
+    node_slabepriory --> node_Senzorickvstup
+    node_Senzorickvstup --> node_Nefiltrovannovaperce
+    node_Nefiltrovannovaperce --> node_Vidennov
+
+    click node_PSYCHEDELICKYSTAV5HT "/receptors/5-ht2a/" "PSYCHEDELICKY STAV 5-HT2A aktivace v PFC:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 REBUS MODEL V PFC
@@ -297,6 +532,8 @@ PSYCHEDELICKY STAV (5-HT2A aktivace v PFC):
 └──────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Receptorova exprese
@@ -322,6 +559,44 @@ PSYCHEDELICKY STAV (5-HT2A aktivace v PFC):
 
 ### Dopaminova obracena U
 
+```mermaid
+flowchart TD
+    node_DOPAMINAPRACOVNIPAME["DOPAMIN A PRACOVNI PAMET V PFC"]
+    node_Vykon["Vykon"]
+    node_45583147["****"]
+    node_dccf76c3["**    **"]
+    node_ef355982["*        *"]
+    node_08d69e2a["**          **"]
+    node_785bf6c6["**              **"]
+    node_287991f8["*                  *"]
+    node_c200abc5["**                    **"]
+    node_Dopamin["Dopamin"]
+    node_nizkyoptimalnivysoky["nizky    optimalni   vysoky"]
+    node_NizkyD1Slabaudrzba["Nizky D1: Slaba udrzba"]
+    node_OptimalniNejlepsipam["Optimalni: Nejlepsi pamet"]
+    node_VysokyPerseveracerig["Vysoky: Perseverace, rigidita"]
+
+    node_DOPAMINAPRACOVNIPAME --> node_Vykon
+    node_Vykon --> node_45583147
+    node_45583147 --> node_dccf76c3
+    node_dccf76c3 --> node_ef355982
+    node_ef355982 --> node_08d69e2a
+    node_08d69e2a --> node_785bf6c6
+    node_785bf6c6 --> node_287991f8
+    node_287991f8 --> node_c200abc5
+    node_c200abc5 --> node_Dopamin
+    node_Dopamin --> node_nizkyoptimalnivysoky
+    node_nizkyoptimalnivysoky --> node_NizkyD1Slabaudrzba
+    node_NizkyD1Slabaudrzba --> node_OptimalniNejlepsipam
+    node_OptimalniNejlepsipam --> node_VysokyPerseveracerig
+
+    click node_DOPAMINAPRACOVNIPAME "/glossary/dopamin/" "DOPAMIN A PRACOVNI PAMET V PFC"
+    click node_Dopamin "/glossary/dopamin/" "Dopamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DOPAMIN A PRACOVNI PAMET V PFC
 
@@ -341,6 +616,8 @@ Nizky D1: Slaba udrzba
 Optimalni: Nejlepsi pamet
 Vysoky: Perseverace, rigidita
 ```
+
+</details>
 
 ---
 
@@ -369,6 +646,27 @@ Vysoky: Perseverace, rigidita
 
 ### Fronto-parietalni sif
 
+```mermaid
+flowchart TD
+    node_EXEKUTIVNISITCEN["EXEKUTIVNI SIT CEN"]
+    node_DLPFCParietalni["DLPFC  Parietalni"]
+    node_kortex["kortex"]
+    node_ACC["ACC"]
+    node_Aktivniprifokusovany["Aktivni pri fokusovanych úkolech"]
+    node_AntikorelacesDMN["Antikorelace s DMN"]
+
+    node_EXEKUTIVNISITCEN --> node_DLPFCParietalni
+    node_DLPFCParietalni --> node_kortex
+    node_kortex --> node_ACC
+    node_ACC --> node_Aktivniprifokusovany
+    node_Aktivniprifokusovany --> node_AntikorelacesDMN
+
+    click node_AntikorelacesDMN "/circuits/dmn/" "Antikorelace s DMN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 EXEKUTIVNI SIT (CEN)
 
@@ -389,6 +687,8 @@ EXEKUTIVNI SIT (CEN)
 └────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
 
 ## Vyvoj PFC
@@ -408,6 +708,31 @@ EXEKUTIVNI SIT (CEN)
 
 ### Myelinizace
 
+```mermaid
+flowchart TD
+    node_VYVOJPFC["VYVOJ PFC"]
+    node_SynaptickhustotaMyel["Synaptická hustota         Myelinizace"]
+    node_Peak["Peak     █"]
+    node_b66be3a1["█  █                             ████"]
+    node_8523ac93["█  █  █                        ██████"]
+    node_c1e672de["█  █  █  █                   ████████"]
+    node_cf47fe41["█  █  █  █  █              ██████████"]
+    node_051015202530Vekroky["0  5  10  15  20  25  30   Vek roky"]
+    node_PFCdokoncujevyvojkol["PFC dokoncuje vyvoj kolem 25 let."]
+
+    node_VYVOJPFC --> node_SynaptickhustotaMyel
+    node_SynaptickhustotaMyel --> node_Peak
+    node_Peak --> node_b66be3a1
+    node_b66be3a1 --> node_8523ac93
+    node_8523ac93 --> node_c1e672de
+    node_c1e672de --> node_cf47fe41
+    node_cf47fe41 --> node_051015202530Vekroky
+    node_051015202530Vekroky --> node_PFCdokoncujevyvojkol
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 VYVOJ PFC
 
@@ -424,6 +749,8 @@ Peak →    █                          │
 
 PFC dokoncuje vyvoj kolem 25 let.
 ```
+
+</details>
 
 ---
 
@@ -522,6 +849,36 @@ PFC je klicovym mistem konvergence signalnich kaskad psychoaktivnich latek -- vi
 
 ### 5-HT2A signalizace v PFC (vrstva V)
 
+```mermaid
+flowchart TD
+    node_SIGNALNIINTEGRACEVPY["SIGNALNI INTEGRACE V PYRAMIDOVYCH NEURONECH PFC"]
+    node_5HT2Aapikalnidendrit["5-HT2A apikalni dendrity, vrstva I/V"]
+    node_Gq11PLCbetaCa2PKC["Gq/11 -&gt; PLCbeta -&gt; Ca2+/PKC"]
+    node_ERK12CREBgenovaexpre["ERK1/2 -&gt; CREB -&gt; genova exprese"]
+    node_27d5beb7["+-------------+-------------+"]
+    node_BDNFArcHomer1a["BDNF          Arc          Homer1a"]
+    node_DendritickaSynaptick["Dendriticka   Synaptická    mGluR"]
+    node_arboryzaceplasticita["arboryzace    plasticita    modulace"]
+    node_NEUROPLASTICITAVPFC["NEUROPLASTICITA V PFC"]
+    node_24htydny["24 h - tydny"]
+
+    node_SIGNALNIINTEGRACEVPY --> node_5HT2Aapikalnidendrit
+    node_5HT2Aapikalnidendrit --> node_Gq11PLCbetaCa2PKC
+    node_Gq11PLCbetaCa2PKC --> node_ERK12CREBgenovaexpre
+    node_ERK12CREBgenovaexpre --> node_27d5beb7
+    node_27d5beb7 --> node_BDNFArcHomer1a
+    node_BDNFArcHomer1a --> node_DendritickaSynaptick
+    node_DendritickaSynaptick --> node_arboryzaceplasticita
+    node_arboryzaceplasticita --> node_NEUROPLASTICITAVPFC
+    node_NEUROPLASTICITAVPFC --> node_24htydny
+
+    click node_5HT2Aapikalnidendrit "/receptors/5-ht2a/" "5-HT2A apikalni dendrity, vrstva I/V"
+    click node_BDNFArcHomer1a "/molecules/bdnf/" "BDNF          Arc          Homer1a"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SIGNALNI INTEGRACE V PYRAMIDOVYCH NEURONECH PFC
 
@@ -548,6 +905,8 @@ SIGNALNI INTEGRACE V PYRAMIDOVYCH NEURONECH PFC
             NEUROPLASTICITA V PFC
             (24 h - tydny)
 ```
+
+</details>
 
 ### Casove okno neuroplasticity v PFC
 

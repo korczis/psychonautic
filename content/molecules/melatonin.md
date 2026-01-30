@@ -225,6 +225,33 @@ STATUS EVIDENCE:
 
 ### Strukturni souvislost
 
+```mermaid
+flowchart TD
+    node_SPOLECNYPREKURZOR["SPOLECNY PREKURZOR"]
+    node_LTRYPTOFAN["L-TRYPTOFAN"]
+    node_df854632["+----------+----------+"]
+    node_SerotonindrahaDMTdra["Serotonin draha    DMT draha"]
+    node_SEROTONINTRYPTAMIN["SEROTONIN             TRYPTAMIN"]
+    node_4037099c["+-----+-----+"]
+    node_MELATONIN5HIAADMT["MELATONIN   5-HIAA           DMT"]
+    node_STRUKTURNIPODOBNOST["STRUKTURNI PODOBNOST:"]
+
+    node_SPOLECNYPREKURZOR --> node_LTRYPTOFAN
+    node_LTRYPTOFAN --> node_df854632
+    node_df854632 --> node_SerotonindrahaDMTdra
+    node_SerotonindrahaDMTdra --> node_SEROTONINTRYPTAMIN
+    node_SEROTONINTRYPTAMIN --> node_4037099c
+    node_4037099c --> node_MELATONIN5HIAADMT
+    node_MELATONIN5HIAADMT --> node_STRUKTURNIPODOBNOST
+
+    click node_SerotonindrahaDMTdra "/alkaloids/dmt/" "Serotonin draha    DMT draha"
+    click node_SEROTONINTRYPTAMIN "/glossary/serotonin/" "SEROTONIN             TRYPTAMIN"
+    click node_MELATONIN5HIAADMT "/alkaloids/dmt/" "MELATONIN   5-HIAA           DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SPOLECNY PREKURZOR
 
@@ -249,6 +276,8 @@ STRUKTURNI PODOBNOST:
 - ALE: Jine biosynteticke enzymy
 - ALE: Jine tkane produkce
 ```
+
+</details>
 
 ---
 

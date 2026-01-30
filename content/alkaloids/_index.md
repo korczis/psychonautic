@@ -19,6 +19,47 @@ Alkaloidy se klasifikuji podle chemicke struktury zakladniho skeletu (scaffold),
 
 ### Hlavni tridy psychoaktivnich alkaloidu
 
+```mermaid
+flowchart TD
+    node_ALKALOIDY["ALKALOIDY"]
+    node_INDOLOVEALKALOIDYobs["+-- INDOLOVE ALKALOIDY obsahuji indolovy jadro"]
+    node_TRYPTAMINYindolethyl["+-- TRYPTAMINY indol + ethylamin"]
+    node_Psilocybin4PODMT["-- Psilocybin 4-PO-DMT"]
+    node_Psilocin4HODMT["-- Psilocin 4-HO-DMT"]
+    node_Baeocystin4PONMT["-- Baeocystin 4-PO-NMT"]
+    node_DMTNNDMT["+-- DMT N,N-DMT"]
+    node_ERGOLINYtetracyklick["+-- ERGOLINY tetracyklicke"]
+    node_LSDlysergamid["+-- LSD lysergamid"]
+    node_FENETHYLAMINYfenylet["+-- FENETHYLAMINY fenyl + ethylamin"]
+    node_Meskalin345trimethox["+-- Meskalin 3,4,5-trimethoxyfenethylamin"]
+    node_ISOXAZOLYheterocykli["+-- ISOXAZOLY heterocyklicke"]
+    node_MuscimolGABAanalog["+-- Muscimol GABA analog"]
+
+    node_ALKALOIDY --> node_INDOLOVEALKALOIDYobs
+    node_INDOLOVEALKALOIDYobs --> node_TRYPTAMINYindolethyl
+    node_TRYPTAMINYindolethyl --> node_Psilocybin4PODMT
+    node_Psilocybin4PODMT --> node_Psilocin4HODMT
+    node_Psilocin4HODMT --> node_Baeocystin4PONMT
+    node_Baeocystin4PONMT --> node_DMTNNDMT
+    node_DMTNNDMT --> node_ERGOLINYtetracyklick
+    node_ERGOLINYtetracyklick --> node_LSDlysergamid
+    node_LSDlysergamid --> node_FENETHYLAMINYfenylet
+    node_FENETHYLAMINYfenylet --> node_Meskalin345trimethox
+    node_Meskalin345trimethox --> node_ISOXAZOLYheterocykli
+    node_ISOXAZOLYheterocykli --> node_MuscimolGABAanalog
+
+    click node_Psilocybin4PODMT "/alkaloids/dmt/" "-- Psilocybin 4-PO-DMT"
+    click node_Psilocin4HODMT "/alkaloids/psilocin/" "-- Psilocin 4-HO-DMT"
+    click node_Baeocystin4PONMT "/alkaloids/baeocystin/" "-- Baeocystin 4-PO-NMT"
+    click node_DMTNNDMT "/alkaloids/dmt/" "+-- DMT N,N-DMT"
+    click node_LSDlysergamid "/alkaloids/lsd/" "+-- LSD lysergamid"
+    click node_Meskalin345trimethox "/alkaloids/mescaline/" "+-- Meskalin 3,4,5-trimethoxyfenethylamin"
+    click node_MuscimolGABAanalog "/alkaloids/muscimol/" "+-- Muscimol GABA analog"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ALKALOIDY
     |
@@ -40,6 +81,8 @@ ALKALOIDY
             +-- Muscimol (GABA analog)
 ```
 
+</details>
+
 ### Tabulka klasifikace
 
 | Trida | Zakladni struktura | Receptor | Pocet alkaloidu |
@@ -56,6 +99,39 @@ ALKALOIDY
 Vztahy mezi chemickou strukturou a biologickou aktivitou umoznuji predikovat ucinky novych sloucenin.
 
 ### Tryptaminovy scaffold
+
+```mermaid
+flowchart TD
+    node_R4["R4"]
+    node_54["5    4"]
+    node_9f0e3a0e["\  /"]
+    node_6["6   \/"]
+    node_3["\/  \3"]
+    node_eb7e1c33["\  /\"]
+    node_7NR1["7   \/  N--R1"]
+    node_H["\ |   H"]
+    node_ZAKLADNITRYPTAMINR1H["ZAKLADNI TRYPTAMIN: R1 = H, R4 = H"]
+    node_SUBSTITUENTYAJEJICHV["SUBSTITUENTY A JEJICH VLIV:"]
+    node_PoziceR1dusikpostran["Pozice R1 dusik postranniho retezce:"]
+    node_PoziceR4indolovykruh["Pozice R4 indolovy kruh:"]
+    node_Pozice5["Pozice 5:"]
+
+    node_R4 --> node_54
+    node_54 --> node_9f0e3a0e
+    node_9f0e3a0e --> node_6
+    node_6 --> node_3
+    node_3 --> node_eb7e1c33
+    node_eb7e1c33 --> node_7NR1
+    node_7NR1 --> node_H
+    node_H --> node_ZAKLADNITRYPTAMINR1H
+    node_ZAKLADNITRYPTAMINR1H --> node_SUBSTITUENTYAJEJICHV
+    node_SUBSTITUENTYAJEJICHV --> node_PoziceR1dusikpostran
+    node_PoziceR1dusikpostran --> node_PoziceR4indolovykruh
+    node_PoziceR4indolovykruh --> node_Pozice5
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     R4
@@ -95,6 +171,8 @@ Pozice 5:
   - OH         -> Bufotenin (5-HO-DMT)
 ```
 
+</details>
+
 ### Klicove SAR poznatky pro tryptaminy
 
 | Modifikace | Ucinek na aktivitu | Priklad |
@@ -106,6 +184,47 @@ Pozice 5:
 | 4,5-disubstituce | Kombinovane efekty | Teoreticke |
 
 ### Ergolinovy scaffold
+
+```mermaid
+flowchart TD
+    node_NCCONHR["N--C--CONH-R"]
+    node_15968329["+-----+"]
+    node_e481c146["/       \"]
+    node_N["/    N    \"]
+    node_CH3["CH3"]
+    node_8c82179a["\         /"]
+    node_3ce54bd9["\       /"]
+    node_4037099c["+-----+-----+"]
+    node_dc692126["+----+----+"]
+    node_6e1482da["/          \"]
+    node_NH["/     NH     \"]
+    node_H["\     H      /"]
+    node_221f1fed["+-------+"]
+    node_KYSELINALYSERGOVAROH["KYSELINA LYSERGOVA: R = OH"]
+    node_LSDRNC2H52["LSD: R = NC2H52"]
+    node_STEREOCHEMIE["STEREOCHEMIE:"]
+
+    node_NCCONHR --> node_15968329
+    node_15968329 --> node_e481c146
+    node_e481c146 --> node_N
+    node_N --> node_CH3
+    node_CH3 --> node_8c82179a
+    node_8c82179a --> node_3ce54bd9
+    node_3ce54bd9 --> node_4037099c
+    node_4037099c --> node_dc692126
+    node_dc692126 --> node_6e1482da
+    node_6e1482da --> node_NH
+    node_NH --> node_H
+    node_H --> node_221f1fed
+    node_221f1fed --> node_KYSELINALYSERGOVAROH
+    node_KYSELINALYSERGOVAROH --> node_LSDRNC2H52
+    node_LSDRNC2H52 --> node_STEREOCHEMIE
+
+    click node_LSDRNC2H52 "/alkaloids/lsd/" "LSD: R = NC2H52"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
                     H
@@ -140,6 +259,8 @@ STEREOCHEMIE:
 - iso-LSD = epimer (neaktivni)
 ```
 
+</details>
+
 ### SAR ergolinu
 
 | Modifikace | Ucinek | Potence |
@@ -151,6 +272,37 @@ STEREOCHEMIE:
 | 1-substituenty (1P-, 1cP-) | Prodrugs | ~100% |
 
 ### Fenethylaminovy scaffold
+
+```mermaid
+flowchart TD
+    node_OCH3["OCH3"]
+    node_dc692126["+----+----+"]
+    node_42c95bb5["/     |     \"]
+    node_04c636fe["\      +----/"]
+    node_c62fc515["\    /"]
+    node_9f0e3a0e["\  /"]
+    node_e265ec9f["\/"]
+    node_CH2["CH2"]
+    node_NH2["NH2"]
+    node_MESKALIN345trimethox["MESKALIN: 3,4,5-trimethoxyfenethylamin"]
+    node_DULEZITEPOZICE["DULEZITE POZICE:"]
+
+    node_OCH3 --> node_dc692126
+    node_dc692126 --> node_42c95bb5
+    node_42c95bb5 --> node_04c636fe
+    node_04c636fe --> node_c62fc515
+    node_c62fc515 --> node_9f0e3a0e
+    node_9f0e3a0e --> node_e265ec9f
+    node_e265ec9f --> node_CH2
+    node_CH2 --> node_NH2
+    node_NH2 --> node_MESKALIN345trimethox
+    node_MESKALIN345trimethox --> node_DULEZITEPOZICE
+
+    click node_MESKALIN345trimethox "/alkaloids/mescaline/" "MESKALIN: 3,4,5-trimethoxyfenethylamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
         OCH3
@@ -177,6 +329,8 @@ DULEZITE POZICE:
 - Alpha-methylace = amfetaminy (DOM, DOB, DOI)
 - 2,5-dimethoxy pattern = 2C-x serie
 ```
+
+</details>
 
 ---
 
@@ -311,12 +465,28 @@ LSD (diethylamid)
 | [Psilocybin](@/alkaloids/psilocybin.md) | N/A* | N/A* | N/A* | - | - | - |
 | [Baeocystin](@/alkaloids/baeocystin.md) | ~50-100** | - | - | - | - | - |
 | [Meskalin](@/alkaloids/mescaline.md) | 5000+ | 2000+ | - | - | - | - |
-| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | - | **5-10** | - |
 
 *Psilocybin je prodrug, defosforyluje se na psilocin
 **Odhadnuto, limitovana data
 
 ### Interpretace Ki hodnot
+
+```mermaid
+flowchart TD
+    node_KinMAfinitaKlinickar["Ki nM    Afinita         Klinicka relevance"]
+    node_10VelmivysokaPrimyre["&lt;10        Velmi vysoka    Primy receptor target"]
+    node_10100VysokaKlinickyv["10-100     Vysoka          Klinicky vyznamne"]
+    node_1001000StredniSekund["100-1000   Stredni         Sekundarni efekty"]
+    node_1000NizkaMinimalnipr["&gt;1000      Nizka           Minimalni prispevek"]
+
+    node_KinMAfinitaKlinickar --> node_10VelmivysokaPrimyre
+    node_10VelmivysokaPrimyre --> node_10100VysokaKlinickyv
+    node_10100VysokaKlinickyv --> node_1001000StredniSekund
+    node_1001000StredniSekund --> node_1000NizkaMinimalnipr
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Ki (nM)    Afinita         Klinicka relevance
@@ -326,6 +496,8 @@ Ki (nM)    Afinita         Klinicka relevance
 100-1000   Stredni         Sekundarni efekty
 >1000      Nizka           Minimalni prispevek
 ```
+
+</details>
 
 ### Potence a davkovani
 
@@ -338,7 +510,6 @@ Ki (nM)    Afinita         Klinicka relevance
 | [DMT](@/alkaloids/dmt.md) (oral+MAOI) | 30 | 75 | 150 | mg |
 | [Baeocystin](@/alkaloids/baeocystin.md) | 10 | 30 | 50 | mg (odhad) |
 | [Meskalin](@/alkaloids/mescaline.md) | 100 | 300 | 500 | mg |
-| [Muscimol](@/alkaloids/muscimol.md) | 3 | 10 | 20 | mg |
 
 ### Relativni potence (LSD = 1)
 
@@ -368,7 +539,6 @@ Muscimol    |====                                        | 0.010*
 | [DMT](@/alkaloids/dmt.md) | C12H16N2 | 188.27 | Tryptamin | Psychotria, Mimosa |
 | [LSD](@/alkaloids/lsd.md) | C20H25N3O | 323.43 | Ergolin | Semisynteticke |
 | [Meskalin](@/alkaloids/mescaline.md) | C11H17NO3 | 211.26 | Fenethylamin | Peyote, San Pedro |
-| [Muscimol](@/alkaloids/muscimol.md) | C4H6N2O2 | 114.10 | Isoxazol | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 | Kyselina ibotenova | C5H6N2O4 | 158.11 | Isoxazol | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 
 ### Farmakokineticke parametry
@@ -382,7 +552,6 @@ Muscimol    |====                                        | 0.010*
 | [DMT](@/alkaloids/dmt.md) (oral+MAOI) | ~50 | 1-2 | 1-2 | 4-6 | Inhibovany |
 | [LSD](@/alkaloids/lsd.md) | ~70 | 1.5-2.5 | 3-5 | 8-12 | CYP3A4 |
 | [Meskalin](@/alkaloids/mescaline.md) | ~100 | 2-3 | 6 | 8-12 | Hepatalni |
-| [Muscimol](@/alkaloids/muscimol.md) | ~50 | 1-2 | 2-3 | 5-8 | Minimalni |
 
 ### Bezpecnostni profily
 
@@ -394,7 +563,6 @@ Muscimol    |====                                        | 0.010*
 | [DMT](@/alkaloids/dmt.md) | Velmi nizka | Stredni | Velmi nizky | >50 |
 | [LSD](@/alkaloids/lsd.md) | Velmi nizka | Stredni | Zadny | 0.3 (i.v., kralik) |
 | [Meskalin](@/alkaloids/mescaline.md) | Nizka | Stredni | Zadny | 212 (i.p., mys) |
-| [Muscimol](@/alkaloids/muscimol.md) | **Stredni** | Stredni | Velmi nizky | 3.8 (i.p., mys) |
 
 *LD50 hodnoty jsou z zvirecich studii a nelze je primo extrapolovat na lidi
 
@@ -459,6 +627,29 @@ Muscimol    |====                                        | 0.010*
 
 #### Tryptaminy
 
+```mermaid
+flowchart TD
+    node_TRYPTOFANTRYPTAMIN["TRYPTOFAN &gt; TRYPTAMIN"]
+    node_BiosyntetickacestaCh["Biosynteticka cesta                  | Chemicka cesta"]
+    node_LTryptofanIndolOxaly["L-Tryptofan                             Indol + Oxalyl chlorid"]
+    node_DekarboxylaceFriedel["Dekarboxylace                        | Friedel-Crafts"]
+    node_TryptaminIndol3glyox["Tryptamin                               Indol-3-glyoxylyl chlorid"]
+    node_NmethylaceRedukce["N-methylace                          | Redukce"]
+    node_DMTTryptamin["DMT                                     Tryptamin"]
+
+    node_TRYPTOFANTRYPTAMIN --> node_BiosyntetickacestaCh
+    node_BiosyntetickacestaCh --> node_LTryptofanIndolOxaly
+    node_LTryptofanIndolOxaly --> node_DekarboxylaceFriedel
+    node_DekarboxylaceFriedel --> node_TryptaminIndol3glyox
+    node_TryptaminIndol3glyox --> node_NmethylaceRedukce
+    node_NmethylaceRedukce --> node_DMTTryptamin
+
+    click node_DMTTryptamin "/alkaloids/dmt/" "DMT                                     Tryptamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 TRYPTOFAN ──────────────────────────────> TRYPTAMIN
     |                                        |
@@ -474,6 +665,8 @@ Tryptamin                               Indol-3-glyoxylyl chlorid
     v                                        v
 DMT                                     Tryptamin
 ```
+
+</details>
 
 #### Psilocybin (Hofmannova synteza, 1958)
 
@@ -539,7 +732,6 @@ LSD
 | [Psilocin](@/alkaloids/psilocin.md) | Psychotropni latky 1971 | I | 1971 |
 | [DMT](@/alkaloids/dmt.md) | Psychotropni latky 1971 | I | 1971 |
 | [Meskalin](@/alkaloids/mescaline.md) | Psychotropni latky 1971 | I | 1971 |
-| [Muscimol](@/alkaloids/muscimol.md) | Neplanovano | - | - |
 | [Baeocystin](@/alkaloids/baeocystin.md) | Neplanovano* | - | - |
 
 *Muze byt kontrolovano jako analog psilocybinu v nekterych jurisdikcich
@@ -553,7 +745,6 @@ LSD
 | [Psilocin](@/alkaloids/psilocin.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
 | [DMT](@/alkaloids/dmt.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
 | [Meskalin](@/alkaloids/mescaline.md) | **Zakazano** | NV 463/2013 Sb., Tab. I |
-| [Muscimol](@/alkaloids/muscimol.md) | Nekontrolovano | - |
 | [Baeocystin](@/alkaloids/baeocystin.md) | Sede zona* | - |
 
 *Pravne nejasne, muze spadat pod analogovy zakon
@@ -626,7 +817,6 @@ Pusobi na GABA receptory (inhibicni neurotransmise). Odlisny mechanismus od klas
 
 | Alkaloid | Popis | Receptor | Zdroj |
 |----------|-------|----------|-------|
-| [Muscimol](@/alkaloids/muscimol.md) | Disociativni, sedativni | GABA-A | [Amanita muscaria](@/shrooms/amanita-muscaria.md) |
 
 ---
 
@@ -646,7 +836,6 @@ Zpusobuji vizualni halucinace, zmeny vnimani, mysticke zazitky.
 
 Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych psychedelik.**
 
-- [Muscimol](@/alkaloids/muscimol.md) - [Amanita muscaria](@/shrooms/amanita-muscaria.md)
 
 ---
 
@@ -659,7 +848,6 @@ Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych p
 | [DMT](@/alkaloids/dmt.md) | 75-130 | 15-60 **mg** | 15 min (inh.) |
 | [Psilocybin](@/alkaloids/psilocybin.md) | N/A (prodrug) | 15-30 **mg** | 4-6 h |
 | [Meskalin](@/alkaloids/mescaline.md) | 5000+ | 200-400 **mg** | 8-12 h |
-| [Muscimol](@/alkaloids/muscimol.md) | N/A (GABA-A) | 5-15 **mg** | 6-8 h |
 
 **Poznamka**: Ki = inhibicni konstanta. Nizsi hodnota = vyssi afinita k receptoru.
 
@@ -673,9 +861,7 @@ Zpusobuji sedaci, disociaci, snove stavy. **Odlisna farmakologie od klasickych p
 | [LSD](@/alkaloids/lsd.md) | Extremne nizka | Stredni (bad trip, HPPD) | Zadny |
 | [DMT](@/alkaloids/dmt.md) | Velmi nizka | Nizka | Zadny |
 | [Meskalin](@/alkaloids/mescaline.md) | Nizka | Stredni | Zadny |
-| [Muscimol](@/alkaloids/muscimol.md) | **Stredni** | Stredni | Velmi nizky |
 
-**Poznamka**: [Muscimol](@/alkaloids/muscimol.md) ma vyssi fyziologicke riziko kvuli variabilnimu obsahu v houbach a potencialnimu znecisteni [kyselinou ibotenovou](@/neurotoxins/ibotenic-acid.md).
 
 ---
 

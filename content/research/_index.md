@@ -220,6 +220,39 @@ POD PSYCHEDELIKY:
 
 ### Entropic Brain Hypothesis (Carhart-Harris)
 
+```mermaid
+flowchart TD
+    node_SPEKTRUMVEDOMI["SPEKTRUM VEDOMI:"]
+    node_SnzenentropieNormlnZ["Snízená entropie          Normální           Zvýšená entropie"]
+    node_c3b5ba33["+------------+         +------------+         +------------+"]
+    node_RigiditaOptimlnChaos["Rigidita  |         | Optimální  |         |   Chaos"]
+    node_DepreseZdravPsychza["Deprese   |         |  Zdravé    |         | Psychóza"]
+    node_OCD["OCD"]
+    node_Zavislost["Zavislost"]
+    node_5846a21f["+---------------------+---------------------+"]
+    node_PSYCHEDELIKA["PSYCHEDELIKA"]
+    node_zvyujentropii["zvyšují entropii"]
+    node_kontrolovan["kontrolované"]
+    node_Terapeutickokno["Terapeutické okno:"]
+    node_flexibilitabezchaosu["flexibilita bez chaosu"]
+
+    node_SPEKTRUMVEDOMI --> node_SnzenentropieNormlnZ
+    node_SnzenentropieNormlnZ --> node_c3b5ba33
+    node_c3b5ba33 --> node_RigiditaOptimlnChaos
+    node_RigiditaOptimlnChaos --> node_DepreseZdravPsychza
+    node_DepreseZdravPsychza --> node_OCD
+    node_OCD --> node_Zavislost
+    node_Zavislost --> node_5846a21f
+    node_5846a21f --> node_PSYCHEDELIKA
+    node_PSYCHEDELIKA --> node_zvyujentropii
+    node_zvyujentropii --> node_kontrolovan
+    node_kontrolovan --> node_Terapeutickokno
+    node_Terapeutickokno --> node_flexibilitabezchaosu
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SPEKTRUM VEDOMI:
 ================
@@ -245,6 +278,8 @@ Snízená entropie          Normální           Zvýšená entropie
                     flexibilita bez chaosu
 ```
 
+</details>
+
 ### Neuroplasticita
 
 | Marker | Zmena pod psychedeliky | Casový rámec |
@@ -269,6 +304,49 @@ Snízená entropie          Normální           Zvýšená entropie
 
 ### Typicky design psilocybinove studie
 
+```mermaid
+flowchart TD
+    node_SCREENING24tydnypred["SCREENING 2-4 tydny pred"]
+    node_Psychiatrickehodnoce["Psychiatricke hodnoceni"]
+    node_Fyzickevysetreni["Fyzicke vysetreni"]
+    node_Informovanysouhlas["Informovany souhlas"]
+    node_Pripravnasezeni12["Pripravna sezeni 1-2"]
+    node_DOZOVACISEZENI["DOZOVACI SEZENI"]
+    node_Den0Baselinemereni["Den 0: Baseline mereni"]
+    node_Den1Psilocybinsezeni["Den 1: Psilocybin sezeni 6-8 hodin"]
+    node_Monitorovanamistnost["Monitorovana mistnost"]
+    node_2terapeuti["2 terapeuti"]
+    node_Hudbamaskanaoci["Hudba, maska na oci"]
+    node_Minimalniverblninter["Minimalni verbální intervence"]
+    node_Den2Followup["Den 2: Follow-up"]
+    node_INTEGRACE["INTEGRACE"]
+    node_Integracnisezeni13["Integracni sezeni 1-3"]
+    node_Followup13612mesicu["Follow-up 1, 3, 6, 12 mesicu"]
+    node_Dlouhodobesledovani["Dlouhodobe sledovani"]
+
+    node_SCREENING24tydnypred --> node_Psychiatrickehodnoce
+    node_Psychiatrickehodnoce --> node_Fyzickevysetreni
+    node_Fyzickevysetreni --> node_Informovanysouhlas
+    node_Informovanysouhlas --> node_Pripravnasezeni12
+    node_Pripravnasezeni12 --> node_DOZOVACISEZENI
+    node_DOZOVACISEZENI --> node_Den0Baselinemereni
+    node_Den0Baselinemereni --> node_Den1Psilocybinsezeni
+    node_Den1Psilocybinsezeni --> node_Monitorovanamistnost
+    node_Monitorovanamistnost --> node_2terapeuti
+    node_2terapeuti --> node_Hudbamaskanaoci
+    node_Hudbamaskanaoci --> node_Minimalniverblninter
+    node_Minimalniverblninter --> node_Den2Followup
+    node_Den2Followup --> node_INTEGRACE
+    node_INTEGRACE --> node_Integracnisezeni13
+    node_Integracnisezeni13 --> node_Followup13612mesicu
+    node_Followup13612mesicu --> node_Dlouhodobesledovani
+
+    click node_Den1Psilocybinsezeni "/alkaloids/psilocybin/" "Den 1: Psilocybin sezeni 6-8 hodin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SCREENING (2-4 tydny pred)
 ├── Psychiatricke hodnoceni
@@ -290,6 +368,8 @@ INTEGRACE
 ├── Follow-up (1, 3, 6, 12 mesicu)
 └── Dlouhodobe sledovani
 ```
+
+</details>
 
 ### Klicove metodologicke aspekty
 

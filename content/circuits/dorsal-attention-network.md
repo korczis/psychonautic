@@ -159,7 +159,6 @@ souvisejici_latky = ["modafinil", "methylfenidat", "LSD", "psilocybin"]
 - [Salience Network (SN)](@/circuits/salience-network.md)
 - [Central Executive Network (CEN)](@/circuits/central-executive-network.md)
 - [Prefrontální kortex](@/brain/prefrontal-cortex.md)
-- [Pozornost](@/glossary/attention.md)
 
 ---
 

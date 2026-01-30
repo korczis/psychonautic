@@ -181,7 +181,6 @@ Tato sekce obsahuje detailni informace rozdelene do nasledujicich oblasti:
 
 ### Fenomenologie
 - [Mystické zážitky](@/phenomenology/mystical-experiences.md)
-- [Ego smrt](@/glossary/ego-smrt.md)
 
 ---
 

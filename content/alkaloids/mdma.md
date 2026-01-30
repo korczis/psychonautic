@@ -37,6 +37,43 @@ MDMA existuje jako racemicka smes dvou enantiomeru:
 
 ### Strukturni klasifikace
 
+```mermaid
+flowchart TD
+    node_FENETHYLAMINOVAKOSTR["FENETHYLAMINOVA KOSTRA:"]
+    node_aaa45758["/ \"]
+    node_33546275["/   \"]
+    node_OCH2methylendioxyben["O-CH2    methylendioxybenzylový kruh"]
+    node_dc692126["+----+----+"]
+    node_0cd2d519["/           \"]
+    node_f323a3a5["\           /"]
+    node_2["+----2----+"]
+    node_CH2["CH2"]
+    node_CHCH3alfamethylaceAM["CHCH3 alfa-methylace - AMFETAMINOVA struktura"]
+    node_NHCH3Nmethylace["NH-CH3 N-methylace"]
+    node_Klicovestrukturniprv["Klicove strukturni prvky:"]
+    node_1MethylendioxyfenylM["1. Methylendioxyfenyl MDA kostra"]
+    node_2Alfamethylaceamfeta["2. Alfa-methylace amfetaminova"]
+    node_3Nmethylacediferenci["3. N-methylace diferenciace od MDA"]
+
+    node_FENETHYLAMINOVAKOSTR --> node_aaa45758
+    node_aaa45758 --> node_33546275
+    node_33546275 --> node_OCH2methylendioxyben
+    node_OCH2methylendioxyben --> node_dc692126
+    node_dc692126 --> node_0cd2d519
+    node_0cd2d519 --> node_f323a3a5
+    node_f323a3a5 --> node_2
+    node_2 --> node_CH2
+    node_CH2 --> node_CHCH3alfamethylaceAM
+    node_CHCH3alfamethylaceAM --> node_NHCH3Nmethylace
+    node_NHCH3Nmethylace --> node_Klicovestrukturniprv
+    node_Klicovestrukturniprv --> node_1MethylendioxyfenylM
+    node_1MethylendioxyfenylM --> node_2Alfamethylaceamfeta
+    node_2Alfamethylaceamfeta --> node_3Nmethylacediferenci
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FENETHYLAMINOVA KOSTRA:
                     O
@@ -62,6 +99,8 @@ Klicove strukturni prvky:
 2. Alfa-methylace (amfetaminova)
 3. N-methylace (diferenciace od MDA)
 ```
+
+</details>
 
 ### Srovnani s pribuznyni slouceninanmi
 
@@ -121,6 +160,37 @@ V knize **PiHKAL** (1991) charakterizoval MDMA jako:
 
 MDMA pusobi prostrednictvim **uvolneni monoaminu** (predevsim serotoninu) a **inhibice zpetneho vychytavani**:
 
+```mermaid
+flowchart TD
+    node_MDMAvstupdoneuronu["MDMA vstup do neuronu"]
+    node_34959a3e["+------------------------+"]
+    node_SERTserotonin["SERT serotonin"]
+    node_transporter["transporter"]
+    node_Reverznitransport["Reverzni transport"]
+    node_uvolneni5HT["uvolneni 5-HT"]
+    node_Masivnisynapticky["Masivni synapticky"]
+    node_5HTvzestup["5-HT vzestup"]
+    node_5HTreceptorypostsyna["+---&gt; 5-HT receptory postsynapticke"]
+    node_Oxytocinuvolnenihypo["+---&gt; Oxytocin uvolneni hypothalamus"]
+    node_Empatieeuforieotevre["Empatie, euforie, otevreneost"]
+
+    node_MDMAvstupdoneuronu --> node_34959a3e
+    node_34959a3e --> node_SERTserotonin
+    node_SERTserotonin --> node_transporter
+    node_transporter --> node_Reverznitransport
+    node_Reverznitransport --> node_uvolneni5HT
+    node_uvolneni5HT --> node_Masivnisynapticky
+    node_Masivnisynapticky --> node_5HTvzestup
+    node_5HTvzestup --> node_5HTreceptorypostsyna
+    node_5HTreceptorypostsyna --> node_Oxytocinuvolnenihypo
+    node_Oxytocinuvolnenihypo --> node_Empatieeuforieotevre
+
+    click node_SERTserotonin "/glossary/serotonin/" "SERT serotonin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MDMA vstup do neuronu
         |
@@ -145,6 +215,8 @@ MDMA vstup do neuronu
         v
 Empatie, euforie, otevreneost
 ```
+
+</details>
 
 ### Neurotransmiterovy profil
 
@@ -195,6 +267,27 @@ Empatie, euforie, otevreneost
 
 ### Metabolismus
 
+```mermaid
+flowchart TD
+    node_MDMA["MDMA"]
+    node_CYP2D6MDAaktivnimeta["+--CYP2D6---&gt; MDA aktivni metabolit, psychedelicka slozka"]
+    node_CYP2D6CYP3A4HHMA34di["+--CYP2D6/CYP3A4---&gt; HHMA 3,4-dihydroxymethamphetamin"]
+    node_COMT["COMT"]
+    node_HMMA4hydroxy3methoxy["HMMA 4-hydroxy-3-methoxymethamphetamin"]
+    node_OdemethylaceHHA["+--O-demethylace---&gt; HHA"]
+    node_NdemethylaceMDAdalsi["+--N-demethylace---&gt; MDA ---&gt; dalsi metabolity"]
+
+    node_MDMA --> node_CYP2D6MDAaktivnimeta
+    node_CYP2D6MDAaktivnimeta --> node_CYP2D6CYP3A4HHMA34di
+    node_CYP2D6CYP3A4HHMA34di --> node_COMT
+    node_COMT --> node_HMMA4hydroxy3methoxy
+    node_HMMA4hydroxy3methoxy --> node_OdemethylaceHHA
+    node_OdemethylaceHHA --> node_NdemethylaceMDAdalsi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MDMA
   |
@@ -209,6 +302,8 @@ MDMA
   |
   +--[N-demethylace]---> MDA ---> dalsi metabolity
 ```
+
+</details>
 
 **Dulezite**: CYP2D6 polymorfismy ovlivnuji metabolismus - "poor metabolizers" maji vyssi riziko toxicity.
 

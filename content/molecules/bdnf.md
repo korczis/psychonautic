@@ -46,6 +46,41 @@ Snizene hladiny BDNF jsou konzistentne spojovany s [depresí](@/conditions/depre
 
 ### Transkripce a processing
 
+```mermaid
+flowchart TD
+    node_BDNFGENchromozom11["BDNF GEN chromozom 11"]
+    node_Transkripcemultiplep["Transkripce - multiple promotory"]
+    node_9exonu17transkriptu["9 exonu, 17+ transkriptu"]
+    node_BDNFmRNA["BDNF mRNA"]
+    node_Translace["Translace"]
+    node_PreproBDNF247aminoky["Pre-proBDNF 247 aminokyselin"]
+    node_Signalnipeptidodstra["Signalni peptid odstranen"]
+    node_proBDNF32kDa["proBDNF 32 kDa"]
+    node_4f76f3cc["+------+------+"]
+    node_IntracelularniExtrac["Intracelularni   Extracelularni"]
+    node_FurinPlasmin["Furin,     | Plasmin,"]
+    node_PC13MMP9["PC1/3      | MMP-9"]
+    node_ZralyBDNFZralyBDNF["Zraly BDNF    Zraly BDNF"]
+    node_sekrecekonverze["sekrece     konverze"]
+
+    node_BDNFGENchromozom11 --> node_Transkripcemultiplep
+    node_Transkripcemultiplep --> node_9exonu17transkriptu
+    node_9exonu17transkriptu --> node_BDNFmRNA
+    node_BDNFmRNA --> node_Translace
+    node_Translace --> node_PreproBDNF247aminoky
+    node_PreproBDNF247aminoky --> node_Signalnipeptidodstra
+    node_Signalnipeptidodstra --> node_proBDNF32kDa
+    node_proBDNF32kDa --> node_4f76f3cc
+    node_4f76f3cc --> node_IntracelularniExtrac
+    node_IntracelularniExtrac --> node_FurinPlasmin
+    node_FurinPlasmin --> node_PC13MMP9
+    node_PC13MMP9 --> node_ZralyBDNFZralyBDNF
+    node_ZralyBDNFZralyBDNF --> node_sekrecekonverze
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BDNF GEN (chromozom 11)
     |
@@ -74,6 +109,8 @@ Zraly BDNF    Zraly BDNF
 (sekrece)     (konverze)
 ```
 
+</details>
+
 ### Regulace exprese BDNF
 
 | Faktor | Vliv na BDNF | Mechanismus |
@@ -90,6 +127,29 @@ Zraly BDNF    Zraly BDNF
 | **Spanek** | Nutny pro udrzeni | Konsolidace |
 
 ### Aktivitne-zavisla sekrece
+
+```mermaid
+flowchart TD
+    node_NEURONALNIAKTIVITA["NEURONALNI AKTIVITA"]
+    node_Ca2influx["Ca2+ influx"]
+    node_0cb77c9d["+--------+--------+"]
+    node_CREBaktivaceCaMKIIak["CREB aktivace    CaMKII aktivace"]
+    node_TranskripceVezikular["Transkripce      Vezikularna"]
+    node_BDNFgenusekreceBDNF["BDNF genu        sekrece BDNF"]
+    node_NovasyntezaOkamzite["Nova synteza     Okamzite"]
+    node_hodinyuvolneni["hodiny         uvolneni"]
+
+    node_NEURONALNIAKTIVITA --> node_Ca2influx
+    node_Ca2influx --> node_0cb77c9d
+    node_0cb77c9d --> node_CREBaktivaceCaMKIIak
+    node_CREBaktivaceCaMKIIak --> node_TranskripceVezikular
+    node_TranskripceVezikular --> node_BDNFgenusekreceBDNF
+    node_BDNFgenusekreceBDNF --> node_NovasyntezaOkamzite
+    node_NovasyntezaOkamzite --> node_hodinyuvolneni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NEURONALNI AKTIVITA
@@ -111,6 +171,8 @@ NEURONALNI AKTIVITA
    (hodiny)         uvolneni
 ```
 
+</details>
+
 ---
 
 ## TrkB receptor a signalizace
@@ -124,6 +186,51 @@ NEURONALNI AKTIVITA
 | **Intracelularni** | Tyrozin kinazova aktivita |
 
 ### Signalni kaskady
+
+```mermaid
+flowchart TD
+    node_BDNFdimer["BDNF dimer"]
+    node_c9470ff3["+--------------+"]
+    node_TrkB["TrkB"]
+    node_dimerizace["dimerizace"]
+    node_Autofosforylace["Autofosforylace"]
+    node_a8510f68["+-----------+-----------+"]
+    node_4fd5b7a0["+-------+   +-------+   +-------+"]
+    node_PI3KPLCgRas["PI3K  |   |  PLCg |   |  Ras"]
+    node_8c4dee88["+---+---+   +---+---+   +---+---+"]
+    node_AktCa2Raf["Akt  |   | Ca2+  |   |  Raf"]
+    node_mTORCaMKIIMEK["mTOR  |   |CaMKII |   |  MEK"]
+    node_ERK12["ERK1/2"]
+    node_CREB["CREB"]
+    node_34959a3e["+------------------------+"]
+    node_Genovaexprese["Genova exprese"]
+    node_ArccfosSynapsin["Arc, c-fos, Synapsin"]
+    node_egr1Homer1a["egr1, Homer1a"]
+    node_SynaptogenezeLTPNeur["Synaptogeneze  LTP     Neuronalni"]
+    node_zeslenipreziti["zesíleni  preziti"]
+
+    node_BDNFdimer --> node_c9470ff3
+    node_c9470ff3 --> node_TrkB
+    node_TrkB --> node_dimerizace
+    node_dimerizace --> node_Autofosforylace
+    node_Autofosforylace --> node_a8510f68
+    node_a8510f68 --> node_4fd5b7a0
+    node_4fd5b7a0 --> node_PI3KPLCgRas
+    node_PI3KPLCgRas --> node_8c4dee88
+    node_8c4dee88 --> node_AktCa2Raf
+    node_AktCa2Raf --> node_mTORCaMKIIMEK
+    node_mTORCaMKIIMEK --> node_ERK12
+    node_ERK12 --> node_CREB
+    node_CREB --> node_34959a3e
+    node_34959a3e --> node_Genovaexprese
+    node_Genovaexprese --> node_ArccfosSynapsin
+    node_ArccfosSynapsin --> node_egr1Homer1a
+    node_egr1Homer1a --> node_SynaptogenezeLTPNeur
+    node_SynaptogenezeLTPNeur --> node_zeslenipreziti
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
            BDNF (dimer)
@@ -175,6 +282,8 @@ Synaptogeneze  LTP     Neuronalni
                zesíleni  preziti
 ```
 
+</details>
+
 ### Tri hlavni drahy
 
 | Draha | Klicove molekuly | Funkce |
@@ -198,6 +307,29 @@ Synaptogeneze  LTP     Neuronalni
 
 ### Dendriticka plasticita
 
+```mermaid
+flowchart TD
+    node_BDNFPUSOBENINADENDRI["BDNF PUSOBENI NA DENDRITY"]
+    node_PredBDNFPoBDNFexpozi["Pred BDNF                    Po BDNF expozici"]
+    node_1b2cea05["+--------------+             +--------------+"]
+    node_0d0142cd["===     |             |   ==="]
+    node_431120e5["/|\"]
+    node_c3bd0982["--------&gt;  |  / | \"]
+    node_NNNN["N       |             | NNN"]
+    node_Ucinky["Ucinky:"]
+
+    node_BDNFPUSOBENINADENDRI --> node_PredBDNFPoBDNFexpozi
+    node_PredBDNFPoBDNFexpozi --> node_1b2cea05
+    node_1b2cea05 --> node_0d0142cd
+    node_0d0142cd --> node_431120e5
+    node_431120e5 --> node_c3bd0982
+    node_c3bd0982 --> node_NNNN
+    node_NNNN --> node_Ucinky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BDNF PUSOBENI NA DENDRITY
 
@@ -218,6 +350,8 @@ Ucinky:
 - Zlepsena konektivita
 ```
 
+</details>
+
 ### Neurogeneze
 
 | Oblast | BDNF funkce | Casovy ramec |
@@ -231,6 +365,37 @@ Ucinky:
 ## BDNF a psychicke poruchy
 
 ### Deprese - neuroplasticka hypoteza
+
+```mermaid
+flowchart TD
+    node_NEUROPLASTICKAHYPOTE["NEUROPLASTICKA HYPOTEZA DEPRESE"]
+    node_ZDRAVYMOZEKDEPRESIVN["ZDRAVY MOZEK                   DEPRESIVNI MOZEK"]
+    node_655ddc6f["+---------------+              +---------------+"]
+    node_BDNFBDNF["BDNF ====  |              |  BDNF ="]
+    node_TrkBTrkB["TrkB ====  |              |  TrkB =="]
+    node_DendrityDendrity["Dendrity:    |              |  Dendrity:"]
+    node_508e81db["/\  /\  /\"]
+    node_SynapseSynapse["Synapse: ### |              |  Synapse: #"]
+    node_NormalnifunkceSnizen["Normalni funkce             Snizena plasticita"]
+    node_ResilienceMaladaptiv["Resilience                  Maladaptivni zmeny"]
+    node_Anhedoniekognitivnid["Anhedonie, kognitivni deficity"]
+
+    node_NEUROPLASTICKAHYPOTE --> node_ZDRAVYMOZEKDEPRESIVN
+    node_ZDRAVYMOZEKDEPRESIVN --> node_655ddc6f
+    node_655ddc6f --> node_BDNFBDNF
+    node_BDNFBDNF --> node_TrkBTrkB
+    node_TrkBTrkB --> node_DendrityDendrity
+    node_DendrityDendrity --> node_508e81db
+    node_508e81db --> node_SynapseSynapse
+    node_SynapseSynapse --> node_NormalnifunkceSnizen
+    node_NormalnifunkceSnizen --> node_ResilienceMaladaptiv
+    node_ResilienceMaladaptiv --> node_Anhedoniekognitivnid
+
+    click node_NEUROPLASTICKAHYPOTE "/conditions/depression/" "NEUROPLASTICKA HYPOTEZA DEPRESE"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NEUROPLASTICKA HYPOTEZA DEPRESE
@@ -253,6 +418,8 @@ NEUROPLASTICKA HYPOTEZA DEPRESE
     Resilience                  Maladaptivni zmeny
                                 Anhedonie, kognitivni deficity
 ```
+
+</details>
 
 ### Dukazy pro BDNF hypotezu deprese
 

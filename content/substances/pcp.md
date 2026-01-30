@@ -59,6 +59,37 @@ zdroje = ["Synteticke"]
 
 ### Vztah k ostatnim arylcyklohexylaminům
 
+```mermaid
+flowchart TD
+    node_FENCYKLIDINPCP["FENCYKLIDIN PCP"]
+    node_KETAMIN["+---&gt; KETAMIN"]
+    node_2Clsubstituce["- 2-Cl substituce"]
+    node_Nmethylmistopiperidi["- N-methyl misto piperidinu"]
+    node_Ketonnacyklohexanu["- Keton na cyklohexanu"]
+    node_NizsiNMDAafinita["- Nizsi NMDA afinita"]
+    node_PCEEticyklidin["+---&gt; PCE Eticyklidin"]
+    node_Nethylmistopiperidin["- N-ethyl misto piperidinu"]
+    node_TCPTenocyklidin["+---&gt; TCP Tenocyklidin"]
+    node_Thienylmistofenylu["- Thienyl misto fenylu"]
+    node_3MeOPCP["+---&gt; 3-MeO-PCP"]
+
+    node_FENCYKLIDINPCP --> node_KETAMIN
+    node_KETAMIN --> node_2Clsubstituce
+    node_2Clsubstituce --> node_Nmethylmistopiperidi
+    node_Nmethylmistopiperidi --> node_Ketonnacyklohexanu
+    node_Ketonnacyklohexanu --> node_NizsiNMDAafinita
+    node_NizsiNMDAafinita --> node_PCEEticyklidin
+    node_PCEEticyklidin --> node_Nethylmistopiperidin
+    node_Nethylmistopiperidin --> node_TCPTenocyklidin
+    node_TCPTenocyklidin --> node_Thienylmistofenylu
+    node_Thienylmistofenylu --> node_3MeOPCP
+
+    click node_KETAMIN "/alkaloids/ketamin/" "+---> KETAMIN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FENCYKLIDIN (PCP)
       |
@@ -78,6 +109,8 @@ FENCYKLIDIN (PCP)
             - 3-methoxy na fenylu
             - Prolongovaný ucinek
 ```
+
+</details>
 
 ### Strukturni porovnani s ketaminem
 
@@ -191,6 +224,54 @@ Dnes: Vyzkumny nastroj
 
 ### Mechanismus ucinku
 
+```mermaid
+flowchart TD
+    node_PCP["PCP"]
+    node_NMDAreceptorblokadaH["+---&gt; NMDA receptor blokada HLAVNI"]
+    node_Disociativnistavy["Disociativni stavy"]
+    node_Depersonalizace["- Depersonalizace"]
+    node_Derealizace["- Derealizace"]
+    node_Analgzie["- Analgézie"]
+    node_Dopaminergniaktivace["+---&gt; Dopaminergni aktivace"]
+    node_Psychotomimetika["Psychotomimetika"]
+    node_Paranoia["- Paranoia"]
+    node_Halucinace["- Halucinace"]
+    node_Agitace["- Agitace"]
+    node_Sigmareceptoraktivac["+---&gt; Sigma receptor aktivace"]
+    node_ModulaceNMDA["Modulace NMDA"]
+    node_Dysforickkomponenty["Dysforické komponenty"]
+    node_nAChblokada["+---&gt; nACh blokada"]
+    node_Kognitivnideficit["Kognitivni deficit"]
+    node_NETDATinhibice["+---&gt; NET/DAT inhibice"]
+    node_Stimulace["Stimulace"]
+    node_Euforienekdy["Euforie nekdy"]
+
+    node_PCP --> node_NMDAreceptorblokadaH
+    node_NMDAreceptorblokadaH --> node_Disociativnistavy
+    node_Disociativnistavy --> node_Depersonalizace
+    node_Depersonalizace --> node_Derealizace
+    node_Derealizace --> node_Analgzie
+    node_Analgzie --> node_Dopaminergniaktivace
+    node_Dopaminergniaktivace --> node_Psychotomimetika
+    node_Psychotomimetika --> node_Paranoia
+    node_Paranoia --> node_Halucinace
+    node_Halucinace --> node_Agitace
+    node_Agitace --> node_Sigmareceptoraktivac
+    node_Sigmareceptoraktivac --> node_ModulaceNMDA
+    node_ModulaceNMDA --> node_Dysforickkomponenty
+    node_Dysforickkomponenty --> node_nAChblokada
+    node_nAChblokada --> node_Kognitivnideficit
+    node_Kognitivnideficit --> node_NETDATinhibice
+    node_NETDATinhibice --> node_Stimulace
+    node_Stimulace --> node_Euforienekdy
+
+    click node_NMDAreceptorblokadaH "/receptors/nmda/" "+---> NMDA receptor blokada HLAVNI"
+    click node_Dopaminergniaktivace "/glossary/dopamin/" "+---> Dopaminergni aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PCP
  |
@@ -228,9 +309,38 @@ PCP
        Euforie (nekdy)
 ```
 
+</details>
+
 ### NMDA receptor vazebne misto
 
 PCP se vaze do iontoveho kanalu NMDA receptoru:
+
+```mermaid
+flowchart TD
+    node_NMDARECEPTORPCPVAZEB["NMDA RECEPTOR - PCP VAZEBNE MISTO"]
+    node_Extracelularniprosto["Extracelularni prostor"]
+    node_GlusiteGlysite["Glu site----Gly site"]
+    node_IONTOVKANL["IONTOVÝ KANÁL"]
+    node_Mg2siteMg2blokdapikl["Mg2+ site        Mg2+ blokáda při klidu"]
+    node_PCPsitePCPseveZDE["PCP site         PCP se váže ZDE"]
+    node_uvnitkanlu["uvnitř kanálu"]
+    node_Intracelularniprosto["Intracelularni prostor"]
+    node_PCPusedependentblokt["PCP = 'use-dependent' blokátor"]
+
+    node_NMDARECEPTORPCPVAZEB --> node_Extracelularniprosto
+    node_Extracelularniprosto --> node_GlusiteGlysite
+    node_GlusiteGlysite --> node_IONTOVKANL
+    node_IONTOVKANL --> node_Mg2siteMg2blokdapikl
+    node_Mg2siteMg2blokdapikl --> node_PCPsitePCPseveZDE
+    node_PCPsitePCPseveZDE --> node_uvnitkanlu
+    node_uvnitkanlu --> node_Intracelularniprosto
+    node_Intracelularniprosto --> node_PCPusedependentblokt
+
+    click node_NMDARECEPTORPCPVAZEB "/receptors/nmda/" "NMDA RECEPTOR - PCP VAZEBNE MISTO"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NMDA RECEPTOR - PCP VAZEBNE MISTO
@@ -260,6 +370,8 @@ PCP = "use-dependent" blokátor
 - Vaze se do otevřeného kanálu
 - Prodlouzena disociace z vazebného místa
 ```
+
+</details>
 
 ---
 
@@ -472,6 +584,27 @@ ZÁVAŽNÉ (vysoké dávky):
 
 #### Rhabdomyolyza
 
+```mermaid
+flowchart TD
+    node_PCPAgitaceSvalovkont["PCP  Agitace  Svalové kontrakce"]
+    node_Hyperthermie["Hyperthermie"]
+    node_Fyzickomezenrestrain["Fyzické omezení restraint"]
+    node_Svalovpokozen["Svalové poškození"]
+    node_Myoglobinrelease["Myoglobin release"]
+    node_Myoglobinurie["Myoglobinurie"]
+    node_AKUTNRENLNSELHN["AKUTNÍ RENÁLNÍ SELHÁNÍ"]
+
+    node_PCPAgitaceSvalovkont --> node_Hyperthermie
+    node_Hyperthermie --> node_Fyzickomezenrestrain
+    node_Fyzickomezenrestrain --> node_Svalovpokozen
+    node_Svalovpokozen --> node_Myoglobinrelease
+    node_Myoglobinrelease --> node_Myoglobinurie
+    node_Myoglobinurie --> node_AKUTNRENLNSELHN
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PCP → Agitace → Svalové kontrakce
              → Hyperthermie
@@ -489,6 +622,8 @@ PCP → Agitace → Svalové kontrakce
                     v
          AKUTNÍ RENÁLNÍ SELHÁNÍ
 ```
+
+</details>
 
 | Marker | Hodnota při rhabdomyolyze |
 |--------|--------------------------|
@@ -538,6 +673,34 @@ PCP indukovana psychoza napodobuje schizofrenii lepe nez jine modely:
 
 ### NMDA hypofunkce hypoteza
 
+```mermaid
+flowchart TD
+    node_NMDAHYPOFUNKNHYPOTZA["NMDA HYPOFUNKČNÍ HYPOTÉZA SCHIZOFRENIE"]
+    node_PCPKetaminNMDAblokda["PCP/Ketamin  NMDA blokáda"]
+    node_27d5beb7["+-------------+-------------+"]
+    node_PrefrontlnHippocampu["Prefrontální  Hippocampus   Thalamus"]
+    node_kortex["kortex"]
+    node_PracovnPamovSenzoric["Pracovní     Paměťový      Senzorický"]
+    node_pamdeficitgating["paměť       deficit       gating"]
+    node_SCHIZOFRENNSYMPTOMY["SCHIZOFRENNÍ SYMPTOMY"]
+    node_Klinickimplikace["Klinická implikace:"]
+
+    node_NMDAHYPOFUNKNHYPOTZA --> node_PCPKetaminNMDAblokda
+    node_PCPKetaminNMDAblokda --> node_27d5beb7
+    node_27d5beb7 --> node_PrefrontlnHippocampu
+    node_PrefrontlnHippocampu --> node_kortex
+    node_kortex --> node_PracovnPamovSenzoric
+    node_PracovnPamovSenzoric --> node_pamdeficitgating
+    node_pamdeficitgating --> node_SCHIZOFRENNSYMPTOMY
+    node_SCHIZOFRENNSYMPTOMY --> node_Klinickimplikace
+
+    click node_NMDAHYPOFUNKNHYPOTZA "/conditions/schizophrenia/" "NMDA HYPOFUNKČNÍ HYPOTÉZA SCHIZOFRENIE"
+    click node_PCPKetaminNMDAblokda "/alkaloids/ketamin/" "PCP/Ketamin  NMDA blokáda"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NMDA HYPOFUNKČNÍ HYPOTÉZA SCHIZOFRENIE
 
@@ -566,6 +729,8 @@ Klinická implikace:
 - mGluR2/3 agonisté
 - Glycinové site modulátory
 ```
+
+</details>
 
 ### Vyzkumne vyuziti
 

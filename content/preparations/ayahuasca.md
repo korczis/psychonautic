@@ -220,6 +220,35 @@ ZADNY UCINEK                    DMT PROCHAZI
 
 #### "La Purga" - Ooocistny proces
 
+```mermaid
+flowchart TD
+    node_Ayahuascaintoxikace["Ayahuasca intoxikace"]
+    node_Nauseadiskomfort["Nausea, diskomfort"]
+    node_ZVRACENIPRUJEM["ZVRACENI / PRUJEM"]
+    node_34959a3e["+------------------------+"]
+    node_Tradicionalnivyznam["Tradicionalni vyznam:"]
+    node_Fyzickaocista["- Fyzicka ocista"]
+    node_Energetickaocista["- Energeticka ocista"]
+    node_Emocionalnikatarze["- Emocionalni katarze"]
+    node_Vyputeninemoci["- 'Vypušteni' nemoci"]
+    node_Ulevaotevreni["Uleva, otevreni"]
+    node_Hlubsipsychedelickyz["Hlubsi psychedelicky zazitky"]
+
+    node_Ayahuascaintoxikace --> node_Nauseadiskomfort
+    node_Nauseadiskomfort --> node_ZVRACENIPRUJEM
+    node_ZVRACENIPRUJEM --> node_34959a3e
+    node_34959a3e --> node_Tradicionalnivyznam
+    node_Tradicionalnivyznam --> node_Fyzickaocista
+    node_Fyzickaocista --> node_Energetickaocista
+    node_Energetickaocista --> node_Emocionalnikatarze
+    node_Emocionalnikatarze --> node_Vyputeninemoci
+    node_Vyputeninemoci --> node_Ulevaotevreni
+    node_Ulevaotevreni --> node_Hlubsipsychedelickyz
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Ayahuasca intoxikace
         |
@@ -244,6 +273,8 @@ Uleva, otevreni
         v
 Hlubsi psychedelicky zazitky
 ```
+
+</details>
 
 ### Charakteristicke vize
 

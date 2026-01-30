@@ -35,6 +35,37 @@ weight = 12
 
 ### Strukturni diagram
 
+```mermaid
+flowchart TD
+    node_Tryptaminovakostra["Tryptaminova kostra:"]
+    node_OPO3H2fosfatovaskupi["OPO3H2 fosfatova skupina - jako psilocybin"]
+    node_4["+----4----+"]
+    node_0cd2d519["/           \"]
+    node_53["5             3"]
+    node_6N["6      N"]
+    node_e9766c27["\     |     /"]
+    node_1["+----1----+"]
+    node_CH2["CH2"]
+    node_NCH33KVARTERNALNIdus["N+CH33 KVARTERNALNI dusik!"]
+    node_KlicTrimethylamoniov["Klic: Trimethylamoniova skupina namisto dimethylaminove"]
+
+    node_Tryptaminovakostra --> node_OPO3H2fosfatovaskupi
+    node_OPO3H2fosfatovaskupi --> node_4
+    node_4 --> node_0cd2d519
+    node_0cd2d519 --> node_53
+    node_53 --> node_6N
+    node_6N --> node_e9766c27
+    node_e9766c27 --> node_1
+    node_1 --> node_CH2
+    node_CH2 --> node_NCH33KVARTERNALNIdus
+    node_NCH33KVARTERNALNIdus --> node_KlicTrimethylamoniov
+
+    click node_OPO3H2fosfatovaskupi "/alkaloids/psilocybin/" "OPO3H2 fosfatova skupina - jako psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Tryptaminova kostra:
 
@@ -56,6 +87,8 @@ Tryptaminova kostra:
 
 Klic: Trimethylamoniova skupina namisto dimethylaminove
 ```
+
+</details>
 
 ### Vlastnosti kvarternarniho dusiku
 
@@ -149,6 +182,32 @@ Aeruginascin (N+-trimethyl)
 
 ### Entourage effect hypoteza
 
+```mermaid
+flowchart TD
+    node_Houbovyextraktkomple["Houbovy extrakt komplexni smes"]
+    node_Psilocybinhlavni["+-- Psilocybin hlavni"]
+    node_Baeocystinmodulace["+-- Baeocystin modulace?"]
+    node_Norbaeocystinmodulac["+-- Norbaeocystin modulace?"]
+    node_AERUGINASCINentourag["+-- AERUGINASCIN entourage factor?"]
+    node_SYNERGICKYMODULACNIU["SYNERGICKY/MODULACNI UCINEK"]
+    node_Odlisnakvalitazazitk["Odlisna kvalita zazitku nez cisty psilocybin?"]
+
+    node_Houbovyextraktkomple --> node_Psilocybinhlavni
+    node_Psilocybinhlavni --> node_Baeocystinmodulace
+    node_Baeocystinmodulace --> node_Norbaeocystinmodulac
+    node_Norbaeocystinmodulac --> node_AERUGINASCINentourag
+    node_AERUGINASCINentourag --> node_SYNERGICKYMODULACNIU
+    node_SYNERGICKYMODULACNIU --> node_Odlisnakvalitazazitk
+
+    click node_Psilocybinhlavni "/alkaloids/psilocybin/" "+-- Psilocybin hlavni"
+    click node_Baeocystinmodulace "/alkaloids/baeocystin/" "+-- Baeocystin modulace?"
+    click node_Norbaeocystinmodulac "/alkaloids/baeocystin/" "+-- Norbaeocystin modulace?"
+    click node_Odlisnakvalitazazitk "/alkaloids/psilocybin/" "Odlisna kvalita zazitku nez cisty psilocybin?"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Houbovy extrakt (komplexni smes)
         |
@@ -166,6 +225,8 @@ SYNERGICKY/MODULACNI UCINEK
         v
 Odlisna kvalita zazitku nez cisty psilocybin?
 ```
+
+</details>
 
 ### Srovnani "magic mushrooms" vs cisty psilocybin
 

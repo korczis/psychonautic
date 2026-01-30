@@ -12,7 +12,6 @@ receptory = ["GABA-A", "NMDA"]
 
 # Amanita regalis - Muchomurka kralovska
 
-**Amanita regalis** (muchomurka kralovska, "Royal Fly Agaric") je vzacna severoevropska psychoaktivni houba, casto povazovana za samostatny druh nebo za varietu/poddruh [Amanita muscaria](@/shrooms/amanita-muscaria.md). Vyznacuje se charakteristickym **hnede-zlutym az zlato-hnedym kloboukem** a vyskytem predevsim ve **skandinavskych boreal Pralesech**. Obsahuje stejne aktivni latky - [muscimol](@/alkaloids/muscimol.md) a [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md) - jako jeji cervena pribuzna.
 
 ---
 
@@ -25,7 +24,6 @@ receptory = ["GABA-A", "NMDA"]
 | **Ceske nazvy** | Muchomurka kralovska, Kralovska muchotrávka |
 | **Celed** | Amanitaceae |
 | **Rod** | Amanita (Muchomurky) |
-| **Aktivni latky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergni (disociativni/deliriantni) |
 | **Taxonomicky status** | Sporny (druh vs varieta) |
 
@@ -34,6 +32,48 @@ receptory = ["GABA-A", "NMDA"]
 ## Taxonomicka diskuse
 
 ### Druh nebo varieta?
+
+```mermaid
+flowchart TD
+    node_TAXONOMICKYSTATUSARE["TAXONOMICKY STATUS A. REGALIS"]
+    node_NAZOR1SAMOSTATNYDRUH["NAZOR 1: SAMOSTATNY DRUH"]
+    node_Morfologickyodlisnab["• Morfologicky odlisna barva, velikost"]
+    node_Odlisngeografickarel["• Odlisný geografický areál"]
+    node_Ekologickpreferenceb["• Ekologické preference boreální lesy"]
+    node_Nktermolekulrnstudie["• Některé molekulární studie podporují"]
+    node_NAZOR2VARIETAAMUSCAR["NAZOR 2: VARIETA A. MUSCARIA"]
+    node_Chemickyidentickmusc["• Chemicky identická muscimol, kys. ibotenová"]
+    node_HybridizujesAmuscari["• Hybridizuje s A. muscaria"]
+    node_Morfologickkontinuit["• Morfologická kontinuita"]
+    node_SOUCASNYKONSENZUS["SOUCASNY KONSENZUS:"]
+    node_Vtinasouasnchautoruz["Většina současných autorů uznává jako:"]
+    node_Amanitaregalissamost["Amanita regalis samostatný druh"]
+    node_Alternativnpojet["Alternativní pojetí:"]
+    node_Amanitamuscariavarre["Amanita muscaria var. regalis"]
+
+    node_TAXONOMICKYSTATUSARE --> node_NAZOR1SAMOSTATNYDRUH
+    node_NAZOR1SAMOSTATNYDRUH --> node_Morfologickyodlisnab
+    node_Morfologickyodlisnab --> node_Odlisngeografickarel
+    node_Odlisngeografickarel --> node_Ekologickpreferenceb
+    node_Ekologickpreferenceb --> node_Nktermolekulrnstudie
+    node_Nktermolekulrnstudie --> node_NAZOR2VARIETAAMUSCAR
+    node_NAZOR2VARIETAAMUSCAR --> node_Chemickyidentickmusc
+    node_Chemickyidentickmusc --> node_HybridizujesAmuscari
+    node_HybridizujesAmuscari --> node_Morfologickkontinuit
+    node_Morfologickkontinuit --> node_SOUCASNYKONSENZUS
+    node_SOUCASNYKONSENZUS --> node_Vtinasouasnchautoruz
+    node_Vtinasouasnchautoruz --> node_Amanitaregalissamost
+    node_Amanitaregalissamost --> node_Alternativnpojet
+    node_Alternativnpojet --> node_Amanitamuscariavarre
+
+    click node_NAZOR2VARIETAAMUSCAR "/shrooms/amanita-muscaria/" "NAZOR 2: VARIETA A. MUSCARIA"
+    click node_Chemickyidentickmusc "/alkaloids/muscimol/" "• Chemicky identická muscimol, kys. ibotenová"
+    click node_HybridizujesAmuscari "/shrooms/amanita-muscaria/" "• Hybridizuje s A. muscaria"
+    click node_Amanitamuscariavarre "/shrooms/amanita-muscaria/" "Amanita muscaria var. regalis"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     TAXONOMICKY STATUS A. REGALIS
@@ -61,6 +101,8 @@ receptory = ["GABA-A", "NMDA"]
     Amanita muscaria var. regalis
 ```
 
+</details>
+
 ### Evolucni vztahy
 
 | Taxon | Vztah k A. regalis |
@@ -75,6 +117,46 @@ receptory = ["GABA-A", "NMDA"]
 ## Identifikace
 
 ### Makroskopicke znaky
+
+```mermaid
+flowchart TD
+    node_AMANITAREGALISVZHLED["AMANITA REGALIS - VZHLED"]
+    node_157e2e95["/  ●    ●    ●    \"]
+    node_ZLUTAVEBILEKlobouk82["/   ZLUTAVE/BILE    \        Klobouk: 8-20 cm"]
+    node_BRADAVKYBarvaHnedozl["/     BRADAVKY        \       Barva: Hnedo-zluta az"]
+    node_nazlutozlatohneda["/      na zluto-        \             zlato-hneda"]
+    node_hnedempovrchu["/      hnedem povrchu     \"]
+    node_LupenyBileazkremove["Lupeny: Bile az kremove"]
+    node_PRSTENPrstenBlanity["PRSTEN                Prsten: Blanity"]
+    node_masivniRyhovanyjakoA["masivni,             Ryhovany jako A. muscaria"]
+    node_ryhovany["ryhovany"]
+    node_TrenBily1025cm["Tren: Bily, 10-25 cm"]
+    node_Robustni["Robustni"]
+    node_BULVABulvaSupinovita["BULVA                Bulva: Supinovita"]
+    node_supinovitaRozpadlado["supinovita            Rozpadla do kruhu"]
+    node_olvajakoAmuscaria["olva                jako A. muscaria"]
+
+    node_AMANITAREGALISVZHLED --> node_157e2e95
+    node_157e2e95 --> node_ZLUTAVEBILEKlobouk82
+    node_ZLUTAVEBILEKlobouk82 --> node_BRADAVKYBarvaHnedozl
+    node_BRADAVKYBarvaHnedozl --> node_nazlutozlatohneda
+    node_nazlutozlatohneda --> node_hnedempovrchu
+    node_hnedempovrchu --> node_LupenyBileazkremove
+    node_LupenyBileazkremove --> node_PRSTENPrstenBlanity
+    node_PRSTENPrstenBlanity --> node_masivniRyhovanyjakoA
+    node_masivniRyhovanyjakoA --> node_ryhovany
+    node_ryhovany --> node_TrenBily1025cm
+    node_TrenBily1025cm --> node_Robustni
+    node_Robustni --> node_BULVABulvaSupinovita
+    node_BULVABulvaSupinovita --> node_supinovitaRozpadlado
+    node_supinovitaRozpadlado --> node_olvajakoAmuscaria
+
+    click node_masivniRyhovanyjakoA "/shrooms/amanita-muscaria/" "masivni,             Ryhovany jako A. muscaria"
+    click node_olvajakoAmuscaria "/shrooms/amanita-muscaria/" "olva                jako A. muscaria"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     AMANITA REGALIS - VZHLED
@@ -105,6 +187,8 @@ receptory = ["GABA-A", "NMDA"]
                     └─────────────┘
 ```
 
+</details>
+
 ### Detailni popis
 
 | Znak | Popis | Diagnosticky vyznam |
@@ -121,6 +205,50 @@ receptory = ["GABA-A", "NMDA"]
 | **Velikost** | Obecne vetsi nez A. muscaria | |
 
 ### Srovnani s pribuznyni druhy
+
+```mermaid
+flowchart TD
+    node_AREGALISvsAMUSCARIAv["A. REGALIS vs A. MUSCARIA vs A. PANTHERINA"]
+    node_AREGALISAMUSCARIAAPA["A. REGALIS        A. MUSCARIA       A. PANTHERINA"]
+    node_KralovskaCervenaTygr["Kralovska       Cervena         Tygrovana"]
+    node_KLOBOUKKLOBOUKKLOBOU["KLOBOUK:          KLOBOUK:          KLOBOUK:"]
+    node_3299fdcf["████████████      ████████████      ████████████"]
+    node_ZLATOHNEDYCERVENYHNE["ZLATO-HNEDY       CERVENY           HNEDY"]
+    node_PRSTENPRSTENPRSTEN["PRSTEN:           PRSTEN:           PRSTEN:"]
+    node_8147d227["≈≈≈≈≈≈≈≈≈≈≈≈      ≈≈≈≈≈≈≈≈≈≈≈≈"]
+    node_RYHOVANYRYHOVANYHLAD["RYHOVANY          RYHOVANY          HLADKY"]
+    node_VOLVAVOLVAVOLVA["VOLVA:            VOLVA:            VOLVA:"]
+    node_7c9f5d86["~~~~~~~~          ~~~~~~~~"]
+    node_SUPINOVITASUPINOVITA["SUPINOVITA        SUPINOVITA        OKRAJOVANA"]
+    node_AREALAREALAREAL["AREAL:            AREAL:            AREAL:"]
+    node_SkandinavieCelysvetE["Skandinavie       Cely svet         Evropa, S. Am."]
+    node_BorealnilesyTempertn["Borealni lesy     Temperátní        Listnaté lesy"]
+    node_POTENCEPOTENCEPOTENC["POTENCE:          POTENCE:          POTENCE:"]
+    node_PodobnaAmStandardni2["Podobna A.m.      Standardni        2-4x vyssi"]
+
+    node_AREGALISvsAMUSCARIAv --> node_AREGALISAMUSCARIAAPA
+    node_AREGALISAMUSCARIAAPA --> node_KralovskaCervenaTygr
+    node_KralovskaCervenaTygr --> node_KLOBOUKKLOBOUKKLOBOU
+    node_KLOBOUKKLOBOUKKLOBOU --> node_3299fdcf
+    node_3299fdcf --> node_ZLATOHNEDYCERVENYHNE
+    node_ZLATOHNEDYCERVENYHNE --> node_PRSTENPRSTENPRSTEN
+    node_PRSTENPRSTENPRSTEN --> node_8147d227
+    node_8147d227 --> node_RYHOVANYRYHOVANYHLAD
+    node_RYHOVANYRYHOVANYHLAD --> node_VOLVAVOLVAVOLVA
+    node_VOLVAVOLVAVOLVA --> node_7c9f5d86
+    node_7c9f5d86 --> node_SUPINOVITASUPINOVITA
+    node_SUPINOVITASUPINOVITA --> node_AREALAREALAREAL
+    node_AREALAREALAREAL --> node_SkandinavieCelysvetE
+    node_SkandinavieCelysvetE --> node_BorealnilesyTempertn
+    node_BorealnilesyTempertn --> node_POTENCEPOTENCEPOTENC
+    node_POTENCEPOTENCEPOTENC --> node_PodobnaAmStandardni2
+
+    click node_AREGALISvsAMUSCARIAv "/shrooms/amanita-muscaria/" "A. REGALIS vs A. MUSCARIA vs A. PANTHERINA"
+    click node_AREGALISAMUSCARIAAPA "/shrooms/amanita-muscaria/" "A. REGALIS        A. MUSCARIA       A. PANTHERINA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     A. REGALIS vs A. MUSCARIA vs A. PANTHERINA
@@ -152,6 +280,8 @@ receptory = ["GABA-A", "NMDA"]
     └──────────────────┴──────────────────┴──────────────────┘
 ```
 
+</details>
+
 ### Mozne zameny
 
 | Druh | Odliseni | Nebezpeci |
@@ -173,7 +303,6 @@ receptory = ["GABA-A", "NMDA"]
 | Latka | Obsah (susena) | Srovnani s A. muscaria |
 |-------|----------------|------------------------|
 | [**Kyselina ibotenova**](@/neurotoxins/ibotenic-acid.md) | 0,03-0,1% | Podobny |
-| [**Muscimol**](@/alkaloids/muscimol.md) | 0,03-0,2% | Podobny |
 | Muscazon | Trace | Podobny |
 
 ### Chemicke srovnani
@@ -215,6 +344,51 @@ receptory = ["GABA-A", "NMDA"]
 
 ### Geograficka distribuce
 
+```mermaid
+flowchart TD
+    node_AREALVYSKYTUAREGALIS["AREAL VYSKYTU A. REGALIS"]
+    node_SKANDINAVIE["SKANDINAVIE"]
+    node_hlavnarel["hlavní areál"]
+    node_NORSKO["████  NORSKO"]
+    node_borelnlesy["████  boreální lesy"]
+    node_SVDSKO["████  SVÉDSKO"]
+    node_stednasevern["████  střední a severní"]
+    node_FINSKO["████  FINSKO"]
+    node_jinastedn["████  jižní a střední"]
+    node_POBALT["██    POBALTÍ"]
+    node_zcn["zácně"]
+    node_RUSKO["██    RUSKO"]
+    node_severozpadKarlie["severozápad, Karélie"]
+    node_NMECKO["█     NĚMECKO"]
+    node_jimenAlpy["ýjimečně, Alpy"]
+    node_POLSKO["█     POLSKO"]
+    node_Veskrepublice["V České republice:"]
+    node_VELMIVZCNneboNEPTOMN["VELMI VZÁCNÁ nebo NEPŘÍTOMNÁ"]
+    node_pouzeojedinlnlezy["pouze ojedinělé nálezy"]
+
+    node_AREALVYSKYTUAREGALIS --> node_SKANDINAVIE
+    node_SKANDINAVIE --> node_hlavnarel
+    node_hlavnarel --> node_NORSKO
+    node_NORSKO --> node_borelnlesy
+    node_borelnlesy --> node_SVDSKO
+    node_SVDSKO --> node_stednasevern
+    node_stednasevern --> node_FINSKO
+    node_FINSKO --> node_jinastedn
+    node_jinastedn --> node_POBALT
+    node_POBALT --> node_zcn
+    node_zcn --> node_RUSKO
+    node_RUSKO --> node_severozpadKarlie
+    node_severozpadKarlie --> node_NMECKO
+    node_NMECKO --> node_jimenAlpy
+    node_jimenAlpy --> node_POLSKO
+    node_POLSKO --> node_Veskrepublice
+    node_Veskrepublice --> node_VELMIVZCNneboNEPTOMN
+    node_VELMIVZCNneboNEPTOMN --> node_pouzeojedinlnlezy
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     AREAL VYSKYTU A. REGALIS
 
@@ -255,6 +429,8 @@ receptory = ["GABA-A", "NMDA"]
     └─────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Ekologie
 
 | Aspekt | Popis |
@@ -279,6 +455,39 @@ receptory = ["GABA-A", "NMDA"]
 
 ### Tradicni pouziti
 
+```mermaid
+flowchart TD
+    node_TRADICNVYUITAREGALIS["TRADICNÍ VYUŽITÍ A. REGALIS"]
+    node_SAMSKLAPONSKAMANISMU["SAMSKÝ LAPONSKÝ ŠAMANISMUS:"]
+    node_Omezendokumentace["• Omezená dokumentace"]
+    node_Pravdpodobnpouvnapod["• Pravděpodobně používána podobně jako"]
+    node_Amuscariavsibiskchtr["A. muscaria v sibiřských tradicích"]
+    node_Spojensjelenemsobemk["• Spojení s jelenem/sobem konzumují houby"]
+    node_Ritulnadivinanely["• Rituální a divinační účely"]
+    node_POZNMKA["POZNÁMKA:"]
+    node_NarozdlodAmuscariaje["Na rozdíl od A. muscaria je A. regalis méně"]
+    node_dokumentovnavetnobot["dokumentována v etnobotanické literatuře,"]
+    node_pravdpodobnkvliomeze["pravděpodobně kvůli omezenému areálu výskytu."]
+
+    node_TRADICNVYUITAREGALIS --> node_SAMSKLAPONSKAMANISMU
+    node_SAMSKLAPONSKAMANISMU --> node_Omezendokumentace
+    node_Omezendokumentace --> node_Pravdpodobnpouvnapod
+    node_Pravdpodobnpouvnapod --> node_Amuscariavsibiskchtr
+    node_Amuscariavsibiskchtr --> node_Spojensjelenemsobemk
+    node_Spojensjelenemsobemk --> node_Ritulnadivinanely
+    node_Ritulnadivinanely --> node_POZNMKA
+    node_POZNMKA --> node_NarozdlodAmuscariaje
+    node_NarozdlodAmuscariaje --> node_dokumentovnavetnobot
+    node_dokumentovnavetnobot --> node_pravdpodobnkvliomeze
+
+    click node_Amuscariavsibiskchtr "/shrooms/amanita-muscaria/" "A. muscaria v sibiřských tradicích"
+    click node_Spojensjelenemsobemk "/shrooms/_index/" "• Spojení s jelenem/sobem konzumují houby"
+    click node_NarozdlodAmuscariaje "/shrooms/amanita-muscaria/" "Na rozdíl od A. muscaria je A. regalis méně"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     TRADICNÍ VYUŽITÍ A. REGALIS
 
@@ -298,6 +507,8 @@ receptory = ["GABA-A", "NMDA"]
     dokumentována v etnobotanické literatuře,
     pravděpodobně kvůli omezenému areálu výskytu.
 ```
+
+</details>
 
 ### Etymologie nazvu
 
@@ -320,6 +531,46 @@ receptory = ["GABA-A", "NMDA"]
 ### Mechanismus ucinku
 
 Stejny jako u [Amanita muscaria](@/shrooms/amanita-muscaria.md):
+
+```mermaid
+flowchart TD
+    node_FARMAKOLOGIEAREGALIS["FARMAKOLOGIE A. REGALIS"]
+    node_AKTIVNILATKY["AKTIVNI LATKY:"]
+    node_KYSELINAIBOTENOVAMUS["KYSELINA IBOTENOVA          MUSCIMOL"]
+    node_a6b5b6fe["▼                           ▼"]
+    node_NMDAGABAA["NMDA                    GABA-A"]
+    node_AGONISTAAGONISTA["AGONISTA                AGONISTA"]
+    node_d3617bbb["▼                         ▼"]
+    node_EXCITOTOXICITAPSYCHO["EXCITOTOXICITA            PSYCHOAKTIVITA"]
+    node_neurotoxicksedativn["neurotoxické            sedativní,"]
+    node_disociativn["disociativní"]
+    node_Viztak["Viz také:"]
+    node_Muscimolalkaloidsmus["• Muscimol - /alkaloids/muscimol/"]
+    node_Kyselinaibotenovneur["• Kyselina ibotenová - /neurotoxins/ibotenic-acid/"]
+    node_GABAAreceptorrecepto["• GABA-A receptor - /receptors/gaba-a/"]
+
+    node_FARMAKOLOGIEAREGALIS --> node_AKTIVNILATKY
+    node_AKTIVNILATKY --> node_KYSELINAIBOTENOVAMUS
+    node_KYSELINAIBOTENOVAMUS --> node_a6b5b6fe
+    node_a6b5b6fe --> node_NMDAGABAA
+    node_NMDAGABAA --> node_AGONISTAAGONISTA
+    node_AGONISTAAGONISTA --> node_d3617bbb
+    node_d3617bbb --> node_EXCITOTOXICITAPSYCHO
+    node_EXCITOTOXICITAPSYCHO --> node_neurotoxicksedativn
+    node_neurotoxicksedativn --> node_disociativn
+    node_disociativn --> node_Viztak
+    node_Viztak --> node_Muscimolalkaloidsmus
+    node_Muscimolalkaloidsmus --> node_Kyselinaibotenovneur
+    node_Kyselinaibotenovneur --> node_GABAAreceptorrecepto
+
+    click node_KYSELINAIBOTENOVAMUS "/alkaloids/muscimol/" "KYSELINA IBOTENOVA          MUSCIMOL"
+    click node_NMDAGABAA "/glossary/gaba/" "NMDA                    GABA-A"
+    click node_Muscimolalkaloidsmus "/alkaloids/muscimol/" "• Muscimol - /alkaloids/muscimol/"
+    click node_GABAAreceptorrecepto "/glossary/gaba/" "• GABA-A receptor - /receptors/gaba-a/"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     FARMAKOLOGIE A. REGALIS
@@ -347,6 +598,8 @@ Stejny jako u [Amanita muscaria](@/shrooms/amanita-muscaria.md):
     • Kyselina ibotenová - /neurotoxins/ibotenic-acid/
     • GABA-A receptor - /receptors/gaba-a/
 ```
+
+</details>
 
 ### Srovnani s ostatnimi druhy
 
@@ -498,7 +751,6 @@ Stejny postup jako u A. muscaria:
 ## Viz take
 
 ### Aktivni latky
-- [Muscimol](@/alkaloids/muscimol.md) - Hlavni psychoaktivni latka
 - [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - Neurotoxicky prekurzor
 - [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
 

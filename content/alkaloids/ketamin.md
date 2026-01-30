@@ -180,6 +180,43 @@ Klicova studie **Zarate et al. (2006)**:
 
 ### Mechanismus antidepresivniho ucinku
 
+```mermaid
+flowchart TD
+    node_KETAMIN["KETAMIN"]
+    node_NMDAreceptorblokdaex["NMDA receptor blokáda extrasynapticky"]
+    node_c1098c42["+----------------+"]
+    node_SnzentonicDisinhibic["Snízení tonic       Disinhibice"]
+    node_glutamtovpyramidlnch["glutamátové         pyramidálních"]
+    node_inhibiceneuronu["inhibice            neuronu"]
+    node_581b11d2["+-------+--------+"]
+    node_Burstglutamtovaktivi["Burst glutamátové aktivity"]
+    node_AMPAreceptoraktivace["AMPA receptor aktivace"]
+    node_BDNFuvolneni["BDNF uvolneni"]
+    node_mTORC1signalizace["mTORC1 signalizace"]
+    node_SynaptogenezeDendrit["Synaptogeneze / Dendritický rust"]
+    node_RYCHLANTIDEPRESIVNUC["RYCHLÝ ANTIDEPRESIVNÍ UCINEK hodiny"]
+
+    node_KETAMIN --> node_NMDAreceptorblokdaex
+    node_NMDAreceptorblokdaex --> node_c1098c42
+    node_c1098c42 --> node_SnzentonicDisinhibic
+    node_SnzentonicDisinhibic --> node_glutamtovpyramidlnch
+    node_glutamtovpyramidlnch --> node_inhibiceneuronu
+    node_inhibiceneuronu --> node_581b11d2
+    node_581b11d2 --> node_Burstglutamtovaktivi
+    node_Burstglutamtovaktivi --> node_AMPAreceptoraktivace
+    node_AMPAreceptoraktivace --> node_BDNFuvolneni
+    node_BDNFuvolneni --> node_mTORC1signalizace
+    node_mTORC1signalizace --> node_SynaptogenezeDendrit
+    node_SynaptogenezeDendrit --> node_RYCHLANTIDEPRESIVNUC
+
+    click node_NMDAreceptorblokdaex "/receptors/nmda/" "NMDA receptor blokáda extrasynapticky"
+    click node_AMPAreceptoraktivace "/receptors/ampa/" "AMPA receptor aktivace"
+    click node_BDNFuvolneni "/molecules/bdnf/" "BDNF uvolneni"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KETAMIN
     |
@@ -214,6 +251,8 @@ inhibice            neuronu
             v
     RYCHLÝ ANTIDEPRESIVNÍ UCINEK (hodiny)
 ```
+
+</details>
 
 ### Klicove signalni drahy
 

@@ -129,6 +129,63 @@ DXM:
 
 ### Triada symptomu
 
+```mermaid
+flowchart TD
+    node_SEROTONINOVYSYNDROMT["SEROTONINOVY SYNDROM - TRIADA"]
+    node_1AUTONOMNIDYSREGULAC["1. AUTONOMNI DYSREGULACE"]
+    node_846a9fb3["+---------------------------+"]
+    node_Tachykardie["- Tachykardie"]
+    node_Hypertenzenebolabiln["- Hypertenze nebo labilni"]
+    node_Hyperthermie38C["- Hyperthermie &gt;38C"]
+    node_Poceniflush["- Poceni, flush"]
+    node_Mydriaza["- Mydriaza"]
+    node_Prujem["- Prujem"]
+    node_2NEUROMUSKULRNABNORM["2. NEUROMUSKULÁRNÍ ABNORMALITY"]
+    node_Tremor["- Tremor"]
+    node_Hyperreflexie["- Hyperreflexie"]
+    node_Klonusspontanni["- Klonus spontanni,"]
+    node_indukovatelny["indukovatelny"]
+    node_Rigidita["- Rigidita"]
+    node_Myoklonus["- Myoklonus"]
+    node_Ataxie["- Ataxie"]
+    node_3ZMENENYMENTALNSTAV["3. ZMENENY MENTALNÍ STAV"]
+    node_Agitace["- Agitace"]
+    node_Uzkost["- Uzkost"]
+    node_Zmatenost["- Zmatenost"]
+    node_Dezorientace["- Dezorientace"]
+    node_Halucinace["- Halucinace"]
+    node_Komatezkepripady["- Koma tezke pripady"]
+
+    node_SEROTONINOVYSYNDROMT --> node_1AUTONOMNIDYSREGULAC
+    node_1AUTONOMNIDYSREGULAC --> node_846a9fb3
+    node_846a9fb3 --> node_Tachykardie
+    node_Tachykardie --> node_Hypertenzenebolabiln
+    node_Hypertenzenebolabiln --> node_Hyperthermie38C
+    node_Hyperthermie38C --> node_Poceniflush
+    node_Poceniflush --> node_Mydriaza
+    node_Mydriaza --> node_Prujem
+    node_Prujem --> node_2NEUROMUSKULRNABNORM
+    node_2NEUROMUSKULRNABNORM --> node_Tremor
+    node_Tremor --> node_Hyperreflexie
+    node_Hyperreflexie --> node_Klonusspontanni
+    node_Klonusspontanni --> node_indukovatelny
+    node_indukovatelny --> node_Rigidita
+    node_Rigidita --> node_Myoklonus
+    node_Myoklonus --> node_Ataxie
+    node_Ataxie --> node_3ZMENENYMENTALNSTAV
+    node_3ZMENENYMENTALNSTAV --> node_Agitace
+    node_Agitace --> node_Uzkost
+    node_Uzkost --> node_Zmatenost
+    node_Zmatenost --> node_Dezorientace
+    node_Dezorientace --> node_Halucinace
+    node_Halucinace --> node_Komatezkepripady
+
+    click node_SEROTONINOVYSYNDROMT "/glossary/serotonin/" "SEROTONINOVY SYNDROM - TRIADA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 SEROTONINOVY SYNDROM - TRIADA
 
@@ -164,6 +221,8 @@ SEROTONINOVY SYNDROM - TRIADA
 +---------------------------+
 ```
 
+</details>
+
 ### Zavaznost
 
 | Stupen | Symptomy | Management |
@@ -173,6 +232,31 @@ SEROTONINOVY SYNDROM - TRIADA
 | **Tezky** | Hyperthermie >40C, rigidita, koma | ICU, intubace, cyproheptadin |
 
 ### Casovy prubeh
+
+```mermaid
+flowchart TD
+    node_TIMELINESEROTONIOVEH["TIMELINE SEROTONIOVEHO SYNDROMU"]
+    node_Expozicekombinacelek["Expozice kombinace leku"]
+    node_06HODINNastupsymptom["0-6 HODIN: Nastup symptomu"]
+    node_MirnyTremortachykard["+---&gt; Mirny: Tremor, tachykardie"]
+    node_StredniHyperthermiek["+---&gt; Stredni: Hyperthermie, klonus"]
+    node_TezkyRigidita40Ckoma["+---&gt; Tezky: Rigidita, &gt;40C, koma"]
+    node_624HODINVrcholbezlec["6-24 HODIN: Vrchol bez lecby"]
+    node_2472HODINOdeznipovys["24-72 HODIN: Odezni po vysazeni"]
+    node_Rezolucetypickydo247["Rezoluce typicky do 24-72h"]
+
+    node_TIMELINESEROTONIOVEH --> node_Expozicekombinacelek
+    node_Expozicekombinacelek --> node_06HODINNastupsymptom
+    node_06HODINNastupsymptom --> node_MirnyTremortachykard
+    node_MirnyTremortachykard --> node_StredniHyperthermiek
+    node_StredniHyperthermiek --> node_TezkyRigidita40Ckoma
+    node_TezkyRigidita40Ckoma --> node_624HODINVrcholbezlec
+    node_624HODINVrcholbezlec --> node_2472HODINOdeznipovys
+    node_2472HODINOdeznipovys --> node_Rezolucetypickydo247
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TIMELINE SEROTONIOVEHO SYNDROMU
@@ -197,6 +281,8 @@ Expozice (kombinace leku)
         v
 Rezoluce (typicky do 24-72h)
 ```
+
+</details>
 
 ---
 
@@ -241,6 +327,61 @@ Pozitivni pokud je pritomen **serotonergni agens** + **jeden z nasledujicich**:
 
 ### Algoritmus managementu
 
+```mermaid
+flowchart TD
+    node_MANAGEMENTSEROTONINO["MANAGEMENT SEROTONINOVEHO SYNDROMU"]
+    node_KROK1ROZPOZNANIAVYSA["KROK 1: ROZPOZNANI A VYSAZENI"]
+    node_1343fde7["+--------------------------------+"]
+    node_Okamzitevysazenivech["Okamzite vysazeni všech"]
+    node_serotonergnichlatek["serotonergnich latek"]
+    node_Identifikaceprecipit["Identifikace precipitujících"]
+    node_agentu["agentu"]
+    node_KROK2PODPORNLECBA["KROK 2: PODPORNÁ LECBA"]
+    node_IVtekutiny["- IV tekutiny"]
+    node_Chlazenihyperthermie["- Chlazeni hyperthermie"]
+    node_Benzodiazepinyagitac["- Benzodiazepiny agitace"]
+    node_Monitoringvitalnichf["- Monitoring vitalnich funkci"]
+    node_KROK3SPECIFICKATERAP["KROK 3: SPECIFICKA TERAPIE stredni-tezky"]
+    node_CYPROHEPTADIN["CYPROHEPTADIN:"]
+    node_5HT2Aantagonista["- 5-HT2A antagonista"]
+    node_12mgpoinicialne["- 12 mg p.o. inicialne"]
+    node_pak2mgq2hdoodpovedi["- pak 2 mg q2h do odpovedi"]
+    node_max32mg24h["- max 32 mg/24h"]
+    node_KROK4INTENZIVNIPECEt["KROK 4: INTENZIVNI PECE tezky"]
+    node_Intubacesedaceparalz["- Intubace, sedace, paralýza"]
+    node_Agresivnchlazeni["- Agresivní chlazeni"]
+    node_Hemodynamickapodpora["- Hemodynamicka podpora"]
+    node_MonitoringDICrabdomy["- Monitoring DIC, rabdomyolyzy"]
+
+    node_MANAGEMENTSEROTONINO --> node_KROK1ROZPOZNANIAVYSA
+    node_KROK1ROZPOZNANIAVYSA --> node_1343fde7
+    node_1343fde7 --> node_Okamzitevysazenivech
+    node_Okamzitevysazenivech --> node_serotonergnichlatek
+    node_serotonergnichlatek --> node_Identifikaceprecipit
+    node_Identifikaceprecipit --> node_agentu
+    node_agentu --> node_KROK2PODPORNLECBA
+    node_KROK2PODPORNLECBA --> node_IVtekutiny
+    node_IVtekutiny --> node_Chlazenihyperthermie
+    node_Chlazenihyperthermie --> node_Benzodiazepinyagitac
+    node_Benzodiazepinyagitac --> node_Monitoringvitalnichf
+    node_Monitoringvitalnichf --> node_KROK3SPECIFICKATERAP
+    node_KROK3SPECIFICKATERAP --> node_CYPROHEPTADIN
+    node_CYPROHEPTADIN --> node_5HT2Aantagonista
+    node_5HT2Aantagonista --> node_12mgpoinicialne
+    node_12mgpoinicialne --> node_pak2mgq2hdoodpovedi
+    node_pak2mgq2hdoodpovedi --> node_max32mg24h
+    node_max32mg24h --> node_KROK4INTENZIVNIPECEt
+    node_KROK4INTENZIVNIPECEt --> node_Intubacesedaceparalz
+    node_Intubacesedaceparalz --> node_Agresivnchlazeni
+    node_Agresivnchlazeni --> node_Hemodynamickapodpora
+    node_Hemodynamickapodpora --> node_MonitoringDICrabdomy
+
+    click node_MANAGEMENTSEROTONINO "/glossary/serotonin/" "MANAGEMENT SEROTONINOVEHO SYNDROMU"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 MANAGEMENT SEROTONINOVEHO SYNDROMU
 
@@ -280,6 +421,8 @@ KROK 4: INTENZIVNI PECE (tezky)
 | - Monitoring DIC, rabdomyolyzy |
 +--------------------------------+
 ```
+
+</details>
 
 ### Farmakoterapie
 

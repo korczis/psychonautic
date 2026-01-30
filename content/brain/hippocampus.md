@@ -31,6 +31,33 @@ Hippocampus je take dulezitym cilem psychedelickych latek, ktere zde moduluji pa
 
 ### Anatomicke vztahy
 
+```mermaid
+flowchart TD
+    node_MEDIALNIPOHLED["MEDIALNI POHLED"]
+    node_Corpuscallosum["Corpus callosum"]
+    node_Fornix["Fornix"]
+    node_Septum["Septum"]
+    node_HIPPOCAMPUS["HIPPOCAMPUS"]
+    node_c88189f8["~~~~~~~~~~~~"]
+    node_morskykonik["morsky konik"]
+    node_Parahippokampalnigyr["Parahippokampalni gyrus"]
+    node_Entorhinalnikortex["Entorhinalni kortex"]
+    node_Temporalnilalok["Temporalni lalok"]
+
+    node_MEDIALNIPOHLED --> node_Corpuscallosum
+    node_Corpuscallosum --> node_Fornix
+    node_Fornix --> node_Septum
+    node_Septum --> node_HIPPOCAMPUS
+    node_HIPPOCAMPUS --> node_c88189f8
+    node_c88189f8 --> node_morskykonik
+    node_morskykonik --> node_Parahippokampalnigyr
+    node_Parahippokampalnigyr --> node_Entorhinalnikortex
+    node_Entorhinalnikortex --> node_Temporalnilalok
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     MEDIALNI POHLED
 
@@ -59,6 +86,8 @@ Hippocampus je take dulezitym cilem psychedelickych latek, ktere zde moduluji pa
         Temporalni lalok
 ```
 
+</details>
+
 ---
 
 ## Vnitrni struktura
@@ -77,6 +106,41 @@ Hippocampus je soucasti sirsi hippokampalni formace, ktera zahrnuje:
 | **Entorhinalni kortex** | EC | Hlavni vstup/vystup |
 
 ### Vrstvy hippocampu
+
+```mermaid
+flowchart TD
+    node_TRANSVERSALNIREZHIPP["TRANSVERSALNI REZ HIPPOCAMPEM"]
+    node_Entorhinalnikortex["Entorhinalni kortex"]
+    node_perforantnidraha["perforantni draha"]
+    node_GYRUSDENTATUS["GYRUS DENTATUS"]
+    node_Molekularnivrstva["Molekularni vrstva"]
+    node_Granularnivrstvazuba["Granularni vrstva zubate bunky"]
+    node_Polymorfnivrstvahilu["Polymorfni vrstva hilus"]
+    node_mechovitavlakna["mechovita vlakna"]
+    node_CA3["CA3"]
+    node_Schafferovykolateral["Schafferovy kolateraly"]
+    node_CA1["CA1"]
+    node_Subikulum["Subikulum"]
+    node_FornixMamillrntelisk["Fornix  Mamillární teliska  Thalamus"]
+
+    node_TRANSVERSALNIREZHIPP --> node_Entorhinalnikortex
+    node_Entorhinalnikortex --> node_perforantnidraha
+    node_perforantnidraha --> node_GYRUSDENTATUS
+    node_GYRUSDENTATUS --> node_Molekularnivrstva
+    node_Molekularnivrstva --> node_Granularnivrstvazuba
+    node_Granularnivrstvazuba --> node_Polymorfnivrstvahilu
+    node_Polymorfnivrstvahilu --> node_mechovitavlakna
+    node_mechovitavlakna --> node_CA3
+    node_CA3 --> node_Schafferovykolateral
+    node_Schafferovykolateral --> node_CA1
+    node_CA1 --> node_Subikulum
+    node_Subikulum --> node_FornixMamillrntelisk
+
+    click node_FornixMamillrntelisk "/brain/thalamus/" "Fornix  Mamillární teliska  Thalamus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TRANSVERSALNI REZ HIPPOCAMPEM
@@ -112,6 +176,8 @@ Entorhinalni kortex
    Fornix → Mamillární teliska → Thalamus
 ```
 
+</details>
+
 ### Bunecne typy
 
 | Typ bunky | Lokalizace | Funkce | Neurotransmiter |
@@ -139,6 +205,33 @@ Hippocampus je esencialni pro tvorbu novych **deklarativnich (explicitnich) vzpo
 
 ### Konsolidace pameti
 
+```mermaid
+flowchart TD
+    node_STANDARDNIMODELKONSO["STANDARDNI MODEL KONSOLIDACE"]
+    node_KrtkodobHippocampusD["Krátkodobá          Hippocampus          Dlouhodobá"]
+    node_pametkonsolidacepame["pamet               konsolidace        pamet"]
+    node_PracovniNeokortex["Pracovni          Neokortex"]
+    node_pametHippocampustrva["pamet                Hippocampus           trvalé"]
+    node_ulozeni["ulozeni"]
+    node_Opakovan["Opakované"]
+    node_reaktivace["reaktivace"]
+    node_spanek["spanek"]
+    node_Cassekundyhodinyroky["Cas: sekundy        hodiny-roky          roky-dekady"]
+
+    node_STANDARDNIMODELKONSO --> node_KrtkodobHippocampusD
+    node_KrtkodobHippocampusD --> node_pametkonsolidacepame
+    node_pametkonsolidacepame --> node_PracovniNeokortex
+    node_PracovniNeokortex --> node_pametHippocampustrva
+    node_pametHippocampustrva --> node_ulozeni
+    node_ulozeni --> node_Opakovan
+    node_Opakovan --> node_reaktivace
+    node_reaktivace --> node_spanek
+    node_spanek --> node_Cassekundyhodinyroky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 STANDARDNI MODEL KONSOLIDACE
 
@@ -156,6 +249,8 @@ pamet               │ Hippocampus │          (trvalé
 Cas: sekundy        hodiny-roky          roky-dekady
 ```
 
+</details>
+
 ### Prostorova navigace
 
 Hippocampus obsahuje specialni neurony pro prostorovou orientaci:
@@ -166,6 +261,33 @@ Hippocampus obsahuje specialni neurony pro prostorovou orientaci:
 | **Grid cells** | Moser & Moser (2005) | EC | Metricka mapa |
 | **Head direction cells** | Ranck (1984) | Subikulum | Orientace |
 | **Border cells** | Solstad (2008) | EC | Hranice prostoru |
+
+```mermaid
+flowchart TD
+    node_PLACECELLSAktivacepo["PLACE CELLS - Aktivace podle pozice"]
+    node_Mistnost["Mistnost:"]
+    node_650b7bf8["●●●"]
+    node_Placefield["●●●●●   &lt;- Place field"]
+    node_neuronuA["●●●        neuronu A"]
+    node_7b2670b6["●●●●"]
+    node_Place["●●●●●● &lt;- Place"]
+    node_fieldB["●●●●     field B"]
+    node_Kazdyneuronseaktivuj["Kazdy neuron se aktivuje na specifickem miste."]
+    node_Populaceneuronukogni["Populace neuronu = kognitivni mapa prostredi."]
+
+    node_PLACECELLSAktivacepo --> node_Mistnost
+    node_Mistnost --> node_650b7bf8
+    node_650b7bf8 --> node_Placefield
+    node_Placefield --> node_neuronuA
+    node_neuronuA --> node_7b2670b6
+    node_7b2670b6 --> node_Place
+    node_Place --> node_fieldB
+    node_fieldB --> node_Kazdyneuronseaktivuj
+    node_Kazdyneuronseaktivuj --> node_Populaceneuronukogni
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 PLACE CELLS - Aktivace podle pozice
@@ -186,6 +308,8 @@ Mistnost:
 Kazdy neuron se aktivuje na specifickem miste.
 Populace neuronu = kognitivni mapa prostredi.
 ```
+
+</details>
 
 ### Neurogeneze
 
@@ -262,6 +386,49 @@ Klasicka psychedelika ([psilocybin](@/alkaloids/psilocybin.md), [LSD](@/alkaloid
 
 ### Neuroplasticke ucinky
 
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKAAHIPPOKA["PSYCHEDELIKA A HIPPOKAMPALNI PLASTICITA"]
+    node_PsilocybinLSD["Psilocybin/LSD"]
+    node_5HT2AreceptorCA1DG["5-HT2A receptor CA1, DG"]
+    node_Intracelularnisignal["Intracelularni signalizace:"]
+    node_GqPLCIP3DAG["Gq  PLCβ  IP3 + DAG"]
+    node_Ca2PKC["Ca2+      PKC"]
+    node_CaMKIIERK12["CaMKII   ERK1/2"]
+    node_00c04819["↘   ↙"]
+    node_CREB["CREB"]
+    node_Genovexprese["Genová exprese"]
+    node_BDNFArccFos["BDNF, Arc, c-Fos"]
+    node_Strukturalnizmeny["Strukturalni zmeny:"]
+    node_Zvysenidendritickeko["• Zvyseni dendriticke komplexity"]
+    node_Novedendriticketrny["• Nove dendriticke trny"]
+    node_Synaptogeneze["• Synaptogeneze"]
+    node_ZvysenaneurogenezeDG["• Zvysena neurogeneze DG"]
+
+    node_PSYCHEDELIKAAHIPPOKA --> node_PsilocybinLSD
+    node_PsilocybinLSD --> node_5HT2AreceptorCA1DG
+    node_5HT2AreceptorCA1DG --> node_Intracelularnisignal
+    node_Intracelularnisignal --> node_GqPLCIP3DAG
+    node_GqPLCIP3DAG --> node_Ca2PKC
+    node_Ca2PKC --> node_CaMKIIERK12
+    node_CaMKIIERK12 --> node_00c04819
+    node_00c04819 --> node_CREB
+    node_CREB --> node_Genovexprese
+    node_Genovexprese --> node_BDNFArccFos
+    node_BDNFArccFos --> node_Strukturalnizmeny
+    node_Strukturalnizmeny --> node_Zvysenidendritickeko
+    node_Zvysenidendritickeko --> node_Novedendriticketrny
+    node_Novedendriticketrny --> node_Synaptogeneze
+    node_Synaptogeneze --> node_ZvysenaneurogenezeDG
+
+    click node_PsilocybinLSD "/alkaloids/psilocybin/" "Psilocybin/LSD"
+    click node_5HT2AreceptorCA1DG "/receptors/5-ht2a/" "5-HT2A receptor CA1, DG"
+    click node_BDNFArccFos "/molecules/bdnf/" "BDNF, Arc, c-Fos"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSYCHEDELIKA A HIPPOKAMPALNI PLASTICITA
 
@@ -296,6 +463,8 @@ Psilocybin/LSD
 │ • Zvysena neurogeneze (DG)          │
 └──────────────────────────────────────┘
 ```
+
+</details>
 
 ### Terapeuticke implikace
 
@@ -337,6 +506,43 @@ Psilocybin/LSD
 
 ### Stres a deprese
 
+```mermaid
+flowchart TD
+    node_CHRONICKYSTRESAHIPPO["CHRONICKY STRES A HIPPOCAMPUS"]
+    node_Chronickstres["Chronický stres"]
+    node_Zvenkortizol["Zvýšený kortizol"]
+    node_Negativniucinky["Negativni ucinky:"]
+    node_SnenneurogenezeDG["• Snížená neurogeneze DG"]
+    node_DendritickaatrofieCA["• Dendriticka atrofie CA3"]
+    node_SnenLTP["• Snížená LTP"]
+    node_Oxidativnistres["• Oxidativni stres"]
+    node_SnenBDNF["• Snížený BDNF"]
+    node_Dusledky["Dusledky:"]
+    node_Zhorenpamet["• Zhoršená pamet"]
+    node_Depresivnisymptomy["• Depresivni symptomy"]
+    node_Snenobjemhippocampu["• Snížený objem hippocampu"]
+    node_Kognitivnideficit["• Kognitivni deficit"]
+
+    node_CHRONICKYSTRESAHIPPO --> node_Chronickstres
+    node_Chronickstres --> node_Zvenkortizol
+    node_Zvenkortizol --> node_Negativniucinky
+    node_Negativniucinky --> node_SnenneurogenezeDG
+    node_SnenneurogenezeDG --> node_DendritickaatrofieCA
+    node_DendritickaatrofieCA --> node_SnenLTP
+    node_SnenLTP --> node_Oxidativnistres
+    node_Oxidativnistres --> node_SnenBDNF
+    node_SnenBDNF --> node_Dusledky
+    node_Dusledky --> node_Zhorenpamet
+    node_Zhorenpamet --> node_Depresivnisymptomy
+    node_Depresivnisymptomy --> node_Snenobjemhippocampu
+    node_Snenobjemhippocampu --> node_Kognitivnideficit
+
+    click node_SnenBDNF "/molecules/bdnf/" "• Snížený BDNF"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 CHRONICKY STRES A HIPPOCAMPUS
 
@@ -366,6 +572,8 @@ Zvýšený kortizol
 │ • Kognitivni deficit          │
 └────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -443,6 +651,29 @@ Funkce:
 
 ### Papezuv okruh
 
+```mermaid
+flowchart TD
+    node_PAPEZUVOKRUHEmocnipa["PAPEZUV OKRUH Emocni pamet"]
+    node_Cingularnigyrus["Cingularni gyrus"]
+    node_Prednithalamus["Predni thalamus"]
+    node_Mamillrnteliska["Mamillární teliska"]
+    node_Fornix["Fornix"]
+    node_HIPPOCAMPUS["HIPPOCAMPUS"]
+    node_Parahippokampalnigyr["Parahippokampalni gyrus"]
+
+    node_PAPEZUVOKRUHEmocnipa --> node_Cingularnigyrus
+    node_Cingularnigyrus --> node_Prednithalamus
+    node_Prednithalamus --> node_Mamillrnteliska
+    node_Mamillrnteliska --> node_Fornix
+    node_Fornix --> node_HIPPOCAMPUS
+    node_HIPPOCAMPUS --> node_Parahippokampalnigyr
+
+    click node_Prednithalamus "/brain/thalamus/" "Predni thalamus"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PAPEZUV OKRUH (Emocni pamet)
 
@@ -463,6 +694,8 @@ PAPEZUV OKRUH (Emocni pamet)
             │
     Parahippokampalni gyrus
 ```
+
+</details>
 
 ---
 
@@ -574,6 +807,48 @@ Hippocampus je klicovym mistem pro pochopeni neuroplastickych mechanismu psychoa
 
 ### Konvergence signalnich drah v hippocampu
 
+```mermaid
+flowchart TD
+    node_NEUROPLASTICITAVHIPP["NEUROPLASTICITA V HIPPOCAMPU"]
+    node_PSYCHEDELIKA5HT2AKET["PSYCHEDELIKA 5-HT2A:           KETAMIN NMDA blokada:"]
+    node_PsilocinLSDDMTKetami["Psilocin, LSD, DMT               Ketamin, PCP"]
+    node_5HT2AGqPLCbetaNMDAbl["5-HT2A -&gt; Gq -&gt; PLCbeta          NMDA blok -&gt; Glu burst"]
+    node_Ca2PKCERK12AMPABDNFu["Ca2+/PKC -&gt; ERK1/2               AMPA -&gt; BDNF uvolneni"]
+    node_KONVERGENCE["+-------&gt; KONVERGENCE &lt;---------+"]
+    node_BDNFTrkB["BDNF -&gt; TrkB"]
+    node_mTORC1aktivace["mTORC1 aktivace"]
+    node_3c51c5b4["+------------+------------+"]
+    node_PSD95GluA1Synaptofyz["PSD-95        GluA1       Synaptofyzin"]
+    node_postsynaptAMPApresyn["postsynapt. AMPA     presynapt."]
+    node_SYNAPTOGENEZELTPFACI["SYNAPTOGENEZE + LTP FACILITACE"]
+    node_NEUROGENEZEDGsubgran["NEUROGENEZE DG subgranularni zona"]
+    node_neurogenezivdentateg["neurogenezi v dentate gyrus"]
+
+    node_NEUROPLASTICITAVHIPP --> node_PSYCHEDELIKA5HT2AKET
+    node_PSYCHEDELIKA5HT2AKET --> node_PsilocinLSDDMTKetami
+    node_PsilocinLSDDMTKetami --> node_5HT2AGqPLCbetaNMDAbl
+    node_5HT2AGqPLCbetaNMDAbl --> node_Ca2PKCERK12AMPABDNFu
+    node_Ca2PKCERK12AMPABDNFu --> node_KONVERGENCE
+    node_KONVERGENCE --> node_BDNFTrkB
+    node_BDNFTrkB --> node_mTORC1aktivace
+    node_mTORC1aktivace --> node_3c51c5b4
+    node_3c51c5b4 --> node_PSD95GluA1Synaptofyz
+    node_PSD95GluA1Synaptofyz --> node_postsynaptAMPApresyn
+    node_postsynaptAMPApresyn --> node_SYNAPTOGENEZELTPFACI
+    node_SYNAPTOGENEZELTPFACI --> node_NEUROGENEZEDGsubgran
+    node_NEUROGENEZEDGsubgran --> node_neurogenezivdentateg
+
+    click node_NEUROPLASTICITAVHIPP "/glossary/neuroplasticita/" "NEUROPLASTICITA V HIPPOCAMPU"
+    click node_PSYCHEDELIKA5HT2AKET "/receptors/5-ht2a/" "PSYCHEDELIKA 5-HT2A:           KETAMIN NMDA blokada:"
+    click node_PsilocinLSDDMTKetami "/alkaloids/lsd/" "Psilocin, LSD, DMT               Ketamin, PCP"
+    click node_5HT2AGqPLCbetaNMDAbl "/receptors/5-ht2a/" "5-HT2A -> Gq -> PLCbeta          NMDA blok -> Glu burst"
+    click node_Ca2PKCERK12AMPABDNFu "/molecules/bdnf/" "Ca2+/PKC -> ERK1/2               AMPA -> BDNF uvolneni"
+    click node_BDNFTrkB "/molecules/bdnf/" "BDNF -> TrkB"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NEUROPLASTICITA V HIPPOCAMPU
 
@@ -609,6 +884,8 @@ Ca2+/PKC -> ERK1/2               AMPA -> BDNF uvolneni
       neurogenezi v dentate gyrus
 ```
 
+</details>
+
 ### Terapeuticky vyznam hippocampalnich mechanismu
 
 | Mechanismus | Latka | Hippocampalni efekt | Klinicky korelat |
@@ -616,7 +893,6 @@ Ca2+/PKC -> ERK1/2               AMPA -> BDNF uvolneni
 | 5-HT2A -> BDNF | [Psilocybin](@/alkaloids/psilocybin.md) | Neurogeneze v DG | Antidepresivni, pro-kognitivni |
 | NMDA blok -> synaptogeneze | Ketamin | CA1 synaptogeneze | Rychly antidepresivni ucinek |
 | 5-HT2A -> extinkcni uceni | [Psilocybin](@/alkaloids/psilocybin.md) | Facilitace fear extinction | PTSD terapie |
-| GABA-A inhibice | [Muscimol](@/alkaloids/muscimol.md) | Amnesticky efekt | Sedace, zmeny vedomi |
 
 Podrobnosti: [Signalni transdukce](@/mechanisms/signal-transduction.md) -- BDNF-TrkB, mTOR konvergence
 Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NMDA modulace v hippocampu
@@ -641,7 +917,6 @@ Podrobnosti: [Alostericka modulace](@/mechanisms/allosteric-modulation.md) -- NM
 - [Ketamin](@/alkaloids/ketamin.md) - Rychlá spinogeneze, antidepresivní efekty
 - [LSD](@/alkaloids/lsd.md) - Prostorové vnímání, paměťové modulace
 - [DMT](@/alkaloids/dmt.md) - Neurogeneze, mystické vzpomínky
-- [Muscimol](@/alkaloids/muscimol.md) - GABA-A, amnestické efekty
 
 ### Receptory v hippocampu
 - [5-HT2A receptor](@/receptors/5-ht2a.md) - **Psychedelický cíl neuroplasticity**

@@ -242,6 +242,49 @@ POZICE SUBSTITUCE NA TRYPTAMINOVE KOSTRE:
 
 Tryptaminy jsou syntetizovany z esencialni aminokyseliny L-tryptofanu:
 
+```mermaid
+flowchart TD
+    node_LTRYPTOFANesencialni["L-TRYPTOFAN esencialni aminokyselina"]
+    node_Krok1AADCAromatickaa["Krok 1: AADC - Aromaticka aminokyselina dekarboxylaza"]
+    node_KofaktorPyridoxal5fo["Kofaktor: Pyridoxal-5'-fosfat PLP, vitamin B6"]
+    node_ReakceDekarboxylacea["Reakce: Dekarboxylace alfa-aminoskupiny"]
+    node_ProduktCO2Tryptamin["Produkt: CO2 + Tryptamin"]
+    node_TRYPTAMIN["TRYPTAMIN"]
+    node_Krok2aINMTIndolethyl["Krok 2a: INMT - Indolethylamin-N-methyltransferaza"]
+    node_KofaktorSadenosylmet["Kofaktor: S-adenosylmethionin SAM"]
+    node_ReakceNmethylace["Reakce: N-methylace"]
+    node_NMETHYLTRYPTAMINNMT["N-METHYLTRYPTAMIN NMT"]
+    node_Krok2bINMTdruhamethy["Krok 2b: INMT - druha methylace"]
+    node_KofaktorSAM["Kofaktor: SAM"]
+    node_NNDIMETHYLTRYPTAMIND["N,N-DIMETHYLTRYPTAMIN DMT"]
+    node_Krok3alternativniHyd["Krok 3 alternativni: Hydroxylazy"]
+    node_4Hydroxylaza4HODMTPs["+---&gt; 4-Hydroxylaza ---&gt; 4-HO-DMT Psilocin"]
+    node_5Hydroxylaza5HODMTBu["+---&gt; 5-Hydroxylaza ---&gt; 5-HO-DMT Bufotenin"]
+
+    node_LTRYPTOFANesencialni --> node_Krok1AADCAromatickaa
+    node_Krok1AADCAromatickaa --> node_KofaktorPyridoxal5fo
+    node_KofaktorPyridoxal5fo --> node_ReakceDekarboxylacea
+    node_ReakceDekarboxylacea --> node_ProduktCO2Tryptamin
+    node_ProduktCO2Tryptamin --> node_TRYPTAMIN
+    node_TRYPTAMIN --> node_Krok2aINMTIndolethyl
+    node_Krok2aINMTIndolethyl --> node_KofaktorSadenosylmet
+    node_KofaktorSadenosylmet --> node_ReakceNmethylace
+    node_ReakceNmethylace --> node_NMETHYLTRYPTAMINNMT
+    node_NMETHYLTRYPTAMINNMT --> node_Krok2bINMTdruhamethy
+    node_Krok2bINMTdruhamethy --> node_KofaktorSAM
+    node_KofaktorSAM --> node_NNDIMETHYLTRYPTAMIND
+    node_NNDIMETHYLTRYPTAMIND --> node_Krok3alternativniHyd
+    node_Krok3alternativniHyd --> node_4Hydroxylaza4HODMTPs
+    node_4Hydroxylaza4HODMTPs --> node_5Hydroxylaza5HODMTBu
+
+    click node_NNDIMETHYLTRYPTAMIND "/alkaloids/dmt/" "N,N-DIMETHYLTRYPTAMIN DMT"
+    click node_4Hydroxylaza4HODMTPs "/alkaloids/dmt/" "+---> 4-Hydroxylaza ---> 4-HO-DMT Psilocin"
+    click node_5Hydroxylaza5HODMTBu "/alkaloids/dmt/" "+---> 5-Hydroxylaza ---> 5-HO-DMT Bufotenin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-TRYPTOFAN (esencialni aminokyselina)
     |
@@ -269,6 +312,8 @@ N,N-DIMETHYLTRYPTAMIN (DMT)
     |
     +---> [5-Hydroxylaza] ---> 5-HO-DMT (Bufotenin)
 ```
+
+</details>
 
 ### Enzymy biosyntesy
 
@@ -362,6 +407,38 @@ STRUKTURNI DETERMINANTY AKTIVITY:
 
 ### Lipofilita a pruchod HEB
 
+```mermaid
+flowchart TD
+    node_VZTAHLIPOFILITYACNSP["VZTAH LIPOFILITY A CNS PENETRACE:"]
+    node_logPhodnotytryptamin["logP hodnoty tryptaminovych derivatu:"]
+    node_SlouceninalogPCNSpen["Sloucenina          logP      CNS penetrace    5-HT2A aktivita"]
+    node_Tryptamin155Slaba["Tryptamin           1.55      ++               Slaba"]
+    node_DMT154Stredni["DMT                 1.54      +++              Stredni"]
+    node_Psilocin123Vysoka["Psilocin            1.23      +++              Vysoka"]
+    node_5MeODMT187Strednivys["5-MeO-DMT           1.87      ++++             Stredni-vysoka"]
+    node_Serotonin034Zadnaend["Serotonin           0.34      -                Zadna endogenni"]
+    node_Psilocybin007Prodrug["Psilocybin          -0.07     +                Prodrug"]
+    node_OptimalnilogPproCNSa["Optimalni logP pro CNS aktivitu: 1.0-2.5"]
+
+    node_VZTAHLIPOFILITYACNSP --> node_logPhodnotytryptamin
+    node_logPhodnotytryptamin --> node_SlouceninalogPCNSpen
+    node_SlouceninalogPCNSpen --> node_Tryptamin155Slaba
+    node_Tryptamin155Slaba --> node_DMT154Stredni
+    node_DMT154Stredni --> node_Psilocin123Vysoka
+    node_Psilocin123Vysoka --> node_5MeODMT187Strednivys
+    node_5MeODMT187Strednivys --> node_Serotonin034Zadnaend
+    node_Serotonin034Zadnaend --> node_Psilocybin007Prodrug
+    node_Psilocybin007Prodrug --> node_OptimalnilogPproCNSa
+
+    click node_DMT154Stredni "/alkaloids/dmt/" "DMT                 1.54      +++              Stredni"
+    click node_Psilocin123Vysoka "/alkaloids/psilocin/" "Psilocin            1.23      +++              Vysoka"
+    click node_5MeODMT187Strednivys "/alkaloids/dmt/" "5-MeO-DMT           1.87      ++++             Stredni-vysoka"
+    click node_Psilocybin007Prodrug "/alkaloids/psilocybin/" "Psilocybin          -0.07     +                Prodrug"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 VZTAH LIPOFILITY A CNS PENETRACE:
 
@@ -379,6 +456,8 @@ Psilocybin          -0.07     +                Prodrug
 Optimalni logP pro CNS aktivitu: 1.0-2.5
 ```
 
+</details>
+
 ### Konformacni faktory
 
 | Konformace | Preference | Relevance |
@@ -394,6 +473,37 @@ Optimalni logP pro CNS aktivitu: 1.0-2.5
 ### Monoaminoxidazova (MAO) degradace
 
 MAO je hlavni enzym zodpovedny za degradaci tryptaminovych derivatu:
+
+```mermaid
+flowchart TD
+    node_DEGRADACNIDRAHATRYPT["DEGRADACNI DRAHA TRYPTAMINU MAO:"]
+    node_Tryptamin["Tryptamin"]
+    node_MAOAneboMAOB["MAO-A nebo MAO-B"]
+    node_ReakceOxidativnideam["Reakce: Oxidativni deaminace"]
+    node_ProduktAldehydNH3["Produkt: Aldehyd + NH3"]
+    node_Indol3acetaldehydIAA["Indol-3-acetaldehyd IAA"]
+    node_ALDHAldehyddehydroge["+---&gt; ALDH - Aldehyd dehydrogenaza"]
+    node_Indol3octovakyselina["Indol-3-octova kyselina IAA"]
+    node_hlavnimetabolit["hlavni metabolit"]
+    node_ADHAlkoholdehydrogen["+---&gt; ADH - Alkohol dehydrogenaza"]
+    node_Tryptofol["Tryptofol"]
+    node_minoritnimetabolit["minoritni metabolit"]
+
+    node_DEGRADACNIDRAHATRYPT --> node_Tryptamin
+    node_Tryptamin --> node_MAOAneboMAOB
+    node_MAOAneboMAOB --> node_ReakceOxidativnideam
+    node_ReakceOxidativnideam --> node_ProduktAldehydNH3
+    node_ProduktAldehydNH3 --> node_Indol3acetaldehydIAA
+    node_Indol3acetaldehydIAA --> node_ALDHAldehyddehydroge
+    node_ALDHAldehyddehydroge --> node_Indol3octovakyselina
+    node_Indol3octovakyselina --> node_hlavnimetabolit
+    node_hlavnimetabolit --> node_ADHAlkoholdehydrogen
+    node_ADHAlkoholdehydrogen --> node_Tryptofol
+    node_Tryptofol --> node_minoritnimetabolit
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DEGRADACNI DRAHA TRYPTAMINU (MAO):
@@ -418,6 +528,8 @@ Indol-3-acetaldehyd (IAA)
           Tryptofol
           (minoritni metabolit)
 ```
+
+</details>
 
 ### MAO izoformy a preference
 
@@ -447,6 +559,40 @@ Indol-3-acetaldehyd (IAA)
 
 ### Ayahuasca - priklad MAO inhibice
 
+```mermaid
+flowchart TD
+    node_AYAHUASCAKOMBINOVANY["AYAHUASCA - KOMBINOVANY EFEKT:"]
+    node_BanisteriopsiscaapiM["Banisteriopsis caapi MAOI zdroj:"]
+    node_HarminKiMAOA5nM["+-- Harmin Ki MAO-A = 5 nM"]
+    node_HarmalinKiMAOA2nM["+-- Harmalin Ki MAO-A = 2 nM"]
+    node_Tetrahydroharmin["+-- Tetrahydroharmin"]
+    node_INHIBICEMAOAvGITajat["INHIBICE MAO-A v GIT a jatrech"]
+    node_PsychotriaviridisDMT["Psychotria viridis DMT zdroj:"]
+    node_DMTnormalneoralneina["+-- DMT normalne oralne inaktivni"]
+    node_DMTprezivafirstpassm["DMT preziva first-pass metabolismus"]
+    node_SYSTEMICKAABSORPCEDM["SYSTEMICKA ABSORPCE DMT"]
+    node_PSYCHEDELICKYUCINEK4["PSYCHEDELICKY UCINEK 4-6 hodin"]
+
+    node_AYAHUASCAKOMBINOVANY --> node_BanisteriopsiscaapiM
+    node_BanisteriopsiscaapiM --> node_HarminKiMAOA5nM
+    node_HarminKiMAOA5nM --> node_HarmalinKiMAOA2nM
+    node_HarmalinKiMAOA2nM --> node_Tetrahydroharmin
+    node_Tetrahydroharmin --> node_INHIBICEMAOAvGITajat
+    node_INHIBICEMAOAvGITajat --> node_PsychotriaviridisDMT
+    node_PsychotriaviridisDMT --> node_DMTnormalneoralneina
+    node_DMTnormalneoralneina --> node_DMTprezivafirstpassm
+    node_DMTprezivafirstpassm --> node_SYSTEMICKAABSORPCEDM
+    node_SYSTEMICKAABSORPCEDM --> node_PSYCHEDELICKYUCINEK4
+
+    click node_PsychotriaviridisDMT "/alkaloids/dmt/" "Psychotria viridis DMT zdroj:"
+    click node_DMTnormalneoralneina "/alkaloids/dmt/" "+-- DMT normalne oralne inaktivni"
+    click node_DMTprezivafirstpassm "/alkaloids/dmt/" "DMT preziva first-pass metabolismus"
+    click node_SYSTEMICKAABSORPCEDM "/alkaloids/dmt/" "SYSTEMICKA ABSORPCE DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 AYAHUASCA - KOMBINOVANY EFEKT:
 
@@ -474,6 +620,8 @@ SYSTEMICKA ABSORPCE DMT
 PSYCHEDELICKY UCINEK (4-6 hodin)
 ```
 
+</details>
+
 ---
 
 ## Receptorove vazebne profily
@@ -493,6 +641,36 @@ PSYCHEDELICKY UCINEK (4-6 hodin)
 
 ### Receptorova selektivita
 
+```mermaid
+flowchart TD
+    node_RECEPTOROVEPROFILYGR["RECEPTOROVE PROFILY - GRAFICKE ZNAZORNENI:"]
+    node_5HT2A5HT2C5HT1ASigma["5-HT2A   5-HT2C   5-HT1A   Sigma-1"]
+    node_Psilocin["Psilocin        ******   ****     ***      *"]
+    node_DMT["DMT             ****     **       *        **"]
+    node_5MeODMT["5-MeO-DMT       ***      *        ******   *"]
+    node_Bufotenin["Bufotenin       **       *        **       *"]
+    node_Serotonin["Serotonin       **       *        ******   *"]
+    node_Legendavelmivysokaaf["Legenda: ****** = velmi vysoka afinita, * = nizka afinita"]
+    node_KLINICKYVYZNAM["KLINICKY VYZNAM:"]
+
+    node_RECEPTOROVEPROFILYGR --> node_5HT2A5HT2C5HT1ASigma
+    node_5HT2A5HT2C5HT1ASigma --> node_Psilocin
+    node_Psilocin --> node_DMT
+    node_DMT --> node_5MeODMT
+    node_5MeODMT --> node_Bufotenin
+    node_Bufotenin --> node_Serotonin
+    node_Serotonin --> node_Legendavelmivysokaaf
+    node_Legendavelmivysokaaf --> node_KLINICKYVYZNAM
+
+    click node_RECEPTOROVEPROFILYGR "/glossary/receptor/" "RECEPTOROVE PROFILY - GRAFICKE ZNAZORNENI:"
+    click node_Psilocin "/alkaloids/psilocin/" "Psilocin        ******   ****     ***      *"
+    click node_DMT "/alkaloids/dmt/" "DMT             ****     **       *        **"
+    click node_5MeODMT "/alkaloids/dmt/" "5-MeO-DMT       ***      *        ******   *"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 RECEPTOROVE PROFILY - GRAFICKE ZNAZORNENI:
 
@@ -511,6 +689,8 @@ KLINICKY VYZNAM:
 - Vysoka 5-HT1A afinita = anxiolyticka/sedativni modulace
 - Sigma-1 aktivita = neuroprotektivni potencial
 ```
+
+</details>
 
 ---
 

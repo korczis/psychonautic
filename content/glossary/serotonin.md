@@ -131,6 +131,23 @@ Serotonin (5-HT)
 
 Tryptofan může být metabolizován alternativní cestou:
 
+```mermaid
+flowchart TD
+    node_LTryptofan["L-Tryptofan"]
+    node_TPHSerotonin5["+---&gt; TPH --&gt; Serotonin 5%"]
+    node_IDOTDOKynurenin95["+---&gt; IDO/TDO --&gt; Kynurenin 95%"]
+    node_Kynurenovkyselinaneu["+--&gt; Kynurenová kyselina neuroprotektivní"]
+    node_3HydroxykynureninQui["+--&gt; 3-Hydroxykynurenin --&gt; Quinolinová kyselina neurotoxická"]
+
+    node_LTryptofan --> node_TPHSerotonin5
+    node_TPHSerotonin5 --> node_IDOTDOKynurenin95
+    node_IDOTDOKynurenin95 --> node_Kynurenovkyselinaneu
+    node_Kynurenovkyselinaneu --> node_3HydroxykynureninQui
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-Tryptofan
     |
@@ -142,6 +159,8 @@ L-Tryptofan
                            |
                            +--> 3-Hydroxykynurenin --> Quinolinová kyselina (neurotoxická)
 ```
+
+</details>
 
 **Klinický význam**: Při zánětech se zvyšuje IDO aktivita, což snižuje dostupnost tryptofanu pro syntézu serotoninu a může přispívat k depresivním stavům.
 
@@ -177,6 +196,21 @@ Serotonin působí prostřednictvím **sedmi rodin receptorů** (5-HT1 až 5-HT7
 
 #### Mechanismus 5-HT1A
 
+```mermaid
+flowchart TD
+    node_Serotonin5HT1AGiopro["Serotonin  5-HT1A  Gi/o protein"]
+    node_3c51c5b4["+------------+------------+"]
+    node_cAMPKkanlyCa2kanly["cAMP       K+ kanály    Ca2+ kanály"]
+    node_PKAaktivaceHyperpola["PKA aktivace  Hyperpolarizace   NT uvolnění"]
+
+    node_Serotonin5HT1AGiopro --> node_3c51c5b4
+    node_3c51c5b4 --> node_cAMPKkanlyCa2kanly
+    node_cAMPKkanlyCa2kanly --> node_PKAaktivaceHyperpola
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Serotonin → 5-HT1A → Gi/o protein
                         |
@@ -188,6 +222,8 @@ Serotonin → 5-HT1A → Gi/o protein
            v            v            v
      ↓ PKA aktivace  Hyperpolarizace  ↓ NT uvolnění
 ```
+
+</details>
 
 #### 5-HT1B/1D receptory
 
@@ -211,6 +247,37 @@ Serotonin → 5-HT1A → Gi/o protein
 **KLICOVE**: 5-HT2A receptor je **primárním molekulárním cílem** klasických psychedelik. Aktivace tohoto receptoru v pyramidových neuronech vrstvy V kortexu je zodpovědná za halucinogenní účinky.
 
 #### Signální kaskáda 5-HT2A
+
+```mermaid
+flowchart TD
+    node_PsychedelikumSeroton["Psychedelikum / Serotonin"]
+    node_5HT2Areceptor["5-HT2A receptor"]
+    node_Gq11protein["Gq/11 protein"]
+    node_FosfolipzaCPLC["Fosfolipáza C PLCβ"]
+    node_dc692126["+----+----+"]
+    node_IP3DAG["IP3       DAG"]
+    node_Ca2zERPKCaktivace["Ca2+ z ER   PKC aktivace"]
+    node_CalmodulinERK12["Calmodulin   ERK1/2"]
+    node_CaMKIICREB["CaMKII    CREB"]
+    node_GenovexpreseBDNFArcc["Genová exprese BDNF, Arc, c-Fos"]
+    node_NEUROPLASTICITAZMNNV["NEUROPLASTICITA + ZMĚNĚNÉ VĚDOMÍ"]
+
+    node_PsychedelikumSeroton --> node_5HT2Areceptor
+    node_5HT2Areceptor --> node_Gq11protein
+    node_Gq11protein --> node_FosfolipzaCPLC
+    node_FosfolipzaCPLC --> node_dc692126
+    node_dc692126 --> node_IP3DAG
+    node_IP3DAG --> node_Ca2zERPKCaktivace
+    node_Ca2zERPKCaktivace --> node_CalmodulinERK12
+    node_CalmodulinERK12 --> node_CaMKIICREB
+    node_CaMKIICREB --> node_GenovexpreseBDNFArcc
+    node_GenovexpreseBDNFArcc --> node_NEUROPLASTICITAZMNNV
+
+    click node_5HT2Areceptor "/receptors/5-ht2a/" "5-HT2A receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Psychedelikum / Serotonin
@@ -244,6 +311,8 @@ Calmodulin   ERK1/2
          v
    NEUROPLASTICITA + ZMĚNĚNÉ VĚDOMÍ
 ```
+
+</details>
 
 #### 5-HT2B receptor
 
@@ -293,6 +362,37 @@ Calmodulin   ERK1/2
 
 Serotonergní neurony jsou koncentrovány v **raphe nuclei** (švu jádrech) mozkového kmene:
 
+```mermaid
+flowchart TD
+    node_PROJEKCEZRAPHENUCLEI["PROJEKCE Z RAPHE NUCLEI"]
+    node_Prefrontln["Prefrontální"]
+    node_kortex["kortex"]
+    node_HippocampusBazlngang["Hippocampus + Bazální ganglia"]
+    node_Thalamus["Thalamus"]
+    node_bc438fd5["+----+----+          +----+----+          +----+----+"]
+    node_DorslnMedilnKaudln["Dorsální|          | Mediální |          | Kaudální"]
+    node_rapherapheraphe["raphe   |          | raphe    |          | raphe"]
+    node_DRMRCR["DR    |          | MR     |          | CR"]
+    node_KortexLimbickMcha["Kortex              Limbický           Mícha"]
+    node_StriatumsystmMozeek["Striatum            systém             Mozeček"]
+    node_ThalamusHippocampus["Thalamus            Hippocampus"]
+
+    node_PROJEKCEZRAPHENUCLEI --> node_Prefrontln
+    node_Prefrontln --> node_kortex
+    node_kortex --> node_HippocampusBazlngang
+    node_HippocampusBazlngang --> node_Thalamus
+    node_Thalamus --> node_bc438fd5
+    node_bc438fd5 --> node_DorslnMedilnKaudln
+    node_DorslnMedilnKaudln --> node_rapherapheraphe
+    node_rapherapheraphe --> node_DRMRCR
+    node_DRMRCR --> node_KortexLimbickMcha
+    node_KortexLimbickMcha --> node_StriatumsystmMozeek
+    node_StriatumsystmMozeek --> node_ThalamusHippocampus
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     PROJEKCE Z RAPHE NUCLEI
 
@@ -319,6 +419,8 @@ Serotonergní neurony jsou koncentrovány v **raphe nuclei** (švu jádrech) moz
     Striatum            systém             Mozeček
     Thalamus            Hippocampus
 ```
+
+</details>
 
 ### Hlavní projekční systémy
 
@@ -358,6 +460,35 @@ Klasická psychedelika jsou strukturální analogy serotoninu a působí primár
 
 ### Mechanismus halucinogeneze
 
+```mermaid
+flowchart TD
+    node_Psychedelikum5HT2Avr["Psychedelikum  5-HT2A vrstva V kortexu"]
+    node_a8510f68["+-----------+-----------+"]
+    node_Gqsignalizacearresti["Gq signalizace  β-arrestin  Src kinázy"]
+    node_DepolarizaceInternal["Depolarizace  Internalizace ERK aktivace"]
+    node_pyramidovchreceptor["pyramidových     receptorů"]
+    node_neuron["neuronů"]
+    node_Zvenglutamtovuvolnn["Zvýšené glutamátové uvolnění"]
+    node_Desynchronizacekorti["Desynchronizace kortikální aktivity"]
+    node_SnenaktivityDefaultM["Snížení aktivity Default Mode Network DMN"]
+    node_HALUCINACEEGODISOLUC["HALUCINACE + EGO DISOLUCE + NEUROPLASTICITA"]
+
+    node_Psychedelikum5HT2Avr --> node_a8510f68
+    node_a8510f68 --> node_Gqsignalizacearresti
+    node_Gqsignalizacearresti --> node_DepolarizaceInternal
+    node_DepolarizaceInternal --> node_pyramidovchreceptor
+    node_pyramidovchreceptor --> node_neuron
+    node_neuron --> node_Zvenglutamtovuvolnn
+    node_Zvenglutamtovuvolnn --> node_Desynchronizacekorti
+    node_Desynchronizacekorti --> node_SnenaktivityDefaultM
+    node_SnenaktivityDefaultM --> node_HALUCINACEEGODISOLUC
+
+    click node_pyramidovchreceptor "/glossary/receptor/" "pyramidových     receptorů"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psychedelikum → 5-HT2A (vrstva V kortexu)
                     |
@@ -384,7 +515,36 @@ Psychedelikum → 5-HT2A (vrstva V kortexu)
    HALUCINACE + EGO DISOLUCE + NEUROPLASTICITA
 ```
 
+</details>
+
 ### REBUS model (Relaxed Beliefs Under Psychedelics)
+
+```mermaid
+flowchart TD
+    node_NORMLNSTAVPSYCHEDELI["NORMÁLNÍ STAV:                    PSYCHEDELICKÝ STAV:"]
+    node_4e5a7856["+-----------------------+         +-----------------------+"]
+    node_TopdownpredikceTopdo["Top-down predikce     |         | Top-down predikce"]
+    node_5HT2A["===================== |   5-HT2A| ---------------------"]
+    node_0812a661["-----&gt;"]
+    node_SilnprioryaktivaceOs["Silné priory          |aktivace | Oslabené priory"]
+    node_BottomupsignlyBottom["Bottom-up signály     |         | Bottom-up signály"]
+    node_a2b64914["--------------------- |         | ====================="]
+    node_PotlaenZeslen["Potlačené             |         | Zesílené"]
+    node_Dsledky["Důsledky:"]
+
+    node_NORMLNSTAVPSYCHEDELI --> node_4e5a7856
+    node_4e5a7856 --> node_TopdownpredikceTopdo
+    node_TopdownpredikceTopdo --> node_5HT2A
+    node_5HT2A --> node_0812a661
+    node_0812a661 --> node_SilnprioryaktivaceOs
+    node_SilnprioryaktivaceOs --> node_BottomupsignlyBottom
+    node_BottomupsignlyBottom --> node_a2b64914
+    node_a2b64914 --> node_PotlaenZeslen
+    node_PotlaenZeslen --> node_Dsledky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NORMÁLNÍ STAV:                    PSYCHEDELICKÝ STAV:
@@ -410,6 +570,8 @@ Důsledky:
 - Terapeutický insight (kognitivní flexibilita)
 ```
 
+</details>
+
 ### Tolerance a cross-tolerance
 
 Opakovaná aktivace 5-HT2A vede k rychlé downregulaci receptorů:
@@ -433,6 +595,27 @@ Opakovaná aktivace 5-HT2A vede k rychlé downregulaci receptorů:
 
 ### Patofyziologie
 
+```mermaid
+flowchart TD
+    node_Nadbytekserotoninuvs["Nadbytek serotoninu v synaptické štěrbině"]
+    node_Nadmrnaktivace5HTrec["Nadměrná aktivace 5-HT receptorů"]
+    node_1f906122["+---------+---------+---------+"]
+    node_5HT1A5HT2A5HT3Dal["5-HT1A    5-HT2A    5-HT3     Další"]
+    node_AutonomnNeuromuskGIK["Autonomní  Neuromusk. GI        Kognice"]
+    node_pznakypznakypznaky["příznaky   příznaky  příznaky"]
+
+    node_Nadbytekserotoninuvs --> node_Nadmrnaktivace5HTrec
+    node_Nadmrnaktivace5HTrec --> node_1f906122
+    node_1f906122 --> node_5HT1A5HT2A5HT3Dal
+    node_5HT1A5HT2A5HT3Dal --> node_AutonomnNeuromuskGIK
+    node_AutonomnNeuromuskGIK --> node_pznakypznakypznaky
+
+    click node_Nadmrnaktivace5HTrec "/glossary/receptor/" "Nadměrná aktivace 5-HT receptorů"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Nadbytek serotoninu v synaptické štěrbině
               |
@@ -448,6 +631,8 @@ Nadměrná aktivace 5-HT receptorů
 Autonomní  Neuromusk. GI        Kognice
 příznaky   příznaky  příznaky
 ```
+
+</details>
 
 ### Klinické příznaky
 
@@ -679,6 +864,29 @@ Více než **90% tělesného serotoninu** se nachází v GIT:
 
 Klasická "chemická nerovnováha" teorie:
 
+```mermaid
+flowchart TD
+    node_ZJEDNODUENMODEL["ZJEDNODUŠENÝ MODEL"]
+    node_pekonanalevlivn["překonaný, ale vlivný"]
+    node_NormlnDeprese["Normální:                 Deprese:"]
+    node_cf3533c5["+------------------+     +------------------+"]
+    node_5HThladiny5HThladiny["5-HT hladiny:   |     |  5-HT hladiny:"]
+    node_4e26d1bd["███████████     |     |  ████"]
+    node_normlnsnen["normální        |     |  snížené"]
+    node_NormlnnladaDepresivn["Normální nálada          Depresivní nálada"]
+
+    node_ZJEDNODUENMODEL --> node_pekonanalevlivn
+    node_pekonanalevlivn --> node_NormlnDeprese
+    node_NormlnDeprese --> node_cf3533c5
+    node_cf3533c5 --> node_5HThladiny5HThladiny
+    node_5HThladiny5HThladiny --> node_4e26d1bd
+    node_4e26d1bd --> node_normlnsnen
+    node_normlnsnen --> node_NormlnnladaDepresivn
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     ZJEDNODUŠENÝ MODEL
                     (překonaný, ale vlivný)
@@ -693,6 +901,8 @@ Normální:                 Deprese:
         v                        v
    Normální nálada          Depresivní nálada
 ```
+
+</details>
 
 **Moderní pohled**: Deprese je komplexní stav zahrnující:
 - Změny v neuroplasticitě (BDNF)

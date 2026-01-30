@@ -41,6 +41,39 @@ tags = ["bolest", "nocicepce", "ketamin", "analgezie", "chronicka-bolest", "NMDA
 
 ### Nocicepce - dráhy bolesti
 
+```mermaid
+flowchart TD
+    node_NOCICEPCEPERIFRIECNS["NOCICEPCE: PERIFÉRIE -&gt; CNS"]
+    node_POKOZENITKANE["POŠKOZENI TKANE"]
+    node_Nociceptoryvolnanerv["Nociceptory volna nervova zakonceni"]
+    node_Zadnirohymichylamina["Zadni rohy michy lamina I, II"]
+    node_c0cc21db["+---+---+"]
+    node_SpinothalamickaSpino["Spinothalamicka  Spinoretikulární"]
+    node_drahadraha["draha            draha"]
+    node_ThalamusRetikulrn["Thalamus      Retikulární"]
+    node_VPLVPMformace["VPL, VPM    formace"]
+    node_SomatosenzorickEmoci["Somatosenzorický   Emocionální"]
+    node_kortexS1S2zpracovn["kortex S1, S2    zpracování"]
+    node_VNMNBOLESTI["VNÍMÁNÍ BOLESTI"]
+
+    node_NOCICEPCEPERIFRIECNS --> node_POKOZENITKANE
+    node_POKOZENITKANE --> node_Nociceptoryvolnanerv
+    node_Nociceptoryvolnanerv --> node_Zadnirohymichylamina
+    node_Zadnirohymichylamina --> node_c0cc21db
+    node_c0cc21db --> node_SpinothalamickaSpino
+    node_SpinothalamickaSpino --> node_drahadraha
+    node_drahadraha --> node_ThalamusRetikulrn
+    node_ThalamusRetikulrn --> node_VPLVPMformace
+    node_VPLVPMformace --> node_SomatosenzorickEmoci
+    node_SomatosenzorickEmoci --> node_kortexS1S2zpracovn
+    node_kortexS1S2zpracovn --> node_VNMNBOLESTI
+
+    click node_ThalamusRetikulrn "/brain/thalamus/" "Thalamus      Retikulární"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 NOCICEPCE: PERIFÉRIE -> CNS
 
@@ -73,7 +106,36 @@ kortex (S1, S2)    zpracování
 VNÍMÁNÍ BOLESTI
 ```
 
+</details>
+
 ### Modulace bolesti
+
+```mermaid
+flowchart TD
+    node_DESCENDENTNIMODULACE["DESCENDENTNI MODULACE"]
+    node_PeriaqueduktlnsedPAG["Periaqueduktální sed PAG"]
+    node_Opioidy["Opioidy"]
+    node_Rostroventromedullrn["Rostroventromedullární medulla RVM"]
+    node_c0cc21db["+---+---+"]
+    node_ONbunkyOFFbunky["ON bunky   OFF bunky"]
+    node_facilitaceinhibice["facilitace inhibice"]
+    node_Zadnirohymichy["Zadni rohy michy"]
+    node_INHIBICENEBOFACILITA["INHIBICE NEBO FACILITACE NOCICEPCE"]
+    node_Neurotransmitery["Neurotransmitery:"]
+
+    node_DESCENDENTNIMODULACE --> node_PeriaqueduktlnsedPAG
+    node_PeriaqueduktlnsedPAG --> node_Opioidy
+    node_Opioidy --> node_Rostroventromedullrn
+    node_Rostroventromedullrn --> node_c0cc21db
+    node_c0cc21db --> node_ONbunkyOFFbunky
+    node_ONbunkyOFFbunky --> node_facilitaceinhibice
+    node_facilitaceinhibice --> node_Zadnirohymichy
+    node_Zadnirohymichy --> node_INHIBICENEBOFACILITA
+    node_INHIBICENEBOFACILITA --> node_Neurotransmitery
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DESCENDENTNI MODULACE
@@ -103,7 +165,51 @@ Neurotransmitery:
 - Endokanabinoidy
 ```
 
+</details>
+
 ### Centrální senzitizace
+
+```mermaid
+flowchart TD
+    node_CHRONICKABOLESTACENT["CHRONICKA BOLEST A CENTRALNI SENZITIZACE"]
+    node_Opakovnanociceptivni["Opakována nociceptivni stimulace"]
+    node_ddb739e1["+------------------+"]
+    node_Periferni["Periferni"]
+    node_senzitizace["senzitizace"]
+    node_zantpokozen["zanět, poškození"]
+    node_c9d89b87["+--------+---------+"]
+    node_NMDAreceptor["NMDA receptor"]
+    node_aktivace["aktivace"]
+    node_windup["wind-up"]
+    node_Centralni["Centralni"]
+    node_michamozek["micha, mozek"]
+    node_Maladaptivni["Maladaptivni"]
+    node_plasticita["plasticita"]
+    node_CHRONICKABOLEST["CHRONICKA BOLEST"]
+    node_KLICOVAROLENMDARECEP["KLICOVA ROLE NMDA RECEPTORU:"]
+
+    node_CHRONICKABOLESTACENT --> node_Opakovnanociceptivni
+    node_Opakovnanociceptivni --> node_ddb739e1
+    node_ddb739e1 --> node_Periferni
+    node_Periferni --> node_senzitizace
+    node_senzitizace --> node_zantpokozen
+    node_zantpokozen --> node_c9d89b87
+    node_c9d89b87 --> node_NMDAreceptor
+    node_NMDAreceptor --> node_aktivace
+    node_aktivace --> node_windup
+    node_windup --> node_Centralni
+    node_Centralni --> node_michamozek
+    node_michamozek --> node_Maladaptivni
+    node_Maladaptivni --> node_plasticita
+    node_plasticita --> node_CHRONICKABOLEST
+    node_CHRONICKABOLEST --> node_KLICOVAROLENMDARECEP
+
+    click node_NMDAreceptor "/receptors/nmda/" "NMDA receptor"
+    click node_KLICOVAROLENMDARECEP "/receptors/nmda/" "KLICOVA ROLE NMDA RECEPTORU:"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 CHRONICKA BOLEST A CENTRALNI SENZITIZACE
@@ -147,6 +253,8 @@ KLICOVA ROLE NMDA RECEPTORU:
 - Allodynia, hyperalgezie
 ```
 
+</details>
+
 ---
 
 ## Standardni lecba
@@ -178,6 +286,49 @@ KLICOVA ROLE NMDA RECEPTORU:
 
 ### Mechanismus analgezie
 
+```mermaid
+flowchart TD
+    node_KETAMINABOLEST["KETAMIN A BOLEST"]
+    node_Ketamin["Ketamin"]
+    node_NMDAreceptorblokda["+---&gt; NMDA receptor blokáda"]
+    node_Preruseniwindup["+---&gt; Preruseni wind-up"]
+    node_Snizenicentralnisenz["+---&gt; Snizeni centralni senzitizace"]
+    node_Potlacenimaladaptivn["+---&gt; Potlaceni maladaptivni plasticity"]
+    node_Opioidnmodulace["+---&gt; Opioidní modulace"]
+    node_Mukappainterakce["+---&gt; Mu, kappa interakce"]
+    node_Snizenopioidnitolera["+---&gt; Snizení opioidni tolerance"]
+    node_Monoaminergni["+---&gt; Monoaminergni"]
+    node_NA5HTmodulace["+---&gt; NA, 5-HT modulace"]
+    node_Descendentniinhibice["+---&gt; Descendentni inhibice"]
+    node_Protizantlivy["+---&gt; Protizanětlivy"]
+    node_Snizenicytokin["+---&gt; Snizeni cytokin"]
+    node_Mikroglilnmodulace["+---&gt; Mikrogliální modulace"]
+    node_VYSLEDEKAnalgezienav["VYSLEDEK: Analgezie na vice urovnich"]
+
+    node_KETAMINABOLEST --> node_Ketamin
+    node_Ketamin --> node_NMDAreceptorblokda
+    node_NMDAreceptorblokda --> node_Preruseniwindup
+    node_Preruseniwindup --> node_Snizenicentralnisenz
+    node_Snizenicentralnisenz --> node_Potlacenimaladaptivn
+    node_Potlacenimaladaptivn --> node_Opioidnmodulace
+    node_Opioidnmodulace --> node_Mukappainterakce
+    node_Mukappainterakce --> node_Snizenopioidnitolera
+    node_Snizenopioidnitolera --> node_Monoaminergni
+    node_Monoaminergni --> node_NA5HTmodulace
+    node_NA5HTmodulace --> node_Descendentniinhibice
+    node_Descendentniinhibice --> node_Protizantlivy
+    node_Protizantlivy --> node_Snizenicytokin
+    node_Snizenicytokin --> node_Mikroglilnmodulace
+    node_Mikroglilnmodulace --> node_VYSLEDEKAnalgezienav
+
+    click node_KETAMINABOLEST "/alkaloids/ketamin/" "KETAMIN A BOLEST"
+    click node_Ketamin "/alkaloids/ketamin/" "Ketamin"
+    click node_NMDAreceptorblokda "/receptors/nmda/" "+---> NMDA receptor blokáda"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KETAMIN A BOLEST
 
@@ -207,6 +358,8 @@ Ketamin
 VYSLEDEK: Analgezie na vice urovnich
 ```
 
+</details>
+
 ### Klinicke pouziti
 
 | Indikace | Davka | Cesta | Evidence |
@@ -218,6 +371,40 @@ VYSLEDEK: Analgezie na vice urovnich
 | **Migréna (refrakterní)** | Variabilni | IV, IN | Omezena |
 
 ### Ketaminove infuze pro chronickou bolest
+
+```mermaid
+flowchart TD
+    node_TYPICKYPROTOKOL["TYPICKY PROTOKOL"]
+    node_INDUKCE15dn["INDUKCE 1-5 dnů:"]
+    node_1343fde7["+--------------------------------+"]
+    node_Ketamin0105mgkghIV["Ketamin 0.1-0.5 mg/kg/h IV"]
+    node_48hodindenne["4-8 hodin denne"]
+    node_Monitoringvitlnchfun["Monitoring vitálních funkcí"]
+    node_UDRZBAoptional["UDRZBA optional:"]
+    node_Intermitentniinfuze["Intermitentni infuze"]
+    node_14tydneapart["1-4 tydne apart"]
+    node_Nebooralniketamin["Nebo oralni ketamin"]
+    node_RESPONSERATE5070["RESPONSE RATE: 50-70%"]
+    node_TRVANIEFEKTUDnyaztyd["TRVANI EFEKTU: Dny az tydny"]
+
+    node_TYPICKYPROTOKOL --> node_INDUKCE15dn
+    node_INDUKCE15dn --> node_1343fde7
+    node_1343fde7 --> node_Ketamin0105mgkghIV
+    node_Ketamin0105mgkghIV --> node_48hodindenne
+    node_48hodindenne --> node_Monitoringvitlnchfun
+    node_Monitoringvitlnchfun --> node_UDRZBAoptional
+    node_UDRZBAoptional --> node_Intermitentniinfuze
+    node_Intermitentniinfuze --> node_14tydneapart
+    node_14tydneapart --> node_Nebooralniketamin
+    node_Nebooralniketamin --> node_RESPONSERATE5070
+    node_RESPONSERATE5070 --> node_TRVANIEFEKTUDnyaztyd
+
+    click node_Ketamin0105mgkghIV "/alkaloids/ketamin/" "Ketamin 0.1-0.5 mg/kg/h IV"
+    click node_Nebooralniketamin "/alkaloids/ketamin/" "Nebo oralni ketamin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 TYPICKY PROTOKOL
@@ -240,6 +427,8 @@ UDRZBA (optional):
 RESPONSE RATE: 50-70%
 TRVANI EFEKTU: Dny az tydny
 ```
+
+</details>
 
 ---
 
@@ -294,6 +483,44 @@ MECHANISMUS:
 
 ### Endogenní opioidní system
 
+```mermaid
+flowchart TD
+    node_ENDOGENNIOPIOIDYABOL["ENDOGENNI OPIOIDY A BOLEST"]
+    node_Strescviceniakupunkt["Stres, cviceni, akupunktura"]
+    node_ddb739e1["+------------------+"]
+    node_Hypothalamus["Hypothalamus"]
+    node_PAG["PAG"]
+    node_c9d89b87["+--------+---------+"]
+    node_Uvolnnendorfinenkefa["Uvolnění endorfinů, enkefalinu"]
+    node_dc692126["+----+----+"]
+    node_MureceptorDeltarecep["Mu receptor   Delta receptor"]
+    node_aktivaceaktivace["aktivace      aktivace"]
+    node_DescendentniLokalni["Descendentni  Lokalni"]
+    node_inhibicemodulace["inhibice      modulace"]
+    node_ANALGEZIE["ANALGEZIE"]
+    node_VizEndorfinymolecule["Viz: Endorfiny@/molecules/endorphins.md"]
+
+    node_ENDOGENNIOPIOIDYABOL --> node_Strescviceniakupunkt
+    node_Strescviceniakupunkt --> node_ddb739e1
+    node_ddb739e1 --> node_Hypothalamus
+    node_Hypothalamus --> node_PAG
+    node_PAG --> node_c9d89b87
+    node_c9d89b87 --> node_Uvolnnendorfinenkefa
+    node_Uvolnnendorfinenkefa --> node_dc692126
+    node_dc692126 --> node_MureceptorDeltarecep
+    node_MureceptorDeltarecep --> node_aktivaceaktivace
+    node_aktivaceaktivace --> node_DescendentniLokalni
+    node_DescendentniLokalni --> node_inhibicemodulace
+    node_inhibicemodulace --> node_ANALGEZIE
+    node_ANALGEZIE --> node_VizEndorfinymolecule
+
+    click node_Hypothalamus "/brain/thalamus/" "Hypothalamus"
+    click node_VizEndorfinymolecule "/molecules/endorphins/" "Viz: Endorfiny@/molecules/endorphins.md"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ENDOGENNI OPIOIDY A BOLEST
 
@@ -323,6 +550,8 @@ ANALGEZIE
 
 Viz: [Endorfiny](@/molecules/endorphins.md)
 ```
+
+</details>
 
 ### Psychedelika a endogenní opioidy
 

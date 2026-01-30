@@ -105,6 +105,37 @@ R4 = substituent na indolovem kruhu (OH, OPO3, OCH3)
 
 Odvozeny od fenethylaminu (benzen + ethylamin). Strukturne pribuzne dopaminu.
 
+```mermaid
+flowchart TD
+    node_FENETHYLAMINOVYSCAFF["FENETHYLAMINOVY SCAFFOLD:"]
+    node_R3["R3"]
+    node_dc692126["+----+----+"]
+    node_42c95bb5["/     |     \"]
+    node_R4["R4"]
+    node_04c636fe["\      +----/"]
+    node_c62fc515["\    /"]
+    node_9f0e3a0e["\  /"]
+    node_e265ec9f["\/"]
+    node_CH2["CH2"]
+    node_NH2["NH2"]
+    node_R3R4R5substituentyna["R3, R4, R5 = substituenty na benzenovem kruhu methoxy, halogeny"]
+
+    node_FENETHYLAMINOVYSCAFF --> node_R3
+    node_R3 --> node_dc692126
+    node_dc692126 --> node_42c95bb5
+    node_42c95bb5 --> node_R4
+    node_R4 --> node_04c636fe
+    node_04c636fe --> node_c62fc515
+    node_c62fc515 --> node_9f0e3a0e
+    node_9f0e3a0e --> node_e265ec9f
+    node_e265ec9f --> node_CH2
+    node_CH2 --> node_NH2
+    node_NH2 --> node_R3R4R5substituentyna
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 FENETHYLAMINOVY SCAFFOLD:
         R3
@@ -126,6 +157,8 @@ FENETHYLAMINOVY SCAFFOLD:
 
 R3, R4, R5 = substituenty na benzenovem kruhu (methoxy, halogeny)
 ```
+
+</details>
 
 | Latka | Struktura | Zdroj | Dokumentace |
 |-------|-----------|-------|-------------|
@@ -192,6 +225,35 @@ ERGOLINOVY SCAFFOLD:
 
 Vsechna klasicka psychedelika pusobi jako agoniste [5-HT2A receptoru](@/receptors/5-ht2a.md):
 
+```mermaid
+flowchart TD
+    node_PSYCHEDELIKUM["PSYCHEDELIKUM"]
+    node_5HT2AreceptorvrstvaV["5-HT2A receptor vrstva V kortexu"]
+    node_Gq11proteinaktivace["Gq/11 protein aktivace"]
+    node_c1098c42["+----------------+"]
+    node_FosfolipazaCbetaarre["Fosfolipaza C      beta-arrestin"]
+    node_IP3DAG["IP3 + DAG"]
+    node_Internalizace["Internalizace"]
+    node_Ca2releasePKCaktivac["Ca2+ release + PKC aktivace"]
+    node_ERK12CREBBDNF["ERK1/2 -&gt; CREB -&gt; BDNF"]
+    node_NEUROPLASTICITA["NEUROPLASTICITA"]
+
+    node_PSYCHEDELIKUM --> node_5HT2AreceptorvrstvaV
+    node_5HT2AreceptorvrstvaV --> node_Gq11proteinaktivace
+    node_Gq11proteinaktivace --> node_c1098c42
+    node_c1098c42 --> node_FosfolipazaCbetaarre
+    node_FosfolipazaCbetaarre --> node_IP3DAG
+    node_IP3DAG --> node_Internalizace
+    node_Internalizace --> node_Ca2releasePKCaktivac
+    node_Ca2releasePKCaktivac --> node_ERK12CREBBDNF
+    node_ERK12CREBBDNF --> node_NEUROPLASTICITA
+
+    click node_5HT2AreceptorvrstvaV "/receptors/5-ht2a/" "5-HT2A receptor vrstva V kortexu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 PSYCHEDELIKUM
       |
@@ -218,6 +280,8 @@ ERK1/2 -> CREB -> BDNF
       v
 NEUROPLASTICITA
 ```
+
+</details>
 
 ### Receptorove profily klasickych psychedelik
 
@@ -295,7 +359,6 @@ Latky s psychedelickymi efekty, ale odlisnym primarnim mechanismem:
 
 | Latka | Primarni receptor | Typ | Dokumentace |
 |-------|-------------------|-----|-------------|
-| [Muscimol](@/alkaloids/muscimol.md) | [GABA-A](@/receptors/gaba-a.md) | Deliriant/Disociativ | [Muscimol](@/alkaloids/muscimol.md) |
 | Ibogain | Kappa-opioid, NMDA | Oneirogen | - |
 | Salvinorin A | Kappa-opioid | Disociativ | - |
 | Ketamin | [NMDA](@/receptors/nmda.md) | Disociativ | - |
@@ -545,6 +608,35 @@ Americky psycholog, kontroverzni propagator:
 
 ### Entropic Brain Hypothesis
 
+```mermaid
+flowchart TD
+    node_ENTROPIEMOZKOVEAKTIV["ENTROPIE MOZKOVE AKTIVITY"]
+    node_NizkaentropieVysokae["Nizka entropie                    Vysoka entropie"]
+    node_rigidniprediktabilni["rigidni, prediktabilni          flexibilni, variabilni"]
+    node_32d60503["+------------------+             +------------------+"]
+    node_DepresePsychedelicky["- Deprese       |             |  - Psychedelicky"]
+    node_OCDsta["- OCD           |             |    sta"]
+    node_ZavislostiPSYCHEDELI["- Zavislosti    | PSYCHEDELIKA|  - Kreativita"]
+    node_RigidniFlexibilita["- Rigidni       | ==========&gt; |  - Flexibilita"]
+    node_mysleniInsight["mysleni       |             |  - Insight"]
+    node_Terapeutickypotencia["Terapeuticky potencial:"]
+    node_Docasnezvysenientrop["Docasne zvyseni entropie --&gt; Reset rigidnich vzorcu"]
+
+    node_ENTROPIEMOZKOVEAKTIV --> node_NizkaentropieVysokae
+    node_NizkaentropieVysokae --> node_rigidniprediktabilni
+    node_rigidniprediktabilni --> node_32d60503
+    node_32d60503 --> node_DepresePsychedelicky
+    node_DepresePsychedelicky --> node_OCDsta
+    node_OCDsta --> node_ZavislostiPSYCHEDELI
+    node_ZavislostiPSYCHEDELI --> node_RigidniFlexibilita
+    node_RigidniFlexibilita --> node_mysleniInsight
+    node_mysleniInsight --> node_Terapeutickypotencia
+    node_Terapeutickypotencia --> node_Docasnezvysenientrop
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 ENTROPIE MOZKOVE AKTIVITY
 
@@ -563,6 +655,8 @@ Nizka entropie                    Vysoka entropie
 Terapeuticky potencial:
 Docasne zvyseni entropie --> Reset rigidnich vzorcu
 ```
+
+</details>
 
 ---
 

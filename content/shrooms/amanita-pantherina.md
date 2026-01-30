@@ -12,7 +12,6 @@ receptory = ["GABA-A", "NMDA"]
 
 # Amanita pantherina - Muchomurka tygrovana
 
-**Amanita pantherina** (muchomurka tygrovana, pardali muchomurka) je psychoaktivni houba blizce pribuzna [Amanita muscaria](@/shrooms/amanita-muscaria.md), ale s **vyssi potenci** a **vyssim rizikem**. Obsahuje stejne aktivni latky - [muscimol](@/alkaloids/muscimol.md) a [kyselinu ibotenovou](@/neurotoxins/ibotenic-acid.md) - ale v **2-4x vyssich koncentracich**. Proto je povazovana za nebezpecnejsi a vyzaduje zvysenou opatrnost.
 
 ---
 
@@ -24,7 +23,6 @@ receptory = ["GABA-A", "NMDA"]
 | **Ceske nazvy** | Muchomurka tygrovana, Pardali muchomurka |
 | **Celed** | Amanitaceae |
 | **Rod** | Amanita (Muchomurky) |
-| **Aktivni latky** | [Muscimol](@/alkaloids/muscimol.md), [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) |
 | **Typ psychoaktivity** | GABAergni (disociativni/deliriantni) |
 | **Relativni potence** | 2-4x silnejsi nez A. muscaria |
 
@@ -33,6 +31,42 @@ receptory = ["GABA-A", "NMDA"]
 ## Identifikace
 
 ### Makroskopicke znaky
+
+```mermaid
+flowchart TD
+    node_AMANITAPANTHERINAVZH["AMANITA PANTHERINA - VZHLED"]
+    node_157e2e95["/  ●    ●    ●    \"]
+    node_BILESKVRNYKlobouk512["/    BILE SKVRNY     \        Klobouk: 5-12 cm"]
+    node_nahnedemBarvaHnedaaz["/      na hnedem       \       Barva: Hneda az sedo-hneda"]
+    node_povrchuBilebradavkyz["/        povrchu         \      Bile bradavky zbytky vela"]
+    node_LupenyBilevolne["Lupeny: Bile, volne"]
+    node_PRSTENPrstenBlanityh["PRSTEN                Prsten: Blanity, hladky"]
+    node_isiciDULEZITEHladkyo["isici,              DULEZITE: Hladky okraj"]
+    node_hladkyuAmuscariaryho["hladky              u A. muscaria ryhovany"]
+    node_TrenBily615cm["Tren: Bily, 6-15 cm"]
+    node_BULVABulvaOkrajovana["BULVA                Bulva: Okrajovana"]
+    node_okrajovana13zretelne["okrajovana            1-3 zretelne okraje"]
+    node_olvaoprotiAmuscaria["olva                oproti A. muscaria"]
+
+    node_AMANITAPANTHERINAVZH --> node_157e2e95
+    node_157e2e95 --> node_BILESKVRNYKlobouk512
+    node_BILESKVRNYKlobouk512 --> node_nahnedemBarvaHnedaaz
+    node_nahnedemBarvaHnedaaz --> node_povrchuBilebradavkyz
+    node_povrchuBilebradavkyz --> node_LupenyBilevolne
+    node_LupenyBilevolne --> node_PRSTENPrstenBlanityh
+    node_PRSTENPrstenBlanityh --> node_isiciDULEZITEHladkyo
+    node_isiciDULEZITEHladkyo --> node_hladkyuAmuscariaryho
+    node_hladkyuAmuscariaryho --> node_TrenBily615cm
+    node_TrenBily615cm --> node_BULVABulvaOkrajovana
+    node_BULVABulvaOkrajovana --> node_okrajovana13zretelne
+    node_okrajovana13zretelne --> node_olvaoprotiAmuscaria
+
+    click node_hladkyuAmuscariaryho "/shrooms/amanita-muscaria/" "hladky              u A. muscaria ryhovany"
+    click node_olvaoprotiAmuscaria "/shrooms/amanita-muscaria/" "olva                oproti A. muscaria"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     AMANITA PANTHERINA - VZHLED
@@ -61,6 +95,8 @@ receptory = ["GABA-A", "NMDA"]
                     └─────────────┘
 ```
 
+</details>
+
 ### Detailni popis
 
 | Znak | Popis | Diagnosticky vyznam |
@@ -78,6 +114,48 @@ receptory = ["GABA-A", "NMDA"]
 | **Chut** | Mirne sladka (NEOCHUNAVAT) | |
 
 ### Rozlisovaci znaky od A. muscaria
+
+```mermaid
+flowchart TD
+    node_APANTHERINAvsAMUSCAR["A. PANTHERINA vs A. MUSCARIA"]
+    node_APANTHERINAAMUSCARIA["A. PANTHERINA                 A. MUSCARIA"]
+    node_TygrovanaCervena["Tygrovana                   Cervena"]
+    node_KLOBOUKKLOBOUK["KLOBOUK:                    KLOBOUK:"]
+    node_51935b22["████████████████            ████████████████"]
+    node_HNEDYCERVENY["HNEDY                       CERVENY"]
+    node_PRSTENPRSTEN["PRSTEN:                     PRSTEN:"]
+    node_36f90298["≈≈≈≈≈≈≈≈≈≈≈≈"]
+    node_HLADKYokrajRYHOVANYo["HLADKY okraj                RYHOVANY okraj"]
+    node_VOLVAVOLVA["VOLVA:                      VOLVA:"]
+    node_f2072e58["~~~~~~~~"]
+    node_OKRAJOVANASUPINOVITA["OKRAJOVANA                  SUPINOVITA"]
+    node_13kruhyrozpadla["1-3 kruhy                 rozpadla"]
+    node_POTENCEPOTENCE["POTENCE:                    POTENCE:"]
+    node_4cb7ab33["████████████████████        ██████████"]
+    node_24xSILNEJSISTANDARDN["2-4x SILNEJSI               STANDARDNI"]
+
+    node_APANTHERINAvsAMUSCAR --> node_APANTHERINAAMUSCARIA
+    node_APANTHERINAAMUSCARIA --> node_TygrovanaCervena
+    node_TygrovanaCervena --> node_KLOBOUKKLOBOUK
+    node_KLOBOUKKLOBOUK --> node_51935b22
+    node_51935b22 --> node_HNEDYCERVENY
+    node_HNEDYCERVENY --> node_PRSTENPRSTEN
+    node_PRSTENPRSTEN --> node_36f90298
+    node_36f90298 --> node_HLADKYokrajRYHOVANYo
+    node_HLADKYokrajRYHOVANYo --> node_VOLVAVOLVA
+    node_VOLVAVOLVA --> node_f2072e58
+    node_f2072e58 --> node_OKRAJOVANASUPINOVITA
+    node_OKRAJOVANASUPINOVITA --> node_13kruhyrozpadla
+    node_13kruhyrozpadla --> node_POTENCEPOTENCE
+    node_POTENCEPOTENCE --> node_4cb7ab33
+    node_4cb7ab33 --> node_24xSILNEJSISTANDARDN
+
+    click node_APANTHERINAvsAMUSCAR "/shrooms/amanita-muscaria/" "A. PANTHERINA vs A. MUSCARIA"
+    click node_APANTHERINAAMUSCARIA "/shrooms/amanita-muscaria/" "A. PANTHERINA                 A. MUSCARIA"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     A. PANTHERINA vs A. MUSCARIA
@@ -107,6 +185,8 @@ receptory = ["GABA-A", "NMDA"]
     └────────────────────────────┴────────────────────────────┘
 ```
 
+</details>
+
 ### Mozne zameny
 
 | Druh | Odliseni | Nebezpeci |
@@ -128,7 +208,6 @@ receptory = ["GABA-A", "NMDA"]
 | Latka | Obsah (susena) | Srovnani s A. muscaria |
 |-------|----------------|------------------------|
 | [**Kyselina ibotenova**](@/neurotoxins/ibotenic-acid.md) | 0,1-0,25% | **2-3x vyssi** |
-| [**Muscimol**](@/alkaloids/muscimol.md) | 0,05-0,20% | **2-4x vyssi** |
 | Muscazon | Trace | Podobny |
 
 ### Celkovy alkaloidovy obsah
@@ -196,6 +275,41 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
 
 ### Ekologie
 
+```mermaid
+flowchart TD
+    node_EKOLOGIEAPANTHERINA["EKOLOGIE A. PANTHERINA"]
+    node_EKTOMYKORHIZAs["EKTOMYKORHIZA s:"]
+    node_BukemFagus["• Bukem Fagus"]
+    node_DubemQuercus["• Dubem Quercus"]
+    node_SmrkemPicea["• Smrkem Picea"]
+    node_BoroviciPinus["• Borovici Pinus"]
+    node_ModrnemLarix["• Modrínem Larix"]
+    node_HABITAT["HABITAT:"]
+    node_Listnatasmenlesy["☼  Listnaté a smíšené lesy"]
+    node_Preferujevpenatpdy["☼  Preferuje vápenaté půdy"]
+    node_Okrajelesmtiny["☼  Okraje lesů, mýtiny"]
+    node_Nadmoskvka2001500m["☼  Nadmořská výška: 200-1500 m"]
+    node_SEZONACervenecListop["SEZONA: Cervenec - Listopad"]
+    node_PEAKZariRijen["PEAK: Zari - Rijen"]
+
+    node_EKOLOGIEAPANTHERINA --> node_EKTOMYKORHIZAs
+    node_EKTOMYKORHIZAs --> node_BukemFagus
+    node_BukemFagus --> node_DubemQuercus
+    node_DubemQuercus --> node_SmrkemPicea
+    node_SmrkemPicea --> node_BoroviciPinus
+    node_BoroviciPinus --> node_ModrnemLarix
+    node_ModrnemLarix --> node_HABITAT
+    node_HABITAT --> node_Listnatasmenlesy
+    node_Listnatasmenlesy --> node_Preferujevpenatpdy
+    node_Preferujevpenatpdy --> node_Okrajelesmtiny
+    node_Okrajelesmtiny --> node_Nadmoskvka2001500m
+    node_Nadmoskvka2001500m --> node_SEZONACervenecListop
+    node_SEZONACervenecListop --> node_PEAKZariRijen
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     EKOLOGIE A. PANTHERINA
 
@@ -220,6 +334,8 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
     └─────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Vyskyt v Ceske republice
 
 | Lokalita | Typ lesa | Cetnost |
@@ -237,6 +353,54 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
 ## Farmakologie
 
 ### Mechanismus ucinku
+
+```mermaid
+flowchart TD
+    node_FARMAKOLOGIEAPANTHER["FARMAKOLOGIE A. PANTHERINA"]
+    node_AKTIVNILATKY["AKTIVNI LATKY:"]
+    node_KYSELINAIBOTENOVAMUS["KYSELINA IBOTENOVA          MUSCIMOL"]
+    node_01025005020["0,1-0,25%                 0,05-0,20%"]
+    node_a6b5b6fe["▼                           ▼"]
+    node_NMDAGABAA["NMDA                    GABA-A"]
+    node_AGONISTAAGONISTA["AGONISTA                AGONISTA"]
+    node_d3617bbb["▼                         ▼"]
+    node_EXCITOTOXICITAPSYCHO["EXCITOTOXICITA            PSYCHOAKTIVITA"]
+    node_neurotoxicksedativni["neurotoxické            sedativni,"]
+    node_disociativni["disociativni"]
+    node_METABOLICKAKONVERZEi["METABOLICKA KONVERZE in vivo a pri priprave:"]
+    node_Kyselinaibotenova["Kyselina ibotenova"]
+    node_Dekarboxylace["Dekarboxylace"]
+    node_teplopHmetabolismus["teplo, pH, metabolismus"]
+    node_MuscimolGABAAaktivac["Muscimol ► GABA-A aktivace"]
+    node_Daldegradace["Další degradace"]
+    node_Muscazoninaktivn["Muscazon inaktivní"]
+
+    node_FARMAKOLOGIEAPANTHER --> node_AKTIVNILATKY
+    node_AKTIVNILATKY --> node_KYSELINAIBOTENOVAMUS
+    node_KYSELINAIBOTENOVAMUS --> node_01025005020
+    node_01025005020 --> node_a6b5b6fe
+    node_a6b5b6fe --> node_NMDAGABAA
+    node_NMDAGABAA --> node_AGONISTAAGONISTA
+    node_AGONISTAAGONISTA --> node_d3617bbb
+    node_d3617bbb --> node_EXCITOTOXICITAPSYCHO
+    node_EXCITOTOXICITAPSYCHO --> node_neurotoxicksedativni
+    node_neurotoxicksedativni --> node_disociativni
+    node_disociativni --> node_METABOLICKAKONVERZEi
+    node_METABOLICKAKONVERZEi --> node_Kyselinaibotenova
+    node_Kyselinaibotenova --> node_Dekarboxylace
+    node_Dekarboxylace --> node_teplopHmetabolismus
+    node_teplopHmetabolismus --> node_MuscimolGABAAaktivac
+    node_MuscimolGABAAaktivac --> node_Daldegradace
+    node_Daldegradace --> node_Muscazoninaktivn
+
+    click node_KYSELINAIBOTENOVAMUS "/alkaloids/muscimol/" "KYSELINA IBOTENOVA          MUSCIMOL"
+    click node_NMDAGABAA "/glossary/gaba/" "NMDA                    GABA-A"
+    click node_Kyselinaibotenova "/neurotoxins/ibotenic-acid/" "Kyselina ibotenova"
+    click node_MuscimolGABAAaktivac "/alkaloids/muscimol/" "Muscimol ► GABA-A aktivace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
     FARMAKOLOGIE A. PANTHERINA
@@ -275,6 +439,8 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
           ▼
        Muscazon (inaktivní)
 ```
+
+</details>
 
 ### Srovnani potence s A. muscaria
 
@@ -385,6 +551,42 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
 
 ### Rizika (VYSSI nez A. muscaria)
 
+```mermaid
+flowchart TD
+    node_RIZIKAAPANTHERINA["RIZIKA A. PANTHERINA"]
+    node_VYSOKAPOTENCE["⚠️ VYSOKA POTENCE"]
+    node_24xsilnjneAmuscaria["2-4x silnější než A. muscaria"]
+    node_VYSOKYOBSAHKYSELINYI["⚠️ VYSOKY OBSAH KYSELINY IBOTENOVE"]
+    node_Excitotoxicitaneurot["Excitotoxicita, neurotoxicita"]
+    node_VARIABILITA["⚠️ VARIABILITA"]
+    node_Rozdlya5xmeziexempli["Rozdíly až 5x mezi exempláři"]
+    node_RIZIKOZAMENY["⚠️ RIZIKO ZAMENY"]
+    node_Monzmnasjedlmiismrte["Možná záměna s jedlými i smrtelnými druhy"]
+    node_SILNADEZORIENTACE["⚠️ SILNA DEZORIENTACE"]
+    node_Vysokrizikopdaraz["Vysoké riziko pádů a úrazů"]
+    node_DELSITRVANI["⚠️ DELSI TRVANI"]
+    node_812hodinvs68uAmuscar["8-12 hodin vs 6-8 u A. muscaria"]
+
+    node_RIZIKAAPANTHERINA --> node_VYSOKAPOTENCE
+    node_VYSOKAPOTENCE --> node_24xsilnjneAmuscaria
+    node_24xsilnjneAmuscaria --> node_VYSOKYOBSAHKYSELINYI
+    node_VYSOKYOBSAHKYSELINYI --> node_Excitotoxicitaneurot
+    node_Excitotoxicitaneurot --> node_VARIABILITA
+    node_VARIABILITA --> node_Rozdlya5xmeziexempli
+    node_Rozdlya5xmeziexempli --> node_RIZIKOZAMENY
+    node_RIZIKOZAMENY --> node_Monzmnasjedlmiismrte
+    node_Monzmnasjedlmiismrte --> node_SILNADEZORIENTACE
+    node_SILNADEZORIENTACE --> node_Vysokrizikopdaraz
+    node_Vysokrizikopdaraz --> node_DELSITRVANI
+    node_DELSITRVANI --> node_812hodinvs68uAmuscar
+
+    click node_24xsilnjneAmuscaria "/shrooms/amanita-muscaria/" "2-4x silnější než A. muscaria"
+    click node_812hodinvs68uAmuscar "/shrooms/amanita-muscaria/" "8-12 hodin vs 6-8 u A. muscaria"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     RIZIKA A. PANTHERINA
 
@@ -410,6 +612,8 @@ Na rozdil od [A. muscaria](@/shrooms/amanita-muscaria.md), **A. pantherina** nem
     │                                                      │
     └─────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ### Kontraindikace
 
@@ -450,6 +654,43 @@ Pri predavkovani nebo podezreni na intoxikaci:
 
 ### Konverze kyseliny ibotenove
 
+```mermaid
+flowchart TD
+    node_PRIPRAVAAPANTHERINA["PRIPRAVA A. PANTHERINA"]
+    node_CERSTVENEBEZPECNE["CERSTVE NEBEZPECNE!"]
+    node_Vysokobsahkyselinyib["Vysoký obsah kyseliny ibotenové NMDA toxin"]
+    node_NIKDYNEKONZUMOVATERS["⚠️ NIKDY NEKONZUMOVAT ČERSTVÉ"]
+    node_SUEN8090C34hodiny["SUŠENÍ 80-90°C, 3-4 hodiny"]
+    node_70konverzeibotenovmu["~70% konverze ibotenová  muscimol"]
+    node_SUENBEZPENJ["SUŠENÉ BEZPEČNĚJŠÍ"]
+    node_Pevahamuscimolusnent["Převaha muscimolu, snížená toxicita"]
+    node_StleOPATRNOST["Stále OPATRNOST!"]
+    node_VypotenceneAmuscaria["Vyšší potence než A. muscaria"]
+    node_SKLADOVN["SKLADOVÁNÍ"]
+    node_Suchtemnvzduchotsn["Suché, temné, vzduchotěsné"]
+    node_Stabilnpomscearoky["Stabilní po měsíce až roky"]
+
+    node_PRIPRAVAAPANTHERINA --> node_CERSTVENEBEZPECNE
+    node_CERSTVENEBEZPECNE --> node_Vysokobsahkyselinyib
+    node_Vysokobsahkyselinyib --> node_NIKDYNEKONZUMOVATERS
+    node_NIKDYNEKONZUMOVATERS --> node_SUEN8090C34hodiny
+    node_SUEN8090C34hodiny --> node_70konverzeibotenovmu
+    node_70konverzeibotenovmu --> node_SUENBEZPENJ
+    node_SUENBEZPENJ --> node_Pevahamuscimolusnent
+    node_Pevahamuscimolusnent --> node_StleOPATRNOST
+    node_StleOPATRNOST --> node_VypotenceneAmuscaria
+    node_VypotenceneAmuscaria --> node_SKLADOVN
+    node_SKLADOVN --> node_Suchtemnvzduchotsn
+    node_Suchtemnvzduchotsn --> node_Stabilnpomscearoky
+
+    click node_70konverzeibotenovmu "/alkaloids/muscimol/" "~70% konverze ibotenová  muscimol"
+    click node_Pevahamuscimolusnent "/alkaloids/muscimol/" "Převaha muscimolu, snížená toxicita"
+    click node_VypotenceneAmuscaria "/shrooms/amanita-muscaria/" "Vyšší potence než A. muscaria"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
     PRIPRAVA A. PANTHERINA
 
@@ -475,6 +716,8 @@ Pri predavkovani nebo podezreni na intoxikaci:
     Suché, temné, vzduchotěsné
     Stabilní po měsíce až roky
 ```
+
+</details>
 
 ### Doporuceny postup
 
@@ -526,7 +769,6 @@ Pri predavkovani nebo podezreni na intoxikaci:
 ## Viz take
 
 ### Aktivni latky
-- [Muscimol](@/alkaloids/muscimol.md) - Hlavni psychoaktivni latka
 - [Kyselina ibotenova](@/neurotoxins/ibotenic-acid.md) - Neurotoxicky prekurzor
 - [GABA](@/glossary/gaba.md) - Inhibicni neurotransmiter
 

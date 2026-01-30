@@ -134,6 +134,31 @@ Termin odvozeny od znacky Robitussin:
 
 ### Mechanismus antitusivniho ucinku
 
+```mermaid
+flowchart TD
+    node_KASELREFLEX["KASEL REFLEX"]
+    node_Aferentnivlaknavagus["Aferentni vlakna vagus"]
+    node_Nucleustractussolita["+---&gt; Nucleus tractus solitarius"]
+    node_Kaslovecentrummedull["Kaslove centrum medulla"]
+    node_DXMblokada["+---&gt; DXM blokada"]
+    node_Sigma1modulace["- Sigma-1 modulace"]
+    node_nAChantagonismus["- nACh antagonismus"]
+    node_Efektorkaselpotlacen["Efektor kasel potlacen"]
+
+    node_KASELREFLEX --> node_Aferentnivlaknavagus
+    node_Aferentnivlaknavagus --> node_Nucleustractussolita
+    node_Nucleustractussolita --> node_Kaslovecentrummedull
+    node_Kaslovecentrummedull --> node_DXMblokada
+    node_DXMblokada --> node_Sigma1modulace
+    node_Sigma1modulace --> node_nAChantagonismus
+    node_nAChantagonismus --> node_Efektorkaselpotlacen
+
+    click node_Sigma1modulace "/receptors/sigma-1/" "- Sigma-1 modulace"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 KASEL REFLEX
      |
@@ -153,7 +178,36 @@ Aferentni vlakna (vagus)
          Efektor (kasel potlacen)
 ```
 
+</details>
+
 ### Mechanismus disociativnich ucinku
+
+```mermaid
+flowchart TD
+    node_DXMperoralne["DXM peroralne"]
+    node_MetabolismusCYP2D6["Metabolismus CYP2D6"]
+    node_DXMsigma1agonistaSER["+---&gt; DXM sigma-1 agonista, SERT inhibitor"]
+    node_DXOpotentniNMDAantag["+---&gt; DXO potentni NMDA antagonista"]
+    node_NMDAreceptorblokadae["NMDA receptor blokada extrasynapticka"]
+    node_Snizenaglutamatergni["Snizena glutamatergni transmise"]
+    node_Kortikotalamickadiso["Kortiko-talamicka disociace"]
+    node_DISOCIATIVNISTAVY["DISOCIATIVNI STAVY"]
+
+    node_DXMperoralne --> node_MetabolismusCYP2D6
+    node_MetabolismusCYP2D6 --> node_DXMsigma1agonistaSER
+    node_DXMsigma1agonistaSER --> node_DXOpotentniNMDAantag
+    node_DXOpotentniNMDAantag --> node_NMDAreceptorblokadae
+    node_NMDAreceptorblokadae --> node_Snizenaglutamatergni
+    node_Snizenaglutamatergni --> node_Kortikotalamickadiso
+    node_Kortikotalamickadiso --> node_DISOCIATIVNISTAVY
+
+    click node_DXMsigma1agonistaSER "/receptors/sigma-1/" "+---> DXM sigma-1 agonista, SERT inhibitor"
+    click node_DXOpotentniNMDAantag "/receptors/nmda/" "+---> DXO potentni NMDA antagonista"
+    click node_NMDAreceptorblokadae "/receptors/nmda/" "NMDA receptor blokada extrasynapticka"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 DXM peroralne
@@ -181,6 +235,8 @@ DISOCIATIVNI STAVY
 - Zmenena percepce casu
 - Halucinace (vyssi davky)
 ```
+
+</details>
 
 ---
 

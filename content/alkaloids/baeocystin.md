@@ -35,6 +35,31 @@ Objev baeocystinu byl soucasti sirsího vyzkumu psilocybinových hub v 60. letec
 
 Leung a Paul pouzili nasledujici metodiku:
 
+```mermaid
+flowchart TD
+    node_SuenplodnicePbaeocys["Sušené plodnice P. baeocystis"]
+    node_Extrakcemethanolem["Extrakce methanolem"]
+    node_Surovextrakt["Surový extrakt"]
+    node_Paprovchromatografie["Papírová chromatografie"]
+    node_Frakcesnovmislouceni["Frakce s novými slouceninami"]
+    node_Kolonovchromatografi["Kolonová chromatografie"]
+    node_Cistbaeocystin["Cistý baeocystin"]
+    node_UVIRMSanalza["UV, IR, MS analýza"]
+    node_Strukturndeterminace["Strukturní determinace"]
+
+    node_SuenplodnicePbaeocys --> node_Extrakcemethanolem
+    node_Extrakcemethanolem --> node_Surovextrakt
+    node_Surovextrakt --> node_Paprovchromatografie
+    node_Paprovchromatografie --> node_Frakcesnovmislouceni
+    node_Frakcesnovmislouceni --> node_Kolonovchromatografi
+    node_Kolonovchromatografi --> node_Cistbaeocystin
+    node_Cistbaeocystin --> node_UVIRMSanalza
+    node_UVIRMSanalza --> node_Strukturndeterminace
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Sušené plodnice P. baeocystis
     ↓ [Extrakce methanolem]
@@ -46,6 +71,8 @@ Cistý baeocystin
     ↓ [UV, IR, MS analýza]
 Strukturní determinace
 ```
+
+</details>
 
 **Vysledky puvodni analyzy**:
 - Molekularni vzorec: C₁₁H₁₅N₂O₄P
@@ -103,6 +130,27 @@ Nazev **baeocystin** je odvozen od druhu *Psilocybe baeocystis*, ve kterem byl p
 
 ### 2D Strukturni reprezentace
 
+```mermaid
+flowchart TD
+    node_Indolovskelet["Indolový skelet"]
+    node_765["7     6     5"]
+    node_3a4OPOOHFosforyloxys["3a   4   OPOOH₂   Fosforyloxy skupina"]
+    node_32["3        2"]
+    node_CH["CH₂"]
+    node_NHSekundrnamin1metyl["NH  Sekundární amin 1× metyl"]
+    node_CH["CH₃"]
+
+    node_Indolovskelet --> node_765
+    node_765 --> node_3a4OPOOHFosforyloxys
+    node_3a4OPOOHFosforyloxys --> node_32
+    node_32 --> node_CH
+    node_CH --> node_NHSekundrnamin1metyl
+    node_NHSekundrnamin1metyl --> node_CH
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
           Indolový skelet
               |
@@ -132,6 +180,8 @@ Nazev **baeocystin** je odvozen od druhu *Psilocybe baeocystis*, ve kterem byl p
        CH₃
 ```
 
+</details>
+
 ### Strukturní srovnání
 
 | Sloučenina | N-substituce | Molekulární hmotnost | Náboj |
@@ -155,6 +205,51 @@ Baeocystin je **achiralni** molekula:
 ### Biosynteticka draha v houbách
 
 Baeocystin je **intermediat** v biosyntetické dráze psilocybinu:
+
+```mermaid
+flowchart TD
+    node_LTryptofanproteinoge["L-Tryptofan proteinogenní aminokyselina"]
+    node_PsiDtryptofandekarbo["PsiD - tryptofan dekarboxyláza"]
+    node_odtpenCO["odštěpení CO₂"]
+    node_Tryptamin["Tryptamin"]
+    node_PsiHtryptamin4hydrox["PsiH - tryptamin 4-hydroxyláza"]
+    node_cytochromP450monooxy["cytochrom P450 monooxygenáza"]
+    node_yadujeONADPH["yžaduje O₂, NADPH"]
+    node_4Hydroxytryptamin["4-Hydroxytryptamin"]
+    node_PsiK4hydroxytryptami["PsiK - 4-hydroxytryptamin kináza"]
+    node_fosforylace4OHskupin["fosforylace 4-OH skupiny"]
+    node_yadujeATP["yžaduje ATP"]
+    node_Norbaeocystin4POT["Norbaeocystin 4-PO-T"]
+    node_PsiMSadenosylmethion["PsiM - S-adenosylmethionin methyltransferáza"]
+    node_prvnNmetylace["první N-metylace"]
+    node_donorSAMSAH["donor: SAM  SAH"]
+    node_BAEOCYSTIN4PONMT["▶ BAEOCYSTIN 4-PO-NMT ◀"]
+    node_druhNmetylace["druhá N-metylace"]
+    node_Psilocybin4PODMT["Psilocybin 4-PO-DMT"]
+
+    node_LTryptofanproteinoge --> node_PsiDtryptofandekarbo
+    node_PsiDtryptofandekarbo --> node_odtpenCO
+    node_odtpenCO --> node_Tryptamin
+    node_Tryptamin --> node_PsiHtryptamin4hydrox
+    node_PsiHtryptamin4hydrox --> node_cytochromP450monooxy
+    node_cytochromP450monooxy --> node_yadujeONADPH
+    node_yadujeONADPH --> node_4Hydroxytryptamin
+    node_4Hydroxytryptamin --> node_PsiK4hydroxytryptami
+    node_PsiK4hydroxytryptami --> node_fosforylace4OHskupin
+    node_fosforylace4OHskupin --> node_yadujeATP
+    node_yadujeATP --> node_Norbaeocystin4POT
+    node_Norbaeocystin4POT --> node_PsiMSadenosylmethion
+    node_PsiMSadenosylmethion --> node_prvnNmetylace
+    node_prvnNmetylace --> node_donorSAMSAH
+    node_donorSAMSAH --> node_BAEOCYSTIN4PONMT
+    node_BAEOCYSTIN4PONMT --> node_druhNmetylace
+    node_druhNmetylace --> node_Psilocybin4PODMT
+
+    click node_Psilocybin4PODMT "/alkaloids/psilocybin/" "Psilocybin 4-PO-DMT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 L-Tryptofan (proteinogenní aminokyselina)
@@ -188,6 +283,8 @@ Norbaeocystin (4-PO-T)
     ↓
 Psilocybin (4-PO-DMT)
 ```
+
+</details>
 
 ### Genový klastr psilocybinu
 
@@ -285,6 +382,37 @@ Omezené studie naznačují srovnatelný, ale slabší profil než psilocybin:
 
 Podobne jako psilocybin, baeocystin je pravdepodobne **prodrug**:
 
+```mermaid
+flowchart TD
+    node_Baeocystin4PONMT["Baeocystin 4-PO-NMT"]
+    node_AlkalickfosfatzaALP["Alkalická fosfatáza - ALP"]
+    node_stevnsliznicejtraled["střevní sliznice, játra, ledviny"]
+    node_uvolnnfosftovskupiny["uvolnění fosfátové skupiny"]
+    node_Norpsilocin4HONMTAKT["Norpsilocin 4-HO-NMT  AKTIVNÍ METABOLIT"]
+    node_DistribucedoCNS["Distribuce do CNS"]
+    node_pekraujehematoencefa["překračuje hematoencefalickou bariéru"]
+    node_5HTAreceptoraktivace["5-HT₂A receptor aktivace"]
+    node_Eliminace["Eliminace"]
+    node_Konjugaceglukuronida["Konjugace glukuronidace, sulfatace"]
+    node_Renlnexkrece["Renální exkrece"]
+
+    node_Baeocystin4PONMT --> node_AlkalickfosfatzaALP
+    node_AlkalickfosfatzaALP --> node_stevnsliznicejtraled
+    node_stevnsliznicejtraled --> node_uvolnnfosftovskupiny
+    node_uvolnnfosftovskupiny --> node_Norpsilocin4HONMTAKT
+    node_Norpsilocin4HONMTAKT --> node_DistribucedoCNS
+    node_DistribucedoCNS --> node_pekraujehematoencefa
+    node_pekraujehematoencefa --> node_5HTAreceptoraktivace
+    node_5HTAreceptoraktivace --> node_Eliminace
+    node_Eliminace --> node_Konjugaceglukuronida
+    node_Konjugaceglukuronida --> node_Renlnexkrece
+
+    click node_Norpsilocin4HONMTAKT "/alkaloids/psilocin/" "Norpsilocin 4-HO-NMT  AKTIVNÍ METABOLIT"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Baeocystin (4-PO-NMT)
     ↓
@@ -305,6 +433,8 @@ Konjugace (glukuronidace, sulfatace)
     ↓
 Renální exkrece
 ```
+
+</details>
 
 **Norpsilocin** (4-hydroxy-N-metyltryptamin) je predpokladany aktivni metabolit.
 
@@ -585,6 +715,23 @@ Baeocystin lze syntetizovat třemi hlavními přístupy:
 
 ### 1. Z psilocybinu - Selektivní demetylace
 
+```mermaid
+flowchart TD
+    node_Psilocybin["Psilocybin"]
+    node_SelektivnNdemetylace["Selektivní N-demetylace"]
+    node_obtnnzkselektivita["obtížné - nízká selektivita"]
+    node_Baeocystinvedlejprod["Baeocystin + vedlejší produkty"]
+
+    node_Psilocybin --> node_SelektivnNdemetylace
+    node_SelektivnNdemetylace --> node_obtnnzkselektivita
+    node_obtnnzkselektivita --> node_Baeocystinvedlejprod
+
+    click node_Psilocybin "/alkaloids/psilocybin/" "Psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psilocybin
     ↓ [Selektivní N-demetylace]
@@ -592,9 +739,36 @@ Psilocybin
 Baeocystin + vedlejší produkty
 ```
 
+</details>
+
 **Nevýhody**: Nízký výtěžek, směs produktů
 
 ### 2. De novo chemická syntéza
+
+```mermaid
+flowchart TD
+    node_4Benzyloxyindol["4-Benzyloxyindol"]
+    node_1OxalylchloridEtO0C["1. Oxalyl chlorid, Et₂O, 0°C"]
+    node_2MeNHTHF["2. MeNH₂, THF"]
+    node_NMethylglyoxamid["N-Methylglyoxamid"]
+    node_LiAlHTHFreflux["LiAlH₄, THF, reflux"]
+    node_4BenzyloxyNmethyltry["4-Benzyloxy-N-methyltryptamin"]
+    node_1BnOPOClpyridin["1. BnO₂POCl, pyridin"]
+    node_2HPdC["2. H₂, Pd/C"]
+    node_Baeocystin["Baeocystin"]
+
+    node_4Benzyloxyindol --> node_1OxalylchloridEtO0C
+    node_1OxalylchloridEtO0C --> node_2MeNHTHF
+    node_2MeNHTHF --> node_NMethylglyoxamid
+    node_NMethylglyoxamid --> node_LiAlHTHFreflux
+    node_LiAlHTHFreflux --> node_4BenzyloxyNmethyltry
+    node_4BenzyloxyNmethyltry --> node_1BnOPOClpyridin
+    node_1BnOPOClpyridin --> node_2HPdC
+    node_2HPdC --> node_Baeocystin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 4-Benzyloxyindol
@@ -608,10 +782,33 @@ N-Methylglyoxamid
 Baeocystin
 ```
 
+</details>
+
 **Celkový výtěžek**: 15-25%
 **Čistota**: > 98% po chromatografii
 
 ### 3. Biotechnologická produkce
+
+```mermaid
+flowchart TD
+    node_EcolineboScerevisiae["E. coli nebo S. cerevisiae"]
+    node_TransformacepsiDpsiH["Transformace psiD, psiH, psiK, psiM geny"]
+    node_Kultivacestryptofane["Kultivace s tryptofanem"]
+    node_LimitaceSAMakumulace["Limitace SAM  akumulace baeocystinu"]
+    node_Baeocystinvmdiu["Baeocystin v médiu"]
+    node_Extrakcepurifikace["Extrakce, purifikace"]
+    node_istbaeocystin["Čistý baeocystin"]
+
+    node_EcolineboScerevisiae --> node_TransformacepsiDpsiH
+    node_TransformacepsiDpsiH --> node_Kultivacestryptofane
+    node_Kultivacestryptofane --> node_LimitaceSAMakumulace
+    node_LimitaceSAMakumulace --> node_Baeocystinvmdiu
+    node_Baeocystinvmdiu --> node_Extrakcepurifikace
+    node_Extrakcepurifikace --> node_istbaeocystin
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 E. coli nebo S. cerevisiae
@@ -622,6 +819,8 @@ Baeocystin v médiu
     ↓ [Extrakce, purifikace]
 Čistý baeocystin
 ```
+
+</details>
 
 **Výhody**: Škálovatelné, stereospecifické
 **Výzvy**: Regulační schválení, optimalizace
@@ -751,6 +950,5 @@ Viz také:
 - [Psilocybin](@/alkaloids/psilocybin.md) - hlavní alkaloid
 - [Psilocin](@/alkaloids/psilocin.md) - aktivní metabolit
 - [Psilocybes](@/shrooms/psilocybes/_index.md) - houby s obsahem baeocystinu
-- [Muscimol](@/alkaloids/muscimol.md) - jiný typ alkaloidu
 
 <- Zpet na [Alkaloidy](@/alkaloids/_index.md) | [Psilocybin](@/alkaloids/psilocybin.md) | [Psilocin](@/alkaloids/psilocin.md) ->

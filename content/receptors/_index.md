@@ -48,6 +48,31 @@ insert_anchor_links = "right"
 
 ### Sekundární cíle
 
+```mermaid
+flowchart TD
+    node_Psychedelikum["Psychedelikum"]
+    node_5HT2AprimrnVizulnhal["5-HT2A primární                   Vizuální halucinace"]
+    node_5HT2CmodulanRegulace["5-HT2C modulační                  Regulace nálady"]
+    node_5HT1AanxiolytickSnen["5-HT1A anxiolytický               Snížení úzkosti"]
+    node_D2LSDspecifickyEufor["D2 LSD specificky                 Euforie"]
+    node_1DMTspecifickyMystic["σ1 DMT specificky                 Mystické zážitky"]
+
+    node_Psychedelikum --> node_5HT2AprimrnVizulnhal
+    node_5HT2AprimrnVizulnhal --> node_5HT2CmodulanRegulace
+    node_5HT2CmodulanRegulace --> node_5HT1AanxiolytickSnen
+    node_5HT1AanxiolytickSnen --> node_D2LSDspecifickyEufor
+    node_D2LSDspecifickyEufor --> node_1DMTspecifickyMystic
+
+    click node_5HT2AprimrnVizulnhal "/receptors/5-ht2a/" "5-HT2A primární                   Vizuální halucinace"
+    click node_5HT2CmodulanRegulace "/receptors/5-ht2c/" "5-HT2C modulační                  Regulace nálady"
+    click node_5HT1AanxiolytickSnen "/receptors/5-ht1a/" "5-HT1A anxiolytický               Snížení úzkosti"
+    click node_D2LSDspecifickyEufor "/receptors/d2/" "D2 LSD specificky                 Euforie"
+    click node_1DMTspecifickyMystic "/receptors/sigma-1/" "σ1 DMT specificky                 Mystické zážitky"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Psychedelikum
      ↓
@@ -59,6 +84,8 @@ Psychedelikum
 │  σ1 (DMT specificky)               │ → Mystické zážitky
 └────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -80,7 +107,6 @@ Psychedelikum
 
 | Látka | Vazebné místo | Účinek |
 |-------|---------------|--------|
-| [Muscimol](@/alkaloids/muscimol.md) | GABA site | Přímý agonista |
 | Benzodiazepiny | BZ site | Pozitivní modulátor |
 | Barbituráty | Barbiturátové | Pozitivní modulátor |
 | Alkohol | Více míst | Pozitivní modulátor |
@@ -90,6 +116,25 @@ Psychedelikum
 ## Signální kaskády
 
 ### GPCR signalizace (5-HT2A)
+
+```mermaid
+flowchart TD
+    node_Ligand5HT2AreceptorG["Ligand  5-HT2A receptor  Gq protein"]
+    node_FosfolipzaCPLC["Fosfolipáza C PLC"]
+    node_IPDAG["IP₃                              DAG"]
+    node_CauvolnnPKCaktivace["Ca²⁺ uvolnění                    PKC aktivace"]
+    node_BunnodpovGenovexpres["Buněčná odpověď              Genová exprese"]
+
+    node_Ligand5HT2AreceptorG --> node_FosfolipzaCPLC
+    node_FosfolipzaCPLC --> node_IPDAG
+    node_IPDAG --> node_CauvolnnPKCaktivace
+    node_CauvolnnPKCaktivace --> node_BunnodpovGenovexpres
+
+    click node_Ligand5HT2AreceptorG "/receptors/5-ht2a/" "Ligand  5-HT2A receptor  Gq protein"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Ligand → 5-HT2A receptor → Gq protein
@@ -105,7 +150,28 @@ Ligand → 5-HT2A receptor → Gq protein
     Buněčná odpověď              Genová exprese
 ```
 
+</details>
+
 ### Ionotropní signalizace (NMDA)
+
+```mermaid
+flowchart TD
+    node_GlutamtGlycinNMDArec["Glutamát + Glycin  NMDA receptor"]
+    node_OtevenCaNakanlu["Otevření Ca²⁺/Na⁺ kanálu"]
+    node_Cainflux["Ca²⁺ influx"]
+    node_CaMKIIaktivaceSynapt["CaMKII aktivace              Synaptická plasticita"]
+    node_LTPLTDPamuen["LTP/LTD                    Paměť, učení"]
+
+    node_GlutamtGlycinNMDArec --> node_OtevenCaNakanlu
+    node_OtevenCaNakanlu --> node_Cainflux
+    node_Cainflux --> node_CaMKIIaktivaceSynapt
+    node_CaMKIIaktivaceSynapt --> node_LTPLTDPamuen
+
+    click node_GlutamtGlycinNMDArec "/receptors/nmda/" "Glutamát + Glycin  NMDA receptor"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Glutamát + Glycin → NMDA receptor
@@ -121,6 +187,8 @@ Glutamát + Glycin → NMDA receptor
       LTP/LTD                    Paměť, učení
 ```
 
+</details>
+
 ---
 
 ## Receptorové interakce s psychoaktivními látkami
@@ -132,7 +200,6 @@ Glutamát + Glycin → NMDA receptor
 | [LSD](@/alkaloids/lsd.md) | +++ | + | ++ | - | - | + |
 | [Psilocybin](@/alkaloids/psilocybin.md) | +++ | ++ | - | - | - | - |
 | [DMT](@/alkaloids/dmt.md) | +++ | + | - | - | - | +++ |
-| [Muscimol](@/alkaloids/muscimol.md) | - | - | - | +++ | - | - |
 | Ketamin | - | - | - | - | --- | ++ |
 | [Meskalin](@/alkaloids/mescaline.md) | ++ | + | + | - | - | - |
 

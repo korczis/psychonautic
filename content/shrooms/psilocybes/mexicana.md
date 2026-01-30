@@ -431,6 +431,31 @@ Sklerotia ("magic truffles") mají v některých zemích odlišný právní stat
 
 Biosyntéza psilocybinu v P. mexicana probíhá v několika krocích:
 
+```mermaid
+flowchart TD
+    node_LTryptofan["L-Tryptofan"]
+    node_PsiDtryptofandekarbo["PsiD - tryptofan dekarboxyláza"]
+    node_Tryptamin["Tryptamin"]
+    node_PsiKkinza["PsiK - kináza"]
+    node_4fosforyltryptamin["4-fosforyltryptamin"]
+    node_PsiMmethyltransferza["PsiM - methyltransferáza"]
+    node_Baeocystin["Baeocystin"]
+    node_Psilocybin["Psilocybin"]
+
+    node_LTryptofan --> node_PsiDtryptofandekarbo
+    node_PsiDtryptofandekarbo --> node_Tryptamin
+    node_Tryptamin --> node_PsiKkinza
+    node_PsiKkinza --> node_4fosforyltryptamin
+    node_4fosforyltryptamin --> node_PsiMmethyltransferza
+    node_PsiMmethyltransferza --> node_Baeocystin
+    node_Baeocystin --> node_Psilocybin
+
+    click node_Psilocybin "/alkaloids/psilocybin/" "Psilocybin"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 L-Tryptofan
     ↓ [PsiD - tryptofan dekarboxyláza]
@@ -442,6 +467,8 @@ Baeocystin
     ↓ [PsiM - methyltransferáza]
 Psilocybin
 ```
+
+</details>
 
 ### Srovnání potence
 

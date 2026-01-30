@@ -325,6 +325,37 @@ Dukazy:
 
 ### Mechanismus ucinku na molekularni urovni
 
+```mermaid
+flowchart TD
+    node_LSD["LSD"]
+    node_5HT2AreceptorvrstvaV["5-HT2A receptor vrstva V kortexu"]
+    node_Gq11PLCIP3DAG["+---&gt; Gq/11 --&gt; PLC --&gt; IP3 + DAG"]
+    node_Ca2zER["+--&gt; Ca2+ z ER"]
+    node_PKCaktivace["+--&gt; PKC aktivace"]
+    node_ERK12fosforylace["+--&gt; ERK1/2 fosforylace"]
+    node_CREBGenovaexprese["+--&gt; CREB --&gt; Genova exprese"]
+    node_BDNFArccFos["+--&gt; BDNF, Arc, c-Fos"]
+    node_betaarrestin2Interna["+---&gt; beta-arrestin 2 --&gt; Internalizace receptoru"]
+    node_Prolongovanasignaliz["+--&gt; Prolongovana signalizace"]
+    node_Vysvetlujedlouhetrva["+--&gt; Vysvetluje dlouhe trvani"]
+
+    node_LSD --> node_5HT2AreceptorvrstvaV
+    node_5HT2AreceptorvrstvaV --> node_Gq11PLCIP3DAG
+    node_Gq11PLCIP3DAG --> node_Ca2zER
+    node_Ca2zER --> node_PKCaktivace
+    node_PKCaktivace --> node_ERK12fosforylace
+    node_ERK12fosforylace --> node_CREBGenovaexprese
+    node_CREBGenovaexprese --> node_BDNFArccFos
+    node_BDNFArccFos --> node_betaarrestin2Interna
+    node_betaarrestin2Interna --> node_Prolongovanasignaliz
+    node_Prolongovanasignaliz --> node_Vysvetlujedlouhetrva
+
+    click node_5HT2AreceptorvrstvaV "/receptors/5-ht2a/" "5-HT2A receptor vrstva V kortexu"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 LSD
   |
@@ -350,6 +381,8 @@ LSD
                             +--> Vysvetluje dlouhe trvani
 ```
 
+</details>
+
 ### Funkcionalni selektivita (Biased agonismus)
 
 | Ligand | Gq/11 signalizace | beta-arrestin | Head-Twitch Response |
@@ -365,6 +398,43 @@ LSD
 ### "Lid" hypoteza (Receptor trapping)
 
 Krystalograficka studie Wacker et al. (2017) odhalila:
+
+```mermaid
+flowchart TD
+    node_Normalniligandseroto["Normalni ligand serotonin:"]
+    node_53e1b860["+----------------------------------+"]
+    node_Receptor["Receptor"]
+    node_Vazebnemisto["Vazebne misto"]
+    node_Serotoninvstoupi["Serotonin vstoupi"]
+    node_Rychladisociacems["Rychla disociace ~ms"]
+    node_LSD["LSD:"]
+    node_VazebnemistoLid["Vazebne misto   &lt;-- 'Lid'"]
+    node_extracell["extracell."]
+    node_LSDvstoupismycka["LSD vstoupi       smycka"]
+    node_EL2smyckasezavira["EL2 smycka se zavira"]
+    node_LSDuveznno["LSD 'uvezněno'"]
+    node_Pomaladisociacemin["Pomala disociace ~min"]
+    node_EL2Extracelularnismy["EL2 = Extracelularni smycka 2"]
+    node_Klicoveaminokyseliny["Klicove aminokyseliny: Leu229, Ile230"]
+
+    node_Normalniligandseroto --> node_53e1b860
+    node_53e1b860 --> node_Receptor
+    node_Receptor --> node_Vazebnemisto
+    node_Vazebnemisto --> node_Serotoninvstoupi
+    node_Serotoninvstoupi --> node_Rychladisociacems
+    node_Rychladisociacems --> node_LSD
+    node_LSD --> node_VazebnemistoLid
+    node_VazebnemistoLid --> node_extracell
+    node_extracell --> node_LSDvstoupismycka
+    node_LSDvstoupismycka --> node_EL2smyckasezavira
+    node_EL2smyckasezavira --> node_LSDuveznno
+    node_LSDuveznno --> node_Pomaladisociacemin
+    node_Pomaladisociacemin --> node_EL2Extracelularnismy
+    node_EL2Extracelularnismy --> node_Klicoveaminokyseliny
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 Normalni ligand (serotonin):
@@ -395,6 +465,8 @@ EL2 = Extracelularni smycka 2
 Klicove aminokyseliny: Leu229, Ile230
 ```
 
+</details>
+
 **Dusledky**:
 - Prodlouzeny rezidencni cas v receptoru
 - Vysvetluje 8-12 hodin trvani ucinku
@@ -414,6 +486,48 @@ Klicove aminokyseliny: Leu229, Ile230
 | **CEN** (Central Executive) | Kognitivni kontrola | Modulace |
 
 ### Zmeny v konektivite mozku
+
+```mermaid
+flowchart TD
+    node_NORMALNISTAV["NORMALNI STAV:"]
+    node_dc7b4045["+-------------+     +-------------+"]
+    node_DMNXCEN["DMN      |&lt;-X-&gt;|     CEN"]
+    node_selfreftaskfocus["self-ref  |     | task-focus"]
+    node_Antikorelace["Antikorelace"]
+    node_X["+--------X-----------+"]
+    node_PODVLIVEMLSD["POD VLIVEM LSD:"]
+    node_DMNCEN["DMN      |&lt;---&gt;|     CEN"]
+    node_snizenazmenena["snizena  |     |  zmenena"]
+    node_Zvysenaglobalni["Zvysena globalni"]
+    node_integrace["integrace"]
+    node_643d4c09["+--------------------+"]
+    node_58071513["+-----------------------------+"]
+    node_Zvysenaentropiemozku["Zvysena entropie mozku"]
+    node_Flexibilnejsistavy["= Flexibilnejsi stavy"]
+    node_Kreativitainsight["= Kreativita, insight"]
+
+    node_NORMALNISTAV --> node_dc7b4045
+    node_dc7b4045 --> node_DMNXCEN
+    node_DMNXCEN --> node_selfreftaskfocus
+    node_selfreftaskfocus --> node_Antikorelace
+    node_Antikorelace --> node_X
+    node_X --> node_PODVLIVEMLSD
+    node_PODVLIVEMLSD --> node_DMNCEN
+    node_DMNCEN --> node_snizenazmenena
+    node_snizenazmenena --> node_Zvysenaglobalni
+    node_Zvysenaglobalni --> node_integrace
+    node_integrace --> node_643d4c09
+    node_643d4c09 --> node_58071513
+    node_58071513 --> node_Zvysenaentropiemozku
+    node_Zvysenaentropiemozku --> node_Flexibilnejsistavy
+    node_Flexibilnejsistavy --> node_Kreativitainsight
+
+    click node_DMNXCEN "/circuits/_index/" "DMN      |<-X->|     CEN"
+    click node_DMNCEN "/circuits/_index/" "DMN      |<--->|     CEN"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NORMALNI STAV:
@@ -443,6 +557,8 @@ POD VLIVEM LSD:
 +-----------------------------+
 ```
 
+</details>
+
 ### Neuroimaging studie
 
 **Carhart-Harris et al. (2016)** - Beckley/Imperial Research Programme:
@@ -455,6 +571,43 @@ POD VLIVEM LSD:
 | **ASL** | Zvyseny krevni prutok ve vizualnim kortexu | Vizualni efekty |
 
 ### Entropic Brain Hypothesis
+
+```mermaid
+flowchart TD
+    node_ENTROPIEMOZKOVEAKTIV["ENTROPIE MOZKOVE AKTIVITY"]
+    node_NizkaentropieVysokae["Nizka entropie                    Vysoka entropie"]
+    node_rigidniprediktabilni["rigidni, prediktabilni          flexibilni, variabilni"]
+    node_32d60503["+------------------+             +------------------+"]
+    node_DepresePsychedelicky["- Deprese       |             |  - Psychedelicky"]
+    node_OCDsta["- OCD           |             |    sta"]
+    node_ZavislostiLSDKreativ["- Zavislosti    |   LSD       |  - Kreativita"]
+    node_RigidniFlexibilita["- Rigidni       | =========&gt;  |  - Flexibilita"]
+    node_mysleniInsight["mysleni       |             |  - Insight"]
+    node_63886058["+--------------+-----------------+"]
+    node_OPTIMALNIENTROPIE["OPTIMALNI ENTROPIE"]
+    node_normalnivedomi["normalni vedomi"]
+    node_Terapeutickypotencia["Terapeuticky potencial:"]
+    node_Docasnezvysenientrop["Docasne zvyseni entropie --&gt; Reset rigidnich vzorcu"]
+
+    node_ENTROPIEMOZKOVEAKTIV --> node_NizkaentropieVysokae
+    node_NizkaentropieVysokae --> node_rigidniprediktabilni
+    node_rigidniprediktabilni --> node_32d60503
+    node_32d60503 --> node_DepresePsychedelicky
+    node_DepresePsychedelicky --> node_OCDsta
+    node_OCDsta --> node_ZavislostiLSDKreativ
+    node_ZavislostiLSDKreativ --> node_RigidniFlexibilita
+    node_RigidniFlexibilita --> node_mysleniInsight
+    node_mysleniInsight --> node_63886058
+    node_63886058 --> node_OPTIMALNIENTROPIE
+    node_OPTIMALNIENTROPIE --> node_normalnivedomi
+    node_normalnivedomi --> node_Terapeutickypotencia
+    node_Terapeutickypotencia --> node_Docasnezvysenientrop
+
+    click node_DepresePsychedelicky "/conditions/depression/" "- Deprese       |             |  - Psychedelicky"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 ENTROPIE MOZKOVE AKTIVITY
@@ -481,9 +634,40 @@ Terapeuticky potencial:
 Docasne zvyseni entropie --> Reset rigidnich vzorcu
 ```
 
+</details>
+
 ### REBUS model
 
 **REBUS** (Relaxed Beliefs Under Psychedelics):
+
+```mermaid
+flowchart TD
+    node_NORMALNIHIERARCHICKE["NORMALNI HIERARCHICKE ZPRACOVANI:"]
+    node_34959a3e["+------------------------+"]
+    node_TopdownpredikceSilne["Top-down predikce      | &lt;-- Silne priory ocekavani"]
+    node_bf42a6f2["======================"]
+    node_BottomupsignalyPotla["Bottom-up signaly      | &lt;-- Potlacene"]
+    node_2a0e4ccf["----------------------"]
+    node_2c8e2f78["___________________"]
+    node_PODLSD["POD LSD:"]
+    node_TopdownpredikceOslab["Top-down predikce      | &lt;-- Oslabene priory"]
+    node_BottomupsignalyZesil["Bottom-up signaly      | &lt;-- Zesilene"]
+    node_Dusledky["Dusledky:"]
+
+    node_NORMALNIHIERARCHICKE --> node_34959a3e
+    node_34959a3e --> node_TopdownpredikceSilne
+    node_TopdownpredikceSilne --> node_bf42a6f2
+    node_bf42a6f2 --> node_BottomupsignalyPotla
+    node_BottomupsignalyPotla --> node_2a0e4ccf
+    node_2a0e4ccf --> node_2c8e2f78
+    node_2c8e2f78 --> node_PODLSD
+    node_PODLSD --> node_TopdownpredikceOslab
+    node_TopdownpredikceOslab --> node_BottomupsignalyZesil
+    node_BottomupsignalyZesil --> node_Dusledky
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
 
 ```
 NORMALNI HIERARCHICKE ZPRACOVANI:
@@ -520,6 +704,8 @@ Dusledky:
 - "Videt veci jinak"
 - Terapeuticky insight
 ```
+
+</details>
 
 ---
 
@@ -730,6 +916,27 @@ Vysvetleni:
 
 ### Metabolismus
 
+```mermaid
+flowchart TD
+    node_LSD["LSD"]
+    node_CYP3A42oxoLSDhlavni["+---&gt; CYP3A4 ---&gt; 2-oxo-LSD hlavni"]
+    node_CYP3A42oxo3hydroxyLS["+---&gt; CYP3A4 ---&gt; 2-oxo-3-hydroxy-LSD O-H-LSD"]
+    node_CYP2D6NdemethylLSD["+---&gt; CYP2D6 ---&gt; N-demethyl-LSD"]
+    node_CYP2C9Dalshydroxymet["+---&gt; CYP2C9 ---&gt; Dalsí hydroxy metabolity"]
+    node_Nezmenenevmoci1["+---&gt; Nezmenene v moci ~1%"]
+    node_Vsechnymetabolityjso["Vsechny metabolity jsou NEAKTIVNI."]
+
+    node_LSD --> node_CYP3A42oxoLSDhlavni
+    node_CYP3A42oxoLSDhlavni --> node_CYP3A42oxo3hydroxyLS
+    node_CYP3A42oxo3hydroxyLS --> node_CYP2D6NdemethylLSD
+    node_CYP2D6NdemethylLSD --> node_CYP2C9Dalshydroxymet
+    node_CYP2C9Dalshydroxymet --> node_Nezmenenevmoci1
+    node_Nezmenenevmoci1 --> node_Vsechnymetabolityjso
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 LSD
   |
@@ -745,6 +952,8 @@ LSD
 
 Vsechny metabolity jsou NEAKTIVNI.
 ```
+
+</details>
 
 ---
 
@@ -1038,6 +1247,29 @@ Podrobnosti: [Receptorova kinetika](@/mechanisms/receptor-binding.md)
 
 LSD je **prototypicky biased agonista** na 5-HT2A s vyraznou preferenci pro Gq/11 drahu nad beta-arrestinem:
 
+```mermaid
+flowchart TD
+    node_BIASPROFILLSDvsSEROT["BIAS PROFIL LSD vs SEROTONIN"]
+    node_Gq11betaarrestinBias["Gq/11    beta-arrestin   Bias faktor"]
+    node_Serotonin101010refer["Serotonin          1.0        1.0           1.0 reference"]
+    node_LSD09501563Gqbiased["LSD                0.95       0.15          6.3 Gq-biased"]
+    node_Psilocin06505512vyva["Psilocin           0.65       0.55          1.2 vyvazeny"]
+    node_DOI09004520mirneGq["DOI                0.90       0.45          2.0 mirne Gq"]
+    node_Lisurid010070014arrb["Lisurid            0.10       0.70          0.14 arr-biased, ne-halucinogenni"]
+
+    node_BIASPROFILLSDvsSEROT --> node_Gq11betaarrestinBias
+    node_Gq11betaarrestinBias --> node_Serotonin101010refer
+    node_Serotonin101010refer --> node_LSD09501563Gqbiased
+    node_LSD09501563Gqbiased --> node_Psilocin06505512vyva
+    node_Psilocin06505512vyva --> node_DOI09004520mirneGq
+    node_DOI09004520mirneGq --> node_Lisurid010070014arrb
+
+    click node_Psilocin06505512vyva "/alkaloids/psilocin/" "Psilocin           0.65       0.55          1.2 vyvazeny"
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 BIAS PROFIL LSD vs SEROTONIN
 
@@ -1049,6 +1281,8 @@ Psilocin           0.65       0.55          1.2 (vyvazeny)
 DOI                0.90       0.45          2.0 (mirne Gq)
 Lisurid            0.10       0.70          0.14 (arr-biased, ne-halucinogenni)
 ```
+
+</details>
 
 Toto vysvetluje silnou halucinogenni aktivitu LSD pri relativne slabe desenzitizaci.
 
@@ -1098,7 +1332,6 @@ Podrobnosti: [PK-PD vztahy](@/mechanisms/pharmacokinetic-pharmacodynamic.md) | [
 - [Meskalin](@/alkaloids/mescaline.md) - Fenethylaminové psychedelikum
 
 ### Kontrastní mechanismy
-- [Muscimol](@/alkaloids/muscimol.md) - **Odlišný mechanismus (GABAergní)**
 - [Ketamin](@/alkaloids/ketamin.md) - NMDA blokáda vs 5-HT2A
 - [MDMA](@/alkaloids/mdma.md) - Entaktogenní vs psychedelický profil
 

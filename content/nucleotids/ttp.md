@@ -126,11 +126,24 @@ Tato reakce zahrnuje:
 
 #### Fáze 3: Fosforylace na dTTP
 
+```mermaid
+flowchart TD
+    node_dTMPdTDPdTTP["dTMP  dTDP  dTTP"]
+    node_TMPKNDPK["TMPK    NDPK"]
+
+    node_dTMPdTDPdTTP --> node_TMPKNDPK
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 dTMP → dTDP → dTTP
        ↑        ↑
       TMPK    NDPK
 ```
+
+</details>
 
 - **Thymidylát kináza (TMPK)**: dTMP + ATP → dTDP + ADP
 - **Nukleosid difosfát kináza (NDPK)**: dTDP + ATP → dTTP + ADP
@@ -139,11 +152,24 @@ dTMP → dTDP → dTTP
 
 Buňky mohou také recyklovat thymidin z degradovaných nukleových kyselin:
 
+```mermaid
+flowchart TD
+    node_ThymidindTMPdTDPdTTP["Thymidin  dTMP  dTDP  dTTP"]
+    node_TKthymidinkinza["TK thymidin kináza"]
+
+    node_ThymidindTMPdTDPdTTP --> node_TKthymidinkinza
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 Thymidin → dTMP → dTDP → dTTP
            ↑
           TK (thymidin kináza)
 ```
+
+</details>
 
 **Thymidin kináza (TK)** existuje ve dvou izoformách:
 - **TK1**: Cytosolická, exprese závislá na buněčném cyklu (S fáze)
@@ -216,6 +242,19 @@ dTTP je substrátem pro všechny DNA polymerázy:
 
 ### Mechanismus inkorporace
 
+```mermaid
+flowchart TD
+    node_DNA3OHdTTPDNAdTMPPPi["DNA-3'OH + dTTP  DNA-dTMP + PPi"]
+    node_Pyrofosfatza["Pyrofosfatáza"]
+    node_2Pi["2 Pi"]
+
+    node_DNA3OHdTTPDNAdTMPPPi --> node_Pyrofosfatza
+    node_Pyrofosfatza --> node_2Pi
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 DNA-3'OH + dTTP → DNA-dTMP + PPi
                         ↓
@@ -223,6 +262,8 @@ DNA-3'OH + dTTP → DNA-dTMP + PPi
                         ↓
                       2 Pi
 ```
+
+</details>
 
 Hydrolýza pyrofosfátu (PPi) na anorganický fosfát (Pi) činí
 reakci prakticky nevratnou (ΔG << 0).
@@ -256,6 +297,27 @@ Toto A=T párování je o ~2,5 kJ/mol slabší než G≡C párování
 
 Syntéza dTTP je úzce propojena s metabolismem folátů:
 
+```mermaid
+flowchart TD
+    node_DHFR["DHFR"]
+    node_DihydrofoltDHFTetrah["Dihydrofolát DHF  Tetrahydrofolát THF"]
+    node_Serinhydroxymethyl["Serin hydroxymethyl-"]
+    node_transferzaSHMT["transferáza SHMT"]
+    node_510MethylenTHF["5,10-Methylen-THF"]
+    node_Thymidyltsyntza["Thymidylát syntáza"]
+    node_dTMP["dTMP"]
+
+    node_DHFR --> node_DihydrofoltDHFTetrah
+    node_DihydrofoltDHFTetrah --> node_Serinhydroxymethyl
+    node_Serinhydroxymethyl --> node_transferzaSHMT
+    node_transferzaSHMT --> node_510MethylenTHF
+    node_510MethylenTHF --> node_Thymidyltsyntza
+    node_Thymidyltsyntza --> node_dTMP
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
                     DHFR
 Dihydrofolát (DHF) ────→ Tetrahydrofolát (THF)
@@ -269,6 +331,8 @@ Dihydrofolát (DHF) ────→ Tetrahydrofolát (THF)
                          ↓
                        dTMP
 ```
+
+</details>
 
 ### Klíčové enzymy folátového cyklu
 
@@ -301,11 +365,24 @@ Dihydrofolát (DHF) ────→ Tetrahydrofolát (THF)
 - Širokospektrý chemoterapeutický účinek
 
 **Mechanismus 5-FU:**
+```mermaid
+flowchart TD
+    node_5FU5FUR5FUMP5FdUMP["5-FU  5-FUR  5-FUMP  5-FdUMP"]
+    node_TS5FdUMPmethylenTHFs["TS—5-FdUMP—methylen-THF stabilní komplex"]
+
+    node_5FU5FUR5FUMP5FdUMP --> node_TS5FdUMPmethylenTHFs
+```
+
+<details>
+<summary>ASCII verze diagramu</summary>
+
 ```
 5-FU → 5-FUR → 5-FUMP → 5-FdUMP
                               ↓
               TS—5-FdUMP—methylen-THF (stabilní komplex)
 ```
+
+</details>
 
 **Raltitrexed (Tomudex)**
 - Přímý inhibitor TS
