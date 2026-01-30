@@ -574,17 +574,29 @@ a:hover {
 
 .prose pre {
     margin: 1.5rem 0;
-    padding: 1rem;
-    background: #1e293b !important;
-    border-radius: 0.5rem;
+    padding: 1.25rem;
+    background: #1e293b;
+    border-radius: 0.75rem;
     overflow-x: auto;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .prose pre code {
     padding: 0;
     background: transparent;
     color: #e2e8f0;
+    font-size: 0.875rem;
+    line-height: 1.7;
 }
+
+/* Code block with syntax highlighting colors */
+.prose pre .keyword { color: #c084fc; }
+.prose pre .string { color: #86efac; }
+.prose pre .number { color: #fbbf24; }
+.prose pre .comment { color: #64748b; font-style: italic; }
+.prose pre .function { color: #60a5fa; }
+.prose pre .operator { color: #f472b6; }
 
 .prose table {
     width: 100%;
