@@ -29,3 +29,21 @@ name = "systemy"
 
 [[taxonomies]]
 name = "souvisejici_latky"
+
+[[taxonomies]]
+name = "tridy"
+
+[[taxonomies]]
+name = "receptory"
+
+[[taxonomies]]
+name = "zdroje"
+
+[[taxonomies]]
+name = "aktivni_latky"
+
+[[taxonomies]]
+name = "keywords"
+
+[[taxonomies]]
+name = "authors"
