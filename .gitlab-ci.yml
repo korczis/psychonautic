@@ -1,11 +1,29 @@
 image: ghcr.io/getzola/zola:v0.19.2
 
 stages:
+  - test
   - build
+  - validate
   - deploy
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+
+# Pre-build tests (syntax validation, source link checks)
+test:mermaid:
+  stage: test
+  image: node:20-alpine
+  before_script:
+    - apk add --no-cache python3 py3-pip chromium
+    - npm install -g @mermaid-js/mermaid-cli
+    - export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+    - export PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+  script:
+    - python3 scripts/test_mermaid_links.py --content-dir content --verbose
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_MERGE_REQUEST_IID
+  allow_failure: false
 
 build:
   stage: build
@@ -19,6 +37,24 @@ build:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - if: $CI_MERGE_REQUEST_IID
 
+# Post-build validation (deployed link checks)
+validate:links:
+  stage: validate
+  image: node:20-alpine
+  before_script:
+    - apk add --no-cache python3 py3-pip chromium
+    - npm install -g @mermaid-js/mermaid-cli
+    - export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+    - export PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+  script:
+    - python3 scripts/test_mermaid_links.py --content-dir content --public-dir public --verbose
+  needs:
+    - build
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_MERGE_REQUEST_IID
+  allow_failure: false
+
 pages:
   stage: deploy
   script:
@@ -30,6 +66,7 @@ pages:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   needs:
     - build
+    - validate:links
   environment:
     name: production
     url: https://korczis.gitlab.io/psychonautic

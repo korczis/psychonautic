@@ -247,6 +247,8 @@ Priklad pro 10 ug mikrodavku:
 
 ## Krizova intervence
 
+> **Komplexni pruvodce bad tripem**: Pro detailni informace o rozpoznani, intervenci, lekarskem pristupu a integraci navstivte sekci **[Bad Trip - Krizove Stavy](@/harm-reduction/bad-trip/_index.md)**.
+
 ### "Bad trip" management
 
 ```
@@ -280,6 +282,8 @@ KRIZOVA SEKVENCE:
    - Ucinky odezniji
    - Zustat s osobou
 ```
+
+**Vice informaci**: [Rozpoznani a Symptomy](@/harm-reduction/bad-trip/rozpoznani-symptomy.md) | [Okamzita Intervence](@/harm-reduction/bad-trip/okamzita-intervence.md) | [Lekarsky Pristup](@/harm-reduction/bad-trip/lekarsky-pristup.md)
 
 ### Kdy volat zahranni sluzbu
 

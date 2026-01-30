@@ -6,10 +6,6 @@ sort_by = "weight"
 insert_anchor_links = "right"
 template = "section.html"
 
-[taxonomies]
-tags = ["bad-trip", "krize", "intervence", "harm-reduction", "bezpecnost", "psychiatrie"]
-categories = ["harm-reduction", "medical"]
-
 [extra]
 lead = "Zivot zachranujici informace pro rozpoznani a zvladnuti psychedelickych krizi"
 +++
