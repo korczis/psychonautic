@@ -462,6 +462,372 @@ Degenerace obou populací MSN
 
 ---
 
+## Striatální interneurony
+
+### Typy interneuronů
+
+```
+STRIATÁLNÍ INTERNEURONY - PŘEHLED
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  ~5% striatálních neuronů = INTERNEURONY                        │
+│  Kritické pro lokální zpracování a časování                     │
+│                                                                 │
+│  ╔═══════════════════════════════════════════════════════════╗ │
+│  ║ 1. CHOLINERGNÍ INTERNEURONY (ChAT+, TANs)                ║ │
+│  ║                                                           ║ │
+│  ║    • 1-2% striatálních neuronů                           ║ │
+│  ║    • Velké (20-50 μm), aspiny                           ║ │
+│  ║    • Tonicky aktivní (TANs - tonically active neurons)   ║ │
+│  ║    • Pauza při reward-related events                     ║ │
+│  ║    • Modulují MSN přes M1, M4 receptory                  ║ │
+│  ║    • Regulují DA release přes nAChR na terminálech      ║ │
+│  ╚═══════════════════════════════════════════════════════════╝ │
+│                                                                 │
+│  ╔═══════════════════════════════════════════════════════════╗ │
+│  ║ 2. PARVALBUMIN+ INTERNEURONY (PV+, FSI)                  ║ │
+│  ║                                                           ║ │
+│  ║    • Fast-spiking interneurons                           ║ │
+│  ║    • Vysokofrekvenční firing (>200 Hz)                   ║ │
+│  ║    • GABAergní - silná feedforward inhibice              ║ │
+│  ║    • Perisomatické synapse na MSN                        ║ │
+│  ║    • Kritické pro akční selekci a timing                 ║ │
+│  ║    • Deficit u Tourettova syndromu                       ║ │
+│  ╚═══════════════════════════════════════════════════════════╝ │
+│                                                                 │
+│  ╔═══════════════════════════════════════════════════════════╗ │
+│  ║ 3. SOMATOSTATIN+ INTERNEURONY (SOM+, LTS)                ║ │
+│  ║                                                           ║ │
+│  ║    • Low-threshold spiking                               ║ │
+│  ║    • Ko-exprese NPY, NOS                                 ║ │
+│  ║    • Dendritická inhibice MSN                            ║ │
+│  ║    • Modulace kortikálního vstupu                        ║ │
+│  ╚═══════════════════════════════════════════════════════════╝ │
+│                                                                 │
+│  ╔═══════════════════════════════════════════════════════════╗ │
+│  ║ 4. CALRETININ+ INTERNEURONY (CR+)                        ║ │
+│  ║                                                           ║ │
+│  ║    • Méně prozkoumaná populace                           ║ │
+│  ║    • Střední velikost                                    ║ │
+│  ║    • GABAergní                                           ║ │
+│  ╚═══════════════════════════════════════════════════════════╝ │
+│                                                                 │
+│  ╔═══════════════════════════════════════════════════════════╗ │
+│  ║ 5. TYROSIN HYDROXYLÁZA+ INTERNEURONY (TH+)               ║ │
+│  ║                                                           ║ │
+│  ║    • Nově objevená populace                              ║ │
+│  ║    • Schopnost syntetizovat DA lokálně                   ║ │
+│  ║    • Kompenzační role při DA depleci                     ║ │
+│  ╚═══════════════════════════════════════════════════════════╝ │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### GABAergní interneurony a jejich role
+
+| Typ | Marker | Firing | GABA-A podjednotky | Funkce |
+|-----|--------|--------|-------------------|--------|
+| FSI | PV+ | >200 Hz | α1, β2, γ2 (nízká citlivost) | Feedforward inhibice, timing |
+| LTS | SOM+ | Burst | α2, α5, β3, γ2 | Dendritická inhibice |
+| CR+ | CR+ | Variabilní | α2, β3, γ2 | Neznámá |
+| Neurogliaform | NPY+ | Pomalý | - | Objemová GABA transmise |
+
+---
+
+## Synaptická plasticita v BG
+
+### Striatální plasticita
+
+```
+SYNAPTICKÁ PLASTICITA V STRIATU
+
+KORTIKO-STRIATÁLNÍ SYNAPSE (Glutamátergní vstup)
+═══════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  SPIKE-TIMING DEPENDENT PLASTICITY (STDP)                       │
+│                                                                 │
+│     Pre-před-Post            Post-před-Pre                      │
+│     (LTP)                    (LTD)                              │
+│                                                                 │
+│     Kortex   MSN             Kortex   MSN                       │
+│       │       │                │       │                        │
+│       ●───────●                ●───────●                        │
+│       ↓       ↓                ↓       ↓                        │
+│       t1      t2               t2      t1                       │
+│                                                                 │
+│     Δt = t2-t1 > 0           Δt = t2-t1 < 0                     │
+│     = POSÍLENÍ               = OSLABENÍ                         │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+MODULACE DOPAMINEM (Three-factor rule)
+══════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  Kortikální aktivita + MSN aktivita + DOPAMIN = PLASTICITA     │
+│                                                                 │
+│  D1-MSN (Přímá dráha):                                         │
+│  ───────────────────────                                        │
+│  Pre-Post + DA phasic burst → LTP (posílení)                   │
+│  = "Tato akce vedla k odměně, opakuj"                          │
+│                                                                 │
+│  D2-MSN (Nepřímá dráha):                                       │
+│  ────────────────────────                                       │
+│  Pre-Post + DA pause → LTP (posílení nepřímé)                  │
+│  = "Tato akce vedla k trestu, vyvaruj se"                      │
+│                                                                 │
+│  ┌───────────────────────────────────────────────────────────┐ │
+│  │                                                           │ │
+│  │  DOPAMIN funguje jako "TEACHING SIGNAL"                   │ │
+│  │                                                           │ │
+│  │  DA burst → Pozitivní RPE → LTP na D1, LTD na D2         │ │
+│  │  DA pause → Negativní RPE → LTD na D1, LTP na D2         │ │
+│  │                                                           │ │
+│  │  RPE = Reward Prediction Error                           │ │
+│  │                                                           │ │
+│  └───────────────────────────────────────────────────────────┘ │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+ROLE ENDOKANNABINOIDŮ
+═════════════════════
+• MSN uvolňují 2-AG a anandamid
+• Retrográdní signalizace → CB1 na presynaptických terminálech
+• LTD zprostředkovaná endokannabinoidy
+• Kritické pro depotenciaci
+```
+
+### Role GABAergní transmise v plasticitě
+
+```
+GABA A SYNAPTICKÁ PLASTICITA V STRIATU
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  GABAergní INTERNEURONY MODULUJÍ PLASTICITY WINDOWS            │
+│                                                                 │
+│  ┌───────────────────────────────────────────────────────────┐ │
+│  │                                                           │ │
+│  │  PV+ FSI (Fast-spiking interneurony):                    │ │
+│  │  ─────────────────────────────────────                    │ │
+│  │  • Silná perisomatická inhibice                          │ │
+│  │  • Kontrolují TIMING MSN spikingu                        │ │
+│  │  • Určují, které MSN "vyhrají" kompetici                 │ │
+│  │  • Umožňují přesnou STDP                                 │ │
+│  │                                                           │ │
+│  │  ┌──────────────────────────────────────────────────┐    │ │
+│  │  │   Kortex ────────────────► MSN                   │    │ │
+│  │  │                    │                              │    │ │
+│  │  │                    ▼                              │    │ │
+│  │  │             ┌───────────┐                         │    │ │
+│  │  │             │  PV+ FSI  │                         │    │ │
+│  │  │             │           │                         │    │ │
+│  │  │             │  GABA-A   │                         │    │ │
+│  │  │             └─────┬─────┘                         │    │ │
+│  │  │                   │                               │    │ │
+│  │  │                   ▼ (inhibice)                    │    │ │
+│  │  │   Kortex ────────────────► MSN                   │    │ │
+│  │  │            (pouze vítěz přežije)                 │    │ │
+│  │  └──────────────────────────────────────────────────┘    │ │
+│  │                                                           │ │
+│  └───────────────────────────────────────────────────────────┘ │
+│                                                                 │
+│  FARMAKOLOGICKÉ IMPLIKACE:                                     │
+│  ═════════════════════════                                     │
+│  • Benzodiazepiny → ↑ GABAergní inhibice → ↓ Plasticita       │
+│  • Muscimol → Silná inhibice → Blokáda motorického učení      │
+│  • Gabapentin → Modulace → Efekty na procedurální paměť       │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Funkční okruhy BG
+
+### Motorický, asociační a limbický okruh
+
+```
+PARALELNÍ OKRUHY BAZÁLNÍCH GANGLIÍ
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  1. MOTORICKÝ OKRUH (Senzomotorický)                           │
+│  ═══════════════════════════════════                           │
+│                                                                 │
+│  Motorický kortex (M1, SMA, PMC)                               │
+│            │                                                    │
+│            ▼                                                    │
+│       PUTAMEN (dorsolaterální)                                 │
+│            │                                                    │
+│            ▼                                                    │
+│       GPi/SNr (ventrolaterální)                                │
+│            │                                                    │
+│            ▼                                                    │
+│       VA/VL thalamus                                           │
+│            │                                                    │
+│            ▼                                                    │
+│       SMA → M1 → POHYB                                         │
+│                                                                 │
+│  Funkce: Iniciace, exekuce, sekvenční pohyby                   │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  2. ASOCIAČNÍ/KOGNITIVNÍ OKRUH                                 │
+│  ════════════════════════════                                  │
+│                                                                 │
+│  Dorsolaterální PFC                                            │
+│            │                                                    │
+│            ▼                                                    │
+│       KAUDÁTUM (hlava, tělo)                                   │
+│            │                                                    │
+│            ▼                                                    │
+│       GPi/SNr (dorsomedial)                                    │
+│            │                                                    │
+│            ▼                                                    │
+│       VA/MD thalamus                                           │
+│            │                                                    │
+│            ▼                                                    │
+│       dlPFC → Exekutivní funkce                                │
+│                                                                 │
+│  Funkce: Pracovní paměť, plánování, kognitivní flexibilita     │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  3. LIMBICKÝ OKRUH (Motivační/Emoční)                          │
+│  ════════════════════════════════════                          │
+│                                                                 │
+│  OFC, ACC, Amygdala, Hippocampus                               │
+│            │                                                    │
+│            ▼                                                    │
+│       NAc (ventrální striatum)                                 │
+│       Shell: Limbický                                          │
+│       Core: Motor interface                                    │
+│            │                                                    │
+│            ▼                                                    │
+│       Ventrální pallidum                                       │
+│            │                                                    │
+│            ▼                                                    │
+│       MD thalamus                                              │
+│            │                                                    │
+│            ▼                                                    │
+│       OFC/ACC → Motivace, reward                               │
+│                                                                 │
+│  Funkce: Odměna, motivace, emoční chování, závislost           │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Hyperdirektní dráha
+
+```
+HYPERDIREKTNÍ DRÁHA
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  TŘETÍ DRÁHA - "EMERGENCY BRAKE"                               │
+│                                                                 │
+│                    KORTEX                                       │
+│                       │                                         │
+│                       │ (přímá projekce, nejrychlejší)          │
+│                       │                                         │
+│                       ▼                                         │
+│               ┌───────────────┐                                │
+│               │      STN      │                                │
+│               │  (Glutamát)   │                                │
+│               └───────┬───────┘                                │
+│                       │                                         │
+│                       │ Excitace                                │
+│                       ▼                                         │
+│               ┌───────────────┐                                │
+│               │   GPi / SNr   │                                │
+│               │  (↑ aktivita) │                                │
+│               └───────┬───────┘                                │
+│                       │                                         │
+│                       │ ↑ Inhibice                              │
+│                       ▼                                         │
+│               ┌───────────────┐                                │
+│               │   THALAMUS    │                                │
+│               │  (↓ aktivita) │                                │
+│               └───────────────┘                                │
+│                       │                                         │
+│                       ▼                                         │
+│               SUPRESE POHYBU                                   │
+│                                                                 │
+│  ═══════════════════════════════════════════════════════════   │
+│  FUNKCE:                                                        │
+│  • Rychlá inhibice nevhodných akcí                             │
+│  • Stop-signal reakce                                          │
+│  • Impulzivita (deficit = ADHD)                                │
+│  • Cíl DBS u Parkinsona                                        │
+│  ═══════════════════════════════════════════════════════════   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Klinické aplikace
+
+### Hluboká mozková stimulace (DBS)
+
+```
+DBS - HLUBOKÁ MOZKOVÁ STIMULACE
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  CÍLE DBS V BAZÁLNÍCH GANGLIÍCH                                │
+│  ════════════════════════════                                  │
+│                                                                 │
+│  1. SUBTHALAMICKÉ JÁDRO (STN-DBS)                              │
+│     ──────────────────────────────                              │
+│     Indikace: Parkinsonova choroba                             │
+│     Mechanismus:                                                │
+│     • Vysokofrekvenční stimulace (130 Hz)                      │
+│     • "Funkční léze" - blokáda patologické aktivity            │
+│     • ↓ Hyperaktivity nepřímé dráhy                            │
+│     • ↓ Beta oscilací (patologické)                            │
+│                                                                 │
+│  2. GPi (GPi-DBS)                                              │
+│     ───────────                                                 │
+│     Indikace: Parkinson, dystonie                              │
+│     Mechanismus:                                                │
+│     • Blokáda excesivního výstupu                              │
+│     • ↓ Inhibice thalamu                                       │
+│                                                                 │
+│  3. NUCLEUS ACCUMBENS (NAc-DBS)                                │
+│     ─────────────────────────────                               │
+│     Indikace: OCD, deprese, závislost (experimentálně)         │
+│     Mechanismus:                                                │
+│     • Modulace limbického okruhu                               │
+│     • ↓ Perseverace, kompulzivita                              │
+│                                                                 │
+│  ═══════════════════════════════════════════════════════════   │
+│  GABAergní MECHANISMY DBS:                                      │
+│  • DBS aktivuje lokální GABAergní axony                        │
+│  • ↑ GABA release v cílovém jádře                              │
+│  • Normalizace patologických oscilací                          │
+│  ═══════════════════════════════════════════════════════════   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Farmakoterapie poruch BG
+
+| Porucha | Patofyziologie | Léčba | Mechanismus |
+|---------|----------------|-------|-------------|
+| **Parkinson** | ↓ DA, ↑ nepřímá dráha | L-DOPA, DA agonisté | ↑ DA → normalizace drah |
+| **Huntington** | ↓ D2-MSN | Tetrabenazin | ↓ DA → ↓ hyperkineze |
+| **Dystonie** | Abnormální plasticita | Botulotoxin, DBS | Lokální blokáda |
+| **Tourette** | ↓ PV+ interneurony | Antipsychotika | D2 blokáda |
+| **OCD** | Hyperaktivní limbický okruh | SSRI, DBS | Modulace 5-HT, NAc |
+
+---
+
 ## Reference
 
 ### Základní literatura
